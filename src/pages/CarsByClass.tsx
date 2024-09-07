@@ -1,13 +1,15 @@
+import Navigation from "../components/HeaderNav/Navigation";
+import '../CSS/Header.css';
+import '../CSS/Page.css';
+
 export default function CarsByClass() {
 
     return (
 
         <>
         
-        <div id="home">
-            <h1></h1>
-        </div>
-        
+        <h1 className="Header">Cars</h1>
+        <Navigation />
         </>
        
     )

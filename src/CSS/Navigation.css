@@ -1,0 +1,19 @@
+.nav-css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    margin: 8px auto 50px auto;
+    gap: 30px;
+}
+
+.btn {
+    color: rgb(223, 190, 7);
+    padding: 15px 20px;
+    flex-wrap: nowrap;
+    border: 3px solid rgb(11, 7, 134);
+    box-shadow: 0 0 7px 4px rgb(223, 190, 7);
+    width: 177px;
+    text-shadow: 9px 3px 6px #000000;
+    background-image: linear-gradient(to bottom, #510d71,#9641e0 159%);
+}

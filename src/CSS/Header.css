@@ -1,0 +1,11 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 196, 0);
+    /* font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal; */
+    margin-bottom: 20px;
+    padding-top: 22px;
+}
