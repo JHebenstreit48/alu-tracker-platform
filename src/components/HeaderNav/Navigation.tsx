@@ -1,4 +1,5 @@
 import { useLocation, useNavigate } from "react-router-dom";
+import '../../CSS/Navigation.css';
 
 interface INavigationButtons {
     label: string;
@@ -31,7 +32,7 @@ export default function Navigation() {
 
         <>
         
-        <ul className="nav-css" style={{padding: "1rem", display: 'flex', gap: '1rem'}}>
+        <ul className="nav-css">
           {
             NavLinks.map((navLinks) => (
               <NavigationButtons 

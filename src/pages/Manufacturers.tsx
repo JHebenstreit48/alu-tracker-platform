@@ -1,13 +1,15 @@
+import Navigation from "../components/HeaderNav/Navigation";
+import '../CSS/Page.css'
+import '../CSS/Header.css'
+
 export default function Manufacturers() {
 
     return (
 
         <>
         
-        <div id="home">
-            <h1>Welcome to the Home Page</h1>
-        </div>
-        
+        <h1 className="Header">Manufacturers</h1>
+        <Navigation />
         </>
        
     )
