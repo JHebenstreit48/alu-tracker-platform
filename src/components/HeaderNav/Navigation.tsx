@@ -1,0 +1,50 @@
+import { useLocation, useNavigate } from "react-router-dom";
+
+interface INavigationButtons {
+    label: string;
+}
+
+const NavigationButtons = ( props: INavigationButtons & { isActive: boolean, onClick:() => void }  ) => {
+    return (
+        
+        <button onClick={props.onClick} type="button" className="btn btn-primary btn-lg">{props.label}</button>
+            
+    );
+};
+
+export default function Navigation() {
+    const currentPage = useLocation().pathname;
+
+    const navigation = useNavigate();
+
+    
+
+    const NavLinks = [
+
+        {label: 'Home', path:() => navigation('/'), location: '/'},
+        {label: 'Manufacturers', path:() => navigation('/manufacturers'), location: '/manufacturers'},
+        {label: 'Cars By Class', path:() => navigation('/carsbyclass'), location: '/carsbyclass'},
+        {label: 'Garage Levels', path:() => navigation('/garagelevels'), location: '/garagelevels'},
+    ];
+
+    return (
+
+        <>
+        
+        <ul className="nav-css" style={{padding: "1rem", display: 'flex', gap: '1rem'}}>
+          {
+            NavLinks.map((navLinks) => (
+              <NavigationButtons 
+              key={navLinks.label}
+              onClick={navLinks.path}
+              label={navLinks.label}
+              isActive={currentPage === navLinks.location} />
+            ))
+          }
+        </ul>
+
+        
+        </>
+
+    )
+}
