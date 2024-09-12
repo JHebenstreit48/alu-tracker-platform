@@ -1,16 +1,17 @@
-import Navigation from "../components/HeaderNav/Navigation";
 import '../CSS/Page.css'
 import '../CSS/Header.css'
+import Header from '../components/Header'
 
 export default function Home() {
 
     return (
 
         <>
-        
-        <h1 className="Header">Asphalt Legends Unite</h1>
-        <Navigation />
+
+            <div>
+                <Header text="Asphalt Legends Unite" />
+            </div>
         </>
-       
+
     )
 }

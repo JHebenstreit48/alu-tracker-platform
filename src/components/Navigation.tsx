@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from "react-router-dom";
-import '../../CSS/Navigation.css';
+import '../CSS/Navigation.css';
 
 interface INavigationButtons {
     label: string;
@@ -31,7 +31,6 @@ export default function Navigation() {
     return (
 
         <>
-        
         <ul className="nav-css">
           {
             NavLinks.map((navLinks) => (
