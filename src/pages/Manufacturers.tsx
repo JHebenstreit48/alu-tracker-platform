@@ -1,6 +1,6 @@
-import Navigation from "../components/Navigation";
 import '../CSS/Page.css'
 import '../CSS/Header.css'
+import Header from "../components/Header";
 
 export default function Manufacturers() {
 
@@ -8,8 +8,9 @@ export default function Manufacturers() {
 
         <>
 
-            <h1 className="Header">Manufacturers</h1>
-            <Navigation />
+            <div>
+                <Header text="Manufacturers" />
+            </div>
         </>
 
     )

@@ -8,7 +8,7 @@ interface Header {
 export default function Header({ text }: Header) {
   return (
     
-    <div className="Header">
+    <div className="Header mb-4">
       <h1>{text}</h1>
       <Navigation />
     </div>

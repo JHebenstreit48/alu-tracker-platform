@@ -1,6 +1,6 @@
-import Navigation from "../components/Navigation";
 import '../CSS/Page.css'
 import '../CSS/Header.css'
+import Header from "../components/Header";
 
 export default function GarageLevels() {
 
@@ -8,8 +8,10 @@ export default function GarageLevels() {
 
         <>
 
-            <h1 className="Header">Garage Levels</h1>
-            <Navigation />
+            <div>
+                <Header text="Garage Levels" />
+            </div>
+
         </>
 
     )

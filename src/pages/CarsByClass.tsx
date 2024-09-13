@@ -1,4 +1,4 @@
-import Navigation from "../components/Navigation";
+import Header from "../components/Header";
 import '../CSS/Header.css';
 import '../CSS/Page.css';
 
@@ -8,8 +8,10 @@ export default function CarsByClass() {
 
         <>
 
-            <h1 className="Header">Cars</h1>
-            <Navigation />
+            <div>
+                <Header text="Cars by Class" />
+            </div>
+
         </>
 
     )
