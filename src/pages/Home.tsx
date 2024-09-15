@@ -4,7 +4,7 @@ import '../CSS/Carousel.css';
 import '../CSS/GameAbout.css';
 import Header from "../components/Header";
 import ImageCarousel from "../HomePage/ImageCarousel";
-import Carousel from "../components/ImagesForCarousel";
+import Carousel from "../HomePage/ImagesForCarousel";
 import GameInfo from "../HomePage/GameInfo";
 
 export default function Home() {
