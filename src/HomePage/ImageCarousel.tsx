@@ -1,4 +1,4 @@
-import { ImageCarouselType } from "../components/ImagesForCarousel";
+import { ImageCarouselType } from "./ImagesForCarousel";
 
 type ImageCarouselPropsType = {
   project: ImageCarouselType[];
