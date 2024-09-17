@@ -2,6 +2,7 @@ import '../CSS/Page.css'
 import '../CSS/Header.css'
 import Header from "../components/Header";
 import JumpList from "../Manufacturers/AlphabetJumpList";
+import PageTab from '../components/PageTab';
 
 export default function Manufacturers() {
 
@@ -10,8 +11,13 @@ export default function Manufacturers() {
         <>
 
             <div>
-                <Header text="Manufacturers" />
-                <JumpList />
+                
+                <PageTab title="Manufacturers">
+                    <Header text="Manufacturers" />
+                    <JumpList />
+                </PageTab>
+
+
             </div>
         </>
 
