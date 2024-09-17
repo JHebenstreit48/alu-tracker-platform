@@ -3,10 +3,19 @@
     color:  white;
     background-color: black;
     border: 4px solid rgb(11, 7, 134);
-    padding: 12px;
     justify-content: center;
     align-items: center;
-    max-width: 60%;
+    max-width: 48%;
+    padding-top: 40px;
+    padding-bottom: 40px;
     margin: 90px auto 69px auto;
     box-shadow: 0 0 9px 5px rgb(223, 190, 7);
 }
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+

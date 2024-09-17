@@ -1,0 +1,11 @@
+#brand-alphabetical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#brand-alphabetical a {
+    margin: 10px;
+    color: rgb(21, 201, 232);
+    font-size: 32px;
+}

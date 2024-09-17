@@ -1,0 +1,42 @@
+table {
+	border: 4px solid rgb(11, 7, 134);
+	margin: 60px auto 80px auto;
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 34%;
+	box-shadow: 0 0 20px 14px rgb(223, 190, 7);
+}
+
+.table-header {
+	color: rgb(21, 201, 232);
+	background-color: black;
+	text-align: center;
+	padding: 15px 80px 20px 80px;
+	font-size: 185%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.car-class {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.table-header div {
+	display: flex;
+	justify-content: space-between;
+}
+
+td {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	border: 1px solid rgb(204, 19, 255);
+	padding: 12px;
+}
+
+.car-name a {
+	
+	color: rgb(24, 189, 249);
+	text-decoration: none;
+	max-width: calc(100%-45);
+}
