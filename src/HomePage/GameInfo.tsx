@@ -3,13 +3,14 @@ import '../CSS/GameAbout.css';
 export default function GameInfo() {
 return (
 
-<div>
+<div className="asphalt-info">
 
-<p className="asphalt-info">
+<p className='info'>
   Asphalt 9 Legends was first released on July 25th, 2018 and is now called Asphalt Legends Unite as
   of July 17th, 2024. It features a wide variety of cars from manufacturers all over the world. The
   automotive brands featured in this game range from the more common everyday brands like Chevrolet,
   Ford, Nissan, Honda to Luxury and exotic brands such as Lamborghini, Pagani, Ferrari, and much more.
+  When the game was still known as Asphalt 9 Legends, it only had a maximum of 18 garage levels. Since the update and name change to Asphalt Legends Unite, the garage levels have been increased to 60 total garage levels.
 
   <br/>
   <br/>
@@ -20,7 +21,6 @@ return (
 
 </div>
 
-
 )
 
-}
+};

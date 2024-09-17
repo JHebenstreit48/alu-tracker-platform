@@ -1,6 +1,7 @@
 import '../CSS/Page.css'
 import '../CSS/Header.css'
 import Header from "../components/Header";
+import JumpList from "../Manufacturers/AlphabetJumpList";
 
 export default function Manufacturers() {
 
@@ -10,6 +11,7 @@ export default function Manufacturers() {
 
             <div>
                 <Header text="Manufacturers" />
+                <JumpList />
             </div>
         </>
 
