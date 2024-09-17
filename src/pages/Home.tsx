@@ -6,14 +6,20 @@ import Header from "../components/Header";
 import ImageCarousel from "../HomePage/ImageCarousel";
 import Carousel from "../HomePage/ImagesForCarousel";
 import GameInfo from "../HomePage/GameInfo";
+import PageTab from "../components/PageTab";
 
 export default function Home() {
+
   return (
     <>
       <div>
-        <Header text="Asphalt Legends Unite" />
-        <GameInfo />
-        <ImageCarousel project={Carousel} />
+        
+        <PageTab title="Home">
+          <Header text="Asphalt Legends Unite" />
+          <GameInfo />
+          <ImageCarousel project={Carousel} />
+        </PageTab>
+
       </div>
     </>
   );
