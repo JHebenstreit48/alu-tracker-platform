@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import Container from './Container';
 
 function PageTab(props: { title: string, children: React.ReactNode }) {
 
@@ -15,9 +14,9 @@ function PageTab(props: { title: string, children: React.ReactNode }) {
 
         <>
 
-        <Container>
+        <div>
             {props.children}
-        </Container>
+        </div>
         
         </>
 
