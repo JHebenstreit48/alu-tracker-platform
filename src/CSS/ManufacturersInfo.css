@@ -1,0 +1,16 @@
+.manufacturer-info {
+    display: flex;
+
+    color: rgb(21, 201, 232);
+    background-color: black;
+    border: 4px solid rgb(11, 7, 134);
+    padding-top: 18px;
+    padding-right: 24px;
+    padding-left: 25px;
+    padding-bottom: 19px;
+    max-width: 40%;
+    box-shadow: 0 0 9px 5px rgb(223, 190, 7);
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}

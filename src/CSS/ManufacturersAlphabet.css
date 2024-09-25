@@ -1,0 +1,7 @@
+.alphabetList {
+    display: flex;
+    font-size: 75px;
+    color: rgb(21, 201, 232);
+    padding-left: 80px;
+    margin-bottom: 10px;
+}
