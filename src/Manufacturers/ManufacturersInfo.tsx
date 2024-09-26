@@ -1,21 +1,16 @@
 import '../CSS/ManufacturersInfo.css';
 
 interface ManufacturerInfoProps {
-    children: React.ReactNode;
+    info: string
 }
 
-const ManufacturersInfo: React.FC<ManufacturerInfoProps> = ({children}) => {
-
+const ManufacturersInfo: React.FC<ManufacturerInfoProps> = (props) => {
     return (
-
         <div>
-
-        <p className="manufacturer-info">
-            {children}
-        </p>
-
+            <p className="manufacturer-info">
+                {props.info}
+            </p>
         </div>
-
     )
 }
 export default ManufacturersInfo;

@@ -1,2 +1,3 @@
 import ManufacturersName from "./ManufacturerName";
-import ManufacturersInfoData from "./ManufacturersInfoData";
+import ManufacturersInfoData from "./DataLayout";
+import ManufacturersAlphabet from "./ManufacturersAlphabet";

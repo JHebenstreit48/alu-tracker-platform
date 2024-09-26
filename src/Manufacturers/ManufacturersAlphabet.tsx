@@ -1,40 +1,50 @@
-
 import '../CSS/ManufacturersAlphabet.css'
+import ManufacturersInfoData from './DataLayout'
+import { ManufacturerInfoType } from './DataLayout'
+import { infoData } from './Data'
+  
+  type AlphabeticObjectType = {
+    letter: string
+    infoData: ManufacturerInfoType[]
+  }
 
-const manufacturerAbc = [
-    { className: "alphabetList", content: "A" },
-    { className: "alphabetList", content: "B" },
-    { className: "alphabetList", content: "C" },
-    { className: "alphabetList", content: "D" },
-    { className: "alphabetList", content: "E" },
-    { className: "alphabetList", content: "F" },
-    { className: "alphabetList", content: "G" },
-    { className: "alphabetList", content: "H" },
-    { className: "alphabetList", content: "I" },
-    { className: "alphabetList", content: "J" },
-    { className: "alphabetList", content: "K" },
-    { className: "alphabetList", content: "L" },
-    { className: "alphabetList", content: "M" },
-    { className: "alphabetList", content: "N" },
-    { className: "alphabetList", content: "P" },
-    { className: "alphabetList", content: "R" },
-    { className: "alphabetList", content: "S" },
-    { className: "alphabetList", content: "T" },
-    { className: "alphabetList", content: "U" },
-    { className: "alphabetList", content: "V" },
-    { className: "alphabetList", content: "W" },
-    { className: "alphabetList", content: "Z" },
-    // Add more letters as needed
+const manufacturerAbc: AlphabeticObjectType[] = [
+    {  letter: "A", infoData: [] },
+    {  letter: "B", infoData: [] },
+    {  letter: "C", infoData: [] },
+    {  letter: "D", infoData: [] },
+    {  letter: "E", infoData: [] },
+    {  letter: "F", infoData: [] },
+    {  letter: "G", infoData: [] },
+    {  letter: "H", infoData: [] },
+    {  letter: "I", infoData: [] },
+    {  letter: "J", infoData: [] },
+    {  letter: "K", infoData: [] },
+    {  letter: "L", infoData: [] },
+    {  letter: "M", infoData: [] },
+    {  letter: "N", infoData: [] },
+    {  letter: "P", infoData: [] },
+    {  letter: "R", infoData: [] },
+    {  letter: "S", infoData: [] },
+    {  letter: "T", infoData: [] },
+    {  letter: "U", infoData: [] },
+    {  letter: "V", infoData: [] },
+    {  letter: "W", infoData: [] },
+    {  letter: "Z", infoData: [] },
 ];
+
+// for ()
 
 export default function ManufacturersAlphabet() {
     return (
         <div>
-            {manufacturerAbc.map((item, index) => (
-                <h2 key={index} className={item.className} id={item.content.toLowerCase()}>
-                    {item.content}
+            {manufacturerAbc.map((item: AlphabeticObjectType, index) => <>
+                <h2 key={index} className="alphabetList" id={item.letter.toLowerCase()}>
+                    {item.letter}
                 </h2>
-            ))}
+                <ManufacturersInfoData infoData={item.infoData} />
+            </>
+            )}
         </div>
     );
 }
