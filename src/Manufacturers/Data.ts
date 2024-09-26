@@ -1,7 +1,4 @@
-import ManufacturerInfo from './ManufacturersInfo';
-
-
-const infoData = [
+ export const infoData = [
     {
         name: "Ajlani Motors",
         info: "Ajlani Motors is a UAE based company founded by Bashar Ajlani a car designer and art director. His first car the Ajlani Drakuma concept was unveiled at the Dubai International Motor Show in November of 2019. Bashar Ajlani has also won multiple 1st place awards for various works. This includes a Platinum position with A' Design Award and Competition. He even won a 1st place Masters Scholarship by Pininfarina in automotive design."
@@ -9,21 +6,6 @@ const infoData = [
     {
         name: "Alfa Romeo",
         info: "Alfa Romeo's origins date back to June 24th of 1910. It was the result of a take over of the Italian automobile manufacturer Darracq automobile company. The Alfa portion of the name is an acronym for Anonima Lombarda Fabbrica Automobili (A.L.F.A)."
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
     },
     {
         name: "Aston Martin",
@@ -42,31 +24,3 @@ const infoData = [
         info: "Automobiles Ettore Bugatti was a French car manufacturer of high-performance automobiles, founded in 1909 in the then-German city of Molsheim, Alsace by the Italian-born industrial designer Ettore Bugatti. The cars were known for their design beauty and for their."
     },
 ]
-
-const ManufacturersInfoData: React.FC = () => {
-    return (
-        <div>
-
-        {
-            infoData.map((data, index) => {
-                return (
-                    <ManufacturerInfo key={index}>
-                        {data.info}
-                    </ManufacturerInfo>
-                )
-            })
-        }
-            {/* <ManufacturerInfo>
-                Ajlani Motors is a UAE based company founded by Bashar Ajlani a car
-                designer and art director. His first car the Ajlani Drakuma concept was unveiled at the
-                Dubai International Motor Show in November of 2019. Bashar Ajlani has also won multiple 1st
-                place awards for various works. This includes a Platinum position with A' Design Award and
-                Competition. He even won a 1st place Masters Scholarship by Pininfarina in automotive
-                design.
-            </ManufacturerInfo> */}
-            {/* Add more ManufacturerInfo components here for other manufacturers */}
-        </div>
-    );
-};
-
-export default ManufacturersInfoData;

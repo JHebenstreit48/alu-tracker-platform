@@ -16,10 +16,10 @@ const manufacturers = [
         name: "Ajlani"
     },
     {
-        src: "../assets/images/car-logos/ajlani-logo.png",
-        id: "ajlani",
-        alt: "Ajlani logo",
-        name: "Ajlani"
+        src: "../assets/images/car-logos/alfa-romeo-logo.png",
+        id: "alfa-romeo",
+        alt: "Alfa Romeo logo",
+        name: "Alfa Romeo"
     }
 ];
 
