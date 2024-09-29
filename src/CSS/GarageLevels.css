@@ -1,0 +1,48 @@
+.GlJumpList {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.mainHeading {
+    color: rgb(21, 201, 232);
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.subHeading {
+    justify-content: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 35px;
+    color: rgb(223, 190, 7)
+}
+
+.xp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1536px;
+    margin: 0 auto;
+}
+
+.xpTitle {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    color: rgb(223, 190, 7);
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    flex-wrap: nowrap;
+    border-top: 2px solid rgb(21, 201, 232);
+    border-bottom: 2px solid rgb(21, 201, 232);
+    margin-bottom: 50px;
+    box-shadow: 0 0 7px 8px rgb(223, 190, 7);
+}
