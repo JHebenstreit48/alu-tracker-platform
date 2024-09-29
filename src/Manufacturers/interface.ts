@@ -1,9 +1,8 @@
- export interface BrandInfo {
-    letterKey: string;
-    brands: {
-      brandsKey: string;
-      logo?: string;
-      info: string;
-    }[];
-  }
-  
+export interface BrandInfo {
+  letterKey: string;
+  brands: {
+    brandsKey: string;
+    logo?: string;
+    info: string;
+  }[];
+}
