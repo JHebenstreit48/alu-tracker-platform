@@ -21,9 +21,13 @@ export function GLContent({ number, xp, img, img2, img3, img4, name, name2, name
         <div>
 
         <img src={img} />
+        <p>{ name }</p>
         <img src={img2} />
+        <p> { name2 }</p>
         <img src={img3} />
+        <p> { name3 }</p>
         <img src={img4}/>
+        <p> { name4 }</p>
 
         </div>
                 
