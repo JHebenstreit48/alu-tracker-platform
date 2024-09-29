@@ -1,33 +1,37 @@
-import '../CSS/JumpList.css';
+import '../CSS/ManufacturerABC.css';
+import { abc } from './Brands';
+import  { BrandDescription } from './ManufacturersInfo';
 
-const abc = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'P', 'R', 'S', 'T', 'U', 'V', 'W', 'Z'];
-
-export default function JumpList() {
-
+export default function abcList() {
     return (
+      <div>
+        {/* X axis with all letters */}
+        <div className='jumpList'>
+          {abc.map((letter) => (
+            <a className='brandAlphabetical' href={`#${letter.letterKey}`}>
+              {letter.letterKey}
+            </a>
+          ))}
+        </div>
+  
+        {/* Y axis or vertical axis with all brands and descriptions */}
+        <div>
+          {abc.map((abc) => (
+            <div key={abc.letterKey} id={abc.letterKey}>
 
-        <>
+              <h2 className='alphabetList'>
+                {abc.letterKey}
+              </h2>
 
-            <section>
+              {/* ABC BRANDS */}
+              {abc.brands.map((brand) => (
+                <BrandDescription key={brand.brandsKey} {...brand} />
+              ))}
 
-                <div className="brand-alphabetical">
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
 
-                    <nav id="brand-alphabetical">
-                        {
-                            abc.map((letter) => (
-                                <a key={letter} href={`#${letter.toLowerCase()}`}>{letter}</a>
-                            ))
-                        }
-
-
-                    </nav>
-
-                </div>
-
-            </section>
-
-        </>
-
-    )
-    
-};

@@ -1,0 +1,22 @@
+.jumpList {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+
+.brandAlphabetical {
+    display: flex;
+    font-size: 40px;
+    margin: 10px;
+    color: rgb(21, 201, 232);
+}
+
+.alphabetList {
+    display: flex;
+    font-size: 75px;
+    color: rgb(21, 201, 232);
+    padding-left: 80px;
+    margin-bottom: 10px;
+}
