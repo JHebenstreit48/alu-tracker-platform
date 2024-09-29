@@ -1,4 +1,37 @@
-.manufacturer-info {
+.manufacturerName {
+    display: flex;
+    font-size: 78px;
+    padding-left: 22px;
+    margin-bottom: 30px;
+    color: rgb(255, 196, 0);
+    justify-content: center;
+    align-items: center;
+    text-shadow: 4px 4px 4px #000000;
+}
+#Acura {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    width: 148px;
+    height: 130px;
+}
+
+#Ajlani {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    width: 140px;
+    height: 152px;
+}
+
+#Alfa {
+    width: 140px;
+    height: 150px;
+}
+
+.manufacturerInfo {
     display: flex;
 
     color: rgb(21, 201, 232);
@@ -14,3 +47,8 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+
+

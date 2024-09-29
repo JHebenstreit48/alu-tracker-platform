@@ -1,16 +1,15 @@
 import '../CSS/ManufacturersInfo.css';
 
-interface ManufacturerInfoProps {
-    info: string
-}
-
-const ManufacturersInfo: React.FC<ManufacturerInfoProps> = (props) => {
+export function BrandDescription({ brandsKey, logo, info, }: { brandsKey: string, logo?: string, info: string, }) {
     return (
-        <div>
-            <p className="manufacturer-info">
-                {props.info}
-            </p>
-        </div>
+
+        <section key={brandsKey}>
+            <div>
+
+                <h3 className='manufacturerName'> {logo !== undefined && <img id={brandsKey} src={logo} alt={brandsKey} />}  {brandsKey} </h3>
+
+            </div>
+            <p className='manufacturerInfo'>{info}</p>
+        </section>
     )
 }
-export default ManufacturersInfo;
