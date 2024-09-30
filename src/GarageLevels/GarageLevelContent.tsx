@@ -1,3 +1,5 @@
+import '../CSS/GarageLevels.css'
+
 export function GLContent({ number, xp, img, img2, img3, img4, name, name2, name3, name4, }: { number: number, xp: string, img: string, img2?: string, img3?: string, img4?: string, name: string, name2?: string, name3?: string, name4?: string, }) {
     return (
 
@@ -14,25 +16,33 @@ export function GLContent({ number, xp, img, img2, img3, img4, name, name2, name
 
             <div className="xp">
 
-            <h3 className='xpTitle'>XP Required {xp}</h3>
+                <h3 className='xpTitle'>XP Required <span className='xpRequirement'>{xp}</span></h3>
 
             </div>
 
-        <div>
+            <div className='CarImagesContainer'>
 
-        <img src={img} />
-        <p>{ name }</p>
-        <img src={img2} />
-        <p> { name2 }</p>
-        <img src={img3} />
-        <p> { name3 }</p>
-        <img src={img4}/>
-        <p> { name4 }</p>
+                <div>
+                    <img className='CarImages' src={img} />
+                    <p className='CarImagesCaption'>{name}</p>
+                </div>
 
-        </div>
-                
-            <p className='manufacturerInfo'>{}</p>
+                <div>
+                    <img className='CarImages' src={img2} />
+                    <p className='CarImagesCaption'> {name2}</p>
+                </div>
 
-       </section>
+                <div>
+                    <img className='CarImages' src={img3} />
+                    <p className='CarImagesCaption'> {name3}</p>
+                </div>
+
+                    <div>
+                        <img className='CarImages' src={img4} />
+                        <p className='CarImagesCaption'> {name4}</p>
+                    </div>
+            </div>
+
+        </section>
     )
 }
