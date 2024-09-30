@@ -1,4 +1,6 @@
 import ApexAP0 from '../car-photos/apex-ap-0.jpg';
+import BMWZ4 from '../car-photos/bmw-z4.jpg';
+import ChevroletCamaroLT from '../car-photos/camaro-lt.jpg';
 import LamborghiniSian from '../car-photos/lamborghini-sian-fkp-37.jpg';
 import AstonMartinValhalla from '../car-photos/aston-martin-valhalla-concept-car.jpg';
 import PaganiHuayraBC from '../car-photos/pagani-huayra-bc.jpg';
@@ -12,8 +14,11 @@ import KoenigseggRegera from '../car-photos/koenigsegg-regera.jpg';
 import RimacConceptOne from '../car-photos/rimac-concept-one.jpg';
 import FerrariLaFerrari from '../car-photos/ferrari-laferrari.jpg';
 
+
 export const Images = {
     ApexAP0,
+    BMWZ4,
+    ChevroletCamaroLT,
     LamborghiniSian,
     AstonMartinValhalla,
     PaganiHuayraBC,
@@ -25,5 +30,6 @@ export const Images = {
     McLarenP1,
     KoenigseggRegera,
     RimacConceptOne,
-    FerrariLaFerrari
+    FerrariLaFerrari,
+    
 };
