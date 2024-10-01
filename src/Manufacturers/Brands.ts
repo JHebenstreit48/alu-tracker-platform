@@ -12,12 +12,12 @@ export const abc: BrandInfo[] = [
       },
       {
         brandsKey: "Ajlani Motors",
-        // logo: Logos.Ajlani,
+        logo: Logos.Ajlani,
         info: "Ajlani Motors is a UAE based company founded by Bashar Ajlani a car designer and art director. His first car the Ajlani Drakuma concept was unveiled at the Dubai International Motor Show in November of 2019. Bashar Ajlani has also won multiple 1st place awards for various works. This includes a Platinum position with A Design Award and Competition. He even won a 1st place Masters Scholarship by Pininfarina in automotive design.",
       },
       {
         brandsKey: "Alfa Romeo",
-        // logo: Logos.AlfaRomeo,
+        logo: Logos.AlfaRomeo,
         info: "Alfa Romeo's origins date back to June 24th of 1910. It was the result of a take over of the Italian automobile manufacturer Darracq automobile company. The Alfa portion of the name is an acronym for Anonima Lombarda Fabbrica Automobili (A.L.F.A).",
       },
       {
@@ -29,6 +29,46 @@ export const abc: BrandInfo[] = [
         brandsKey: "Apollo Automobil",
         // logo: Logos.ApolloAutomobil,
         info: "Apollo Automobil GmbH is a hyper-car manufacturer based in Germany.  The company was founded in 2004 by Roland Gumpert under the name GMG Sportwagenmaufaktur Altenburg GmbH, also previously known as Gumpert Apollo.",
+      },
+      {
+        brandsKey: "Arash",
+        // logo: Logos.ApolloAutomobil,
+        info: "",
+      },
+      {
+        brandsKey: "Ares",
+        // logo: Logos.,
+        info: "",
+      },
+      {
+        brandsKey: "Arrinera",
+        // logo: Logos.,
+        info: "",
+      },
+      {
+        brandsKey: "Artega",
+        // logo: Logos.,
+        info: "Apollo Automobil GmbH is a hyper-car manufacturer based in Germany.  The company was founded in 2004 by Roland Gumpert under the name GMG Sportwagenmaufaktur Altenburg GmbH, also previously known as Gumpert Apollo.",
+      },
+      {
+        brandsKey: "Aspark",
+        // logo: Logos.,
+        info: "",
+      },
+      {
+        brandsKey: "Aston Martin",
+        // logo: Logos.,
+        info: "",
+      },
+      {
+        brandsKey: "ATS Automobili",
+        // logo: Logos.,
+        info: "",
+      },
+      {
+        brandsKey: "Automobili Pininfarina",
+        // logo: Logos.,
+        info: "",
       },
     ],
   },
@@ -111,8 +151,8 @@ export const abc: BrandInfo[] = [
     letterKey: "H",
     brands: [
       {
-        brandsKey: "Exotic Rides",
-        // logo: Logos.ExoticRides,
+        brandsKey: "Hennessey",
+        // logo: Logos.,
         info: "",
       },
     ],
@@ -121,7 +161,17 @@ export const abc: BrandInfo[] = [
     letterKey: "I",
     brands: [
       {
-        brandsKey: "Exotic Rides",
+        brandsKey: "Icona",
+        // logo: Logos.,
+        info: "",
+      },
+    ],
+  },
+  {
+    letterKey: "J",
+    brands: [
+      {
+        brandsKey: "Jaguar",
         // logo: Logos.ExoticRides,
         info: "",
       },
@@ -131,7 +181,7 @@ export const abc: BrandInfo[] = [
     letterKey: "K",
     brands: [
       {
-        brandsKey: "Exotic Rides",
+        brandsKey: "Kepler",
         // logo: Logos.ExoticRides,
         info: "",
       },
@@ -141,7 +191,7 @@ export const abc: BrandInfo[] = [
     letterKey: "L",
     brands: [
       {
-        brandsKey: "Exotic Rides",
+        brandsKey: "Lamborghini",
         // logo: Logos.ExoticRides,
         info: "",
       },
@@ -151,7 +201,7 @@ export const abc: BrandInfo[] = [
     letterKey: "M",
     brands: [
       {
-        brandsKey: "Exotic Rides",
+        brandsKey: "Maserati",
         // logo: Logos.ExoticRides,
         info: "",
       },
@@ -161,7 +211,7 @@ export const abc: BrandInfo[] = [
     letterKey: "N",
     brands: [
       {
-        brandsKey: "Exotic Rides",
+        brandsKey: "Naran",
         // logo: Logos.ExoticRides,
         info: "",
       },
@@ -171,7 +221,7 @@ export const abc: BrandInfo[] = [
     letterKey: "P",
     brands: [
       {
-        brandsKey: "Exotic Rides",
+        brandsKey: "Pagani",
         // logo: Logos.ExoticRides,
         info: "",
       },
@@ -181,7 +231,7 @@ export const abc: BrandInfo[] = [
     letterKey: "R",
     brands: [
       {
-        brandsKey: "Exotic Rides",
+        brandsKey: "Raesr",
         // logo: Logos.ExoticRides,
         info: "",
       },
@@ -191,7 +241,7 @@ export const abc: BrandInfo[] = [
     letterKey: "S",
     brands: [
       {
-        brandsKey: "Exotic Rides",
+        brandsKey: "Saleen",
         // logo: Logos.ExoticRides,
         info: "",
       },
@@ -201,7 +251,7 @@ export const abc: BrandInfo[] = [
     letterKey: "T",
     brands: [
       {
-        brandsKey: "Exotic Rides",
+        brandsKey: "Techrules",
         // logo: Logos.ExoticRides,
         info: "",
       },
@@ -211,7 +261,7 @@ export const abc: BrandInfo[] = [
     letterKey: "U",
     brands: [
       {
-        brandsKey: "Exotic Rides",
+        brandsKey: "Ultima",
         // logo: Logos.ExoticRides,
         info: "",
       },
@@ -221,7 +271,7 @@ export const abc: BrandInfo[] = [
     letterKey: "V",
     brands: [
       {
-        brandsKey: "Exotic Rides",
+        brandsKey: "Vanda Electrics",
         // logo: Logos.ExoticRides,
         info: "",
       },
@@ -231,7 +281,7 @@ export const abc: BrandInfo[] = [
     letterKey: "W",
     brands: [
       {
-        brandsKey: "Exotic Rides",
+        brandsKey: "W Motors",
         // logo: Logos.ExoticRides,
         info: "",
       },
@@ -241,7 +291,7 @@ export const abc: BrandInfo[] = [
     letterKey: "Z",
     brands: [
       {
-        brandsKey: "Exotic Rides",
+        brandsKey: "Zenvo",
         // logo: Logos.ExoticRides,
         info: "",
       },

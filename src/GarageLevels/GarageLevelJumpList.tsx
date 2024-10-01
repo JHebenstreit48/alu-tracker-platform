@@ -9,7 +9,7 @@ export default function GarageLevelsJumpList() {
         {/* X axis with all letters */}
         <div className='GlJumpList'>
           {garageLevelList.map((garageLevelNumber) => (
-            <a className='brandAlphabetical' href={`#${garageLevelNumber.GarageLevelKey}`}>
+            <a className='brandAlphabetical' key={garageLevelNumber.GarageLevelKey} href={`#${garageLevelNumber.GarageLevelKey}`}>
               {garageLevelNumber.GarageLevelKey}
             </a>
           ))}
@@ -17,16 +17,12 @@ export default function GarageLevelsJumpList() {
   
         {/* Y axis or vertical axis with all brands and descriptions */}
         <div>
-          {garageLevelList.map((gLs) => (
-            <div key={gLs.GarageLevelKey} id={gLs.GarageLevelKey.toString()}>
 
               {/* ABC BRANDS */}
-              {gLs.garageLevel.map((garageLevelNumber) => (
-                <GLContent key={garageLevelNumber.number} {...garageLevelNumber} />
+              {garageLevelList.map((garageLevelNumber) => (
+                <GLContent key={garageLevelNumber.GarageLevelKey} {...garageLevelNumber} />
               ))}
 
-            </div>
-          ))}
         </div>
       </div>
     );

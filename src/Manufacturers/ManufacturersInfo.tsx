@@ -6,7 +6,7 @@ export function BrandDescription({ brandsKey, logo, info, }: { brandsKey: string
         <section key={brandsKey}>
             <div>
 
-                <h3 className='manufacturerName'> {logo !== undefined && <img id={brandsKey} src={logo} alt={brandsKey} />}  {brandsKey} </h3>
+                <h3 className='manufacturerName'> {logo !== undefined && <img id={brandsKey.replace(/\s/g,'')} src={logo} alt={brandsKey} />}  {brandsKey} </h3>
 
             </div>
             <p className='manufacturerInfo'>{info}</p>

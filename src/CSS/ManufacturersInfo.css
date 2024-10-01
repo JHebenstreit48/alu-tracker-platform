@@ -17,13 +17,22 @@
     height: 130px;
 }
 
-#Ajlani {
+#AjlaniMotors {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 2rem;
     width: 140px;
     height: 152px;
+}
+
+#AlfaRomeo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    width: 147px;
+    height: 150px;
 }
 
 #Alfa {
