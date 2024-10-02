@@ -46,8 +46,7 @@
     padding-right: 20px;
     background-color: black;
     flex-wrap: nowrap;
-    border-top: 2px solid rgb(21, 201, 232);
-    border-bottom: 2px solid rgb(21, 201, 232);
+    border: 2.2px solid rgb(21, 201, 232);
     margin-bottom: 50px;
     box-shadow: 0 0 7px 8px rgb(223, 190, 7);
 }
