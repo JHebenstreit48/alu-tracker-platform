@@ -35,9 +35,22 @@
     height: 150px;
 }
 
-#Alfa {
+#ApexMotors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    width: 150px;
+    height: 110px;
+}
+
+#ApolloAutomobil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
     width: 140px;
-    height: 150px;
+    height: 133px;
 }
 
 .manufacturerInfo {
