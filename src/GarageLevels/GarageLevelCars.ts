@@ -16,12 +16,12 @@ export const garageLevelList: GarageLevels[] = [
       },
       {
         img: Images.MitsubishiLancerEvo,
-        name: "Mitsubishi Lancer Evo"
+        name: "Mitsubishi Lancer Evo",
       },
       {
         img: Images.DodgeChallengerSRT8,
         name: "Dodge Challenger SRT8",
-      }
+      },
     ],
   },
   {
@@ -66,7 +66,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.Porsche911Targa4S,
         name: "Porsche 911 Targa 4S",
       },
-
     ],
   },
   {
@@ -83,13 +82,12 @@ export const garageLevelList: GarageLevels[] = [
       },
       {
         img: Images.Porsche911GTSCoupé,
-        name: "Porsche 911 GTS Coupé"
+        name: "Porsche 911 GTS Coupé",
       },
       {
         img: Images.GinettaG60,
-        name: "Ginetta G60"
+        name: "Ginetta G60",
       },
-
     ],
   },
   {
@@ -108,142 +106,176 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.LotusEliseSprint220,
         name: "Lotus Elise Sprint 220",
       },
-
+      {
+        img: Images.TVRGriffith,
+        name: "TVR Griffith",
+      },
     ],
   },
   {
     GarageLevelKey: 6,
-    xp: 8000,
+    xp: 80000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.BMWM4GTS,
+        name: "BMW M4 GTS",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.ExoticRidesW70,
+        name: "Exotic Rides W70",
       },
-
+      {
+        img: Images.FordShelbyGT350R,
+        name: "Ford Shelby GT350R",
+      },
+      {
+        img: Images.MazdaFurai,
+        name: "Mazda Furai",
+      },
     ],
   },
   {
     GarageLevelKey: 7,
-    xp: 8000,
+    xp: 100000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.AstonMartinVulcan,
+        name: "Aston Martin Vulcan",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.DodgeViperACR,
+        name: "Dodge Viper ACR",
       },
-
+      {
+        img: Images.FordGT,
+        name: "Ford GT",
+      },
+      {
+        img: Images.ArtegaScaloSuperelletra,
+        name: "Artega Scalo Superelletra",
+      },
     ],
   },
   {
     GarageLevelKey: 8,
-    xp: 8000,
+    xp: 140000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.Ferrari488GTB,
+        name: "Ferrari 488 GTB",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.PininfarinaH2Speed,
+        name: "Pininfarina H2 Speed",
       },
-
+      {
+        img: Images.NissanGTRNismo,
+        name: "Nissan GT-R Nismo",
+      },
+      {
+        img: Images.ItaldesignZerouno,
+        name: "Italdesign Zerouno",
+      },
     ],
   },
   {
     GarageLevelKey: 9,
-    xp: 8000,
+    xp: 220000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.DodgeViperGTS,
+        name: "Dodge Viper GTS",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.FerrariJ50,
+        name: "Ferrari J50",
       },
-
     ],
   },
   {
     GarageLevelKey: 10,
-    xp: 8000,
+    xp: 400000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.FerrariLaFerrari,
+        name: "Ferrari LaFerrari",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.AcuraNSX,
+        name: "2017 Acura NSX",
       },
-
+      {
+        img: Images.Glickenhaus003S,
+        name: "Glickenhaus 003S",
+      },
     ],
   },
   {
     GarageLevelKey: 11,
-    xp: 8000,
+    xp: 600000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.LamborghiniCentenario,
+        name: "Lamborghini Centenario",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.MaseratiAlfieri,
+        name: "Maserati Alfieri",
       },
-
+      {
+        img: Images.VencerSarthe,
+        name: "Vencer Sarthe",
+      }
     ],
   },
   {
     GarageLevelKey: 12,
-    xp: 8000,
+    xp: 800000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.FerrariFXXK,
+        name: "Ferrari FXX K",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.LamborghiniAventadorSVCoupe,
+        name: "Lamborghini Aventador SV Coupe",
       },
-
+      {
+        img: Images.McLarenP1,
+        name: "McClaren P1",
+      }
     ],
   },
   {
     GarageLevelKey: 13,
-    xp: 8000,
+    xp: 1000000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.ChevroletCorvetteGrandSport,
+        name: "Chevrolet Corvette Grand Sport",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.FerrariF12TDF,
+        name: "Ferrari F12tdf",
       },
-
+      {
+        img: Images.IconaVulcanoTitanium,
+        name: "Icona Vulcano Titanium",
+      },
     ],
   },
   {
     GarageLevelKey: 14,
-    xp: 8000,
+    xp: 1200000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.Porsche918Spyder,
+        name: "Porsche 918 Spyder",
       },
       {
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -258,7 +290,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -273,7 +304,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -288,7 +318,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -303,7 +332,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -318,7 +346,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -333,7 +360,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -348,7 +374,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -363,7 +388,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -378,7 +402,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -393,7 +416,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -408,7 +430,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -423,7 +444,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -438,7 +458,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -453,7 +472,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -468,7 +486,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -483,7 +500,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -498,7 +514,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -513,7 +528,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -528,7 +542,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -543,7 +556,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -558,7 +570,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -573,7 +584,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -588,7 +598,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -603,7 +612,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -618,7 +626,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -633,7 +640,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -648,7 +654,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -663,7 +668,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -678,7 +682,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -693,7 +696,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -708,7 +710,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -723,7 +724,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -738,7 +738,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -753,7 +752,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -768,7 +766,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -783,7 +780,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -798,7 +794,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -813,7 +808,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -828,7 +822,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -843,7 +836,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -858,7 +850,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -873,7 +864,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -888,7 +878,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -903,7 +892,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -918,7 +906,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
   {
@@ -933,8 +920,6 @@ export const garageLevelList: GarageLevels[] = [
         img: Images.ChevroletCamaroLT,
         name: "Chevrolet Camaro LT",
       },
-
     ],
   },
-
 ];

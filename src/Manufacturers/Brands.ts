@@ -22,12 +22,12 @@ export const abc: BrandInfo[] = [
       },
       {
         brandsKey: "Apex Motors",
-        // logo: Logos.ApexMotors,
+        logo: Logos.ApexMotors,
         info: "Apex Motors was founded in 2018 by Chinese-Australian brother Jason and Gary Leung. The company in based in both Britan and Hong Kong. They launched offically in 2019 with the limited production AP-1 model.",
       },
       {
         brandsKey: "Apollo Automobil",
-        // logo: Logos.ApolloAutomobil,
+        logo: Logos.ApolloAutomobil,
         info: "Apollo Automobil GmbH is a hyper-car manufacturer based in Germany.  The company was founded in 2004 by Roland Gumpert under the name GMG Sportwagenmaufaktur Altenburg GmbH, also previously known as Gumpert Apollo.",
       },
       {
