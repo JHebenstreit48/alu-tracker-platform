@@ -31,14 +31,14 @@ export const abc: BrandInfo[] = [
         info: "Apollo Automobil GmbH is a hyper-car manufacturer based in Germany.  The company was founded in 2004 by Roland Gumpert under the name GMG Sportwagenmaufaktur Altenburg GmbH, also previously known as Gumpert Apollo.",
       },
       {
-        brandsKey: "Arash",
-        // logo: Logos.ApolloAutomobil,
-        info: "",
+        brandsKey: "Arash Motor Company Ltd",
+        logo: Logos.ArashMotorCompanyLtd,
+        info: "Founded by Arash Farboud in 1999. Arash Motor Company was originally known as Farboud Limited. The name was later changed to Arash Motor Company Ltd. in 2006. The company is based in Newmarket, Suffolk, England. Arash believes that sports cars should have a distinctive and individual character. Above all they should be exhilarating to drive and to own. These beliefs still hold true in the company to this day.",
       },
       {
-        brandsKey: "Ares",
-        // logo: Logos.,
-        info: "",
+        brandsKey: "Ares Modena",
+        logo: Logos.AresModena,
+        info: "The founder of Ares Modena is Dany Bahar, a former CEO of Lotus Cars. He was also formerly the Senior Vice President Commercial and Brand at Ferrari. The company was founded in 2014 and is based in Modena, Italy. Ares Modena is a coachbuilding company that specializes in creating bespoke vehicles. They have a team of designers, engineers, and craftsmen that work together to create unique vehicles for their clients.",
       },
       {
         brandsKey: "Arrinera",

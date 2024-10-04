@@ -53,6 +53,24 @@
     height: 133px;
 }
 
+#ArashMotorCompanyLtd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.8rem;
+    width: 180px;
+    height: 150px;
+}
+
+#AresModena {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    width: 155px;
+    height: 154px;
+}
+
 .manufacturerInfo {
     display: flex;
 
