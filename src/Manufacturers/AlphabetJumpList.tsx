@@ -1,4 +1,4 @@
-import '../CSS/ManufacturerABC.css';
+import '../CSS/Manufacturer.css';
 import { abc } from './Brands';
 import  { BrandDescription } from './ManufacturersInfo';
 
@@ -18,7 +18,7 @@ export default function abcList() {
         <div>
           {abc.map((abc) => (
             <div key={abc.letterKey} id={abc.letterKey}>
-
+              
               <h2 className='alphabetList'>
                 {abc.letterKey}
               </h2>

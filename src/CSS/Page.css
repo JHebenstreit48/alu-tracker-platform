@@ -9,3 +9,14 @@ body {
     background-attachment: fixed;
     box-sizing: border-box;
 }
+
+@media only screen and (max-width: 464px) {
+    * {
+        box-sizing: content-box;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  }

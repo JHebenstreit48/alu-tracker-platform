@@ -42,13 +42,13 @@ export const abc: BrandInfo[] = [
       },
       {
         brandsKey: "Arrinera",
-        // logo: Logos.,
-        info: "",
+        logo: Logos.Arrinera,
+        info: "Arrinera was established in 2008 by Polish brothers Łukasz and Marek Tomkiewicz. The company is based in Warsaw, Poland. The company's first car, the Arrinera Hussarya GT, was unveiled in January 2016 at Autosport International in Birmingham, UK. The car was originally named the Venocara.",
       },
       {
         brandsKey: "Artega",
         // logo: Logos.,
-        info: "Apollo Automobil GmbH is a hyper-car manufacturer based in Germany.  The company was founded in 2004 by Roland Gumpert under the name GMG Sportwagenmaufaktur Altenburg GmbH, also previously known as Gumpert Apollo.",
+        info: "",
       },
       {
         brandsKey: "Aspark",

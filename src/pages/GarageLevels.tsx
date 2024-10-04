@@ -1,5 +1,3 @@
-import '../CSS/Page.css'
-import '../CSS/Header.css'
 import Header from "../components/Header";
 import PageTab from '../components/PageTab';
 import GarageLevelsJumpList from '../GarageLevels/GarageLevelJumpList';

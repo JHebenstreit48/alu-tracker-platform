@@ -30,3 +30,16 @@
     text-shadow: 9px 3px 6px #000000;
     background-image: linear-gradient(to bottom, #510d71,#9641e0 159%);
 }
+
+@media only screen and (max-width: 464px) {
+    .nav-css {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .btn-lg {
+        margin-bottom: 0.6rem
+    }
+  }
