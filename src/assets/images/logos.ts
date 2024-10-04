@@ -5,6 +5,7 @@ import ApexMotors from '../car-logos/apex-motors-logo.png';
 import ApolloAutomobil from '../car-logos/apollo-automobil-logo.png';
 import ArashMotorCompanyLtd from '../car-logos/arash-motor-company-ltd-logo.png';
 import AresModena from '../car-logos/ares-modena-logo.png';
+import Arrinera from '../car-logos/arrinera-logo.png';
 
 export const Logos = {
     Acura,
@@ -14,6 +15,7 @@ export const Logos = {
     ApolloAutomobil,
     ArashMotorCompanyLtd,
     AresModena,
+    Arrinera,
 
 
 };

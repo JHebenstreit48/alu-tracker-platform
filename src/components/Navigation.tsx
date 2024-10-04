@@ -31,6 +31,7 @@ export default function Navigation() {
     return (
 
         <>
+        <div>
         <ul className="nav-css">
           {
             NavLinks.map((navLinks) => (
@@ -42,6 +43,8 @@ export default function Navigation() {
             ))
           }
         </ul>
+        </div>
+        
 
         
         </>
