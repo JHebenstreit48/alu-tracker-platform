@@ -1,90 +1,163 @@
 .GlJumpList {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 73rem;
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 73rem;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 
 .mainHeading {
-    color: rgb(21, 201, 232);
-    font-size: 40px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    margin-left: 30px;
+  color: rgb(21, 201, 232);
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 30px;
 }
 
 .subHeading {
-    justify-content: left;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 35px;
-    color: rgb(223, 190, 7)
+  justify-content: left;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 35px;
+  color: rgb(223, 190, 7);
 }
 
 .xp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1536px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1536px;
+  margin: 0 auto;
 }
 
 .xpTitle {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    color: rgb(223, 190, 7);
-    font-size: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: black;
-    flex-wrap: nowrap;
-    border: 2.2px solid rgb(21, 201, 232);
-    margin-bottom: 50px;
-    box-shadow: 0 0 7px 8px rgb(223, 190, 7);
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  color: rgb(223, 190, 7);
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: black;
+  flex-wrap: nowrap;
+  border: 2.2px solid rgb(21, 201, 232);
+  margin-bottom: 50px;
+  box-shadow: 0 0 7px 8px rgb(223, 190, 7);
 }
 
 .xpRequirement {
-    color: rgb(223, 190, 7);
-    font-size: 20px;
+  color: rgb(223, 190, 7);
+  font-size: 20px;
 }
 
 .CarImagesContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .CarImages {
-    display: flex;
-    justify-content: center;
-    margin: 0 22px;
-    margin-bottom: 30px;
-    max-width: 100%;
-    width: 390px;
-    border: 3px solid rgb(0, 0, 0);
-    box-shadow: 0 0 7px 4px rgb(223, 190, 7);
+  display: flex;
+  justify-content: center;
+  margin: 0 22px;
+  margin-bottom: 30px;
+  max-width: 100%;
+  width: 390px;
+  border: 3px solid rgb(0, 0, 0);
+  box-shadow: 0 0 7px 4px rgb(223, 190, 7);
 }
 
 .CarImagesCaption {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  background-image: linear-gradient(
+    to bottom,
+    #25034b 31%,
+    #37097e 69%,
+    #3b0c9d 86%,
+    #3c0b8f 117%,
+    #490db2
+  );
+  box-shadow: 0 0 7px 4px rgb(21, 201, 232);
+  border-radius: 8px;
+  width: 79%;
+  padding: 10px 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media only screen and (max-width: 464px) {
+  .GlJumpList {
+    width: 19rem;
+    margin-top: 22rem;
+  }
+  .brandAlphabetical {
+    display: flex;
+    margin-left: 7px;
+    margin-right: 5px;
+    font-size: 21px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .mainHeading {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 0;
+    font-size: 34px;
+    color: rgb(255, 196, 0);
+    text-shadow: 4px 4px 4px #000000;
+  }
+  .subHeading {
     display: flex;
     justify-content: center;
-    color: white;
+    margin-top: 0.5rem;
+    margin-left: 0;
+    margin-bottom: 2rem;
     font-size: 20px;
-    background-image: linear-gradient(to bottom, #25034b 31%, #37097E 69%, #3B0C9D 86%, #3C0B8F 117%, #490DB2);
-    box-shadow: 0 0 7px 4px rgb(21, 201, 232);
-    border-radius: 8px;
-    width: 79%;
-    padding: 10px 15px;
+  }
+  .xp {
+    display: flex;
+    max-width: 21.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .xpTitle {
+    display: flex;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
+  .xpRequirement {
+    font-size: 20px;
+    padding-left: 6rem;
+  }
+  .CarImagesContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 0 auto; */
+    max-width: 85%;
+  }
+  .CarImages {
+    display: flex;
     margin: 0 auto;
-    text-align: center;
+    margin-bottom: 30px;
+    max-width: 100%;
+    width: 390px;
+    margin-top: 3rem;
+  }
 }

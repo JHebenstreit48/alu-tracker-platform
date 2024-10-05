@@ -27,21 +27,21 @@
 
 @media only screen and (max-width: 464px) {
   .Header {
-    height: 13rem;
-    margin: 0 auto;
+    height: 10rem;
     width: 100%;
-
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
   }
   .PageHeader {
     text-align: center;
-    width: 70%;
     margin-top: 26rem;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom: 5rem;
-    font-size: 40px;
+    margin-bottom: 4rem;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 34px;
     color: rgb(255, 196, 0);
     text-shadow: 4px 4px 4px #000000;
 }
