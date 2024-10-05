@@ -40,3 +40,17 @@ td {
 	text-decoration: none;
 	max-width: calc(100%-45);
 }
+
+@media only screen and (max-width: 464px) {
+	table {
+	 margin-top: 25rem;
+	 max-width: 100%;
+	 width: 84%
+   }
+   .info {
+	   display: flex;
+	   justify-content: center;
+	   align-items: center;
+	   width: 15rem;
+   }
+ }

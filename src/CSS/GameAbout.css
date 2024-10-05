@@ -20,13 +20,14 @@
 }
 
 @media only screen and (max-width: 464px) {
-    .asphalt-info {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 22.4rem;
-      margin-left: auto;
-      margin-right: auto;
-      width: 38rem;
+     .asphalt-info {
+      margin-top: 25rem;
+      max-width: 19rem;
+    }
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15rem;
     }
   }

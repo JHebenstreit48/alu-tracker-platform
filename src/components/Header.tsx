@@ -1,5 +1,4 @@
 import Navigation from "./Navigation";
-import '../CSS/Header.css';
 
 interface Header {
   text: string;
