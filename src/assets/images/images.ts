@@ -2,11 +2,17 @@ import AcuraNSX from "../car-photos/2017-acura-nsx.jpg";
 
 import ApexAP0 from "../car-photos/apex-ap-0.jpg";
 
+import ApolloN from "../car-photos/apollo-n.jpg";
+
+import ArrineraHussarya33 from "../car-photos/arrinera-hussarya-33.jpg";
+
 import ArtegaScaloSuperelletra from "../car-photos/artega-scalo-superelletra.jpg";
 
 import AstonMartinDB11 from "../car-photos/aston-martin-db11.jpg";
 
 import AstonMartinValhalla from "../car-photos/aston-martin-valhalla-concept-car.jpg";
+
+import AstonMartinVantageGT12 from "../car-photos/aston-martin-vantage-gt12.jpg";
 
 import AstonMartinVulcan from "../car-photos/aston-martin-vulcan.jpg";
 
@@ -61,6 +67,8 @@ import ItaldesignZerouno from "../car-photos/italdesign-zerouno.jpg";
 import JaguarFTypeSVR from "../car-photos/jaguar-f-type-svr.jpg";
 
 import KoenigseggRegera from "../car-photos/koenigsegg-regera.jpg";
+
+import LamborghiniAventadorJ from "../car-photos/lamborghini-aventador-j.jpg";
 
 import LamborghiniAventadorSVCoupe from "../car-photos/lamborghini-aventador-sv-coupe.jpg";
 
@@ -117,11 +125,17 @@ export const Images = {
 
   ApexAP0,
 
+  ApolloN,
+
+  ArrineraHussarya33,
+
   ArtegaScaloSuperelletra,
 
   AstonMartinDB11,
 
   AstonMartinValhalla,
+
+  AstonMartinVantageGT12,
 
   AstonMartinVulcan,
 
@@ -176,6 +190,8 @@ export const Images = {
   JaguarFTypeSVR,
 
   KoenigseggRegera,
+
+  LamborghiniAventadorJ,
 
   LamborghiniAventadorSVCoupe,
 

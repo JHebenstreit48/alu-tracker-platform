@@ -1,3 +1,4 @@
+import BackToTop from '../components/BackToTopButton'
 import '../CSS/GarageLevels.css'
 import { GarageLevels } from './interface'
 
@@ -17,14 +18,16 @@ export function GLContent({ GarageLevelKey, xp, garageLevel }: GarageLevels) {
 
             <div className="xp">
 
-                <h3 className='xpTitle'>XP Required <span className='xpRequirement'>{xp.toLocaleString('en-US')}</span></h3>
+                <h3 className='xpTitle'>XP Required <span className='xpRequirement'>{xp.toLocaleString('en-US')}</span>  
+                </h3>
 
             </div>
+
 
             <div className='CarImagesContainer'>
 
                 {
-                    (garageLevel.length > 0) && garageLevel.map((gls,index) => (
+                    (garageLevel.length > 0) && garageLevel.map((gls, index) => (
                         <div key={gls.name + index}>
                             <img className='CarImages' src={gls.img} />
                             <p className='CarImagesCaption'>{gls.name}</p>
@@ -32,9 +35,9 @@ export function GLContent({ GarageLevelKey, xp, garageLevel }: GarageLevels) {
                     ))
                 }
 
-
-
             </div>
+
+            <BackToTop />
 
         </section>
     )

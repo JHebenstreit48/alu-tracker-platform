@@ -47,13 +47,28 @@
   background-color: black;
   flex-wrap: nowrap;
   border: 2.2px solid rgb(21, 201, 232);
-  margin-bottom: 50px;
+  margin-bottom: 1rem;
   box-shadow: 0 0 7px 8px rgb(223, 190, 7);
 }
 
 .xpRequirement {
   color: rgb(223, 190, 7);
   font-size: 20px;
+}
+
+.Top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.BackToTop {
+  display: flex;
+  font-size: 1.5rem;
+  margin-top: 2.8rem;
+  margin-bottom: 2rem;
 }
 
 .CarImagesContainer {
@@ -136,14 +151,17 @@
     display: flex;
     font-size: 20px;
     padding-top: 20px;
-    padding-left: 0;
-    padding-right: 0;
     padding-bottom: 20px;
     margin-bottom: 0;
   }
   .xpRequirement {
     font-size: 20px;
     padding-left: 6rem;
+  }
+  .BackToTop {
+    display: flex;
+    position: relative;
+    margin-bottom: 2.5rem;
   }
   .CarImagesContainer {
     display: flex;

@@ -1,3 +1,4 @@
+import BackToTop from '../components/BackToTopButton';
 import '../CSS/Manufacturer.css';
 
 export function BrandDescription({ brandsKey, logo, info, }: { brandsKey: string, logo?: string, info: string, }) {
@@ -11,6 +12,7 @@ export function BrandDescription({ brandsKey, logo, info, }: { brandsKey: string
             </div>
 
             <div className='Information'>
+                <BackToTop />
                 <p className='manufacturerInfo'>{info}</p>
             </div>
 
