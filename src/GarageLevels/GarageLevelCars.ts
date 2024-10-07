@@ -273,22 +273,26 @@ export const garageLevelList: GarageLevels[] = [
         name: "Porsche 918 Spyder",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.ApolloN,
+        name: "Apollo N",
       },
+      {
+        img: Images.ArrineraHussarya33,
+        name: "Arrinera Hussarya 33",
+      }
     ],
   },
   {
     GarageLevelKey: 15,
-    xp: 8000,
+    xp: 1400000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.LamborghiniAventadorJ,
+        name: "Lamborghini Aventador J",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.AstonMartinVantageGT12,
+        name: "Aston Martin Vantage GT12",
       },
     ],
   },
