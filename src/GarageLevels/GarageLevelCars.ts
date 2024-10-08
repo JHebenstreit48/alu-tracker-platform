@@ -298,123 +298,123 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 16,
-    xp: 8000,
+    xp: 1800000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.WMotorsLykanHypersport,
+        name: "W Motors Lykan Hypersport",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.AstonMartinDBSSuperlleggera,
+        name: "Aston Martin DBS Superlleggera",
       },
     ],
   },
   {
     GarageLevelKey: 17,
-    xp: 8000,
+    xp: 2000000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.McClaren570SSpider,
+        name: "McClaren 570S Spider",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.VandaElectricsDendrobium,
+        name: "Vanda Electrics Dendrobium",
       },
     ],
   },
   {
     GarageLevelKey: 18,
-    xp: 8000,
+    xp: 2300000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.KoenigseggRegera,
+        name: "Koenigsegg Regera",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.LamborghiniHuracanEvoSpider,
+        name: "Lamborghini Huracan Evo Spider",
       },
     ],
   },
   {
     GarageLevelKey: 19,
-    xp: 8000,
+    xp: 2600000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.PaganiHuayraBC,
+        name: "Pagani Huayra BC",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.FerrariLaFerrariAperta,
+        name: "Ferrari LaFerrari Aperta",
       },
     ],
   },
   {
     GarageLevelKey: 20,
-    xp: 8000,
+    xp: 3000000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.BugattiChiron,
+        name: "Bugatti Chiron",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.GentyAkylone,
+        name: "Genty Akylone",
       },
     ],
   },
   {
     GarageLevelKey: 21,
-    xp: 8000,
+    xp: 3400000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.InfinitiProjectBlackS,
+        name: "Infiniti Project Black S",
       },
       {
-        img: Images.ChevroletCamaroLT,
+        img: Images.LamborghiniCountach25thAnniversary,
         name: "Chevrolet Camaro LT",
       },
     ],
   },
   {
     GarageLevelKey: 22,
-    xp: 8000,
+    xp: 440000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.FerrariRoma,
+        name: "Ferrari Roma",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.LotusEmira,
+        name: "Lotus Emira",
       },
     ],
   },
   {
     GarageLevelKey: 23,
-    xp: 8000,
+    xp: 520000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.BMWi8Roadster,
+        name: "BMW i8 Roadster",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.RenaultDezir,
+        name: "Renault Dezir",
       },
     ],
   },
   {
     GarageLevelKey: 24,
-    xp: 8000,
+    xp: 600000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.PorscheTaycanTurboS,
+        name: "Porsche Taycan Turbo S",
       },
       {
         img: Images.ChevroletCamaroLT,

@@ -10,9 +10,9 @@ const BackToTop: React.FC = () => {
 
     return (
         <div className="BackToTop">
-            <div onClick={scrollToTop} className="back-to-top-button">
+            <a onClick={scrollToTop} className="back-to-top-button">
                 Back to Top
-            </div>
+            </a>
         </div>
     );
 };
