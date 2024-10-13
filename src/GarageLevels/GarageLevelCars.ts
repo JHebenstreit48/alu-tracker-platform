@@ -315,8 +315,8 @@ export const garageLevelList: GarageLevels[] = [
     xp: 2000000,
     garageLevel: [
       {
-        img: Images.McClaren570SSpider,
-        name: "McClaren 570S Spider",
+        img: Images.McLaren570SSpider,
+        name: "McLaren 570S Spider",
       },
       {
         img: Images.VandaElectricsDendrobium,
@@ -417,50 +417,50 @@ export const garageLevelList: GarageLevels[] = [
         name: "Porsche Taycan Turbo S",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.SaleenS1,
+        name: "Saleen S1",
       },
     ],
   },
   {
     GarageLevelKey: 25,
-    xp: 8000,
+    xp: 700000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.ChevroletCorvetteStingray,
+        name: "Chevrolet Corvette Stingray",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.DrokoGTE,
+        name: "Droko GTE",
       },
     ],
   },
   {
     GarageLevelKey: 26,
-    xp: 8000,
+    xp: 800000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.McLarenElva,
+        name: "McLaren Elva",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.LamborghiniDiabloGT,
+        name: "Lamborghini Diablo GT",
       },
     ],
   },
   {
     GarageLevelKey: 27,
-    xp: 8000,
+    xp: 900000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.SinR1550,
+        name: "Sin R1 550",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.LamborghiniMurcielagoLP640Roadster,
+        name: "Lamborghini Murcielago LP640 Rds.",
       },
     ],
   },
