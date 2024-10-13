@@ -1,6 +1,6 @@
-import Header from "../components/Header";
-import PageTab from '../components/PageTab';
-import GarageLevelsJumpList from '../GarageLevels/GarageLevelJumpList';
+import Header from "../components/Header.tsx";
+import PageTab from '../components/PageTab.tsx';
+import GarageLevelsDropDown from "../GarageLevels/GarageLevelsDropDown.tsx";
 
 export default function GarageLevels() {
 
@@ -9,10 +9,10 @@ export default function GarageLevels() {
         <>
 
             <div>
-                
+
                 <PageTab title="Garage Levels">
                     <Header text="Garage Levels" />
-                    <GarageLevelsJumpList />
+                    <GarageLevelsDropDown />
                 </PageTab>
 
             </div>

@@ -34,6 +34,8 @@ import ChevroletCamaroZL150TH from "../car-photos/camaro-zl1-50th.jpg";
 
 import ChevroletCorvetteGrandSport from "../car-photos/chevrolet-corvette-grand-sport.jpg";
 
+import ChevroletCorvetteStingray from "../car-photos/chevrolet-corvette-stingray.jpg";
+
 import DodgeChallenger392HemiScatPk from "../car-photos/dodge-challenger-392-hemi-scat.jpg";
 
 import DodgeChallengerSRT8 from "../car-photos/dodge-challenger-srt8.jpg";
@@ -41,6 +43,8 @@ import DodgeChallengerSRT8 from "../car-photos/dodge-challenger-srt8.jpg";
 import DodgeViperACR from "../car-photos/dodge-viper-acr.jpg";
 
 import DodgeViperGTS from "../car-photos/dodge-viper-gts.jpg";
+
+import DrokoGTE from "../car-photos/drako-gte.jpg";
 
 import DSETense from "../car-photos/ds-e-tense.jpg";
 
@@ -88,7 +92,11 @@ import LamborghiniCentenario from "../car-photos/lamborghini-centenario.jpg";
 
 import LamborghiniCountach25thAnniversary from "../car-photos/lamborghini-countach-25th-anniv.jpg";
 
+import LamborghiniDiabloGT from "../car-photos/lamborghini-diablo-gt.jpg";
+
 import LamborghiniHuracanEvoSpider from "../car-photos/lamborghini-huracan-evo-spider.jpg";
+
+import LamborghiniMurcielagoLP640Roadster from "../car-photos/lamborghini-murcielago-lp-640-roadster.jpg";
 
 import LamborghiniSestoElemento from "../car-photos/lamborghini-sesto-elemento.jpg";
 
@@ -104,7 +112,9 @@ import MaseratiAlfieri from "../car-photos/maserati-alfieri.jpg";
 
 import MazdaFurai from "../car-photos/mazda-furai.jpg";
 
-import McClaren570SSpider from "../car-photos/mcclaren-570s-spider.jpg"
+import McLaren570SSpider from "../car-photos/mclaren-570s-spider.jpg";
+
+import McLarenElva from "../car-photos/mclaren-elva.jpg";
 
 import McLarenP1 from "../car-photos/mclaren-p1.jpg";
 
@@ -135,6 +145,10 @@ import Porsche918Spyder from "../car-photos/porsche-918-spyder.jpg";
 import RenaultDezir from "../car-photos/renault-dezir.jpg";
 
 import RimacConceptOne from "../car-photos/rimac-concept-one.jpg";
+
+import SaleenS1 from "../car-photos/saleen-s1.jpg";
+
+import SinR1550 from "../car-photos/sin-r1-550.jpg";
 
 import TVRGriffith from "../car-photos/tvr-griffith.jpg";
 
@@ -185,6 +199,8 @@ export const Images = {
 
   ChevroletCorvetteGrandSport,
 
+  ChevroletCorvetteStingray,
+
   DodgeChallenger392HemiScatPk,
 
   DodgeChallengerSRT8,
@@ -192,6 +208,8 @@ export const Images = {
   DodgeViperACR,
 
   DodgeViperGTS,
+
+  DrokoGTE,
 
   DSETense,
 
@@ -239,7 +257,11 @@ export const Images = {
 
   LamborghiniCountach25thAnniversary,
 
+  LamborghiniDiabloGT,
+
   LamborghiniHuracanEvoSpider,
+
+  LamborghiniMurcielagoLP640Roadster,
 
   LamborghiniSestoElemento,
 
@@ -255,7 +277,9 @@ export const Images = {
 
   MazdaFurai,
 
-  McClaren570SSpider,
+  McLaren570SSpider,
+
+  McLarenElva,
 
   McLarenP1,
 
@@ -286,6 +310,10 @@ export const Images = {
   RenaultDezir,
 
   RimacConceptOne,
+
+  SaleenS1,
+
+  SinR1550,
 
   TVRGriffith,
 
