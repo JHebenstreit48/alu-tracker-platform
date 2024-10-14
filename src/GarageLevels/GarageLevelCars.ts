@@ -466,25 +466,25 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 28,
-    xp: 8000,
+    xp: 1000000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.Ferrari812Superfast,
+        name: "Ferrari 812 Superfast",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.ApexAP0,
+        name: "Apex AP-0",
       },
     ],
   },
   {
     GarageLevelKey: 29,
-    xp: 8000,
+    xp: 1200000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.AstonMartinOne77,
+        name: "Aston Martin One-77",
       },
       {
         img: Images.ChevroletCamaroLT,
@@ -494,189 +494,149 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 30,
-    xp: 8000,
+    xp: 1400000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.Porsche911GT3RS,
+        name: "Porsche 911 GT3 RS",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.NissanGTR50Italdesign,
+        name: "Nissan GT-R50 by Italdesign",
       },
     ],
   },
   {
     GarageLevelKey: 31,
-    xp: 8000,
+    xp: 1600000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.LamborghiniAventadorSVJRoadster,
+        name: "Lamborghini Aventador SVJ Roadster",
       },
     ],
   },
   {
     GarageLevelKey: 32,
-    xp: 8000,
+    xp: 1800000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.McLarenSpeedtail,
+        name: "McLaren Speedtail",
       },
     ],
   },
   {
     GarageLevelKey: 33,
-    xp: 8000,
+    xp: 2000000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.CitroenGT,
+        name: "Citroën GT",
       },
     ],
   },
   {
     GarageLevelKey: 34,
-    xp: 8000,
+    xp: 2300000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.AstonMartinVictor,
+        name: "Aston Martin Victor",
       },
     ],
   },
   {
     GarageLevelKey: 35,
-    xp: 8000,
+    xp: 2600000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.FerrariF8Tributo,
+        name: "Ferrari F8 Tributo",
       },
     ],
   },
   {
     GarageLevelKey: 36,
-    xp: 8000,
+    xp: 3000000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.LamborghiniTerzoMillennio,
+        name: "Lamborghini Terzo Millennio",
       },
     ],
   },
   {
     GarageLevelKey: 37,
-    xp: 8000,
+    xp: 3400000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.Vision1789,
+        name: "Vision 1789",
       },
     ],
   },
   {
     GarageLevelKey: 38,
-    xp: 8000,
+    xp: 3800000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.AstonMartinValhallaConcept,
+        name: "Aston Martin Valhalla Concept",
       },
     ],
   },
   {
     GarageLevelKey: 39,
-    xp: 8000,
+    xp: 4200000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.AutomobiliPininfarinaBattista,
+        name: "Automobili Pininfarina Battista",
       },
     ],
   },
   {
     GarageLevelKey: 40,
-    xp: 8000,
+    xp: 4600000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.AstonMartinValkyrie,
+        name: "Aston Martin Valkyrie",
       },
     ],
   },
   {
     GarageLevelKey: 41,
-    xp: 8000,
+    xp: 5250000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.ItaldesignDaVinci,
+        name: "Italdesign DaVinci",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.RenaultTrezor,
+        name: "Renault Trezor",
       },
     ],
   },
   {
     GarageLevelKey: 42,
-    xp: 8000,
+    xp: 440000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.FordShelbyGR1,
+        name: "Ford Shelby GR-1",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.AstonMartinV12Speedster,
+        name: "Aston Martin V12 Speedster",
       },
     ],
   },
   {
     GarageLevelKey: 43,
-    xp: 8000,
+    xp: 520000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -690,7 +650,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 44,
-    xp: 8000,
+    xp: 600000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -704,7 +664,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 45,
-    xp: 8000,
+    xp: 700000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -718,7 +678,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 46,
-    xp: 8000,
+    xp: 800000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -732,7 +692,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 47,
-    xp: 8000,
+    xp: 900000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -746,7 +706,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 48,
-    xp: 8000,
+    xp: 1000000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -760,7 +720,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 49,
-    xp: 8000,
+    xp: 1200000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -774,7 +734,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 50,
-    xp: 8000,
+    xp: 1400000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -788,7 +748,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 51,
-    xp: 8000,
+    xp: 1600000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -802,7 +762,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 52,
-    xp: 8000,
+    xp: 1800000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -816,7 +776,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 53,
-    xp: 8000,
+    xp: 2000000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -830,7 +790,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 54,
-    xp: 8000,
+    xp: 2300000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -844,7 +804,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 55,
-    xp: 8000,
+    xp: 2600000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -858,7 +818,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 56,
-    xp: 8000,
+    xp: 3000000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -872,7 +832,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 57,
-    xp: 8000,
+    xp: 3400000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -886,7 +846,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 58,
-    xp: 8000,
+    xp: 3800000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -900,7 +860,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 59,
-    xp: 8000,
+    xp: 4200000,
     garageLevel: [
       {
         img: Images.BMWZ4,
@@ -914,7 +874,7 @@ export const garageLevelList: GarageLevels[] = [
   },
   {
     GarageLevelKey: 60,
-    xp: 8000,
+    xp: 4600000,
     garageLevel: [
       {
         img: Images.BMWZ4,
