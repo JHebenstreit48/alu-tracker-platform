@@ -376,7 +376,7 @@ export const garageLevelList: GarageLevels[] = [
       },
       {
         img: Images.LamborghiniCountach25thAnniversary,
-        name: "Chevrolet Camaro LT",
+        name: "Lamborghini Countach 25th Anniv.",
       },
     ],
   },
@@ -487,8 +487,8 @@ export const garageLevelList: GarageLevels[] = [
         name: "Aston Martin One-77",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.McLarenSennaGTR,
+        name: "McLaren Senna GTR",
       },
     ],
   },
@@ -639,12 +639,12 @@ export const garageLevelList: GarageLevels[] = [
     xp: 520000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.NioEP9,
+        name: "Nio EP9",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.BolwellMKXNagari500,
+        name: "Bolwell MK X Nagari 500",
       },
     ],
   },
@@ -653,12 +653,12 @@ export const garageLevelList: GarageLevels[] = [
     xp: 600000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.Porsche911GT1Evolution,
+        name: "Porsche 911 GT1 Evolution",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.BentleyContinentalGTSpeed,
+        name: "Bentley Contintental GT Speed",
       },
     ],
   },
@@ -667,12 +667,12 @@ export const garageLevelList: GarageLevels[] = [
     xp: 700000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.ArashAF10,
+        name: "Arash AF10",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.FerrariMonzaSP1,
+        name: "Ferrari Monza SP1",
       },
     ],
   },
@@ -681,12 +681,12 @@ export const garageLevelList: GarageLevels[] = [
     xp: 800000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.ApolloIE,
+        name: "Apollo IE",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.McLarenGT,
+        name: "McLaren GT",
       },
     ],
   },
@@ -695,12 +695,12 @@ export const garageLevelList: GarageLevels[] = [
     xp: 900000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.BentleyMullinerBacalar,
+        name: "Bentley Mulliner Bacalar",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.PuritaliaBerlinetta,
+        name: "Puritalia Berlinetta",
       },
     ],
   },
@@ -709,12 +709,12 @@ export const garageLevelList: GarageLevels[] = [
     xp: 1000000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.LamborghiniGallardoLP5604,
+        name: "Lamborghini Gallardo LP 560-4 Coupé",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.FerrariEnzo,
+        name: "Ferrari Enzo",
       },
     ],
   },
@@ -723,12 +723,12 @@ export const garageLevelList: GarageLevels[] = [
     xp: 1200000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.LotusEvija,
+        name: "Lotus Evija",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.McLaren765LT,
+        name: "McLaren 765LT",
       },
     ],
   },
@@ -737,12 +737,12 @@ export const garageLevelList: GarageLevels[] = [
     xp: 1400000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
+        img: Images.PorscheCarreraGT,
+        name: "Porsche Carrera GT",
       },
       {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.JaguarCX75,
+        name: "Jaguar C-X75",
       },
     ],
   },
@@ -751,12 +751,8 @@ export const garageLevelList: GarageLevels[] = [
     xp: 1600000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.LamborghiniVeneno,
+        name: "Lamborghini Veneno",
       },
     ],
   },
@@ -765,12 +761,8 @@ export const garageLevelList: GarageLevels[] = [
     xp: 1800000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.LamborghiniSestoElemento,
+        name: "Lamborghini Sesto Elemento",
       },
     ],
   },
@@ -779,12 +771,8 @@ export const garageLevelList: GarageLevels[] = [
     xp: 2000000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.PeugotOnyx,
+        name: "Peugot Onyx",
       },
     ],
   },
@@ -793,12 +781,8 @@ export const garageLevelList: GarageLevels[] = [
     xp: 2300000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.PaganiImola,
+        name: "Pagani Imola",
       },
     ],
   },
@@ -807,12 +791,8 @@ export const garageLevelList: GarageLevels[] = [
     xp: 2600000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.FerrariSF90Stradale,
+        name: "Ferrari SF90 Stradale",
       },
     ],
   },
@@ -821,12 +801,8 @@ export const garageLevelList: GarageLevels[] = [
     xp: 3000000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.RimacConceptOne,
+        name: "Rimac Concept_One",
       },
     ],
   },
@@ -835,12 +811,8 @@ export const garageLevelList: GarageLevels[] = [
     xp: 3400000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.McLarenSenna,
+        name: "McLaren Senna",
       },
     ],
   },
@@ -849,12 +821,8 @@ export const garageLevelList: GarageLevels[] = [
     xp: 3800000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.NaranHyperCoupe,
+        name: "Naran Hyper Coupe",
       },
     ],
   },
@@ -863,12 +831,8 @@ export const garageLevelList: GarageLevels[] = [
     xp: 4200000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.BugattiVeyron164GSVitesse,
+        name: "Bugatti Veyron 16.4 GS Vitesse",
       },
     ],
   },
@@ -877,12 +841,8 @@ export const garageLevelList: GarageLevels[] = [
     xp: 4600000,
     garageLevel: [
       {
-        img: Images.BMWZ4,
-        name: "BMW Z4 LCI E89",
-      },
-      {
-        img: Images.ChevroletCamaroLT,
-        name: "Chevrolet Camaro LT",
+        img: Images.LamborghiniSianFKP37,
+        name: "Lamborghini Sián FKP 37",
       },
     ],
   },
