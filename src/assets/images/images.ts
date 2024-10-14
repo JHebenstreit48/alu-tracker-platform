@@ -12,11 +12,21 @@ import AstonMartinDB11 from "../car-photos/aston-martin-db11.jpg";
 
 import AstonMartinDBSSuperlleggera from "../car-photos/aston-martin-dbs-superlleggera.jpg";
 
-import AstonMartinValhalla from "../car-photos/aston-martin-valhalla-concept-car.jpg";
+import AstonMartinOne77 from "../car-photos/aston-martin-one77.jpg";
+
+import AstonMartinV12Speedster from "../car-photos/aston-martin-v12-speedster.jpg";
+
+import AstonMartinValhallaConcept from "../car-photos/aston-martin-valhalla-concept.jpg";
+
+import AstonMartinValkyrie from "../car-photos/aston-martin-valkyrie.jpg";
 
 import AstonMartinVantageGT12 from "../car-photos/aston-martin-vantage-gt12.jpg";
 
+import AstonMartinVictor from "../car-photos/aston-martin-victor.jpg";
+
 import AstonMartinVulcan from "../car-photos/aston-martin-vulcan.jpg";
+
+import AutomobiliPininfarinaBattista from "../car-photos/automobili-pininfarina-battista.jpg";
 
 import BMWi8Roadster from "../car-photos/bmw-i8-roadster.jpg";
 
@@ -25,6 +35,8 @@ import BMW3CSLHommage from "../car-photos/bmw-3-csl.jpg";
 import BMWM4GTS from "../car-photos/bmw-m4-gts.jpg";
 
 import BMWZ4 from "../car-photos/bmw-z4.jpg";
+
+import BolwellMKXNagari500 from "../car-photos/bolwell-mk-x-nagari-500.jpg";
 
 import BugattiChiron from "../car-photos/bugatti-chiron.jpg";
 
@@ -35,6 +47,8 @@ import ChevroletCamaroZL150TH from "../car-photos/camaro-zl1-50th.jpg";
 import ChevroletCorvetteGrandSport from "../car-photos/chevrolet-corvette-grand-sport.jpg";
 
 import ChevroletCorvetteStingray from "../car-photos/chevrolet-corvette-stingray.jpg";
+
+import CitroenGT from "../car-photos/citroen-gt.jpg";
 
 import DodgeChallenger392HemiScatPk from "../car-photos/dodge-challenger-392-hemi-scat.jpg";
 
@@ -52,6 +66,10 @@ import ExoticRidesW70 from "../car-photos/exotic-rides-w70.jpg";
 
 import Ferrari488GTB from "../car-photos/ferrari-488-gtb.jpg";
 
+import Ferrari812Superfast from "../car-photos/ferrari-812-superfast.jpg";
+
+import FerrariF8Tributo from "../car-photos/ferrari-f8-tributo.jpg";
+
 import FerrariF12TDF from "../car-photos/ferrari-f12tdf.jpg";
 
 import FerrariFXXK from "../car-photos/ferrari-fxx-k.jpg";
@@ -66,6 +84,8 @@ import FerrariRoma from "../car-photos/ferrari-roma.jpg";
 
 import FordGT from "../car-photos/ford-gt.jpg";
 
+import FordShelbyGR1 from "../car-photos/ford-shelby-gr-1.jpg";
+
 import FordShelbyGT350R from "../car-photos/ford-shelby gt350r.jpg";
 
 import GentyAkylone from "../car-photos/genty-akylone.jpg";
@@ -78,6 +98,8 @@ import IconaVulcanoTitanium from "../car-photos/icona-vulcano-titanium.jpg";
 
 import InfinitiProjectBlackS from "../car-photos/infiniti-project-black-s.jpg";
 
+import ItaldesignDaVinci from "../car-photos/italdesign-davinci.jpg";
+
 import ItaldesignZerouno from "../car-photos/italdesign-zerouno.jpg";
 
 import JaguarFTypeSVR from "../car-photos/jaguar-f-type-svr.jpg";
@@ -87,6 +109,8 @@ import KoenigseggRegera from "../car-photos/koenigsegg-regera.jpg";
 import LamborghiniAventadorJ from "../car-photos/lamborghini-aventador-j.jpg";
 
 import LamborghiniAventadorSVCoupe from "../car-photos/lamborghini-aventador-sv-coupe.jpg";
+
+import LamborghiniAventadorSVJRoadster from "../car-photos/lamborghini-adventador-svj-roadster.jpg";
 
 import LamborghiniCentenario from "../car-photos/lamborghini-centenario.jpg";
 
@@ -101,6 +125,8 @@ import LamborghiniMurcielagoLP640Roadster from "../car-photos/lamborghini-murcie
 import LamborghiniSestoElemento from "../car-photos/lamborghini-sesto-elemento.jpg";
 
 import LamborghiniSian from "../car-photos/lamborghini-sian-fkp-37.jpg";
+
+import LamborghiniTerzoMillennio from "../car-photos/lamborghini-terzo-millennio.jpg";
 
 import LotusEliseSprint220 from "../car-photos/lotus-elise-sprint-220.jpg";
 
@@ -118,11 +144,17 @@ import McLarenElva from "../car-photos/mclaren-elva.jpg";
 
 import McLarenP1 from "../car-photos/mclaren-p1.jpg";
 
+import McLarenSpeedtail from "../car-photos/mclaren-speedtail.jpg";
+
 import MercedesBenzAMGGTS from "../car-photos/mercedes-benz-amg-gt-s.jpg";
 
 import MitsubishiLancerEvo from "../car-photos/mitsubishi-lancer.jpg";
 
+import NioEP9 from "../car-photos/nio-ep9.jpg";
+
 import Nissan370ZNismo from "../car-photos/nissan-370z-nismo.jpg";
+
+import NissanGTR50Italdesign from "../car-photos/nissan-gtr-50-italdesign.jpg";
 
 import NissanGTRNismo from "../car-photos/nissan-gt-r-nismo.jpg";
 
@@ -136,6 +168,8 @@ import Porsche911 from "../car-photos/porsche-911-carrera-rs-3-8.jpg";
 
 import Porsche911GTSCoupé from "../car-photos/porsche-911-gts-coupe.jpg";
 
+import Porsche911GT3RS from "../car-photos/porsche-911-gt3-rs.jpg";
+
 import Porsche911Targa4S from "../car-photos/porsche-911-targa-4s.jpg";
 
 import PorscheTaycanTurboS from "../car-photos/porsche-taycan-turbo-s.jpg";
@@ -143,6 +177,8 @@ import PorscheTaycanTurboS from "../car-photos/porsche-taycan-turbo-s.jpg";
 import Porsche918Spyder from "../car-photos/porsche-918-spyder.jpg";
 
 import RenaultDezir from "../car-photos/renault-dezir.jpg";
+
+import RenaultTrezor from "../car-photos/renault-trezor.jpg";
 
 import RimacConceptOne from "../car-photos/rimac-concept-one.jpg";
 
@@ -155,6 +191,8 @@ import TVRGriffith from "../car-photos/tvr-griffith.jpg";
 import VandaElectricsDendrobium from "../car-photos/vanda-electrics-dendrobium.jpg";
 
 import VencerSarthe from "../car-photos/vencer-sarthe.jpg";
+
+import Vision1789 from "../car-photos/vision-1789.jpg";
 
 import VWXLSportConcept from "../car-photos/volkswagen-xl-sport-concept.jpg";
 
@@ -177,11 +215,21 @@ export const Images = {
 
   AstonMartinDBSSuperlleggera,
 
-  AstonMartinValhalla,
+  AstonMartinOne77,
+
+  AstonMartinV12Speedster,
+
+  AstonMartinValhallaConcept,
+
+  AstonMartinValkyrie,
 
   AstonMartinVantageGT12,
 
+  AstonMartinVictor,
+
   AstonMartinVulcan,
+
+  AutomobiliPininfarinaBattista,
 
   BMWi8Roadster,
 
@@ -190,6 +238,8 @@ export const Images = {
   BMWM4GTS,
 
   BMWZ4,
+
+  BolwellMKXNagari500,
 
   BugattiChiron,
 
@@ -200,6 +250,8 @@ export const Images = {
   ChevroletCorvetteGrandSport,
 
   ChevroletCorvetteStingray,
+
+  CitroenGT,
 
   DodgeChallenger392HemiScatPk,
 
@@ -217,6 +269,10 @@ export const Images = {
 
   Ferrari488GTB,
 
+  Ferrari812Superfast,
+
+  FerrariF8Tributo,
+
   FerrariF12TDF,
 
   FerrariFXXK,
@@ -231,6 +287,8 @@ export const Images = {
 
   FordGT,
 
+  FordShelbyGR1,
+
   FordShelbyGT350R,
 
   GentyAkylone,
@@ -243,6 +301,8 @@ export const Images = {
 
   InfinitiProjectBlackS,
 
+  ItaldesignDaVinci,
+
   ItaldesignZerouno,
 
   JaguarFTypeSVR,
@@ -252,6 +312,8 @@ export const Images = {
   LamborghiniAventadorJ,
 
   LamborghiniAventadorSVCoupe,
+
+  LamborghiniAventadorSVJRoadster,
 
   LamborghiniCentenario,
 
@@ -266,6 +328,8 @@ export const Images = {
   LamborghiniSestoElemento,
 
   LamborghiniSian,
+
+  LamborghiniTerzoMillennio,
 
   LotusEliseSprint220,
 
@@ -283,11 +347,17 @@ export const Images = {
 
   McLarenP1,
 
+  McLarenSpeedtail,
+
   MercedesBenzAMGGTS,
 
   MitsubishiLancerEvo,
 
+  NioEP9,
+
   Nissan370ZNismo,
+
+  NissanGTR50Italdesign,
 
   NissanGTRNismo,
 
@@ -301,6 +371,8 @@ export const Images = {
 
   Porsche911GTSCoupé,
 
+  Porsche911GT3RS,
+
   Porsche911Targa4S,
 
   PorscheTaycanTurboS,
@@ -308,6 +380,8 @@ export const Images = {
   Porsche918Spyder,
 
   RenaultDezir,
+
+  RenaultTrezor,
 
   RimacConceptOne,
 
@@ -320,6 +394,8 @@ export const Images = {
   VandaElectricsDendrobium,
 
   VencerSarthe,
+
+  Vision1789,
 
   VWXLSportConcept,
 
