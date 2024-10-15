@@ -1,9 +1,6 @@
 /* Parent container to center content */
 .GlJumpList {
   display: flex;
-  justify-content: center;
-  align-items: flex-start; /* Align items to the top of the flexbox */
-  flex-direction: column; /* Stack the button and dropdown vertically */
   height: 100vh; /* Full viewport height */
   margin-top: 2rem; /* Margin at the top of the button */
 }
@@ -28,12 +25,10 @@
 .GLDropDown {
   display: none;
   position: relative;
-  width: 50rem;
-  max-width: 500px; /* Control the width of the dropdown */
-  border: 1px solid #ccc;
-  background-color: #fff;
-  padding: 10px;
-  z-index: 1;
+  width: 20rem;
+  max-width: 350px; /* Control the width of the dropdown */
+  background-color: #000000;
+  padding: 5px;
   text-align: center;
 }
 
@@ -45,23 +40,22 @@
 /* 4-column grid layout for the dropdown */
 .GLDropDownList {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 5px;
+  grid-template-columns: repeat(5, 1fr);
   width: 100%;
-  max-height: 21rem; /* Optional: Limit the height of the dropdown */
-  overflow-y: auto;  /* Scroll when content exceeds height */
-}
-
-.GLDropDownList option {
-  padding: 10px;
-  border: 1px solid #ccc;
-  background-color: #f9f9f9;
+  max-height: 15rem; /* Optional: Limit the height of the dropdown */
+  overflow-y: auto;  /* Scroll when content exceeds height*/
   cursor: pointer;
 }
 
-/* Optional: Hover effect for dropdown options */
-.GLDropDownList option:hover {
-  background-color: #ddd;
+.glAlphabetical {
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mainHeading {
