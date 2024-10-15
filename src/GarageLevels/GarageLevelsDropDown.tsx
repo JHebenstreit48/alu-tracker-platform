@@ -7,9 +7,9 @@ export default function GarageLevelsJumpList() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   // Function to handle level jump
-  function jumpToGarageLevel(event: React.ChangeEvent<HTMLSelectElement>) {
-    const selectedLevel = event.target.value;
-    const element = document.getElementById(`garage-level-${selectedLevel}`);
+  function jumpToGarageLevel(levelKey: number) {
+    // const selectedLevel = event.target.value;
+    const element = document.getElementById(`garage-level ${levelKey}`);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
@@ -30,17 +30,17 @@ export default function GarageLevelsJumpList() {
 
       {/* Dropdown with 4 columns, hidden until clicked */}
       <div className={`GLDropDown ${isDropdownOpen ? 'show' : ''}`}>
-        <select className="GLDropDownList" onChange={jumpToGarageLevel} size={10}>
+        <div className="GLDropDownList">
           {garageLevelList.map((garageLevelNumber) => (
-            <option
-              className='brandAlphabetical'
+            <a
+              className='glAlphabetical'
               key={garageLevelNumber.GarageLevelKey}
-              value={garageLevelNumber.GarageLevelKey}
+              onClick={() => jumpToGarageLevel(garageLevelNumber.GarageLevelKey)}
             >
               {garageLevelNumber.GarageLevelKey}
-            </option>
+            </a>
           ))}
-        </select>
+        </div>
       </div>
 
       {/* Render garage levels */}
@@ -48,7 +48,7 @@ export default function GarageLevelsJumpList() {
         {garageLevelList.map((garageLevelNumber) => (
           <div
             key={garageLevelNumber.GarageLevelKey}
-            id={`garage-level-${garageLevelNumber.GarageLevelKey}`}
+            id={`garage-level ${garageLevelNumber.GarageLevelKey}`}
           >
             <GLContent {...garageLevelNumber} />
           </div>
