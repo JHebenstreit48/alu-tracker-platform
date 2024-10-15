@@ -11,7 +11,7 @@ export default function GarageLevelsJumpList() {
     // const selectedLevel = event.target.value;
     const element = document.getElementById(`garage-level ${levelKey}`);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: 'instant' });
     }
     setIsDropdownOpen(false); // Close the dropdown after selecting a level
   }
