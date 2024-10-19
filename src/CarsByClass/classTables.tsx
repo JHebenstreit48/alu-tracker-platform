@@ -11,7 +11,7 @@ export default function carClassTables() {
 
                         <tr>
                             <th className="table-header" colSpan={2}>
-                                D
+                                
                             </th>
                         </tr>
 

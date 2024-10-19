@@ -10,10 +10,12 @@ export default function Header({ text }: Header) {
     <div className="Header">
       <div>
       <h1 className="PageHeader">{text}</h1>
+      </div>
+      <div>
       <Navigation />
       </div>
       
-    </div>
+      </div>
     
   );
 }

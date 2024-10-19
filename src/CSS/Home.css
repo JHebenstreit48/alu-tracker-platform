@@ -1,0 +1,82 @@
+.asphalt-info {
+    display: flex;
+    color:  white;
+    background-color: black;
+    border: 4px solid rgb(11, 7, 134);
+    justify-content: center;
+    align-items: center;
+    width: 90rem;
+    height: 20rem;
+    margin: 5rem auto 6rem auto;
+    box-shadow: 0 0 9px 5px rgb(223, 190, 7);
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 92%;
+    font-size: 21px;
+}
+
+#asphalt-carousel-slides {
+    width: 90rem;
+    margin: 0 auto;
+    box-shadow: 0 0 7px 6px rgb(223, 190, 7);
+    padding: 1px;
+    border: 5px solid black;
+    margin-bottom: 10rem;
+  }
+
+@media only screen and (max-width: 768px) {
+     .asphalt-info {
+      margin-top: 15rem;
+      max-width: 40rem;
+      margin-bottom: 4rem;
+      height: 31rem;
+    }
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35rem;
+    }
+    #asphalt-carousel-slides {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 38rem;
+        height: 19rem;
+      }
+    
+      .d-block {
+        height: 19rem;
+      }
+  }
+
+  @media only screen and (max-width: 464px) {
+    .asphalt-info {
+      margin-top: 25rem;
+      max-width: 19rem;
+    }
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15rem;
+    }
+    #asphalt-carousel-slides {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5rem;
+      margin-left: auto;
+      margin-right: auto;
+      width: 20rem;
+      height: 12rem;
+    }
+  
+    .d-block {
+      height: 12rem;
+    }
+  }
