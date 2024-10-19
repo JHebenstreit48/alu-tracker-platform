@@ -1,5 +1,5 @@
 import { ImageCarouselType } from "./ImagesForCarousel";
-import '../CSS/Carousel.css';
+import '../CSS/Home.css';
 
 type ImageCarouselPropsType = {
   project: ImageCarouselType[];

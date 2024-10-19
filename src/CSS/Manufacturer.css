@@ -118,6 +118,84 @@
   margin-right: auto;
 }
 
+@media only screen and (max-width: 768px) {
+  .jumpList {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 14rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 5rem;
+    width: 32rem;
+    margin-bottom: 3rem;
+  }
+  .alphabetList {
+    display: flex;
+    height: 4rem;
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 2.7rem;
+  }
+  .manufacturerName {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    margin-bottom: 33px;
+  }
+  .manufacturerInfo {
+    display: flex;
+    text-align: center;
+    max-width: 37rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+  }
+  #Acura {
+    display: flex;
+    margin: 0 auto;
+  }
+  #AjlaniMotors {
+    display: flex;
+    margin: 0 auto;
+  }
+  #AlfaRomeo {
+    display: flex;
+    margin: 0 auto;
+  }
+  #ApexMotors {
+    display: flex;
+    margin: 0 auto;
+  }
+  #ApolloAutomobil {
+    display: flex;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    width: 8rem;
+  }
+  #ArashMotorCompanyLtd {
+    display: flex;
+    margin: 0 auto;
+  }
+  #AresModena {
+    display: flex;
+    margin: 0 auto;
+  }
+  #Arrinera {
+    display: flex;
+    margin: 0 auto;
+  }
+}
+
 @media only screen and (max-width: 464px) {
   .jumpList {
     display: flex;

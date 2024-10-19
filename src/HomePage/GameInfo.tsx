@@ -1,4 +1,4 @@
-import '../CSS/GameAbout.css';
+import '../CSS/Home.css';
 
 export default function GameInfo() {
 return (
@@ -16,7 +16,7 @@ return (
   <br/>
 
   Asphalt Legends Unite is available on Xbox One and Xbox Series consoles, Playstation 4 & 5, Steam,
-  Windows, Nintendo Switch (currently delayed), iOS, Android, Huawei App Gallery, and Galaxy Store.
+  Windows, Nintendo Switch, iOS, Android, Huawei App Gallery, and Galaxy Store.
 </p>
 
 </div>

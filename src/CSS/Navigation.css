@@ -1,48 +1,62 @@
 .nav-css {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 0;
-    margin-bottom: 4px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  margin-bottom: 4px;
 }
 
 .btn-primary {
-    display: flex;
-    font-family: "Cinzel Decorative", serif;
-    font-weight: 700;
-    font-style: normal;
+  display: flex;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .btn-lg {
-    display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(223, 190, 7);
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 3px solid rgb(11, 7, 134);
+  box-shadow: 0 0 7px 4px rgb(223, 190, 7);
+  border-radius: 5px;
+  width: 13rem;
+  text-shadow: 9px 3px 6px #000000;
+  background-image: linear-gradient(to bottom, #510d71, #9641e0 159%);
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-css {
     justify-content: center;
-    align-items: center;
-    color: rgb(223, 190, 7);
-    text-decoration: none;
-    margin-top: 20px;
-    margin-left: 15px;
-    margin-right: 15px;
-    border: 3px solid rgb(11, 7, 134);
-    box-shadow: 0 0 7px 4px rgb(223, 190, 7);
-    border-radius: 5px;
-    width: 13rem;
-    text-shadow: 9px 3px 6px #000000;
-    background-image: linear-gradient(to bottom, #510d71,#9641e0 159%);
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  .btn-lg {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+  }
 }
 
 @media only screen and (max-width: 464px) {
-    .nav-css {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 19px;
-    }
-    .btn-lg {
-        display: flex;
-        margin-top: 1rem;
-        margin-bottom: 0.6rem
-    }
+  .nav-css {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 19px;
   }
+  .btn-lg {
+      display: flex;
+      margin-top: 1rem;
+      margin-bottom: 0.6rem
+  }
+}

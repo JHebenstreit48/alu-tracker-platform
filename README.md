@@ -1,13 +1,12 @@
-
-  # Asphalt Legends Unite - React Version
+# Asphalt Legends Unite - React Version
 
   ![Static Badge](https://img.shields.io/badge/License-MIT-yellow)
 
-  ## Description
+## Description
 
   To create a cohesive site for all Asphalt Legends Unite information.
 
-  ## Table of Contents
+## Table of Contents
 
 - [Description](#description)
 - [Installation](#installation)

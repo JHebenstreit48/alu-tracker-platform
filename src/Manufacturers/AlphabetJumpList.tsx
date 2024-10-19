@@ -2,13 +2,25 @@ import '../CSS/Manufacturer.css';
 import { abc } from './Brands';
 import  { BrandDescription } from './ManufacturersInfo';
 
+function handleScroll(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>, letterKey: string) {
+  event.preventDefault();
+  const element = document.getElementById(letterKey);
+  if (element) {
+    element.scrollIntoView({ behavior: 'instant' });
+  }
+}
+
 export default function abcList() {
     return (
       <div>
         {/* X axis with all letters */}
         <div className='jumpList'>
           {abc.map((letter) => (
-            <a className='brandAlphabetical' href={`#${letter.letterKey}`}>
+            <a
+            className='brandAlphabetical'
+            href={`#${letter.letterKey}`}
+            onClick={(event) => handleScroll(event, letter.letterKey)}
+            >
               {letter.letterKey}
             </a>
           ))}
