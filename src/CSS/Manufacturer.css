@@ -34,8 +34,8 @@
   justify-content: center;
   align-items: center;
   margin-right: 2rem;
-  width: 148px;
-  height: 130px;
+  width: 11rem;
+  height: 11rem;
 }
 
 #AjlaniMotors {
@@ -43,8 +43,8 @@
   justify-content: center;
   align-items: center;
   margin-right: 2rem;
-  width: 140px;
-  height: 152px;
+  width: 9rem;
+  height: 11rem;
 }
 
 #AlfaRomeo {
@@ -52,8 +52,8 @@
   justify-content: center;
   align-items: center;
   margin-right: 2rem;
-  width: 147px;
-  height: 150px;
+  width: 11rem;
+  height: 11rem;
 }
 
 #ApexMotors {
@@ -61,8 +61,8 @@
   justify-content: center;
   align-items: center;
   margin-right: 2rem;
-  width: 150px;
-  height: 110px;
+  width: 15rem;
+  height: 9rem;
 }
 
 #ApolloAutomobil {
@@ -70,8 +70,8 @@
   justify-content: center;
   align-items: center;
   margin-right: 2rem;
-  width: 140px;
-  height: 133px;
+  width: 9rem;
+  height: 10rem;
 }
 
 #ArashMotorCompanyLtd {
@@ -79,8 +79,8 @@
   justify-content: center;
   align-items: center;
   margin-right: 1.8rem;
-  width: 180px;
-  height: 150px;
+  width: 10.8rem;
+  height: 11rem;
 }
 
 #AresModena {
@@ -88,8 +88,8 @@
   justify-content: center;
   align-items: center;
   margin-right: 2rem;
-  width: 155px;
-  height: 154px;
+  width: 9rem;
+  height: 10rem;
 }
 
 #Arrinera {
@@ -97,8 +97,16 @@
   justify-content: center;
   align-items: center;
   margin-right: 2rem;
-  width: 79px;
-  height: 135px;
+  width: 5rem;
+  height: 11rem;
+}
+#Artega {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+  width: 10rem;
+  height: 11rem;
 }
 
 .manufacturerInfo {

@@ -38,6 +38,7 @@ Visit the website to see all relevant information for the game. They will eventu
 [text](https://www.linkedin.com/company/apollo-automobil-limited/?originalSubdomain=hk),
 [Arash Motor Company Ltd. - About page](https://arashcars.com/about/),
 [Ares Modena - Company](https://www.aresdesign.com/en-us/company/),
+[Bentley Motors History](https://www.bentleymotors.com/en/about-bentley/history-and-heritage.html)
 
 ## Tests
 

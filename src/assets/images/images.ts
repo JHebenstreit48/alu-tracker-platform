@@ -50,9 +50,9 @@ import BugattiChiron from "../car-photos/bugatti-chiron.jpg";
 
 import BugattiVeyron164GSVitesse from "../car-photos/bugatti-veyron-16-4-grand-sport-vitesse.jpg";
 
-import ChevroletCamaroLT from "../car-photos/camaro-lt.jpg";
+import ChevroletCamaroLT from "../car-photos/chevrolet-camaro-lt.jpg";
 
-import ChevroletCamaroZL150TH from "../car-photos/camaro-zl1-50th.jpg";
+import ChevroletCamaroZL150TH from "../car-photos/chevrolet-camaro-zl1-50th.jpg";
 
 import ChevroletCorvetteGrandSport from "../car-photos/chevrolet-corvette-grand-sport.jpg";
 
@@ -180,7 +180,7 @@ import McLarenSpeedtail from "../car-photos/mclaren-speedtail.jpg";
 
 import MercedesBenzAMGGTS from "../car-photos/mercedes-benz-amg-gt-s.jpg";
 
-import MitsubishiLancerEvo from "../car-photos/mitsubishi-lancer.jpg";
+import MitsubishiLancerEvo from "../car-photos/mitsubishi-lancer-evo.jpg";
 
 import NaranHyperCoupe from "../car-photos/naran-hyper-coupe.jpg";
 
