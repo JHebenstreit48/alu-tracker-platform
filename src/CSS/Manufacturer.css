@@ -108,6 +108,14 @@
   width: 10rem;
   height: 11rem;
 }
+#Aspark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+  width: 10rem;
+  height: 9rem;
+}
 
 .manufacturerInfo {
   display: flex;

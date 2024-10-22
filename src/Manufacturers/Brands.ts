@@ -52,7 +52,7 @@ export const abc: BrandInfo[] = [
       },
       {
         brandsKey: "Aspark",
-        // logo: Logos.Aspark,
+        logo: Logos.Aspark,
         info: "",
       },
       {
