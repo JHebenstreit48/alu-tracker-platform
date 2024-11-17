@@ -11,23 +11,27 @@
   font-family: "Cinzel Decorative", serif;
   font-weight: 700;
   font-style: normal;
+  background-color: unset;
+  border-color: unset;
+  border: none;
+  border-radius: 0;
 }
 
 .btn-lg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(223, 190, 7);
-  text-decoration: none;
-  margin-top: 20px;
-  margin-left: 15px;
-  margin-right: 15px;
-  border: 3px solid rgb(11, 7, 134);
-  box-shadow: 0 0 7px 4px rgb(223, 190, 7);
-  border-radius: 5px;
-  width: 13rem;
-  text-shadow: 9px 3px 6px #000000;
-  background-image: linear-gradient(to bottom, #510d71, #9641e0 159%);
+display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(223, 190, 7);
+    text-shadow: 3px 2px 2px #7a05be;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 11rem;
+}
+
+.active-link {
+  border-bottom: 3px solid rgb(223, 190, 7);
 }
 
 @media only screen and (max-width: 768px) {

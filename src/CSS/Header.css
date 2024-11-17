@@ -9,11 +9,12 @@
     #554e4e 42%,
     #000000 94%
   );
-  box-shadow: 0 0 12px 7px #490db2;
+  /* box-shadow: 0 0 12px 7px #490db2; */
   display: flex;
   justify-content: center;
   align-items: center;
   color: rgb(255, 196, 0);
+  text-shadow: 7px 6px 5px #19191a;
   font-family: "Cinzel Decorative", serif;
   font-weight: 700;
   font-style: normal;
