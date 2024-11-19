@@ -30,8 +30,19 @@ display: flex;
     width: 11rem;
 }
 
+.btn-lg:hover {
+  /* color: rgb(223, 190, 7); */
+  text-shadow: 3px 2px 2px #7a05be;
+  text-decoration: none;
+  background-color: unset;
+  border-top: 3px solid #7a05be;
+  border-left: 3px solid #7a05be;
+  border-right: 3px solid #7a05be;
+}
+
 .active-link {
-  border-bottom: 3px solid rgb(223, 190, 7);
+  border-left: 3px solid rgb(223, 190, 7);
+  border-right: 3px solid rgb(223, 190, 7);
 }
 
 @media only screen and (max-width: 768px) {
