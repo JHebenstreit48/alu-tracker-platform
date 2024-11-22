@@ -1,0 +1,21 @@
+{
+  "name": "asphalt-database-and-server",
+  "version": "1.0.0",
+  "description": "database and server for ashphalt legends unite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Hebenstreit",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@types/pg": "^8.11.6",
+    "dotenv": "^16.4.5",
+    "inquirer": "^8.2.4",
+    "pg": "^8.12.0"
+  },
+  "dependencies": {
+    "mongoose": "^8.8.2"
+  }
+}
