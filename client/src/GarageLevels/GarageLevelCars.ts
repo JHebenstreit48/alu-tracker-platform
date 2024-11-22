@@ -1,4 +1,4 @@
-import { GarageLevels } from "./interface.ts";
+import { GarageLevels } from "./interface";
 import { Images } from "../assets/images/images";
 
 export const garageLevelList: GarageLevels[] = [
