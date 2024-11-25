@@ -1,0 +1,11 @@
+{
+  "name": "asphalt-legends-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
