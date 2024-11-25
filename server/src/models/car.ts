@@ -8,7 +8,7 @@ const CarSchema = new Schema({
     Model: { type: String, required: true },
     Rarity: { type: String },
     Stars: { type: Number },
-    MaxRank: { type: Number, alias: "Max Rank" },
+    Max_Rank: { type: Number, alias: "Max Rank" },
     Epics: { type: Number },
     ObtainableVia: { type: String, alias: "Obtainable via" },
     GarageLevel: { type: Number, alias: "Garage Lv" },

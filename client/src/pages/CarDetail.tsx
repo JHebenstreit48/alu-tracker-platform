@@ -8,7 +8,8 @@ interface Car {
   Model: string;
   Class: string;
   Stars: number;
-  MaxRank: number;
+  Max_Rank: number;
+
 }
 
 const CarDetail = () => {
@@ -20,11 +21,12 @@ const CarDetail = () => {
   useEffect(() => {
     const fetchCarDetails = async () => {
       try {
-        const response = await fetch(`/api/cars/detail/${id}`);
+        const response = await fetch(`http://localhost:5000/api/cars/detail/${id}`);
         if (!response.ok) {
           throw new Error("Failed to fetch car details.");
         }
         const data: Car = await response.json();
+        console.log(data);
         setCar(data);
       } catch (err) {
         console.error("Error fetching car details:", err);
@@ -48,8 +50,10 @@ const CarDetail = () => {
       <button onClick={() => navigate(-1)}>Back</button>
       <div className="carInfo">
         <p>Class: {car.Class}</p>
+        <p>Brand: {car.Brand}</p>
+        <p>Model: {car.Model}</p>
         <p>Stars: {car.Stars}</p>
-        <p>Max Rank: {car.MaxRank}</p>
+        <p>Max Rank: {car.Max_Rank}</p>
       </div>
     </div>
   );

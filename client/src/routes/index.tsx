@@ -26,7 +26,7 @@ export const router = createBrowserRouter([
                 element: <CarsByClass />,
             },
             {
-                path: "/cars/:Id", // Individual car detail route
+                path: "/cars/:id", // Individual car detail route
                 element: <CarDetail />,
               },
             {
