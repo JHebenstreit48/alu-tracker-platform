@@ -28,9 +28,9 @@ const CarSchema = new Schema({
     Blueprints1: { type: String, alias: "BPs 1*" },
     Blueprints2: { type: Number, alias: "BPs 2*" },
     Blueprints3: { type: Number, alias: "BPs 3*" },
-    Blueprints4: { type: Number, alias: "BPs 4*" },
-    Blueprints5: { type: Number, alias: "BPs 5*" },
-    Blueprints6: { type: Number, alias: "BPs 6*" },
+    Blueprints4: { type: Number, alias: "BPs 4*", required: false, default: null },
+    Blueprints5: { type: Number, alias: "BPs 5*", required: false, default: null },
+    Blueprints6: { type: Number, alias: "BPs 6*", required: false, default: null },
     TotalBlueprints: { type: Number, alias: "Total BPs" },
     Unnamed: { type: Number, alias: "Unnamed: 32" },
     CostEpic: { type: Number, alias: "Cost epic" }
