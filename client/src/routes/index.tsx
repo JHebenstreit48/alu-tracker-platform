@@ -5,6 +5,7 @@ import ErrorPage from "../pages/ErrorPage";
 import Manufacturers from "../pages/Manufacturers";
 import CarsByClass from "../pages/CarsByClass";
 import GarageLevels from "../pages/GarageLevels";
+import CarDetail from "../pages/CarDetail";
 
 export const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ export const router = createBrowserRouter([
                 path: '/carsbyclass',
                 element: <CarsByClass />,
             },
+            {
+                path: "/cars/:Id", // Individual car detail route
+                element: <CarDetail />,
+              },
             {
                 path: '/garagelevels',
                 element: <GarageLevels />,

@@ -1,19 +1,21 @@
-import express from "express";
-import CarModel from "../../models/car"; // This already leverages mongoose via the CarModel schema
+import express, { Request, Response } from "express";
+import CarModel from "../../models/car";
 
 const router = express.Router();
 
-// Fetch all cars of a specific class
-router.get("/cars/:class", async (req, res) => {
-    const carClass = req.params.class;
-    try {
-        const cars = await CarModel.find({ Class: carClass }).sort({ Brand: 1, Model: 1 });
-        console.log("Fetched cars:", cars); // Debug log
-        res.json(cars);
-    } catch (error) {
-        console.error("Error fetching cars:", error);
-        res.status(500).send("Server Error");
+router.get("/api/cars/detail/:id", async (req: Request, res: Response, ): Promise<void> => {
+  try {
+    const carId = parseInt(req.params.id); // Parse ID as an integer
+    const car = await CarModel.findOne({ Id: carId }); // Query database for the car
+
+    if (!car) {
+      res.status(404).json({ message: "Car not found" });
+      return; // Ensure the function stops after sending a response
     }
+
+    res.status(200).json(car); // Send the car details as JSON
+  } catch (error) {
+  }
 });
 
 export default router;

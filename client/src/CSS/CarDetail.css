@@ -1,0 +1,29 @@
+.car-detail-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.car-detail-container h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.carInfo {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: white;
+}
+
+.back-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #555;
+}
