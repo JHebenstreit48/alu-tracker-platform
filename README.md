@@ -30,15 +30,16 @@ Visit the website to see all relevant information for the game. They will eventu
 ## Contributions
 
 [text](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide),
-[text](https://asphalt.fandom.com/wiki/Ajlani_Motors),
-[text](https://en.wikipedia.org/wiki/Acura),
+[Asphalt Fandom - Ajlani Motors](https://asphalt.fandom.com/wiki/Ajlani_Motors),
+[Acura - Wikipedia](https://en.wikipedia.org/wiki/Acura),
 [Honda News - Acura History](https://hondanews.com/en-US/releases/release-e6b4345aa35541ea9556b69e4424209e-acura-history),
-[text](https://www.google.com/search?gs_ssp=eJzj4tVP1zc0zDZNMTfNTc8zYLRSNagwMbcws0w2Tkw2S0sEgiQrg4rURKOkVAtjQ8s0YxMzQ3NTL75EhZTU4sz0PIXE8sSiFADA_RSv&q=a+design+award&oq=A+Design+A&gs_lcrp=EgZjaHJvbWUqEwgBEC4YgwEYrwEYxwEYsQMYgAQyBggAEEUYOTITCAEQLhiDARivARjHARixAxiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIGCAcQRRhB0gEINDUzMmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8),
-[text](https://aroc-uk.com/about/company-history/),
-[text](https://www.linkedin.com/company/apollo-automobil-limited/?originalSubdomain=hk),
+[A' Design Award adn Competition](https://www.google.com/search?gs_ssp=eJzj4tVP1zc0zDZNMTfNTc8zYLRSNagwMbcws0w2Tkw2S0sEgiQrg4rURKOkVAtjQ8s0YxMzQ3NTL75EhZTU4sz0PIXE8sSiFADA_RSv&q=a+design+award&oq=A+Design+A&gs_lcrp=EgZjaHJvbWUqEwgBEC4YgwEYrwEYxwEYsQMYgAQyBggAEEUYOTITCAEQLhiDARivARjHARixAxiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIGCAcQRRhB0gEINDUzMmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8),
+[Aroc](https://aroc-uk.com/about/company-history/),
+[Apollo Automobil Linkedin](https://www.linkedin.com/company/apollo-automobil-limited/?originalSubdomain=hk),
 [Arash Motor Company Ltd. - About page](https://arashcars.com/about/),
 [Ares Modena - Company](https://www.aresdesign.com/en-us/company/),
-[Bentley Motors History](https://www.bentleymotors.com/en/about-bentley/history-and-heritage.html)
+[Bentley Motors History](https://www.bentleymotors.com/en/about-bentley/history-and-heritage.html).
+[Icons8 Star Icon](https://icons8.com/icons/set/star)
 
 ## Tests
 

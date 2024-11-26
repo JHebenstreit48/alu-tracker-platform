@@ -4,7 +4,7 @@ import PageTab from "../components/PageTab";
 import "../CSS/Header.css";
 import "../CSS/Page.css";
 import ClassTables from "../CarsByClass/classTables";
-import "../CSS/CarsByClassTables.css";
+import "../CSS/CarsByClass.css";
 
 interface Car {
     Id: number;

@@ -41,6 +41,16 @@ td {
 	max-width: calc(100%-45);
 }
 
+.class-select {
+	display: flex;
+	margin: 8rem auto 5rem auto;
+	font-size: 1.5rem;
+	padding: 5px;
+	background-color: black;
+	color: rgb(21, 201, 232);
+	box-shadow: 2px 2px 2px 2px rgb(223, 190, 7);
+}
+
 @media only screen and (max-width: 768px) {
 	table {
 		margin-top: 15rem;

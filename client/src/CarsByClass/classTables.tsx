@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import starIcon from "../assets/images/icons8-star-48.png";
+import "../CSS/CarsByClass.css";
 
 interface Car {
     Id: number;
@@ -13,6 +15,22 @@ interface ClassTablesProps {
 }
 
 export default function carClassTables({ cars, selectedClass }: ClassTablesProps) {
+    // Function to render star icons
+    const renderStars = (count: number) => {
+        return (
+            <span>
+                {Array.from({ length: count }, (_, i) => (
+                    <img
+                        key={i}
+                        src={starIcon}
+                        alt="star"
+                        style={{ width: "16px", height: "16px", marginRight: "4px" }}
+                    />
+                ))}
+            </span>
+        );
+    };
+
     return (
         <>
             <div>
@@ -40,7 +58,7 @@ export default function carClassTables({ cars, selectedClass }: ClassTablesProps
                                         {car.Brand} {car.Model}
                                     </Link>
                                 </td>
-                                <td>{car.Stars}</td>
+                                <td>{renderStars(car.Stars)}</td> {/* Render star icons here */}
                             </tr>
                         ))}
                     </tbody>

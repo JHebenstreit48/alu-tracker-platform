@@ -9,6 +9,8 @@ interface Car {
   Class: string;
   Stars: number;
   Max_Rank: number;
+  Top_Speed: number;
+  Acceleration: number;
 
 }
 
@@ -54,6 +56,8 @@ const CarDetail = () => {
         <p>Model: {car.Model}</p>
         <p>Stars: {car.Stars}</p>
         <p>Max Rank: {car.Max_Rank}</p>
+        <p>Top Speed: {car.Top_Speed}</p>
+        <p>Acceleration: {car.Acceleration} </p>
       </div>
     </div>
   );
