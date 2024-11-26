@@ -5,7 +5,7 @@ import carData from "../../Resources/asphalt_legends_cars.json"; // Replace with
 const seedDatabase = async () => {
   try {
     // Connect to your MongoDB
-    await mongoose.connect("mongodb://localhost:27017/asphalt_legends_db");
+    await mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/asphalt_legends" );
 
     console.log("Connected to MongoDB!");
 
