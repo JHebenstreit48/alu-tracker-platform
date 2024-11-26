@@ -1,4 +1,5 @@
 import express from "express";
+import path from "node:path";
 import cors from "cors";
 import apiRoutes from "./routes/api"; // Ensure this matches your folder structure
 import { connectToDb } from "./Utility/connection";
@@ -10,6 +11,12 @@ app.use(express.json()); // Parse JSON requests
 app.use(cors()); // Enable CORS for cross-origin requests
 
 app.use("/api", apiRoutes);
+
+app.use(express.static(path.join(process.cwd(), '../client/dist')));
+
+app.get('*', (_req, res) => {
+  res.sendFile(path.join(process.cwd(), '../client/dist/index.html'));
+});
 
 const main = async () => {
     try {
