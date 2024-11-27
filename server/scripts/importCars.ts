@@ -1,6 +1,5 @@
 import dotenv from "dotenv";
 dotenv.config();
-
 import mongoose from "mongoose";
 import CarModel from "../src/models/car";
 import carData from "../Resources/asphalt_legends_cars";

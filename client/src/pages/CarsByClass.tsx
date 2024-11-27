@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 import Header from "../components/Header";
 import PageTab from "../components/PageTab";
-import "../CSS/Header.css";
-import "../CSS/Page.css";
 import ClassTables from "../CarsByClass/classTables";
 import "../CSS/CarsByClass.css";
 
@@ -19,7 +17,7 @@ export default function CarsByClass() {
 
     useEffect(() => {
         console.log("Selected class:", selectedClass); // Debug log
-        fetch(`http://localhost:5000/api/cars/${selectedClass}`)
+        fetch(`/api/cars/${selectedClass}`)
             .then((response) => {
                 console.log("Fetch response:", response); // Debug log
                 if (!response.ok) {

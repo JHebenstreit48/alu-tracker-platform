@@ -20,10 +20,10 @@ const CarDetail = () => {
   const [car, setCar] = useState<Car | null>(null);
   const [error, setError] = useState(false);
 
-  useEffect(() => {
-    const fetchCarDetails = async () => {
+
+    const fetchCarDetails = async (id: number) => {
       try {
-        const response = await fetch(`http://localhost:5000/api/cars/detail/${id}`);
+        const response = await fetch(`/api/cars/detail/${id}`);
         if (!response.ok) {
           throw new Error("Failed to fetch car details.");
         }
@@ -36,7 +36,10 @@ const CarDetail = () => {
       }
     };
 
-    fetchCarDetails();
+    useEffect(() => {
+      if (id) {
+    fetchCarDetails(Number(id));
+  }
   }, [id]);
 
   if (error) {
