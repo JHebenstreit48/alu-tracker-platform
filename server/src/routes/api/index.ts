@@ -1,36 +1,38 @@
-import express, { Request, Response } from "express";
+import express, { Request, Response, Router } from "express";
 import CarModel from "../../models/car";
 
-const router = express.Router();
+const router: Router = express.Router();
 
-router.get("/cars/detail/:id", async (req: Request, res: Response, ): Promise<void> => {
-  try {
-    const car = await CarModel.findOne({ _id: req.params.id }); // Query database for the car
-
-    if (!car) {
-      res.status(404).json({ message: "Car not found" });
-      return; // Ensure the function stops after sending a response
-    }
-
-    res.status(200).json(car); // Send the car details as JSON
-  } catch (error) {
-    res.status(500).json({ message: "Car not found" });
-  }
-});
-
-  router.get("/api/cars/:selectedClass", async (req: Request, res: Response): Promise<void> => {
+// Define the route
+router.get(
+  "/cars/:class",
+  async (req: Request<{ class: string }>, res: Response): Promise<void> => {
+    const carClass = req.params.class; // Extract the 'class' parameter from the URL
     try {
-      const selectedClass = await CarModel.find({ _selectedClass: req.params.selectedClass }); // Query database for the car
-
-      if (!selectedClass) {
-        res.status(404).json({ message: "Class not found" });
-        return; // Ensure the function stops after sending a response
+      // Query the database for cars with the specified class
+      const cars = await CarModel.find({ Class: carClass });
+      if (!cars || cars.length === 0) {
+        res.status(404).json({ message: "No cars found for this class." });
+        return;
       }
-
-      res.status(200).json(selectedClass); // Send the car details as JSON
+      res.status(200).json(cars); // Send the cars as JSON
     } catch (error) {
-      res.status(500).json({ message: "Class not found" });
+      console.error("Error in /api/cars/:class route:", error);
+
+      // Handle 'unknown' type for error
+      if (error instanceof Error) {
+        res.status(500).json({
+          error: "Internal server error",
+          details: error.message, // Access 'message' safely
+        });
+      } else {
+        res.status(500).json({
+          error: "Internal server error",
+          details: "An unknown error occurred", // Fallback for non-Error types
+        });
+      }
     }
-});
+  }
+);
 
 export default router;
