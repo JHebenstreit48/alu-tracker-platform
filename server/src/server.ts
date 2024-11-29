@@ -18,9 +18,9 @@ app.use("/api", apiRoutes);
 app.use(express.static(path.join(process.cwd(), "../client/dist")));
 
 // Catch-all route for React's client-side routing
-// app.get("*", (_req, res) => {
-//   res.sendFile(path.join(process.cwd(), "../client/dist/index.html"));
-// });
+app.get("*", (_req, res) => {
+  res.sendFile(path.join(process.cwd(), "../client/dist/index.html"));
+});
 
 // Main function to connect to the database and start the server
 const main = async () => {

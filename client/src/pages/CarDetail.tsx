@@ -22,18 +22,31 @@ const CarDetail = () => {
 
 
     const fetchCarDetails = async (id: number) => {
-      try {
-        const response = await fetch(`http://localhost:3001/api/cars/detail/${id}`);
+      console.log(id);
+      fetch(`http://localhost:3001/api/cars/detail/${id}`)
+      .then((response) => {
+        console.log("Fetch response:", response); // Debug log
         if (!response.ok) {
-          throw new Error("Failed to fetch car details.");
+            throw new Error(`HTTP error! status: ${response.status}`);
         }
-        const data: Car = await response.json();
-        console.log(data);
-        setCar(data);
-      } catch (err) {
-        console.error("Error fetching car details:", err);
-        setError(true);
-      }
+        return response.json();
+    })
+    .then((data) => {
+        console.log("Fetched data:", data); // Debug log
+    })
+    .catch((error) => console.error("Fetch error:", error));
+      // try {
+        
+      //   if (!response.ok) {
+      //     throw new Error("Failed to fetch car details.");
+      //   }
+      //   const data: Car = await response.json();
+      //   console.log(data);
+      //   setCar(data);
+      // } catch (err) {
+      //   console.error("Error fetching car details:", err);
+      //   setError(true);
+      // }
     };
 
     useEffect(() => {

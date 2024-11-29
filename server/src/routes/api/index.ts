@@ -12,8 +12,8 @@ router.get(
       // Query the database for cars with the specified class
       const cars = await CarModel.find({ Class: carClass });
       console.log(cars);
-      
-      
+
+
       if (!cars || cars.length === 0) {
         res.status(404).json({ message: "No cars found for this class." });
         return;
@@ -38,4 +38,25 @@ router.get(
   }
 );
 
+router.get("/api/cars/detail/:id", async (req: Request, res: Response,): Promise<void> => {
+  // console.log("It's working");
+  // res.status(200).json([]);
+  // return;
+  try {
+    const carId = parseInt(req.params.id); // Parse ID as an integer
+    const car = await CarModel.findOne({ Id: carId }); // Query database for the car
+
+    if (!car) {
+      res.status(404).json({ message: "Car not found" });
+      return; // Ensure the function stops after sending a response
+    }
+
+    res.status(200).json(car); // Send the car details as JSON
+  } catch (error) {
+    console.log(error);
+  }
+}
+);
+
 export default router;
+
