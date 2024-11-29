@@ -7,8 +7,8 @@ export default defineConfig({
   server: {
     proxy: {
       // Proxy all requests starting with `/api` to the backend server
-      '/api': {
-        target: 'http://localhost:5000', // Backend server
+      '/api/cars': {
+        target: 'http://localhost:3001', // Backend server
         changeOrigin: true, // Needed for virtual hosted sites
         secure: false, // If your backend uses HTTPS, set this to true
         rewrite: (path) => path.replace(/^\/api/, ''), // Optional: rewrite paths if needed

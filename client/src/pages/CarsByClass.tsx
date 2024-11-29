@@ -19,7 +19,7 @@ export default function CarsByClass() {
         console.log("Selected class:", selectedClass); // Debug log
 
         // Fetch cars based on selected class using .then and .catch
-        fetch(`/api/cars/${selectedClass}`)
+        fetch(`http://localhost:3001/api/cars/${selectedClass}`)
             .then((response) => {
                 console.log("Fetch response:", response); // Debug log
                 if (!response.ok) {

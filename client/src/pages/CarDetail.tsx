@@ -23,7 +23,7 @@ const CarDetail = () => {
 
     const fetchCarDetails = async (id: number) => {
       try {
-        const response = await fetch(`/api/cars/detail/${id}`);
+        const response = await fetch(`http://localhost:3001/api/cars/detail/${id}`);
         if (!response.ok) {
           throw new Error("Failed to fetch car details.");
         }

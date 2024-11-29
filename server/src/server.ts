@@ -18,9 +18,9 @@ app.use("/api", apiRoutes);
 app.use(express.static(path.join(process.cwd(), "../client/dist")));
 
 // Catch-all route for React's client-side routing
-app.get("*", (_req, res) => {
-  res.sendFile(path.join(process.cwd(), "../client/dist/index.html"));
-});
+// app.get("*", (_req, res) => {
+//   res.sendFile(path.join(process.cwd(), "../client/dist/index.html"));
+// });
 
 // Main function to connect to the database and start the server
 const main = async () => {
@@ -28,7 +28,7 @@ const main = async () => {
     await connectToDb(); // Connect to MongoDB
     console.log("Database connected successfully.");
 
-    const PORT = process.env.PORT || 5000; // Use Render's PORT or fallback to 5000 locally
+    const PORT = process.env.PORT || 3001; // Use Render's PORT or fallback to 5000 locally
     app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
   } catch (error) {
     console.error("Failed to start server:", error);

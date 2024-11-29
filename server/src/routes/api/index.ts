@@ -11,6 +11,9 @@ router.get(
     try {
       // Query the database for cars with the specified class
       const cars = await CarModel.find({ Class: carClass });
+      console.log(cars);
+      
+      
       if (!cars || cars.length === 0) {
         res.status(404).json({ message: "No cars found for this class." });
         return;
