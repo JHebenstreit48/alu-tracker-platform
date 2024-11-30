@@ -1,3 +1,12 @@
+.error-message {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
 .car-detail-container {
     padding: 20px;
     background-color: #f9f9f9;

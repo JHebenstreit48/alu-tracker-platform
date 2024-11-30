@@ -1,5 +1,6 @@
 import express, { Request, Response, Router } from "express";
 import CarModel from "../../models/car";
+import mongoose from "mongoose";
 
 const router: Router = express.Router();
 
@@ -38,24 +39,41 @@ router.get(
   }
 );
 
-router.get("/api/cars/detail/:id", async (req: Request, res: Response,): Promise<void> => {
-  // console.log("It's working");
-  // res.status(200).json([]);
-  // return;
-  try {
-    const carId = parseInt(req.params.id); // Parse ID as an integer
-    const car = await CarModel.findOne({ Id: carId }); // Query database for the car
+router.get(
+  "/cars/detail/:id",
+  async (req: Request<{ id: string }>, res: Response): Promise<void> => {
+    const { id } = req.params;
+    console.log("Fetching car details for ID:", id);
 
-    if (!car) {
-      res.status(404).json({ message: "Car not found" });
-      return; // Ensure the function stops after sending a response
+    try {
+      // Check if the ID is a valid ObjectId
+      if (mongoose.Types.ObjectId.isValid(id)) {
+        const car = await CarModel.findById(id);
+
+        if (!car) {
+          console.log("Car not found for ObjectId:", id);
+          res.status(404).json({ error: "Car not found" });
+          return;
+        }
+
+        res.json(car); // Return the car details
+        return;
+      }
+
+      // If not a valid ObjectId, query by customId
+      const car = await CarModel.findOne({ customId: id });
+      if (!car) {
+        console.log("Car not found for customId:", id);
+        res.status(404).json({ error: "Car not found" });
+        return;
+      }
+
+      res.json(car); // Return the car details
+    } catch (error) {
+      console.error("Error fetching car details:", error);
+      res.status(500).json({ error: "Failed to fetch car details" });
     }
-
-    res.status(200).json(car); // Send the car details as JSON
-  } catch (error) {
-    console.log(error);
   }
-}
 );
 
 export default router;
