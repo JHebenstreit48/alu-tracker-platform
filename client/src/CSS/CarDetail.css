@@ -1,20 +1,15 @@
-.error-message {
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    font-size: 2rem;
-}
 
-.car-detail-container {
+.car-detail {
     padding: 20px;
-    background-color: #f9f9f9;
     color: #333;
 }
 
-.car-detail-container h1 {
-    font-size: 2rem;
+.carName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    color: white;
     margin-bottom: 15px;
 }
 

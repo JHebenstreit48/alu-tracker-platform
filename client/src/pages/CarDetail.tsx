@@ -47,7 +47,7 @@ const CarDetail = () => {
 
   if (error) {
     console.log(error);
-    
+
     return (
       <div className="error-message">
         Failed to load car details.
@@ -65,20 +65,33 @@ const CarDetail = () => {
 
   return (
     <div className="car-detail">
-      
+
       <div>
 
-      <button onClick={() => navigate("/")}>Go Back</button>
+        <button onClick={() => navigate("/carsbyclass")}>Go Back</button>
 
       </div>
-     
-      <h1>
+
+      <h1 className="carName">
+
         {car.Brand} {car.Model}
+
       </h1>
-      <p>Class: {car.Class}</p>
-      <p>Top Speed: {car.Top_Speed} km/h</p>
-      <p>Acceleration: {car.Acceleration} m/s²</p>
-      <p>Stars: {car.Stars}</p>
+
+      <div className="carInfo">
+
+        <p>Class: {car.Class}</p>
+        <p>Top Speed: {car.Top_Speed} km/h</p>
+        <p>Acceleration: {car.Acceleration} m/s²</p>
+        <p>Stars: {car.Stars}</p>
+        <p>Max Rank: {car.Max_Rank}</p>
+        <p>Top Speed: {car.Top_Speed}</p>
+        <p>Acceleration: {car.Acceleration}</p>
+        
+
+
+      </div>
+
     </div>
   );
 };
