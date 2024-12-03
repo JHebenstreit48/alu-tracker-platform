@@ -46,6 +46,8 @@ const CarDetail = () => {
   }, [id]);
 
   if (error) {
+    console.log(error);
+    
     return (
       <div className="error-message">
         Failed to load car details.

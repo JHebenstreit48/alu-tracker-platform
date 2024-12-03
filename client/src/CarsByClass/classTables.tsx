@@ -3,7 +3,7 @@ import starIcon from "../assets/images/icons8-star-48.png";
 import "../CSS/CarsByClass.css";
 
 interface Car {
-    Id: number;
+    _id: string;
     Brand: string;
     Model: string;
     Stars: number;
@@ -51,10 +51,10 @@ export default function carClassTables({ cars, selectedClass }: ClassTablesProps
 
                         {/* Dynamic Car Rows */}
                         {cars.map((car) => (
-                            <tr className="table-data" key={car.Id}>
+                            <tr className="table-data" key={car._id}>
                                 <td className="car-name">
                                     {/* Link to Car Details */}
-                                    <Link to={`/cars/${car.Id}`}>
+                                    <Link to={`/cars/${car._id}`}>
                                         {car.Brand} {car.Model}
                                     </Link>
                                 </td>

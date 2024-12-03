@@ -5,7 +5,7 @@ import ClassTables from "../CarsByClass/classTables";
 import "../CSS/CarsByClass.css";
 
 interface Car {
-    Id: number;
+    _id: string;
     Brand: string;
     Model: string;
     Stars: number;
@@ -54,7 +54,7 @@ export default function CarsByClass() {
                         </select>
                     </div>
                     {/* Pass data to ClassTables */}
-                    <ClassTables cars={cars} selectedClass={selectedClass} />
+                    <ClassTables cars={cars.sort((a,b) => (a.Stars-b.Stars))} selectedClass={selectedClass} />
                 </PageTab>
             </div>
         </>
