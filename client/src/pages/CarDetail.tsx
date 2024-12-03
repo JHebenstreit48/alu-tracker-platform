@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import starIcon from "../assets/images/icons8-star-48.png";
 import "../CSS/CarDetail.css";
 
 interface Car {
@@ -68,27 +69,82 @@ const CarDetail = () => {
 
       <div>
 
-        <button onClick={() => navigate("/carsbyclass")}>Go Back</button>
+        <button className="backBtn" onClick={() => navigate("/carsbyclass")}>Go Back</button>
 
       </div>
 
-      <h1 className="carName">
+      <div>
 
-        {car.Brand} {car.Model}
+        <h1 className="carName">
 
-      </h1>
+          {car.Brand} {car.Model}
+
+        </h1>
+
+      </div>
+
+      <div>
+
+        <div>
+
+          <img
+            src={`http://localhost:3001/images/${car.Id}.jpg`}
+            alt={`${car.Brand} ${car.Model}`}
+            className="carImage"
+          />
+
+        </div>
+
+      </div>
+
+      <table>
+
+        <tbody>
+
+          <tr>
+
+            <th className="table-header" colSpan={2}>
+              Class {car.Class}
+            </th>
+
+          </tr>
+
+          <tr>
+
+            <td>
+
+              <span>
+                {Array.from({ length: car.Stars }, (_, i) => (
+                  <img
+                    key={i}
+                    src={starIcon}
+                    alt="star"
+                    style={{ width: "27px", height: "27px", marginRight: "4px" }}
+                  />
+                ))}
+              </span>
+
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td className="maxRank">Max Rank: {car.Max_Rank}</td>
+
+          </tr>
+
+        </tbody>
+
+      </table>
 
       <div className="carInfo">
 
-        <p>Class: {car.Class}</p>
         <p>Top Speed: {car.Top_Speed} km/h</p>
         <p>Acceleration: {car.Acceleration} m/s²</p>
-        <p>Stars: {car.Stars}</p>
-        <p>Max Rank: {car.Max_Rank}</p>
+
         <p>Top Speed: {car.Top_Speed}</p>
         <p>Acceleration: {car.Acceleration}</p>
-        
-
 
       </div>
 
