@@ -4,6 +4,19 @@ import mongoose from "mongoose";
 
 const router: Router = express.Router();
 
+router.get(
+  "/cars",
+  async (_req: Request, res: Response): Promise<void> => {
+    try {
+      const cars = await CarModel.find();
+      res.status(200).json(cars);
+    } catch (error) {
+      res.status(500).json({ error: "Failed to fetch cars" });
+    }
+  }
+);
+
+
 // Define the route
 router.get(
   "/cars/:class",
