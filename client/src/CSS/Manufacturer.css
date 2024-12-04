@@ -212,7 +212,7 @@
   }
 }
 
-@media only screen and (max-width: 464px) {
+@media only screen and (max-width: 390px) {
   .jumpList {
     display: flex;
     flex-wrap: wrap;
@@ -222,6 +222,9 @@
     height: 5rem;
     width: 17rem;
     margin-bottom: 3rem;
+  }
+  .manufacturerLetter {
+    margin-top: 19rem;
   }
   .alphabetList {
     display: flex;

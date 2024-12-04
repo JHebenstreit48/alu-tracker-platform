@@ -1,4 +1,4 @@
-# Asphalt Legends Unite - React Version
+# Asphalt Legends Unite Tracker
 
   ![Static Badge](https://img.shields.io/badge/License-MIT-yellow)
 

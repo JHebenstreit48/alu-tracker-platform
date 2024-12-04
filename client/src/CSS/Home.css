@@ -61,12 +61,13 @@
       flex-direction: column;
       margin-top: 23rem;
       width: 21rem;
-      height: 76rem;
+      height: 55rem;
     }
     .info {
         display: flex;
         text-align: center;
         margin-top: 1.5rem;
+        width: 20rem;
     }
     #asphalt-carousel-slides {
       display: flex;

@@ -27,7 +27,7 @@ export default function abcList() {
         </div>
   
         {/* Y axis or vertical axis with all brands and descriptions */}
-        <div>
+        <div className='manufacturerLetter'>
           {abc.map((abc) => (
             <div key={abc.letterKey} id={abc.letterKey}>
               
