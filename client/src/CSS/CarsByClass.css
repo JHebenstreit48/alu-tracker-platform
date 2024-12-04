@@ -4,7 +4,7 @@ table {
 	border-spacing: 0;
 	border-collapse: collapse;
 	width: 34%;
-	box-shadow: 0 0 20px 14px rgb(223, 190, 7);
+	box-shadow: 0 0 10px 6px rgb(223, 190, 7);
 }
 
 .table-header {
@@ -48,7 +48,7 @@ td {
 	padding: 5px;
 	background-color: black;
 	color: rgb(21, 201, 232);
-	box-shadow: 2px 2px 2px 2px rgb(223, 190, 7);
+	box-shadow: 0 0.3px 5px 2px rgb(223, 190, 7);
 }
 
 @media only screen and (max-width: 768px) {

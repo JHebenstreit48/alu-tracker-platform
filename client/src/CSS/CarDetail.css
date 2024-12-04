@@ -28,6 +28,13 @@
     margin-bottom: 15px;
 }
 
+.carImage {
+    display: flex;
+    height: 23rem;
+    margin: 5rem auto 6rem auto;
+
+}
+
 .maxRank {
     font-size: 1.6rem;
 }

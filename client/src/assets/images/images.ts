@@ -244,7 +244,7 @@ import WMotorsLykanHypersport from "../car-photos/w-motors-lykan-hypersport.jpg"
 
 
 
-export const Images = {
+export const Images: Record<string, string> = {
   AcuraNSX,
 
   ApexAP0,

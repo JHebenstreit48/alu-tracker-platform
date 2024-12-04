@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import starIcon from "../assets/images/icons8-star-48.png";
 import "../CSS/CarDetail.css";
+import { Images } from "../assets/images/images";
+import { DynamicImageKeys } from "../assets/images/DynamicImageKeys";
 
 interface Car {
   Id: number; // Matches the database field
@@ -64,6 +66,24 @@ const CarDetail = () => {
     );
   }
 
+  const carImagePath = (() => {
+    const normalizedModel = car.Model.toLowerCase()
+      .replace(/\./g, "-") // Replace dots with hyphens
+      .replace(/\s+/g, "-"); // Replace spaces with hyphens
+  
+    const dynamicKey = `${car.Brand.toLowerCase().replace(/\s+/g, "-")}-${normalizedModel}`;
+    // console.log("Car Model:", car.Model);
+    // console.log("Normalized Model:", normalizedModel);
+    // console.log("Dynamic Key:", dynamicKey);
+  
+    const pascalCaseKey = DynamicImageKeys[dynamicKey];
+    console.log("PascalCase Key:", pascalCaseKey);
+  
+    return pascalCaseKey && Images[pascalCaseKey]
+      ? Images[pascalCaseKey]
+      : Images["placeholder"];
+  })();
+
   return (
     <div className="car-detail">
 
@@ -87,11 +107,11 @@ const CarDetail = () => {
 
         <div>
 
-          <img
-            src={`http://localhost:3001/images/${car.Id}.jpg`}
-            alt={`${car.Brand} ${car.Model}`}
-            className="carImage"
-          />
+        <img
+        src={carImagePath}
+        alt={`${car.Brand} ${car.Model}`}
+        className="carImage"
+      />
 
         </div>
 
