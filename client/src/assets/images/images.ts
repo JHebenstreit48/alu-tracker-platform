@@ -52,7 +52,7 @@ import BugattiVeyron164GSVitesse from "../car-photos/bugatti-veyron-16-4-grand-s
 
 import ChevroletCamaroLT from "../car-photos/chevrolet-camaro-lt.jpg";
 
-import ChevroletCamaroZL150TH from "../car-photos/chevrolet-camaro-zl1-50th.jpg";
+import ChevroletCamaroZL150thEdition from "../car-photos/chevrolet-camaro-zl1-50th.jpg";
 
 import ChevroletCorvetteGrandSport from "../car-photos/chevrolet-corvette-grand-sport.jpg";
 
@@ -299,7 +299,7 @@ export const Images: Record<string, string> = {
 
   ChevroletCamaroLT,
 
-  ChevroletCamaroZL150TH,
+  ChevroletCamaroZL150thEdition,
 
   ChevroletCorvetteGrandSport,
 

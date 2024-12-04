@@ -33,7 +33,7 @@ export const garageLevelList: GarageLevels[] = [
         name: "BMW 3.0 CSL Hommage",
       },
       {
-        img: Images.ChevroletCamaroZL150TH,
+        img: Images.ChevroletCamaroZL150thEdition,
         name: "Chevrolet Camaro ZL1 50TH Ed.",
       },
       {
