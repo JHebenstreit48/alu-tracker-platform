@@ -431,8 +431,8 @@ export const garageLevelList: GarageLevels[] = [
         name: "Chevrolet Corvette Stingray",
       },
       {
-        img: Images.DrokoGTE,
-        name: "Droko GTE",
+        img: Images.DrakoGTE,
+        name: "Drako GTE",
       },
     ],
   },

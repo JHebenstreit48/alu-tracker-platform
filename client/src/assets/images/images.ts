@@ -267,7 +267,7 @@ export const Images: Record<string, string> = {
 
   DodgeViperGTS,
 
-  DrokoGTE,
+  DrakoGTE,
 
   DSETense,
 
