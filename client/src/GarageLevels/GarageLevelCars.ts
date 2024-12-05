@@ -305,8 +305,8 @@ export const garageLevelList: GarageLevels[] = [
         name: "W Motors Lykan Hypersport",
       },
       {
-        img: Images.AstonMartinDBSSuperlleggera,
-        name: "Aston Martin DBS Superlleggera",
+        img: Images.AstonMartinDBSSuperleggera,
+        name: "Aston Martin DBS Superleggera",
       },
     ],
   },

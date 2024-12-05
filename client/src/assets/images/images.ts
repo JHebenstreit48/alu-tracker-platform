@@ -10,7 +10,7 @@ import AresS1 from "../car-photos/ares-s1.jpg";
 import ArrineraHussarya33 from "../car-photos/arrinera-hussarya-33.jpg";
 import ArtegaScaloSuperelletra from "../car-photos/artega-scalo-superelletra.jpg";
 import AstonMartinDB11 from "../car-photos/aston-martin-db11.jpg";
-import AstonMartinDBSSuperlleggera from "../car-photos/aston-martin-dbs-superlleggera.jpg";
+import AstonMartinDBSSuperleggera from "../car-photos/aston-martin-dbs-superleggera.jpg";
 import AstonMartinOne77 from "../car-photos/aston-martin-one77.jpg";
 import AstonMartinV12Speedster from "../car-photos/aston-martin-v12-speedster.jpg";
 import AstonMartinValhallaConcept from "../car-photos/aston-martin-valhalla-concept-car.jpg";
@@ -219,7 +219,7 @@ export const Images: Record<string, string> = {
   ArrineraHussarya33,
   ArtegaScaloSuperelletra,
   AstonMartinDB11,
-  AstonMartinDBSSuperlleggera,
+  AstonMartinDBSSuperleggera,
   AstonMartinOne77,
   AstonMartinV12Speedster,
   AstonMartinValhallaConcept,

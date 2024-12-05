@@ -114,7 +114,7 @@ const CarDetail = () => {
 
         <h1 className="carName">
 
-          {car.Brand}{car.Model}
+          {car.Brand} {car.Model}
 
         </h1>
 
