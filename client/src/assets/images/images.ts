@@ -4,6 +4,7 @@ import AlfaRomeoGiuliaGTAm from "../car-photos/alfa-romeo-giulia-gtam.jpg";
 import ApexAP0 from "../car-photos/apex-ap-0.jpg";
 import ApolloIE from "../car-photos/apollo-ie.jpg";
 import ApolloN from "../car-photos/apollo-n.jpg";
+import ArashAF8FalconEdition from "../car-photos/arash-af8-falcon-edition.jpg";
 import ArashAF10 from "../car-photos/arash-af10.jpg";
 import AresS1 from "../car-photos/ares-s1.jpg";
 import ArrineraHussarya33 from "../car-photos/arrinera-hussarya-33.jpg";
@@ -14,6 +15,7 @@ import AstonMartinOne77 from "../car-photos/aston-martin-one77.jpg";
 import AstonMartinV12Speedster from "../car-photos/aston-martin-v12-speedster.jpg";
 import AstonMartinValhallaConcept from "../car-photos/aston-martin-valhalla-concept-car.jpg";
 import AstonMartinValkyrie from "../car-photos/aston-martin-valkyrie.jpg";
+import AstonMartinValour from "../car-photos/aston-martin-valour.jpg";
 import AstonMartinVantageGT12 from "../car-photos/aston-martin-vantage-gt12.jpg";
 import AstonMartinVantageV122022 from "../car-photos/aston-martin-vantage-v12-2022.jpg";
 import AstonMartinVictor from "../car-photos/aston-martin-victor.jpg";
@@ -25,13 +27,20 @@ import BentleyContinentalGT3 from "../car-photos/bentley-continental-gt3.jpg";
 import BentleyMullinerBacalar from "../car-photos/bentley-mulliner-bacalar.jpg";
 import BMW3CSLHommage from "../car-photos/bmw-3-csl.jpg";
 import BMWi8Roadster from "../car-photos/bmw-i8-roadster.jpg";
+import BMWM4GT3 from "../car-photos/bmw-m4-gt3.jpg";
 import BMWM4GTS from "../car-photos/bmw-m4-gts.jpg";
 import BMWZ4 from "../car-photos/bmw-z4.jpg";
 import BolwellMKXNagari500 from "../car-photos/bolwell-mk-x-nagari-500.jpg";
 import BrabhamBT62 from "../car-photos/brabham-bt62.jpg";
+import BugattiBolide from "../car-photos/bugatti-bolide.jpg";
 import BugattiCentodieci from "../car-photos/bugatti-centodieci.jpg";
 import BugattiChiron from "../car-photos/bugatti-chiron.jpg";
+import BugattiChironPurSport from "../car-photos/bugatti-chiron-pur-sport.jpg";
+import BugattiChironSuperSport300Plus from "../car-photos/bugatti-chiron-super-sport-300-plus.jpg";
+import BugattiDivo from "../car-photos/bugatti-divo.jpg";
 import BugattiEB110 from "../car-photos/bugatti-eb110.jpg";
+import BugattiLaVoitureNoire from "../car-photos/bugatti-la-voiture-noire.jpg";
+import BugattiMistral from "../car-photos/bugatti-mistral.jpg";
 import BugattiVeyron164GSVitesse from "../car-photos/bugatti-veyron-16-4-grand-sport-vitesse.jpg";
 import CadillacCienConcept from "../car-photos/cadillac-cien-concept.jpg";
 import ChevroletCamaroLT from "../car-photos/chevrolet-camaro-lt.jpg";
@@ -51,6 +60,7 @@ import DonkervoortD8GTOIndividualSeries from "../car-photos/donkervoort-d8-gto-i
 import DrakoGTE from "../car-photos/drako-gte.jpg";
 import DSETense from "../car-photos/ds-e-tense.jpg";
 import ExoticRidesW70 from "../car-photos/exotic-rides-w70.jpg";
+import FaradayFutureFFZero1 from "../car-photos/faraday-future-ffzero1.jpg";
 import Ferrari296GTB from "../car-photos/ferrari-296-gtb.jpg";
 import Ferrari488GTB from "../car-photos/ferrari-488-gtb.jpg";
 import Ferrari599xxEvo from "../car-photos/ferrari-599xx-evo.jpg";
@@ -203,6 +213,7 @@ export const Images: Record<string, string> = {
   ApexAP0,
   ApolloIE,
   ApolloN,
+  ArashAF8FalconEdition,
   ArashAF10,
   AresS1,
   ArrineraHussarya33,
@@ -213,6 +224,7 @@ export const Images: Record<string, string> = {
   AstonMartinV12Speedster,
   AstonMartinValhallaConcept,
   AstonMartinValkyrie,
+  AstonMartinValour,
   AstonMartinVantageGT12,
   AstonMartinVantageV122022,
   AstonMartinVictor,
@@ -224,13 +236,20 @@ export const Images: Record<string, string> = {
   BentleyMullinerBacalar,
   BMW3CSLHommage,
   BMWi8Roadster,
+  BMWM4GT3,
   BMWM4GTS,
   BMWZ4,
   BolwellMKXNagari500,
   BrabhamBT62,
+  BugattiBolide,
   BugattiCentodieci,
   BugattiChiron,
+  BugattiChironPurSport,
+  BugattiChironSuperSport300Plus,
+  BugattiDivo,
   BugattiEB110,
+  BugattiLaVoitureNoire,
+  BugattiMistral,
   BugattiVeyron164GSVitesse,
   CadillacCienConcept,
   ChevroletCamaroLT,
@@ -250,6 +269,7 @@ export const Images: Record<string, string> = {
   DrakoGTE,
   DSETense,
   ExoticRidesW70,
+  FaradayFutureFFZero1,
   Ferrari296GTB,
   Ferrari488GTB,
   Ferrari599xxEvo,

@@ -132,8 +132,8 @@
   justify-content: center;
   margin: 0 22px;
   margin-bottom: 30px;
-  max-width: 100%;
-  width: 390px;
+  width: 405px;
+  height: 190px;
   border: 3px solid rgb(0, 0, 0);
   box-shadow: 0 0 7px 4px rgb(223, 190, 7);
 }
