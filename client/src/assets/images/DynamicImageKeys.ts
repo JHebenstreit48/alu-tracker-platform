@@ -1,11 +1,15 @@
 export const DynamicImageKeys: Record<string, string> = {
-
     "acura-nsx": "AcuraNSX",
     "acura-nsx-gt3-evo": "AcuraNSXGT3Evo",
+    "ajlani-drakuma": "AjlaniDrakuma",
+    "alfa-romeo-giulia-gtam": "AlfaRomeoGiuliaGTAm",
     "apex-ap-0": "ApexAP0",
+    "apollo-evo": "ApolloEvo",
     "apollo-ie": "ApolloIE",
     "apollo-n": "ApolloN",
+    "arash-af8-falcon-edition": "ArashAF8FalconEdition",
     "arash-af10": "ArashAF10",
+    "ares-s1": "AresS1",
     "arrinera-hussarya-33": "ArrineraHussarya33",
     "artega-scalo-superelletra": "ArtegaScaloSuperelletra",
     "aston-martin-db11": "AstonMartinDB11",

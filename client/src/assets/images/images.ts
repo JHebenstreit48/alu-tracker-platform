@@ -1,7 +1,9 @@
 import AcuraNSX from "../car-photos/2017-acura-nsx.jpg";
 import AcuraNSXGT3Evo from "../car-photos/acura-nsx-gt3-evo.jpg";
+import AjlaniDrakuma from "../car-photos/ajlani-drakuma.jpg";
 import AlfaRomeoGiuliaGTAm from "../car-photos/alfa-romeo-giulia-gtam.jpg";
 import ApexAP0 from "../car-photos/apex-ap-0.jpg";
+import ApolloEvo from "../car-photos/apollo-evo.jpg";
 import ApolloIE from "../car-photos/apollo-ie.jpg";
 import ApolloN from "../car-photos/apollo-n.jpg";
 import ArashAF8FalconEdition from "../car-photos/arash-af8-falcon-edition.jpg";
@@ -9,7 +11,10 @@ import ArashAF10 from "../car-photos/arash-af10.jpg";
 import AresS1 from "../car-photos/ares-s1.jpg";
 import ArrineraHussarya33 from "../car-photos/arrinera-hussarya-33.jpg";
 import ArtegaScaloSuperelletra from "../car-photos/artega-scalo-superelletra.jpg";
+import AsparkOwl from "../car-photos/aspark-owl.jpg";
 import AstonMartinDB11 from "../car-photos/aston-martin-db11.jpg";
+import AstonMartinDB12 from "../car-photos/aston-martin-db12.jpg";
+import AstonMartinDBSGTZagato from "../car-photos/aston-martin-dbs-gt-zagato.jpg";
 import AstonMartinDBSSuperleggera from "../car-photos/aston-martin-dbs-superleggera.jpg";
 import AstonMartinOne77 from "../car-photos/aston-martin-one77.jpg";
 import AstonMartinV12Speedster from "../car-photos/aston-martin-v12-speedster.jpg";
@@ -21,6 +26,7 @@ import AstonMartinVantageV122022 from "../car-photos/aston-martin-vantage-v12-20
 import AstonMartinVictor from "../car-photos/aston-martin-victor.jpg";
 import AstonMartinVulcan from "../car-photos/aston-martin-vulcan.jpg";
 import ATSAutomobiliCorsaRRTurbo from "../car-photos/ats-automobili-corsa-rr-turbo.jpg";
+import AutomobiliPininfarinaBattistaEdizioneNinoFarina from "../car-photos/automobili-pininfarina-battista-edizione-nino-farina.jpg";
 import AutomobiliPininfarinaBattista from "../car-photos/automobili-pininfarina-battista.jpg";
 import BentleyContinentalGTSpeed from "../car-photos/bentley-continental-gt-speed.jpg";
 import BentleyContinentalGT3 from "../car-photos/bentley-continental-gt3.jpg";
@@ -49,7 +55,9 @@ import ChevroletCorvetteC7R from "../car-photos/chevrolet-corvette-c7-r.jpg";
 import ChevroletCorvetteGrandSport from "../car-photos/chevrolet-corvette-grand-sport.jpg";
 import ChevroletCorvetteStingray from "../car-photos/chevrolet-corvette-stingray.jpg";
 import CitroenGT from "../car-photos/citroen-gt.jpg";
+import CZinger21C from "../car-photos/czinger-21c.jpg";
 import DeTomasoP72 from "../car-photos/de-tomaso-p72.jpg";
+import DeTomasoP900 from "../car-photos/de-tomaso-p900.jpg";
 import DeusVayanne from "../car-photos/deus-vayanne.jpg";
 import DevelSixteen from "../car-photos/devel-sixteen.jpg";
 import DodgeChallenger392HemiScatPk from "../car-photos/dodge-challenger-392-hemi-scat.jpg";
@@ -62,6 +70,7 @@ import DSETense from "../car-photos/ds-e-tense.jpg";
 import ExoticRidesW70 from "../car-photos/exotic-rides-w70.jpg";
 import FaradayFutureFFZero1 from "../car-photos/faraday-future-ffzero1.jpg";
 import Ferrari296GTB from "../car-photos/ferrari-296-gtb.jpg";
+import Ferrari488ChallengeEvo from "../car-photos/ferrari-488-challenge-evo.jpg";
 import Ferrari488GTB from "../car-photos/ferrari-488-gtb.jpg";
 import Ferrari599xxEvo from "../car-photos/ferrari-599xx-evo.jpg";
 import Ferrari812Superfast from "../car-photos/ferrari-812-superfast.jpg";
@@ -69,6 +78,8 @@ import FerrariDaytonaSP3 from "../car-photos/ferrari-daytona-sp3.jpg";
 import FerrariEnzo from "../car-photos/ferrari-enzo.jpg";
 import FerrariF8Tributo from "../car-photos/ferrari-f8-tributo.jpg";
 import FerrariF12TDF from "../car-photos/ferrari-f12tdf.jpg";
+import FerrariF40 from "../car-photos/ferrari-f40.jpg";
+import FerrariF50 from "../car-photos/ferrari-f50.jpg";
 import FerrariFXXK from "../car-photos/ferrari-fxx-k.jpg";
 import FerrariJ50 from "../car-photos/ferrari-j50.jpg";
 import FerrariLaFerrariAperta from "../car-photos/ferrari-laferrari-aperta.jpg";
@@ -77,17 +88,23 @@ import FerrariMonzaSP1 from "../car-photos/ferrari-monza-sp1.jpg";
 import FerrariRoma from "../car-photos/ferrari-roma.jpg";
 import FerrariSF90Stradale from "../car-photos/ferrari-sf90-stradale.jpg";
 import FerrariSF90XXStradale from "../car-photos/ferrari-sf90-xx-stradale.jpg";
+import FordGTFrankieEdition from "../car-photos/ford-gt-frankie-edition.jpg";
 import FordGTMarkII from "../car-photos/ford-gt-mk-II.jpg";
 import FordGT from "../car-photos/ford-gt.jpg";
 import FordMustangMachE1400 from "../car-photos/ford-mustang-mach-e1400.jpg";
 import FordMustangRTRSpec510thAnniversary from "../car-photos/ford-mustang-rtr-spec-5-10th-anniv.jpg";
 import FordShelbyGR1 from "../car-photos/ford-shelby-gr-1.jpg";
 import FordShelbyGT350R from "../car-photos/ford-shelby-gt350r.jpg";
+import FordTeamFordzillaP1 from "../car-photos/ford-team-fordzilla-p1.jpg";
 import FormulaEGen2AsphaltEdition from "../car-photos/formula-e-gen-2-asphalt-edition.jpg";
+import FVFrangiventoAsfane from "../car-photos/fv-frangivento-asfane.jpg";
+import FVFrangiventoSorpassoGT3 from "../car-photos/fv-frangivento-sorpasso-gt3.jpg";
 import GentyAkylone from "../car-photos/genty-akylone.jpg";
 import GinettaG60 from "../car-photos/ginetta-g60.jpg";
 import Glickenhaus003S from "../car-photos/glickenhaus-003s.jpg";
 import Glickenhaus004C from "../car-photos/glickenhaus-004c.jpg";
+import Glickenhaus007s from "../car-photos/glickenhaus-007s.jpg";
+import HennesseyVenomF5 from "../car-photos/hennessey-venom-f5.jpg";
 import HondaCivicTypeR from "../car-photos/honda-civic-type-r.jpg";
 import IconaVulcanoTitanium from "../car-photos/icona-vulcano-titanium.jpg";
 import InfinitiProjectBlackS from "../car-photos/infiniti-project-black-s.jpg";
@@ -209,8 +226,10 @@ import WMotorsLykanHypersport from "../car-photos/w-motors-lykan-hypersport.jpg"
 export const Images: Record<string, string> = {
   AcuraNSX,
   AcuraNSXGT3Evo,
+  AjlaniDrakuma,
   AlfaRomeoGiuliaGTAm,
   ApexAP0,
+  ApolloEvo,
   ApolloIE,
   ApolloN,
   ArashAF8FalconEdition,
@@ -218,7 +237,10 @@ export const Images: Record<string, string> = {
   AresS1,
   ArrineraHussarya33,
   ArtegaScaloSuperelletra,
+  AsparkOwl,
   AstonMartinDB11,
+  AstonMartinDB12,
+  AstonMartinDBSGTZagato,
   AstonMartinDBSSuperleggera,
   AstonMartinOne77,
   AstonMartinV12Speedster,
@@ -230,6 +252,7 @@ export const Images: Record<string, string> = {
   AstonMartinVictor,
   AstonMartinVulcan,
   ATSAutomobiliCorsaRRTurbo,
+  AutomobiliPininfarinaBattistaEdizioneNinoFarina,
   AutomobiliPininfarinaBattista,
   BentleyContinentalGTSpeed,
   BentleyContinentalGT3,
@@ -258,7 +281,9 @@ export const Images: Record<string, string> = {
   ChevroletCorvetteGrandSport,
   ChevroletCorvetteStingray,
   CitroenGT,
+  CZinger21C,
   DeTomasoP72,
+  DeTomasoP900,
   DeusVayanne,
   DevelSixteen,
   DodgeChallenger392HemiScatPk,
@@ -271,6 +296,7 @@ export const Images: Record<string, string> = {
   ExoticRidesW70,
   FaradayFutureFFZero1,
   Ferrari296GTB,
+  Ferrari488ChallengeEvo,
   Ferrari488GTB,
   Ferrari599xxEvo,
   Ferrari812Superfast,
@@ -278,6 +304,8 @@ export const Images: Record<string, string> = {
   FerrariEnzo,
   FerrariF8Tributo,
   FerrariF12TDF,
+  FerrariF40,
+  FerrariF50,
   FerrariFXXK,
   FerrariJ50,
   FerrariLaFerrariAperta,
@@ -286,17 +314,23 @@ export const Images: Record<string, string> = {
   FerrariRoma,
   FerrariSF90Stradale,
   FerrariSF90XXStradale,
+  FordGTFrankieEdition,
   FordGTMarkII,
   FordGT,
   FordMustangMachE1400,
   FordMustangRTRSpec510thAnniversary,
   FordShelbyGR1,
   FordShelbyGT350R,
+  FordTeamFordzillaP1,
   FormulaEGen2AsphaltEdition,
+  FVFrangiventoAsfane,
+  FVFrangiventoSorpassoGT3,
   GentyAkylone,
   GinettaG60,
   Glickenhaus003S,
   Glickenhaus004C,
+  Glickenhaus007s,
+  HennesseyVenomF5,
   HondaCivicTypeR,
   IconaVulcanoTitanium,
   InfinitiProjectBlackS,

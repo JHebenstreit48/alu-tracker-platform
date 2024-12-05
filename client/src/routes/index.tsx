@@ -6,6 +6,7 @@ import Manufacturers from "../pages/Manufacturers";
 import CarsByClass from "../pages/CarsByClass";
 import GarageLevels from "../pages/GarageLevels";
 import CarDetail from "../pages/CarDetail";
+import LegendStorePrices from "../pages/LegendStore";
 
 export const router = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ export const router = createBrowserRouter([
             {
                 path: '/garagelevels',
                 element: <GarageLevels />,
+            },
+            {
+                path: '/legendstoreprices',
+                element: <LegendStorePrices />,
             },
         ],
     },

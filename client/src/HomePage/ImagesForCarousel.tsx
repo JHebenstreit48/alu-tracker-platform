@@ -7,6 +7,7 @@ export type ImageCarouselType = {
 const Carousel: ImageCarouselType[] = [
 
     { path: Images.PaganiHuayraBC },
+    { path: Images.LamborghiniHuracanEvoSpyder },
     { path: Images.LamborghiniSianFKP37 },
     { path: Images.ApexAP0 },
     { path: Images.AstonMartinValhallaConcept },
