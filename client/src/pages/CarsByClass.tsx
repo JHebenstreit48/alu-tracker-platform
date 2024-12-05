@@ -13,10 +13,13 @@ interface Car {
 
 export default function CarsByClass() {
     const [cars, setCars] = useState<Car[]>([]);
-    const [selectedClass, setSelectedClass] = useState<string>("D");
+    const [selectedClass, setSelectedClass] = useState<string>(
+        localStorage.getItem("selectedClass") || "D"
+        );
 
     useEffect(() => {
         console.log("Selected class:", selectedClass); // Debug log
+        localStorage.setItem("selectedClass", selectedClass); // Save selected class in local storage
 
         // Fetch cars based on selected class using .then and .catch
         fetch(`http://localhost:3001/api/cars/${selectedClass}`)
@@ -54,7 +57,11 @@ export default function CarsByClass() {
                         </select>
                     </div>
                     {/* Pass data to ClassTables */}
-                    <ClassTables cars={cars.sort((a,b) => (a.Stars-b.Stars))} selectedClass={selectedClass} />
+                    <ClassTables
+                    cars={cars.sort((a,b) => (a.Stars-b.Stars))}
+                    selectedClass={selectedClass}
+                    />
+
                 </PageTab>
             </div>
         </>

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, useLocation } from "react-router-dom";
 import starIcon from "../assets/images/icons8-star-48.png";
 import "../CSS/CarDetail.css";
 import { Images } from "../assets/images/images";
@@ -21,6 +21,7 @@ interface Car {
 const CarDetail = () => {
   const { id } = useParams(); // Extracting id from the URL
   const navigate = useNavigate();
+  const location = useLocation();
   const [car, setCar] = useState<Car | null>(null);
   const [error, setError] = useState(false);
 
@@ -49,6 +50,19 @@ const CarDetail = () => {
       fetchCarDetails(id); // Pass the ID directly as a string
     }
   }, [id]);
+
+  const handleGoBack = () => {
+    const lastSelectedClass = location.state?.selectedClass;
+
+    console.log("Navigation state:", location.state); // Debugging: Check state being passed
+
+    if (lastSelectedClass) {
+        navigate(`/carsbyclass?class=${lastSelectedClass}`); // Navigate back to selected class
+    } else {
+        console.warn("No selected class found in navigation state.");
+        navigate("/carsbyclass"); // Fallback if no state is provided
+    }
+};
 
   if (error) {
     console.log(error);
@@ -92,7 +106,7 @@ const CarDetail = () => {
 
       <div>
 
-        <button className="backBtn" onClick={() => navigate("/carsbyclass")}>Back</button>
+        <button className="backBtn" onClick={handleGoBack}>Back</button>
 
       </div>
 
@@ -100,7 +114,7 @@ const CarDetail = () => {
 
         <h1 className="carName">
 
-          {car.Brand} {car.Model}
+          {car.Brand}{car.Model}
 
         </h1>
 

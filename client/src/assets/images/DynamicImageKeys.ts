@@ -1,6 +1,7 @@
 export const DynamicImageKeys: Record<string, string> = {
 
     "acura-nsx": "AcuraNSX",
+    "acura-nsx-gt3-evo": "AcuraNSXGT3Evo",
     "apex-ap-0": "ApexAP0",
     "apollo-ie": "ApolloIE",
     "apollo-n": "ApolloN",
@@ -31,6 +32,9 @@ export const DynamicImageKeys: Record<string, string> = {
     "chevrolet-corvette-grand-sport": "ChevroletCorvetteGrandSport",
     "chevrolet-corvette-stingray": "ChevroletCorvetteStingray",
     "citroen-gt": "CitroenGT",
+    "de-tomaso-p72": "DeTomasoP72",
+    "deus-vayanne": "DeusVayanne",
+    "devel-sixteen": "DevelSixteen",
     "dodge-challenger-392-hemi-scat-pack": "DodgeChallenger392HemiScatPk",
     "dodge-challenger-srt8": "DodgeChallengerSRT8",
     "dodge-viper-acr": "DodgeViperACR",

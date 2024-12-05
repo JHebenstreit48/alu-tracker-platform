@@ -1,5 +1,5 @@
 import AcuraNSX from "../car-photos/2017-acura-nsx.jpg";
-import AcuraNSXGT3Evo from "../car-photos/2019-acura-nsx-gt3-evo.jpg";
+import AcuraNSXGT3Evo from "../car-photos/acura-nsx-gt3-evo.jpg";
 import AlfaRomeoGiuliaGTAm from "../car-photos/alfa-romeo-giulia-gtam.jpg";
 import ApexAP0 from "../car-photos/apex-ap-0.jpg";
 import ApolloIE from "../car-photos/apollo-ie.jpg";
@@ -48,7 +48,7 @@ import DodgeChallengerSRT8 from "../car-photos/dodge-challenger-srt8.jpg";
 import DodgeViperACR from "../car-photos/dodge-viper-acr.jpg";
 import DodgeViperGTS from "../car-photos/dodge-viper-gts.jpg";
 import DonkervoortD8GTOIndividualSeries from "../car-photos/donkervoort-d8-gto-individual-series.jpg";
-import DrokoGTE from "../car-photos/drako-gte.jpg";
+import DrakoGTE from "../car-photos/drako-gte.jpg";
 import DSETense from "../car-photos/ds-e-tense.jpg";
 import ExoticRidesW70 from "../car-photos/exotic-rides-w70.jpg";
 import Ferrari296GTB from "../car-photos/ferrari-296-gtb.jpg";
@@ -77,7 +77,7 @@ import FormulaEGen2AsphaltEdition from "../car-photos/formula-e-gen-2-asphalt-ed
 import GentyAkylone from "../car-photos/genty-akylone.jpg";
 import GinettaG60 from "../car-photos/ginetta-g60.jpg";
 import Glickenhaus003S from "../car-photos/glickenhaus-003s.jpg";
-import Glickenhaus004S from "../car-photos/glickenhaus-004s.jpg";
+import Glickenhaus004C from "../car-photos/glickenhaus-004c.jpg";
 import HondaCivicTypeR from "../car-photos/honda-civic-type-r.jpg";
 import IconaVulcanoTitanium from "../car-photos/icona-vulcano-titanium.jpg";
 import InfinitiProjectBlackS from "../car-photos/infiniti-project-black-s.jpg";
@@ -100,7 +100,7 @@ import LamborghiniGallardoLP5604 from "../car-photos/lamborghini-gallardo-lp-560
 import LamborghiniHuracanEvoSpider from "../car-photos/lamborghini-huracan-evo-spider.jpg";
 import LamborghiniHuracanSTO from "../car-photos/lamborghini-huracan-sto.jpg";
 import LamborghiniHuracanSuperTrofeoEvo from "../car-photos/lamborghini-huracan-super-trofeo-evo.jpg";
-import LamborghiniMiura from "../car-photos/lamborghini-miura.jpg";
+import LamborghiniMiuraConcept from "../car-photos/lamborghini-miura-concept.jpg";
 import LamborghiniMurcielagoLP640Roadster from "../car-photos/lamborghini-murcielago-lp-640-roadster.jpg";
 import LamborghiniSestoElemento from "../car-photos/lamborghini-sesto-elemento.jpg";
 import LamborghiniSianFKP37 from "../car-photos/lamborghini-sian-fkp-37.jpg";
@@ -198,167 +198,119 @@ import WMotorsLykanHypersport from "../car-photos/w-motors-lykan-hypersport.jpg"
 
 export const Images: Record<string, string> = {
   AcuraNSX,
-
+  AcuraNSXGT3Evo,
+  AlfaRomeoGiuliaGTAm,
   ApexAP0,
-
   ApolloIE,
-
   ApolloN,
-
   ArashAF10,
-
+  AresS1,
   ArrineraHussarya33,
-
   ArtegaScaloSuperelletra,
-
   AstonMartinDB11,
-
   AstonMartinDBSSuperlleggera,
-
   AstonMartinOne77,
-
   AstonMartinV12Speedster,
-
   AstonMartinValhallaConcept,
-
   AstonMartinValkyrie,
-
   AstonMartinVantageGT12,
-
+  AstonMartinVantageV122022,
   AstonMartinVictor,
-
   AstonMartinVulcan,
-
+  ATSAutomobiliCorsaRRTurbo,
   AutomobiliPininfarinaBattista,
-
   BentleyContinentalGTSpeed,
-
+  BentleyContinentalGT3,
   BentleyMullinerBacalar,
-
-  BMWi8Roadster,
-
   BMW3CSLHommage,
-
+  BMWi8Roadster,
   BMWM4GTS,
-
   BMWZ4,
-
   BolwellMKXNagari500,
-
+  BrabhamBT62,
+  BugattiCentodieci,
   BugattiChiron,
-
+  BugattiEB110,
   BugattiVeyron164GSVitesse,
-
+  CadillacCienConcept,
   ChevroletCamaroLT,
-
   ChevroletCamaroZL150thEdition,
-
+  ChevroletCorvetteC7R,
   ChevroletCorvetteGrandSport,
-
   ChevroletCorvetteStingray,
-
   CitroenGT,
-
+  DeTomasoP72,
+  DeusVayanne,
+  DevelSixteen,
   DodgeChallenger392HemiScatPk,
-
   DodgeChallengerSRT8,
-
   DodgeViperACR,
-
   DodgeViperGTS,
-
+  DonkervoortD8GTOIndividualSeries,
   DrakoGTE,
-
   DSETense,
-
   ExoticRidesW70,
-
+  Ferrari296GTB,
   Ferrari488GTB,
-
+  Ferrari599xxEvo,
   Ferrari812Superfast,
-
+  FerrariDaytonaSP3,
   FerrariEnzo,
-
   FerrariF8Tributo,
-
   FerrariF12TDF,
-
   FerrariFXXK,
-
   FerrariJ50,
-
   FerrariLaFerrariAperta,
-
   FerrariLaFerrari,
-
   FerrariMonzaSP1,
-
   FerrariRoma,
-
   FerrariSF90Stradale,
-
+  FerrariSF90XXStradale,
+  FordGTMarkII,
   FordGT,
-
+  FordMustangMachE1400,
+  FordMustangRTRSpec510thAnniversary,
   FordShelbyGR1,
-
   FordShelbyGT350R,
-
+  FormulaEGen2AsphaltEdition,
   GentyAkylone,
-
   GinettaG60,
-
   Glickenhaus003S,
-
+  Glickenhaus004C,
+  HondaCivicTypeR,
   IconaVulcanoTitanium,
-
   InfinitiProjectBlackS,
-
   ItaldesignDaVinci,
-
   ItaldesignZerouno,
-
   JaguarCX75,
-
   JaguarFTypeSVR,
-
+  JaguarXESVProject8,
+  JaguarXJR15,
   KoenigseggRegera,
-
+  KTMXBowGTX,
+  LamborghiniAsterion,
   LamborghiniAventadorJ,
-
   LamborghiniAventadorSVCoupe,
-
   LamborghiniAventadorSVJRoadster,
-
   LamborghiniCentenario,
-
   LamborghiniCountach25thAnniversary,
-
   LamborghiniDiabloGT,
-
   LamborghiniGallardoLP5604,
-
   LamborghiniHuracanEvoSpider,
-
+  LamborghiniHuracanSTO,
+  LamborghiniHuracanSuperTrofeoEvo,
+  LamborghiniMiuraConcept,
   LamborghiniMurcielagoLP640Roadster,
-
   LamborghiniSestoElemento,
-
   LamborghiniSianFKP37,
-
   LamborghiniTerzoMillennio,
-
   LamborghiniVeneno,
-
   LotusEliseSprint220,
-
   LotusEmira,
-
   LotusEvija,
-
   LotusEvoraSport410,
-
   MaseratiAlfieri,
-
+  MaseratiMC12,
   MazdaFurai,
 
   McLaren570SSpider,
