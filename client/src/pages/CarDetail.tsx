@@ -14,6 +14,8 @@ interface Car {
   Max_Rank: number;
   Top_Speed: number;
   Acceleration: number;
+  Handling: number;
+  Nitro: number;
 }
 
 const CarDetail = () => {
@@ -70,26 +72,27 @@ const CarDetail = () => {
     const normalizedModel = car.Model.toLowerCase()
       .replace(/\./g, "-") // Replace dots with hyphens
       .replace(/\s+/g, "-"); // Replace spaces with hyphens
-  
+
     const dynamicKey = `${car.Brand.toLowerCase().replace(/\s+/g, "-")}-${normalizedModel}`;
     // console.log("Car Model:", car.Model);
     // console.log("Normalized Model:", normalizedModel);
     // console.log("Dynamic Key:", dynamicKey);
-  
+
     const pascalCaseKey = DynamicImageKeys[dynamicKey];
     console.log("PascalCase Key:", pascalCaseKey);
-  
+
     return pascalCaseKey && Images[pascalCaseKey]
       ? Images[pascalCaseKey]
       : Images["placeholder"];
   })();
 
   return (
+
     <div className="car-detail">
 
       <div>
 
-        <button className="backBtn" onClick={() => navigate("/carsbyclass")}>Go Back</button>
+        <button className="backBtn" onClick={() => navigate("/carsbyclass")}>Back</button>
 
       </div>
 
@@ -105,66 +108,118 @@ const CarDetail = () => {
 
       <div>
 
-        <div>
+        <div className="carImageContainer">
 
-        <img
-        src={carImagePath}
-        alt={`${car.Brand} ${car.Model}`}
-        className="carImage"
-      />
+          <img
+            src={carImagePath}
+            alt={`${car.Brand} ${car.Model}`}
+            className="carImage"
+          />
 
         </div>
 
       </div>
 
-      <table>
+      <div className="carDetailTables">
 
-        <tbody>
+        <table className="carInfoTable">
 
-          <tr>
+          <tbody>
 
-            <th className="table-header" colSpan={2}>
-              Class {car.Class}
-            </th>
+            <tr>
 
-          </tr>
+              <th className="tableHeader2" colSpan={2}>
+                Class {car.Class}
+              </th>
 
-          <tr>
+            </tr>
 
-            <td>
+            <tr>
 
-              <span>
-                {Array.from({ length: car.Stars }, (_, i) => (
-                  <img
-                    key={i}
-                    src={starIcon}
-                    alt="star"
-                    style={{ width: "27px", height: "27px", marginRight: "4px" }}
-                  />
-                ))}
-              </span>
+              <td>
 
-            </td>
+                <span>
+                  {Array.from({ length: car.Stars }, (_, i) => (
+                    <img
+                      key={i}
+                      src={starIcon}
+                      alt="star"
+                      style={{ width: "27px", height: "27px", marginRight: "4px" }}
+                    />
+                  ))}
+                </span>
 
-          </tr>
+              </td>
 
-          <tr>
+            </tr>
 
-            <td className="maxRank">Max Rank: {car.Max_Rank}</td>
+            <tr>
 
-          </tr>
+              <td className="maxRank">Max Rank: {car.Max_Rank}</td>
 
-        </tbody>
+            </tr>
 
-      </table>
+          </tbody>
 
-      <div className="carInfo">
+        </table>
 
-        <p>Top Speed: {car.Top_Speed} km/h</p>
-        <p>Acceleration: {car.Acceleration} m/s²</p>
 
-        <p>Top Speed: {car.Top_Speed}</p>
-        <p>Acceleration: {car.Acceleration}</p>
+        <table className="carInfoTable">
+
+          <tbody>
+            <th className="tableHeader2" colSpan={2}>Gold Max Stats</th>
+
+            <tr>
+
+              <td>
+                Top Speed
+              </td>
+
+              <td>
+                {car.Top_Speed} km/h
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td>
+                Acceleration
+              </td>
+
+              <td>
+                {car.Acceleration} m/s²
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td>
+                Handling
+              </td>
+
+              <td>
+                {car.Handling} m/s²
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td>
+                Nitro
+              </td>
+
+              <td>
+                {car.Nitro} m/s²
+              </td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
 
       </div>
 

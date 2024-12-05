@@ -1,10 +1,9 @@
 
 .car-detail {
+    grid-template-columns: 1fr 1fr;
     padding: 20px;
     color: #333;
 }
-
-
 
 .backBtn {
     background-color: #333;
@@ -30,9 +29,32 @@
 
 .carImage {
     display: flex;
-    height: 23rem;
-    margin: 5rem auto 6rem auto;
+    justify-content: center;
+    align-items: center;
+    height: 28rem;
+    width: 55rem;
+    margin: 5rem auto 2rem auto;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 0 0 7px 4px rgb(223, 190, 7);
+}
 
+.carDetailTables {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.carInfoTable {
+    width: 50rem;
+}
+
+.tableHeader2 {
+	color: rgb(21, 201, 232);
+	background-color: black;
+	text-align: center;
+    height: 50px;
+	padding: 15px 80px 20px 80px !important;
+	font-size: 1.8rem !important;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .maxRank {
@@ -44,3 +66,4 @@
     margin: 10px 0;
     color: white;
 }
+
