@@ -121,7 +121,7 @@ import LamborghiniAventadorJ from "../car-photos/lamborghini-aventador-j.jpg";
 import LamborghiniAventadorSVCoupe from "../car-photos/lamborghini-aventador-sv-coupe.jpg";
 import LamborghiniAventadorSVJRoadster from "../car-photos/lamborghini-adventador-svj-roadster.jpg";
 import LamborghiniCentenario from "../car-photos/lamborghini-centenario.jpg";
-import LamborghiniCountach25thAnniversary from "../car-photos/lamborghini-countach-25th-anniv.jpg";
+import LamborghiniCountach25thAnniversary from "../car-photos/lamborghini-countach-25th-anniversary.jpg";
 import LamborghiniDiabloGT from "../car-photos/lamborghini-diablo-gt.jpg";
 import LamborghiniGallardoLP5604 from "../car-photos/lamborghini-gallardo-lp-560-4.jpg";
 import LamborghiniHuracanEvoSpider from "../car-photos/lamborghini-huracan-evo-spider.jpg";
