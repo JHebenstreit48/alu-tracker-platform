@@ -34,7 +34,7 @@ const LegendStoreTables: React.FC = () => {
       <div className="cars-container">
         {/* Dropdown to filter cars */}
         <div className="controls">
-          <label htmlFor="classDropdown">Filter by Class:</label>
+          <label className="classDropdownLabel" htmlFor="classDropdown">Filter by Class:</label>
           <select
             id="classDropdown"
             value={selectedClass}

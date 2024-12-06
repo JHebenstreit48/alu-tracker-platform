@@ -28,6 +28,10 @@
   gap: 10px;
 }
 
+.classDropdownLabel {
+  color: white;
+}
+
 /* Table styles */
 .responsive-table {
   text-align: center;
