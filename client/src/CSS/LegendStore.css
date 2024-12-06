@@ -1,0 +1,103 @@
+/* General container styles */
+.search-bar {
+  margin: 8rem auto 3rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.searchLabel {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.controls {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Table styles */
+.responsive-table {
+  text-align: center;
+  border: 3px solid rgb(11, 7, 134) !important;
+  box-shadow: 0 0 10px 6px rgb(223, 190, 7);
+  width: 50rem;
+}
+
+.responsive-table th,
+.responsive-table td {
+    min-width: 15rem; /* Adjust this value as needed */
+    padding: 8px; /* Add padding to make the content more spacious */
+    text-align: center; /* Ensure consistent alignment */
+}
+
+.classSelectionHeader {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: black;
+  color: rgb(21, 201, 232);
+  padding: 15px;
+  border-bottom: 1px solid rgb(204, 19, 255);
+}
+
+.tableHeaderRow {
+  background-color: black;
+  color: white;
+}
+
+.tableHeaderRow th {
+  justify-content: space-between;
+  padding: 15px;
+  border-right: 1px solid rgb(204, 19, 255);
+
+}
+
+.no-results {
+  text-align: center;
+  color: #888;
+  margin-top: 20px;
+}
+
+/* Two-column layout for screens 390px and smaller */
+@media only screen and (max-width: 390px) {
+  .search-bar {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 27rem;
+  }
+
+  .responsive-table {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 4rem auto;
+    width: 20rem;
+  }
+  .classSelectionHeader {
+    flex-flow: column wrap;
+    font-size: 2rem;
+    width: 20rem;
+  }
+  .table-header-row {
+    display: flex;
+    flex-flow: column wrap;
+    width: 10rem;
+  }
+  .no-results {
+    text-align: center;
+    color: #888;
+    margin-top: 20px;
+  }
+}
