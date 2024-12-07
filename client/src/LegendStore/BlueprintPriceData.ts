@@ -2,12 +2,13 @@ export interface Car {
     class: string; // D, C, B, A, S
     brand: string; // Car brand
     model: string; // Car model
+    garageLevel?: number; // Garage level required to purchase
     blueprintPrices: number[]; // Prices for blueprints 1-5
   }
   
   export const cars: Car[] = [
     { class: "D", brand: "Mitsubishi", model: "Lancer Evolution", blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
-    { class: "D", brand: "BMW", model: "Z4 LCI E89", blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
+    { class: "D", brand: "BMW", model: "Z4 LCI E89", garageLevel: 1, blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
     { class: "D", brand: "Chevrolet", model: "Camaro LT", blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
     { class: "D", brand: "Lotus", model: "Elise Sprint 220", blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
     { class: "C", brand: "Dodge", model: "Challenger SRT8", blueprintPrices: [13000, 19500, 26000, 32500, 39000] },

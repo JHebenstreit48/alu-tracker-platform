@@ -3,7 +3,7 @@ import { cars } from "./BlueprintPriceData.ts";
 import "../CSS/LegendStore.css";
 
 const LegendStoreTables: React.FC = () => {
-  const [selectedClass, setSelectedClass] = useState("D"); // Default to class D
+  const [selectedClass, setSelectedClass] = useState("D");
   const [searchTerm, setSearchTerm] = useState(""); // State for search term
 
   // Filter cars based on the selected class and search term
@@ -62,10 +62,8 @@ const LegendStoreTables: React.FC = () => {
 
             <tbody>
 
-              <div>
-
                 <tr className="tableHeaderRow">
-                  <th>Car</th>
+                  <th className="rowLabel">Car</th>
                   <th>Blueprint 1</th>
                   <th>Blueprint 2</th>
                   <th>Blueprint 3</th>
@@ -75,14 +73,13 @@ const LegendStoreTables: React.FC = () => {
                 </tr>
 
               {/* Table Headers */}
-
                 {filteredCars.map((car, index) => {
                   const total = car.blueprintPrices.reduce((acc, price) => acc + price, 0);
                   return (
                     <tr
                       key={index}>
                       <td
-                        className="data-cell"
+                        className="pricesCell"
                       >
                         {car.brand} {car.model}
 
@@ -91,13 +88,13 @@ const LegendStoreTables: React.FC = () => {
 
                         <td
                           key={i}
-                          className={`data-cell blueprint-${i + 1}`}
+                          className={`dataCell blueprint-${i + 1}`}
                         >
                           {price.toLocaleString()}</td>
                       ))}
 
                       <td
-                        className="total-cell">{total.toLocaleString()}
+                        className="totalCell">{total.toLocaleString()}
 
                       </td>
 
@@ -105,16 +102,16 @@ const LegendStoreTables: React.FC = () => {
 
                   );
                 })}
-              </div>
-
+      
             </tbody>
 
           </table>
+
+          </div>
           {filteredCars.length === 0 && (
             <p className="no-results">No cars found for the current search term.</p>
           )}
         </div>
-      </div>
 
     </>
   );

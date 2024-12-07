@@ -85,19 +85,23 @@
 
   .responsive-table {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     margin: 4rem auto;
     width: 20rem;
   }
   .classSelectionHeader {
-    flex-flow: column wrap;
-    font-size: 2rem;
-    width: 20rem;
+    width: 100%;
   }
-  .table-header-row {
+  .tableHeaderRow {
     display: flex;
-    flex-flow: column wrap;
-    width: 10rem;
+    flex-direction: column;
+    width: 9rem !important;
+  }
+
+  .rowLabel {
+    padding: 0 !important;
+    font-size: 15px;
+    min-width: 1rem;
   }
   .no-results {
     text-align: center;
