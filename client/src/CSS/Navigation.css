@@ -60,14 +60,13 @@ display: flex;
   }
 }
 
-@media only screen and (max-width: 464px) {
+@media only screen and (max-width: 390px) {
   .nav-css {
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 19px;
+    margin: 2rem auto 1rem auto;
   }
   .btn-lg {
       display: flex;

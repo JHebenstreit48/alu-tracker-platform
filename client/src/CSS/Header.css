@@ -47,8 +47,7 @@
 
 @media only screen and (max-width: 390px) {
   .Header {
-    height: 7rem;
-    width: 100%;
+    height: 6rem;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
@@ -59,10 +58,8 @@
     justify-content: center;
     align-items: center;
     width: 21rem;
-    margin-top: 24rem;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-bottom: 3.3rem;
+    margin-top: 26.1rem;
+    margin-bottom: 0;
     padding-right: 0;
     padding-left: 0;
     font-size: 32px;

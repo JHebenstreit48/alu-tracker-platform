@@ -1,15 +1,52 @@
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import { cars } from "./BlueprintPriceData.ts";
 import "../CSS/LegendStore.css";
 
 const LegendStore: React.FC = () => {
-  const [selectedClass, setSelectedClass] = useState("D"); // Default class
-  const [searchTerm, setSearchTerm] = useState(""); // Search term
-  const [selectedCumulativeLevel, setSelectedCumulativeLevel] = useState<number | null>(null);
-  const [selectedIndividualLevel, setSelectedIndividualLevel] = useState<number | null>(null);
+  const [selectedClass, setSelectedClass] = useState(() => {
+    return localStorage.getItem("selectedClass") || "D"; // Default to "D"
+  });
+  const [searchTerm, setSearchTerm] = useState(() => {
+    return localStorage.getItem("searchTerm") || ""; // Default to empty search
+  });
+  const [selectedCumulativeLevel, setSelectedCumulativeLevel] = useState<number | null>(() => {
+    const value = localStorage.getItem("selectedCumulativeLevel");
+    return value !== null ? Number(value) : null;
+  });
+  const [selectedIndividualLevel, setSelectedIndividualLevel] = useState<number | null>(() => {
+    const value = localStorage.getItem("selectedIndividualLevel");
+    return value !== null ? Number(value) : null;
+  });
+
+  // Save selected filters to localStorage
+  useEffect(() => {
+    localStorage.setItem("selectedClass", selectedClass);
+  }, [selectedClass]);
+
+  useEffect(() => {
+    localStorage.setItem("searchTerm", searchTerm);
+  }, [searchTerm]);
+
+  useEffect(() => {
+    if (selectedCumulativeLevel !== null) {
+      localStorage.setItem("selectedCumulativeLevel", String(selectedCumulativeLevel));
+    } else {
+      localStorage.removeItem("selectedCumulativeLevel");
+    }
+  }, [selectedCumulativeLevel]);
+
+  useEffect(() => {
+    if (selectedIndividualLevel !== null) {
+      localStorage.setItem("selectedIndividualLevel", String(selectedIndividualLevel));
+    } else {
+      localStorage.removeItem("selectedIndividualLevel");
+    }
+  }, [selectedIndividualLevel]);
 
   // Filter cars based on selected class
-  let filteredCars = cars.filter((car) => car.class === selectedClass);
+  let filteredCars = selectedClass === "All Levels"
+    ? cars // Show all cars if "All Levels" is selected
+    : cars.filter((car) => car.class === selectedClass);
 
   // Apply search term filter
   if (searchTerm.trim() !== "") {
@@ -36,11 +73,10 @@ const LegendStore: React.FC = () => {
     <div>
       {/* Controls */}
       <div className="controls">
-       
-
         <label className="DropdownLabel">
           Cumulative Garage Level:
           <select
+            value={selectedCumulativeLevel !== null ? selectedCumulativeLevel : ""}
             onChange={(e) =>
               setSelectedCumulativeLevel(
                 e.target.value ? parseInt(e.target.value, 10) : null
@@ -59,6 +95,7 @@ const LegendStore: React.FC = () => {
         <label className="DropdownLabel">
           Individual Garage Level:
           <select
+            value={selectedIndividualLevel !== null ? selectedIndividualLevel : ""}
             onChange={(e) =>
               setSelectedIndividualLevel(
                 e.target.value ? parseInt(e.target.value, 10) : null
@@ -80,6 +117,7 @@ const LegendStore: React.FC = () => {
             value={selectedClass}
             onChange={(e) => setSelectedClass(e.target.value)}
           >
+            <option value="All Levels">All Levels</option>
             <option value="D">Class D</option>
             <option value="C">Class C</option>
             <option value="B">Class B</option>
@@ -99,14 +137,14 @@ const LegendStore: React.FC = () => {
         </label>
       </div>
 
-
-
       {/* Table (unchanged layout) */}
       <div>
         <table className="responsiveTable">
           <thead>
             <tr className="classSelectionHeader">
-              <th colSpan={7}>Class {selectedClass}</th>
+              <th colSpan={7}>
+                {selectedClass === "All Levels" ? "All Classes" : `Class ${selectedClass}`}
+              </th>
             </tr>
             <tr className="tableHeaderRow">
               <th>Car</th>

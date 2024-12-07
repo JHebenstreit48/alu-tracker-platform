@@ -12,7 +12,7 @@ export default function Home() {
       <div>
         
         <PageTab title="Home">
-          <Header text="Asphalt Legends Unite" />
+          <Header text="About ALU" />
           <GameInfo />
           <ImageCarousel project={Carousel} />
         </PageTab>

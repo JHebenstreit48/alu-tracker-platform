@@ -9,7 +9,7 @@ export default function LegendStorePrices() {
 
         <PageTab title="Legend Store Prices">
 
-          <Header text="Asphalt Legends Unite" />
+          <Header text="Legend Store" />
 
           <LegendStoreTables />
 

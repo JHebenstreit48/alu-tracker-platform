@@ -81,31 +81,93 @@
 
 /* Two-column layout for screens 390px and smaller */
 @media only screen and (max-width: 390px) {
-  .search-bar {
+  .controls {
     flex-direction: column;
     align-items: center;
     margin-top: 27rem;
   }
 
-  .responsive-table {
-    display: flex;
-    flex-direction: column;
+  .responsiveTable {
+    width: 20rem !important;
     margin: 4rem auto;
-    width: 20rem;
-  }
-  .classSelectionHeader {
-    width: 100%;
-  }
-  .tableHeaderRow {
-    display: flex;
-    flex-direction: column;
-    width: 9rem !important;
+    border: 2px solid rgb(11, 7, 134) !important;
   }
 
-  .rowLabel {
-    padding: 0 !important;
+  /* Center and style the class header */
+  .classSelectionHeader {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: black;
+    color: rgb(21, 201, 232);
+    border: 1px solid rgb(204, 19, 255);
+    margin-bottom: 1rem;
+  }
+
+  /* Hide the original header row since we’ll use pseudo-labels */
+  .tableHeaderRow {
+    display: none;
+  }
+
+  /* Each table row (car) becomes a separate block */
+  .responsiveTable tbody tr {
+    display: block;
+    margin-bottom: 0.5rem; /* spacing between cars */
+    border: 1px solid rgb(11, 7, 134);
+    background-color: rgb(32, 31, 31);
+  }
+
+  /* Each cell represents one label-value pair stacked vertically */
+  .responsiveTable td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 15px;
-    min-width: 1rem;
+  }
+
+  /* Pseudo-elements to insert labels corresponding to each column */
+  .responsiveTable td:nth-child(1)::before {
+    content: "Car:";
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+
+  .responsiveTable td:nth-child(2)::before {
+    content: "Blueprint 1:";
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+
+  .responsiveTable td:nth-child(3)::before {
+    content: "Blueprint 2:";
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+
+  .responsiveTable td:nth-child(4)::before {
+    content: "Blueprint 3:";
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+
+  .responsiveTable td:nth-child(5)::before {
+    content: "Blueprint 4:";
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+
+  .responsiveTable td:nth-child(6)::before {
+    content: "Blueprint 5:";
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+
+  .responsiveTable td:nth-child(7)::before {
+    content: "Total:";
+    font-weight: bold;
+    margin-right: 0.5rem;
   }
   .no-results {
     text-align: center;
