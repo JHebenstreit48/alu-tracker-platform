@@ -1,4 +1,20 @@
 /* General container styles */
+.controls {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column layout */
+  align-items: center; /* Align items to the center vertically */
+  justify-content: center; /* Center the entire block horizontally */
+  margin: 5rem auto 4rem auto; /* Center the grid within the parent container */
+  gap: 2rem; /* Add spacing between rows */
+  max-width: 300px; /* Restrict the width of the controls for better centering */
+}
+
+.DropdownLabel {
+  display: grid;
+  color: white;
+  gap: 10px;
+}
+
 .search-bar {
   margin: 8rem auto 3rem auto;
   display: flex;
@@ -21,28 +37,16 @@
   max-width: 300px;
 }
 
-.controls {
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.classDropdownLabel {
-  color: white;
-}
-
 /* Table styles */
-.responsive-table {
+.responsiveTable {
   text-align: center;
   border: 3px solid rgb(11, 7, 134) !important;
   box-shadow: 0 0 10px 6px rgb(223, 190, 7);
-  width: 50rem;
+  width: 55rem !important;
 }
 
-.responsive-table th,
-.responsive-table td {
-    min-width: 15rem; /* Adjust this value as needed */
+.responsiveTable th,
+.responsiveTable td {
     padding: 8px; /* Add padding to make the content more spacious */
     text-align: center; /* Ensure consistent alignment */
 }

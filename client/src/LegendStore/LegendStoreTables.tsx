@@ -2,119 +2,149 @@ import React, { useState } from "react";
 import { cars } from "./BlueprintPriceData.ts";
 import "../CSS/LegendStore.css";
 
-const LegendStoreTables: React.FC = () => {
-  const [selectedClass, setSelectedClass] = useState("D");
-  const [searchTerm, setSearchTerm] = useState(""); // State for search term
+const LegendStore: React.FC = () => {
+  const [selectedClass, setSelectedClass] = useState("D"); // Default class
+  const [searchTerm, setSearchTerm] = useState(""); // Search term
+  const [selectedCumulativeLevel, setSelectedCumulativeLevel] = useState<number | null>(null);
+  const [selectedIndividualLevel, setSelectedIndividualLevel] = useState<number | null>(null);
 
-  // Filter cars based on the selected class and search term
-  const filteredCars = cars
-    .filter((car) => car.class === selectedClass)
-    .filter((car) =>
-      `${car.brand} ${car.model}`
-        .toLowerCase()
-        .includes(searchTerm.toLowerCase())
+  // Filter cars based on selected class
+  let filteredCars = cars.filter((car) => car.class === selectedClass);
+
+  // Apply search term filter
+  if (searchTerm.trim() !== "") {
+    filteredCars = filteredCars.filter((car) =>
+      `${car.brand} ${car.model}`.toLowerCase().includes(searchTerm.toLowerCase())
     );
+  }
+
+  // Apply cumulative level filter if set
+  if (selectedCumulativeLevel !== null) {
+    filteredCars = filteredCars.filter(
+      (car) => car.garageLevel !== undefined && car.garageLevel <= selectedCumulativeLevel
+    );
+  }
+
+  // Apply individual level filter if set (overrides cumulative level)
+  if (selectedIndividualLevel !== null) {
+    filteredCars = filteredCars.filter(
+      (car) => car.garageLevel !== undefined && car.garageLevel === selectedIndividualLevel
+    );
+  }
 
   return (
+    <div>
+      {/* Controls */}
+      <div className="controls">
+       
 
-    <>
-
-      {/* Search bar */}
-      <div className="search-bar">
-        <label className="searchLabel" htmlFor="searchInput">Brand or Model:</label>
-        <input
-          id="searchInput"
-          type="text"
-          placeholder="Search..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-      </div>
-
-      <div className="cars-container">
-        {/* Dropdown to filter cars */}
-        <div className="controls">
-          <label className="classDropdownLabel" htmlFor="classDropdown">Filter by Class:</label>
+        <label className="DropdownLabel">
+          Cumulative Garage Level:
           <select
-            id="classDropdown"
+            onChange={(e) =>
+              setSelectedCumulativeLevel(
+                e.target.value ? parseInt(e.target.value, 10) : null
+              )
+            }
+          >
+            <option value="">All Levels</option>
+            {Array.from({ length: 60 }, (_, i) => i + 1).map((level) => (
+              <option key={level} value={level}>
+                Level {level}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className="DropdownLabel">
+          Individual Garage Level:
+          <select
+            onChange={(e) =>
+              setSelectedIndividualLevel(
+                e.target.value ? parseInt(e.target.value, 10) : null
+              )
+            }
+          >
+            <option value="">All Levels</option>
+            {Array.from({ length: 60 }, (_, i) => i + 1).map((level) => (
+              <option key={level} value={level}>
+                Level {level}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className="DropdownLabel" id="classSelector">
+          Class:
+          <select
             value={selectedClass}
             onChange={(e) => setSelectedClass(e.target.value)}
           >
-            <option value="D">D</option>
-            <option value="C">C</option>
-            <option value="B">B</option>
-            <option value="A">A</option>
-            <option value="S">S</option>
+            <option value="D">Class D</option>
+            <option value="C">Class C</option>
+            <option value="B">Class B</option>
+            <option value="A">Class A</option>
+            <option value="S">Class S</option>
           </select>
-        </div>
+        </label>
 
-        {/* Responsive table */}
-        <div className="table-container">
-          <table className="responsive-table">
+        <label className="DropdownLabel">
+          Search:
+          <input
+            type="text"
+            placeholder="Search by brand or model"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+        </label>
+      </div>
 
-            <thead>
-              {/* Class Header */}
-              <tr>
-                <th colSpan={7} className="classSelectionHeader">Class {selectedClass}</th>
-              </tr>
 
-            </thead>
 
-            <tbody>
-
-                <tr className="tableHeaderRow">
-                  <th className="rowLabel">Car</th>
-                  <th>Blueprint 1</th>
-                  <th>Blueprint 2</th>
-                  <th>Blueprint 3</th>
-                  <th>Blueprint 4</th>
-                  <th>Blueprint 5</th>
-                  <th>Total</th>
+      {/* Table (unchanged layout) */}
+      <div>
+        <table className="responsiveTable">
+          <thead>
+            <tr className="classSelectionHeader">
+              <th colSpan={7}>Class {selectedClass}</th>
+            </tr>
+            <tr className="tableHeaderRow">
+              <th>Car</th>
+              <th>Blueprint 1</th>
+              <th>Blueprint 2</th>
+              <th>Blueprint 3</th>
+              <th>Blueprint 4</th>
+              <th>Blueprint 5</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {filteredCars.length > 0 ? (
+              filteredCars.map((car) => (
+                <tr key={`${car.brand}-${car.model}`}>
+                  <td>{`${car.brand} ${car.model}`}</td>
+                  {car.blueprintPrices.map((price, index) => (
+                    <td key={index}>{price.toLocaleString()}</td>
+                  ))}
+                  <td>
+                    {car.blueprintPrices
+                      .reduce((total, price) => total + price, 0)
+                      .toLocaleString()}
+                  </td>
                 </tr>
-
-              {/* Table Headers */}
-                {filteredCars.map((car, index) => {
-                  const total = car.blueprintPrices.reduce((acc, price) => acc + price, 0);
-                  return (
-                    <tr
-                      key={index}>
-                      <td
-                        className="pricesCell"
-                      >
-                        {car.brand} {car.model}
-
-                      </td>
-                      {car.blueprintPrices.map((price, i) => (
-
-                        <td
-                          key={i}
-                          className={`dataCell blueprint-${i + 1}`}
-                        >
-                          {price.toLocaleString()}</td>
-                      ))}
-
-                      <td
-                        className="totalCell">{total.toLocaleString()}
-
-                      </td>
-
-                    </tr>
-
-                  );
-                })}
-      
-            </tbody>
-
-          </table>
-
-          </div>
-          {filteredCars.length === 0 && (
-            <p className="no-results">No cars found for the current search term.</p>
-          )}
-        </div>
-
-    </>
+              ))
+            ) : (
+              <tr>
+                <td colSpan={7} className="no-results">
+                  No results found.
+                </td>
+              </tr>
+            )}
+          </tbody>
+        </table>
+      </div>
+    </div>
   );
 };
 
-export default LegendStoreTables;
+export default LegendStore;
