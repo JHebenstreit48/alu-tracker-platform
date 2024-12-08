@@ -2,28 +2,30 @@ export interface Car {
   class: string; // D, C, B, A, S
   brand: string; // Car brand
   model: string; // Car model
-  garageLevel?: number; // Garage level required to purchase
-  individualLevel?: number; // Individual level required to purchase
+  garageLevel: number; // Garage level required to purchase
+  starRank?: number; // Maximum star rank of the car
+  carRarity?: string; // rare, epic, legendary with rare being the most common, epic above that, and legendary being the rarest or highest tier
   blueprintPrices: number[]; // Prices for blueprints 1-5
 }
 
 export const cars: Car[] = [
-  { class: "D", brand: "Mitsubishi", model: "Lancer Evolution", garageLevel: 1, blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
-  { class: "D", brand: "BMW", model: "Z4 LCI E89", garageLevel: 1, blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
-  { class: "D", brand: "Chevrolet", model: "Camaro LT", garageLevel: 1, blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
-  { class: "D", brand: "Lotus", model: "Elise Sprint 220", garageLevel: 5, blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
-  { class: "D", brand: "Nissan", model: "370z Nismo", garageLevel: 2, blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
-  { class: "D", brand: "DS Automobiles", model: "DS E-Tense", garageLevel: 2, blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
-  { class: "D", brand: "Volkswagen", model: "XL Sport Concept", garageLevel: 3, blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
-  { class: "D", brand: "Mazda", model: "Furai", garageLevel: 6, blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
-  { class: "D", brand: "Porsche", model: "911 Targa 4S", garageLevel: 3, blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
-  { class: "D", brand: "Dodge", model: "Challenger Hemi Scat Pk.", garageLevel: 3, blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
-  { class: "D", brand: "Porsche", model: "718 Cayman", garageLevel: 4, blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
-  { class: "D", brand: "Ginetta", model: "G60", garageLevel: 4, blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
-  { class: "D", brand: "TVR", model: "Griffith", garageLevel: 5, blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
-  { class: "D", brand: "Ford", model: "Shelby GT350R", garageLevel: 6, blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
-  // { class: "D", brand: "Infiniti", model: "Project Black S", garageLevel: 21, blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
-  // { class: "D", brand: "Lamborghini", model: "Countach 25th Anniversary", garageLevel: 21, blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
+  { class: "D", brand: "Mitsubishi", model: "Lancer Evolution", starRank: 3, carRarity: "Rare", garageLevel: 1, blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
+  { class: "D", brand: "BMW", model: "Z4 LCI E89", garageLevel: 1, starRank: 3, carRarity: "Rare", blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
+  { class: "D", brand: "Chevrolet", model: "Camaro LT", garageLevel: 1, starRank: 3, carRarity: "Rare", blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
+  { class: "D", brand: "Lotus", model: "Elise Sprint 220", garageLevel: 5, starRank: 4, blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
+  { class: "D", brand: "Nissan", model: "370z Nismo", garageLevel: 2, starRank: 3, carRarity: "Rare", blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
+  { class: "D", brand: "DS Automobiles", model: "DS E-Tense", garageLevel: 2, starRank: 3, carRarity: "Rare", blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
+  { class: "D", brand: "Volkswagen", model: "XL Sport Concept", garageLevel: 3, starRank: 3, carRarity: "Rare", blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
+  { class: "D", brand: "Mazda", model: "Furai", garageLevel: 6, starRank: 4, carRarity: "Epic", blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
+  { class: "D", brand: "Porsche", model: "911 Targa 4S", garageLevel: 3, starRank: 4, carRarity: "Epic", blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
+  { class: "D", brand: "Dodge", model: "Challenger Hemi Scat Pk.", starRank: 3, garageLevel: 3, carRarity: "Rare", blueprintPrices: [10000, 15000, 20000, 25000, 30000] },
+  { class: "D", brand: "Porsche", model: "718 Cayman", garageLevel: 4, starRank: 4, carRarity: "Epic", blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
+  { class: "D", brand: "Ginetta", model: "G60", garageLevel: 4, starRank: 4, carRarity: "Epic", blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
+  { class: "D", brand: "TVR", model: "Griffith", garageLevel: 5, starRank: 4, blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
+  { class: "D", brand: "Ford", model: "Shelby GT350R", garageLevel: 6, starRank: 4, carRarity: "Epic", blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
+  { class: "D", brand: "Infiniti", model: "Project Black S", garageLevel: 21, starRank: 4, carRarity: "Epic", blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
+  { class: "D", brand: "Lamborghini", model: "Countach 25th Anniversary", garageLevel: 21, starRank: 4, carRarity: "Epic", blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
+  { class: "D", brand: "Lotus", model: "Emira", garageLevel: 22, starRank: 4, carRarity: "Epic", blueprintPrices: [33000, 50000, 67000, 84000, 101000] },
 
   
   { class: "C", brand: "BMW", model: "M4 GTS", garageLevel: 6, blueprintPrices: [13000, 19500, 26000, 32500, 39000] },
@@ -74,13 +76,13 @@ export const cars: Car[] = [
 
 
   { class: "S", brand: "Ferrari", model: "FXX K", garageLevel: 12, blueprintPrices: [180000, 270000, 360000, 450000, 540000] },
-  { class: "S", brand: "Lamborghini", model: "Centenario", garageLevel: 11, blueprintPrices: [180000, 270000, 360000, 450000, 540000] },
+  { class: "S", brand: "Lamborghini", model: "Centenario", garageLevel: 11, starRank: 5, carRarity: "Legendary", blueprintPrices: [180000, 270000, 360000, 450000, 540000] },
   { class: "S", brand: "Koenigsegg", model: "Regera", garageLevel: 18, blueprintPrices: [300000, 450000, 600000, 750000, 900000] },
   { class: "S", brand: "Bugatti", model: "Chiron", garageLevel: 20, blueprintPrices: [300000, 450000, 600000, 750000, 900000] },
-  { class: "S", brand: "Icona", model: "Vulcano Titanium", garageLevel: 13, blueprintPrices: [180000, 270000, 360000, 450000, 540000] },
+  { class: "S", brand: "Icona", model: "Vulcano Titanium", garageLevel: 13, starRank: 5, carRarity: "Legendary", blueprintPrices: [180000, 270000, 360000, 450000, 540000] },
   { class: "S", brand: "W Motors", model: "Lykan Hypersport", garageLevel: 16, blueprintPrices: [180000, 270000, 360000, 450000, 540000] },
   // { class: "S", brand: "Lamborghini", model: "Veneno", garageLevel: 14, blueprintPrices: [180000, 270000, 360000, 450000, 540000] },
-  // { class: "S", brand: "Bugatti", model: "Veyron 16.4 Grand Sport Vitesse", garageLevel: 16, blueprintPrices: [180000, 270000, 360000, 450000, 540000] },
+  // { class: "S", brand: "Bugatti", model: "Veyron 16.4 Grand Sport Vitesse", garageLevel: 59, blueprintPrices: [180000, 270000, 360000, 450000, 540000] },
   // { class: "S", brand: "Koenigsegg", model: "Agera RS", garageLevel: 17, blueprintPrices: [180000, 270000, 360000, 450000, 540000] },
 
 ];

@@ -6,6 +6,12 @@ const LegendStore: React.FC = () => {
   const [selectedClass, setSelectedClass] = useState(() => {
     return localStorage.getItem("selectedClass") || "D"; // Default to "D"
   });
+
+  const [selectedCarRarity, setSelectedCarRarity] = useState<string | null>(() => {
+    const value = localStorage.getItem("selectedCarRarity");
+    return value !== null ? value : null;
+  });
+
   const [searchTerm, setSearchTerm] = useState(() => {
     return localStorage.getItem("searchTerm") || ""; // Default to empty search
   });
@@ -18,10 +24,25 @@ const LegendStore: React.FC = () => {
     return value !== null ? Number(value) : null;
   });
 
+  const [selectedStarRank, setSelectedStarRank] = useState<number | null>(() => {
+    const value = localStorage.getItem("selectedStarRank");
+    return value !== null ? Number(value) : null;
+  });
+
+
+
   // Save selected filters to localStorage
   useEffect(() => {
     localStorage.setItem("selectedClass", selectedClass);
   }, [selectedClass]);
+
+  useEffect(() => {
+    if (selectedCarRarity !== null) {
+      localStorage.setItem("selectedCarRarity", selectedCarRarity);
+    } else {
+      localStorage.removeItem("selectedCarRarity");
+    }
+  }, [selectedCarRarity]);
 
   useEffect(() => {
     localStorage.setItem("searchTerm", searchTerm);
@@ -43,10 +64,24 @@ const LegendStore: React.FC = () => {
     }
   }, [selectedIndividualLevel]);
 
+  useEffect(() => {
+    if (selectedStarRank !== null) {
+      localStorage.setItem("selectedStarRank", String(selectedStarRank));
+    } else {
+      localStorage.removeItem("selectedStarRank");
+    }
+  }, [selectedStarRank]);
+
   // Filter cars based on selected class
   let filteredCars = selectedClass === "All Levels"
     ? cars // Show all cars if "All Levels" is selected
     : cars.filter((car) => car.class === selectedClass);
+
+  if (selectedCarRarity !== null) {
+    filteredCars = filteredCars.filter(
+      (car) => car.carRarity !== undefined && car.carRarity === selectedCarRarity
+    );
+  }
 
   // Apply search term filter
   if (searchTerm.trim() !== "") {
@@ -69,13 +104,22 @@ const LegendStore: React.FC = () => {
     );
   }
 
+  if (selectedStarRank !== null) {
+    filteredCars = filteredCars.filter(
+      (car) => car.starRank !== undefined && car.starRank === selectedStarRank
+    );
+  }
+
   return (
     <div>
+
       {/* Controls */}
       <div className="controls">
+        <h2 className="filterHeading">Car Search Filters</h2>
         <label className="DropdownLabel">
           Cumulative Garage Level:
           <select
+            className="dropdownSelector"
             value={selectedCumulativeLevel !== null ? selectedCumulativeLevel : ""}
             onChange={(e) =>
               setSelectedCumulativeLevel(
@@ -95,6 +139,7 @@ const LegendStore: React.FC = () => {
         <label className="DropdownLabel">
           Individual Garage Level:
           <select
+            className="dropdownSelector"
             value={selectedIndividualLevel !== null ? selectedIndividualLevel : ""}
             onChange={(e) =>
               setSelectedIndividualLevel(
@@ -111,9 +156,48 @@ const LegendStore: React.FC = () => {
           </select>
         </label>
 
+        <label className="DropdownLabel">
+          Star Rank:
+          <select
+            className="dropdownSelector"
+            value={selectedStarRank !== null ? selectedStarRank : ""}
+            onChange={(e) =>
+              setSelectedStarRank(
+                e.target.value ? parseInt(e.target.value, 10) : null
+              )
+            }
+          >
+            <option value="">All Ranks</option>
+            {Array.from({ length: 6 }, (_, i) => i + 1).map((rank) => (
+              <option key={rank} value={rank}>
+                Rank {rank}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className="DropdownLabel">
+          Rarity:
+          <select
+            className="dropdownSelector"
+            value={selectedCarRarity !== null ? selectedCarRarity : ""}
+            onChange={(e) =>
+              setSelectedCarRarity(e.target.value || null)
+            }
+          >
+            <option value="">All Rarities</option>
+            {["Rare", "Epic", "Legendary"].map((rarity) => (
+              <option key={rarity} value={rarity}>
+                {rarity}
+              </option>
+            ))}
+          </select>
+        </label>
+
         <label className="DropdownLabel" id="classSelector">
           Class:
           <select
+            className="dropdownSelector"
             value={selectedClass}
             onChange={(e) => setSelectedClass(e.target.value)}
           >
@@ -129,12 +213,37 @@ const LegendStore: React.FC = () => {
         <label className="DropdownLabel">
           Search:
           <input
+            id="searchInput"
             type="text"
             placeholder="Search by brand or model"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
         </label>
+
+          <button
+            className="resetButton"
+            onClick={() => {
+              // Clear localStorage for each filter
+              localStorage.removeItem("selectedClass");
+              localStorage.removeItem("selectedCarRarity");
+              localStorage.removeItem("searchTerm");
+              localStorage.removeItem("selectedCumulativeLevel");
+              localStorage.removeItem("selectedIndividualLevel");
+              localStorage.removeItem("selectedStarRank");
+
+              // Reset state for each filter
+              setSelectedClass("D"); // Reset to default class
+              setSelectedCarRarity(null); // Reset rarity
+              setSearchTerm(""); // Reset search term
+              setSelectedCumulativeLevel(null); // Reset cumulative level
+              setSelectedIndividualLevel(null); // Reset individual level
+              setSelectedStarRank(null); // Reset star rank
+            }}
+          >
+            Reset Filters
+          </button>
+
       </div>
 
       {/* Table (unchanged layout) */}
