@@ -22,3 +22,9 @@
 .carSearch:focus::placeholder {
   color: rgba(0, 0, 0, 0); /* Fully transparent when input is focused */
 }
+
+@media only screen and (max-width: 390px) {
+  .carFilters {
+    margin: 26rem auto 1rem auto;
+  }
+}

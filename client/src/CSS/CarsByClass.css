@@ -63,9 +63,9 @@ td {
 }
 
 @media only screen and (max-width: 390px) {
-	.class-select {
+	.classSelect {
 		display: flex;
-		margin: 24rem auto 3rem;
+		margin: 4rem auto 3rem;
 		font-size: 1.2rem;
 	}
 	table {

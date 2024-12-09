@@ -132,9 +132,22 @@
   .controls {
     display: grid;
     grid-template-columns: 1fr;
-    width: 12rem;
+    width: 14rem;
     align-items: center;
-    margin-top: 27rem;
+    margin: 27rem auto 4rem auto;
+  }
+  .controls select {
+    width: 8rem;
+  }
+
+  .DropdownLabel {
+    display: flex;
+    flex-flow: column;
+    width: 9rem;
+  }
+
+  #searchInput {
+    width: 7.6rem;
   }
 
   .responsiveTable {

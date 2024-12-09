@@ -57,6 +57,42 @@ const LegendStoreFilters: React.FC<{
     onFiltersChange,
   ]);
 
+  useEffect(() => {
+    localStorage.setItem("selectedClass", selectedClass);
+  }, [selectedClass]);
+
+  useEffect(() => {
+    localStorage.setItem("selectedCarRarity", selectedCarRarity || "");
+  }, [selectedCarRarity]);
+
+  useEffect(() => {
+    localStorage.setItem("searchTerm", searchTerm);
+  }, [searchTerm]);
+
+  useEffect(() => {
+    if (selectedCumulativeLevel !== null) {
+      localStorage.setItem("selectedCumulativeLevel", String(selectedCumulativeLevel));
+    } else {
+      localStorage.removeItem("selectedCumulativeLevel");
+    }
+  }, [selectedCumulativeLevel]);
+
+  useEffect(() => {
+    if (selectedIndividualLevel !== null) {
+      localStorage.setItem("selectedIndividualLevel", String(selectedIndividualLevel));
+    } else {
+      localStorage.removeItem("selectedIndividualLevel");
+    }
+  }, [selectedIndividualLevel]);
+
+  useEffect(() => {
+    if (selectedStarRank !== null) {
+      localStorage.setItem("selectedStarRank", String(selectedStarRank));
+    } else {
+      localStorage.removeItem("selectedStarRank");
+    }
+  }, [selectedStarRank]);
+
   return (
     <div className="controls">
       <h2 className="filterHeading">Car Search Filters</h2>
