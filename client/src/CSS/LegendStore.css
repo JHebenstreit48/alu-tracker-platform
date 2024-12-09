@@ -15,6 +15,7 @@
 }
 .controls select {
   height: 2rem; 
+  text-align: center;
 }
 .filterHeading {
   display: grid;
@@ -31,12 +32,35 @@
   gap: 10px;
 }
 
-.dropdownSelector {
-  height: 1.8rem;
+.optionRare {
+  background-color: rgb(1, 188, 250);
+  color: black; /* Ensure text is visible */
+  text-align: center;
+}
+
+.optionEpic {
+  background-color: rgb(111, 8, 170);
+  color: white; /* Ensure text is visible */
+  text-align: center;
+}
+
+.optionLegendary {
+  background-color: rgb(255, 174, 0);
+  color: black; /* Ensure text is visible */
+  text-align: center;
 }
 
 #searchInput {
   height: 1.8rem;
+  text-align: center;
+}
+
+#searchInput::placeholder {
+  text-align: center;
+}
+
+#searchInput:focus::placeholder {
+  color: rgba(0, 0, 0, 0); /* Fully transparent when input is focused */
 }
 
 .resetButton {

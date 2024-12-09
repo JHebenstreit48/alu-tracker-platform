@@ -10,8 +10,8 @@ export default function Manufacturers() {
 
             <div>
 
-                <PageTab title="Manufacturers">
-                    <Header text="Manufacturers" />
+                <PageTab title="Brands">
+                    <Header text="Brands" />
                     <JumpList />
                 </PageTab>
 

@@ -17,6 +17,7 @@ export default function abcList() {
         <div className='jumpList'>
           {abc.map((letter) => (
             <a
+            key={letter.letterKey}
             className='brandAlphabetical'
             href={`#${letter.letterKey}`}
             onClick={(event) => handleScroll(event, letter.letterKey)}
