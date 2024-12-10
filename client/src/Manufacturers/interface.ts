@@ -4,5 +4,9 @@ export interface BrandInfo {
     brandsKey: string;
     logo?: string;
     info: string;
+    resources?: {
+      text: string;
+      url: string;
+    }[];
   }[];
 }

@@ -8,6 +8,7 @@ import AresModena from '../car-logos/ares-modena-logo.png';
 import Arrinera from '../car-logos/arrinera-logo.png';
 import Artega from '../car-logos/artega-logo.png';
 import Aspark from '../car-logos/aspark-logo.png';
+import AstonMartin from '../car-logos/aston-martin-logo.png';
 
 export const Logos = {
     Acura,
@@ -20,6 +21,7 @@ export const Logos = {
     Arrinera,
     Artega,
     Aspark,
+    AstonMartin,
 
 
 };
