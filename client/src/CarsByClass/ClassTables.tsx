@@ -31,29 +31,26 @@ export default function carClassTables({ cars, selectedClass }: ClassTablesProps
         );
     };
 
+    const headerText =
+    selectedClass === "All Classes" ? "All Classes" : selectedClass;
+
     return (
         <>
             <div>
                 <table>
                     <tbody>
-                        {/* Class Header */}
                         <tr>
                             <th className="table-header" colSpan={2}>
-                                {selectedClass} Class
+                                {headerText}
                             </th>
                         </tr>
-
-                        {/* Column Headers */}
                         <tr className="table-data">
                             <td>Manufacturer & Model</td>
                             <td>Star Rank</td>
                         </tr>
-
-                        {/* Dynamic Car Rows */}
                         {cars.map((car) => (
                             <tr className="table-data" key={car._id}>
                                 <td className="car-name">
-                                    {/* Link to Car Details */}
                                     <Link to={`/cars/${car._id}`}>
                                         {car.Brand} {car.Model}
                                     </Link>

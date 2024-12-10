@@ -28,6 +28,7 @@
   justify-content: center;
   align-items: center;
   text-shadow: 4px 4px 4px #000000;
+  margin-bottom: 2rem;
 }
 #Acura {
   display: flex;
@@ -117,21 +118,59 @@
   height: 9rem;
 }
 
+#AstonMartin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+  width: 22rem;
+  height: 6rem;
+}
+
 .manufacturerInfo {
   display: flex;
-
+  flex-direction: column;
+  text-align: center; /* Align text content centrally */
   color: rgb(21, 201, 232);
   background-color: black;
   border: 4px solid rgb(11, 7, 134);
-  padding-top: 18px;
-  padding-right: 24px;
-  padding-left: 25px;
-  padding-bottom: 19px;
-  max-width: 40%;
+  padding: 18px 24px;
+  max-width: 46rem;
   box-shadow: 0 0 9px 5px rgb(223, 190, 7);
-  margin-bottom: 60px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1.5rem auto;
+  overflow: hidden; /* Prevent overflow issues */
+}
+
+.resourcesContainer {
+  width: 100%; /* Take full width of the parent container */
+  margin-top: 0.3rem; /* Add spacing from manufacturer info */
+  text-align: center; /* Center-align the links */
+}
+
+.resourcesHeader {
+  font-weight: normal;
+  text-decoration: underline;
+  font-size: 1.8rem;
+  font-style: italic;
+  color: rgb(223, 183, 7);
+}
+
+.resourcesList {
+  list-style-type: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.resourcesList li {
+  margin-bottom: 0.5rem; /* Add spacing between links */
+}
+
+.resourcesList a {
+  color: rgb(21, 201, 232); /* Match text color */
+}
+
+.resourcesList a:hover {
+  font-size: 1.1rem;
 }
 
 @media only screen and (max-width: 768px) {

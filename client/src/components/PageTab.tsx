@@ -3,25 +3,25 @@ import { useEffect } from 'react';
 function PageTab(props: { title: string, children: React.ReactNode }) {
 
 
-    useEffect (() => {
+  useEffect(() => {
 
-        document.title = `${props.title} | Asphalt Legends Unite`;
-        window.scrollTo(0, 0);
-  
-      }, []);
+    document.title = `ALU Tracker | ${props.title}`;
+    window.scrollTo(0, 0);
 
-      return (
+  }, [props.title]);
 
-        <>
+  return (
 
-        <div>
-            {props.children}
-        </div>
-        
-        </>
+    <>
 
-      )
-    
+      <div>
+        {props.children}
+      </div>
+
+    </>
+
+  )
+
 }
 
 export default PageTab;

@@ -8,12 +8,29 @@ export const abc: BrandInfo[] = [
       {
         brandsKey: "Acura",
         logo: Logos.Acura,
-        info: "Acura is the luxury division of Japanese automaker Honda Motor Company. It was originally referred to as Channel II. The name change to Acura was announced in September of 1984. They did not sell their first vehicles in the US market until March 27th, 1986.",
+        info:
+        "Acura is the luxury division of Japanese automaker Honda Motor Company. It was originally referred to as Channel II. The name change to Acura was announced in September of 1984. They did not sell their first vehicles in the US market until March 27th, 1986.",
+        resources: [
+          {
+            text: "Acura - Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Acura",
+          },
+          {
+            text: "Honda News - Acura History",
+            url: "https://hondanews.com/en-US/releases/release-e6b4345aa35541ea9556b69e4424209e-acura-history",
+          }
+        ],
       },
       {
         brandsKey: "Ajlani Motors",
         logo: Logos.Ajlani,
         info: "Ajlani Motors is a UAE based company founded by Bashar Ajlani a car designer and art director. His first car the Ajlani Drakuma concept was unveiled at the Dubai International Motor Show in November of 2019. Bashar Ajlani has also won multiple 1st place awards for various works. This includes a Platinum position with A Design Award and Competition. He even won a 1st place Masters Scholarship by Pininfarina in automotive design.",
+        resources: [
+          {
+            text: "Asphalt Fandom - Ajlani Motors",
+            url: "https://asphalt.fandom.com/wiki/Ajlani_Motors"
+          }
+        ],
       },
       {
         brandsKey: "Alfa Romeo",
@@ -53,12 +70,18 @@ export const abc: BrandInfo[] = [
       {
         brandsKey: "Aspark",
         logo: Logos.Aspark,
-        info: "",
+        info: "Aspark is a Japanese car manufacturer founded by Masanori Yoshida in Osaka, Japan in October of 2005. It began as a technical development and R&D engineering outsourcing services company. The company's vision is to create objects-of-desire from the most cutting-edge electric vehicle technologies. They aspire to create new products and services that offer customers a new value experience of fascination and idulgence. Currently the only vehicle they have produced is the Aspark Owl. The Aspark Owl is an EV hypercar that was first unveiled at the 2017 Frankfurt Motor Show. The production version wsa then unveiled at the 2019 Dubai International Motor Show.",
       },
       {
         brandsKey: "Aston Martin",
-        // logo: Logos.AstonMartin,
-        info: "",
+        logo: Logos.AstonMartin,
+        info: "Aston Martin is a British automotive manufacturer that was founded in 1913 by Lionel Martin and Robert Bamford. The company is currently based in Gaydon, England. It has become synonymous with luxury, style, performance, and exclusivity. Aston Martins are famously known for being the car of choice for James Bond in the 007 movies. One of their most iconic models is a modified Aston Martin DB5. It first premiered in the 1964 movie Goldfinger.",
+        resources: [
+          {
+            text: "Aston Martin - About Us",
+            url: "https://www.astonmartin.com/en/corporate/about-us"
+          }
+        ],
       },
       {
         brandsKey: "ATS Automobili",

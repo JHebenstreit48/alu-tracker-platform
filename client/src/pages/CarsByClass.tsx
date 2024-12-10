@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import Header from "../components/Header";
 import PageTab from "../components/PageTab";
-import ClassTables from "../CarsByClass/classTables";
+import ClassTables from "../CarsByClass/ClassTables";
+import CarFilters from "../CarsByClass/CarFilters";
 import "../CSS/CarsByClass.css";
 import { useLocation } from "react-router-dom";
 
@@ -13,66 +14,96 @@ interface Car {
 }
 
 export default function CarsByClass() {
-    const location = useLocation();
+    const location = useLocation(); // Use location for managing state
     const [cars, setCars] = useState<Car[]>([]);
+    const [searchTerm, setSearchTerm] = useState<string>(""); // Search term
+    const [selectedStars, setSelectedStars] = useState<number | null>(null);
     const [selectedClass, setSelectedClass] = useState<string>(
-        sessionStorage.getItem("selectedClass") || "D"
+        sessionStorage.getItem("selectedClass") || "All Classes"
     );
+    const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
-        // Check if coming back from CarDetail.tsx
-        const fromCarDetail = location.state?.fromCarDetail || false;
+        setError(null);
 
-        if (!fromCarDetail && !sessionStorage.getItem("manualSelection")) {
-            // Reset to default class "D" if not coming from CarDetail
-            setSelectedClass("D");
-            sessionStorage.setItem("selectedClass", "D");
-        }
+        const endpoint =
+            selectedClass === "All Classes"
+                ? "http://localhost:3001/api/cars" // Fetch all cars
+                : `http://localhost:3001/api/cars/${selectedClass}`; // Fetch specific class
 
-        // Fetch cars based on selected class
-        fetch(`http://localhost:3001/api/cars/${selectedClass}`)
+        fetch(endpoint)
             .then((response) => {
                 if (!response.ok) {
-                    console.error(`HTTP error! status: ${response.status}`); // Log detailed error
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 return response.json();
             })
             .then((data) => {
-                console.log("Fetched cars:", data); // Debug log
                 setCars(data);
             })
             .catch((error) => {
-                console.error("Error fetching cars:", error); // Handle fetch errors
+                setError("Failed to fetch cars. Please try again later.");
+                console.error(error);
             });
-    }, [selectedClass, location.state]);
+
+    }, [selectedClass, location.state]); // Dependency includes location.state
+
+    const handleSearch = (term: string) => {
+        setSearchTerm(term.toLowerCase());
+    };
+
+    const handleStarFilter = (stars: number | null) => {
+        setSelectedStars(stars);
+    };
 
     const handleClassChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
         const newClass = e.target.value;
         setSelectedClass(newClass);
         sessionStorage.setItem("selectedClass", newClass);
-        sessionStorage.setItem("manualSelection", "true"); // Mark that user manually changed the class
     };
+
+    const filteredCars = cars
+    .filter((car) => {
+        const matchesSearch =
+            car.Brand.toLowerCase().includes(searchTerm) ||
+            car.Model.toLowerCase().includes(searchTerm);
+        const matchesStars = selectedStars ? car.Stars === selectedStars : true;
+
+        return matchesSearch && matchesStars;
+    })
+    .sort((a: Car, b: Car) => {
+        // Sort by star rank only when "All Classes" is selected
+        if (selectedClass === "All Classes") {
+            return a.Stars - b.Stars;
+        }
+        return 0; // No sorting for specific classes
+    });
+    if (error) return <div>Error: {error}</div>;
 
     return (
         <div>
-            <PageTab title="Cars by Class">
-                <Header text="Cars by Class" />
+            <PageTab title="Cars">
+                <Header text="Cars" />
                 <div>
+                    <CarFilters
+                        onSearch={handleSearch}
+                        onFilter={handleStarFilter}
+                    />
+
                     <select
                         onChange={handleClassChange}
                         value={selectedClass}
-                        className="class-select"
+                        className="classSelect"
                     >
-                        <option value="D">D Class</option>
-                        <option value="C">C Class</option>
-                        <option value="B">B Class</option>
-                        <option value="A">A Class</option>
-                        <option value="S">S Class</option>
+                        <option value="All Classes">All Classes</option>
+                        <option value="D">D</option>
+                        <option value="C">C</option>
+                        <option value="B">B</option>
+                        <option value="A">A</option>
+                        <option value="S">S</option>
                     </select>
                 </div>
-                {/* Pass sorted cars and selected class to ClassTables */}
-                <ClassTables cars={cars.sort((a, b) => a.Stars - b.Stars)} selectedClass={selectedClass} />
+                <ClassTables cars={filteredCars} selectedClass={selectedClass} />
             </PageTab>
         </div>
     );
