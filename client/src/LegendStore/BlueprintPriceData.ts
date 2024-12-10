@@ -83,7 +83,7 @@ export const cars: Car[] = [
   { class: "B", brand: "Apollo", model: "IE", garageLevel: 46, starRank: 5, carRarity: "Legendary", blueprintPrices: [126000, 189000, 252000, 315000, 378000] },
   { class: "B", brand: "Puritalia", model: "Berlinetta", garageLevel: 47, starRank: 5, carRarity: "Legendary", blueprintPrices: [126000, 189000, 252000, 315000, 378000] },
   { class: "B", brand: "Nissan", model: "GTR-50 Italdesign", garageLevel: 30, starRank: 5, carRarity: "Legendary", blueprintPrices: [126000, 189000, 252000, 315000, 378000] },
-  // { class: "B", brand: "Porsche", model: "911 GT3 RS", garageLevel: 30, starRank: 6, carRarity: "Legendary", blueprintPrices: [126000, 189000, 252000, 315000, 378000] },
+  { class: "B", brand: "Porsche", model: "911 GT3 RS", garageLevel: 30, starRank: 6, carRarity: "Legendary", blueprintPrices: [192000, 288000, 384000, 480000, 576000] },
 
   
 
