@@ -23,13 +23,15 @@ export default function CarsByClass() {
     );
     const [error, setError] = useState<string | null>(null);
 
+    const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "http://localhost:3001/api";
+
     useEffect(() => {
         setError(null);
 
         const endpoint =
             selectedClass === "All Classes"
-                ? "http://localhost:3001/api/cars" // Fetch all cars
-                : `http://localhost:3001/api/cars/${selectedClass}`; // Fetch specific class
+                ? `${API_BASE_URL}/cars` // Fetch all cars
+                : `${API_BASE_URL}/cars/${selectedClass}`; // Fetch specific class
 
         fetch(endpoint)
             .then((response) => {
@@ -45,7 +47,6 @@ export default function CarsByClass() {
                 setError("Failed to fetch cars. Please try again later.");
                 console.error(error);
             });
-
     }, [selectedClass, location.state]); // Dependency includes location.state
 
     const handleSearch = (term: string) => {
@@ -63,21 +64,22 @@ export default function CarsByClass() {
     };
 
     const filteredCars = cars
-    .filter((car) => {
-        const matchesSearch =
-            car.Brand.toLowerCase().includes(searchTerm) ||
-            car.Model.toLowerCase().includes(searchTerm);
-        const matchesStars = selectedStars ? car.Stars === selectedStars : true;
+        .filter((car) => {
+            const matchesSearch =
+                car.Brand.toLowerCase().includes(searchTerm) ||
+                car.Model.toLowerCase().includes(searchTerm);
+            const matchesStars = selectedStars ? car.Stars === selectedStars : true;
 
-        return matchesSearch && matchesStars;
-    })
-    .sort((a: Car, b: Car) => {
-        // Sort by star rank only when "All Classes" is selected
-        if (selectedClass === "All Classes") {
-            return a.Stars - b.Stars;
-        }
-        return 0; // No sorting for specific classes
-    });
+            return matchesSearch && matchesStars;
+        })
+        .sort((a: Car, b: Car) => {
+            // Sort by star rank only when "All Classes" is selected
+            if (selectedClass === "All Classes") {
+                return a.Stars - b.Stars;
+            }
+            return 0; // No sorting for specific classes
+        });
+
     if (error) return <div>Error: {error}</div>;
 
     return (
@@ -89,7 +91,6 @@ export default function CarsByClass() {
                         onSearch={handleSearch}
                         onFilter={handleStarFilter}
                     />
-
                     <select
                         onChange={handleClassChange}
                         value={selectedClass}
