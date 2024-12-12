@@ -23,7 +23,8 @@ export default function CarsByClass() {
     );
     const [error, setError] = useState<string | null>(null);
 
-    const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "http://localhost:3001/api";
+    // Use Vite's `import.meta.env` for environment variables
+    const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
 
     useEffect(() => {
         setError(null);
