@@ -26,10 +26,10 @@ import AstonMartinVantageV122022 from "../car-photos/aston-martin-vantage-v12-20
 import AstonMartinVictor from "../car-photos/aston-martin-victor.jpg";
 import AstonMartinVulcan from "../car-photos/aston-martin-vulcan.jpg";
 import ATSAutomobiliCorsaRRTurbo from "../car-photos/ats-automobili-corsa-rr-turbo.jpg";
-import AutomobiliPininfarinaBattistaEdizioneNinoFarina from "../car-photos/automobili-pininfarina-battista-edizione-nino-farina.jpg";
 import AutomobiliPininfarinaBattista from "../car-photos/automobili-pininfarina-battista.jpg";
-import BentleyContinentalGTSpeed from "../car-photos/bentley-continental-gt-speed.jpg";
+import AutomobiliPininfarinaBattistaEdizioneNinoFarina from "../car-photos/automobili-pininfarina-battista-edizione-nino-farina.jpg";
 import BentleyContinentalGT3 from "../car-photos/bentley-continental-gt3.jpg";
+import BentleyContinentalGTSpeed from "../car-photos/bentley-continental-gt-speed.jpg";
 import BentleyMullinerBacalar from "../car-photos/bentley-mulliner-bacalar.jpg";
 import BMW3CSLHommage from "../car-photos/bmw-3-csl-hommage.jpg";
 import BMWi8Roadster from "../car-photos/bmw-i8-roadster.jpg";
@@ -57,7 +57,7 @@ import ChevroletCorvetteGrandSport from "../car-photos/chevrolet-corvette-grand-
 import ChevroletCorvetteStingray from "../car-photos/chevrolet-corvette-stingray.jpg";
 import ChevroletCorvetteZR1 from "../car-photos/chevrolet-corvette-zr1.jpg";
 import CitroenGT from "../car-photos/citroen-gt.jpg";
-import CZinger21C from "../car-photos/czinger-21c.jpg";
+import Czinger21C from "../car-photos/czinger-21c.jpg";
 import DeTomasoP72 from "../car-photos/de-tomaso-p72.jpg";
 import DeTomasoP900 from "../car-photos/de-tomaso-p900.jpg";
 import DeusVayanne from "../car-photos/deus-vayanne.jpg";
@@ -85,15 +85,15 @@ import FerrariF40 from "../car-photos/ferrari-f40.jpg";
 import FerrariF50 from "../car-photos/ferrari-f50.jpg";
 import FerrariFXXK from "../car-photos/ferrari-fxx-k.jpg";
 import FerrariJ50 from "../car-photos/ferrari-j50.jpg";
-import FerrariLaFerrariAperta from "../car-photos/ferrari-laferrari-aperta.jpg";
 import FerrariLaFerrari from "../car-photos/ferrari-laferrari.jpg";
+import FerrariLaFerrariAperta from "../car-photos/ferrari-laferrari-aperta.jpg";
 import FerrariMonzaSP1 from "../car-photos/ferrari-monza-sp1.jpg";
 import FerrariRoma from "../car-photos/ferrari-roma.jpg";
 import FerrariSF90Stradale from "../car-photos/ferrari-sf90-stradale.jpg";
 import FerrariSF90XXStradale from "../car-photos/ferrari-sf90-xx-stradale.jpg";
+import FordGT from "../car-photos/ford-gt.jpg";
 import FordGTFrankieEdition from "../car-photos/ford-gt-frankie-edition.jpg";
 import FordGTMkII from "../car-photos/ford-gt-mk-II.jpg";
-import FordGT from "../car-photos/ford-gt.jpg";
 import FordMustangMachE1400 from "../car-photos/ford-mustang-mach-e1400.jpg";
 import FordMustangRTRSpec510thAnniversary from "../car-photos/ford-mustang-rtr-spec-5-10th-anniv.jpg";
 import FordShelbyGR1 from "../car-photos/ford-shelby-gr-1.jpg";
@@ -107,7 +107,7 @@ import GentyAkylone from "../car-photos/genty-akylone.jpg";
 import GinettaG60 from "../car-photos/ginetta-g60.jpg";
 import Glickenhaus003S from "../car-photos/glickenhaus-003s.jpg";
 import Glickenhaus004C from "../car-photos/glickenhaus-004c.jpg";
-import Glickenhaus007s from "../car-photos/glickenhaus-007s.jpg";
+import Glickenhaus007S from "../car-photos/glickenhaus-007s.jpg";
 import HennesseyVenomF5 from "../car-photos/hennessey-venom-f5.jpg";
 import HondaCivicTypeR from "../car-photos/honda-civic-type-r.jpg";
 import IconaVulcanoTitanium from "../car-photos/icona-vulcano-titanium.jpg";
@@ -324,7 +324,7 @@ export const Images: Record<string, string> = {
   ChevroletCorvetteStingray,
   ChevroletCorvetteZR1,
   CitroenGT,
-  CZinger21C,
+  Czinger21C,
   DeTomasoP72,
   DeTomasoP900,
   DeusVayanne,
@@ -374,7 +374,7 @@ export const Images: Record<string, string> = {
   GinettaG60,
   Glickenhaus003S,
   Glickenhaus004C,
-  Glickenhaus007s,
+  Glickenhaus007S,
   HennesseyVenomF5,
   HondaCivicTypeR,
   IconaVulcanoTitanium,

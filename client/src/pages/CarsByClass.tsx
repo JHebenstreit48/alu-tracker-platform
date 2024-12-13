@@ -16,7 +16,9 @@ interface Car {
 export default function CarsByClass() {
     const location = useLocation(); // Use location for managing state
     const [cars, setCars] = useState<Car[]>([]);
-    const [searchTerm, setSearchTerm] = useState<string>(""); // Search term
+    const [searchTerm, setSearchTerm] = useState<string>(
+        localStorage.getItem("searchTerm") || ""
+    ); // Search term
     const [selectedStars, setSelectedStars] = useState<number | null>(null);
     const [selectedClass, setSelectedClass] = useState<string>(
         sessionStorage.getItem("selectedClass") || "All Classes"
@@ -51,7 +53,9 @@ export default function CarsByClass() {
     }, [selectedClass, location.state]); // Dependency includes location.state
 
     const handleSearch = (term: string) => {
-        setSearchTerm(term.toLowerCase());
+        const normalizedTerm = term.toLowerCase();
+        setSearchTerm(normalizedTerm);
+        localStorage.setItem("searchTerm", normalizedTerm);
     };
 
     const handleStarFilter = (stars: number | null) => {
@@ -64,11 +68,23 @@ export default function CarsByClass() {
         sessionStorage.setItem("selectedClass", newClass);
     };
 
+    const handleResetFilters = () => {
+        setSearchTerm("");
+        setSelectedStars(null);
+        setSelectedClass("All Classes");
+        localStorage.removeItem("searchTerm");
+        sessionStorage.removeItem("selectedClass");
+    };
+
     const filteredCars = cars
         .filter((car) => {
             const matchesSearch =
                 car.Brand.toLowerCase().includes(searchTerm) ||
-                car.Model.toLowerCase().includes(searchTerm);
+                car.Model.toLowerCase().includes(searchTerm) ||
+                (car.Brand.toLowerCase() + " " + car.Model.toLowerCase()).includes(
+                    searchTerm
+                ); // Match brand, model, or both
+
             const matchesStars = selectedStars ? car.Stars === selectedStars : true;
 
             return matchesSearch && matchesStars;
@@ -104,6 +120,11 @@ export default function CarsByClass() {
                         <option value="A">A</option>
                         <option value="S">S</option>
                     </select>
+
+                    <button className="resetFilters" onClick={handleResetFilters}>
+                        Reset Filters
+                    </button>
+
                 </div>
                 <ClassTables cars={filteredCars} selectedClass={selectedClass} />
             </PageTab>

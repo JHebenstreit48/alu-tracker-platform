@@ -1,8 +1,6 @@
-const carsData = [
-
-    [
-      {
-       "_id": {
+[
+  {
+    "_id": {
       "$oid": "674f7f8bfee4105a6a5ae7ae"
     },
     "Id": 1,
@@ -3753,7 +3751,7 @@ const carsData = [
     "Class": "B",
     "Order": 97,
     "Brand": "Ford",
-    "Model": "Mustang RTR Spec 5 10th Anniv.",
+    "Model": "Mustang RTR Spec 5 10th Anniversary",
     "Rarity": "Rare",
     "Stars": 4,
     "Max_Rank": 3025,
@@ -5586,7 +5584,7 @@ const carsData = [
     "Class": "B",
     "Order": 144,
     "Brand": "Ferrari",
-    "Model": "488 GTB Challenge Evo",
+    "Model": "488 Challenge Evo",
     "Rarity": "Epic",
     "Stars": 6,
     "Max_Rank": 4255,
@@ -6522,7 +6520,7 @@ const carsData = [
     "Class": "A",
     "Order": 168,
     "Brand": "Jaguar",
-    "Model": "C-X 75",
+    "Model": "C-X75",
     "Rarity": "Epic",
     "Stars": 5,
     "Max_Rank": 3898,
@@ -9051,51 +9049,12 @@ const carsData = [
   },
   {
     "_id": {
-      "$oid": "674f7f8bfee4105a6a5ae896"
-    },
-    "Id": 197,
-    "Class": "S",
-    "Order": 233,
-    "Brand": "Faraday",
-    "Model": "FFZERO1",
-    "Rarity": "Epic",
-    "Stars": 6,
-    "Max_Rank": 4602,
-    "Epics": null,
-    "Obtainable_Via": null,
-    "Garage_Lvl": null,
-    "Top_Speed": "423,0",
-    "Acceleration": "86,06",
-    "Handling": "42,83",
-    "Nitro": "51,70",
-    "Nitro_TS": null,
-    "Unnamed: 16": "439,9",
-    "Perfect_Nitro_TS": null,
-    "Added": "WInterfest",
-    "Added_With": null,
-    "Added date": "12/12/2022",
-    "Total upgrade cost": null,
-    "Total GL points": null,
-    "Country": "USA",
-    "Tags": null,
-    "Bps_1*": null,
-    "BPs 2*": null,
-    "BPs 3*": null,
-    "BPs 4*": null,
-    "BPs 5*": null,
-    "BPs 6*": null,
-    "Total BPs": 0,
-    "Unnamed: 32": 54602,
-    "Cost epic": null
-  },
-  {
-    "_id": {
       "$oid": "674f7f8bfee4105a6a5ae897"
     },
     "Id": 198,
     "Class": "S",
     "Order": 233,
-    "Brand": "Faraday",
+    "Brand": "Faraday Future",
     "Model": "FFZERO1",
     "Rarity": "Epic",
     "Stars": 6,
@@ -10569,8 +10528,5 @@ const carsData = [
     "Total BPs": 300,
     "Unnamed: 32": 55255,
     "Cost epic": null
-      }
-    ]
-];
-
-export default carsData;
+  }
+]
