@@ -7,7 +7,7 @@ export const carData = [
       Class: "D",
       Order: 1,
       Brand: "Mitsubishi",
-      Model: "Lancer Evo",
+      Model: "Lancer Evolution",
       Rarity: "Uncommon",
       Stars: 3,
       Max_Rank: 1381,
