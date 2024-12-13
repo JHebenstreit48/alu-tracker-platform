@@ -1,3 +1,3 @@
-import carData from "./asphalt_legends_cars.json";
+import carData from "./carsdb-cars-2.json";
 
 export default carData;
