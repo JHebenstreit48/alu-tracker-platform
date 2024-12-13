@@ -1,28 +1,38 @@
-import { connectDB, disconnectDB } from "./index"; // Import database connection logic
-import CarModel from "../models/car"; // Ensure this points to your CarModel schema file
-import carsData from "./carData"; // Import car data
+import mongoose from "mongoose";
+import CarModel from "../models/car";
+import { carData } from "./carData";
+import dotenv from "dotenv";
 
-const seedCars = async () => {
-  try {
-    await connectDB(); // Connect to MongoDB
+dotenv.config(); // Load .env variables
 
-    // Clear existing data
-    await CarModel.deleteMany({});
-    console.log("Existing car data cleared.");
+const MONGO_URI = process.env.MONGODB_URI;
 
-    // Insert the new data
-    if (carsData.length > 0) {
-      await CarModel.insertMany(carsData);
-      console.log("Car data seeded successfully.");
-    } else {
-      console.log("No car data provided to seed.");
+if (!MONGO_URI) {
+    throw new Error("MONGODB_URI is not defined in the environment variables. Please check your .env file.");
+}
+
+async function seedDatabase() {
+    try {
+        console.log("Connecting to MongoDB URI:", MONGO_URI);
+        await mongoose.connect(MONGO_URI as string); // Assert that MONGO_URI is a string
+        console.log("Connected to MongoDB");
+
+        for (const car of carData) {
+            const query = { _id: car._id.$oid };
+            const update = { ...car, _id: new mongoose.Types.ObjectId(car._id.$oid) };
+            const options = { upsert: true, new: true };
+
+            const result = await CarModel.findOneAndUpdate(query, update, options);
+            console.log(`Upserted car: ${car.Model}, result:`, result);
+        }
+
+        console.log("Database seeded successfully!");
+    } catch (error) {
+        console.error("Error seeding database:", error);
+    } finally {
+        await mongoose.disconnect();
+        console.log("Disconnected from MongoDB");
     }
-  } catch (error) {
-    console.error("Error seeding car data:", error);
-  } finally {
-    await disconnectDB(); // Disconnect from MongoDB
-  }
-};
+}
 
-// Run the seeding function
-seedCars();
+seedDatabase();
