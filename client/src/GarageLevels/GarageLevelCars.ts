@@ -7,7 +7,7 @@ export const garageLevelList: GarageLevels[] = [
     xp: 0,
     garageLevel: [
       {
-        img: Images.BMWZ4,
+        img: Images.BMWZ4LCIE89,
         name: "BMW Z4 LCI E89",
       },
       {
@@ -16,7 +16,7 @@ export const garageLevelList: GarageLevels[] = [
       },
       {
         img: Images.MitsubishiLancerEvo,
-        name: "Mitsubishi Lancer Evo",
+        name: "Mitsubishi Lancer Evolution",
       },
       {
         img: Images.DodgeChallengerSRT8,
@@ -41,8 +41,8 @@ export const garageLevelList: GarageLevels[] = [
         name: "Nissan 370z Nismo",
       },
       {
-        img: Images.DSETense,
-        name: "DS E-Tense",
+        img: Images.DSAutomobilesDSETense,
+        name: "DS Automobiles DS E-Tense",
       },
     ],
   },
