@@ -55,7 +55,7 @@ export const garageLevelList: GarageLevels[] = [
         name: "Dodge Challenger 392 Hemi Scat Pack",
       },
       {
-        img: Images.VWXLSportConcept,
+        img: Images.VolkswagenXLSportConcept,
         name: "Volkswagen XL Sport Concept",
       },
       {
@@ -241,8 +241,8 @@ export const garageLevelList: GarageLevels[] = [
         name: "Lamborghini Aventador SV Coupe",
       },
       {
-        img: Images.McLarenP1,
-        name: "McClaren P1",
+        img: Images.MclarenP1,
+        name: "McLaren P1",
       }
     ],
   },
@@ -315,7 +315,7 @@ export const garageLevelList: GarageLevels[] = [
     xp: 2000000,
     garageLevel: [
       {
-        img: Images.McLaren570SSpider,
+        img: Images.Mclaren570SSpider,
         name: "McLaren 570S Spider",
       },
       {
@@ -441,7 +441,7 @@ export const garageLevelList: GarageLevels[] = [
     xp: 800000,
     garageLevel: [
       {
-        img: Images.McLarenElva,
+        img: Images.MclarenElva,
         name: "McLaren Elva",
       },
       {
@@ -487,7 +487,7 @@ export const garageLevelList: GarageLevels[] = [
         name: "Aston Martin One-77",
       },
       {
-        img: Images.McLarenSennaGTR,
+        img: Images.MclarenSennaGTR,
         name: "McLaren Senna GTR",
       },
     ],
@@ -521,7 +521,7 @@ export const garageLevelList: GarageLevels[] = [
     xp: 1800000,
     garageLevel: [
       {
-        img: Images.McLarenSpeedtail,
+        img: Images.MclarenSpeedtail,
         name: "McLaren Speedtail",
       },
     ],
@@ -685,7 +685,7 @@ export const garageLevelList: GarageLevels[] = [
         name: "Apollo IE",
       },
       {
-        img: Images.McLarenGT,
+        img: Images.MclarenGT,
         name: "McLaren GT",
       },
     ],
@@ -727,7 +727,7 @@ export const garageLevelList: GarageLevels[] = [
         name: "Lotus Evija",
       },
       {
-        img: Images.McLaren765LT,
+        img: Images.Mclaren765LT,
         name: "McLaren 765LT",
       },
     ],
@@ -811,7 +811,7 @@ export const garageLevelList: GarageLevels[] = [
     xp: 3400000,
     garageLevel: [
       {
-        img: Images.McLarenSenna,
+        img: Images.MclarenSenna,
         name: "McLaren Senna",
       },
     ],
