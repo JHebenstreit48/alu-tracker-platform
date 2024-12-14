@@ -1,4 +1,3 @@
-// src/CarDetails/CarDetailsSetup.tsx
 import { Car } from "./CarInterfaces";
 import starIcon from "../assets/images/icons8-star-48.png";
 import { Images } from "../assets/images/images";
@@ -6,10 +5,38 @@ import { DynamicImageKeys } from "../assets/images/DynamicImageKeys";
 
 interface CarDetailsSetupProps {
   car: Car;
+  unitPreference: "metric" | "imperial"; // Added prop for unit preference
   handleGoBack: () => void;
 }
 
-const CarDetailsSetup: React.FC<CarDetailsSetupProps> = ({ car, handleGoBack }) => {
+const CarDetailsSetup: React.FC<CarDetailsSetupProps> = ({ car, unitPreference, handleGoBack }) => {
+  // Helper to parse both strings and numbers into valid numbers
+  const parseMetricValue = (value: string | number): number => {
+    if (typeof value === "number") {
+      return value; // Return the number as-is if it's already a valid number
+    }
+    return parseFloat(value.replace(",", ".")); // Handle string with commas
+  };
+
+  // Custom conversion function for Top Speed
+  const convertTopSpeed = (speed: string | number): string => {
+    const parsedSpeed = parseMetricValue(speed);
+
+    // Custom conversion factor to match in-game value
+    const conversionFactor = 0.6214;
+
+    return unitPreference === "imperial"
+      ? `${(parsedSpeed * conversionFactor).toFixed(1)} mph` // Match game's rounding
+      : `${parsedSpeed.toFixed(1)} km/h`;
+  };
+
+  // Display stats as-is for Acceleration, Handling, and Nitro
+  const displayStatAsIs = (value: string | number): string => {
+    const parsedValue = parseMetricValue(value);
+    return `${parsedValue.toFixed(2)}`; // Keep the precision for other stats
+  };
+
+  // Dynamic image path resolution
   const carImagePath = (() => {
     const normalizedModel = car.Model.toLowerCase().replace(/\./g, "-").replace(/\s+/g, "-");
     const dynamicKey = `${car.Brand.toLowerCase().replace(/\s+/g, "-")}-${normalizedModel}`;
@@ -58,19 +85,19 @@ const CarDetailsSetup: React.FC<CarDetailsSetupProps> = ({ car, handleGoBack }) 
             <th className="tableHeader2" colSpan={2}>Gold Max Stats</th>
             <tr>
               <td>Top Speed</td>
-              <td>{car.Top_Speed} km/h</td>
+              <td>{convertTopSpeed(car.Top_Speed)}</td>
             </tr>
             <tr>
               <td>Acceleration</td>
-              <td>{car.Acceleration} m/s²</td>
+              <td>{displayStatAsIs(car.Acceleration)}</td>
             </tr>
             <tr>
               <td>Handling</td>
-              <td>{car.Handling} m/s²</td>
+              <td>{displayStatAsIs(car.Handling)}</td>
             </tr>
             <tr>
               <td>Nitro</td>
-              <td>{car.Nitro} m/s²</td>
+              <td>{displayStatAsIs(car.Nitro)}</td>
             </tr>
           </tbody>
         </table>
