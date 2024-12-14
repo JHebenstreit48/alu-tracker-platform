@@ -1,4 +1,3 @@
-// src/pages/CarDetail.tsx
 import { useEffect, useState } from "react";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 import { Car } from "../CarDetails/CarInterfaces";
@@ -11,6 +10,9 @@ const CarDetail = () => {
   const location = useLocation();
   const [car, setCar] = useState<Car | null>(null);
   const [error, setError] = useState(false);
+
+  // Fetch unit preference from localStorage
+  const unitPreference = localStorage.getItem("preferredUnit") === "imperial" ? "imperial" : "metric";
 
   const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "/api";
 
@@ -40,7 +42,13 @@ const CarDetail = () => {
   if (error) return <div className="error-message">Failed to load car details.</div>;
   if (!car) return <div className="loading-message">Loading car details...</div>;
 
-  return <CarDetailsSetup car={car} handleGoBack={handleGoBack} />;
+  return (
+    <CarDetailsSetup
+      car={car}
+      unitPreference={unitPreference} // Pass the unit preference to the setup component
+      handleGoBack={handleGoBack}
+    />
+  );
 };
 
 export default CarDetail;
