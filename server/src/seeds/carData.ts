@@ -1,8 +1,8 @@
+import mongoose from "mongoose";
+
 export const carData = [
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7ae",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7ae"),
       Id: 1,
       Class: "D",
       Order: 1,
@@ -39,9 +39,7 @@ export const carData = [
       Cost_epic: 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7af",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7af"),
       Id: 2,
       Class: "D",
       Order: 2,
@@ -78,9 +76,7 @@ export const carData = [
       Cost_epic: 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7b0",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7b0"),
       Id: 3,
       Class: "D",
       Order: 3,
@@ -117,9 +113,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7b1",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7b1"),
       Id: 76,
       Class: "D",
       Order: 4,
@@ -156,9 +150,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7b2",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7b2"),
       Id: 4,
       Class: "D",
       Order: 5,
@@ -195,9 +187,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7b3",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7b3"),
       Id: 206,
       Class: "D",
       Order: 6,
@@ -234,9 +224,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7b4",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7b4"),
       Id: 5,
       Class: "D",
       Order: 7,
@@ -273,9 +261,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7b5",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7b5"),
       Id: 6,
       Class: "D",
       Order: 8,
@@ -312,9 +298,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7b6",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7b6"),
       Id: 7,
       Class: "D",
       Order: 9,
@@ -351,9 +335,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7b7",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7b7"),
       Id: 175,
       Class: "D",
       Order: 10,
@@ -390,9 +372,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7b8",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7b8"),
       Id: 124,
       Class: "D",
       Order: 11,
@@ -429,9 +409,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7b9",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7b9"),
       Id: 112,
       Class: "D",
       Order: 12,
@@ -468,9 +446,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7ba",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7ba"),
       Id: 184,
       Class: "D",
       Order: 13,
@@ -507,9 +483,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7bb",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7bb"),
       Id: 244,
       Class: "D",
       Order: 14,
@@ -546,9 +520,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7bc",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7bc"),
       Id: 8,
       Class: "D",
       Order: 15,
@@ -585,9 +557,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7bd",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7bd"),
       Id: 119,
       Class: "D",
       Order: 16,
@@ -624,9 +594,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7be",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7be"),
       Id: 50,
       Class: "D",
       Order: 17,
@@ -663,9 +631,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7bf",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7bf"),
       Id: 169,
       Class: "D",
       Order: 18,
@@ -702,9 +668,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7c0",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7c0"),
       Id: 9,
       Class: "D",
       Order: 19,
@@ -741,9 +705,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7c1",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7c1"),
       Id: 62,
       Class: "D",
       Order: 20,
@@ -780,9 +742,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7c2",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7c2"),
       Id: 157,
       Class: "D",
       Order: 21,
@@ -819,9 +779,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7c3",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7c3"),
       Id: 191,
       Class: "D",
       Order: 22,
@@ -858,9 +816,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7c4",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7c4"),
       Id: 63,
       Class: "D",
       Order: 23,
@@ -897,9 +853,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7c5",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7c5"),
       Id: 144,
       Class: "D",
       Order: 24,
@@ -936,9 +890,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7c6",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7c6"),
       Id: 219,
       Class: "D",
       Order: 25,
@@ -975,9 +927,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7c7",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7c7"),
       Id: 82,
       Class: "D",
       Order: 26,
@@ -1014,9 +964,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7c8",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7c8"),
       Id: 85,
       Class: "D",
       Order: 27,
@@ -1053,9 +1001,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7c9",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7c9"),
       Id: 67,
       Class: "D",
       Order: 28,
@@ -1092,9 +1038,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7ca",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7ca"),
       Id: 100,
       Class: "D",
       Order: 29,
@@ -1131,9 +1075,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7cb",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7cb"),
       Id: 77,
       Class: "D",
       Order: 30,
@@ -1170,9 +1112,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7cc",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7cc"),
       Id: 237,
       Class: "D",
       Order: 31,
@@ -1209,9 +1149,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7cd",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7cd"),
       Id: 95,
       Class: "D",
       Order: 32,
@@ -1248,9 +1186,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7ce",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7ce"),
       Id: 245,
       Class: "D",
       Order: 33,
@@ -1287,9 +1223,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7cf",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7cf"),
       Id: 113,
       Class: "D",
       Order: 34,
@@ -1326,9 +1260,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7d0",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7d0"),
       Id: 145,
       Class: "D",
       Order: 35,
@@ -1365,9 +1297,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7d1",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7d1"),
       Id: 185,
       Class: "D",
       Order: 36,
@@ -1404,9 +1334,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7d2",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7d2"),
       Id: 225,
       Class: "D",
       Order: 37,
@@ -1443,9 +1371,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7d3",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7d3"),
       Id: 10,
       Class: "C",
       Order: 38,
@@ -1482,9 +1408,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7d4",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7d4"),
       Id: 11,
       Class: "C",
       Order: 39,
@@ -1521,9 +1445,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7d5",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7d5"),
       Id: 192,
       Class: "C",
       Order: 40,
@@ -1560,9 +1482,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7d6",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7d6"),
       Id: 12,
       Class: "C",
       Order: 41,
@@ -1599,9 +1519,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7d7",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7d7"),
       Id: 13,
       Class: "C",
       Order: 42,
@@ -1638,9 +1556,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7d8",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7d8"),
       Id: 14,
       Class: "C",
       Order: 43,
@@ -1677,9 +1593,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7d9",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7d9"),
       Id: 15,
       Class: "C",
       Order: 44,
@@ -1716,9 +1630,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7da",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7da"),
       Id: 16,
       Class: "C",
       Order: 45,
@@ -1755,9 +1667,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7db",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7db"),
       Id: 136,
       Class: "C",
       Order: 46,
@@ -1794,9 +1704,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7dc",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7dc"),
       Id: 200,
       Class: "C",
       Order: 47,
@@ -1833,9 +1741,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7dd",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7dd"),
       Id: 17,
       Class: "C",
       Order: 48,
@@ -1872,9 +1778,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7de",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7de"),
       Id: 163,
       Class: "C",
       Order: 49,
@@ -1911,9 +1815,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7df",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7df"),
       Id: 78,
       Class: "C",
       Order: 50,
@@ -1950,9 +1852,8 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7e0",
-      },
+      _id: 
+        new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7e0"),
       Id: 18,
       Class: "C",
       Order: 51,
@@ -1989,9 +1890,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7e1",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7e1"),
       Id: 266,
       Class: "C",
       Order: 52,
@@ -2028,9 +1927,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7e2",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7e2"),
       Id: 68,
       Class: "C",
       Order: 53,
@@ -2067,9 +1964,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7e3",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7e3"),
       Id: 150,
       Class: "C",
       Order: 54,
@@ -2106,9 +2001,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7e4",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7e4"),
       Id: 19,
       Class: "C",
       Order: 55,
@@ -2145,9 +2038,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7e5",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7e5"),
       Id: 53,
       Class: "C",
       Order: 56,
@@ -2184,9 +2075,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7e6",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7e6"),
       Id: 220,
       Class: "C",
       Order: 57,
@@ -2223,9 +2112,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7e7",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7e7"),
       Id: 255,
       Class: "C",
       Order: 58,
@@ -2262,9 +2149,8 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7e8",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7e8"),
       Id: 231,
       Class: "C",
       Order: 59,
@@ -2301,9 +2187,8 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7e9",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7e9"),
       Id: 176,
       Class: "C",
       Order: 60,
@@ -2340,9 +2225,8 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7ea",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7ea"),
       Id: 125,
       Class: "C",
       Order: 61,
@@ -2379,9 +2263,8 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7eb",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7eb"),
       Id: 238,
       Class: "C",
       Order: 62,
@@ -2418,9 +2301,8 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7ec",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7ec"),
       Id: 186,
       Class: "C",
       Order: 63,
@@ -2457,9 +2339,8 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7ed",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7ed"),
       Id: 106,
       Class: "C",
       Order: 64,
@@ -2496,9 +2377,8 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7ee",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7ee"),
       Id: 131,
       Class: "C",
       Order: 65,
@@ -2535,9 +2415,8 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7ef",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7ef"),
       Id: 213,
       Class: "C",
       Order: 66,
@@ -2574,9 +2453,8 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7f0",
-      },
+      _id: 
+        new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7f0"),
       Id: 120,
       Class: "C",
       Order: 67,
@@ -2613,9 +2491,8 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7f1",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7f1"),
       Id: 56,
       Class: "C",
       Order: 68,
@@ -2652,9 +2529,8 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7f2",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7f2"),
       Id: 207,
       Class: "C",
       Order: 69,
@@ -2691,9 +2567,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7f3",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7f3"),
       Id: 101,
       Class: "C",
       Order: 70,
@@ -2730,9 +2604,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7f4",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7f4"),
       Id: 246,
       Class: "C",
       Order: 71,
@@ -2769,9 +2641,8 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7f5",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7f5"),
       Id: 170,
       Class: "C",
       Order: 72,
@@ -2808,9 +2679,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7f6",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7f6"),
       Id: 256,
       Class: "C",
       Order: 73,
@@ -2847,9 +2716,8 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7f7",
-      },
+      _id: 
+        new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7f7"),
       Id: 86,
       Class: "C",
       Order: 74,
@@ -2886,9 +2754,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7f8",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7f8"),
       Id: 96,
       Class: "C",
       Order: 75,
@@ -2925,9 +2791,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7f9",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae7f9"),
       Id: 164,
       Class: "C",
       Order: 76,
@@ -2964,9 +2828,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7fa",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7fa"),
       Id: 250,
       Class: "C",
       Order: 77,
@@ -3003,9 +2865,8 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7fb",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7fb"),
       Id: 107,
       Class: "C",
       Order: 78,
@@ -3042,9 +2903,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7fc",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7fc"),
       Id: 193,
       Class: "C",
       Order: 79,
@@ -3081,9 +2940,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7fd",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7fd"),
       Id: 171,
       Class: "C",
       Order: 80,
@@ -3120,9 +2977,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7fe",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7fe"),
       Id: 69,
       Class: "C",
       Order: 81,
@@ -3159,9 +3014,7 @@ export const carData = [
       "Cost epic": 6000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae7ff",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae7ff"),
       Id: 177,
       Class: "C",
       Order: 82,
@@ -3198,9 +3051,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae800",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae800"),
       Id: 214,
       Class: "C",
       Order: 83,
@@ -3237,9 +3088,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae801",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae801"),
       Id: 90,
       Class: "C",
       Order: 84,
@@ -3276,9 +3125,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae802",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae802"),
       Id: 232,
       Class: "C",
       Order: 85,
@@ -3315,9 +3162,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae803",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae803"),
       Id: 158,
       Class: "C",
       Order: 86,
@@ -3354,9 +3199,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae804",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae804"),
       Id: 201,
       Class: "C",
       Order: 87,
@@ -3393,9 +3236,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae805",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae805"),
       Id: 239,
       Class: "C",
       Order: 88,
@@ -3432,9 +3273,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae806",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae806"),
       Id: 20,
       Class: "B",
       Order: 89,
@@ -3471,9 +3310,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae807",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae807"),
       Id: 21,
       Class: "B",
       Order: 90,
@@ -3510,9 +3347,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae808",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae808"),
       Id: 22,
       Class: "B",
       Order: 91,
@@ -3549,9 +3384,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae809",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae809"),
       Id: 202,
       Class: "B",
       Order: 92,
@@ -3588,9 +3421,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae80a",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae80a"),
       Id: 23,
       Class: "B",
       Order: 93,
@@ -3627,9 +3458,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae80b",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae80b"),
       Id: 87,
       Class: "B",
       Order: 94,
@@ -3666,9 +3495,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae80c",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae80c"),
       Id: 24,
       Class: "B",
       Order: 95,
@@ -3705,9 +3532,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae80d",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae80d"),
       Id: 25,
       Class: "B",
       Order: 96,
@@ -3744,9 +3569,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae80e",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae80e"),
       Id: 257,
       Class: "B",
       Order: 97,
@@ -3783,9 +3606,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae80f",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae80f"),
       Id: 126,
       Class: "B",
       Order: 98,
@@ -3822,9 +3643,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae810",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae810"),
       Id: 151,
       Class: "B",
       Order: 99,
@@ -3861,9 +3680,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae811",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae811"),
       Id: 215,
       Class: "B",
       Order: 100,
@@ -3900,9 +3717,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae812",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae812"),
       Id: 26,
       Class: "B",
       Order: 101,
@@ -3939,9 +3754,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae813",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae813"),
       Id: 267,
       Class: "B",
       Order: 102,
@@ -3978,9 +3791,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae814",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae814"),
       Id: 97,
       Class: "B",
       Order: 103,
@@ -4017,9 +3828,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae815",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae815"),
       Id: 240,
       Class: "B",
       Order: 104,
@@ -4056,9 +3865,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae816",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae816"),
       Id: 79,
       Class: "B",
       Order: 105,
@@ -4095,9 +3902,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae817",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae817"),
       Id: 226,
       Class: "B",
       Order: 106,
@@ -4134,9 +3939,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae818",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae818"),
       Id: 165,
       Class: "B",
       Order: 107,
@@ -4173,9 +3976,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae819",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae819"),
       Id: 27,
       Class: "B",
       Order: 108,
@@ -4212,9 +4013,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae81a",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae81a"),
       Id: 208,
       Class: "B",
       Order: 109,
@@ -4251,9 +4050,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae81b",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae81b"),
       Id: 146,
       Class: "B",
       Order: 110,
@@ -4290,9 +4087,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae81c",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae81c"),
       Id: 28,
       Class: "B",
       Order: 111,
@@ -4329,9 +4124,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae81d",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae81d"),
       Id: 137,
       Class: "B",
       Order: 112,
@@ -4368,9 +4161,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae81e",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae81e"),
       Id: 251,
       Class: "B",
       Order: 113,
@@ -4407,9 +4198,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae81f",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae81f"),
       Id: 187,
       Class: "B",
       Order: 114,
@@ -4446,9 +4235,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae820",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae820"),
       Id: 29,
       Class: "B",
       Order: 115,
@@ -4485,9 +4272,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae821",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae821"),
       Id: 227,
       Class: "B",
       Order: 116,
@@ -4524,9 +4309,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae822",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae822"),
       Id: 127,
       Class: "B",
       Order: 117,
@@ -4563,9 +4346,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae823",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae823"),
       Id: 178,
       Class: "B",
       Order: 118,
@@ -4602,9 +4383,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae824",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae824"),
       Id: 30,
       Class: "B",
       Order: 119,
@@ -4641,9 +4420,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae825",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae825"),
       Id: 70,
       Class: "B",
       Order: 120,
@@ -4680,9 +4457,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae826",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae826"),
       Id: 102,
       Class: "B",
       Order: 120,
@@ -4719,9 +4494,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae827",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae827"),
       Id: 114,
       Class: "B",
       Order: 122,
@@ -4758,9 +4531,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae828",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae828"),
       Id: 54,
       Class: "B",
       Order: 123,
@@ -4797,9 +4568,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae829",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae829"),
       Id: 173,
       Class: "B",
       Order: 124,
@@ -4836,9 +4605,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae82a",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae82a"),
       Id: 108,
       Class: "B",
       Order: 125,
@@ -4875,9 +4642,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae82b",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae82b"),
       Id: 159,
       Class: "B",
       Order: 126,
@@ -4914,9 +4679,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae82c",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae82c"),
       Id: 258,
       Class: "B",
       Order: 127,
@@ -4953,9 +4716,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae82d",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae82d"),
       Id: 57,
       Class: "B",
       Order: 128,
@@ -4992,9 +4753,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae82e",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae82e"),
       Id: 60,
       Class: "B",
       Order: 129,
@@ -5031,9 +4790,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae82f",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae82f"),
       Id: 73,
       Class: "B",
       Order: 130,
@@ -5070,9 +4827,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae830",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae830"),
       Id: 128,
       Class: "B",
       Order: 131,
@@ -5109,9 +4864,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae831",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae831"),
       Id: 247,
       Class: "B",
       Order: 132,
@@ -5148,9 +4901,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae832",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae832"),
       Id: 203,
       Class: "B",
       Order: 133,
@@ -5187,9 +4938,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae833",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae833"),
       Id: 166,
       Class: "B",
       Order: 134,
@@ -5226,9 +4975,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae834",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae834"),
       Id: 221,
       Class: "B",
       Order: 134,
@@ -5265,9 +5012,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae835",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae835"),
       Id: 233,
       Class: "B",
       Order: 136,
@@ -5304,9 +5049,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae836",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae836"),
       Id: 59,
       Class: "B",
       Order: 137,
@@ -5343,9 +5086,7 @@ export const carData = [
       "Cost epic": 8000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae837",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae837"),
       Id: 88,
       Class: "B",
       Order: 138,
@@ -5382,9 +5123,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae838",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae838"),
       Id: 152,
       Class: "B",
       Order: 139,
@@ -5421,9 +5160,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae839",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae839"),
       Id: 132,
       Class: "B",
       Order: 140,
@@ -5460,9 +5197,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae83a",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae83a"),
       Id: 174,
       Class: "B",
       Order: 141,
@@ -5499,9 +5234,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae83b",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae83b"),
       Id: 71,
       Class: "B",
       Order: 142,
@@ -5538,9 +5271,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae83c",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae83c"),
       Id: 179,
       Class: "B",
       Order: 143,
@@ -5577,9 +5308,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae83d",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae83d"),
       Id: 109,
       Class: "B",
       Order: 144,
@@ -5616,9 +5345,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae83e",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae83e"),
       Id: 216,
       Class: "B",
       Order: 145,
@@ -5655,9 +5382,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae83f",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae83f"),
       Id: 83,
       Class: "B",
       Order: 146,
@@ -5694,9 +5419,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae840",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae840"),
       Id: 259,
       Class: "B",
       Order: 147,
@@ -5733,9 +5456,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae841",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae841"),
       Id: 91,
       Class: "B",
       Order: 148,
@@ -5772,9 +5493,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae842",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae842"),
       Id: 133,
       Class: "B",
       Order: 149,
@@ -5811,9 +5530,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae843",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae843"),
       Id: 180,
       Class: "B",
       Order: 150,
@@ -5850,9 +5567,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae844",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae844"),
       Id: 209,
       Class: "B",
       Order: 151,
@@ -5889,9 +5604,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae845",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae845"),
       Id: 268,
       Class: "B",
       Order: 152,
@@ -5928,9 +5641,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae846",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae846"),
       Id: 252,
       Class: "B",
       Order: 153,
@@ -5967,9 +5678,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae847",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae847"),
       Id: 31,
       Class: "A",
       Order: 154,
@@ -6006,9 +5715,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae848",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae848"),
       Id: 32,
       Class: "A",
       Order: 155,
@@ -6045,9 +5752,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae849",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae849"),
       Id: 121,
       Class: "A",
       Order: 156,
@@ -6084,9 +5789,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae84a",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae84a"),
       Id: 51,
       Class: "A",
       Order: 157,
@@ -6123,9 +5826,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae84b",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae84b"),
       Id: 33,
       Class: "A",
       Order: 158,
@@ -6162,9 +5863,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae84c",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae84c"),
       Id: 181,
       Class: "A",
       Order: 159,
@@ -6201,9 +5900,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae84d",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae84d"),
       Id: 34,
       Class: "A",
       Order: 160,
@@ -6240,9 +5937,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae84e",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae84e"),
       Id: 35,
       Class: "A",
       Order: 161,
@@ -6279,9 +5974,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae84f",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae84f"),
       Id: 139,
       Class: "A",
       Order: 162,
@@ -6318,9 +6011,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae850",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae850"),
       Id: 36,
       Class: "A",
       Order: 163,
@@ -6357,9 +6048,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae851",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae851"),
       Id: 253,
       Class: "A",
       Order: 164,
@@ -6396,9 +6085,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae852",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae852"),
       Id: 64,
       Class: "A",
       Order: 165,
@@ -6435,9 +6122,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae853",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae853"),
       Id: 138,
       Class: "A",
       Order: 166,
@@ -6474,9 +6159,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae854",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae854"),
       Id: 80,
       Class: "A",
       Order: 167,
@@ -6513,9 +6196,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae855",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae855"),
       Id: 103,
       Class: "A",
       Order: 168,
@@ -6552,9 +6233,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae856",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae856"),
       Id: 37,
       Class: "A",
       Order: 169,
@@ -6591,9 +6270,8 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae857",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae857"),
       Id: 260,
       Class: "A",
       Order: 170,
@@ -6630,9 +6308,8 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae858",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae858"),
       Id: 160,
       Class: "A",
       Order: 171,
@@ -6669,9 +6346,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae859",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae859"),
       Id: 140,
       Class: "A",
       Order: 172,
@@ -6708,9 +6383,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae85a",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae85a"),
       Id: 38,
       Class: "A",
       Order: 173,
@@ -6747,9 +6420,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae85b",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae85b"),
       Id: 74,
       Class: "A",
       Order: 173,
@@ -6786,9 +6457,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae85c",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae85c"),
       Id: 194,
       Class: "A",
       Order: 175,
@@ -6825,9 +6494,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae85d",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae85d"),
       Id: 234,
       Class: "A",
       Order: 176,
@@ -6864,9 +6531,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae85e",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae85e"),
       Id: 55,
       Class: "A",
       Order: 177,
@@ -6903,9 +6568,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae85f",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae85f"),
       Id: 61,
       Class: "A",
       Order: 178,
@@ -6942,9 +6605,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae860",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae860"),
       Id: 115,
       Class: "A",
       Order: 179,
@@ -6981,9 +6642,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae861",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae861"),
       Id: 153,
       Class: "A",
       Order: 180,
@@ -7020,9 +6679,8 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae862",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae862"),
       Id: 154,
       Class: "A",
       Order: 181,
@@ -7059,9 +6717,8 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae863",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae863"),
       Id: 116,
       Class: "A",
       Order: 182,
@@ -7098,9 +6755,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae864",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae864"),
       Id: 217,
       Class: "A",
       Order: 183,
@@ -7137,9 +6792,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae865",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae865"),
       Id: 134,
       Class: "A",
       Order: 184,
@@ -7176,9 +6829,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae866",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae866"),
       Id: 89,
       Class: "A",
       Order: 185,
@@ -7215,9 +6866,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae867",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae867"),
       Id: 39,
       Class: "A",
       Order: 186,
@@ -7254,9 +6903,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae868",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae868"),
       Id: 195,
       Class: "A",
       Order: 187,
@@ -7293,9 +6940,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae869",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae869"),
       Id: 92,
       Class: "A",
       Order: 188,
@@ -7332,9 +6977,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae86a",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae86a"),
       Id: 261,
       Class: "A",
       Order: 189,
@@ -7371,9 +7014,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae86b",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae86b"),
       Id: 65,
       Class: "A",
       Order: 190,
@@ -7410,9 +7051,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae86c",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae86c"),
       Id: 110,
       Class: "A",
       Order: 191,
@@ -7449,9 +7088,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae86d",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae86d"),
       Id: 141,
       Class: "A",
       Order: 192,
@@ -7488,9 +7125,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae86e",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae86e"),
       Id: 241,
       Class: "A",
       Order: 193,
@@ -7527,9 +7162,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae86f",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae86f"),
       Id: 52,
       Class: "A",
       Order: 194,
@@ -7566,9 +7199,7 @@ export const carData = [
       "Cost epic": 10000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae870",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae870"),
       Id: 248,
       Class: "A",
       Order: 195,
@@ -7605,9 +7236,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae871",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae871"),
       Id: 84,
       Class: "A",
       Order: 196,
@@ -7644,9 +7273,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae872",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae872"),
       Id: 222,
       Class: "A",
       Order: 197,
@@ -7683,9 +7310,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae873",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae873"),
       Id: 147,
       Class: "A",
       Order: 198,
@@ -7722,9 +7347,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae874",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae874"),
       Id: 104,
       Class: "A",
       Order: 199,
@@ -7761,9 +7384,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae875",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae875"),
       Id: 129,
       Class: "A",
       Order: 200,
@@ -7800,9 +7421,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae876",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae876"),
       Id: 235,
       Class: "A",
       Order: 201,
@@ -7839,9 +7458,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae877",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae877"),
       Id: 210,
       Class: "A",
       Order: 202,
@@ -7878,9 +7495,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae878",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae878"),
       Id: 172,
       Class: "A",
       Order: 203,
@@ -7917,9 +7532,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae879",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae879"),
       Id: 218,
       Class: "A",
       Order: 204,
@@ -7956,9 +7569,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae87a",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae87a"),
       Id: 269,
       Class: "A",
       Order: 205,
@@ -7995,9 +7606,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae87b",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae87b"),
       Id: 40,
       Class: "S",
       Order: 206,
@@ -8034,9 +7643,7 @@ export const carData = [
       "Cost epic": 15000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae87c",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae87c"),
       Id: 41,
       Class: "S",
       Order: 207,
@@ -8073,9 +7680,7 @@ export const carData = [
       "Cost epic": 15000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae87d",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae87d"),
       Id: 262,
       Class: "S",
       Order: 208,
@@ -8112,9 +7717,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae87e",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae87e"),
       Id: 42,
       Class: "S",
       Order: 209,
@@ -8151,9 +7754,7 @@ export const carData = [
       "Cost epic": 15000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae87f",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae87f"),
       Id: 43,
       Class: "S",
       Order: 210,
@@ -8190,9 +7791,8 @@ export const carData = [
       "Cost epic": 15000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae880",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae880"),
       Id: 148,
       Class: "S",
       Order: 211,
@@ -8229,9 +7829,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae881",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae881"),
       Id: 93,
       Class: "S",
       Order: 212,
@@ -8268,9 +7866,7 @@ export const carData = [
       "Cost epic": 15000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae882",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae882"),
       Id: 242,
       Class: "S",
       Order: 213,
@@ -8307,9 +7903,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae883",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae883"),
       Id: 161,
       Class: "S",
       Order: 214,
@@ -8346,9 +7940,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae884",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae884"),
       Id: 44,
       Class: "S",
       Order: 215,
@@ -8385,9 +7977,7 @@ export const carData = [
       "Cost epic": 15000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae885",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae885"),
       Id: 196,
       Class: "S",
       Order: 216,
@@ -8424,9 +8014,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae886",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae886"),
       Id: 45,
       Class: "S",
       Order: 217,
@@ -8463,9 +8051,7 @@ export const carData = [
       "Cost epic": 15000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae887",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae887"),
       Id: 204,
       Class: "S",
       Order: 218,
@@ -8502,9 +8088,8 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae888",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae888"),
       Id: 254,
       Class: "S",
       Order: 219,
@@ -8541,9 +8126,8 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae889",
-      },
+      _id: 
+        new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae889"),
       Id: 111,
       Class: "S",
       Order: 220,
@@ -8580,9 +8164,8 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae88a",
-      },
+      _id: 
+        new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae88a"),
       Id: 211,
       Class: "S",
       Order: 221,
@@ -8619,9 +8202,8 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae88b",
-      },
+      _id: 
+        new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae88b"),
       Id: 72,
       Class: "S",
       Order: 222,
@@ -8658,9 +8240,8 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae88c",
-      },
+      _id: 
+        new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae88c"),
       Id: 142,
       Class: "S",
       Order: 222,
@@ -8697,9 +8278,8 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae88d",
-      },
+      _id: 
+        new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae88d"),
       Id: 49,
       Class: "S",
       Order: 224,
@@ -8736,9 +8316,7 @@ export const carData = [
       "Cost epic": 15000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae88e",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae88e"),
       Id: 167,
       Class: "S",
       Order: 225,
@@ -8775,9 +8353,7 @@ export const carData = [
       "Cost epic": 15000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae88f",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae88f"),
       Id: 46,
       Class: "S",
       Order: 226,
@@ -8814,9 +8390,7 @@ export const carData = [
       "Cost epic": 15000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae890",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae890"),
       Id: 135,
       Class: "S",
       Order: 227,
@@ -8853,9 +8427,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae891",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae891"),
       Id: 58,
       Class: "S",
       Order: 228,
@@ -8892,9 +8464,7 @@ export const carData = [
       "Cost epic": 15000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae892",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae892"),
       Id: 228,
       Class: "S",
       Order: 229,
@@ -8931,9 +8501,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae893",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae893"),
       Id: 75,
       Class: "S",
       Order: 230,
@@ -8970,9 +8538,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae894",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae894"),
       Id: 155,
       Class: "S",
       Order: 231,
@@ -9009,9 +8575,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae895",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae895"),
       Id: 105,
       Class: "S",
       Order: 232,
@@ -9048,9 +8612,7 @@ export const carData = [
       "Cost epic": 15000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae897",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae897"),
       Id: 198,
       Class: "S",
       Order: 233,
@@ -9087,9 +8649,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae898",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae898"),
       Id: 243,
       Class: "S",
       Order: 234,
@@ -9126,9 +8686,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae899",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae899"),
       Id: 47,
       Class: "S",
       Order: 235,
@@ -9165,9 +8723,7 @@ export const carData = [
       "Cost epic": 15000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae89a",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae89a"),
       Id: 223,
       Class: "S",
       Order: 236,
@@ -9204,9 +8760,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae89b",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae89b"),
       Id: 162,
       Class: "S",
       Order: 237,
@@ -9243,9 +8797,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae89c",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae89c"),
       Id: 94,
       Class: "S",
       Order: 238,
@@ -9282,9 +8834,8 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae89d",
-      },
+      _id: 
+        new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae89d"),
       Id: 188,
       Class: "S",
       Order: 239,
@@ -9321,9 +8872,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae89e",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae89e"),
       Id: 123,
       Class: "S",
       Order: 240,
@@ -9360,9 +8909,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae89f",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae89f"),
       Id: 205,
       Class: "S",
       Order: 241,
@@ -9399,9 +8946,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8a0",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8a0"),
       Id: 48,
       Class: "S",
       Order: 242,
@@ -9438,9 +8983,7 @@ export const carData = [
       "Cost epic": 15000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8a1",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8a1"),
       Id: 98,
       Class: "S",
       Order: 243,
@@ -9477,9 +9020,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8a2",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8a2"),
       Id: 117,
       Class: "S",
       Order: 244,
@@ -9516,9 +9057,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8a3",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8a3"),
       Id: 168,
       Class: "S",
       Order: 245,
@@ -9555,9 +9094,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8a4",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae8a4"),
       Id: 130,
       Class: "S",
       Order: 246,
@@ -9594,9 +9131,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8a5",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae8a5"),
       Id: 149,
       Class: "S",
       Order: 247,
@@ -9633,9 +9168,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8a6",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8a6"),
       Id: 189,
       Class: "S",
       Order: 248,
@@ -9672,9 +9205,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8a7",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8a7"),
       Id: 263,
       Class: "S",
       Order: 249,
@@ -9711,9 +9242,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8a8",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae8a8"),
       Id: 66,
       Class: "S",
       Order: 250,
@@ -9750,9 +9279,7 @@ export const carData = [
       "Cost epic": 15000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8a9",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8a9"),
       Id: 183,
       Class: "S",
       Order: 251,
@@ -9789,9 +9316,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8aa",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8aa"),
       Id: 270,
       Class: "S",
       Order: 253,
@@ -9828,9 +9353,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8ab",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8ab"),
       Id: 122,
       Class: "S",
       Order: 254,
@@ -9867,9 +9390,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8ac",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8ac"),
       Id: 81,
       Class: "S",
       Order: 255,
@@ -9906,9 +9427,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8ad",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae8ad"),
       Id: 190,
       Class: "S",
       Order: 256,
@@ -9945,9 +9464,7 @@ export const carData = [
       "Cost epic": 15000,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8ae",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8ae"),
       Id: 99,
       Class: "S",
       Order: 257,
@@ -9984,9 +9501,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8af",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8af"),
       Id: 182,
       Class: "S",
       Order: 258,
@@ -10023,9 +9538,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8b0",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8b0"),
       Id: 229,
       Class: "S",
       Order: 259,
@@ -10062,9 +9575,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8b1",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8b1"),
       Id: 212,
       Class: "S",
       Order: 260,
@@ -10101,9 +9612,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8b2",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8b2"),
       Id: 118,
       Class: "S",
       Order: 261,
@@ -10140,9 +9649,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8b3",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8b3"),
       Id: 271,
       Class: "S",
       Order: 262,
@@ -10179,9 +9686,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8b4",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8b4"),
       Id: 230,
       Class: "S",
       Order: 263,
@@ -10218,9 +9723,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8b5",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8b5"),
       Id: 156,
       Class: "S",
       Order: 264,
@@ -10257,9 +9760,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8b6",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae8b6"),
       Id: 249,
       Class: "S",
       Order: 265,
@@ -10296,9 +9797,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8b7",
-      },
+      _id: new mongoose.Types.ObjectId( "674f7f8bfee4105a6a5ae8b7"),
       Id: 143,
       Class: "S",
       Order: 266,
@@ -10335,9 +9834,7 @@ export const carData = [
       "Cost epic": 0,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8b8",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8b8"),
       Id: 224,
       Class: "S",
       Order: 267,
@@ -10374,9 +9871,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8b9",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8b9"),
       Id: 264,
       Class: "S",
       Order: 268,
@@ -10413,9 +9908,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8ba",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8ba"),
       Id: 199,
       Class: "S",
       Order: 269,
@@ -10452,9 +9945,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8bb",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8bb"),
       Id: 265,
       Class: "S",
       Order: 270,
@@ -10491,9 +9982,7 @@ export const carData = [
       "Cost epic": null,
     },
     {
-      _id: {
-        $oid: "674f7f8bfee4105a6a5ae8bc",
-      },
+      _id: new mongoose.Types.ObjectId("674f7f8bfee4105a6a5ae8bc"),
       Id: 236,
       Class: "S",
       Order: 271,
