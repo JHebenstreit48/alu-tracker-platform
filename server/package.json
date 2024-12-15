@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node dist/server.js",
     "dev": "ts-node src/server.ts",
-    "seed": "node dist/seeds/index.js",
+    "seed": "ts-node src/seeds/carSeeds.ts",
     "build": "tsc",
     "start:watch": "nodemon src/index.ts",
     "start:dev": "npm run start:watch"
