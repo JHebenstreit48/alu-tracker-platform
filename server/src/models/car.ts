@@ -26,13 +26,13 @@ interface ICar extends Document {
   Total_GL_Points: number | null;
   Country: string;
   Tags: string;
-  Bps_1_Star: string;
-  Bps_2_Star: number;
-  Bps_3_Star: number;
-  Bps_4_Star: number | null;
-  Bps_5_Star: number | null;
-  Bps_6_Star: number | null;
-  Total_Bps: number;
+  BPs_1_Star: string;
+  BPs_2_Star: number;
+  BPs_3_Star: number;
+  BPs_4_Star: number | null;
+  BPs_5_Star: number | null;
+  BPs_6_Star: number | null;
+  Total_BPs: number;
   Cost_Epic: number | null;
 }
 
@@ -62,12 +62,12 @@ const carSchema: Schema = new Schema({
   Total_GL_Points: { type: Number, default: null },
   Country: { type: String },
   Tags: { type: String },
-  Bps_1_Star: { type: String },
-  Bps_2_Star: { type: Number },
-  Bps_3_Star: { type: Number },
-  Bps_4_Star: { type: Number, default: null },
-  Bps_5_Star: { type: Number, default: null },
-  Bps_6_Star: { type: Number, default: null },
+  BPs_1_Star: { type: Number },
+  BPs_2_Star: { type: Number },
+  BPs_3_Star: { type: Number },
+  BPs_4_Star: { type: Number, default: null },
+  BPs_5_Star: { type: Number, default: null },
+  BPs_6_Star: { type: Number, default: null },
   Total_Bps: { type: Number },
   Cost_Epic: { type: Number, default: null },
 });

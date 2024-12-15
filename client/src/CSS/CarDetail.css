@@ -56,6 +56,12 @@
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.blueprintsRequired {
+    margin: 0 auto;  /* Reset margin for consistency */
+    font-size: 1.4rem;
+    width: 50rem;
+}
+
 .maxRank {
     font-size: 1.6rem;
 }
