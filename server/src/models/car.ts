@@ -26,13 +26,13 @@ interface ICar extends Document {
   Total_GL_Points: number | null;
   Country: string;
   Tags: string;
-  BPs_1_Star: string;
+  BPs_1_Star: string | number;
   BPs_2_Star: number;
   BPs_3_Star: number;
   BPs_4_Star: number | null;
   BPs_5_Star: number | null;
   BPs_6_Star: number | null;
-  Total_BPs: number;
+  Total_BPs: number | null;
   Cost_Epic: number | null;
 }
 

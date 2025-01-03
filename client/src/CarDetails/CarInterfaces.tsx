@@ -10,14 +10,18 @@ export interface Car {
     Handling: number;
     Nitro: number;
     Max_Stats_No_Epics: number;
-    BPs_1_Star: number;
+    Blueprints: Blueprints;
+  }
+
+  export default interface Blueprints {
+    BPs_1_Star: number | string;
     BPs_2_Star: number;
     BPs_3_Star: number;
     BPs_4_Star?: number;
     BPs_5_Star?: number;
     BPs_6_Star?: number;
-    Total_BPs: number;
-  }
+    Total_BPs: number | null;
+  }   
 
   export interface StageOneStats {
     Stage_1_Top_Speed: number;
