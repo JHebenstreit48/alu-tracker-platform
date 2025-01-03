@@ -7,10 +7,11 @@ import { connectDB, disconnectDB } from "./index"; // Adjust to the correct path
   try {
     await connectDB(); // Connect to MongoDB
     console.log("Connected to MongoDB.");
-
+    await CarModel.collection.drop();
     console.log("Seeding database...");
     for (const car of carData) {
-      await CarModel.updateOne({ _id: car._id }, car, { upsert: true });
+      // await CarModel.updateOne({ _id: car._id }, car, { upsert: true });
+      await CarModel.create(car)
     }
     console.log("Database seeded successfully.");
   } catch (error) {

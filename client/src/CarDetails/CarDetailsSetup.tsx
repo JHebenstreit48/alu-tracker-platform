@@ -143,7 +143,7 @@ const CarDetailsSetup: React.FC<CarDetailsSetupProps> = ({ car, unitPreference, 
             {Object.entries(car)
               .filter(
                 ([key, value]) =>
-                  key.startsWith("BPs_") && value !== undefined && value !== null
+                  key.startsWith("BPs_") && !key.includes("*") && value !== undefined && value !== null
               ) // Ensure fields exist and are not null or undefined
               .map(([key, value]) => {
                 // Extract the star level dynamically from the key, e.g., "BPs_3_Star" -> "3"
@@ -151,16 +151,22 @@ const CarDetailsSetup: React.FC<CarDetailsSetupProps> = ({ car, unitPreference, 
 
                 return (
                   <tr key={key}>
-                    <td style={{ textAlign: "center" }}>
-                      <span style={{ marginRight: "8px" }}>Blueprints: </span>
-                      {Array.from({ length: starCount }, (_, i) => (
-                        <img
-                          key={i}
-                          src={starIcon}
-                          alt="star"
-                          style={{ width: "30px", height: "30px", marginLeft: "2px" }}
-                        />
-                      ))}
+                    <td style={{ textAlign: "center", display: "flex" }}>
+                      <div style={{ width: "50%"}}>
+                        <span style={{ marginRight: "8px" }}>Blueprints: </span>
+                      </div>
+                      <div style={{ width: "50%"}}>
+                        {Array.from({ length: starCount }, (_, i) => (
+                          <img
+                            key={i}
+                            src={starIcon}
+                            alt="star"
+                            style={{ width: "30px", height: "30px", marginLeft: "2px" }}
+                          />
+                        ))}
+                      </div>
+
+
                     </td>
                     <td>{value}</td>
                   </tr>
