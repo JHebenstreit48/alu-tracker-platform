@@ -8472,7 +8472,7 @@ const carsData = [
     "Class": "S",
     "Order": 218,
     "Brand": "Spania GTA",
-    "Model": "GTA Spano",
+    "Model": "2015 GTA Spano",
     "Rarity": "Epic",
     "Stars": 6,
     "Max_Rank": 4373,
