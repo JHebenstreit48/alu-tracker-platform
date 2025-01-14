@@ -8,15 +8,29 @@
   text-align: center;
 }
 
-.carSearch {
-  width: 13rem;
+.starRanks {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  height: 2rem;
+  font-size: 1.5rem;
+  width: 9rem;
+  padding: 5px;
+  border-radius: 9px;
+}
+
+.carSearch {
+  width: 16rem;
+  text-align: center;
+  height: 2.3rem;
+  padding: 4px;
+  border-radius: 9px;
+  font-size: 1.2rem;
 }
 
 .carSearch::placeholder {
   color: rgba(0, 0, 0, 0.5);
   transition: color 0.2s ease-in-out;
+  font-size: 1.2rem;
 }
 
 .carSearch:focus::placeholder {

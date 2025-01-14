@@ -1,28 +1,22 @@
-import { connectDB, disconnectDB } from "./index"; // Import database connection logic
-import CarModel from "../models/car"; // Ensure this points to your CarModel schema file
-import carsData from "./carData"; // Import car data
+import mongoose from "mongoose";
+import CarModel from "../models/car"; // Adjust to your actual CarModel file location
+import { carData } from "./carData";
+import { connectDB, disconnectDB } from "./index"; // Adjust to the correct path
 
-const seedCars = async () => {
+(async function seedDatabase() {
   try {
     await connectDB(); // Connect to MongoDB
-
-    // Clear existing data
-    await CarModel.deleteMany({});
-    console.log("Existing car data cleared.");
-
-    // Insert the new data
-    if (carsData.length > 0) {
-      await CarModel.insertMany(carsData);
-      console.log("Car data seeded successfully.");
-    } else {
-      console.log("No car data provided to seed.");
+    console.log("Connected to MongoDB.");
+    await CarModel.collection.drop();
+    console.log("Seeding database...");
+    for (const car of carData) {
+      // await CarModel.updateOne({ _id: car._id }, car, { upsert: true });
+      await CarModel.create(car)
     }
+    console.log("Database seeded successfully.");
   } catch (error) {
-    console.error("Error seeding car data:", error);
+    console.error("Error seeding database:", error);
   } finally {
-    await disconnectDB(); // Disconnect from MongoDB
+    await disconnectDB(); // Disconnect after seeding
   }
-};
-
-// Run the seeding function
-seedCars();
+})();

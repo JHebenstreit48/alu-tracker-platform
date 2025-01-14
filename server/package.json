@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node dist/server.js",
     "dev": "ts-node src/server.ts",
-    "seed": "node dist/seeds/index.js",
+    "seed": "ts-node src/seeds/carSeeds.ts",
     "build": "tsc",
     "start:watch": "nodemon src/index.ts",
     "start:dev": "npm run start:watch"
@@ -20,7 +20,7 @@
     "dotenv": "^16.4.5",
     "inquirer": "^8.2.4",
     "nodemon": "^3.1.7",
-    "ts-node": "^10.9.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.2.2"
   },
   "dependencies": {

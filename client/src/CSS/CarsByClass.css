@@ -4,10 +4,51 @@
 	font-size: 1.5rem;
 	padding: 5px;
 	text-align: center;
-	width: 3rem;
+	width: 11rem;
+	padding: 12px 0 12px 0;
 	background-color: black;
 	color: rgb(21, 201, 232);
 	box-shadow: 0 0.3px 5px 2px rgb(223, 190, 7);
+}
+
+.resetFilters {
+	display: flex;
+	justify-content: center;
+	margin: 3rem auto 5rem auto;
+	font-size: 1.3rem;
+	width: 8.5rem;
+	padding: 15px 0;
+	background-color: black;
+	color: rgb(21, 201, 232);
+	box-shadow: 0 0.3px 5px 2px rgb(223, 190, 7);
+	border-radius: 1rem;
+}
+
+.unitSelection {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px; /* Adds spacing between the dropdown and info icon */
+	margin: 3rem auto 5rem auto; /* Adjusts margin for the container */
+}
+
+.unitSelect {
+	font-size: 1.5rem;
+	padding: 5px;
+	text-align: center;
+	width: 16rem;
+	padding: 12px 0;
+	box-shadow: 0 0.3px 5px 2px rgb(223, 190, 7);
+}
+
+.infoTooltip {
+	font-size: 2.5rem;
+	color: rgb(21, 201, 232);
+	cursor: pointer; /* Makes the icon more user-friendly */
+	width: 3rem; /* Adjust the size of the icon */
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 table {

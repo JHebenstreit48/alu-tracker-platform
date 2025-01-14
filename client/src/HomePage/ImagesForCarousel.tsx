@@ -8,7 +8,7 @@ const Carousel: ImageCarouselType[] = [
 
     { path: Images.PaganiHuayraBC },
     { path: Images.LamborghiniHuracanEvoSpider },
-    { path: Images.McLarenSpeedtail },
+    { path: Images.MclarenSpeedtail },
     { path: Images.LamborghiniSianFKP37 },
     { path: Images.ApexAP0 },
     { path: Images.AstonMartinValhallaConcept },
@@ -17,7 +17,7 @@ const Carousel: ImageCarouselType[] = [
     { path: Images.VandaElectricsDendrobium },
     { path: Images.Porsche911 },
     { path: Images.BugattiChiron },
-    { path: Images.McLarenP1 },
+    { path: Images.MclarenP1 },
     { path: Images.KoenigseggRegera },
     { path: Images.RimacConceptOne },
     { path: Images.FerrariLaFerrari },
