@@ -110,78 +110,8 @@ const CarDetailsSetup: React.FC<CarDetailsSetupProps> = ({ car, unitPreference, 
             </tr>
           </tbody>
         </table>
-
-        {/* <table className="stage1Stats">
-          <tbody>
-            <th className="tableHeader2" colSpan={2}>Stage 1 Stats</th>
-            <tr>
-              <td>Top Speed</td>
-              <td>{convertTopSpeed(car.Stage_1_Top_Speed)}</td>
-            </tr>
-            <tr>
-              <td>Acceleration</td>
-              <td>{displayStatAsIs(car.Stage_1_Acceleration)}</td>
-            </tr>
-            <tr>
-              <td>Handling</td>
-              <td>{displayStatAsIs(car.Stage_1_Handling)}</td>
-            </tr>
-            <tr>
-              <td>Nitro</td>
-              <td>{displayStatAsIs(car.Stage_1_Nitro)}</td>
-            </tr>
-          </tbody>
-        </table> */}
-
-        <table className="blueprintsRequired">
-          <thead>
-            <tr>
-              <th className="tableHeader2" colSpan={2}>Blueprints</th>
-            </tr>
-          </thead>
-          <tbody>
-            {Object.entries(car)
-              .filter(
-                ([key, value]) =>
-                  key.startsWith("BPs_") && !key.includes("*") && value !== undefined && value !== null
-              ) // Ensure fields exist and are not null or undefined
-              .map(([key, value]) => {
-                // Extract the star level dynamically from the key, e.g., "BPs_3_Star" -> "3"
-                const starCount = parseInt(key.match(/\d+/)?.[0] || "0", 10);
-
-                return (
-                  <tr key={key}>
-                    <td style={{ textAlign: "center", display: "flex" }}>
-                      <div style={{ width: "50%"}}>
-                        <span style={{ marginRight: "8px" }}>Blueprints: </span>
-                      </div>
-                      <div style={{ width: "50%"}}>
-                        {Array.from({ length: starCount }, (_, i) => (
-                          <img
-                            key={i}
-                            src={starIcon}
-                            alt="star"
-                            style={{ width: "30px", height: "30px", marginLeft: "2px" }}
-                          />
-                        ))}
-                      </div>
-
-
-                    </td>
-                    <td>{value}</td>
-                  </tr>
-                );
-              })}
-            {car.Total_BPs !== undefined && (
-              <tr>
-                <td>Total Blueprints</td>
-                <td>{car.Total_BPs}</td>
-              </tr>
-            )}
-          </tbody>
-        </table>
-
       </div>
+
     </div>
   );
 };

@@ -10,7 +10,6 @@ import { connectDB, disconnectDB } from "./index"; // Adjust to the correct path
     await CarModel.collection.drop();
     console.log("Seeding database...");
     for (const car of carData) {
-      // await CarModel.updateOne({ _id: car._id }, car, { upsert: true });
       await CarModel.create(car)
     }
     console.log("Database seeded successfully.");

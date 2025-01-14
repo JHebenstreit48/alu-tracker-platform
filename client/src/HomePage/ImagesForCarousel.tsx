@@ -15,7 +15,7 @@ const Carousel: ImageCarouselType[] = [
     { path: Images.LamborghiniSestoElemento },
     { path: Images.FerrariFXXK },
     { path: Images.VandaElectricsDendrobium },
-    { path: Images.Porsche911 },
+    { path: Images.Porsche911GT3RS },
     { path: Images.BugattiChiron },
     { path: Images.MclarenP1 },
     { path: Images.KoenigseggRegera },

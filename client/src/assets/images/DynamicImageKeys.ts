@@ -123,6 +123,8 @@ export const DynamicImageKeys: Record<string, string> = {
     "lamborghini-centenario": "LamborghiniCentenario",
     "lamborghini-countach-25th-anniversary": "LamborghiniCountach25thAnniversary",
     "lamborghini-diablo-gt": "LamborghiniDiabloGT",
+    "lamborghini-egoista": "LamborghiniEgoista",
+    "lamborghini-essenza-scv12": "LamborghiniEssenzaSCV12",
     "lamborghini-gallardo-lp-560-4": "LamborghiniGallardoLP5604",
     "lamborghini-huracan-evo-spider": "LamborghiniHuracanEvoSpider",
     "lamborghini-murcielago-lp-640-roadster": "LamborghiniMurcielagoLP640Roadster",

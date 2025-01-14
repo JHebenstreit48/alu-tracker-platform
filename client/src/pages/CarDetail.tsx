@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 import { Car } from "../CarDetails/CarInterfaces";
 import CarDetailsSetup from "../CarDetails/CarDetailsSetup";
+import BlueprintsTable from "../CarDetails/BlueprintsTable";
 import "../CSS/CarDetail.css";
+
 
 const CarDetail = () => {
   const { id } = useParams();
@@ -39,15 +41,24 @@ const CarDetail = () => {
     navigate(lastSelectedClass ? `/carsbyclass?class=${lastSelectedClass}` : "/carsbyclass");
   };
 
+  console.log(car?.Blueprints);
+
   if (error) return <div className="error-message">Failed to load car details.</div>;
   if (!car) return <div className="loading-message">Loading car details...</div>;
 
   return (
-    <CarDetailsSetup
+    <div>
+      <CarDetailsSetup
       car={car}
       unitPreference={unitPreference} // Pass the unit preference to the setup component
       handleGoBack={handleGoBack}
     />
+
+    <BlueprintsTable blueprints={car.Blueprints} />
+
+    </div>
+    
+
   );
 };
 
