@@ -1,6 +1,6 @@
-import BackToTop from '../components/BackToTopButton'
-import '../CSS/GarageLevels.css'
-import { GarageLevels } from './interface'
+import BackToTop from '@/components/BackToTopButton'
+import '@/CSS/GarageLevels.css'
+import { GarageLevels } from '@/GarageLevels/interface'
 
 export function GLContent({ GarageLevelKey, xp, garageLevel }: GarageLevels) {
     return (

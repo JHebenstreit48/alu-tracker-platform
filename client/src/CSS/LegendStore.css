@@ -11,7 +11,7 @@
   box-shadow: 1px 0 5px 5px rgb(223, 190, 7);
   background-color: black;
   padding: 4rem;
-  font-size: 1rem
+  font-size: 1rem;
 }
 .controls select {
   height: 2rem; 

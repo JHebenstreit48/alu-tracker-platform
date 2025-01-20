@@ -1,4 +1,4 @@
-import '../CSS/BackToTop.css';
+import '@/CSS/BackToTop.css';
 
 const BackToTop: React.FC = () => {
     const scrollToTop = () => {
