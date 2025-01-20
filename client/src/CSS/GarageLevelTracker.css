@@ -1,0 +1,48 @@
+.garageLevelTracker {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout */
+    text-align: center;
+    margin: 5rem auto 4rem auto; /* Center the grid within the parent container */
+    gap: 2rem; /* Add spacing between rows */
+    width: 46rem; /* Restrict the width of the controls for better centering */
+    border: 3px solid black;
+    box-shadow: 1px 0 5px 5px rgb(223, 190, 7);
+    background-color: black;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    color: white
+}
+
+.levelSelector {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.levelSelector select {
+    display: grid;
+    grid-template-columns: 1fr; /* Two columns */
+    justify-self: center;
+    margin-top: 1rem;
+}
+
+.xpInputSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.xpInputSection input {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self: center;
+    width: 12rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
