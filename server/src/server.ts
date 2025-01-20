@@ -23,11 +23,11 @@ app.use(
 app.use("/api", apiRoutes);
 
 // Serve static files (React frontend) - AFTER API routes
-app.use(express.static(path.join(process.cwd(), "@/client/dist")));
+app.use(express.static(path.join(process.cwd(), "../client/dist")));
 
 // Catch-all route for React's client-side routing
 app.get("*", (_req, res) => {
-  const indexPath = path.join(process.cwd(), "@/client/dist/index.html");
+  const indexPath = path.join(process.cwd(), "../client/dist/index.html");
   if (require("fs").existsSync(indexPath)) {
     res.sendFile(indexPath);
   } else {
