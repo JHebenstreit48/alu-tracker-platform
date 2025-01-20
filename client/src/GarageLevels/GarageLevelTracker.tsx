@@ -22,9 +22,14 @@ const GarageLevelTracker: React.FC<GarageLevelTrackerProps> = ({ levels }) => {
     localStorage.setItem('currentXp', currentXp); // Save XP to localStorage
   }, [currentXp]);
 
-  const currentLevelData = levels.find((level) => level.GarageLevelKey === currentLevel);
-  const xpRequired = currentLevelData?.xp || 0;
-  const xpRemaining = Math.max(xpRequired - Number(currentXp.replace(/,/g, '')), 0); // Safely calculate remaining XP
+  const nextLevelData = levels.find((level) => level.GarageLevelKey === currentLevel + 1);
+  const nextXpRequired = nextLevelData?.xp || 0; // XP required for the next level
+  const xpRemaining = nextXpRequired > 0
+    ? Math.max(nextXpRequired - Number(currentXp.replace(/,/g, '')), 0)
+    : 0;
+  
+  
+
 
   const handleXpChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value.replace(/,/g, ''); // Remove commas for calculation
