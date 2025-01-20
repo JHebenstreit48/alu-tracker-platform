@@ -1,5 +1,5 @@
-import Blueprints from "./CarInterfaces";
-import starIcon from "../assets/images/icons8-star-48.png";
+import Blueprints from "@/CarDetails/CarInterfaces";
+import starIcon from "@/assets/star-icon/star-icon.png";
 
 interface Props {
   blueprints?: Blueprints; // Made optional to handle undefined cases

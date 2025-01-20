@@ -1,7 +1,7 @@
-import { Car } from "./CarInterfaces";
-import starIcon from "../assets/images/icons8-star-48.png";
-import { Images } from "../assets/images/images";
-import { DynamicImageKeys } from "../assets/images/DynamicImageKeys";
+import { Car } from "@/CarDetails/CarInterfaces";
+import StarIcon from "@/assets/star-icon/star-icon.png";
+import { Images } from "@/assets/images/images";
+import { DynamicImageKeys } from "@/assets/images/DynamicImageKeys";
 
 interface CarDetailsSetupProps {
   car: Car;
@@ -79,7 +79,7 @@ const CarDetailsSetup: React.FC<CarDetailsSetupProps> = ({ car, unitPreference, 
               <td>
                 <span>
                   {Array.from({ length: car.Stars }, (_, i) => (
-                    <img key={i} src={starIcon} alt="star" style={{ width: "30px", height: "30px", marginRight: "4px" }} />
+                    <img key={i} src={StarIcon} alt="star" style={{ width: "30px", height: "30px", marginRight: "4px" }} />
                   ))}
                 </span>
               </td>

@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
-import { Car } from "../CarDetails/CarInterfaces";
-import CarDetailsSetup from "../CarDetails/CarDetailsSetup";
-import BlueprintsTable from "../CarDetails/BlueprintsTable";
-import "../CSS/CarDetail.css";
+import { Car } from "@/CarDetails/CarInterfaces";
+import CarDetailsSetup from "@/CarDetails/CarDetailsSetup";
+import BlueprintsTable from "@/CarDetails/BlueprintsTable";
+import "@/CSS/CarDetail.css";
 
 
 const CarDetail = () => {
@@ -49,15 +49,15 @@ const CarDetail = () => {
   return (
     <div>
       <CarDetailsSetup
-      car={car}
-      unitPreference={unitPreference} // Pass the unit preference to the setup component
-      handleGoBack={handleGoBack}
-    />
+        car={car}
+        unitPreference={unitPreference} // Pass the unit preference to the setup component
+        handleGoBack={handleGoBack}
+      />
 
-    <BlueprintsTable blueprints={car.Blueprints} />
+      <BlueprintsTable blueprints={car.Blueprints} />
 
     </div>
-    
+
 
   );
 };

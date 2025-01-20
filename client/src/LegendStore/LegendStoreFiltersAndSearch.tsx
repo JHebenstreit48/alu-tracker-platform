@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction, useState, useEffect } from "react";
-import "../CSS/LegendStore.css";
+import "@/CSS/LegendStore.css";
 
 const LegendStoreFilters: React.FC<{
   onFiltersChange: Dispatch<

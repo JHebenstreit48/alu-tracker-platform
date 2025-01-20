@@ -1,7 +1,6 @@
-import mongoose from "mongoose";
 import CarModel from "../models/car"; // Adjust to your actual CarModel file location
-import { carData } from "./carData";
-import { connectDB, disconnectDB } from "./index"; // Adjust to the correct path
+import { carData } from "../seeds/carData";
+import { connectDB, disconnectDB } from "../seeds/index"; // Adjust to the correct path
 
 (async function seedDatabase() {
   try {
@@ -10,7 +9,7 @@ import { connectDB, disconnectDB } from "./index"; // Adjust to the correct path
     await CarModel.collection.drop();
     console.log("Seeding database...");
     for (const car of carData) {
-      await CarModel.create(car)
+      await CarModel.create(car);
     }
     console.log("Database seeded successfully.");
   } catch (error) {
