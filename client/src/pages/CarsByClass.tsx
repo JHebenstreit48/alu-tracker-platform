@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import Header from "../components/Header";
-import PageTab from "../components/PageTab";
-import ClassTables from "../CarsByClass/ClassTables";
-import CarFilters from "../CarsByClass/CarFilters";
-import "../CSS/CarsByClass.css";
+import Header from "@/components/Header";
+import PageTab from "@/components/PageTab";
+import ClassTables from "@/CarsByClass/ClassTables";
+import CarFilters from "@/CarsByClass/CarFilters";
+import "@/CSS/CarsByClass.css";
 import { useLocation } from "react-router-dom";
 
 interface Car {

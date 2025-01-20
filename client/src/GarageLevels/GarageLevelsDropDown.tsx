@@ -1,6 +1,6 @@
-import { garageLevelList } from './GarageLevelCars.ts';
-import { GLContent } from './GarageLevelContent.tsx';
-import '../CSS/GarageLevels.css'
+import { garageLevelList } from '@/GarageLevels/GarageLevelCars';
+import { GLContent } from '@/GarageLevels/GarageLevelContent';
+import '@/CSS/GarageLevels.css'
 import { useState } from 'react';
 
 export default function GarageLevelsJumpList() {

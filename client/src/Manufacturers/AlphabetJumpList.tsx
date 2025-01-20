@@ -1,6 +1,6 @@
-import '../CSS/Manufacturer.css';
+import '@/CSS/Manufacturer.css';
 import { abc } from './Brands';
-import  { BrandDescription } from './ManufacturersInfo';
+import { BrandDescription } from './ManufacturersInfo';
 
 function handleScroll(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>, letterKey: string) {
   event.preventDefault();
@@ -11,40 +11,40 @@ function handleScroll(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>, le
 }
 
 export default function abcList() {
-    return (
-      <div>
-        {/* X axis with all letters */}
-        <div className='jumpList'>
-          {abc.map((letter) => (
-            <a
+  return (
+    <div>
+      {/* X axis with all letters */}
+      <div className='jumpList'>
+        {abc.map((letter) => (
+          <a
             key={letter.letterKey}
             className='brandAlphabetical'
             href={`#${letter.letterKey}`}
             onClick={(event) => handleScroll(event, letter.letterKey)}
-            >
-              {letter.letterKey}
-            </a>
-          ))}
-        </div>
-  
-        {/* Y axis or vertical axis with all brands and descriptions */}
-        <div className='manufacturerLetter'>
-          {abc.map((abc) => (
-            <div key={abc.letterKey} id={abc.letterKey}>
-              
-              <h2 className='alphabetList'>
-                {abc.letterKey}
-              </h2>
-
-              {/* ABC BRANDS */}
-              {abc.brands.map((brand) => (
-                <BrandDescription key={brand.brandsKey} {...brand} />
-              ))}
-
-            </div>
-          ))}
-        </div>
+          >
+            {letter.letterKey}
+          </a>
+        ))}
       </div>
-    );
-  }
+
+      {/* Y axis or vertical axis with all brands and descriptions */}
+      <div className='manufacturerLetter'>
+        {abc.map((abc) => (
+          <div key={abc.letterKey} id={abc.letterKey}>
+
+            <h2 className='alphabetList'>
+              {abc.letterKey}
+            </h2>
+
+            {/* ABC BRANDS */}
+            {abc.brands.map((brand) => (
+              <BrandDescription key={brand.brandsKey} {...brand} />
+            ))}
+
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 

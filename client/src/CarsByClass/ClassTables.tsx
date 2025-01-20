@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import starIcon from "../assets/images/icons8-star-48.png";
-import "../CSS/CarsByClass.css";
+import starIcon from "@/assets/star-icon/star-icon.png";
+import "@/CSS/CarsByClass.css";
 
 interface Car {
     _id: string;
@@ -32,7 +32,7 @@ export default function carClassTables({ cars, selectedClass }: ClassTablesProps
     };
 
     const headerText =
-    selectedClass === "All Classes" ? "All Classes" : selectedClass;
+        selectedClass === "All Classes" ? "All Classes" : selectedClass;
 
     return (
         <>

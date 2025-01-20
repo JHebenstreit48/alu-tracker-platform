@@ -1,6 +1,6 @@
-import Header from "../components/Header";
-import JumpList from "../Manufacturers/AlphabetJumpList";
-import PageTab from '../components/PageTab';
+import Header from "@/components/Header";
+import JumpList from "@/Manufacturers/AlphabetJumpList";
+import PageTab from '@/components/PageTab';
 
 export default function Manufacturers() {
 
@@ -16,7 +16,7 @@ export default function Manufacturers() {
                 </PageTab>
 
             </div>
-            
+
         </>
 
     )

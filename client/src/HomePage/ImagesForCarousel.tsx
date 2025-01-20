@@ -1,4 +1,4 @@
-import { Images } from "../assets/images/images";
+import { Images } from "@/assets/images/images";
 
 export type ImageCarouselType = {
     path: string;

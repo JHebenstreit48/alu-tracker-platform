@@ -1,5 +1,5 @@
-import { BrandInfo } from "./interface.ts";
-import { Logos } from "../assets/images/logos.ts";
+import { BrandInfo } from "@/interface.ts";
+import { Logos } from "@/assets/images/logos.ts";
 
 export const abc: BrandInfo[] = [
   {
@@ -8,8 +8,7 @@ export const abc: BrandInfo[] = [
       {
         brandsKey: "Acura",
         logo: Logos.Acura,
-        info:
-        "Acura is the luxury division of Japanese automaker Honda Motor Company. It was originally referred to as Channel II. The name change to Acura was announced in September of 1984. They did not sell their first vehicles in the US market until March 27th, 1986.",
+        info: "Acura is the luxury division of Japanese automaker Honda Motor Company. It was originally referred to as Channel II. The name change to Acura was announced in September of 1984. They did not sell their first vehicles in the US market until March 27th, 1986.",
         resources: [
           {
             text: "Acura - Wikipedia",
@@ -18,7 +17,7 @@ export const abc: BrandInfo[] = [
           {
             text: "Honda News - Acura History",
             url: "https://hondanews.com/en-US/releases/release-e6b4345aa35541ea9556b69e4424209e-acura-history",
-          }
+          },
         ],
       },
       {
@@ -28,8 +27,8 @@ export const abc: BrandInfo[] = [
         resources: [
           {
             text: "Asphalt Fandom - Ajlani Motors",
-            url: "https://asphalt.fandom.com/wiki/Ajlani_Motors"
-          }
+            url: "https://asphalt.fandom.com/wiki/Ajlani_Motors",
+          },
         ],
       },
       {
@@ -79,8 +78,8 @@ export const abc: BrandInfo[] = [
         resources: [
           {
             text: "Aston Martin - About Us",
-            url: "https://www.astonmartin.com/en/corporate/about-us"
-          }
+            url: "https://www.astonmartin.com/en/corporate/about-us",
+          },
         ],
       },
       {

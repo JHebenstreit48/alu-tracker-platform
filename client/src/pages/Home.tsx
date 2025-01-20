@@ -1,8 +1,8 @@
-import Header from "../components/Header";
-import PageTab from "../components/PageTab";
-import ImageCarousel from "../HomePage/ImageCarousel";
-import Carousel from "../HomePage/ImagesForCarousel";
-import GameInfo from "../HomePage/GameInfo";
+import Header from "@/components/Header";
+import PageTab from "@/components/PageTab";
+import ImageCarousel from "@/HomePage/ImageCarousel";
+import Carousel from "@/HomePage/ImagesForCarousel";
+import GameInfo from "@/HomePage/GameInfo";
 
 export default function Home() {
 
@@ -10,7 +10,7 @@ export default function Home() {
     <>
 
       <div>
-        
+
         <PageTab title="Home">
           <Header text="About ALU" />
           <GameInfo />
@@ -18,7 +18,7 @@ export default function Home() {
         </PageTab>
 
       </div>
-      
+
     </>
   );
 }
