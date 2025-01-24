@@ -28,6 +28,7 @@ import AstonMartinVantageV122022 from "@/assets/car-photos/aston-martin-vantage-
 import AstonMartinVictor from "@/assets/car-photos/aston-martin-victor.jpg";
 import AstonMartinVulcan from "@/assets/car-photos/aston-martin-vulcan.jpg";
 import ATSAutomobiliCorsaRRTurbo from "@/assets/car-photos/ats-automobili-corsa-rr-turbo.jpg";
+import ATSAutomobiliGT from "@/assets/car-photos/ats-automobili-gt.jpg";
 import AutomobiliPininfarinaBattista from "@/assets/car-photos/automobili-pininfarina-battista.jpg";
 import AutomobiliPininfarinaBattistaEdizioneNinoFarina from "@/assets/car-photos/automobili-pininfarina-battista-edizione-nino-farina.jpg";
 import BentleyContinentalGT3 from "@/assets/car-photos/bentley-continental-gt3.jpg";
@@ -58,6 +59,7 @@ import ChevroletCorvetteC7R from "@/assets/car-photos/chevrolet-corvette-c7-r.jp
 import ChevroletCorvetteGrandSport from "@/assets/car-photos/chevrolet-corvette-grand-sport.jpg";
 import ChevroletCorvetteStingray from "@/assets/car-photos/chevrolet-corvette-stingray.jpg";
 import ChevroletCorvetteZR1 from "@/assets/car-photos/chevrolet-corvette-zr1.jpg";
+import ChryslerME412 from "@/assets/car-photos/chrysler-me-412.jpg";
 import CitroenGT from "@/assets/car-photos/citroen-gt.jpg";
 import Czinger21C from "@/assets/car-photos/czinger-21c.jpg";
 import DeTomasoP72 from "@/assets/car-photos/de-tomaso-p72.jpg";
@@ -144,12 +146,13 @@ import LamborghiniDiabloGT from "@/assets/car-photos/lamborghini-diablo-gt.jpg";
 import LamborghiniEgoista from "@/assets/car-photos/lamborghini-egoista.jpg";
 import LamborghiniEssenzaSCV12 from "@/assets/car-photos/lamborghini-essenza-scv12.jpg";
 import LamborghiniGallardoLP5604 from "@/assets/car-photos/lamborghini-gallardo-lp-560-4.jpg";
-import LamborghiniHuracanEvoSpider from "@/assets/car-photos/lamborghini-huracan-evo-spider.jpg";
+import LamborghiniHuracanEvoSpyder from "@/assets/car-photos/lamborghini-huracan-evo-spyder.jpg";
 import LamborghiniHuracanSTO from "@/assets/car-photos/lamborghini-huracan-sto.jpg";
 import LamborghiniHuracanSuperTrofeoEvo from "@/assets/car-photos/lamborghini-huracan-super-trofeo-evo.jpg";
 import LamborghiniInvencible from "@/assets/car-photos/lamborghini-invencible.jpg";
 import LamborghiniMiuraConcept from "@/assets/car-photos/lamborghini-miura-concept.jpg";
 import LamborghiniMurcielagoLP640Roadster from "@/assets/car-photos/lamborghini-murcielago-lp-640-roadster.jpg";
+// import LamborghiniReventonRoadster from "@/assets/car-photos/lamborghini-reventon-roadster.jpg";
 import LamborghiniRevuelto from "@/assets/car-photos/lamborghini-revuelto.jpg";
 import LamborghiniSC18 from "@/assets/car-photos/lamborghini-sc18.jpg";
 import LamborghiniSC20 from "@/assets/car-photos/lamborghini-sc20.jpg";
@@ -258,6 +261,7 @@ import VencerSarthe from "@/assets/car-photos/vencer-sarthe.jpg";
 import Vision1789 from "@/assets/car-photos/vision-1789.jpg";
 import VLFForce1V10 from "@/assets/car-photos/vlf-force-1-v10.jpg";
 import VolkswagenElectricR from "@/assets/car-photos/volkswagen-electric-r.jpg";
+import VolkswagenW12Coupe from "@/assets/car-photos/volkswagen-w12-coupe.jpg";
 import VolkswagenXLSportConcept from "@/assets/car-photos/volkswagen-xl-sport-concept.jpg";
 import WMotorsFenyrSupersport from "@/assets/car-photos/w-motors-fenyr-supersport.jpg";
 import WMotorsLykanHypersport from "@/assets/car-photos/w-motors-lykan-hypersport.jpg";
@@ -297,6 +301,7 @@ export const Images: Record<string, string> = {
   AstonMartinVictor,
   AstonMartinVulcan,
   ATSAutomobiliCorsaRRTurbo,
+  ATSAutomobiliGT,
   AutomobiliPininfarinaBattistaEdizioneNinoFarina,
   AutomobiliPininfarinaBattista,
   BentleyContinentalGTSpeed,
@@ -327,6 +332,7 @@ export const Images: Record<string, string> = {
   ChevroletCorvetteGrandSport,
   ChevroletCorvetteStingray,
   ChevroletCorvetteZR1,
+  ChryslerME412,
   CitroenGT,
   Czinger21C,
   DeTomasoP72,
@@ -413,12 +419,13 @@ export const Images: Record<string, string> = {
   LamborghiniEgoista,
   LamborghiniEssenzaSCV12,
   LamborghiniGallardoLP5604,
-  LamborghiniHuracanEvoSpider,
+  LamborghiniHuracanEvoSpyder,
   LamborghiniHuracanSTO,
   LamborghiniHuracanSuperTrofeoEvo,
   LamborghiniInvencible,
   LamborghiniMiuraConcept,
   LamborghiniMurcielagoLP640Roadster,
+  // LamborghiniReventonRoadster,
   LamborghiniRevuelto,
   LamborghiniSC18,
   LamborghiniSC20,
@@ -527,6 +534,7 @@ export const Images: Record<string, string> = {
   Vision1789,
   VLFForce1V10,
   VolkswagenElectricR,
+  VolkswagenW12Coupe,
   VolkswagenXLSportConcept,
   WMotorsFenyrSupersport,
   WMotorsLykanHypersport,
