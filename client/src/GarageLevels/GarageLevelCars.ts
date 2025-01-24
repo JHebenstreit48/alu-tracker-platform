@@ -333,8 +333,8 @@ export const garageLevelList: GarageLevels[] = [
         name: "Koenigsegg Regera",
       },
       {
-        img: Images.LamborghiniHuracanEvoSpider,
-        name: "Lamborghini Huracan Evo Spider",
+        img: Images.LamborghiniHuracanEvoSpyder,
+        name: "Lamborghini Huracan Evo Spyder",
       },
     ],
   },
