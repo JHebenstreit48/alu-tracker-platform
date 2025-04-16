@@ -1,5 +1,5 @@
 import express, { Request, Response, Router } from "express";
-import CarModel from "../../models/car";
+import CarModel from "@/models/car";
 import mongoose from "mongoose";
 
 const router: Router = express.Router();
