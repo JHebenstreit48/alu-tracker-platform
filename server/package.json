@@ -6,12 +6,11 @@
 "scripts": {
   "start": "node dist/server.js",
   "dev": "ts-node -r tsconfig-paths/register src/server.ts",
-  "seed": "ts-node src/seeds/carSeeds.ts",
+  "seed": "ts-node -r tsconfig-paths/register src/scripts/importCars.ts",
   "build": "tsc",
   "start:watch": "nodemon src/index.ts",
   "start:dev": "npm run start:watch"
-}
-,
+},
   "author": "Justin Hebenstreit",
   "license": "MIT",
   "devDependencies": {
