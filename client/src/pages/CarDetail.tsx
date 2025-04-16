@@ -5,7 +5,6 @@ import CarDetailsSetup from "@/CarDetails/CarDetailsSetup";
 import BlueprintsTable from "@/CarDetails/BlueprintsTable";
 import "@/CSS/CarDetail.css";
 
-
 const CarDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -14,9 +13,10 @@ const CarDetail = () => {
   const [error, setError] = useState(false);
 
   // Fetch unit preference from localStorage
-  const unitPreference = localStorage.getItem("preferredUnit") === "imperial" ? "imperial" : "metric";
+  const unitPreference =
+    localStorage.getItem("preferredUnit") === "imperial" ? "imperial" : "metric";
 
-  const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "/api";
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
 
   const fetchCarDetails = (id: string) => {
     fetch(`${API_BASE_URL}/cars/detail/${id}`)
@@ -41,8 +41,6 @@ const CarDetail = () => {
     navigate(lastSelectedClass ? `/carsbyclass?class=${lastSelectedClass}` : "/carsbyclass");
   };
 
-  console.log(car?.Blueprints);
-
   if (error) return <div className="error-message">Failed to load car details.</div>;
   if (!car) return <div className="loading-message">Loading car details...</div>;
 
@@ -50,15 +48,11 @@ const CarDetail = () => {
     <div>
       <CarDetailsSetup
         car={car}
-        unitPreference={unitPreference} // Pass the unit preference to the setup component
+        unitPreference={unitPreference}
         handleGoBack={handleGoBack}
       />
-
-      <BlueprintsTable blueprints={car.Blueprints} />
-
+      <BlueprintsTable car={car} />
     </div>
-
-
   );
 };
 

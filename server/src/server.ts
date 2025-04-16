@@ -2,8 +2,8 @@ import express from "express";
 import path from "node:path";
 import cors from "cors";
 import dotenv from "dotenv";
-import apiRoutes from "./routes/api"; // Import your API routes
-import { connectToDb } from "./Utility/connection"; // Import your DB connection logic
+import apiRoutes from "@/routes/api"; // Import your API routes
+import { connectToDb } from "@/Utility/connection"; // Import your DB connection logic
 
 dotenv.config(); // Load environment variables
 
