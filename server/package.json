@@ -4,7 +4,7 @@
   "description": "Database and server for Asphalt Legends Unite",
   "main": "dist/index.js",
 "scripts": {
-  "start": "node dist/server.js",
+  "start": "ts-node -r tsconfig-paths/register src/server.ts",
   "dev": "ts-node -r tsconfig-paths/register src/server.ts",
   "seed": "ts-node -r tsconfig-paths/register src/scripts/importCars.ts",
   "build": "tsc",
