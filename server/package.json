@@ -8,7 +8,7 @@
   "dev": "ts-node -r tsconfig-paths/register src/server.ts",
   "seed": "ts-node -r tsconfig-paths/register src/scripts/importCars.ts",
   "build": "tsc",
-  "start:watch": "nodemon src/index.ts",
+  "start:watch": "nodemon --exec ts-node -r tsconfig-paths/register src/server.ts",
   "start:dev": "npm run start:watch"
 },
   "author": "Justin Hebenstreit",
