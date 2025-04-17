@@ -1,5 +1,5 @@
-import { BrandInfo } from "@/interface.ts";
-import { Logos } from "@/assets/images/logos.ts";
+import { BrandInfo } from "@/Manufacturers/interface";
+import { Logos } from "@/assets/images/logos";
 
 export const abc: BrandInfo[] = [
   {
