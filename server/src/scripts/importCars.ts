@@ -7,26 +7,37 @@ import mongoose from "mongoose";
 import CarModel from "@/models/car";
 import { connectToDb } from "@/Utility/connection";
 
-const brandsDir = path.join(__dirname, "../seeds/brands");
+const brandsDir = path.resolve(__dirname, "../seeds/brands");
+console.log("📁 Resolved brandsDir:", brandsDir);
 
 const importCars = async () => {
+  console.log("🌱 Seeding started...");
+
   try {
     await connectToDb();
 
-    // Clear existing car data
-    await CarModel.deleteMany();
-    console.log("🧼 Existing cars removed.");
+    // Optional: prevent clearing DB in production
+    if (process.env.NODE_ENV !== "production") {
+      await CarModel.deleteMany();
+      console.log("🧼 Existing cars removed.");
+    } else {
+      console.log("🛑 Skipping deleteMany() in production.");
+    }
 
     const files = fs.readdirSync(brandsDir).filter(file => file.endsWith(".json"));
+    console.log("📂 Files found in brandsDir:", files);
+
     let totalCount = 0;
 
     for (const file of files) {
       const filePath = path.join(brandsDir, file);
+      console.log(`📥 Reading file: ${filePath}`);
+
       const rawData = fs.readFileSync(filePath, "utf-8");
       const brandCars = JSON.parse(rawData);
 
       if (!Array.isArray(brandCars)) {
-        console.warn(`⚠️ Skipped file ${file} — not a valid array.`);
+        console.warn(`⚠️ Skipped ${file} — not a valid array.`);
         continue;
       }
 
