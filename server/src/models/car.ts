@@ -26,7 +26,7 @@ interface ICar extends Document {
   Total_GL_Points: number | null;
   Country: string;
   Tags: string;
-  BPs_1_Star: string | number;
+  BPs_1_Star: number;
   BPs_2_Star: number;
   BPs_3_Star: number;
   BPs_4_Star: number | null;
