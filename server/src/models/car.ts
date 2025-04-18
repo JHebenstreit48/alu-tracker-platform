@@ -4,7 +4,6 @@ import mongoose, { Schema, Document, Types } from "mongoose";
 interface ICar extends Document {
   _id: Types.ObjectId; // MongoDB auto-generated ObjectId
   Class: string;
-  Order: number;
   Brand: string;
   Model: string;
   Rarity: string;
@@ -40,7 +39,6 @@ interface ICar extends Document {
 const carSchema: Schema = new Schema({
   _id: { type: Schema.Types.ObjectId, auto: true }, // Explicitly define ObjectId
   Class: { type: String, required: true },
-  Order: { type: Number, required: true },
   Brand: { type: String, required: true },
   Model: { type: String, required: true },
   Rarity: { type: String },
