@@ -1,4 +1,14 @@
-import { cars } from "@/LegendStore/BlueprintPriceData"; // Import the cars data here
+import { useEffect, useState } from "react";
+
+interface BlueprintCar {
+  Class: string;
+  Brand: string;
+  Model: string;
+  GarageLevel?: number;
+  StarRank: number;
+  CarRarity: string;
+  BlueprintPrices: number[];
+}
 
 const LegendStoreTables: React.FC<{
   selectedClass: string;
@@ -15,43 +25,65 @@ const LegendStoreTables: React.FC<{
   selectedIndividualLevel,
   selectedStarRank,
 }) => {
-    // Filter cars based on selected class
-    let filteredCars = selectedClass === "All Levels"
-      ? cars // Show all cars if "All Levels" is selected
-      : cars.filter((car) => car.class === selectedClass);
+  const [cars, setCars] = useState<BlueprintCar[]>([]);
+  const [loading, setLoading] = useState(true);
 
-    if (selectedCarRarity !== null) {
-      filteredCars = filteredCars.filter(
-        (car) => car.carRarity !== undefined && car.carRarity === selectedCarRarity
-      );
-    }
+  useEffect(() => {
+    const fetchCars = async () => {
+      setLoading(true);
+      try {
+        const response = await fetch("/api/blueprints");
+        const data = await response.json();
+        setCars(data);
+      } catch (err) {
+        console.error("Error fetching blueprint data:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-    if (searchTerm.trim() !== "") {
-      filteredCars = filteredCars.filter((car) =>
-        `${car.brand} ${car.model}`.toLowerCase().includes(searchTerm.toLowerCase())
-      );
-    }
+    fetchCars();
+  }, []);
 
-    if (selectedCumulativeLevel !== null) {
-      filteredCars = filteredCars.filter(
-        (car) => car.garageLevel !== undefined && car.garageLevel <= selectedCumulativeLevel
-      );
-    }
+  let filteredCars = selectedClass === "All Levels"
+    ? cars
+    : cars.filter((car) => car.Class === selectedClass);
 
-    if (selectedIndividualLevel !== null) {
-      filteredCars = filteredCars.filter(
-        (car) => car.garageLevel !== undefined && car.garageLevel === selectedIndividualLevel
-      );
-    }
+  if (selectedCarRarity !== null) {
+    filteredCars = filteredCars.filter(
+      (car) => car.CarRarity === selectedCarRarity
+    );
+  }
 
-    if (selectedStarRank !== null) {
-      filteredCars = filteredCars.filter(
-        (car) => car.starRank !== undefined && car.starRank === selectedStarRank
-      );
-    }
+  if (searchTerm.trim() !== "") {
+    filteredCars = filteredCars.filter((car) =>
+      `${car.Brand} ${car.Model}`.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+  }
 
-    return (
-      <div>
+  if (selectedCumulativeLevel !== null) {
+    filteredCars = filteredCars.filter(
+      (car) => car.GarageLevel !== undefined && car.GarageLevel <= selectedCumulativeLevel
+    );
+  }
+
+  if (selectedIndividualLevel !== null) {
+    filteredCars = filteredCars.filter(
+      (car) => car.GarageLevel !== undefined && car.GarageLevel === selectedIndividualLevel
+    );
+  }
+
+  if (selectedStarRank !== null) {
+    filteredCars = filteredCars.filter(
+      (car) => car.StarRank === selectedStarRank
+    );
+  }
+
+  return (
+    <div>
+      {loading ? (
+        <p>Loading blueprints...</p>
+      ) : (
         <table className="responsiveTable">
           <thead>
             <tr className="classSelectionHeader">
@@ -72,29 +104,26 @@ const LegendStoreTables: React.FC<{
           <tbody>
             {filteredCars.length > 0 ? (
               filteredCars.map((car) => (
-                <tr key={`${car.brand}-${car.model}`}>
-                  <td>{`${car.brand} ${car.model}`}</td>
-                  {car.blueprintPrices.map((price, index) => (
-                    <td key={index}>{price.toLocaleString()}</td>
+                <tr key={`${car.Brand}-${car.Model}`}>
+                  <td>{`${car.Brand} ${car.Model}`}</td>
+                  {car.BlueprintPrices.map((price, i) => (
+                    <td key={i}>{price.toLocaleString()}</td>
                   ))}
                   <td>
-                    {car.blueprintPrices
-                      .reduce((total, price) => total + price, 0)
-                      .toLocaleString()}
+                    {car.BlueprintPrices.reduce((total, price) => total + price, 0).toLocaleString()}
                   </td>
                 </tr>
               ))
             ) : (
               <tr>
-                <td colSpan={7} className="no-results">
-                  No results found.
-                </td>
+                <td colSpan={7} className="no-results">No results found.</td>
               </tr>
             )}
           </tbody>
         </table>
-      </div>
-    );
-  };
+      )}
+    </div>
+  );
+};
 
 export default LegendStoreTables;

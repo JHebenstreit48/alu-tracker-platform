@@ -32,19 +32,19 @@
   gap: 10px;
 }
 
-.optionRare {
+.optionCommon {
   background-color: rgb(1, 188, 250);
   color: black; /* Ensure text is visible */
   text-align: center;
 }
 
-.optionEpic {
+.optionRare {
   background-color: rgb(111, 8, 170);
   color: white; /* Ensure text is visible */
   text-align: center;
 }
 
-.optionLegendary {
+.optionEpic {
   background-color: rgb(255, 174, 0);
   color: black; /* Ensure text is visible */
   text-align: center;
