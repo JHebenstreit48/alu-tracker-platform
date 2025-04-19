@@ -4,7 +4,9 @@ import PageTab from '@/components/PageTab';
 import GarageLevelsDropDown from '@/GarageLevels/GarageLevelsDropDown';
 import GLTrackerToggle from '@/GarageLevels/GLTrackerToggle';
 import GarageLevelTracker from '@/GarageLevels/GarageLevelTracker';
-import { garageLevelList } from '@/GarageLevels/GarageLevelCars'; // Import levels dynamically
+import { garageLevelList } from '@/GarageLevels/GarageLevelCars';
+import '@/SCSS/GarageLevels/GarageLevelTracker.scss';
+import '@/SCSS/GarageLevels/GarageLevels.scss'
 
 export default function GarageLevels() {
   const [isTrackerMode, setIsTrackerMode] = useState(() => {

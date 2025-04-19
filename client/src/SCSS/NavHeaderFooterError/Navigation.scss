@@ -1,0 +1,91 @@
+/* ==============================
+            Variables
+   ============================== */
+
+$gold-accent: rgb(223, 190, 7);
+$purple-glow: #7a05be;
+
+$cellphone-portrait: 390px;
+$tablet-max: 768px;
+
+/* ==============================
+              Navigation Layout
+   ============================== */
+
+.nav-css {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  margin-bottom: 4px;
+
+  @media only screen and (max-width: $tablet-max) {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+
+  @media only screen and (max-width: $cellphone-portrait) {
+    width: 100%;
+    flex-direction: column;
+    margin: 2rem auto 1rem;
+  }
+}
+
+/* ==============================
+               Button Styles
+   ============================== */
+
+.btn-primary {
+  display: flex;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: unset;
+  border-color: unset;
+  border: none;
+  border-radius: 0;
+}
+
+.btn-lg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $gold-accent;
+  text-shadow: 3px 2px 2px $purple-glow;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 11rem;
+
+  &:hover {
+    text-shadow: 3px 2px 2px $purple-glow;
+    text-decoration: none;
+    background-color: unset;
+    border-top: 1.5px solid $purple-glow;
+    border-left: 1.5px solid $purple-glow;
+    border-right: 1.5px solid $purple-glow;
+  }
+
+  @media only screen and (max-width: $tablet-max) {
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+  }
+
+  @media only screen and (max-width: $cellphone-portrait) {
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+  }
+}
+
+/* ==============================
+               Active Link
+   ============================== */
+
+.active-link {
+  border-left: 1.5px solid $gold-accent;
+  border-right: 1.5px solid $gold-accent;
+}

@@ -1,0 +1,70 @@
+/* ==============================
+            Variables
+   ============================== */
+
+   @use "sass:color";
+
+   $gold-accent: rgb(223, 190, 7);
+   $background-dark: black;
+   $text-color: white;
+   $shadow-style: 1px 0 5px 5px $gold-accent;
+   
+   /* ==============================
+            Garage Level Tracker
+      ============================== */
+   
+   .garageLevelTracker {
+     display: grid;
+     grid-template-columns: 1fr;
+     text-align: center;
+     margin: 5rem auto 4rem;
+     gap: 2rem;
+     width: 46rem;
+     border: 3px solid black;
+     box-shadow: $shadow-style;
+     background-color: $background-dark;
+     font-size: 1.5rem;
+     padding: 2rem 0;
+     color: $text-color;
+   }
+   
+   /* ==============================
+             Level Selector
+      ============================== */
+   
+   .levelSelector {
+     display: grid;
+     grid-template-columns: 1fr;
+     justify-content: center;
+     align-items: center;
+   
+     select {
+       display: grid;
+       grid-template-columns: 1fr;
+       justify-self: center;
+       margin-top: 1rem;
+     }
+   }
+   
+   /* ==============================
+           XP Input Section
+      ============================== */
+   
+   .xpInputSection {
+     display: grid;
+     grid-template-columns: 1fr;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     flex-wrap: wrap;
+   
+     input {
+       display: grid;
+       grid-template-columns: 1fr;
+       justify-self: center;
+       width: 12rem;
+       text-align: center;
+       margin-top: 1rem;
+     }
+   }
+   

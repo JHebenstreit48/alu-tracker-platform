@@ -1,5 +1,4 @@
 import { cars } from "@/LegendStore/BlueprintPriceData"; // Import the cars data here
-import "@/CSS/LegendStore.css";
 
 const LegendStoreTables: React.FC<{
   selectedClass: string;

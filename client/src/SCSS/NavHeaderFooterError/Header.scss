@@ -1,0 +1,85 @@
+/* ==============================
+            Variables
+   ============================== */
+
+$gold-text: rgb(255, 196, 0);
+$dark-shadow: #19191a;
+$header-gradient: linear-gradient(
+  to bottom,
+  #090113 1%,
+  #554e4e 42%,
+  #000000 94%
+);
+$box-shadow-dark: 0px 2px 5px #5b1479;
+$box-shadow-alt: 0 0 12px 7px #490db2;
+
+$cellphone-portrait: 390px;
+$tablet-max: 768px;
+
+/* ==============================
+               Header Wrapper
+   ============================== */
+
+.Header {
+  height: 14rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: $header-gradient;
+  color: $gold-text;
+  text-shadow: 7px 6px 5px $dark-shadow;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-bottom: 10px;
+  box-shadow: $box-shadow-dark;
+
+  // Optional alternate shadow:
+  // box-shadow: $box-shadow-alt;
+
+  @media only screen and (max-width: $tablet-max) {
+    width: 100%;
+    height: 6.3rem;
+  }
+
+  @media only screen and (max-width: $cellphone-portrait) {
+    height: 6rem;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* ==============================
+                Page Header
+   ============================== */
+
+.PageHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 3.8rem;
+
+  @media only screen and (max-width: $tablet-max) {
+    width: 80rem;
+    margin: 14.3rem auto 3rem auto;
+    font-size: 40px;
+  }
+
+  @media only screen and (max-width: $cellphone-portrait) {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 21rem;
+    margin-top: 26.1rem;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 32px;
+    color: $gold-text;
+    text-shadow: 4px 4px 4px black;
+  }
+}

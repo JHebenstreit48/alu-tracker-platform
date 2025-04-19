@@ -1,7 +1,8 @@
 import { Outlet } from "react-router-dom";
-import '@/CSS/Header.css';
-import '@/CSS/Page.css';
-import '@/CSS/Navigation.css';
+import '@/SCSS/NavHeaderFooterError/Header.scss';
+import '@/SCSS/PageAndHome/Page.scss';
+import '@/SCSS/NavHeaderFooterError/Navigation.scss';
+import '@/SCSS/NavHeaderFooterError/Error.scss'
 
 export default function App() {
 
