@@ -68,5 +68,15 @@
     "Total_BPs": 300,
     "Unnamed: 32": 54528,
     "Cost epic": null
+  },
+  {
+    "Id": 3,
+    "Class": "S",
+    "Brand": "Rimac",
+    "Model": "Nevera Time Attack",
+    "Rarity": "Epic",
+    "Stars": 6,
+    "Garage_Lvl": null,
+    "Country": "Croatia"
   }
 ]
