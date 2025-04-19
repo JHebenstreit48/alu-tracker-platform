@@ -2,7 +2,6 @@
   {
     "Id": 1,
     "Class": "C",
-    "Order": 55,
     "Brand": "Acura",
     "Model": "NSX",
     "Rarity": "Rare",
@@ -38,7 +37,6 @@
   {
     "Id": 2,
     "Class": "C",
-    "Order": 67,
     "Brand": "Acura",
     "Model": "NSX GT3 Evo",
     "Rarity": "Epic",

@@ -2,7 +2,6 @@
   {
     "Id": 1,
     "Class": "S",
-    "Order": 235,
     "Brand": "Koenigsegg",
     "Model": "Regera",
     "Rarity": "Epic",
@@ -38,7 +37,6 @@
   {
     "Id": 2,
     "Class": "S",
-    "Order": 250,
     "Brand": "Koenigsegg",
     "Model": "Jesko",
     "Rarity": "Epic",
@@ -74,7 +72,6 @@
   {
     "Id": 3,
     "Class": "S",
-    "Order": 270,
     "Brand": "Koenigsegg",
     "Model": "Jesko Absolut",
     "Rarity": "Epic",
@@ -110,7 +107,6 @@
   {
     "Id": 4,
     "Class": "S",
-    "Order": 267,
     "Brand": "Koenigsegg",
     "Model": "CC850",
     "Rarity": "Epic",
@@ -146,7 +142,6 @@
   {
     "Id": 5,
     "Class": "S",
-    "Order": 264,
     "Brand": "Koenigsegg",
     "Model": "Gemera",
     "Rarity": "Epic",
@@ -182,7 +177,6 @@
   {
     "Id": 6,
     "Class": "S",
-    "Order": 260,
     "Brand": "Koenigsegg",
     "Model": "CCXR",
     "Rarity": "Epic",
@@ -218,7 +212,6 @@
   {
     "Id": 7,
     "Class": "S",
-    "Order": 256,
     "Brand": "Koenigsegg",
     "Model": "Agera RS",
     "Rarity": "Epic",

@@ -2,7 +2,6 @@
   {
     "Id": 1,
     "Class": "C",
-    "Order": 56,
     "Brand": "Maserati",
     "Model": "Alfieri",
     "Rarity": "Rare",
@@ -38,7 +37,6 @@
   {
     "Id": 2,
     "Class": "C",
-    "Order": 69,
     "Brand": "Maserati",
     "Model": "MC12",
     "Rarity": "Epic",
@@ -74,7 +72,6 @@
   {
     "Id": 3,
     "Class": "C",
-    "Order": 77,
     "Brand": "Maserati",
     "Model": "MC20 GT2",
     "Rarity": "Epic",
