@@ -49,6 +49,7 @@ Visit the website to see all relevant information for the game. They will eventu
 [Goldfinger Release Date](https://www.google.com/search?q=What+year+did+the+movie+Goldfinger+premiere&rlz=1C1ONGR_enUS1017US1017&oq=What+year+did+the+movie+Goldfinger+premiere&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTEwNjY1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8)  
 [MDNWebDocs border-bottom](https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom)  
 [W3Schools box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.php)
+[Chrome For Developers - Scrollbar](https://developer.chrome.com/docs/css-ui/scrollbar-styling)
 
 
 
