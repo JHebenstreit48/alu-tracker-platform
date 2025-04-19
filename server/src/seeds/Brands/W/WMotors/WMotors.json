@@ -2,7 +2,6 @@
   {
     "Id": 1,
     "Class": "S",
-    "Order": 258,
     "Brand": "W Motors",
     "Model": "Lykan Security",
     "Rarity": "Epic",
@@ -38,7 +37,6 @@
   {
     "Id": 2,
     "Class": "S",
-    "Order": 234,
     "Brand": "W Motors",
     "Model": "Lykan Neon",
     "Rarity": "Epic",
@@ -74,7 +72,6 @@
   {
     "Id": 3,
     "Class": "S",
-    "Order": 226,
     "Brand": "W Motors",
     "Model": "Fenyr Supersport",
     "Rarity": "Epic",
@@ -110,7 +107,6 @@
   {
     "Id": 4,
     "Class": "S",
-    "Order": 210,
     "Brand": "W Motors",
     "Model": "Lykan HyperSport",
     "Rarity": "Epic",

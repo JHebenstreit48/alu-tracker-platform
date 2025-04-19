@@ -2,7 +2,6 @@
   {
     "Id": 1,
     "Class": "D",
-    "Order": 3,
     "Brand": "Chevrolet",
     "Model": "Camaro LT",
     "Rarity": "Uncommon",
@@ -38,7 +37,6 @@
   {
     "Id": 2,
     "Class": "D",
-    "Order": 32,
     "Brand": "Chevrolet",
     "Model": "Corvette C7.R",
     "Rarity": "Epic",

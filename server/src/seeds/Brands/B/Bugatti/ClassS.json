@@ -1,44 +1,7 @@
 [
   {
     "Id": 1,
-    "Class": "C",
-    "Order": 82,
-    "Brand": "Bugatti",
-    "Model": "EB110",
-    "Rarity": "Epic",
-    "Stars": 5,
-    "Max_Rank": 3946,
-    "Epics": 8,
-    "Obtainable_Via": null,
-    "Garage_Lvl": null,
-    "Top_Speed": "348,4",
-    "Acceleration": "76,18",
-    "Handling": "66,08",
-    "Nitro": "58,82",
-    "Nitro_TS": null,
-    "Unnamed: 16": "362,3",
-    "Perfect_Nitro_TS": null,
-    "Added": "Bring the Heat",
-    "Added_With": "GP",
-    "Added date": "25/07/2022",
-    "Total upgrade cost": null,
-    "Total GL points": null,
-    "Country": "France",
-    "Tags": "Europe; Super Car",
-    "BPs_1_Star": 0,
-    "BPs_2_Star": 25,
-    "BPs_3_Star": 32,
-    "BPs_4_Star": 36,
-    "BPs_5_Star": 41,
-    "BPs_6_Star": null,
-    "Total_BPs": 134,
-    "Unnamed: 32": 23946,
-    "Cost epic": 0
-  },
-  {
-    "Id": 2,
     "Class": "S",
-    "Order": 249,
     "Brand": "Bugatti",
     "Model": "Chiron Pur Sport",
     "Rarity": "Epic",
@@ -72,9 +35,8 @@
     "Cost epic": null
   },
   {
-    "Id": 3,
+    "Id": 2,
     "Class": "S",
-    "Order": 269,
     "Brand": "Bugatti",
     "Model": "Bolide",
     "Rarity": "Epic",
@@ -108,9 +70,8 @@
     "Cost epic": null
   },
   {
-    "Id": 4,
+    "Id": 3,
     "Class": "S",
-    "Order": 268,
     "Brand": "Bugatti",
     "Model": "Chiron Security",
     "Rarity": "Epic",
@@ -144,9 +105,8 @@
     "Cost epic": null
   },
   {
-    "Id": 5,
+    "Id": 4,
     "Class": "S",
-    "Order": 261,
     "Brand": "Bugatti",
     "Model": "La Voiture Noire",
     "Rarity": "Epic",
@@ -180,9 +140,8 @@
     "Cost epic": 0
   },
   {
-    "Id": 6,
+    "Id": 5,
     "Class": "S",
-    "Order": 259,
     "Brand": "Bugatti",
     "Model": "Chiron Super Sport 300+",
     "Rarity": "Epic",
@@ -216,9 +175,8 @@
     "Cost epic": null
   },
   {
-    "Id": 7,
+    "Id": 6,
     "Class": "S",
-    "Order": 253,
     "Brand": "Bugatti",
     "Model": "Mistral",
     "Rarity": "Epic",
@@ -252,9 +210,8 @@
     "Cost epic": null
   },
   {
-    "Id": 8,
+    "Id": 7,
     "Class": "S",
-    "Order": 251,
     "Brand": "Bugatti",
     "Model": "Centodieci",
     "Rarity": "Epic",
@@ -288,9 +245,8 @@
     "Cost epic": 0
   },
   {
-    "Id": 9,
+    "Id": 8,
     "Class": "S",
-    "Order": 244,
     "Brand": "Bugatti",
     "Model": "Divo",
     "Rarity": "Epic",
@@ -324,9 +280,8 @@
     "Cost epic": 0
   },
   {
-    "Id": 10,
+    "Id": 9,
     "Class": "S",
-    "Order": 242,
     "Brand": "Bugatti",
     "Model": "Chiron",
     "Rarity": "Epic",
@@ -360,9 +315,8 @@
     "Cost epic": 15000
   },
   {
-    "Id": 11,
+    "Id": 10,
     "Class": "S",
-    "Order": 222,
     "Brand": "Bugatti",
     "Model": "Veyron 16.4 Grand Sport Vitesse",
     "Rarity": "Epic",
