@@ -1,0 +1,200 @@
+[
+  {
+    "Class": "D",
+    "Brand": "Mitsubishi",
+    "Model": "Lancer Evolution",
+    "StarRank": 3,
+    "CarRarity": "Common",
+    "GarageLevel": 1,
+    "BlueprintPrices": [10000, 15000, 20000, 25000, 30000]
+  },
+  {
+    "Class": "D",
+    "Brand": "BMW",
+    "Model": "Z4 LCI E89",
+    "GarageLevel": 1,
+    "StarRank": 3,
+    "CarRarity": "Common",
+    "BlueprintPrices": [10000, 15000, 20000, 25000, 30000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Chevrolet",
+    "Model": "Camaro LT",
+    "GarageLevel": 1,
+    "StarRank": 3,
+    "CarRarity": "Common",
+    "BlueprintPrices": [10000, 15000, 20000, 25000, 30000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Lotus",
+    "Model": "Elise Sprint 220",
+    "GarageLevel": 5,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [33000, 50000, 67000, 84000, 101000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Nissan",
+    "Model": "370z Nismo",
+    "GarageLevel": 2,
+    "StarRank": 3,
+    "CarRarity": "Common",
+    "BlueprintPrices": [10000, 15000, 20000, 25000, 30000]
+  },
+  {
+    "Class": "D",
+    "Brand": "DS Automobiles",
+    "Model": "DS E-Tense",
+    "GarageLevel": 2,
+    "StarRank": 3,
+    "CarRarity": "Common",
+    "BlueprintPrices": [10000, 15000, 20000, 25000, 30000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Volkswagen",
+    "Model": "XL Sport Concept",
+    "GarageLevel": 3,
+    "StarRank": 3,
+    "CarRarity": "Common",
+    "BlueprintPrices": [10000, 15000, 20000, 25000, 30000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Mazda",
+    "Model": "Furai",
+    "GarageLevel": 6,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [33000, 50000, 67000, 84000, 101000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Porsche",
+    "Model": "911 Targa 4S",
+    "GarageLevel": 3,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [33000, 50000, 67000, 84000, 101000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Dodge",
+    "Model": "Challenger Hemi Scat Pk.",
+    "StarRank": 3,
+    "GarageLevel": 3,
+    "CarRarity": "Common",
+    "BlueprintPrices": [10000, 15000, 20000, 25000, 30000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Porsche",
+    "Model": "718 Cayman",
+    "GarageLevel": 4,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [33000, 50000, 67000, 84000, 101000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Ginetta",
+    "Model": "G60",
+    "GarageLevel": 4,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [33000, 50000, 67000, 84000, 101000]
+  },
+  {
+    "Class": "D",
+    "Brand": "TVR",
+    "Model": "Griffith",
+    "GarageLevel": 5,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [33000, 50000, 67000, 84000, 101000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Ford",
+    "Model": "Shelby GT350R",
+    "GarageLevel": 6,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [33000, 50000, 67000, 84000, 101000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Infiniti",
+    "Model": "Project Black S",
+    "GarageLevel": 21,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [33000, 50000, 67000, 84000, 101000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Lamborghini",
+    "Model": "Countach 25th Anniversary",
+    "GarageLevel": 21,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [33000, 50000, 67000, 84000, 101000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Lotus",
+    "Model": "Emira",
+    "GarageLevel": 22,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [33000, 50000, 67000, 84000, 101000]
+  },
+  {
+    "Class": "D",
+    "Brand": "BMW",
+    "Model": "i8 Roadster",
+    "GarageLevel": 23,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [33000, 50000, 67000, 84000, 101000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Renault",
+    "Model": "Dezir",
+    "GarageLevel": 23,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [33000, 50000, 67000, 84000, 101000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Porsche",
+    "Model": "Taycan Turbo S",
+    "GarageLevel": 24,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [33000, 50000, 67000, 84000, 101000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Italdesign",
+    "Model": "DaVinci",
+    "GarageLevel": 41,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [33000, 50000, 67000, 84000, 101000]
+  },
+  {
+    "Class": "D",
+    "Brand": "Renault",
+    "Model": "Trezor",
+    "GarageLevel": 41,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [33000, 50000, 67000, 84000, 101000]
+  }
+]
