@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import PageTab from "@/components/PageTab";
 import LegendStoreFilters from "@/LegendStore/LegendStoreFiltersAndSearch";
 import LegendStoreTables from "@/LegendStore/LegendStoreTables";
+import '@/CSS/LegendStore.css'
 import { useState } from "react";
 
 export default function LegendStorePrices() {

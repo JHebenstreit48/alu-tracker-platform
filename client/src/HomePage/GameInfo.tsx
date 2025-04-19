@@ -1,5 +1,3 @@
-import '@/CSS/Home.css';
-
 export default function GameInfo() {
   return (
 

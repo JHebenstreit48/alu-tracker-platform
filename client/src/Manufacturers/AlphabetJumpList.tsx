@@ -1,6 +1,5 @@
-import '@/CSS/Manufacturer.css';
-import { abc } from './Brands';
-import { BrandDescription } from './ManufacturersInfo';
+import { abc } from '@/Manufacturers/Brands';
+import { BrandDescription } from '@/Manufacturers/ManufacturersInfo';
 
 function handleScroll(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>, letterKey: string) {
   event.preventDefault();

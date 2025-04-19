@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import JumpList from "@/Manufacturers/AlphabetJumpList";
 import PageTab from '@/components/PageTab';
+import '@/CSS/Manufacturer.css'
 
 export default function Manufacturers() {
 

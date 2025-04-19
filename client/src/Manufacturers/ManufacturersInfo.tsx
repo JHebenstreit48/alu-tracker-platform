@@ -1,5 +1,4 @@
 import BackToTop from '@/components/BackToTopButton';
-import '@/CSS/Manufacturer.css';
 
 export function BrandDescription({
     brandsKey,
