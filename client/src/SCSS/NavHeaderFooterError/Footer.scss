@@ -1,0 +1,41 @@
+/* ==============================
+            Variables
+   ============================== */
+
+@use "sass:color";
+
+$dark-shadow: #19191a;
+$gold-text: rgb(255, 196, 0);
+$light-shadow: #0ecfff;
+$header-gradient: linear-gradient(
+  to bottom,
+  #090113 1%,
+  #554e4e 42%,
+  #000000 94%
+);
+$box-shadow-dark: 0px 2px 3px #5b1479;
+$box-shadow-alt: 0 0 12px 7px #490db2;
+
+$cellphone-portrait: 390px;
+$tablet-max: 768px;
+
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  color: $gold-text;
+  text-shadow: 2px 3px 4px $light-shadow;
+  background-image: $header-gradient;
+  height: 6rem;
+  text-decoration: none;
+  cursor: pointer;
+
+  @media only screen and (max-width: $cellphone-portrait) {
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+}

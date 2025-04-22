@@ -91,6 +91,7 @@
   border: 3px solid rgb(11, 7, 134) !important;
   box-shadow: 0 0 10px 6px rgb(223, 190, 7);
   width: 55rem !important;
+  background-color: black;
 }
 
 .responsiveTable th,

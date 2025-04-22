@@ -23,6 +23,10 @@ export default function Navigation() {
     const NavLinks = [
         { label: 'Home', path: () => navigation('/'), location: '/' },
         { label: 'Brands', path: () => navigation('/manufacturers'), location: '/manufacturers' },
+        // {
+        //     label: 'Manufacturers Map',
+        //     path: () => navigation('/manufacturersmap'), location: '/manufacturersmap'
+        // },
         { label: 'Cars', path: () => navigation('/carsbyclass'), location: '/carsbyclass' },
         { label: 'Garage Levels', path: () => navigation('/garagelevels'), location: '/garagelevels' },
         { label: 'Legend Store', path: () => navigation('/legendstoreprices'), location: '/legendstoreprices' },
