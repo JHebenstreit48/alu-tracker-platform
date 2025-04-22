@@ -7,6 +7,7 @@ import CarsByClass from "@/pages/CarsByClass";
 import GarageLevels from "@/pages/GarageLevels";
 import CarDetail from "@/pages/CarDetail";
 import LegendStorePrices from "@/pages/LegendStore";
+import ManufacturersMap from "@/pages/ManufacturersMapTest";
 
 export const router = createBrowserRouter([
     {
@@ -16,15 +17,19 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <Home />,
+                element: <Home />
             },
             {
                 path: '/manufacturers',
-                element: <Manufacturers />,
+                element: <Manufacturers />
             },
+            // {
+            //     path: '/manufacturerstable',
+            //     element: <ManufacturersMap />
+            // },
             {
                 path: '/carsbyclass',
-                element: <CarsByClass />,
+                element: <CarsByClass />
             },
             {
                 path: "/cars/:id", // Individual car detail route
@@ -32,11 +37,11 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/garagelevels',
-                element: <GarageLevels />,
+                element: <GarageLevels />
             },
             {
                 path: '/legendstoreprices',
-                element: <LegendStorePrices />,
+                element: <LegendStorePrices />
             },
         ],
     },

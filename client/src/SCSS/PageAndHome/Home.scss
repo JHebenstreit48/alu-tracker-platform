@@ -22,9 +22,10 @@
      background-color: $black-bg;
      border: 4px solid $deep-blue;
      width: 90rem;
-     height: 20rem;
-     margin: 7rem auto;
+     height: 26rem;
+     margin: 7rem auto 5rem auto;
      box-shadow: 0 0 7px 3px $gold-accent;
+     padding: 2rem;
    
      @media only screen and (max-width: $tablet-max) {
        margin-top: 15rem;
@@ -36,8 +37,8 @@
      @media only screen and (max-width: $cellphone-portrait) {
        flex-direction: column;
        margin-top: 26rem;
-       width: 21rem;
-       height: 55rem;
+       width: 18rem;
+       height: 83rem;
      }
    }
    
@@ -53,16 +54,19 @@
      width: 92%;
      font-size: 21px;
      padding-right: 0;
-     margin: 0 auto;
+     margin: 2rem auto;
    
      @media only screen and (max-width: $tablet-max) {
        width: 35rem;
      }
    
      @media only screen and (max-width: $cellphone-portrait) {
+      display:flex;
+      justify-content: center;
+      align-items: center;
        text-align: center;
-       margin-top: 1.5rem;
-       width: 20rem;
+       margin-top: 1.5rem auto;
+       width: 18rem;
      }
    }
    
@@ -77,6 +81,7 @@
      padding: 1px;
      border: 5px solid black;
      margin-bottom: 10rem;
+     border-radius: 6px;
    
      @media only screen and (max-width: $tablet-max) {
        display: flex;
@@ -93,22 +98,31 @@
        margin-top: 5rem;
        margin-left: auto;
        margin-right: auto;
-       width: 20rem;
-       height: 12rem;
+       width: 21.5rem;
+       height: 9.158rem;
+       border: 2px solid black;
+       box-shadow: 0 0 9px 3px $gold-accent;
+       border-radius: 4px;
      }
    }
    
-   /* ==============================
-                Carousel Images
-      ============================== */
-   
-   .d-block {
-     @media only screen and (max-width: $tablet-max) {
-       height: 19rem;
-     }
-   
-     @media only screen and (max-width: $cellphone-portrait) {
-       height: 12rem;
-     }
-   }
+/* ==============================
+         Carousel Images
+============================== */
+
+.d-block {
+  border-radius: 6px;
+  width: 100%;
+  object-fit: contain;
+
+  @media only screen and (max-width: $tablet-max) {
+    height: 19rem;
+  }
+
+  @media only screen and (max-width: $cellphone-portrait) {
+    height: 12rem;
+    width: 100%;
+    border-radius: 6px;
+  }
+}
    
