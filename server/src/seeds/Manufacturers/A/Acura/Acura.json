@@ -1,0 +1,25 @@
+{
+    "brand": "Acura",
+    "slug": "acura",
+    "description": "Acura is the luxury division of Japanese automaker Honda Motor Company. It was originally referred to as Channel II. The name change to Acura was announced in September of 1984. They did not sell their first vehicles in the US market until March 27th, 1986.",
+    "logo": "/Images/Logos/A/Acura/acura-logo.png",
+    "country": "Japan",
+    "established": 1986,
+    "headquarters": "Torrance, California, USA",
+    "primaryMarket": "United States",
+    "location": {
+      "lat": 35.6895,
+      "lng": 139.6917
+    },
+    "resources": [
+      {
+        "text": "Acura - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Acura"
+      },
+      {
+        "text": "Honda News - Acura History",
+        "url": "https://hondanews.com/en-US/releases/release-e6b4345aa35541ea9556b69e4424209e-acura-history"
+      }
+    ]
+  }
+  

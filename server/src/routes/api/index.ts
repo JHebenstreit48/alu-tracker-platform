@@ -1,6 +1,7 @@
 import express, { Request, Response, Router } from "express";
 import CarModel from "@/models/car";
 import BlueprintPricesModel from "@/models/blueprints";
+import ManufacturerModel from "@/models/manufacturers";
 import mongoose from "mongoose";
 
 const router: Router = express.Router();
@@ -134,6 +135,39 @@ router.get("/blueprints/detail/:id", async (req: Request<{ id: string }>, res: R
   } catch (error) {
     console.error(`[ERROR] Failed to fetch blueprint detail for ID ${id}:`, error);
     res.status(500).json({ error: "Failed to fetch blueprint detail" });
+  }
+});
+
+// ============================
+//    🧱 MANUFACTURERS ROUTES
+// ============================
+
+router.get("/manufacturers", async (_req: Request, res: Response): Promise<void> => {
+  try {
+    const manufacturers = await ManufacturerModel.find();
+    res.status(200).json(manufacturers);
+  } catch (error) {
+    console.error(`[ERROR] Failed to fetch manufacturers:`, error);
+    res.status(500).json({ error: "Failed to fetch manufacturers" });
+  }
+});
+
+// (Optional) Get manufacturer by slug — cleaner URLs
+router.get("/manufacturers/:slug", async (req: Request<{ slug: string }>, res: Response): Promise<void> => {
+  const { slug } = req.params;
+
+  try {
+    const manufacturer = await ManufacturerModel.findOne({ slug });
+
+    if (!manufacturer) {
+      res.status(404).json({ message: "Manufacturer not found for this slug." });
+      return;
+    }
+
+    res.status(200).json(manufacturer);
+  } catch (error) {
+    console.error(`[ERROR] Failed to fetch manufacturer for slug ${slug}:`, error);
+    res.status(500).json({ error: "Failed to fetch manufacturer detail" });
   }
 });
 
