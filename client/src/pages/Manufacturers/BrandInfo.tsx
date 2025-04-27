@@ -1,6 +1,6 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom"; // Added useNavigate for navigation
 import { useEffect, useState } from "react";
-// import "@/SCSS/ManufacturersMap/BrandInfo.scss"; // Assuming we'll style this separately later
+import "@/SCSS/Brands/BrandInfo.scss";
 
 interface Manufacturer {
   _id: string;
@@ -8,7 +8,7 @@ interface Manufacturer {
   slug: string;
   description: string;
   logo: string;
-  country: string;
+  country: string[];
   established: number;
   headquarters?: string;
   primaryMarket?: string;
@@ -26,6 +26,7 @@ export default function BrandInfo() {
   const { slug } = useParams<{ slug: string }>();
   const [manufacturer, setManufacturer] = useState<Manufacturer | null>(null);
   const [error, setError] = useState(false);
+  const navigate = useNavigate(); // Hook for navigation
 
   const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
 
@@ -45,8 +46,15 @@ export default function BrandInfo() {
           setError(true);
         }
       })
-      .catch(() => setError(true));
+      .catch(() => {
+        setError(true);
+      });
   }, [slug, API_BASE_URL]);
+
+  // Back button handler
+  const handleGoBack = () => {
+    navigate(-1); // Navigate to the previous page
+  };
 
   if (error) {
     return <div className="error-message">Brand not found or failed to load.</div>;
@@ -56,23 +64,33 @@ export default function BrandInfo() {
     return <div className="loading-message">Loading brand details...</div>;
   }
 
+  // Force absolute logo URL directly in the render logic
+  const logoUrl = `http://localhost:3001${manufacturer.logo}`;
+
   return (
     <div className="brand-info-page">
+      {/* Back Button */}
+      <div>
+        <button className="backBtn" onClick={handleGoBack}>
+          Back
+        </button>
+      </div>
+
       <h1 className="brand-name">{manufacturer.brand}</h1>
 
       {manufacturer.logo && (
         <img
-          src={`${window.location.origin}${manufacturer.logo}`}
+          src={logoUrl}
           alt={`${manufacturer.brand} logo`}
           className="brand-logo"
+          loading="lazy" // Improvement: lazy loading for images
         />
-
       )}
 
       <p className="brand-description">{manufacturer.description}</p>
 
       <ul className="brand-details">
-        <li><strong>Country:</strong> {manufacturer.country}</li>
+        <li><strong>Country:</strong> {manufacturer.country.join(", ")}</li>
         <li><strong>Established:</strong> {manufacturer.established}</li>
         {manufacturer.headquarters && (
           <li><strong>Headquarters:</strong> {manufacturer.headquarters}</li>
