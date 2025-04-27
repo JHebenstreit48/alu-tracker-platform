@@ -2,13 +2,13 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "@/App";
 import Home from '@/pages/Home'
 import ErrorPage from "@/pages/ErrorPage";
-import Manufacturers from "@/pages/Manufacturers";
+// import Manufacturers from "@/pages/Manufacturers";
 
 // ================================================================================
 //                          Manufacturers Page Start
 // ================================================================================
 
-import ManufacturersMap from "@/pages/Manufacturers/ManufacturersMap";
+import Brands from "@/pages/Manufacturers/Brands";
 import BrandInfo from "@/pages/Manufacturers/BrandInfo";
 
 // ================================================================================
@@ -31,12 +31,8 @@ export const router = createBrowserRouter([
           element: <Home />,
         },
         {
-          path: "/manufacturers",
-          element: <Manufacturers />,
-        },
-        {
           path: "/manufacturers/manufacturersmap", // temporary until you rename later
-          element: <ManufacturersMap />,
+          element: <Brands />,
         },
         {
           path: "/manufacturers/:slug", // 🔥 dynamic route!

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "@/components/Header";
 import PageTab from "@/components/PageTab";
-import BrandQuickList from "@/ManufacturersMap/BrandInfo/BrandQuickList";
+import BrandQuickList from "@/Brands/BrandInfo/BrandQuickList";
 import "@/SCSS/Brands/BrandMap.scss"; // ✅ Still reuse SCSS
 
 interface Manufacturer {
@@ -12,7 +12,7 @@ interface Manufacturer {
   country: string;
 }
 
-export default function ManufacturersMap() {
+export default function Brands() {
   const [manufacturers, setManufacturers] = useState<Manufacturer[]>([]);
   const [error, setError] = useState(false);
 

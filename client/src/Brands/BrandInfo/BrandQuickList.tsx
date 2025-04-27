@@ -61,9 +61,10 @@ export default function BrandQuickList({ manufacturers }: BrandQuickListProps) {
                       </li>
                     ))}
                 </ul>
-                <BackToTop />
+  
               </div>
             ))}
+            <BackToTop />
           </div>
         );
       })}
