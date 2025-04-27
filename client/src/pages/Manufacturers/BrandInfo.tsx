@@ -44,7 +44,10 @@ export default function BrandInfo() {
   if (error) return <div className="error-message">Brand not found or failed to load.</div>;
   if (!manufacturer) return <div className="loading-message">Loading brand details...</div>;
 
-  const logoUrl = `${backendBaseUrl}${manufacturer.logo}`;
+  // ✅ Corrected logo URL construction
+  const logoUrl = manufacturer.logo.startsWith("http")
+    ? manufacturer.logo
+    : `${backendBaseUrl}/images/logos/${manufacturer.logo}`;
 
   return (
     <div className="brand-info-page">
@@ -84,9 +87,6 @@ export default function BrandInfo() {
           </ul>
         </div>
       )}
-
-
-
     </div>
   );
 }
