@@ -1,19 +1,15 @@
 import { useEffect, useState } from "react";
 import Header from "@/components/Header";
 import PageTab from "@/components/PageTab";
-import MapDisplay from "@/ManufacturersMap/Map/MapDisplay";
 import BrandQuickList from "@/ManufacturersMap/BrandInfo/BrandQuickList";
-import "@/SCSS/Brands/BrandMap.scss"; // ✅ Import SCSS
+import "@/SCSS/Brands/BrandMap.scss"; // ✅ Still reuse SCSS
 
 interface Manufacturer {
   _id: string;
   brand: string;
   slug: string;
   logo: string;
-  location: {
-    lat: number;
-    lng: number;
-  };
+  country: string;
 }
 
 export default function ManufacturersMap() {
@@ -40,8 +36,12 @@ export default function ManufacturersMap() {
     <div className="manufacturers-map-page">
       <PageTab title="Manufacturers Map">
         <Header text="Manufacturers Map" />
-        <MapDisplay manufacturers={manufacturers} />
+        
+        {/* ✅ Show the Jump List (grouped properly) */}
         <BrandQuickList manufacturers={manufacturers} />
+        
+        {/* ❌ Commented out for now (no map) */}
+        {/* <MapDisplay manufacturers={manufacturers} /> */}
       </PageTab>
     </div>
   );
