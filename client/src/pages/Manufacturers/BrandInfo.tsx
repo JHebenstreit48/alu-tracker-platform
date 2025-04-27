@@ -23,7 +23,6 @@ export default function BrandInfo() {
   const [error, setError] = useState(false);
 
   const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
-  const backendBaseUrl = API_BASE_URL.replace("/api", "");
 
   useEffect(() => {
     fetch(`${API_BASE_URL}/manufacturers`)
@@ -33,25 +32,39 @@ export default function BrandInfo() {
       })
       .then((data: Manufacturer[]) => {
         const found = data.find((item) => item.slug === slug);
-        if (found) setManufacturer(found);
-        else setError(true);
+        if (found) {
+          setManufacturer(found);
+        } else {
+          setError(true);
+        }
       })
       .catch(() => setError(true));
   }, [slug, API_BASE_URL]);
 
   const handleGoBack = () => navigate(-1);
 
-  if (error) return <div className="error-message">Brand not found or failed to load.</div>;
-  if (!manufacturer) return <div className="loading-message">Loading brand details...</div>;
+  if (error) {
+    return <div className="error-message">Brand not found or failed to load.</div>;
+  }
+
+  if (!manufacturer) {
+    return <div className="loading-message">Loading brand details...</div>;
+  }
 
   // ✅ Corrected logo URL construction
   const logoUrl = manufacturer.logo.startsWith("http")
-    ? manufacturer.logo
-    : `${backendBaseUrl}/images/logos/${manufacturer.logo}`;
+  ? manufacturer.logo
+  : import.meta.env.DEV
+    ? `http://localhost:3001${manufacturer.logo}`
+    : `${manufacturer.logo}`;
+
+console.log("✅ Logo URL being used:", logoUrl);
 
   return (
     <div className="brand-info-page">
-      <button className="backBtn" onClick={handleGoBack}>Back</button>
+      <button className="backBtn" onClick={handleGoBack}>
+        Back
+      </button>
 
       <h1 className="brand-name">{manufacturer.brand}</h1>
 
@@ -69,8 +82,12 @@ export default function BrandInfo() {
       <ul className="brand-details">
         <li><strong>Country:</strong> {manufacturer.country.join(", ")}</li>
         <li><strong>Established:</strong> {manufacturer.established}</li>
-        {manufacturer.headquarters && <li><strong>Headquarters:</strong> {manufacturer.headquarters}</li>}
-        {manufacturer.primaryMarket && <li><strong>Primary Market:</strong> {manufacturer.primaryMarket}</li>}
+        {manufacturer.headquarters && (
+          <li><strong>Headquarters:</strong> {manufacturer.headquarters}</li>
+        )}
+        {manufacturer.primaryMarket && (
+          <li><strong>Primary Market:</strong> {manufacturer.primaryMarket}</li>
+        )}
       </ul>
 
       {manufacturer.resources && manufacturer.resources.length > 0 && (
