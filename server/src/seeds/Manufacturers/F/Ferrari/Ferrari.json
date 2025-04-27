@@ -1,0 +1,21 @@
+{
+    "brand": "Ferrari",
+    "slug": "ferrari",
+    "description": "Ferrari S.p.A. is an Italian luxury sports car manufacturer based in Maranello, Italy. The company was founded by Enzo Ferrari in 1939 out of Alfa Romeo's race division as Auto Avio Costruzioni, and it built its first car in 1940. However, the first car officially badged as a Ferrari was produced in 1947. Ferrari is globally renowned for its continued success in motorsport, particularly in Formula One, and for producing some of the world's most iconic and desirable road cars.",
+    "logo": "/Images/Logos/F/Ferrari/ferrari-logo.png",
+    "country": "Italy",
+    "established": 1939,
+    "headquarters": "Maranello, Italy",
+    "primaryMarket": "Global",
+    "location": {
+      "lat": 44.5297,
+      "lng": 10.8642
+    },
+    "resources": [
+      {
+        "text": "Wikipedia - Ferrari",
+        "url": "https://en.wikipedia.org/wiki/Ferrari"
+      }
+    ]
+  }
+  
