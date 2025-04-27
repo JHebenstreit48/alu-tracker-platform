@@ -2,34 +2,38 @@ import express from "express";
 import path from "node:path";
 import cors from "cors";
 import dotenv from "dotenv";
-import apiRoutes from "@/routes/api"; // Import your API routes
-import { connectToDb } from "@/Utility/connection"; // Import your DB connection logic
+import apiRoutes from "@/routes/api";
+import { connectToDb } from "@/Utility/connection";
 
-dotenv.config(); // Load environment variables
+dotenv.config();
 
 const app = express();
 
 // Middleware
-app.use(express.json()); // Parse incoming JSON requests
-app.use(
-  cors({
-    origin: process.env.CLIENT_ORIGIN || "http://localhost:3000", // Frontend URL
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true,
-  })
-);
+app.use(express.json());
+app.use(cors({
+  origin: process.env.CLIENT_ORIGIN || "http://localhost:3000",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true,
+}));
 
-// ✅ NEW: Serve public images (logos and cars) correctly
-app.use("/Images", express.static(path.join(process.cwd(), "public/images")));
+// ✅ Serve public images
+app.use("/images", express.static(path.join(process.cwd(), "public/images")));
 
-// API routes
+// ✅ API routes
 app.use("/api", apiRoutes);
 
-// Serve static files (React frontend) - AFTER API routes
+// ✅ Serve React frontend static files
 app.use(express.static(path.join(process.cwd(), "../client/dist")));
 
-// Catch-all route for React's client-side routing
-app.get("*", (_req, res) => {
+// 🛑 VERY IMPORTANT: Fix "*" wildcard route
+app.get("*", (req, res) => {
+  // 👉 If request is trying to access API or IMAGES, do NOT serve index.html
+  if (req.path.startsWith("/api") || req.path.startsWith("/images")) {
+    res.status(404).send("Not found.");
+    return;
+  }
+
   const indexPath = path.join(process.cwd(), "../client/dist/index.html");
   if (require("fs").existsSync(indexPath)) {
     res.sendFile(indexPath);
@@ -38,18 +42,16 @@ app.get("*", (_req, res) => {
   }
 });
 
-// Main function to connect to the database and start the server
 const main = async () => {
   try {
-    await connectToDb(); // Connect to MongoDB
-    console.log("Database connected successfully.");
+    await connectToDb();
+    console.log("✅ Database connected successfully.");
 
-    const PORT = process.env.PORT || 3001; // Use Render's PORT or fallback to 3001 locally
-    app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+    const PORT = process.env.PORT || 3001;
+    app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
   } catch (error) {
-    console.error("Failed to start server:", error);
+    console.error("❌ Failed to start server:", error);
   }
 };
 
-// Catch unexpected errors during initialization
-main().catch((error) => console.error("Unexpected error:", error));
+main().catch((error) => console.error("❌ Unexpected error:", error));

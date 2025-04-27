@@ -54,7 +54,10 @@ export default function BrandQuickList({ manufacturers }: BrandQuickListProps) {
 
         return (
           <div key={country} className="country-section">
-            <h2 className="country-header">{country}</h2> {/* ✅ Country visibly shown */}
+            
+            <hr></hr>
+            <h2 className="country-header">{country}</h2>
+            <hr></hr>
 
             {sortedLetters.map((letter) => (
               <div key={letter} className="brand-letter-section">
@@ -72,6 +75,7 @@ export default function BrandQuickList({ manufacturers }: BrandQuickListProps) {
                 </ul>
               </div>
             ))}
+            <hr></hr>
             <BackToTop />
           </div>
         );

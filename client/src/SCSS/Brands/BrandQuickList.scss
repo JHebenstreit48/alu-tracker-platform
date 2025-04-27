@@ -5,12 +5,17 @@
     background-color: #1a1a1a;
     border-radius: 8px;
     color: white;
+
+    .country-header {
+      display: flex;
+      justify-content: center;
+    }
   
     .brand-letter-section {
       margin-bottom: 2rem;
   
       h3 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin-bottom: 0.5rem;
         border-bottom: 1px solid #444;
         padding-bottom: 0.25rem;
