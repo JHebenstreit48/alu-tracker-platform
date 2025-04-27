@@ -1,0 +1,21 @@
+{
+    "brand": "Genty Automobile",
+    "slug": "genty-automobile",
+    "description": "Genty Automobile is a French car manufacturer founded by Frédéric Genty in 2011. The company's first car, the Akylone, was unveiled at the 2012 Top Marques Monaco show. Genty focuses on creating ultra-exclusive high-performance hypercars blending power, luxury, and unique craftsmanship.",
+    "logo": "/Images/Logos/G/Genty/genty-logo.png",
+    "country": "France",
+    "established": 2011,
+    "headquarters": "Saint-Pourçain-sur-Sioule, France",
+    "primaryMarket": "Global",
+    "location": {
+      "lat": 46.3167,
+      "lng": 3.2833
+    },
+    "resources": [
+      {
+        "text": "Genty Automobile Official Site",
+        "url": "https://www.genty-automobile.com/"
+      }
+    ]
+  }
+  

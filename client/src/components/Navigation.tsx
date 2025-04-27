@@ -25,13 +25,13 @@ export default function Navigation() {
 
   const NavLinks = [
     { label: "Home", path: () => navigation("/"), location: "/" },
+    // {
+    //   label: "Brands",
+    //   path: () => navigation("/manufacturers"),
+    //   location: "/manufacturers",
+    // },
     {
-      label: "Brands",
-      path: () => navigation("/manufacturers"),
-      location: "/manufacturers",
-    },
-    {
-      label: 'Manufacturers Map',
+      label: 'Brands',
       path: () => navigation('/manufacturers/manufacturersmap'),
       location: '/manufacturers/manufacturersmap'
     },
