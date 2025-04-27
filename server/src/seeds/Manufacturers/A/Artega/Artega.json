@@ -1,0 +1,21 @@
+{
+    "brand": "Artega",
+    "slug": "artega",
+    "description": "Artega Automobil was founded in 2006 by mechanical engineer Klaus Dieter Frers. The company first revealed the Artega GT in 2007 at the Frankfurt Auto Show to compete against cars like the Porsche Cayman and Lotus Evora. After facing bankruptcy in 2012, Artega shifted its focus to specializing in electric vehicles.",
+    "logo": "/Images/Logos/A/Artega/artega-logo.png",
+    "country": ["Germany"],
+    "established": 2006,
+    "headquarters": "Delbrück, Germany",
+    "primaryMarket": "Europe",
+    "location": {
+      "lat": 51.7643,
+      "lng": 8.5647
+    },
+    "resources": [
+      {
+        "text": "Wikipedia - Artega Automobil",
+        "url": "https://en.wikipedia.org/wiki/Artega"
+      }
+    ]
+  }
+  

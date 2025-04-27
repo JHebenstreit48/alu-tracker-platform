@@ -3,7 +3,7 @@
     "slug": "drako-motors",
     "description": "Drako Motors is a US-based luxury car manufacturer founded by Dean Drako in 2015. Based in San Jose, California, the company specializes in creating high-performance electric vehicles. Drako Motors blends innovative engineering, design, and craftsmanship to deliver unique luxury hypercars for the global market.",
     "logo": "/Images/Logos/D/Drako/drako-logo.png",
-    "country": "United States",
+    "country": ["United States"],
     "established": 2015,
     "headquarters": "San Jose, California, USA",
     "primaryMarket": "Global",

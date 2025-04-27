@@ -7,7 +7,7 @@ interface IManufacturer extends Document {
   slug: string;
   description: string;
   logo: string;
-  country: string;
+  country: string[]; // ✅ Array of countries
   established: number;
   headquarters?: string;
   primaryMarket?: string;
@@ -30,7 +30,7 @@ const manufacturerSchema: Schema = new Schema({
   description: { type: String, required: true },
   logo: { type: String, required: true },
 
-  country: { type: String, required: true },
+  country: { type: [String], required: true }, // ✅ Array of Strings now
   established: { type: Number, required: true },
   headquarters: { type: String, required: false },
   primaryMarket: { type: String, required: false },
