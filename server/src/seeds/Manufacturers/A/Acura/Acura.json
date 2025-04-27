@@ -5,11 +5,11 @@
     "logo": "/Images/Logos/A/Acura/acura-logo.png",
     "country": "Japan",
     "established": 1986,
-    "headquarters": "Torrance, California, USA",
+    "headquarters": "Dublin, Ohio USA",
     "primaryMarket": "United States",
     "location": {
-      "lat": 33.8833,
-      "lng": -118.3914
+      "lat": 40.0998,
+      "lng": -83.0666
     },
     "resources": [
       {

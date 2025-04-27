@@ -5,31 +5,27 @@
   }
   
   .map-container {
-    position: relative;
     width: 100%;
     height: 600px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   
     .mapboxgl-map {
       width: 100%;
       height: 100%;
     }
   
-    .mapboxgl-canvas {
-      width: 100% !important;
-      height: 100% !important;
-    }
-  
     .mapboxgl-control-container {
-      z-index: 2;
-    }
-  
-    .map-pin {
-      transform: translate(-50%, -100%);
-      cursor: pointer;
-      background: none;
-      border: none;
-      font-size: 24px;
-      z-index: 3;
+      z-index: 10;
     }
   }
   
+  .map-pin {
+    background: none;
+    border: none;
+    font-size: 24px;
+    transform: translate(-50%, -100%); // Keep marker tip at the right spot
+    cursor: pointer;
+    z-index: 3;
+  }
