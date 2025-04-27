@@ -1,5 +1,6 @@
 import Map, { NavigationControl } from "react-map-gl";
-import MapPin from "@/ManufacturersMap/Map/MapPin"; // ✅ Import it
+import MapPin from "@/ManufacturersMap/Map/MapPin";
+import "@/SCSS/Brands/BrandMap.scss"; // ✅ Import SCSS
 
 interface Manufacturer {
   _id: string;
@@ -25,24 +26,26 @@ export default function MapDisplay({ manufacturers }: MapDisplayProps) {
   }
 
   return (
-    <div className="map-container">
-      <Map
-        mapboxAccessToken={MAPBOX_TOKEN}
-        mapStyle={MAPBOX_STYLE_URL}
-        initialViewState={{
-          latitude: 20,
-          longitude: 0,
-          zoom: 2,
-        }}
-        style={{ width: "100%", height: "600px" }}
-      >
-        <NavigationControl position="top-left" />
+    <div className="map-wrapper">
+      <div className="map-container">
+        <Map
+          mapboxAccessToken={MAPBOX_TOKEN}
+          mapStyle={MAPBOX_STYLE_URL}
+          initialViewState={{
+            latitude: 20,
+            longitude: 0,
+            zoom: 2,
+          }}
+          style={{ width: "100%", height: "600px" }}
+          maxBounds={[-180, -85, 180, 85]} // ✅ Prevent infinite scrolling around globe
+        >
+          <NavigationControl position="top-left" />
 
-        {/* 🔥 Replace inline Marker+Button with MapPin component */}
-        {manufacturers.map((manufacturer) => (
-          <MapPin key={manufacturer._id.toString()} manufacturer={manufacturer} />
-        ))}
-      </Map>
+          {manufacturers.map((manufacturer) => (
+            <MapPin key={manufacturer._id.toString()} manufacturer={manufacturer} />
+          ))}
+        </Map>
+      </div>
     </div>
   );
 }

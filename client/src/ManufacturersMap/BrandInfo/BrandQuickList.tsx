@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-// import "@/SCSS/ManufacturersMap/BrandQuickList.scss"; // You can create this SCSS if needed later
+import "@/SCSS/Brands/BrandQuickList.scss";
 
 interface BrandQuickListProps {
   manufacturers: {

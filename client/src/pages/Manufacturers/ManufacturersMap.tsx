@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import PageTab from "@/components/PageTab";
 import MapDisplay from "@/ManufacturersMap/Map/MapDisplay";
 import BrandQuickList from "@/ManufacturersMap/BrandInfo/BrandQuickList";
+import "@/SCSS/Brands/ManufacturersMap.scss"; // ✅ Import SCSS
 
 interface Manufacturer {
   _id: string;
@@ -36,12 +37,10 @@ export default function ManufacturersMap() {
   if (error) return <div className="error-message">Failed to load manufacturers.</div>;
 
   return (
-    <div>
+    <div className="manufacturers-map-page">
       <PageTab title="Manufacturers Map">
-        <Header text="Manufacturers Map" /> {/* ✅ Match title */}
-        <div style={{ marginBottom: "2rem" }}>
-          <MapDisplay manufacturers={manufacturers} />
-        </div>
+        <Header text="Manufacturers Map" />
+        <MapDisplay manufacturers={manufacturers} />
         <BrandQuickList manufacturers={manufacturers} />
       </PageTab>
     </div>

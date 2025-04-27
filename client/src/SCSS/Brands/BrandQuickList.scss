@@ -1,0 +1,40 @@
+.brand-quick-list {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    color: white;
+  
+    .brand-letter-section {
+      margin-bottom: 2rem;
+  
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        border-bottom: 1px solid #444;
+        padding-bottom: 0.25rem;
+      }
+  
+      ul {
+        list-style: none;
+        padding: 0;
+  
+        li {
+          margin: 0.25rem 0;
+  
+          a {
+            color: #50b7f5;
+            text-decoration: none;
+            font-weight: 500;
+  
+            &:hover {
+              text-decoration: underline;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+  
