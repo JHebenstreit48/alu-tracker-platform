@@ -3,7 +3,7 @@
     "slug": "ds-automobiles",
     "description": "DS Automobiles is a French premium automotive marque founded in 2010. Originally launched as a premium sub-brand under Citroën, DS became a standalone brand under the PSA Group. DS Automobiles focuses on combining French luxury craftsmanship with innovative automotive technologies. It is now part of Stellantis Group following the PSA-FCA merger.",
     "logo": "/Images/Logos/D/DS/ds-logo.png",
-    "country": "France",
+    "country": ["France"],
     "established": 2010,
     "headquarters": "Paris, France",
     "primaryMarket": "Europe and China",
