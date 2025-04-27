@@ -1,4 +1,4 @@
-import { useParams, useNavigate } from "react-router-dom"; // Added useNavigate for navigation
+import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "@/SCSS/Brands/BrandInfo.scss";
 
@@ -12,69 +12,43 @@ interface Manufacturer {
   established: number;
   headquarters?: string;
   primaryMarket?: string;
-  location: {
-    lat: number;
-    lng: number;
-  };
-  resources?: {
-    text: string;
-    url: string;
-  }[];
+  location: { lat: number; lng: number };
+  resources?: { text: string; url: string }[];
 }
 
 export default function BrandInfo() {
   const { slug } = useParams<{ slug: string }>();
+  const navigate = useNavigate();
   const [manufacturer, setManufacturer] = useState<Manufacturer | null>(null);
   const [error, setError] = useState(false);
-  const navigate = useNavigate(); // Hook for navigation
 
   const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
+  const backendBaseUrl = API_BASE_URL.replace("/api", "");
 
   useEffect(() => {
     fetch(`${API_BASE_URL}/manufacturers`)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.json();
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+        return res.json();
       })
       .then((data: Manufacturer[]) => {
-        const matchedBrand = data.find((item) => item.slug === slug);
-        if (matchedBrand) {
-          setManufacturer(matchedBrand);
-        } else {
-          setError(true);
-        }
+        const found = data.find((item) => item.slug === slug);
+        if (found) setManufacturer(found);
+        else setError(true);
       })
-      .catch(() => {
-        setError(true);
-      });
+      .catch(() => setError(true));
   }, [slug, API_BASE_URL]);
 
-  // Back button handler
-  const handleGoBack = () => {
-    navigate(-1); // Navigate to the previous page
-  };
+  const handleGoBack = () => navigate(-1);
 
-  if (error) {
-    return <div className="error-message">Brand not found or failed to load.</div>;
-  }
+  if (error) return <div className="error-message">Brand not found or failed to load.</div>;
+  if (!manufacturer) return <div className="loading-message">Loading brand details...</div>;
 
-  if (!manufacturer) {
-    return <div className="loading-message">Loading brand details...</div>;
-  }
-
-  // Force absolute logo URL directly in the render logic
-  const logoUrl = `http://localhost:3001${manufacturer.logo}`;
+  const logoUrl = `${backendBaseUrl}${manufacturer.logo}`;
 
   return (
     <div className="brand-info-page">
-      {/* Back Button */}
-      <div>
-        <button className="backBtn" onClick={handleGoBack}>
-          Back
-        </button>
-      </div>
+      <button className="backBtn" onClick={handleGoBack}>Back</button>
 
       <h1 className="brand-name">{manufacturer.brand}</h1>
 
@@ -83,7 +57,7 @@ export default function BrandInfo() {
           src={logoUrl}
           alt={`${manufacturer.brand} logo`}
           className="brand-logo"
-          loading="lazy" // Improvement: lazy loading for images
+          loading="lazy"
         />
       )}
 
@@ -92,28 +66,27 @@ export default function BrandInfo() {
       <ul className="brand-details">
         <li><strong>Country:</strong> {manufacturer.country.join(", ")}</li>
         <li><strong>Established:</strong> {manufacturer.established}</li>
-        {manufacturer.headquarters && (
-          <li><strong>Headquarters:</strong> {manufacturer.headquarters}</li>
-        )}
-        {manufacturer.primaryMarket && (
-          <li><strong>Primary Market:</strong> {manufacturer.primaryMarket}</li>
-        )}
+        {manufacturer.headquarters && <li><strong>Headquarters:</strong> {manufacturer.headquarters}</li>}
+        {manufacturer.primaryMarket && <li><strong>Primary Market:</strong> {manufacturer.primaryMarket}</li>}
       </ul>
 
       {manufacturer.resources && manufacturer.resources.length > 0 && (
         <div className="brand-resources">
           <h3>Resources</h3>
           <ul>
-            {manufacturer.resources.map((resource, index) => (
-              <li key={index}>
-                <a href={resource.url} target="_blank" rel="noopener noreferrer">
-                  {resource.text}
+            {manufacturer.resources.map((res, idx) => (
+              <li key={idx}>
+                <a href={res.url} target="_blank" rel="noopener noreferrer">
+                  {res.text}
                 </a>
               </li>
             ))}
           </ul>
         </div>
       )}
+
+
+
     </div>
   );
 }
