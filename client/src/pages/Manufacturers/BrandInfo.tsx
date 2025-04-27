@@ -62,10 +62,11 @@ export default function BrandInfo() {
 
       {manufacturer.logo && (
         <img
-          src={manufacturer.logo}
+          src={`${window.location.origin}${manufacturer.logo}`}
           alt={`${manufacturer.brand} logo`}
           className="brand-logo"
         />
+
       )}
 
       <p className="brand-description">{manufacturer.description}</p>

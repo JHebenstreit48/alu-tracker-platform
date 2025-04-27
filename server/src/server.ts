@@ -19,6 +19,9 @@ app.use(
   })
 );
 
+// ✅ NEW: Serve public images (logos and cars) correctly
+app.use("/Images", express.static(path.join(process.cwd(), "public/images")));
+
 // API routes
 app.use("/api", apiRoutes);
 
