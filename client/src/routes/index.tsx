@@ -3,46 +3,61 @@ import App from "@/App";
 import Home from '@/pages/Home'
 import ErrorPage from "@/pages/ErrorPage";
 import Manufacturers from "@/pages/Manufacturers";
-import CarsByClass from "@/pages/CarsByClass";
+
+// ================================================================================
+//                          Manufacturers Page Start
+// ================================================================================
+
+import ManufacturersMap from "@/pages/Manufacturers/ManufacturersMap";
+import BrandInfo from "@/pages/Manufacturers/BrandInfo";
+
+// ================================================================================
+//                          Manufacturers Page End
+// ================================================================================
+
+import CarsByClass from "@/pages/CarInfo/CarsByClass";
+import CarDetail from "@/pages/CarInfo/CarDetail";
 import GarageLevels from "@/pages/GarageLevels";
-import CarDetail from "@/pages/CarDetail";
 import LegendStorePrices from "@/pages/LegendStore";
-import ManufacturersMap from "@/pages/ManufacturersMapTest";
 
 export const router = createBrowserRouter([
     {
-        path: "/",
-        element: <App />,
-        errorElement: <ErrorPage />,
-        children: [
-            {
-                index: true,
-                element: <Home />
-            },
-            {
-                path: '/manufacturers',
-                element: <Manufacturers />
-            },
-            // {
-            //     path: '/manufacturerstable',
-            //     element: <ManufacturersMap />
-            // },
-            {
-                path: '/carsbyclass',
-                element: <CarsByClass />
-            },
-            {
-                path: "/cars/:id", // Individual car detail route
-                element: <CarDetail />,
-            },
-            {
-                path: '/garagelevels',
-                element: <GarageLevels />
-            },
-            {
-                path: '/legendstoreprices',
-                element: <LegendStorePrices />
-            },
-        ],
+      path: "/",
+      element: <App />,
+      errorElement: <ErrorPage />,
+      children: [
+        {
+          index: true,
+          element: <Home />,
+        },
+        {
+          path: "/manufacturers",
+          element: <Manufacturers />,
+        },
+        {
+          path: "/manufacturers/manufacturersmap", // temporary until you rename later
+          element: <ManufacturersMap />,
+        },
+        {
+          path: "/manufacturers/:slug", // 🔥 dynamic route!
+          element: <BrandInfo />, // ✅ Correct now - BrandInfo is the full brand page
+        },
+        {
+          path: "/carsbyclass",
+          element: <CarsByClass />,
+        },
+        {
+          path: "/cars/:id",
+          element: <CarDetail />,
+        },
+        {
+          path: "/garagelevels",
+          element: <GarageLevels />,
+        },
+        {
+          path: "/legendstoreprices",
+          element: <LegendStorePrices />,
+        },
+      ],
     },
-]);
+  ]);
