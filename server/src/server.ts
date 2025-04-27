@@ -28,7 +28,8 @@ app.use(express.static(path.join(process.cwd(), "../client/dist")));
 
 // 🛑 VERY IMPORTANT: Fix "*" wildcard route
 app.get("*", (req, res) => {
-  // 👉 If request is trying to access API or IMAGES, do NOT serve index.html
+  console.log("Wildcard triggered. Requested Path:", req.path); // ADD THIS
+
   if (req.path.startsWith("/api") || req.path.startsWith("/images")) {
     res.status(404).send("Not found.");
     return;
@@ -41,6 +42,7 @@ app.get("*", (req, res) => {
     res.status(404).send("Frontend not found.");
   }
 });
+
 
 const main = async () => {
   try {
