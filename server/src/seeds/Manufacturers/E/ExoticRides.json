@@ -1,0 +1,16 @@
+{
+    "brand": "Exotic Rides",
+    "slug": "exotic-rides",
+    "description": "Information about Exotic Rides is not currently available.",
+    "logo": "/Images/Logos/E/ExoticRides/exotic-rides-logo.png",
+    "country": ["United States"],
+    "established": 2005,
+    "headquarters": "Orlando, Florida, USA",
+    "primaryMarket": "United States",
+    "location": {
+      "lat": 28.5383,
+      "lng": -81.3792
+    },
+    "resources": []
+  }
+  

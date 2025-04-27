@@ -1,0 +1,21 @@
+{
+    "brand": "Maserati",
+    "slug": "maserati",
+    "description": "Maserati is an Italian luxury vehicle manufacturer established on December 1, 1914, in Bologna, Italy, by the Maserati brothers. Today, Maserati's headquarters are located in Modena, Italy. The brand is known for producing stylish, high-performance vehicles that blend Italian craftsmanship with motorsport heritage.",
+    "logo": "/Images/Logos/M/Maserati/maserati-logo.png",
+    "country": ["Italy"],
+    "established": 1914,
+    "headquarters": "Modena, Italy",
+    "primaryMarket": "Global",
+    "location": {
+      "lat": 44.6471,
+      "lng": 10.9252
+    },
+    "resources": [
+      {
+        "text": "Wikipedia - Maserati",
+        "url": "https://en.wikipedia.org/wiki/Maserati"
+      }
+    ]
+  }
+  

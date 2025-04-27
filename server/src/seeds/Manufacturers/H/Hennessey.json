@@ -1,0 +1,16 @@
+{
+    "brand": "Hennessey",
+    "slug": "hennessey",
+    "description": "Information about Hennessey is not currently available.",
+    "logo": "/Images/Logos/H/Hennessey/hennessey-logo.png",
+    "country": ["United States"],
+    "established": 1991,
+    "headquarters": "Sealy, Texas, USA",
+    "primaryMarket": "United States",
+    "location": {
+      "lat": 29.7805,
+      "lng": -96.1575
+    },
+    "resources": []
+  }
+  
