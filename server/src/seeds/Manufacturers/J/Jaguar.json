@@ -1,0 +1,16 @@
+{
+    "brand": "Jaguar",
+    "slug": "jaguar",
+    "description": "Information about Jaguar is not currently available.",
+    "logo": "/Images/Logos/J/Jaguar/jaguar-logo.png",
+    "country": ["United Kingdom"],
+    "established": 1922,
+    "headquarters": "Whitley, Coventry, United Kingdom",
+    "primaryMarket": "United Kingdom",
+    "location": {
+      "lat": 52.3925,
+      "lng": -1.4825
+    },
+    "resources": []
+  }
+  
