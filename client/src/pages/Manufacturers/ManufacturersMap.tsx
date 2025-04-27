@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import PageTab from "@/components/PageTab";
 import MapDisplay from "@/ManufacturersMap/Map/MapDisplay";
 import BrandQuickList from "@/ManufacturersMap/BrandInfo/BrandQuickList";
-import "@/SCSS/Brands/ManufacturersMap.scss"; // ✅ Import SCSS
+import "@/SCSS/Brands/BrandMap.scss"; // ✅ Import SCSS
 
 interface Manufacturer {
   _id: string;

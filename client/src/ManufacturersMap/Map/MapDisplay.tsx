@@ -1,6 +1,6 @@
 import Map, { NavigationControl } from "react-map-gl";
 import MapPin from "@/ManufacturersMap/Map/MapPin";
-import "@/SCSS/Brands/BrandMap.scss"; // ✅ Import SCSS
+import "@/SCSS/Brands/BrandMap.scss";
 
 interface Manufacturer {
   _id: string;
@@ -36,11 +36,11 @@ export default function MapDisplay({ manufacturers }: MapDisplayProps) {
             longitude: 0,
             zoom: 2,
           }}
-          style={{ width: "100%", height: "600px" }}
-          maxBounds={[-180, -85, 180, 85]} // ✅ Prevent infinite scrolling around globe
+          style={{ width: "100%", height: "100%" }} // ✅ Full fill
+          maxBounds={[-180, -85, 180, 85]}
+          attributionControl={true}
         >
           <NavigationControl position="top-left" />
-
           {manufacturers.map((manufacturer) => (
             <MapPin key={manufacturer._id.toString()} manufacturer={manufacturer} />
           ))}
