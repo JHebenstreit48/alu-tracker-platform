@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "images/cars/A/AlfaRomeo/giuliagtam.jpg",
     "Class": "D",
     "Brand": "Alfa Romeo",
     "Model": "Giulia GTAm",
