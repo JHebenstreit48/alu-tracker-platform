@@ -1,20 +1,5 @@
 import StarIcon from "@/assets/star-icon/star-icon.png";
 
-import ChryslerME412 from "@/assets/car-photos/C/Chrysler/chrysler-me-412.jpg";
-import CitroenGT from "@/assets/car-photos/C/Citroen/citroen-gt.jpg";
-import Czinger21C from "@/assets/car-photos/C/Czinger/czinger-21c.jpg";
-import DeTomasoP72 from "@/assets/car-photos/D/DeTomaso/de-tomaso-p72.jpg";
-import DeTomasoP900 from "@/assets/car-photos/D/DeTomaso/de-tomaso-p900.jpg";
-import DeusVayanne from "@/assets/car-photos/D/Deus/deus-vayanne.jpg";
-import DevelSixteen from "@/assets/car-photos/D/Devel/devel-sixteen.jpg";
-import DodgeChallenger392HemiScatPk from "@/assets/car-photos/D/Dodge/dodge-challenger-392-hemi-scat-pack.jpg";
-import DodgeChallengerSRT8 from "@/assets/car-photos/D/Dodge/dodge-challenger-srt8.jpg";
-import DodgeViperACR from "@/assets/car-photos/D/Dodge/dodge-viper-acr.jpg";
-import DodgeViperGTS from "@/assets/car-photos/D/Dodge/dodge-viper-gts.jpg";
-import DonkervoortD8GTOIndividualSeries from "@/assets/car-photos/D/Donkervoort/donkervoort-d8-gto-individual-series.jpg";
-import DrakoGTE from "@/assets/car-photos/D/Drako/drako-gte.jpg";
-import DSAutomobilesDSETense from "@/assets/car-photos/D/DSAutomobiles/ds-automobiles-ds-e-tense.jpg";
-import DSAutomobilesDSETensePerformance from "@/assets/car-photos/D/DSAutomobiles/ds-automobiles-ds-e-tense-performance.jpg";
 import ExoticRidesW70 from "@/assets/car-photos/E/ExoticRides/exotic-rides-w70.jpg";
 import FaradayFutureFFZero1 from "@/assets/car-photos/F/FaradayFuture/faraday-future-ffzero1.jpg";
 import Ferrari296GTB from "@/assets/car-photos/F/Ferrari/ferrari-296-gtb.jpg";
@@ -170,21 +155,6 @@ import ZenvoTSRS from "@/assets/car-photos/Z/Zenvo/zenvo-tsr-s.jpg";
 export const Images: Record<string, string> = {
   StarIcon,
 
-  ChryslerME412,
-  CitroenGT,
-  Czinger21C,
-  DeTomasoP72,
-  DeTomasoP900,
-  DeusVayanne,
-  DevelSixteen,
-  DodgeChallenger392HemiScatPk,
-  DodgeChallengerSRT8,
-  DodgeViperACR,
-  DodgeViperGTS,
-  DonkervoortD8GTOIndividualSeries,
-  DrakoGTE,
-  DSAutomobilesDSETensePerformance,
-  DSAutomobilesDSETense,
   ExoticRidesW70,
   FaradayFutureFFZero1,
   Ferrari296GTB,

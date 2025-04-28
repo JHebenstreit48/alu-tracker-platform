@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/C/Chevrolet/corvettezr1.jpg",
     "Class": "A",
     "Brand": "Chevrolet",
     "Model": "Corvette ZR1",
