@@ -1,45 +1,81 @@
-.brand-quick-list {
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 1rem;
-    background-color: #1a1a1a;
-    border-radius: 8px;
-    color: white;
+/* =============================
+   Variables
+   ============================= */
+   $quick-list-max-width: 1200px;
+   $quick-list-padding: 1rem;
+   $quick-list-background-color: #1a1a1a;
+   $quick-list-border-radius: 8px;
+   $quick-list-text-color: white;
+   
+   $brand-link-color: #50b7f5;
+   $brand-link-hover-color: #ffffff;
+   
+   $section-margin-bottom: 2rem;
+   $section-heading-font-size: 2rem;
+   $section-heading-border-color: #444;
+   $section-heading-padding-bottom: 0.25rem;
+   
+   $brand-link-font-weight: 500;
+   
+   $cellphone-portrait: 390px;
+   $cellphone-landscape: 390px;
+   
+   /* =============================
+      Brand Quick List Layout
+      ============================= */
+   .brand-quick-list {
+     max-width: $quick-list-max-width;
+     margin: 2rem auto;
+     padding: $quick-list-padding;
+     background-color: $quick-list-background-color;
+     border-radius: $quick-list-border-radius;
+     color: $quick-list-text-color;
 
-    .country-header {
-      display: flex;
-      justify-content: center;
-    }
-  
-    .brand-letter-section {
-      margin-bottom: 2rem;
-  
-      h3 {
-        font-size: 2rem;
-        margin-bottom: 0.5rem;
-        border-bottom: 1px solid #444;
-        padding-bottom: 0.25rem;
-      }
-  
-      ul {
-        list-style: none;
-        padding: 0;
-  
-        li {
-          margin: 0.25rem 0;
-  
-          a {
-            color: #50b7f5;
-            text-decoration: none;
-            font-weight: 500;
-  
-            &:hover {
-              text-decoration: underline;
-              color: #ffffff;
-            }
-          }
-        }
-      }
-    }
-  }
-  
+     @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
+       margin-top: 26rem;
+       width: 86%
+     }
+   
+     /* =============================
+         Country Header
+         ============================= */
+     .country-header {
+       display: flex;
+       justify-content: center;
+     }
+   
+     /* =============================
+         Brand Letter Section
+         ============================= */
+     .brand-letter-section {
+       margin-bottom: $section-margin-bottom;
+   
+       h3 {
+         font-size: $section-heading-font-size;
+         margin-bottom: 0.5rem;
+         border-bottom: 1px solid $section-heading-border-color;
+         padding-bottom: $section-heading-padding-bottom;
+       }
+   
+       ul {
+         list-style: none;
+         padding: 0;
+   
+         li {
+           margin: 0.25rem 0;
+   
+           a {
+             color: $brand-link-color;
+             text-decoration: none;
+             font-weight: $brand-link-font-weight;
+   
+             &:hover {
+               text-decoration: underline;
+               color: $brand-link-hover-color;
+             }
+           }
+         }
+       }
+     }
+   }
+   
