@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/C/Citroën/gtbycitroen.jpg",
     "Class": "A",
     "Brand": "Citroën",
     "Model": "GT by Citroën",

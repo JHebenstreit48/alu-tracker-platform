@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/C/Chevrolet/camarozl150thedition.jpg",
     "Class": "C",
     "Brand": "Chevrolet",
     "Model": "Camaro ZL1 50th Edition",
@@ -36,6 +37,7 @@
   },
   {
     "Id": 2,
+    "Image": "/images/cars/C/Chevrolet/corvettestingray.jpg",
     "Class": "C",
     "Brand": "Chevrolet",
     "Model": "Corvette Stingray",

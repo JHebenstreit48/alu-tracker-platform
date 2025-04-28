@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/D/DeTomaso/p72.jpg",
     "Class": "A",
     "Brand": "De Tomaso",
     "Model": "P72",

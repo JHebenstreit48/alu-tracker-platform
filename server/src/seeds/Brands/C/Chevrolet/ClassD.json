@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/C/Chevrolet/camarolt.jpg",
     "Class": "D",
     "Brand": "Chevrolet",
     "Model": "Camaro LT",
@@ -36,6 +37,7 @@
   },
   {
     "Id": 2,
+    "Image": "/images/cars/C/Chevrolet/corvettec7r.jpg",
     "Class": "D",
     "Brand": "Chevrolet",
     "Model": "Corvette C7.R",
