@@ -4,6 +4,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import apiRoutes from "@/routes/api";
 import { connectToDb } from "@/Utility/connection";
+import fs from "fs";
 
 dotenv.config();
 
@@ -17,33 +18,34 @@ app.use(cors({
   credentials: true,
 }));
 
-// ✅ Serve public images
+// ✅ Serve public images (for cars, logos, etc.)
 app.use("/images", express.static(path.join(process.cwd(), "public/images")));
 
-// ✅ API routes
+// ✅ API routes (brands, cars, etc.)
 app.use("/api", apiRoutes);
 
 // ✅ Serve React frontend static files
 app.use(express.static(path.join(process.cwd(), "../client/dist")));
 
-// 🛑 VERY IMPORTANT: Fix "*" wildcard route
+// ✅ PROPER Wildcard Route (only log real frontend page fallbacks)
 app.get("*", (req, res) => {
-  console.log("Wildcard triggered. Requested Path:", req.path); // ADD THIS
-
   if (req.path.startsWith("/api") || req.path.startsWith("/images")) {
+    // Do not log for api or images
     res.status(404).send("Not found.");
     return;
   }
 
+  console.log("Wildcard triggered for frontend page. Path:", req.path);
+
   const indexPath = path.join(process.cwd(), "../client/dist/index.html");
-  if (require("fs").existsSync(indexPath)) {
+  if (fs.existsSync(indexPath)) {
     res.sendFile(indexPath);
   } else {
     res.status(404).send("Frontend not found.");
   }
 });
 
-
+// ✅ Server Start
 const main = async () => {
   try {
     await connectToDb();
