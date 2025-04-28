@@ -1,8 +1,8 @@
 // Blueprint fields are kept modular
 export interface BlueprintStats {
-  BPs_1_Star?: number | string;
-  BPs_2_Star?: number;
-  BPs_3_Star?: number;
+  BPs_1_Star: number | string;
+  BPs_2_Star: number;
+  BPs_3_Star: number;
   BPs_4_Star?: number;
   BPs_5_Star?: number;
   BPs_6_Star?: number;
@@ -13,6 +13,7 @@ export interface BlueprintStats {
 export interface Car extends BlueprintStats {
   _id?: string; // Optional for flexibility (MongoDB ID)
   Id: number;
+  Image: string;
   Brand: string;
   Model: string;
   Class: string;

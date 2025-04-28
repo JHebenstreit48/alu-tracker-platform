@@ -1,32 +1,9 @@
 import StarIcon from "@/assets/star-icon/star-icon.png";
 
-import AcuraNSX from "@/assets/car-photos/A/Acura/2017-acura-nsx.jpg";
-import AcuraNSXGT3Evo from "@/assets/car-photos/A/Acura/acura-nsx-gt3-evo.jpg";
-import AjlaniDrakuma from "@/assets/car-photos/A/Ajlani/ajlani-drakuma.jpg";
-import AlfaRomeoGiuliaGTAm from "@/assets/car-photos/A/AlfaRomeo/alfa-romeo-giulia-gtam.jpg";
-import ApexAP0 from "@/assets/car-photos/A/Apex/apex-ap-0.jpg";
-import ApolloEvo from "@/assets/car-photos/A/ApolloCars/apollo-evo.jpg";
-import ApolloIE from "@/assets/car-photos/A/ApolloCars/apollo-ie.jpg";
-import ApolloN from "@/assets/car-photos/A/ApolloCars/apollo-n.jpg";
-import ArashAF8FalconEdition from "@/assets/car-photos/A/Arash/arash-af8-falcon-edition.jpg";
-import ArashAF10 from "@/assets/car-photos/A/Arash/arash-af10.jpg";
 import AresS1 from "@/assets/car-photos/A/Ares/ares-s1.jpg";
 import ArrineraHussarya33 from "@/assets/car-photos/A/Arrinera/arrinera-hussarya-33.jpg";
 import ArtegaScaloSuperelletra from "@/assets/car-photos/A/Artega/artega-scalo-superelletra.jpg";
 import AsparkOwl from "@/assets/car-photos/A/Aspark/aspark-owl.jpg";
-import AstonMartinDB11 from "@/assets/car-photos/A/AstonMartin/aston-martin-db11.jpg";
-import AstonMartinDB12 from "@/assets/car-photos/A/AstonMartin/aston-martin-db12.jpg";
-import AstonMartinDBSGTZagato from "@/assets/car-photos/A/AstonMartin/aston-martin-dbs-gt-zagato.jpg";
-import AstonMartinDBSSuperleggera from "@/assets/car-photos/A/AstonMartin/aston-martin-dbs-superleggera.jpg";
-import AstonMartinOne77 from "@/assets/car-photos/A/AstonMartin/aston-martin-one77.jpg";
-import AstonMartinV12Speedster from "@/assets/car-photos/A/AstonMartin/aston-martin-v12-speedster.jpg";
-import AstonMartinValhallaConcept from "@/assets/car-photos/A/AstonMartin/aston-martin-valhalla-concept-car.jpg";
-import AstonMartinValkyrie from "@/assets/car-photos/A/AstonMartin/aston-martin-valkyrie.jpg";
-import AstonMartinValour from "@/assets/car-photos/A/AstonMartin/aston-martin-valour.jpg";
-import AstonMartinVantageGT12 from "@/assets/car-photos/A/AstonMartin/aston-martin-vantage-gt12.jpg";
-import AstonMartinVantageV122022 from "@/assets/car-photos/A/AstonMartin/aston-martin-vantage-v12-2022.jpg";
-import AstonMartinVictor from "@/assets/car-photos/A/AstonMartin/aston-martin-victor.jpg";
-import AstonMartinVulcan from "@/assets/car-photos/A/AstonMartin/aston-martin-vulcan.jpg";
 import ATSAutomobiliCorsaRRTurbo from "@/assets/car-photos/A/ATSAutomobili/ats-automobili-corsa-rr-turbo.jpg";
 import ATSAutomobiliGT from "@/assets/car-photos/A/ATSAutomobili/ats-automobili-gt.jpg";
 import AutomobiliPininfarinaBattista from "@/assets/car-photos/A/AutomobiliPininfarina/automobili-pininfarina-battista.jpg";
@@ -41,16 +18,6 @@ import BMWM4GTS from "@/assets/car-photos/B/BMW/bmw-m4-gts.jpg";
 import BMWZ4LCIE89 from "@/assets/car-photos/B/BMW/bmw-z4-lci-e89.jpg";
 import BolwellMKXNagari500 from "@/assets/car-photos/B/Bolwell/bolwell-mk-x-nagari-500.jpg";
 import BrabhamBT62 from "@/assets/car-photos/B/Brabham/brabham-bt62.jpg";
-import BugattiBolide from "@/assets/car-photos/B/Bugatti/bugatti-bolide.jpg";
-import BugattiCentodieci from "@/assets/car-photos/B/Bugatti/bugatti-centodieci.jpg";
-import BugattiChiron from "@/assets/car-photos/B/Bugatti/bugatti-chiron.jpg";
-import BugattiChironPurSport from "@/assets/car-photos/B/Bugatti/bugatti-chiron-pur-sport.jpg";
-import BugattiChironSuperSport300Plus from "@/assets/car-photos/B/Bugatti/bugatti-chiron-super-sport-300-plus.jpg";
-import BugattiDivo from "@/assets/car-photos/B/Bugatti/bugatti-divo.jpg";
-import BugattiEB110 from "@/assets/car-photos/B/Bugatti/bugatti-eb110.jpg";
-import BugattiLaVoitureNoire from "@/assets/car-photos/B/Bugatti/bugatti-la-voiture-noire.jpg";
-import BugattiMistral from "@/assets/car-photos/B/Bugatti/bugatti-mistral.jpg";
-import BugattiVeyron164GSVitesse from "@/assets/car-photos/B/Bugatti/bugatti-veyron-16-4-grand-sport-vitesse.jpg";
 import BXRBaileyBladeGT1 from "@/assets/car-photos/B/BXR/bxr-bailey-blade-gt1.jpg";
 import CadillacCienConcept from "@/assets/car-photos/C/Cadillac/cadillac-cien-concept.jpg";
 import ChevroletCamaroLT from "@/assets/car-photos/C/Chevrolet/chevrolet-camaro-lt.jpg";
@@ -146,7 +113,6 @@ import LamborghiniDiabloGT from "@/assets/car-photos/L/Lamborghini/lamborghini-d
 import LamborghiniEgoista from "@/assets/car-photos/L/Lamborghini/lamborghini-egoista.jpg";
 import LamborghiniEssenzaSCV12 from "@/assets/car-photos/L/Lamborghini/lamborghini-essenza-scv12.jpg";
 import LamborghiniGallardoLP5604 from "@/assets/car-photos/L/Lamborghini/lamborghini-gallardo-lp-560-4.jpg";
-import LamborghiniHuracanEvoSpyder from "@/assets/car-photos/L/Lamborghini/lamborghini-huracan-evo-spyder.jpg";
 import LamborghiniHuracanSTO from "@/assets/car-photos/L/Lamborghini/lamborghini-huracan-sto.jpg";
 import LamborghiniHuracanSuperTrofeoEvo from "@/assets/car-photos/L/Lamborghini/lamborghini-huracan-super-trofeo-evo.jpg";
 import LamborghiniInvencible from "@/assets/car-photos/L/Lamborghini/lamborghini-invencible.jpg";
@@ -273,33 +239,10 @@ import ZenvoTSRS from "@/assets/car-photos/Z/Zenvo/zenvo-tsr-s.jpg";
 export const Images: Record<string, string> = {
   StarIcon,
 
-  AcuraNSX,
-  AcuraNSXGT3Evo,
-  AjlaniDrakuma,
-  AlfaRomeoGiuliaGTAm,
-  ApexAP0,
-  ApolloEvo,
-  ApolloIE,
-  ApolloN,
-  ArashAF8FalconEdition,
-  ArashAF10,
   AresS1,
   ArrineraHussarya33,
   ArtegaScaloSuperelletra,
   AsparkOwl,
-  AstonMartinDB11,
-  AstonMartinDB12,
-  AstonMartinDBSGTZagato,
-  AstonMartinDBSSuperleggera,
-  AstonMartinOne77,
-  AstonMartinV12Speedster,
-  AstonMartinValhallaConcept,
-  AstonMartinValkyrie,
-  AstonMartinValour,
-  AstonMartinVantageGT12,
-  AstonMartinVantageV122022,
-  AstonMartinVictor,
-  AstonMartinVulcan,
   ATSAutomobiliCorsaRRTurbo,
   ATSAutomobiliGT,
   AutomobiliPininfarinaBattistaEdizioneNinoFarina,
@@ -314,16 +257,6 @@ export const Images: Record<string, string> = {
   BMWZ4LCIE89,
   BolwellMKXNagari500,
   BrabhamBT62,
-  BugattiBolide,
-  BugattiCentodieci,
-  BugattiChiron,
-  BugattiChironPurSport,
-  BugattiChironSuperSport300Plus,
-  BugattiDivo,
-  BugattiEB110,
-  BugattiLaVoitureNoire,
-  BugattiMistral,
-  BugattiVeyron164GSVitesse,
   BXRBaileyBladeGT1,
   CadillacCienConcept,
   ChevroletCamaroLT,
@@ -419,7 +352,6 @@ export const Images: Record<string, string> = {
   LamborghiniEgoista,
   LamborghiniEssenzaSCV12,
   LamborghiniGallardoLP5604,
-  LamborghiniHuracanEvoSpyder,
   LamborghiniHuracanSTO,
   LamborghiniHuracanSuperTrofeoEvo,
   LamborghiniInvencible,
