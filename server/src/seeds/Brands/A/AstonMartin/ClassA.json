@@ -2,6 +2,7 @@
   {
     "Id": 1,
     "Class": "A",
+    "Image": "/images/cars/A/AstonMartin/valhallaconceptcar.jpg",
     "Brand": "Aston Martin",
     "Model": "Valhalla Concept Car",
     "Rarity": "Epic",
@@ -36,6 +37,7 @@
   },
   {
     "Id": 2,
+    "Image": "/images/cars/A/AstonMartin/dbsgtzagato.jpg",
     "Class": "A",
     "Brand": "Aston Martin",
     "Model": "DBS GT Zagato",
@@ -71,6 +73,7 @@
   },
   {
     "Id": 3,
+    "Image": "/images/cars/A/AstonMartin/victor.jpg",
     "Class": "A",
     "Brand": "Aston Martin",
     "Model": "Victor",
@@ -106,6 +109,7 @@
   },
   {
     "Id": 4,
+    "Image": "/images/cars/A/AstonMartin/vulcan.jpg",
     "Class": "A",
     "Brand": "Aston Martin",
     "Model": "Vulcan",
