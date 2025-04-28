@@ -1,31 +1,5 @@
 import StarIcon from "@/assets/star-icon/star-icon.png";
 
-import AresS1 from "@/assets/car-photos/A/Ares/ares-s1.jpg";
-import ArrineraHussarya33 from "@/assets/car-photos/A/Arrinera/arrinera-hussarya-33.jpg";
-import ArtegaScaloSuperelletra from "@/assets/car-photos/A/Artega/artega-scalo-superelletra.jpg";
-import AsparkOwl from "@/assets/car-photos/A/Aspark/aspark-owl.jpg";
-import ATSAutomobiliCorsaRRTurbo from "@/assets/car-photos/A/ATSAutomobili/ats-automobili-corsa-rr-turbo.jpg";
-import ATSAutomobiliGT from "@/assets/car-photos/A/ATSAutomobili/ats-automobili-gt.jpg";
-import AutomobiliPininfarinaBattista from "@/assets/car-photos/A/AutomobiliPininfarina/automobili-pininfarina-battista.jpg";
-import AutomobiliPininfarinaBattistaEdizioneNinoFarina from "@/assets/car-photos/A/AutomobiliPininfarina/automobili-pininfarina-battista-edizione-nino-farina.jpg";
-import BentleyContinentalGT3 from "@/assets/car-photos/B/Bentley/bentley-continental-gt3.jpg";
-import BentleyContinentalGTSpeed from "@/assets/car-photos/B/Bentley/bentley-continental-gt-speed.jpg";
-import BentleyMullinerBacalar from "@/assets/car-photos/B/Bentley/bentley-mulliner-bacalar.jpg";
-import BMW3CSLHommage from "@/assets/car-photos/B/BMW/bmw-3-csl-hommage.jpg";
-import BMWi8Roadster from "@/assets/car-photos/B/BMW/bmw-i8-roadster.jpg";
-import BMWM4GT3 from "@/assets/car-photos/B/BMW/bmw-m4-gt3.jpg";
-import BMWM4GTS from "@/assets/car-photos/B/BMW/bmw-m4-gts.jpg";
-import BMWZ4LCIE89 from "@/assets/car-photos/B/BMW/bmw-z4-lci-e89.jpg";
-import BolwellMKXNagari500 from "@/assets/car-photos/B/Bolwell/bolwell-mk-x-nagari-500.jpg";
-import BrabhamBT62 from "@/assets/car-photos/B/Brabham/brabham-bt62.jpg";
-import BXRBaileyBladeGT1 from "@/assets/car-photos/B/BXR/bxr-bailey-blade-gt1.jpg";
-import CadillacCienConcept from "@/assets/car-photos/C/Cadillac/cadillac-cien-concept.jpg";
-import ChevroletCamaroLT from "@/assets/car-photos/C/Chevrolet/chevrolet-camaro-lt.jpg";
-import ChevroletCamaroZL150thEdition from "@/assets/car-photos/C/Chevrolet/chevrolet-camaro-zl1-50th.jpg";
-import ChevroletCorvetteC7R from "@/assets/car-photos/C/Chevrolet/chevrolet-corvette-c7-r.jpg";
-import ChevroletCorvetteGrandSport from "@/assets/car-photos/C/Chevrolet/chevrolet-corvette-grand-sport.jpg";
-import ChevroletCorvetteStingray from "@/assets/car-photos/C/Chevrolet/chevrolet-corvette-stingray.jpg";
-import ChevroletCorvetteZR1 from "@/assets/car-photos/C/Chevrolet/chevrolet-corvette-zr1.jpg";
 import ChryslerME412 from "@/assets/car-photos/C/Chrysler/chrysler-me-412.jpg";
 import CitroenGT from "@/assets/car-photos/C/Citroen/citroen-gt.jpg";
 import Czinger21C from "@/assets/car-photos/C/Czinger/czinger-21c.jpg";
@@ -101,33 +75,6 @@ import KoenigseggJesko from "@/assets/car-photos/K/Koenigsegg/koenigsegg-jesko.j
 import KoenigseggJeskoAbsolut from "@/assets/car-photos/K/Koenigsegg/koenigsegg-jesko-absolut.jpg";
 import KoenigseggRegera from "@/assets/car-photos/K/Koenigsegg/koenigsegg-regera.jpg";
 import KTMXBowGTX from "@/assets/car-photos/K/KTM/ktm-x-bow-gtx.jpg";
-import LamborghiniAsterion from "@/assets/car-photos/L/Lamborghini/lamborghini-asterion.jpg";
-import LamborghiniAutentica from "@/assets/car-photos/L/Lamborghini/lamborghini-autentica.jpg";
-import LamborghiniAventadorJ from "@/assets/car-photos/L/Lamborghini/lamborghini-aventador-j.jpg";
-import LamborghiniAventadorSVCoupe from "@/assets/car-photos/L/Lamborghini/lamborghini-aventador-sv-coupe.jpg";
-import LamborghiniAventadorSVJRoadster from "@/assets/car-photos/L/Lamborghini/lamborghini-aventador-svj-roadster.jpg";
-import LamborghiniCentenario from "@/assets/car-photos/L/Lamborghini/lamborghini-centenario.jpg";
-import LamborghiniCountach25thAnniversary from "@/assets/car-photos/L/Lamborghini/lamborghini-countach-25th-anniversary.jpg";
-import LamborghiniCountachLPI8004 from "@/assets/car-photos/L/Lamborghini/lamborghini-countach-lpi-800-4.jpg";
-import LamborghiniDiabloGT from "@/assets/car-photos/L/Lamborghini/lamborghini-diablo-gt.jpg";
-import LamborghiniEgoista from "@/assets/car-photos/L/Lamborghini/lamborghini-egoista.jpg";
-import LamborghiniEssenzaSCV12 from "@/assets/car-photos/L/Lamborghini/lamborghini-essenza-scv12.jpg";
-import LamborghiniGallardoLP5604 from "@/assets/car-photos/L/Lamborghini/lamborghini-gallardo-lp-560-4.jpg";
-import LamborghiniHuracanSTO from "@/assets/car-photos/L/Lamborghini/lamborghini-huracan-sto.jpg";
-import LamborghiniHuracanSuperTrofeoEvo from "@/assets/car-photos/L/Lamborghini/lamborghini-huracan-super-trofeo-evo.jpg";
-import LamborghiniInvencible from "@/assets/car-photos/L/Lamborghini/lamborghini-invencible.jpg";
-import LamborghiniMiuraConcept from "@/assets/car-photos/L/Lamborghini/lamborghini-miura-concept.jpg";
-import LamborghiniMurcielagoLP640Roadster from "@/assets/car-photos/L/Lamborghini/lamborghini-murcielago-lp-640-roadster.jpg";
-// import LamborghiniReventonRoadster from "@/assets/car-photos/L/Lamborghini/lamborghini-reventon-roadster.jpg";
-import LamborghiniRevuelto from "@/assets/car-photos/L/Lamborghini/lamborghini-revuelto.jpg";
-import LamborghiniSC18 from "@/assets/car-photos/L/Lamborghini/lamborghini-sc18.jpg";
-import LamborghiniSC20 from "@/assets/car-photos/L/Lamborghini/lamborghini-sc20.jpg";
-import LamborghiniSC63 from "@/assets/car-photos/L/Lamborghini/lamborghini-sc63.jpg";
-import LamborghiniSestoElemento from "@/assets/car-photos/L/Lamborghini/lamborghini-sesto-elemento.jpg";
-import LamborghiniSianFKP37 from "@/assets/car-photos/L/Lamborghini/lamborghini-sian-fkp-37.jpg";
-import LamborghiniTemerario from "@/assets/car-photos/L/Lamborghini/lamborghini-temerario.jpg";
-import LamborghiniTerzoMillennio from "@/assets/car-photos/L/Lamborghini/lamborghini-terzo-millennio.jpg";
-import LamborghiniVeneno from "@/assets/car-photos/L/Lamborghini/lamborghini-veneno.jpg";
 import LotusER9 from "@/assets/car-photos/L/Lotus/lotus-e-r9.jpg";
 import LotusEliseSprint220 from "@/assets/car-photos/L/Lotus/lotus-elise-sprint-220.jpg";
 import LotusEmira from "@/assets/car-photos/L/Lotus/lotus-emira.jpg";
@@ -181,22 +128,6 @@ import PeugeotSR1 from "@/assets/car-photos/P/Peugeot/peugeot-sr1.jpg";
 import PeugotOnyx from "@/assets/car-photos/P/Peugeot/peugeot-onyx.jpg";
 import PininfarinaH2Speed from "@/assets/car-photos/P/Pininfarina/pininfarina-h2-speed.jpg";
 import PininfarinaTeorema from "@/assets/car-photos/P/Pininfarina/pininfarina-teorema.jpg";
-import Porsche718CaymanGT4Clubsport from "@/assets/car-photos/P/Porsche/porsche-718-cayman-gt4-clubsport.jpg";
-import Porsche718Cayman from "@/assets/car-photos/P/Porsche/porsche-718-cayman.jpg";
-import Porsche911CarreraRS38 from "@/assets/car-photos/P/Porsche/porsche-911-carrera-rs-3-8.jpg";
-import Porsche911GT1Evolution from "@/assets/car-photos/P/Porsche/porsche-911-gt1-evolution.jpg";
-import Porsche911GT2RSClubsport from "@/assets/car-photos/P/Porsche/porsche-911-gt2-rs-clubsport.jpg";
-import Porsche911GT3RS from "@/assets/car-photos/P/Porsche/porsche-911-gt3-rs.jpg";
-import Porsche911GTSCoupé from "@/assets/car-photos/P/Porsche/porsche-911-gts-coupe.jpg";
-import Porsche911Targa4S from "@/assets/car-photos/P/Porsche/porsche-911-targa-4s.jpg";
-import Porsche911Turbo50Years from "@/assets/car-photos/P/Porsche/porsche-911-turbo-50-years.jpg";
-import Porsche918Spyder from "@/assets/car-photos/P/Porsche/porsche-918-spyder.jpg";
-import Porsche9352019 from "@/assets/car-photos/P/Porsche/porsche-935-2019.jpg";
-import PorscheBoxster25th from "@/assets/car-photos/P/Porsche/porsche-boxster-25th.jpg";
-import PorscheCarreraGT from "@/assets/car-photos/P/Porsche/porsche-carrera-gt.jpg";
-import PorscheMissionR from "@/assets/car-photos/P/Porsche/porsche-mission-r.jpg";
-import PorschePanameraTurboS from "@/assets/car-photos/P/Porsche/porsche-panamera-turbo-s.jpg";
-import PorscheTaycanTurboS from "@/assets/car-photos/P/Porsche/porsche-taycan-turbo-s.jpg";
 import PragaR1 from "@/assets/car-photos/P/Praga/praga-r1.jpg";
 import PuritaliaBerlinetta from "@/assets/car-photos/P/Puritalia/puritalia-berlinetta.jpg";
 import RaesrTachyonSpeed from "@/assets/car-photos/R/Raesr/raesr-tachyon-speed.jpg";
@@ -239,32 +170,6 @@ import ZenvoTSRS from "@/assets/car-photos/Z/Zenvo/zenvo-tsr-s.jpg";
 export const Images: Record<string, string> = {
   StarIcon,
 
-  AresS1,
-  ArrineraHussarya33,
-  ArtegaScaloSuperelletra,
-  AsparkOwl,
-  ATSAutomobiliCorsaRRTurbo,
-  ATSAutomobiliGT,
-  AutomobiliPininfarinaBattistaEdizioneNinoFarina,
-  AutomobiliPininfarinaBattista,
-  BentleyContinentalGTSpeed,
-  BentleyContinentalGT3,
-  BentleyMullinerBacalar,
-  BMW3CSLHommage,
-  BMWi8Roadster,
-  BMWM4GT3,
-  BMWM4GTS,
-  BMWZ4LCIE89,
-  BolwellMKXNagari500,
-  BrabhamBT62,
-  BXRBaileyBladeGT1,
-  CadillacCienConcept,
-  ChevroletCamaroLT,
-  ChevroletCamaroZL150thEdition,
-  ChevroletCorvetteC7R,
-  ChevroletCorvetteGrandSport,
-  ChevroletCorvetteStingray,
-  ChevroletCorvetteZR1,
   ChryslerME412,
   CitroenGT,
   Czinger21C,
@@ -340,33 +245,6 @@ export const Images: Record<string, string> = {
   KoenigseggJeskoAbsolut,
   KoenigseggRegera,
   KTMXBowGTX,
-  LamborghiniAsterion,
-  LamborghiniAutentica,
-  LamborghiniAventadorJ,
-  LamborghiniAventadorSVCoupe,
-  LamborghiniAventadorSVJRoadster,
-  LamborghiniCentenario,
-  LamborghiniCountach25thAnniversary,
-  LamborghiniCountachLPI8004,
-  LamborghiniDiabloGT,
-  LamborghiniEgoista,
-  LamborghiniEssenzaSCV12,
-  LamborghiniGallardoLP5604,
-  LamborghiniHuracanSTO,
-  LamborghiniHuracanSuperTrofeoEvo,
-  LamborghiniInvencible,
-  LamborghiniMiuraConcept,
-  LamborghiniMurcielagoLP640Roadster,
-  // LamborghiniReventonRoadster,
-  LamborghiniRevuelto,
-  LamborghiniSC18,
-  LamborghiniSC20,
-  LamborghiniSC63,
-  LamborghiniSestoElemento,
-  LamborghiniSianFKP37,
-  LamborghiniTemerario,
-  LamborghiniTerzoMillennio,
-  LamborghiniVeneno,
   LotusER9,
   LotusEliseSprint220,
   LotusEmira,
@@ -420,22 +298,6 @@ export const Images: Record<string, string> = {
   PeugotOnyx,
   PininfarinaH2Speed,
   PininfarinaTeorema,
-  Porsche718CaymanGT4Clubsport,
-  Porsche718Cayman,
-  Porsche911CarreraRS38,
-  Porsche911GT1Evolution,
-  Porsche911GT2RSClubsport,
-  Porsche911GT3RS,
-  Porsche911GTSCoupé,
-  Porsche911Targa4S,
-  Porsche911Turbo50Years,
-  Porsche918Spyder,
-  Porsche9352019,
-  PorscheBoxster25th,
-  PorscheCarreraGT,
-  PorscheMissionR,
-  PorschePanameraTurboS,
-  PorscheTaycanTurboS,
   PragaR1,
   PuritaliaBerlinetta,
   RaesrTachyonSpeed,

@@ -37,6 +37,7 @@
   },
   {
     "Id": 2,
+    "Image": "/images/cars/L/Lamborghini/countachlpi8004.jpg",
     "Class": "A",
     "Brand": "Lamborghini",
     "Model": "Countach LPI 800-4",
@@ -72,6 +73,7 @@
   },
   {
     "Id": 3,
+    "Image": "/images/cars/L/Lamborghini/sc18.jpg",
     "Class": "A",
     "Brand": "Lamborghini",
     "Model": "SC18",
@@ -107,6 +109,7 @@
   },
   {
     "Id": 4,
+    "Image": "/images/cars/L/Lamborghini/aventadorj.jpg",
     "Class": "A",
     "Brand": "Lamborghini",
     "Model": "Aventador J",
@@ -142,6 +145,7 @@
   },
   {
     "Id": 5,
+    "Image": "/images/cars/L/Lamborghini/aventadorsvjroadster.jpg",
     "Class": "A",
     "Brand": "Lamborghini",
     "Model": "Aventador SVJ Roadster",
@@ -177,6 +181,7 @@
   },
   {
     "Id": 6,
+    "Image": "/images/cars/L/Lamborghini/aventadorsvcoupe.jpg",
     "Class": "A",
     "Brand": "Lamborghini",
     "Model": "Aventador SV Coupé",
