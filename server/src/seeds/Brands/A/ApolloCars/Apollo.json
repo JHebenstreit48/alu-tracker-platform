@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/A/Apollo/evo.jpg",
     "Class": "B",
     "Brand": "Apollo",
     "Model": "Evo",
@@ -36,6 +37,7 @@
   },
   {
     "Id": 2,
+    "Image": "/images/cars/A/Apollo/n.jpg",
     "Class": "B",
     "Brand": "Apollo",
     "Model": "N",
@@ -71,6 +73,7 @@
   },
   {
     "Id": 3,
+    "Image": "/images/cars/A/Apollo/ie.jpg",
     "Class": "B",
     "Brand": "Apollo",
     "Model": "IE",

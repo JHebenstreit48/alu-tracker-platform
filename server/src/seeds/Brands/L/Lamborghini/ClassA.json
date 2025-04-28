@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/L/Lamborghini/sc20.jpg",
     "Class": "A",
     "Brand": "Lamborghini",
     "Model": "SC20",
