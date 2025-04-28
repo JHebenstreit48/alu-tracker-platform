@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import '@/CSS/TrackerToggle.css'; // Add relevant styling
 
 interface GLTrackerToggleProps {
   onToggle: (isTrackerMode: boolean) => void; // Callback to notify parent of toggle state
