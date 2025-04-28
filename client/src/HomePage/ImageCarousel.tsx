@@ -1,5 +1,7 @@
 import { ImageCarouselType } from "@/HomePage/ImagesForCarousel";
 
+const backendImageUrl = import.meta.env.VITE_PUBLIC_BASE_URL ?? "http://localhost:3001";
+
 type ImageCarouselPropsType = {
   project: ImageCarouselType[];
 };
@@ -15,7 +17,7 @@ export default function ImageCarousel({ project }: ImageCarouselPropsType) {
           >
             {image.path && (
               <img
-                src={image.path}
+                src={`${backendImageUrl}${image.path}`}
                 alt={`Car Image ${index + 1}`}
                 className="d-block w-100"
                 loading="lazy"

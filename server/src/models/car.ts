@@ -3,6 +3,7 @@ import mongoose, { Schema, Document, Types } from "mongoose";
 // Interface for the Car model
 interface ICar extends Document {
   _id: Types.ObjectId; // MongoDB auto-generated ObjectId
+  Image: string;
   Class: string;
   Brand: string;
   Model: string;
@@ -38,6 +39,7 @@ interface ICar extends Document {
 // Define the schema
 const carSchema: Schema = new Schema({
   _id: { type: Schema.Types.ObjectId, auto: true }, // Explicitly define ObjectId
+  Image: { type: String, required: false },
   Class: { type: String, required: true },
   Brand: { type: String, required: true },
   Model: { type: String, required: true },
