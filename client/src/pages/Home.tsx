@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <PageTab title="Home">
-        <Header text="About ALU" />
+        <Header text="Asphalt Legends Unite Tracker" />
         <GameInfo />
         <ImageCarousel project={Carousel} /> {/* ✅ Using updated Carousel */}
       </PageTab>
