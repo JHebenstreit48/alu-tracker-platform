@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import PageTab from "@/components/PageTab";
 import ClassTables from "@/CarsByClass/ClassTables";
 import CarFilters from "@/CarsByClass/CarFilters";
-import "@/CSS/CarsByClass.css";
+import "@/SCSS/Cars/CarsByClass.scss";
 
 // Move constant OUTSIDE of the component (important!)
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";

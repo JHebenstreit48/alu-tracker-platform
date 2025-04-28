@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 import { Car } from "@/CarDetails/CarInterfaces";
-import CarDetailsSetup from "@/CarDetails/CarDetailsSetup";
+import CarImage from "@/CarDetails/CarImage";
+import ClassRank from "@/CarDetails/ClassRank";
+import MaxStats from "@/CarDetails/MaxStats";
 import BlueprintsTable from "@/CarDetails/BlueprintsTable";
-import "@/CSS/CarDetail.css";
+import "@/SCSS/Cars/CarDetail.scss";
 
 const CarDetail = () => {
   const { id } = useParams();
@@ -33,7 +35,7 @@ const CarDetail = () => {
     if (id) {
       fetchCarDetails(id);
     }
-  }, [id, API_BASE_URL]); // ✅ Correct dependency array now
+  }, [id, API_BASE_URL]);
 
   const handleGoBack = () => {
     const lastSelectedClass = location.state?.selectedClass;
@@ -44,12 +46,26 @@ const CarDetail = () => {
   if (!car) return <div className="loading-message">Loading car details...</div>;
 
   return (
-    <div>
-      <CarDetailsSetup
-        car={car}
-        unitPreference={unitPreference}
-        handleGoBack={handleGoBack}
-      />
+    <div className="car-detail">
+      <div>
+        <button className="backBtn" onClick={handleGoBack}>
+          Back
+        </button>
+      </div>
+
+      <div>
+        <h1 className="carName">{car.Brand} {car.Model}</h1>
+      </div>
+
+      <CarImage car={car} />
+
+      {/* NEW Grid Wrapper for ClassRank + MaxStats */}
+      <div className="carDetailTables">
+        <ClassRank car={car} />
+        <MaxStats car={car} unitPreference={unitPreference} />
+      </div>
+
+      {/* Blueprint Table stays full width below */}
       <BlueprintsTable car={car} />
     </div>
   );

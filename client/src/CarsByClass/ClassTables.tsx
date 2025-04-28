@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import starIcon from "@/assets/star-icon/star-icon.png";
-import "@/CSS/CarsByClass.css";
 
 interface Car {
     _id: string;

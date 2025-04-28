@@ -10,7 +10,6 @@ const BlueprintsTable: React.FC<Props> = ({ car }) => {
     return <div>No blueprint data available for security cars.</div>;
   }
 
-  // Extract and filter blueprint entries from the car object
   const blueprintEntries = Object.entries(car)
     .filter(
       ([key, value]) =>
@@ -23,8 +22,13 @@ const BlueprintsTable: React.FC<Props> = ({ car }) => {
     return <div>No blueprint data available.</div>;
   }
 
+  const totalBlueprints = blueprintEntries.reduce(
+    (sum, [, value]) => sum + (typeof value === "number" ? value : 0),
+    0
+  );
+
   return (
-    <table className="blueprintsRequired">
+    <table className="carInfoTable">
       <thead>
         <tr>
           <th className="tableHeader2" colSpan={2}>Blueprints</th>
@@ -36,29 +40,27 @@ const BlueprintsTable: React.FC<Props> = ({ car }) => {
 
           return (
             <tr key={key}>
-              <td style={{ textAlign: "center", display: "flex" }}>
-                <div style={{ width: "50%" }}>
-                  <span style={{ marginRight: "8px" }}>Blueprints:</span>
-                </div>
-                <div style={{ width: "50%" }}>
+              <td style={{ textAlign: "center" }}>
+                <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                   {Array.from({ length: starCount }, (_, i) => (
                     <img
                       key={i}
                       src={starIcon}
                       alt="star"
-                      style={{ width: "30px", height: "30px", marginLeft: "2px" }}
+                      className="starIcon"
                     />
                   ))}
                 </div>
               </td>
-              <td>{value}</td>
+              <td style={{ textAlign: "center" }}>{value}</td>
             </tr>
           );
         })}
 
         <tr>
-          <td style={{ textAlign: "center" }}>Total Blueprints</td>
-          <td>{car.Total_BPs ?? 0}</td>
+          <td colSpan={2} className="blueprintTotalLabel">
+            Total Blueprints: {totalBlueprints}
+          </td>
         </tr>
       </tbody>
     </table>
