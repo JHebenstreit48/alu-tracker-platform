@@ -1,34 +1,65 @@
-.brand-info-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  color: white;
-
-  .brand-name {
-    font-size: 4rem;
-    margin-bottom: 2rem;
-  }
-
-  .brand-logo {
-    width: 8rem;
-  }
-
-  .brand-description {
-    margin-top: 20px;
-    font-size: 1.4rem;
-    text-align: center;
-    max-width: 52rem;
-  }
-
-  .brand-details {
-    margin: 1.5rem 0;
-    font-size: 1.2rem;
-    max-width: 600px;
-  }
-
-  .brand-resources {
-    margin-bottom: 5rem;
-  }
-}
+/* =============================
+   Variables
+   ============================= */
+   $brand-text-color: white;
+   $brand-padding: 20px;
+   $brand-max-width: 52rem;
+   $brand-details-max-width: 600px;
+   $brand-logo-width: 8rem;
+   
+   $cellphone-portrait: 390px;
+   $cellphone-landscape: 390px;
+   
+   /* =============================
+      Brand Info Page Layout
+      ============================= */
+   .brand-info-page {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: $brand-padding;
+     color: $brand-text-color;
+   
+     /* =============================
+         Brand Name
+         ============================= */
+     .brand-name {
+       font-size: 4rem;
+       margin-bottom: 2rem;
+     }
+   
+     /* =============================
+         Brand Logo
+         ============================= */
+     .brand-logo {
+       width: $brand-logo-width;
+     }
+   
+     /* =============================
+         Brand Description
+         ============================= */
+     .brand-description {
+       margin-top: 20px;
+       font-size: 1.4rem;
+       text-align: center;
+       max-width: $brand-max-width;
+     }
+   
+     /* =============================
+         Brand Details
+         ============================= */
+     .brand-details {
+       margin: 1.5rem 0;
+       font-size: 1.2rem;
+       max-width: $brand-details-max-width;
+     }
+   
+     /* =============================
+         Brand Resources
+         ============================= */
+     .brand-resources {
+       margin-bottom: 5rem;
+     }
+   }
+   
