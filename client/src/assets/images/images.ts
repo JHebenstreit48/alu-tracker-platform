@@ -70,20 +70,6 @@ import MaseratiMC12 from "@/assets/car-photos/M/Maserati/maserati-mc12.jpg";
 import MaseratiMC20 from "@/assets/car-photos/M/Maserati/maserati-mc20.jpg";
 import MaseratiMC20GT2 from "@/assets/car-photos/M/Maserati/maserati-mc20-gt2.jpg";
 import MazdaFurai from "@/assets/car-photos/M/Mazda/mazda-furai.jpg";
-import Mclaren570SSpider from "@/assets/car-photos/M/McLaren/mclaren-570s-spider.jpg";
-import Mclaren600LTSpider from "@/assets/car-photos/M/McLaren/mclaren-600lt-spider.jpg";
-import Mclaren650SGT3 from "@/assets/car-photos/M/McLaren/mclaren-650s-gt3.jpg";
-import Mclaren765LT from "@/assets/car-photos/M/McLaren/mclaren-765lt.jpg";
-import MclarenArtura from "@/assets/car-photos/M/McLaren/mclaren-artura.jpg";
-import MclarenElva from "@/assets/car-photos/M/McLaren/mclaren-elva.jpg";
-import MclarenF1lm from "@/assets/car-photos/M/McLaren/mclaren-f1lm.jpg";
-import MclarenGT from "@/assets/car-photos/M/McLaren/mclaren-gt.jpg";
-import MclarenP1 from "@/assets/car-photos/M/McLaren/mclaren-p1.jpg";
-import MclarenSabre from "@/assets/car-photos/M/McLaren/mclaren-sabre.jpg";
-import MclarenSenna from "@/assets/car-photos/M/McLaren/mclaren-senna.jpg";
-import MclarenSennaGTR from "@/assets/car-photos/M/McLaren/mclaren-senna-gtr.jpg";
-import MclarenSolusGT from "@/assets/car-photos/M/McLaren/mclaren-solus-gt.jpg";
-import MclarenSpeedtail from "@/assets/car-photos/M/McLaren/mclaren-speedtail.jpg";
 import McmurtrySpéirling from "@/assets/car-photos/M/McMurtry/mcmurtry-speirling.jpg";
 import MercedesBenz2022ShowcarVisionAMG from "@/assets/car-photos/M/MercedesBenz/mercedes-benz-2022-showcar-vision-amg.jpg";
 import MercedesBenzAMGGTS from "@/assets/car-photos/M/MercedesBenz/mercedes-benz-amg-gt-s.jpg";
@@ -102,12 +88,6 @@ import NissanGTRNismo from "@/assets/car-photos/N/Nissan/nissan-gt-r-nismo.jpg";
 import NissanLeafNismoRC from "@/assets/car-photos/N/Nissan/nissan-leaf-nismo-rc.jpg";
 import NissanR390GT1 from "@/assets/car-photos/N/Nissan/nissan-r390gt1.jpg";
 import NobleM600Speedster from "@/assets/car-photos/N/Noble/noble-m600-speedster.jpg";
-import PaganiHuayraBC from "@/assets/car-photos/P/Pagani/pagani-huayra-bc.jpg";
-import PaganiHuayraR from "@/assets/car-photos/P/Pagani/pagani-huayra-r.jpg";
-import PaganiImola from "@/assets/car-photos/P/Pagani/pagani-imola.jpg";
-import PaganiUtopiaCoupe from "@/assets/car-photos/P/Pagani/pagani-utopia-coupe.jpg";
-import PaganiZondaHPBarchetta from "@/assets/car-photos/P/Pagani/pagani-zonda-hp-barchetta.jpg";
-import PaganiZondaR from "@/assets/car-photos/P/Pagani/pagani-zonda-r.jpg";
 import Peugeot9x8 from "@/assets/car-photos/P/Peugeot/peugeot-9x8.jpg";
 import PeugeotSR1 from "@/assets/car-photos/P/Peugeot/peugeot-sr1.jpg";
 import PeugotOnyx from "@/assets/car-photos/P/Peugeot/peugeot-onyx.jpg";
@@ -225,20 +205,6 @@ export const Images: Record<string, string> = {
   MaseratiMC20,
   MaseratiMC20GT2,
   MazdaFurai,
-  Mclaren570SSpider,
-  Mclaren600LTSpider,
-  Mclaren650SGT3,
-  Mclaren765LT,
-  MclarenArtura,
-  MclarenElva,
-  MclarenF1lm,
-  MclarenGT,
-  MclarenP1,
-  MclarenSabre,
-  MclarenSenna,
-  MclarenSennaGTR,
-  MclarenSolusGT,
-  MclarenSpeedtail,
   McmurtrySpéirling,
   MercedesBenz2022ShowcarVisionAMG,
   MercedesBenzAMGGTS,
@@ -257,12 +223,6 @@ export const Images: Record<string, string> = {
   NissanLeafNismoRC,
   NissanR390GT1,
   NobleM600Speedster,
-  PaganiHuayraBC,
-  PaganiHuayraR,
-  PaganiImola,
-  PaganiUtopiaCoupe,
-  PaganiZondaHPBarchetta,
-  PaganiZondaR,
   Peugeot9x8,
   PeugeotSR1,
   PeugotOnyx,
