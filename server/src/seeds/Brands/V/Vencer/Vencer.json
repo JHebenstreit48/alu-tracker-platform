@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/V/Vencer/sarthe.jpg",
     "Class": "C",
     "Brand": "Vencer",
     "Model": "Sarthe",
@@ -28,10 +29,6 @@
     "BPs_2_Star": 15,
     "BPs_3_Star": 21,
     "BPs_4_Star": 28,
-    "BPs_5_Star": 35,
-    "BPs_6_Star": null,
-    "Total_BPs": 134,
-    "Unnamed: 32": 23638,
-    "Cost epic": 6000
+    "BPs_5_Star": 35
   }
 ]

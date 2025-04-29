@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/Z/Zenvo/auroratur.jpg",
     "Class": "S",
     "Brand": "Zenvo",
     "Model": "Aurora Tur",
@@ -29,13 +30,11 @@
     "BPs_3_Star": 29,
     "BPs_4_Star": 38,
     "BPs_5_Star": 54,
-    "BPs_6_Star": 69,
-    "Total_BPs": 300,
-    "Unnamed: 32": 55100,
-    "Cost epic": null
+    "BPs_6_Star": 69
   },
   {
     "Id": 2,
+    "Image": "/images/cars/Z/Zenvo/ts1gtanniversaryedition.jpg",
     "Class": "S",
     "Brand": "Zenvo",
     "Model": "TS1 GT Anniversary Edition",
@@ -64,9 +63,6 @@
     "BPs_3_Star": 16,
     "BPs_4_Star": 25,
     "BPs_5_Star": 38,
-    "BPs_6_Star": 48,
-    "Total_BPs": 200,
-    "Unnamed: 32": 54514,
-    "Cost epic": 15000
+    "BPs_6_Star": 48
   }
 ]
