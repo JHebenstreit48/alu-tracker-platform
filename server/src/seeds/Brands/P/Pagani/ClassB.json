@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/P/Pagani/huayrar.jpg",
     "Class": "B",
     "Brand": "Pagani",
     "Model": "Huayra R",
@@ -29,9 +30,6 @@
     "BPs_3_Star": 24,
     "BPs_4_Star": 32,
     "BPs_5_Star": 50,
-    "BPs_6_Star": 61,
-    "Total_BPs": 240,
-    "Unnamed: 32": 34363,
-    "Cost epic": 0
+    "BPs_6_Star": 61
   }
 ]

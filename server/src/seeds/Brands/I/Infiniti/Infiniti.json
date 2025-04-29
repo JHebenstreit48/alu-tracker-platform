@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/I/Infiniti/projectblacks.jpg",
     "Class": "D",
     "Brand": "Infiniti",
     "Model": "Project Black S",
@@ -27,11 +28,6 @@
     "BPs_1_Star": 30,
     "BPs_2_Star": 23,
     "BPs_3_Star": 33,
-    "BPs_4_Star": 42,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 128,
-    "Unnamed: 32": 12386,
-    "Cost epic": 6000
+    "BPs_4_Star": 42
   }
 ]

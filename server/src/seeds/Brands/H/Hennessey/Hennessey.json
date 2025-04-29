@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/H/Hennessey/venomf5.jpg",
     "Class": "S",
     "Brand": "Hennessey",
     "Model": "Venom F5",
@@ -29,9 +30,6 @@
     "BPs_3_Star": 29,
     "BPs_4_Star": 38,
     "BPs_5_Star": 54,
-    "BPs_6_Star": 69,
-    "Total_BPs": 300,
-    "Unnamed: 32": 55114,
-    "Cost epic": 0
+    "BPs_6_Star": 69
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/J/Jaguar/cx75.jpg",
     "Class": "A",
     "Brand": "Jaguar",
     "Model": "C-X75",
@@ -28,14 +29,11 @@
     "BPs_2_Star": 23,
     "BPs_3_Star": 27,
     "BPs_4_Star": 36,
-    "BPs_5_Star": 51,
-    "BPs_6_Star": null,
-    "Total_BPs": 187,
-    "Unnamed: 32": 43898,
-    "Cost epic": 0
+    "BPs_5_Star": 51
   },
   {
     "Id": 2,
+    "Image": "/images/cars/J/Jaguar/xjr9.jpg",
     "Class": "A",
     "Brand": "Jaguar",
     "Model": "XJR-9",
@@ -64,9 +62,6 @@
     "BPs_3_Star": 40,
     "BPs_4_Star": 50,
     "BPs_5_Star": 65,
-    "BPs_6_Star": 80,
-    "Total_BPs": 265,
-    "Unnamed: 32": 44551,
-    "Cost epic": null
+    "BPs_6_Star": 80
   }
 ]

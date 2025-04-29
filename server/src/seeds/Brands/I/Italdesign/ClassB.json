@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/I/Italdesign/zerouno",
     "Class": "B",
     "Brand": "Italdesign",
     "Model": "Zerouno",
@@ -27,11 +28,6 @@
     "BPs_1_Star": 40,
     "BPs_2_Star": 35,
     "BPs_3_Star": 44,
-    "BPs_4_Star": 54,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 173,
-    "Unnamed: 32": 33245,
-    "Cost epic": 8000
+    "BPs_4_Star": 54
   }
 ]
