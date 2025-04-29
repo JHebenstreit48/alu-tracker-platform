@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/F/Ford/gt",
     "Class": "B",
     "Brand": "Ford",
     "Model": "GT",
@@ -27,15 +28,11 @@
     "BPs_1_Star": 35,
     "BPs_2_Star": 12,
     "BPs_3_Star": 24,
-    "BPs_4_Star": 36,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 107,
-    "Unnamed: 32": 32816,
-    "Cost epic": 8000
+    "BPs_4_Star": 36
   },
   {
     "Id": 2,
+    "Image": "/images/cars/F/Ford/mustangrtrspec510thanniversary.jpg",
     "Class": "B",
     "Brand": "Ford",
     "Model": "Mustang RTR Spec 5 10th Anniversary",
@@ -62,15 +59,11 @@
     "BPs_1_Star": 55,
     "BPs_2_Star": 35,
     "BPs_3_Star": 44,
-    "BPs_4_Star": 54,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 188,
-    "Unnamed: 32": 33025,
-    "Cost epic": null
+    "BPs_4_Star": 54
   },
   {
     "Id": 3,
+    "Image": "/images/cars/F/Ford/gtmkII.jpg",
     "Class": "B",
     "Brand": "Ford",
     "Model": "GT MK II",
@@ -97,11 +90,6 @@
     "BPs_1_Star": 0,
     "BPs_2_Star": 35,
     "BPs_3_Star": 55,
-    "BPs_4_Star": 85,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 175,
-    "Unnamed: 32": 33200,
-    "Cost epic": 8000
+    "BPs_4_Star": 85
   }
 ]

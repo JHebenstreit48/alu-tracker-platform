@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/B/Bugatti/chironpursport.jpg",
     "Class": "S",
     "Brand": "Bugatti",
     "Model": "Chiron Pur Sport",
@@ -29,13 +30,11 @@
     "BPs_3_Star": 29,
     "BPs_4_Star": 38,
     "BPs_5_Star": 54,
-    "BPs_6_Star": 69,
-    "Total_BPs": 300,
-    "Unnamed: 32": 54821,
-    "Cost epic": null
+    "BPs_6_Star": 69
   },
   {
     "Id": 2,
+    "Image": "/images/cars/B/Bugatti/bolide.jpg",
     "Class": "S",
     "Brand": "Bugatti",
     "Model": "Bolide",
@@ -64,13 +63,11 @@
     "BPs_3_Star": 45,
     "BPs_4_Star": 60,
     "BPs_5_Star": 70,
-    "BPs_6_Star": 85,
-    "Total_BPs": 300,
-    "Unnamed: 32": 55190,
-    "Cost epic": null
+    "BPs_6_Star": 85
   },
   {
     "Id": 3,
+    "Image": "/images/cars/B/Bugatti/chironsecurity.jpg",
     "Class": "S",
     "Brand": "Bugatti",
     "Model": "Chiron Security",
@@ -106,6 +103,7 @@
   },
   {
     "Id": 4,
+    "Image": "/images/cars/B/Bugatti/lavoiturenoire.jpg",
     "Class": "S",
     "Brand": "Bugatti",
     "Model": "La Voiture Noire",
@@ -134,13 +132,11 @@
     "BPs_3_Star": 45,
     "BPs_4_Star": 60,
     "BPs_5_Star": 70,
-    "BPs_6_Star": 85,
-    "Total_BPs": 300,
-    "Unnamed: 32": 55041,
-    "Cost epic": 0
+    "BPs_6_Star": 85
   },
   {
     "Id": 5,
+    "Image": "/images/cars/B/Bugatti/chironsupersport300plus.jpg",
     "Class": "S",
     "Brand": "Bugatti",
     "Model": "Chiron Super Sport 300+",
@@ -169,13 +165,11 @@
     "BPs_3_Star": 45,
     "BPs_4_Star": 60,
     "BPs_5_Star": 70,
-    "BPs_6_Star": 85,
-    "Total_BPs": 300,
-    "Unnamed: 32": 54983,
-    "Cost epic": null
+    "BPs_6_Star": 85
   },
   {
     "Id": 6,
+    "Image": "/images/cars/B/Bugatti/mistral.jpg",
     "Class": "S",
     "Brand": "Bugatti",
     "Model": "Mistral",
@@ -204,13 +198,11 @@
     "BPs_3_Star": 29,
     "BPs_4_Star": 38,
     "BPs_5_Star": 54,
-    "BPs_6_Star": 69,
-    "Total_BPs": 300,
-    "Unnamed: 32": 54859,
-    "Cost epic": null
+    "BPs_6_Star": 69
   },
   {
     "Id": 7,
+    "Image": "/images/cars/B/Bugatti/centodieci.jpg",
     "Class": "S",
     "Brand": "Bugatti",
     "Model": "Centodieci",
@@ -239,13 +231,11 @@
     "BPs_3_Star": 45,
     "BPs_4_Star": 60,
     "BPs_5_Star": 70,
-    "BPs_6_Star": 85,
-    "Total_BPs": 300,
-    "Unnamed: 32": 54843,
-    "Cost epic": 0
+    "BPs_6_Star": 85
   },
   {
     "Id": 8,
+    "Image": "/images/cars/B/Bugatti/divo.jpg",
     "Class": "S",
     "Brand": "Bugatti",
     "Model": "Divo",
@@ -274,13 +264,11 @@
     "BPs_3_Star": 29,
     "BPs_4_Star": 38,
     "BPs_5_Star": 54,
-    "BPs_6_Star": 69,
-    "Total_BPs": 300,
-    "Unnamed: 32": 54773,
-    "Cost epic": 0
+    "BPs_6_Star": 69
   },
   {
     "Id": 9,
+    "Image": "/images/cars/B/Bugatti/chiron.jpg",
     "Class": "S",
     "Brand": "Bugatti",
     "Model": "Chiron",
@@ -309,13 +297,11 @@
     "BPs_3_Star": 16,
     "BPs_4_Star": 25,
     "BPs_5_Star": 38,
-    "BPs_6_Star": 48,
-    "Total_BPs": 200,
-    "Unnamed: 32": 54755,
-    "Cost epic": 15000
+    "BPs_6_Star": 48
   },
   {
     "Id": 10,
+    "Image": "/images/cars/B/Bugatti/veyron164grandsportvitesse.jpg",
     "Class": "S",
     "Brand": "Bugatti",
     "Model": "Veyron 16.4 Grand Sport Vitesse",
@@ -344,9 +330,6 @@
     "BPs_3_Star": 29,
     "BPs_4_Star": 38,
     "BPs_5_Star": 54,
-    "BPs_6_Star": 69,
-    "Total_BPs": 300,
-    "Unnamed: 32": 54406,
-    "Cost epic": 0
+    "BPs_6_Star": 69
   }
 ]

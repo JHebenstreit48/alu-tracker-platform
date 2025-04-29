@@ -37,6 +37,7 @@
   },
   {
     "Id": 2,
+    "Image": "/images/cars/M/McLaren/senna.jpg",
     "Class": "S",
     "Brand": "McLaren",
     "Model": "Senna",

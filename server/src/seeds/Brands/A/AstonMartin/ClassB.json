@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/A/AstonMartin/one77.jpg",
     "Class": "B",
     "Brand": "Aston Martin",
     "Model": "One77",
@@ -28,14 +29,11 @@
     "BPs_2_Star": 17,
     "BPs_3_Star": 23,
     "BPs_4_Star": 32,
-    "BPs_5_Star": 45,
-    "BPs_6_Star": null,
-    "Total_BPs": 162,
-    "Unnamed: 32": 34022,
-    "Cost epic": 0
+    "BPs_5_Star": 45
   },
   {
     "Id": 2,
+    "Image": "/images/cars/A/AstonMartin/dbssuperleggera.jpg",
     "Class": "B",
     "Brand": "Aston Martin",
     "Model": "DBS Superleggera",
@@ -63,14 +61,11 @@
     "BPs_2_Star": 17,
     "BPs_3_Star": 23,
     "BPs_4_Star": 32,
-    "BPs_5_Star": 45,
-    "BPs_6_Star": null,
-    "Total_BPs": 162,
-    "Unnamed: 32": 34059,
-    "Cost epic": 8000
+    "BPs_5_Star": 45
   },
   {
     "Id": 3,
+    "Image": "/images/cars/A/AstonMartin/db11.jpg",
     "Class": "B",
     "Brand": "Aston Martin",
     "Model": "DB11",
@@ -96,16 +91,11 @@
     "Tags": "Europe",
     "BPs_1_Star": 30,
     "BPs_2_Star": 30,
-    "BPs_3_Star": 70,
-    "BPs_4_Star": null,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 130,
-    "Unnamed: 32": 32330,
-    "Cost epic": 8000
+    "BPs_3_Star": 70
   },
   {
     "Id": 4,
+    "Image": "/images/cars/A/AstonMartin/vantagegt12.jpg",
     "Class": "B",
     "Brand": "Aston Martin",
     "Model": "Vantage GT12",
@@ -133,14 +123,11 @@
     "BPs_2_Star": 17,
     "BPs_3_Star": 23,
     "BPs_4_Star": 32,
-    "BPs_5_Star": 45,
-    "BPs_6_Star": null,
-    "Total_BPs": 162,
-    "Unnamed: 32": 33946,
-    "Cost epic": 8000
+    "BPs_5_Star": 45
   },
   {
     "Id": 5,
+    "Image": "/images/cars/A/AstonMartin/valour.jpg",
     "Class": "B",
     "Brand": "Aston Martin",
     "Model": "Valour",
@@ -167,15 +154,11 @@
     "BPs_1_Star": 0,
     "BPs_2_Star": 35,
     "BPs_3_Star": 55,
-    "BPs_4_Star": 85,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 175,
-    "Unnamed: 32": 33178,
-    "Cost epic": null
+    "BPs_4_Star": 85
   },
   {
     "Id": 6,
+    "Image": "/images/cars/A/AstonMartin/db12.jpg",
     "Class": "B",
     "Brand": "Aston Martin",
     "Model": "DB12",
@@ -203,10 +186,6 @@
     "BPs_2_Star": 17,
     "BPs_3_Star": 23,
     "BPs_4_Star": 32,
-    "BPs_5_Star": 45,
-    "BPs_6_Star": null,
-    "Total_BPs": 162,
-    "Unnamed: 32": 33580,
-    "Cost epic": null
+    "BPs_5_Star": 45
   }
 ]

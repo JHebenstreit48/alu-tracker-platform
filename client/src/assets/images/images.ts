@@ -1,47 +1,5 @@
 import StarIcon from "@/assets/star-icon/star-icon.png";
 
-import ExoticRidesW70 from "@/assets/car-photos/E/ExoticRides/exotic-rides-w70.jpg";
-import FaradayFutureFFZero1 from "@/assets/car-photos/F/FaradayFuture/faraday-future-ffzero1.jpg";
-import Ferrari296GTB from "@/assets/car-photos/F/Ferrari/ferrari-296-gtb.jpg";
-import Ferrari488ChallengeEvo from "@/assets/car-photos/F/Ferrari/ferrari-488-challenge-evo.jpg";
-import Ferrari488GTB from "@/assets/car-photos/F/Ferrari/ferrari-488-gtb.jpg";
-import Ferrari599xxEvo from "@/assets/car-photos/F/Ferrari/ferrari-599xx-evo.jpg";
-import Ferrari812Superfast from "@/assets/car-photos/F/Ferrari/ferrari-812-superfast.jpg";
-import FerrariDaytonaSP3 from "@/assets/car-photos/F/Ferrari/ferrari-daytona-sp3.jpg";
-import FerrariEnzo from "@/assets/car-photos/F/Ferrari/ferrari-enzo.jpg";
-import FerrariF8Tributo from "@/assets/car-photos/F/Ferrari/ferrari-f8-tributo.jpg";
-import FerrariF12TDF from "@/assets/car-photos/F/Ferrari/ferrari-f12tdf.jpg";
-import FerrariF40 from "@/assets/car-photos/F/Ferrari/ferrari-f40.jpg";
-import FerrariF50 from "@/assets/car-photos/F/Ferrari/ferrari-f50.jpg";
-import FerrariJ50 from "@/assets/car-photos/F/Ferrari/ferrari-j50.jpg";
-import FerrariLaFerrariAperta from "@/assets/car-photos/F/Ferrari/ferrari-laferrari-aperta.jpg";
-import FerrariMonzaSP1 from "@/assets/car-photos/F/Ferrari/ferrari-monza-sp1.jpg";
-import FerrariRoma from "@/assets/car-photos/F/Ferrari/ferrari-roma.jpg";
-import FerrariSF90Stradale from "@/assets/car-photos/F/Ferrari/ferrari-sf90-stradale.jpg";
-import FerrariSF90XXStradale from "@/assets/car-photos/F/Ferrari/ferrari-sf90-xx-stradale.jpg";
-import FordGT from "@/assets/car-photos/F/Ford/ford-gt.jpg";
-import FordGTFrankieEdition from "@/assets/car-photos/F/Ford/ford-gt-frankie-edition.jpg";
-import FordGTMkII from "@/assets/car-photos/F/Ford/ford-gt-mk-II.jpg";
-import FordMustangMachE1400 from "@/assets/car-photos/F/Ford/ford-mustang-mach-e1400.jpg";
-import FordMustangRTRSpec510thAnniversary from "@/assets/car-photos/F/Ford/ford-mustang-rtr-spec-5-10th-anniv.jpg";
-import FordShelbyGR1 from "@/assets/car-photos/F/Ford/ford-shelby-gr-1.jpg";
-import FordShelbyGT350R from "@/assets/car-photos/F/Ford/ford-shelby-gt350r.jpg";
-import FordShelbySuperSnake from "@/assets/car-photos/F/Ford/ford-shelby-super-snake.jpg";
-import FordTeamFordzillaP1 from "@/assets/car-photos/F/Ford/ford-team-fordzilla-p1.jpg";
-import FormulaEGen2AsphaltEdition from "@/assets/car-photos/F/FormulaE/formula-e-gen-2-asphalt-edition.jpg";
-import FVFrangiventoAsfane from "@/assets/car-photos/F/FVFrangivento/fv-frangivento-asfane.jpg";
-import FVFrangiventoSorpassoGT3 from "@/assets/car-photos/F/FVFrangivento/fv-frangivento-sorpasso-gt3.jpg";
-import GentyAkylone from "@/assets/car-photos/G/Genty/genty-akylone.jpg";
-import GinettaG60 from "@/assets/car-photos/G/Ginetta/ginetta-g60.jpg";
-import Glickenhaus003S from "@/assets/car-photos/G/Glickenhaus/glickenhaus-003s.jpg";
-import Glickenhaus004C from "@/assets/car-photos/G/Glickenhaus/glickenhaus-004c.jpg";
-import Glickenhaus007S from "@/assets/car-photos/G/Glickenhaus/glickenhaus-007s.jpg";
-import HennesseyVenomF5 from "@/assets/car-photos/H/Hennessey/hennessey-venom-f5.jpg";
-import HondaCivicTypeR from "@/assets/car-photos/H/Honda/honda-civic-type-r.jpg";
-import IconaVulcanoTitanium from "@/assets/car-photos/I/Icona/icona-vulcano-titanium.jpg";
-import InfinitiProjectBlackS from "@/assets/car-photos/I/Infiniti/infiniti-project-black-s.jpg";
-import ItaldesignDaVinci from "@/assets/car-photos/I/Italdesign/italdesign-davinci.jpg";
-import ItaldesignZerouno from "@/assets/car-photos/I/Italdesign/italdesign-zerouno.jpg";
 import JaguarCX75 from "@/assets/car-photos/J/Jaguar/jaguar-c-x75.jpg";
 import JaguarFTypeSVR from "@/assets/car-photos/J/Jaguar/jaguar-f-type-svr.jpg";
 import JaguarXESVProject8 from "@/assets/car-photos/J/Jaguar/jaguar-xe-sv-project-8.jpg";
@@ -131,48 +89,6 @@ import ZenvoTSRS from "@/assets/car-photos/Z/Zenvo/zenvo-tsr-s.jpg";
 export const Images: Record<string, string> = {
   StarIcon,
 
-  ExoticRidesW70,
-  FaradayFutureFFZero1,
-  Ferrari296GTB,
-  Ferrari488ChallengeEvo,
-  Ferrari488GTB,
-  Ferrari599xxEvo,
-  Ferrari812Superfast,
-  FerrariDaytonaSP3,
-  FerrariEnzo,
-  FerrariF8Tributo,
-  FerrariF12TDF,
-  FerrariF40,
-  FerrariF50,
-  FerrariJ50,
-  FerrariLaFerrariAperta,
-  FerrariMonzaSP1,
-  FerrariRoma,
-  FerrariSF90Stradale,
-  FerrariSF90XXStradale,
-  FordGTFrankieEdition,
-  FordGTMkII,
-  FordGT,
-  FordMustangMachE1400,
-  FordMustangRTRSpec510thAnniversary,
-  FordShelbyGR1,
-  FordShelbyGT350R,
-  FordShelbySuperSnake,
-  FordTeamFordzillaP1,
-  FormulaEGen2AsphaltEdition,
-  FVFrangiventoAsfane,
-  FVFrangiventoSorpassoGT3,
-  GentyAkylone,
-  GinettaG60,
-  Glickenhaus003S,
-  Glickenhaus004C,
-  Glickenhaus007S,
-  HennesseyVenomF5,
-  HondaCivicTypeR,
-  IconaVulcanoTitanium,
-  InfinitiProjectBlackS,
-  ItaldesignDaVinci,
-  ItaldesignZerouno,
   JaguarCX75,
   JaguarFTypeSVR,
   JaguarXESVProject8,

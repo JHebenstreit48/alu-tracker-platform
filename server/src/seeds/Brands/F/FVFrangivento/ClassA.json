@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/F/FVFrangivento/asfane.jpg",
     "Class": "A",
     "Brand": "FV Frangivento",
     "Model": "Asfanè",
@@ -29,9 +30,6 @@
     "BPs_3_Star": 40,
     "BPs_4_Star": 50,
     "BPs_5_Star": 65,
-    "BPs_6_Star": 80,
-    "Total_BPs": 265,
-    "Unnamed: 32": 44377,
-    "Cost epic": null
+    "BPs_6_Star": 80
   }
 ]

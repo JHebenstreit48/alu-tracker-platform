@@ -5,6 +5,7 @@ export type ImageCarouselType = {
 
 const Carousel: ImageCarouselType[] = [
   { path: "/images/cars/P/Pagani/huayrabc.jpg" },
+  { path: "/images/cars/D/Devel/sixteen.jpg" },
   { path: "/images/cars/L/Lamborghini/huracanevospyder.jpg" },
   { path: "/images/cars/M/McLaren/speedtail.jpg" },
   { path: "/images/cars/L/Lamborghini/sianfkp37.jpg" },
@@ -12,6 +13,7 @@ const Carousel: ImageCarouselType[] = [
   { path: "/images/cars/A/AstonMartin/valhallaconceptcar.jpg" },
   { path: "/images/cars/L/Lamborghini/sestoelemento.jpg" },
   { path: "/images/cars/F/Ferrari/fxxk.jpg" },
+  { path: "/images/cars/B/Bugatti/chironpursport.jpg" },
   { path: "/images/cars/V/VandaElectrics/dendrobium.jpg" },
   { path: "/images/cars/P/Porsche/911gt3rs.jpg" },
   { path: "/images/cars/B/Bugatti/chiron.jpg" },
@@ -22,7 +24,8 @@ const Carousel: ImageCarouselType[] = [
   { path: "/images/cars/L/Lamborghini/centenario.jpg" },
   { path: "/images/cars/A/AstonMartin/valkyrie.jpg" },
   { path: "/images/cars/A/AutomobiliPininfarina/battista.jpg" },
-  { path: "/images/cars/B/Bugatti/veyron164grandsportvitesse164.jpg" },
+  { path: "/images/cars/M/McLaren/senna.jpg" },
+  { path: "/images/cars/B/Bugatti/veyron164grandsportvitesse.jpg" },
 ];
 
 export default Carousel;

@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/F/Ford/gtfrankieedition.jpg",
     "Class": "A",
     "Brand": "Ford",
     "Model": "GT Frankie Edition",
@@ -28,14 +29,11 @@
     "BPs_2_Star": 23,
     "BPs_3_Star": 27,
     "BPs_4_Star": 36,
-    "BPs_5_Star": 51,
-    "BPs_6_Star": null,
-    "Total_BPs": 187,
-    "Unnamed: 32": 43974,
-    "Cost epic": null
+    "BPs_5_Star": 51
   },
   {
     "Id": 2,
+    "Image": "/images/cars/F/Ford/teamfordzillap1.jpg",
     "Class": "A",
     "Brand": "Ford",
     "Model": "Team Fordzilla P1",
@@ -64,9 +62,6 @@
     "BPs_3_Star": 27,
     "BPs_4_Star": 36,
     "BPs_5_Star": 52,
-    "BPs_6_Star": 59,
-    "Total_BPs": 267,
-    "Unnamed: 32": 44548,
-    "Cost epic": null
+    "BPs_6_Star": 59
   }
 ]
