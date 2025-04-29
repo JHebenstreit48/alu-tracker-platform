@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/M/Mitsubishi/lancerevolution.jpg",
     "Class": "D",
     "Brand": "Mitsubishi",
     "Model": "Lancer Evolution",
@@ -27,9 +28,6 @@
     "BPs_1_Star": 5,
     "BPs_2_Star": 8,
     "BPs_3_Star": 30,
-    "Total_BPs": 43,
-    "Unnamed: 32": 11381,
-    "Cost_epic": 6000,
     "Stage_1_Top_Speed": "100,1",
     "Stage_1_Acceleration": "25,03",
     "Stage_1_Handling": "25,79",

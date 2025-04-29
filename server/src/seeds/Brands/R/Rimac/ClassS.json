@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/R/Rimac/nevera.jpg",
     "Class": "S",
     "Brand": "Rimac",
     "Model": "Nevera",
@@ -29,13 +30,11 @@
     "BPs_3_Star": 45,
     "BPs_4_Star": 60,
     "BPs_5_Star": 70,
-    "BPs_6_Star": 85,
-    "Total_BPs": 300,
-    "Unnamed: 32": 54897,
-    "Cost epic": 0
+    "BPs_6_Star": 85
   },
   {
     "Id": 2,
+    "Image": "/images/cars/R/Rimac/concepts.jpg",
     "Class": "S",
     "Brand": "Rimac",
     "Model": "Concept S",
@@ -64,19 +63,28 @@
     "BPs_3_Star": 29,
     "BPs_4_Star": 38,
     "BPs_5_Star": 54,
-    "BPs_6_Star": 69,
-    "Total_BPs": 300,
-    "Unnamed: 32": 54528,
-    "Cost epic": null
+    "BPs_6_Star": 69
   },
   {
     "Id": 3,
+    "Image": "/images/cars/R/Rimac/neveratimeattack.jpg",
     "Class": "S",
     "Brand": "Rimac",
     "Model": "Nevera Time Attack",
     "Rarity": "Epic",
     "Stars": 6,
-    "Garage_Lvl": null,
-    "Country": "Croatia"
+    "Max_Rank": 4835,
+    "Epics": 16,
+    "Top_Speed": "409,7",
+    "Acceleration": "89,13",
+    "Handling": "63,68",
+    "Nitro": "45,99",
+    "Country": "Croatia",
+    "BPs_1_Star": 0,
+    "BPs_2_Star": 40,
+    "BPs_3_Star": 45,
+    "BPs_4_Star": 60,
+    "BPs_5_Star": 70,
+    "BPs_6_Star": 85
   }
 ]

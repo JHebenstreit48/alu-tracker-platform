@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/P/Puritalia/berlinetta.jpg",
     "Class": "B",
     "Brand": "Puritalia",
     "Model": "Berlinetta",
@@ -28,10 +29,6 @@
     "BPs_2_Star": 17,
     "BPs_3_Star": 23,
     "BPs_4_Star": 32,
-    "BPs_5_Star": 45,
-    "BPs_6_Star": null,
-    "Total_BPs": 162,
-    "Unnamed: 32": 34076,
-    "Cost epic": 0
+    "BPs_5_Star": 45
   }
 ]
