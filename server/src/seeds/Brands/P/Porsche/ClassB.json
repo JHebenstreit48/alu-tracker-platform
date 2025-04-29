@@ -27,13 +27,7 @@
     "Tags": "Europe; Super Car",
     "BPs_1_Star": 30,
     "BPs_2_Star": 30,
-    "BPs_3_Star": 70,
-    "BPs_4_Star": null,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 130,
-    "Unnamed: 32": 32186,
-    "Cost epic": 8000
+    "BPs_3_Star": 70
   },
   {
     "Id": 2,
@@ -100,12 +94,7 @@
     "BPs_1_Star": 55,
     "BPs_2_Star": 35,
     "BPs_3_Star": 44,
-    "BPs_4_Star": 54,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 188,
-    "Unnamed: 32": 32735,
-    "Cost epic": 8000
+    "BPs_4_Star": 54
   },
   {
     "Id": 4,
@@ -137,11 +126,7 @@
     "BPs_2_Star": 17,
     "BPs_3_Star": 23,
     "BPs_4_Star": 32,
-    "BPs_5_Star": 45,
-    "BPs_6_Star": null,
-    "Total_BPs": 162,
-    "Unnamed: 32": 34126,
-    "Cost epic": 0
+    "BPs_5_Star": 45
   },
   {
     "Id": 5,
@@ -174,9 +159,6 @@
     "BPs_3_Star": 24,
     "BPs_4_Star": 32,
     "BPs_5_Star": 47,
-    "BPs_6_Star": 50,
-    "Total_BPs": 226,
-    "Unnamed: 32": 34211,
-    "Cost epic": 0
+    "BPs_6_Star": 50
   }
 ]

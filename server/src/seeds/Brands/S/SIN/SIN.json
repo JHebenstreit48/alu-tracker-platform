@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/S/SIN/r1550.jpg",
     "Class": "B",
     "Brand": "SIN",
     "Model": "R1 550",
@@ -28,10 +29,6 @@
     "BPs_2_Star": 9,
     "BPs_3_Star": 13,
     "BPs_4_Star": 21,
-    "BPs_5_Star": 32,
-    "BPs_6_Star": null,
-    "Total_BPs": 105,
-    "Unnamed: 32": 33971,
-    "Cost epic": 8000
+    "BPs_5_Star": 32
   }
 ]

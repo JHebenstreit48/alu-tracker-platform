@@ -28,12 +28,7 @@
     "BPs_1_Star": 30,
     "BPs_2_Star": 23,
     "BPs_3_Star": 33,
-    "BPs_4_Star": 42,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 128,
-    "Unnamed: 32": 12339,
-    "Cost epic": null
+    "BPs_4_Star": 42
   },
   {
     "Id": 2,
@@ -64,12 +59,7 @@
     "BPs_1_Star": 25,
     "BPs_2_Star": 8,
     "BPs_3_Star": 14,
-    "BPs_4_Star": 28,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 75,
-    "Unnamed: 32": 12360,
-    "Cost epic": 6000
+    "BPs_4_Star": 28
   },
   {
     "Id": 3,
@@ -100,12 +90,7 @@
     "BPs_1_Star": 30,
     "BPs_2_Star": 23,
     "BPs_3_Star": 33,
-    "BPs_4_Star": 42,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 128,
-    "Unnamed: 32": 12589,
-    "Cost epic": 6000
+    "BPs_4_Star": 42
   },
   {
     "Id": 4,
@@ -136,11 +121,6 @@
     "BPs_1_Star": 30,
     "BPs_2_Star": 23,
     "BPs_3_Star": 33,
-    "BPs_4_Star": 42,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 128,
-    "Unnamed: 32": 12724,
-    "Cost epic": 0
+    "BPs_4_Star": 42
   }
 ]
