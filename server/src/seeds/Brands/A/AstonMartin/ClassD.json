@@ -1,6 +1,7 @@
 [
   {
     "Id": 3,
+    "Image": "/images/cars/A/AstonMartin/vantagev122022.jpg",
     "Class": "D",
     "Brand": "Aston Martin",
     "Model": "Vantage V12 2022",
@@ -28,10 +29,6 @@
     "BPs_2_Star": 22,
     "BPs_3_Star": 30,
     "BPs_4_Star": 35,
-    "BPs_5_Star": 38,
-    "BPs_6_Star": null,
-    "Total_BPs": 125,
-    "Unnamed: 32": 12968,
-    "Cost epic": null
+    "BPs_5_Star": 38
   }
 ]

@@ -27,13 +27,7 @@
     "Tags": "Muscle",
     "BPs_1_Star": 5,
     "BPs_2_Star": 12,
-    "BPs_3_Star": 30,
-    "BPs_4_Star": null,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 47,
-    "Unnamed: 32": 11546,
-    "Cost epic": 6000
+    "BPs_3_Star": 30
   },
   {
     "Id": 2,
@@ -65,10 +59,6 @@
     "BPs_2_Star": 22,
     "BPs_3_Star": 30,
     "BPs_4_Star": 35,
-    "BPs_5_Star": 38,
-    "BPs_6_Star": null,
-    "Total_BPs": 125,
-    "Unnamed: 32": 12948,
-    "Cost epic": 6000
+    "BPs_5_Star": 38
   }
 ]

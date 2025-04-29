@@ -1,6 +1,7 @@
 [
     {
         "Id": 1,
+        "Image": "/images/cars/F/Ferrari/sf90stradale.jpg",
         "Class": "S",
         "Brand": "Ferrari",
         "Model": "SF90 Stradale",
@@ -29,13 +30,11 @@
         "BPs_3_Star": 30,
         "BPs_4_Star": 35,
         "BPs_5_Star": 45,
-        "BPs_6_Star": 55,
-        "Total_BPs": 250,
-        "Unnamed: 32": 54395,
-        "Cost epic": 0
+        "BPs_6_Star": 55
       },
       {
         "Id": 2,
+        "Image": "/images/cars/F/Ferrari/fxxk.jpg",
         "Class": "S",
         "Brand": "Ferrari",
         "Model": "FXX K",
@@ -63,10 +62,6 @@
         "BPs_2_Star": 13,
         "BPs_3_Star": 16,
         "BPs_4_Star": 25,
-        "BPs_5_Star": 39,
-        "BPs_6_Star": null,
-        "Total_BPs": 133,
-        "Unnamed: 32": 53832,
-        "Cost epic": 15000
+        "BPs_5_Star": 39
       }
 ]

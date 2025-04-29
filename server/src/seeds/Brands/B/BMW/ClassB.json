@@ -1,6 +1,7 @@
 [
   {
     "Id": 5,
+    "Image": "/images/cars/B/BMW/m4gt3.jpg",
     "Class": "B",
     "Brand": "BMW",
     "Model": "M4 GT3",
@@ -27,11 +28,6 @@
     "BPs_1_Star": 55,
     "BPs_2_Star": 35,
     "BPs_3_Star": 44,
-    "BPs_4_Star": 54,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 188,
-    "Unnamed: 32": 33134,
-    "Cost epic": null
+    "BPs_4_Star": 54
   }
 ]

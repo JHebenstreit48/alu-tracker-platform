@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/A/ATSAutomobili/gt.jpg",
     "Class": "S",
     "Brand": "ATS Automobili",
     "Model": "GT",
@@ -29,9 +30,6 @@
     "BPs_3_Star": 29,
     "BPs_4_Star": 38,
     "BPs_5_Star": 54,
-    "BPs_6_Star": 69,
-    "Total_BPs": 300,
-    "Unnamed: 32": 54161,
-    "Cost epic": null
+    "BPs_6_Star": 69
   }
 ]

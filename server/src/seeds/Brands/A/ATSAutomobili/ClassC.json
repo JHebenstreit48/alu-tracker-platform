@@ -1,6 +1,7 @@
 [
   {
-    "Id": 125,
+    "Id": 1,
+    "Image": "/images/cars/A/ATSAutomobili/corsarrturbo.jpg",
     "Class": "C",
     "Brand": "ATS Automobili",
     "Model": "Corsa RRTurbo",
@@ -27,11 +28,6 @@
     "BPs_1_Star": 0,
     "BPs_2_Star": 25,
     "BPs_3_Star": 38,
-    "BPs_4_Star": 52,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 115,
-    "Unnamed: 32": 23392,
-    "Cost epic": 6000
+    "BPs_4_Star": 52
   }
 ]
