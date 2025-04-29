@@ -13,9 +13,7 @@ import FerrariF8Tributo from "@/assets/car-photos/F/Ferrari/ferrari-f8-tributo.j
 import FerrariF12TDF from "@/assets/car-photos/F/Ferrari/ferrari-f12tdf.jpg";
 import FerrariF40 from "@/assets/car-photos/F/Ferrari/ferrari-f40.jpg";
 import FerrariF50 from "@/assets/car-photos/F/Ferrari/ferrari-f50.jpg";
-import FerrariFXXK from "@/assets/car-photos/F/Ferrari/ferrari-fxx-k.jpg";
 import FerrariJ50 from "@/assets/car-photos/F/Ferrari/ferrari-j50.jpg";
-import FerrariLaFerrari from "@/assets/car-photos/F/Ferrari/ferrari-laferrari.jpg";
 import FerrariLaFerrariAperta from "@/assets/car-photos/F/Ferrari/ferrari-laferrari-aperta.jpg";
 import FerrariMonzaSP1 from "@/assets/car-photos/F/Ferrari/ferrari-monza-sp1.jpg";
 import FerrariRoma from "@/assets/car-photos/F/Ferrari/ferrari-roma.jpg";
@@ -70,20 +68,6 @@ import MaseratiMC12 from "@/assets/car-photos/M/Maserati/maserati-mc12.jpg";
 import MaseratiMC20 from "@/assets/car-photos/M/Maserati/maserati-mc20.jpg";
 import MaseratiMC20GT2 from "@/assets/car-photos/M/Maserati/maserati-mc20-gt2.jpg";
 import MazdaFurai from "@/assets/car-photos/M/Mazda/mazda-furai.jpg";
-import Mclaren570SSpider from "@/assets/car-photos/M/McLaren/mclaren-570s-spider.jpg";
-import Mclaren600LTSpider from "@/assets/car-photos/M/McLaren/mclaren-600lt-spider.jpg";
-import Mclaren650SGT3 from "@/assets/car-photos/M/McLaren/mclaren-650s-gt3.jpg";
-import Mclaren765LT from "@/assets/car-photos/M/McLaren/mclaren-765lt.jpg";
-import MclarenArtura from "@/assets/car-photos/M/McLaren/mclaren-artura.jpg";
-import MclarenElva from "@/assets/car-photos/M/McLaren/mclaren-elva.jpg";
-import MclarenF1lm from "@/assets/car-photos/M/McLaren/mclaren-f1lm.jpg";
-import MclarenGT from "@/assets/car-photos/M/McLaren/mclaren-gt.jpg";
-import MclarenP1 from "@/assets/car-photos/M/McLaren/mclaren-p1.jpg";
-import MclarenSabre from "@/assets/car-photos/M/McLaren/mclaren-sabre.jpg";
-import MclarenSenna from "@/assets/car-photos/M/McLaren/mclaren-senna.jpg";
-import MclarenSennaGTR from "@/assets/car-photos/M/McLaren/mclaren-senna-gtr.jpg";
-import MclarenSolusGT from "@/assets/car-photos/M/McLaren/mclaren-solus-gt.jpg";
-import MclarenSpeedtail from "@/assets/car-photos/M/McLaren/mclaren-speedtail.jpg";
 import McmurtrySpéirling from "@/assets/car-photos/M/McMurtry/mcmurtry-speirling.jpg";
 import MercedesBenz2022ShowcarVisionAMG from "@/assets/car-photos/M/MercedesBenz/mercedes-benz-2022-showcar-vision-amg.jpg";
 import MercedesBenzAMGGTS from "@/assets/car-photos/M/MercedesBenz/mercedes-benz-amg-gt-s.jpg";
@@ -102,12 +86,6 @@ import NissanGTRNismo from "@/assets/car-photos/N/Nissan/nissan-gt-r-nismo.jpg";
 import NissanLeafNismoRC from "@/assets/car-photos/N/Nissan/nissan-leaf-nismo-rc.jpg";
 import NissanR390GT1 from "@/assets/car-photos/N/Nissan/nissan-r390gt1.jpg";
 import NobleM600Speedster from "@/assets/car-photos/N/Noble/noble-m600-speedster.jpg";
-import PaganiHuayraBC from "@/assets/car-photos/P/Pagani/pagani-huayra-bc.jpg";
-import PaganiHuayraR from "@/assets/car-photos/P/Pagani/pagani-huayra-r.jpg";
-import PaganiImola from "@/assets/car-photos/P/Pagani/pagani-imola.jpg";
-import PaganiUtopiaCoupe from "@/assets/car-photos/P/Pagani/pagani-utopia-coupe.jpg";
-import PaganiZondaHPBarchetta from "@/assets/car-photos/P/Pagani/pagani-zonda-hp-barchetta.jpg";
-import PaganiZondaR from "@/assets/car-photos/P/Pagani/pagani-zonda-r.jpg";
 import Peugeot9x8 from "@/assets/car-photos/P/Peugeot/peugeot-9x8.jpg";
 import PeugeotSR1 from "@/assets/car-photos/P/Peugeot/peugeot-sr1.jpg";
 import PeugotOnyx from "@/assets/car-photos/P/Peugeot/peugeot-onyx.jpg";
@@ -121,7 +99,6 @@ import RenaultDezir from "@/assets/car-photos/R/Renault/renault-dezir.jpg";
 import RenaultRS01 from "@/assets/car-photos/R/Renault/renault-rs-01.jpg";
 import RenaultTrezor from "@/assets/car-photos/R/Renault/renault-trezor.jpg";
 import RezvaniBeastX from "@/assets/car-photos/R/Rezvani/rezvani-beast-x.jpg";
-import RimacConceptOne from "@/assets/car-photos/R/Rimac/rimac-concept-one.jpg";
 import RimacConceptS from "@/assets/car-photos/R/Rimac/rimac-concept-s.jpg";
 import RimacNevera from "@/assets/car-photos/R/Rimac/rimac-nevera.jpg";
 import RimacNeveraTimeAttack from "@/assets/car-photos/R/Rimac/rimac-nevera-time-attack.jpg";
@@ -138,7 +115,6 @@ import TushekTS900RacerPro from "@/assets/car-photos/T/Tushek/tushek-ts-900-race
 import TVRGriffith from "@/assets/car-photos/T/TVR/tvr-griffith.jpg";
 import TVRSagaris from "@/assets/car-photos/T/TVR/tvr-sagaris.jpg";
 import UltimaRS from "@/assets/car-photos/U/Ultima/ultima-rs.jpg";
-import VandaElectricsDendrobium from "@/assets/car-photos/V/Vanda/vanda-electrics-dendrobium.jpg";
 import VencerSarthe from "@/assets/car-photos/V/Vencer/vencer-sarthe.jpg";
 import Vision1789 from "@/assets/car-photos/V/Vision/vision-1789.jpg";
 import VLFForce1V10 from "@/assets/car-photos/V/VLF/vlf-force-1-v10.jpg";
@@ -168,9 +144,7 @@ export const Images: Record<string, string> = {
   FerrariF12TDF,
   FerrariF40,
   FerrariF50,
-  FerrariFXXK,
   FerrariJ50,
-  FerrariLaFerrari,
   FerrariLaFerrariAperta,
   FerrariMonzaSP1,
   FerrariRoma,
@@ -225,20 +199,6 @@ export const Images: Record<string, string> = {
   MaseratiMC20,
   MaseratiMC20GT2,
   MazdaFurai,
-  Mclaren570SSpider,
-  Mclaren600LTSpider,
-  Mclaren650SGT3,
-  Mclaren765LT,
-  MclarenArtura,
-  MclarenElva,
-  MclarenF1lm,
-  MclarenGT,
-  MclarenP1,
-  MclarenSabre,
-  MclarenSenna,
-  MclarenSennaGTR,
-  MclarenSolusGT,
-  MclarenSpeedtail,
   McmurtrySpéirling,
   MercedesBenz2022ShowcarVisionAMG,
   MercedesBenzAMGGTS,
@@ -257,12 +217,6 @@ export const Images: Record<string, string> = {
   NissanLeafNismoRC,
   NissanR390GT1,
   NobleM600Speedster,
-  PaganiHuayraBC,
-  PaganiHuayraR,
-  PaganiImola,
-  PaganiUtopiaCoupe,
-  PaganiZondaHPBarchetta,
-  PaganiZondaR,
   Peugeot9x8,
   PeugeotSR1,
   PeugotOnyx,
@@ -276,7 +230,6 @@ export const Images: Record<string, string> = {
   RenaultRS01,
   RenaultTrezor,
   RezvaniBeastX,
-  RimacConceptOne,
   RimacConceptS,
   RimacNevera,
   RimacNeveraTimeAttack,
@@ -293,7 +246,6 @@ export const Images: Record<string, string> = {
   TVRGriffith,
   TVRSagaris,
   UltimaRS,
-  VandaElectricsDendrobium,
   VencerSarthe,
   Vision1789,
   VLFForce1V10,

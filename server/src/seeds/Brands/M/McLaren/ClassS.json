@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/M/McLaren/speedtail.jpg",
     "Class": "S",
     "Brand": "McLaren",
     "Model": "Speedtail",
