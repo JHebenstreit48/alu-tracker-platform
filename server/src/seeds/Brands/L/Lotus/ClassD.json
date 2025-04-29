@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/L/Lotus/elisesprint220.jpg",
     "Class": "D",
     "Brand": "Lotus",
     "Model": "Elise Sprint 220",
@@ -27,15 +28,11 @@
     "BPs_1_Star": 10,
     "BPs_2_Star": 12,
     "BPs_3_Star": 18,
-    "BPs_4_Star": 28,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 68,
-    "Unnamed: 32": 12390,
-    "Cost epic": 6000
+    "BPs_4_Star": 28
   },
   {
     "Id": 2,
+    "Image": "/images/cars/L/Lotus/emira.jpg",
     "Class": "D",
     "Brand": "Lotus",
     "Model": "Emira",
@@ -62,11 +59,6 @@
     "BPs_1_Star": 30,
     "BPs_2_Star": 23,
     "BPs_3_Star": 33,
-    "BPs_4_Star": 42,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 128,
-    "Unnamed: 32": 12611,
-    "Cost epic": 0
+    "BPs_4_Star": 42
   }
 ]

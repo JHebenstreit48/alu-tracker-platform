@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/J/Jaguar/xjr15.jpg",
     "Class": "C",
     "Brand": "Jaguar",
     "Model": "XJR-15",
@@ -27,15 +28,11 @@
     "BPs_1_Star": 50,
     "BPs_2_Star": 29,
     "BPs_3_Star": 38,
-    "BPs_4_Star": 48,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 165,
-    "Unnamed: 32": 23221,
-    "Cost epic": null
+    "BPs_4_Star": 48
   },
   {
     "Id": 2,
+    "Image": "/images/cars/J/Jaguar/xesvproject8.jpg",
     "Class": "C",
     "Brand": "Jaguar",
     "Model": "XE SV Project 8",
@@ -63,10 +60,6 @@
     "BPs_2_Star": 15,
     "BPs_3_Star": 21,
     "BPs_4_Star": 28,
-    "BPs_5_Star": 35,
-    "BPs_6_Star": null,
-    "Total_BPs": 134,
-    "Unnamed: 32": 23483,
-    "Cost epic": 0
+    "BPs_5_Star": 35
   }
 ]

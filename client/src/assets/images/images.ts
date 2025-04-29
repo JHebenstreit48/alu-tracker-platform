@@ -1,26 +1,5 @@
 import StarIcon from "@/assets/star-icon/star-icon.png";
 
-import JaguarCX75 from "@/assets/car-photos/J/Jaguar/jaguar-c-x75.jpg";
-import JaguarFTypeSVR from "@/assets/car-photos/J/Jaguar/jaguar-f-type-svr.jpg";
-import JaguarXESVProject8 from "@/assets/car-photos/J/Jaguar/jaguar-xe-sv-project-8.jpg";
-import JaguarXJ220STWR from "@/assets/car-photos/J/Jaguar/jaguar-xj220s-twr.jpg";
-import JaguarXJR9 from "@/assets/car-photos/J/Jaguar/jaguar-xjr-9.jpg";
-import JaguarXJR15 from "@/assets/car-photos/J/Jaguar/jaguar-xjr-15.jpg";
-import JaguarXKRSGT from "@/assets/car-photos/J/Jaguar/jaguar-xkr-s-gt.jpg";
-import KeplerMotion from "@/assets/car-photos/K/Kepler/kepler-motion.jpg";
-import KoenigseggAgeraRS from "@/assets/car-photos/K/Koenigsegg/koenigsegg-agera-rs.jpg";
-import KoenigseggCC850 from "@/assets/car-photos/K/Koenigsegg/koenigsegg-cc850.jpg";
-import KoenigseggCCXR from "@/assets/car-photos/K/Koenigsegg/koenigsegg-ccxr.jpg";
-import KoenigseggGemera from "@/assets/car-photos/K/Koenigsegg/koenigsegg-gemera.jpg";
-import KoenigseggJesko from "@/assets/car-photos/K/Koenigsegg/koenigsegg-jesko.jpg";
-import KoenigseggJeskoAbsolut from "@/assets/car-photos/K/Koenigsegg/koenigsegg-jesko-absolut.jpg";
-import KoenigseggRegera from "@/assets/car-photos/K/Koenigsegg/koenigsegg-regera.jpg";
-import KTMXBowGTX from "@/assets/car-photos/K/KTM/ktm-x-bow-gtx.jpg";
-import LotusER9 from "@/assets/car-photos/L/Lotus/lotus-e-r9.jpg";
-import LotusEliseSprint220 from "@/assets/car-photos/L/Lotus/lotus-elise-sprint-220.jpg";
-import LotusEmira from "@/assets/car-photos/L/Lotus/lotus-emira.jpg";
-import LotusEvija from "@/assets/car-photos/L/Lotus/lotus-evija.jpg";
-import LotusEvoraSport410 from "@/assets/car-photos/L/Lotus/lotus-evora-sport-410.jpg";
 import MaseratiAlfieri from "@/assets/car-photos/M/Maserati/maserati-alfieri.jpg";
 import MaseratiMC12 from "@/assets/car-photos/M/Maserati/maserati-mc12.jpg";
 import MaseratiMC20 from "@/assets/car-photos/M/Maserati/maserati-mc20.jpg";
@@ -89,27 +68,6 @@ import ZenvoTSRS from "@/assets/car-photos/Z/Zenvo/zenvo-tsr-s.jpg";
 export const Images: Record<string, string> = {
   StarIcon,
 
-  JaguarCX75,
-  JaguarFTypeSVR,
-  JaguarXESVProject8,
-  JaguarXJ220STWR,
-  JaguarXJR9,
-  JaguarXJR15,
-  JaguarXKRSGT,
-  KeplerMotion,
-  KoenigseggAgeraRS,
-  KoenigseggCC850,
-  KoenigseggCCXR,
-  KoenigseggGemera,
-  KoenigseggJesko,
-  KoenigseggJeskoAbsolut,
-  KoenigseggRegera,
-  KTMXBowGTX,
-  LotusER9,
-  LotusEliseSprint220,
-  LotusEmira,
-  LotusEvija,
-  LotusEvoraSport410,
   MaseratiAlfieri,
   MaseratiMC12,
   MaseratiMC20,

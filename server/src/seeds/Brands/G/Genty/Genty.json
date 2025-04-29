@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/G/Genty/akylone.jpg",
     "Class": "A",
     "Brand": "Genty",
     "Model": "Akylone",
@@ -29,9 +30,6 @@
     "BPs_3_Star": 27,
     "BPs_4_Star": 36,
     "BPs_5_Star": 52,
-    "BPs_6_Star": 62,
-    "Total_BPs": 250,
-    "Unnamed: 32": 44310,
-    "Cost epic": 10000
+    "BPs_6_Star": 62
   }
 ]
