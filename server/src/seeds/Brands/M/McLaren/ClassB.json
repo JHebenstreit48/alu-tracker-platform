@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/McLaren/600ltspider.jpg",
     "Class": "B",
     "Brand": "McLaren",
     "Model": "600LT Spider",
@@ -28,14 +29,11 @@
     "BPs_2_Star": 17,
     "BPs_3_Star": 23,
     "BPs_4_Star": 32,
-    "BPs_5_Star": 45,
-    "BPs_6_Star": null,
-    "Total_BPs": 162,
-    "Unnamed: 32": 34075,
-    "Cost epic": null
+    "BPs_5_Star": 45
   },
   {
     "Id": 2,
+    "Image": "/images/cars/McLaren/artura.jpg",
     "Class": "B",
     "Brand": "McLaren",
     "Model": "Artura",
@@ -62,15 +60,11 @@
     "BPs_1_Star": 55,
     "BPs_2_Star": 35,
     "BPs_3_Star": 44,
-    "BPs_4_Star": 54,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 188,
-    "Unnamed: 32": 33267,
-    "Cost epic": null
+    "BPs_4_Star": 54
   },
   {
     "Id": 3,
+    "Image": "/images/cars/McLaren/elva.jpg",
     "Class": "B",
     "Brand": "McLaren",
     "Model": "Elva",
@@ -98,14 +92,11 @@
     "BPs_2_Star": 17,
     "BPs_3_Star": 23,
     "BPs_4_Star": 32,
-    "BPs_5_Star": 45,
-    "BPs_6_Star": null,
-    "Total_BPs": 162,
-    "Unnamed: 32": 33533,
-    "Cost epic": 8000
+    "BPs_5_Star": 45
   },
   {
     "Id": 4,
+    "Image": "/images/cars/McLaren/765lt.jpg",
     "Class": "B",
     "Brand": "McLaren",
     "Model": "765LT",
@@ -133,14 +124,11 @@
     "BPs_2_Star": 17,
     "BPs_3_Star": 23,
     "BPs_4_Star": 32,
-    "BPs_5_Star": 45,
-    "BPs_6_Star": null,
-    "Total_BPs": 162,
-    "Unnamed: 32": 33821,
-    "Cost epic": 0
+    "BPs_5_Star": 45
   },
   {
     "Id": 5,
+    "Image": "/images/cars/McLaren/solusgt.jpg",
     "Class": "B",
     "Brand": "McLaren",
     "Model": "Solus GT",
@@ -168,14 +156,11 @@
     "BPs_2_Star": 26,
     "BPs_3_Star": 34,
     "BPs_4_Star": 40,
-    "BPs_5_Star": 62,
-    "BPs_6_Star": null,
-    "Total_BPs": 162,
-    "Unnamed: 32": 34076,
-    "Cost epic": null
+    "BPs_5_Star": 62
   },
   {
     "Id": 6,
+    "Image": "/images/cars/McLaren/f1lm.jpg",
     "Class": "B",
     "Brand": "McLaren",
     "Model": "F1 LM",
@@ -204,9 +189,6 @@
     "BPs_3_Star": 34,
     "BPs_4_Star": 46,
     "BPs_5_Star": 61,
-    "BPs_6_Star": 73,
-    "Total_BPs": 240,
-    "Unnamed: 32": 34309,
-    "Cost epic": 0
+    "BPs_6_Star": 73
   }
 ]

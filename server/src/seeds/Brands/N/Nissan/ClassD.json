@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/N/Nissan/leafnismorc.jpg",
     "Class": "D",
     "Brand": "Nissan",
     "Model": "Leaf Nismo RC",
@@ -26,16 +27,11 @@
     "Tags": "Asia; Electric",
     "BPs_1_Star": 15,
     "BPs_2_Star": 25,
-    "BPs_3_Star": 55,
-    "BPs_4_Star": null,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 95,
-    "Unnamed: 32": 11569,
-    "Cost epic": 6000
+    "BPs_3_Star": 55
   },
   {
     "Id": 2,
+    "Image": "/images/cars/N/Nissan/370znismo.jpg",
     "Class": "D",
     "Brand": "Nissan",
     "Model": "370Z Nismo",
@@ -61,16 +57,11 @@
     "Tags": "Asia",
     "BPs_1_Star": 10,
     "BPs_2_Star": 12,
-    "BPs_3_Star": 30,
-    "BPs_4_Star": null,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 52,
-    "Unnamed: 32": 11662,
-    "Cost epic": 6000
+    "BPs_3_Star": 30
   },
   {
     "Id": 3,
+    "Image": "/images/cars/N/Nissan/370zneonedition.jpg",
     "Class": "D",
     "Brand": "Nissan",
     "Model": "370Z Neon Edition",
@@ -97,11 +88,6 @@
     "BPs_1_Star": 30,
     "BPs_2_Star": 23,
     "BPs_3_Star": 33,
-    "BPs_4_Star": 42,
-    "BPs_5_Star": null,
-    "BPs_6_Star": null,
-    "Total_BPs": 128,
-    "Unnamed: 32": 12675,
-    "Cost epic": null
+    "BPs_4_Star": 42
   }
 ]

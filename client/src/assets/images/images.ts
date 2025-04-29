@@ -1,33 +1,5 @@
 import StarIcon from "@/assets/star-icon/star-icon.png";
 
-import MaseratiAlfieri from "@/assets/car-photos/M/Maserati/maserati-alfieri.jpg";
-import MaseratiMC12 from "@/assets/car-photos/M/Maserati/maserati-mc12.jpg";
-import MaseratiMC20 from "@/assets/car-photos/M/Maserati/maserati-mc20.jpg";
-import MaseratiMC20GT2 from "@/assets/car-photos/M/Maserati/maserati-mc20-gt2.jpg";
-import MazdaFurai from "@/assets/car-photos/M/Mazda/mazda-furai.jpg";
-import McmurtrySpéirling from "@/assets/car-photos/M/McMurtry/mcmurtry-speirling.jpg";
-import MercedesBenz2022ShowcarVisionAMG from "@/assets/car-photos/M/MercedesBenz/mercedes-benz-2022-showcar-vision-amg.jpg";
-import MercedesBenzAMGGTS from "@/assets/car-photos/M/MercedesBenz/mercedes-benz-amg-gt-s.jpg";
-import MercedesBenzCLKGTR from "@/assets/car-photos/M/MercedesBenz/mercedes-benz-clk-gtr.jpg";
-import MercedesBenzMercedesAMGGTBlackSeries from "@/assets/car-photos/M/MercedesBenz/mercedes-benz-mercedes-amg-gt-black-series.jpg";
-import MercedesBenzSLRMclaren from "@/assets/car-photos/M/MercedesBenz/mercedes-benz-slr-mclaren.jpg";
-import MercedesBenzVisionOneEleven from "@/assets/car-photos/M/MercedesBenz/mercedes-benz-vision-one-eleven.jpg";
-import MitsubishiLancerEvo from "@/assets/car-photos/M/Mitsubishi/mitsubishi-lancer-evolution.jpg";
-import NaranHyperCoupe from "@/assets/car-photos/N/Naran/naran-hyper-coupe.jpg";
-import NioEP9 from "@/assets/car-photos/N/Nio/nio-ep9.jpg";
-import Nissan370zNeonEdition from "@/assets/car-photos/N/Nissan/nissan-370z-neon-edition.jpg";
-import Nissan370ZNismo from "@/assets/car-photos/N/Nissan/nissan-370z-nismo.jpg";
-import NissanGTR50Italdesign from "@/assets/car-photos/N/Nissan/nissan-gtr-50-italdesign.jpg";
-import NissanGTRNeonEdition from "@/assets/car-photos/N/Nissan/nissan-gt-r-neon-edition.jpg";
-import NissanGTRNismo from "@/assets/car-photos/N/Nissan/nissan-gt-r-nismo.jpg";
-import NissanLeafNismoRC from "@/assets/car-photos/N/Nissan/nissan-leaf-nismo-rc.jpg";
-import NissanR390GT1 from "@/assets/car-photos/N/Nissan/nissan-r390gt1.jpg";
-import NobleM600Speedster from "@/assets/car-photos/N/Noble/noble-m600-speedster.jpg";
-import Peugeot9x8 from "@/assets/car-photos/P/Peugeot/peugeot-9x8.jpg";
-import PeugeotSR1 from "@/assets/car-photos/P/Peugeot/peugeot-sr1.jpg";
-import PeugotOnyx from "@/assets/car-photos/P/Peugeot/peugeot-onyx.jpg";
-import PininfarinaH2Speed from "@/assets/car-photos/P/Pininfarina/pininfarina-h2-speed.jpg";
-import PininfarinaTeorema from "@/assets/car-photos/P/Pininfarina/pininfarina-teorema.jpg";
 import PragaR1 from "@/assets/car-photos/P/Praga/praga-r1.jpg";
 import PuritaliaBerlinetta from "@/assets/car-photos/P/Puritalia/puritalia-berlinetta.jpg";
 import RaesrTachyonSpeed from "@/assets/car-photos/R/Raesr/raesr-tachyon-speed.jpg";
@@ -68,34 +40,6 @@ import ZenvoTSRS from "@/assets/car-photos/Z/Zenvo/zenvo-tsr-s.jpg";
 export const Images: Record<string, string> = {
   StarIcon,
 
-  MaseratiAlfieri,
-  MaseratiMC12,
-  MaseratiMC20,
-  MaseratiMC20GT2,
-  MazdaFurai,
-  McmurtrySpéirling,
-  MercedesBenz2022ShowcarVisionAMG,
-  MercedesBenzAMGGTS,
-  MercedesBenzCLKGTR,
-  MercedesBenzMercedesAMGGTBlackSeries,
-  MercedesBenzSLRMclaren,
-  MercedesBenzVisionOneEleven,
-  MitsubishiLancerEvo,
-  NaranHyperCoupe,
-  NioEP9,
-  Nissan370zNeonEdition,
-  Nissan370ZNismo,
-  NissanGTR50Italdesign,
-  NissanGTRNeonEdition,
-  NissanGTRNismo,
-  NissanLeafNismoRC,
-  NissanR390GT1,
-  NobleM600Speedster,
-  Peugeot9x8,
-  PeugeotSR1,
-  PeugotOnyx,
-  PininfarinaH2Speed,
-  PininfarinaTeorema,
   PragaR1,
   PuritaliaBerlinetta,
   RaesrTachyonSpeed,
