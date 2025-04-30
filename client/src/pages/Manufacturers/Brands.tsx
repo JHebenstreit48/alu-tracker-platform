@@ -9,7 +9,7 @@ interface Manufacturer {
   brand: string;
   slug: string;
   logo: string;
-  country: string;
+  country: string[];
 }
 
 export default function Brands() {
@@ -38,10 +38,7 @@ export default function Brands() {
         <Header text="Manufacturers Map" />
         
         {/* ✅ Show the Jump List (grouped properly) */}
-        <BrandQuickList manufacturers={manufacturers.map(manufacturer => ({
-          ...manufacturer,
-          country: [manufacturer.country], // Convert country to an array
-        }))} />
+        <BrandQuickList manufacturers={manufacturers} />
         
         {/* ❌ Commented out for now (no map) */}
         {/* <MapDisplay manufacturers={manufacturers} /> */}
