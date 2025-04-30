@@ -1,0 +1,55 @@
+[
+    {
+        "GarageLevelKey": 1,
+        "xp": 0,
+        "cars": [
+          {
+            "brand": "BMW",
+            "model": "Z4 LCI E89",
+            "image": "z4lcie89.jpg"
+          },
+          {
+            "brand": "Chevrolet",
+            "model": "Camaro LT",
+            "image": "camarolt.jpg"
+          },
+          {
+            "brand": "Mitsubishi",
+            "model": "Lancer Evolution",
+            "image": "lancerevolution.jpg"
+          },
+          {
+            "brand": "Dodge",
+            "model": "Challenger SRT8",
+            "image": "challengersrt8.jpg"
+
+          }
+        ]
+    },
+    {
+        "GarageLevelKey": 2,
+        "xp": 4000,
+        "cars": [
+            {
+                "brand": "BMW",
+                "model": "3.0 CSL Hommage",
+                "image": "30cslhomage.jpg"
+            },
+            {
+              "brand": "Chevrolet",
+              "model": "Camaro ZL1 50th Ed.",
+              "image": "camarozl150thedition.jpg"
+            },
+            {
+              "brand": "Nissan",
+              "model": "370Z Nismo",
+              "image": "370znismo.jpg"
+            },
+            {
+              "brand": "DS Automobiles",
+              "model": "DS E-Tense",
+              "image": "dsetense.jpg"
+            }
+        ]
+    }
+]

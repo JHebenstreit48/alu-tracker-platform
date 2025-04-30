@@ -38,7 +38,10 @@ export default function Brands() {
         <Header text="Manufacturers Map" />
         
         {/* ✅ Show the Jump List (grouped properly) */}
-        <BrandQuickList manufacturers={manufacturers} />
+        <BrandQuickList manufacturers={manufacturers.map(manufacturer => ({
+          ...manufacturer,
+          country: [manufacturer.country], // Convert country to an array
+        }))} />
         
         {/* ❌ Commented out for now (no map) */}
         {/* <MapDisplay manufacturers={manufacturers} /> */}

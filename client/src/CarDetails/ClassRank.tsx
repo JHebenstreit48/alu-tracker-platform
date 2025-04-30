@@ -1,5 +1,5 @@
 import { Car } from "@/CarDetails/CarInterfaces";
-import StarIcon from "@/assets/star-icon/star-icon.png";
+// import StarIcon from "@/assets/star-icon/star-icon.png";
 
 interface ClassRankProps {
   car: Car;
@@ -21,7 +21,11 @@ const ClassRank: React.FC<ClassRankProps> = ({ car }) => {
             <td style={{ textAlign: "center" }}>
               <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                 {Array.from({ length: car.Stars }, (_, i) => (
-                  <img key={i} src={StarIcon} alt="star" className="starIcon" />
+                  <img
+                  key={i}
+                  src={StarIcon}
+                  alt="star"
+                  className="starIcon" />
                 ))}
               </div>
             </td>

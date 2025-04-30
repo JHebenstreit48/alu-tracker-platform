@@ -1,57 +1,65 @@
-import { garageLevelList } from '@/GarageLevels/GarageLevelCars';
-import { GLContent } from '@/GarageLevels/GarageLevelContent';
-import { useState } from 'react';
+import { useState } from "react";
+import { GLContent } from "@/GarageLevels/GarageLevelContent";
+import { GarageLevelsInterface } from "@/GarageLevels/interface";
+import "@/SCSS/GarageLevels/GarageLevels.scss";
 
-export default function GarageLevelsJumpList() {
+interface GarageLevelsDropDownProps {
+  levels: GarageLevelsInterface[];
+}
+
+export default function GarageLevelsDropDown({ levels }: GarageLevelsDropDownProps) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  // Function to handle level jump
   function jumpToGarageLevel(levelKey: number) {
-    // const selectedLevel = event.target.value;
-    const element = document.getElementById(`garage-level ${levelKey}`);
+    const element = document.getElementById(`garage-level-${levelKey}`);
     if (element) {
-      element.scrollIntoView({ behavior: 'instant' });
+      element.scrollIntoView({ behavior: "instant" });
     }
-    setIsDropdownOpen(false); // Close the dropdown after selecting a level
-  }
-
-  // Toggle dropdown visibility
-  function toggleDropdown() {
-    setIsDropdownOpen(!isDropdownOpen);
+    setIsDropdownOpen(false);
   }
 
   return (
-    <div className='dropDownContainer'>
-      {/* Button to open dropdown */}
-      <button className="GLDropdownButton" onClick={toggleDropdown}>
+    <div className="dropDownContainer">
+      <button className="GLDropdownButton" onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
         Select Garage Level
       </button>
 
-      {/* Dropdown with 4 columns, hidden until clicked */}
-      <div className={`GLDropDown ${isDropdownOpen ? 'show' : ''}`}>
+      <div className={`GLDropDown ${isDropdownOpen ? "show" : ""}`}>
         <div className="GLDropDownList">
-          {garageLevelList.map((garageLevelNumber) => (
-            <a
-              className='glAlphabetical'
-              key={garageLevelNumber.GarageLevelKey}
-              onClick={() => jumpToGarageLevel(garageLevelNumber.GarageLevelKey)}
-            >
-              {garageLevelNumber.GarageLevelKey}
-            </a>
-          ))}
+          {levels.map((level) =>
+            level.GarageLevelKey !== undefined ? (
+              <a
+                key={`jump-${level.GarageLevelKey}`}
+                className="glAlphabetical"
+                onClick={() => jumpToGarageLevel(level.GarageLevelKey)}
+              >
+                {level.GarageLevelKey}
+              </a>
+            ) : (
+              <div key={`jump-missing`} className="glAlphabetical warning">
+                ⚠️ Missing Garage Level Key.
+              </div>
+            )
+          )}
         </div>
       </div>
 
-      {/* Render garage levels */}
       <div>
-        {garageLevelList.map((garageLevelNumber) => (
-          <div
-            key={garageLevelNumber.GarageLevelKey}
-            id={`garage-level ${garageLevelNumber.GarageLevelKey}`}
-          >
-            <GLContent {...garageLevelNumber} />
-          </div>
-        ))}
+        {levels.map((level) =>
+          level.GarageLevelKey !== undefined ? (
+            <div key={`level-${level.GarageLevelKey}`} id={`garage-level-${level.GarageLevelKey}`}>
+              <GLContent
+                GarageLevelKey={level.GarageLevelKey}
+                xp={level.xp}
+                cars={level.cars}
+              />
+            </div>
+          ) : (
+            <div key={`level-missing`} className="warning">
+              ⚠️ Missing Garage Level Key.
+            </div>
+          )
+        )}
       </div>
     </div>
   );
