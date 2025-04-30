@@ -128,5 +128,841 @@
         "image": "griffith.jpg"
       }
     ]
+  },
+  {
+    "GarageLevelKey": 6,
+    "xp": 80000,
+    "cars": [
+      {
+        "brand": "BMW",
+        "model": "M4 GTS",
+        "image": "m4gts.jpg"
+      },
+      {
+        "brand": "Exotic Rides",
+        "model": "W70",
+        "image": "w70.jpg"
+      },
+      {
+        "brand": "Ford",
+        "model": "Shelby GT350R",
+        "image": "shelbygt350r.jpg"
+      },
+      {
+        "brand": "Mazda",
+        "model": "Furai",
+        "image": "furai.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 7,
+    "xp": 100000,
+    "cars": [
+      {
+        "brand": "Aston Martin",
+        "model": "Vulcan",
+        "image": "vulcan.jpg"
+      },
+      {
+        "brand": "Dodge",
+        "model": "Viper ACR",
+        "image": "viperacr.jpg"
+      },
+      {
+        "brand": "Ford",
+        "model": "GT",
+        "image": "gt.jpg"
+      },
+      {
+        "brand": "Artega",
+        "model": "Scalo Superelletra",
+        "image": "scalosuperelletra.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 8,
+    "xp": 140000,
+    "cars": [
+      {
+        "brand": "Ferrari",
+        "model": "488 GTB",
+        "image": "488gtb.jpg"
+      },
+      {
+        "brand": "Pininfarina",
+        "model": "H2 Speed",
+        "image": "h2speed.jpg"
+      },
+      {
+        "brand": "Nissan",
+        "model": "GT-R Nismo",
+        "image": "gtrnismo.jpg"
+      },
+      {
+        "brand": "Italdesign",
+        "model": "Zerouno",
+        "image": "zerouno.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 9,
+    "xp": 220000,
+    "cars": [
+      {
+        "brand": "Dodge",
+        "model": "Viper GTS",
+        "image": "vipergts.jpg"
+      },
+      {
+        "brand": "Ferrari",
+        "model": "J50",
+        "image": "j50.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 10,
+    "xp": 400000,
+    "cars": [
+      {
+        "brand": "Ferrari",
+        "model": "LaFerrari",
+        "image": "laferrari.jpg"
+      },
+      {
+        "brand": "Acura",
+        "model": "NSX (2017)",
+        "image": "2017nsx.jpg"
+      },
+      {
+        "brand": "Glickenhaus",
+        "model": "003S",
+        "image": "003s.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 11,
+    "xp": 600000,
+    "cars": [
+      {
+        "brand": "Lamborghini",
+        "model": "Centenario",
+        "image": "centenario.jpg"
+      },
+      {
+        "brand": "Maserati",
+        "model": "Alfieri",
+        "image": "alfieri.jpg"
+      },
+      {
+        "brand": "Vencer",
+        "model": "Sarthe",
+        "image": "sarthe.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 12,
+    "xp": 800000,
+    "cars": [
+      {
+        "brand": "Ferrari",
+        "model": "FXX K",
+        "image": "fxxk.jpg"
+      },
+      {
+        "brand": "Lamborghini",
+        "model": "Aventador SV Coupe",
+        "image": "aventadorsvcoupe.jpg"
+      },
+      {
+        "brand": "McLaren",
+        "model": "P1",
+        "image": "p1.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 13,
+    "xp": 1000000,
+    "cars": [
+      {
+        "brand": "Chevrolet",
+        "model": "Corvette Grand Sport",
+        "image": "corvettegrandsport.jpg"
+      },
+      {
+        "brand": "Ferrari",
+        "model": "F12tdf",
+        "image": "f12tdf.jpg"
+      },
+      {
+        "brand": "Icona",
+        "model": "Vulcano Titanium",
+        "image": "vulcanotitanium.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 14,
+    "xp": 1200000,
+    "cars": [
+      {
+        "brand": "Porsche",
+        "model": "918 Spyder",
+        "image": "918spyder.jpg"
+      },
+      {
+        "brand": "Apollo",
+        "model": "N",
+        "image": "n.jpg"
+      },
+      {
+        "brand": "Arrinera",
+        "model": "Hussarya 33",
+        "image": "hussarya33.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 15,
+    "xp": 1400000,
+    "cars": [
+      {
+        "brand": "Lamborghini",
+        "model": "Aventador J",
+        "image": "aventadorj.jpg"
+      },
+      {
+        "brand": "Aston Martin",
+        "model": "Vantage GT12",
+        "image": "vantagegt12.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 16,
+    "xp": 1800000,
+    "cars": [
+      {
+        "brand": "W Motors",
+        "model": "Lykan Hypersport",
+        "image": "lykanhypersport.jpg"
+      },
+      {
+        "brand": "Aston Martin",
+        "model": "DBS Superleggera",
+        "image": "dbssuperleggera.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 17,
+    "xp": 2000000,
+    "cars": [
+      {
+        "brand": "McLaren",
+        "model": "570S Spider",
+        "image": "570sspider.jpg"
+      },
+      {
+        "brand": "Vanda Electrics",
+        "model": "Dendrobium",
+        "image": "dendrobium.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 18,
+    "xp": 2300000,
+    "cars": [
+      {
+        "brand": "Koenigsegg",
+        "model": "Regera",
+        "image": "regera.jpg"
+      },
+      {
+        "brand": "Lamborghini",
+        "model": "Huracan Evo Spyder",
+        "image": "huracanevospyder.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 19,
+    "xp": 2600000,
+    "cars": [
+      {
+        "brand": "Pagani",
+        "model": "Huayra BC",
+        "image": "huayrabc.jpg"
+      },
+      {
+        "brand": "Ferrari",
+        "model": "LaFerrari Aperta",
+        "image": "laferrariaperta.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 20,
+    "xp": 3000000,
+    "cars": [
+      {
+        "brand": "Bugatti",
+        "model": "Chiron",
+        "image": "chiron.jpg"
+      },
+      {
+        "brand": "Genty",
+        "model": "Akylone",
+        "image": "akylone.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 21,
+    "xp": 3400000,
+    "cars": [
+      {
+        "brand": "Infiniti",
+        "model": "Project Black S",
+        "image": "projectblacks.jpg"
+      },
+      {
+        "brand": "Lamborghini",
+        "model": "Countach 25th Anniv.",
+        "image": "countach25thanniversary.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 22,
+    "xp": 440000,
+    "cars": [
+      {
+        "brand": "Ferrari",
+        "model": "Roma",
+        "image": "roma.jpg" 
+      },
+      {
+        "brand": "Lotus",
+        "model": "Emira",
+        "image": "emira.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 23,
+    "xp": 520000,
+    "cars": [
+      {
+        "brand": "BMW",
+        "model": "i8 Roadster",
+        "image": "i8roadster.jpg"
+      },
+      {
+        "brand": "Renault",
+        "model": "Dezir",
+        "image": "dezir.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 24,
+    "xp": 600000,
+    "cars": [
+      {
+        "brand": "Porsche",
+        "model": "Taycan Turbo S",
+        "image": "taycanturbos.jpg"
+      },
+      {
+        "brand": "Saleen",
+        "model": "S1",
+        "image": "s1.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 25,
+    "xp": 700000,
+    "cars": [
+      {
+        "brand": "Chevrolet",
+        "model": "Corvette Stingray",
+        "image": "corvettestingray.jpg"
+      },
+      {
+        "brand": "Drako",
+        "model": "GTE",
+        "image": "gte.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 26,
+    "xp": 800000,
+    "cars": [
+      {
+        "brand": "McLaren",
+        "model": "Elva",
+        "image": "elva.jpg"
+      },
+      {
+        "brand": "Lamborghini",
+        "model": "Diablo GT",
+        "image": "diablogt.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 27,
+    "xp": 900000,
+    "cars": [
+      {
+        "brand": "SIN",
+        "model": "R1 550",
+        "image": "r1550.jpg"
+      },
+      {
+        "brand": "Lamborghini",
+        "model": "Murcielago LP640 Rds.",
+        "image": "murcielagolp640roadster.jpg"
+
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 28,
+    "xp": 1000000,
+    "cars": [
+      {
+        "brand": "Ferrari",
+        "model": "812 Superfast",
+        "image": "812superfast.jpg"
+      },
+      {
+        "brand": "Apex",
+        "model": "AP-0",
+        "image": "ap0.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 29,
+    "xp": 1200000,
+    "cars": [
+      {
+        "brand": "Aston Martin",
+        "model": "One-77",
+        "image": "one77.jpg"
+      },
+      {
+        "brand": "McLaren",
+        "model": "Senna GTR",
+        "image": "sennagtr.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 30,
+    "xp": 1400000,
+    "cars": [
+      {
+        "brand": "Porsche",
+        "model": "911 GT3 RS",
+        "image": "911gt3rs.jpg"
+      },
+      {
+        "brand": "Nissan",
+        "model": "GTR-50 Italdesign",
+        "image": "gtr50italdesign.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 31,
+    "xp": 1600000,
+    "cars": [
+      {
+        "brand": "Lamborghini",
+        "model": "Aventador SVJ Roadster",
+        "image": "aventadorsvjroadster.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 32,
+    "xp": 1800000,
+    "cars": [
+      {
+        "brand": "McLaren",
+        "model": "Speedtail",
+        "image": "speedtail.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 33,
+    "xp": 2000000,
+    "cars": [
+      {
+        "brand": "Citroën",
+        "model": "GT by Citroën",
+        "image": "gtbycitroen.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 34,
+    "xp": 2300000,
+    "cars": [
+      {
+        "brand": "Aston Martin",
+        "model": "Victor",
+        "image": "victor.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 35,
+    "xp": 2600000,
+    "cars": [
+      {
+        "brand": "Ferrari",
+        "model": "F8 Tributo",
+        "image": "f8tributo.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 36,
+    "xp": 3000000,
+    "cars": [
+      {
+        "brand": "Lamborghini",
+        "model": "Terzo Millennio",
+        "image": "terzomillennio.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 37,
+    "xp": 3400000,
+    "cars": [
+      {
+        "brand": "Vision",
+        "model": "1789",
+        "image": "1789.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 38,
+    "xp": 3800000,
+    "cars": [
+      {
+        "brand": "Aston Martin",
+        "model": "Valhalla Concept Car",
+        "image": "valhallaconceptcar.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 39,
+    "xp": 4200000,
+    "cars": [
+      {
+        "brand": "Automobili Pininfarina",
+        "model": "Battista",
+        "image": "battista.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 40,
+    "xp": 4600000,
+    "cars": [
+      {
+        "brand": "Aston Martin",
+        "model": "Valkyrie",
+        "image": "valkyrie.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 41,
+    "xp": 5250000,
+    "cars": [
+      {
+        "brand": "Italdesign",
+        "model": "DaVinci",
+        "image": "davinci.jpg"
+      },
+      {
+        "brand": "Renault",
+        "model": "Trezor",
+        "image": "trezor.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 42,
+    "xp": 440000,
+    "cars": [
+      {
+        "brand": "Ford",
+        "model": "Shelby GR-1",
+        "image": "shelbygr1.jpg"
+      },
+      {
+        "brand": "Aston Martin",
+        "model": "V12 Speedster",
+        "image": "v12speedster.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 43,
+    "xp": 520000,
+    "cars": [
+      {
+        "brand": "Nio",
+        "model": "EP9",
+        "image": "ep9.jpg"
+      },
+      {
+        "brand": "Bolwell",
+        "model": "MK X Nagari 500",
+        "image": "mkxnagari500.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 44,
+    "xp": 600000,
+    "cars": [
+      {
+        "brand": "Porsche",
+        "model": "911 GT1 Evolution",
+        "image": "911gt1evolution.jpg"
+      },
+      {
+        "brand": "Bentley",
+        "model": "Continental GT Speed",
+        "image": "continentalgtspeed.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 45,
+    "xp": 700000,
+    "cars": [
+      {
+        "brand": "Arash",
+        "model": "AF10",
+        "image": "af10.jpg"
+      },
+      {
+        "brand": "Ferrari",
+        "model": "Monza SP1",
+        "image": "monzasp1.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 46,
+    "xp": 800000,
+    "cars": [
+      {
+        "brand": "Apollo",
+        "model": "IE",
+        "image": "ie.jpg"
+      },
+      {
+        "brand": "McLaren",
+        "model": "GT",
+        "image": "gt.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 47,
+    "xp": 900000,
+    "cars": [
+      {
+        "brand": "Bentley",
+        "model": "Mulliner Bacalar",
+        "image": "mullinerbacalar.jpg"
+      },
+      {
+        "brand": "Puritalia",
+        "model": "Berlinetta",
+        "image": "berlinetta.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 48,
+    "xp": 1000000,
+    "cars": [
+      {
+        "brand": "Lamborghini",
+        "model": "Gallardo LP 560-4 Coupé",
+        "image": "gallardolp5604.jpg"
+      },
+      {
+        "brand": "Ferrari",
+        "model": "Enzo",
+        "image": "enzo.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 49,
+    "xp": 1200000,
+    "cars": [
+      {
+        "brand": "Lotus",
+        "model": "Evija",
+        "image": "evija.jpg"
+      },
+      {
+        "brand": "McLaren",
+        "model": "765LT",
+        "image": "765lt.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 50,
+    "xp": 1400000,
+    "cars": [
+      {
+        "brand": "Porsche",
+        "model": "Carrera GT",
+        "image": "carreragt.jpg"
+      },
+      {
+        "brand": "Jaguar",
+        "model": "C-X75",
+        "image": "cx75.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 51,
+    "xp": 1600000,
+    "cars": [
+      {
+        "brand": "Lamborghini",
+        "model": "Veneno",
+        "image": "veneno.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 52,
+    "xp": 1800000,
+    "cars": [
+      {
+        "brand": "Lamborghini",
+        "model": "Sesto Elemento",
+        "image": "sestoelemento.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 53,
+    "xp": 2000000,
+    "cars": [
+      {
+        "brand": "Peugeot",
+        "model": "Onyx",
+        "image": "onyx.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 54,
+    "xp": 2300000,
+    "cars": [
+      {
+        "brand": "Pagani",
+        "model": "Imola",
+        "image": "imola.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 55,
+    "xp": 2600000,
+    "cars": [
+      {
+        "brand": "Ferrari",
+        "model": "SF90 Stradale",
+        "image": "sf90stradale.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 56,
+    "xp": 3000000,
+    "cars": [
+      {
+        "brand": "Rimac",
+        "model": "Concept_One",
+        "image": "conceptone.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 57,
+    "xp": 3400000,
+    "cars": [
+      {
+        "brand": "McLaren",
+        "model": "Senna",
+        "image": "senna.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 58,
+    "xp": 3800000,
+    "cars": [
+      {
+        "brand": "Naran",
+        "model": "Hyper Coupe",
+        "image": "hypercoupe.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 59,
+    "xp": 4200000,
+    "cars": [
+      {
+        "brand": "Bugatti",
+        "model": "Veyron 16.4 Grand Sport Vitesse",
+        "image": "veyron164grandsportvitesse.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 60,
+    "xp": 4600000,
+    "cars": [
+      {
+        "brand": "Lamborghini",
+        "model": "Sián FKP 37",
+        "image": "sianfkp37.jpg"
+      }
+    ]
   }
 ]

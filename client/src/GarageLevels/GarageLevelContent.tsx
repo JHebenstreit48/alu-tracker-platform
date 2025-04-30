@@ -7,8 +7,9 @@ interface GarageLevelProps {
   cars: Car[];
 }
 
+// ✅ Keep accent marks (for folder names like "Citroën")
 const sanitizeBrandName = (brand: string): string =>
-  brand.replace(/\s+/g, "").replace(/[^a-zA-Z0-9]/g, "");
+  brand.replace(/\s+/g, "").replace(/[^a-zA-Z0-9À-ÿœŒ]/g, "");
 
 export function GLContent({ GarageLevelKey, xp, cars }: GarageLevelProps) {
   if (!GarageLevelKey) {
@@ -31,9 +32,7 @@ export function GLContent({ GarageLevelKey, xp, cars }: GarageLevelProps) {
       <div className="CarImagesContainer">
         {cars.length > 0 ? (
           cars.map((car, index) => {
-            const brand = car.brand;
-            const model = car.model;
-            const image = car.image;
+            const { brand, model, image } = car;
 
             if (!brand || !model || !image) {
               console.warn(`⚠️ Incomplete car data at index ${index}:`, car);
@@ -44,8 +43,8 @@ export function GLContent({ GarageLevelKey, xp, cars }: GarageLevelProps) {
               );
             }
 
-            const sanitizedBrand = sanitizeBrandName(brand);
-            const filename = image.split("/").pop(); // always get just the image filename
+            const sanitizedBrand = sanitizeBrandName(brand); // preserves accents
+            const filename = image.split("/").pop(); // assume filename is clean
             const imagePath = `${import.meta.env.VITE_PUBLIC_BASE_URL}/images/cars/${sanitizedBrand[0]}/${sanitizedBrand}/${filename}`;
 
             console.log(`[${index}] Brand: ${brand}`);
