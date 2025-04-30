@@ -7,9 +7,12 @@ interface StarRatingProps {
 const backendBaseUrl = import.meta.env.VITE_PUBLIC_BASE_URL;
 
 const StarRank: React.FC<StarRatingProps> = ({ count }) => {
+  // Prevent runtime crashes if count is undefined or invalid
+  const safeCount = Number.isInteger(count) && count > 0 ? count : 0;
+
   return (
     <div className="StarRating">
-      {Array.from({ length: count }).map((_, i) => (
+      {Array.from({ length: safeCount }).map((_, i) => (
         <img
           key={i}
           src={`${backendBaseUrl}/images/icons/star.png`}
