@@ -6,7 +6,7 @@ import ClassTables from "@/CarsByClass/ClassTables";
 import CarFilters from "@/CarsByClass/CarFilters";
 import "@/SCSS/Cars/CarsByClass.scss";
 
-// Move constant OUTSIDE of the component (important!)
+// API base URL
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
 
 interface Car {
@@ -32,6 +32,10 @@ export default function CarsByClass() {
   });
   const [error, setError] = useState<string | null>(null);
 
+  // Accent-safe normalization
+  const normalize = (text: string): string =>
+    text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
   useEffect(() => {
     setError(null);
 
@@ -54,12 +58,11 @@ export default function CarsByClass() {
         setError("Failed to fetch cars. Please try again later.");
         console.error(error);
       });
-  }, [selectedClass, location.state]); // ✅ No need to add API_BASE_URL anymore!
+  }, [selectedClass, location.state]);
 
   const handleSearch = (term: string) => {
-    const normalizedTerm = term.toLowerCase();
-    setSearchTerm(normalizedTerm);
-    localStorage.setItem("searchTerm", normalizedTerm);
+    setSearchTerm(term);
+    localStorage.setItem("searchTerm", term);
   };
 
   const handleStarFilter = (stars: number | null) => {
@@ -88,16 +91,29 @@ export default function CarsByClass() {
 
   const filteredCars = cars
     .filter((car) => {
+      const normalizedSearch = normalize(searchTerm);
+      const brand = normalize(car.Brand);
+      const model = normalize(car.Model);
+      const combined = `${brand} ${model}`;
+
       const matchesSearch =
-        car.Brand.toLowerCase().includes(searchTerm) ||
-        car.Model.toLowerCase().includes(searchTerm) ||
-        (car.Brand.toLowerCase() + " " + car.Model.toLowerCase()).includes(searchTerm);
+        brand.includes(normalizedSearch) ||
+        model.includes(normalizedSearch) ||
+        combined.includes(normalizedSearch);
 
       const matchesStars = selectedStars ? car.Stars === selectedStars : true;
 
       return matchesSearch && matchesStars;
     })
-    .sort((a: Car, b: Car) => {
+    .filter((car, index, self) =>
+      index === self.findIndex(
+        (c) =>
+          c.Brand === car.Brand &&
+          c.Model === car.Model &&
+          c.Stars === car.Stars
+      )
+    )
+    .sort((a, b) => {
       if (selectedClass === "All Classes") {
         return a.Stars - b.Stars;
       }
