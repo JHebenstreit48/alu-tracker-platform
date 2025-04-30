@@ -1,5 +1,5 @@
-import { Car } from "@/CarDetails/CarInterfaces";
-import StarRank from "@/components/StarRank"; // ✅ update path if different
+import { Car } from "@/components/CarInformation/CarDetails/CarInterfaces";
+import StarRank from "@/components/CarInformation/StarRank"; // ✅ update path if different
 
 interface ClassRankProps {
   car: Car;

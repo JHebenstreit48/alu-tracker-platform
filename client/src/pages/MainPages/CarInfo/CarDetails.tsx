@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
-import { Car } from "@/CarDetails/CarInterfaces";
-import CarImage from "@/CarDetails/CarImage";
-import ClassRank from "@/CarDetails/ClassRank";
-import MaxStats from "@/CarDetails/MaxStats";
-import BlueprintsTable from "@/CarDetails/BlueprintsTable";
+import { Car } from "@/components/CarInformation/CarDetails/CarInterfaces";
+import CarImage from "@/components/CarInformation/CarDetails/CarImage";
+import ClassRank from "@/components/CarInformation/CarDetails/ClassRank";
+import MaxStats from "@/components/CarInformation/CarDetails/MaxStats";
+import BlueprintsTable from "@/components/CarInformation/CarDetails/BlueprintsTable";
 import "@/SCSS/Cars/CarDetail.scss";
 
-const CarDetail = () => {
+const CarDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
@@ -39,7 +39,7 @@ const CarDetail = () => {
 
   const handleGoBack = () => {
     const lastSelectedClass = location.state?.selectedClass;
-    navigate(lastSelectedClass ? `/carsbyclass?class=${lastSelectedClass}` : "/carsbyclass");
+    navigate(lastSelectedClass ? `/cars?class=${lastSelectedClass}` : "/cars");
   };
 
   if (error) return <div className="error-message">Failed to load car details.</div>;
@@ -71,4 +71,4 @@ const CarDetail = () => {
   );
 };
 
-export default CarDetail;
+export default CarDetails;

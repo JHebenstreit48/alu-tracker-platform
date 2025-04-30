@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
-import Header from "@/components/Header";
-import PageTab from "@/components/PageTab";
-import GarageLevelsDropDown from "@/GarageLevels/GarageLevelsDropDown";
-import GLTrackerToggle from "@/GarageLevels/GLTrackerToggle";
-import GarageLevelTracker from "@/GarageLevels/GarageLevelTracker";
-import { GarageLevelsInterface } from "@/GarageLevels/interface";
+import Header from "@/components/Shared/Header";
+import PageTab from "@/components/Shared/PageTab";
+import GarageLevelsDropDown from "@/components/GarageLevels/GarageLevelsDropDown";
+import GLTrackerToggle from "@/components/GarageLevels/GLTrackerToggle";
+import GarageLevelTracker from "@/components/GarageLevels/GarageLevelTracker";
+import { GarageLevelsInterface } from "@/components/GarageLevels/interface";
 import "@/SCSS/GarageLevels/GarageLevelTracker.scss";
 import "@/SCSS/GarageLevels/GarageLevels.scss";
 

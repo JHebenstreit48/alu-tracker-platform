@@ -1,5 +1,5 @@
-import { Car } from "@/GarageLevels/interface";
-import BackToTop from "@/components/BackToTopButton";
+import { Car } from "@/components/GarageLevels/interface";
+import BackToTop from "@/components/Shared/BackToTopButton";
 
 interface GarageLevelProps {
   GarageLevelKey: number;
