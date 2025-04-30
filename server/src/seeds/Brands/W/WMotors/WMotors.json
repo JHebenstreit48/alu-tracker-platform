@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/W/WMotors/lykansecurity.jpg",
     "Class": "S",
     "Brand": "W Motors",
     "Model": "Lykan Security",
@@ -36,9 +37,10 @@
   },
   {
     "Id": 2,
+    "Image": "/images/cars/W/WMotors/lykanneonedition.jpg",
     "Class": "S",
     "Brand": "W Motors",
-    "Model": "Lykan Neon",
+    "Model": "Lykan Neon Edition",
     "Rarity": "Epic",
     "Stars": 6,
     "Max_Rank": 4845,
@@ -64,13 +66,11 @@
     "BPs_3_Star": 45,
     "BPs_4_Star": 60,
     "BPs_5_Star": 70,
-    "BPs_6_Star": 85,
-    "Total_BPs": 300,
-    "Unnamed: 32": 54845,
-    "Cost epic": null
+    "BPs_6_Star": 85
   },
   {
     "Id": 3,
+    "Image": "/images/cars/W/WMotors/fenyrsupersport.jpg",
     "Class": "S",
     "Brand": "W Motors",
     "Model": "Fenyr Supersport",
@@ -99,13 +99,11 @@
     "BPs_3_Star": 16,
     "BPs_4_Star": 25,
     "BPs_5_Star": 38,
-    "BPs_6_Star": 48,
-    "Total_BPs": 200,
-    "Unnamed: 32": 54479,
-    "Cost epic": 15000
+    "BPs_6_Star": 48
   },
   {
     "Id": 4,
+    "Image": "/images/cars/W/WMotors/lykanhypersport.jpg",
     "Class": "S",
     "Brand": "W Motors",
     "Model": "Lykan HyperSport",
@@ -133,10 +131,6 @@
     "BPs_2_Star": 13,
     "BPs_3_Star": 16,
     "BPs_4_Star": 25,
-    "BPs_5_Star": 39,
-    "BPs_6_Star": null,
-    "Total_BPs": 133,
-    "Unnamed: 32": 54083,
-    "Cost epic": 15000
+    "BPs_5_Star": 39
   }
 ]

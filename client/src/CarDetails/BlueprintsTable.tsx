@@ -1,5 +1,5 @@
 import { Car } from "@/CarDetails/CarInterfaces";
-import starIcon from "@/assets/star-icon/star-icon.png";
+import StarRank from "@/components/StarRank"; // Corrected import path for StarRank
 
 interface Props {
   car: Car;
@@ -42,14 +42,7 @@ const BlueprintsTable: React.FC<Props> = ({ car }) => {
             <tr key={key}>
               <td style={{ textAlign: "center" }}>
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-                  {Array.from({ length: starCount }, (_, i) => (
-                    <img
-                      key={i}
-                      src={starIcon}
-                      alt="star"
-                      className="starIcon"
-                    />
-                  ))}
+                  <StarRank count={starCount} />
                 </div>
               </td>
               <td style={{ textAlign: "center" }}>{value}</td>

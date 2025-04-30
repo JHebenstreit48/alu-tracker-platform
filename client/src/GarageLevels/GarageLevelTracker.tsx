@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { GarageLevels } from '@/GarageLevels/interface';
+import { GarageLevelsInterface } from '@/GarageLevels/interface';
 
 interface GarageLevelTrackerProps {
-  levels: GarageLevels[]; // Accept levels as a prop
+  levels: GarageLevelsInterface[]; // Accept levels as a prop
 }
 
 const GarageLevelTracker: React.FC<GarageLevelTrackerProps> = ({ levels }) => {

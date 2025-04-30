@@ -1,0 +1,65 @@
+/* ==============================
+            Variables
+   ============================== */
+
+   $spinner-size: 4rem;
+   $spinner-border-width: 0.5rem;
+   $spinner-color-base: #ccc;
+   $spinner-color-accent: #facc15;
+   
+   $spinner-container-height: 60vh;
+   
+   $cellphone-portrait: 390px;
+   $tablet-max: 768px;
+   
+   /* ==============================
+           Spinner Container
+      ============================== */
+   
+   .spinnerContainer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: $spinner-container-height;
+   
+     @media only screen and (max-width: $tablet-max) {
+       height: 50vh;
+     }
+   
+     @media only screen and (max-width: $cellphone-portrait) {
+       height: 40vh;
+     }
+   }
+   
+   /* ==============================
+            Loading Spinner
+      ============================== */
+   
+   .loadingSpinner {
+     width: $spinner-size;
+     height: $spinner-size;
+     border: $spinner-border-width solid $spinner-color-base;
+     border-top: $spinner-border-width solid $spinner-color-accent;
+     border-radius: 50%;
+     animation: spinner-rotate 1s linear infinite;
+   
+     @media only screen and (max-width: $cellphone-portrait) {
+       width: 3rem;
+       height: 3rem;
+       border-width: 0.4rem;
+     }
+   }
+   
+   /* ==============================
+               Animations
+      ============================== */
+   
+   @keyframes spinner-rotate {
+     0% {
+       transform: rotate(0deg);
+     }
+     100% {
+       transform: rotate(360deg);
+     }
+   }
+   

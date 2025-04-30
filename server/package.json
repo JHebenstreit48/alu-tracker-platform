@@ -9,7 +9,8 @@
   "seed": "ts-node -r tsconfig-paths/register src/scripts/importCars.ts",
   "seed:blueprints": "ts-node -r tsconfig-paths/register src/scripts/importBlueprintPrices.ts",
   "seed:manufacturers": "ts-node -r tsconfig-paths/register src/scripts/importManufacturers.ts",
-  "seed:all": "npm run seed && npm run seed:blueprints && npm run seed:manufacturers",
+  "seed:garagelevels": "ts-node -r tsconfig-paths/register src/scripts/importGarageLevels.ts",
+  "seed:all": "npm run seed && npm run seed:blueprints && npm run seed:manufacturers && npm run seed:garagelevels",
   "build": "tsc",
   "start:watch": "nodemon --exec ts-node -r tsconfig-paths/register src/server.ts",
   "start:dev": "npm run start:watch"

@@ -1,43 +1,68 @@
-import BackToTop from '@/components/BackToTopButton'
-import { GarageLevels } from '@/GarageLevels/interface'
+import { Car } from "@/GarageLevels/interface";
+import BackToTop from "@/components/BackToTopButton";
 
-export function GLContent({ GarageLevelKey, xp, garageLevel }: GarageLevels) {
-    return (
+interface GarageLevelProps {
+  GarageLevelKey: number;
+  xp: number;
+  cars: Car[];
+}
 
-        <section id={GarageLevelKey.toString()}>
-            <div>
+export function GLContent({ GarageLevelKey, xp, cars }: GarageLevelProps) {
+  if (!GarageLevelKey) {
+    return <p className="error">⚠️ Missing Garage Level Key.</p>;
+  }
 
-                <h2 className='mainHeading'>
-                    {`Garage Level ${GarageLevelKey}`}
-                </h2>
+  console.log("📊 Real cars array:", cars);
 
-                <h3 className='subHeading'>Cars Available</h3>
+  return (
+    <section id={`garage-level-section-${GarageLevelKey}`}>
+      <div>
+        <h2 className="mainHeading">{`Garage Level ${GarageLevelKey}`}</h2>
+        <h3 className="subHeading">Cars Available</h3>
+      </div>
 
-            </div>
+      <div className="xp">
+        <h3 className="xpTitle">
+          XP Required <span className="xpRequirement">{xp.toLocaleString("en-US")}</span>
+        </h3>
+      </div>
 
-            <div className="xp">
+      <div className="CarImagesContainer">
+        {cars.length > 0 ? (
+          cars.map((car, index) => {
+            const brand = car?.brand;
+            const model = car?.model;
+            const image = car?.image;
 
-                <h3 className='xpTitle'>XP Required <span className='xpRequirement'>{xp.toLocaleString('en-US')}</span>  
-                </h3>
+            if (!brand || !model || !image) {
+              console.warn(`⚠️ Incomplete car data at index ${index}:`, car);
+              return (
+                <div key={`incomplete-${index}`} className="warning">
+                  ⚠️ Missing data for car at index {index}.
+                </div>
+              );
+            }
 
-            </div>
+            const imagePath = `${import.meta.env.VITE_PUBLIC_BASE_URL}${image}`;
+            console.log(`🖼️ [${index}] Final image path:`, imagePath);
 
+            return (
+              <div key={`${model}-${index}`}>
+                <img
+                  className="CarImages"
+                  src={imagePath}
+                  alt={`${brand} ${model}`}
+                />
+                <p className="CarImagesCaption">{`${brand} ${model}`}</p>
+              </div>
+            );
+          })
+        ) : (
+          <p>No cars available.</p>
+        )}
+      </div>
 
-            <div className='CarImagesContainer'>
-
-                {
-                    (garageLevel.length > 0) && garageLevel.map((gls, index) => (
-                        <div key={gls.name + index}>
-                            <img className='CarImages' src={gls.img} />
-                            <p className='CarImagesCaption'>{gls.name}</p>
-                        </div>
-                    ))
-                }
-
-            </div>
-
-            <BackToTop />
-
-        </section>
-    )
+      <BackToTop />
+    </section>
+  );
 }
