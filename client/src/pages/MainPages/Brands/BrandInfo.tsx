@@ -41,7 +41,7 @@ export default function BrandInfo() {
       .catch(() => setError(true));
   }, [slug, API_BASE_URL]);
 
-  const handleGoBack = () => navigate(-1);
+  const handleGoBack = () => navigate("/brands");
 
   if (error) {
     return <div className="error-message">Brand not found or failed to load.</div>;

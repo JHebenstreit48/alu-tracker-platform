@@ -1,4 +1,4 @@
-import { ImageCarouselType } from "@/HomePage/ImagesForCarousel";
+import { ImageCarouselType } from "@/components/HomePage/ImagesForCarousel";
 
 const backendImageUrl = import.meta.env.VITE_PUBLIC_BASE_URL ?? "http://localhost:3001";
 

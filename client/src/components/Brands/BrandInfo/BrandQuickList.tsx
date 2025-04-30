@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "@/SCSS/Brands/BrandQuickList.scss";
-import BackToTop from "@/components/BackToTopButton";
+import BackToTop from "@/components/Shared/BackToTopButton";
 
 interface BrandQuickListProps {
   manufacturers: {
@@ -67,7 +67,7 @@ export default function BrandQuickList({ manufacturers }: BrandQuickListProps) {
                     .sort((a, b) => a.brand.localeCompare(b.brand))
                     .map((manufacturer) => (
                       <li key={manufacturer._id}>
-                        <Link to={`/manufacturers/${manufacturer.slug}`}>
+                        <Link to={`/brands/${manufacturer.slug}`}>
                           {manufacturer.brand}
                         </Link>
                       </li>

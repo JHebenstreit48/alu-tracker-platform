@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import Header from "@/components/Header";
-import PageTab from "@/components/PageTab";
-import ClassTables from "@/CarsByClass/ClassTables";
-import CarFilters from "@/CarsByClass/CarFilters";
+import Header from "@/components/Shared/Header";
+import PageTab from "@/components/Shared/PageTab";
+import ClassTables from "@/components/CarInformation/CarList/ClassTables";
+import CarFilters from "@/components/CarInformation/CarList/CarFilters";
 import "@/SCSS/Cars/CarsByClass.scss";
 
 // API base URL
@@ -16,7 +16,7 @@ interface Car {
   Stars: number;
 }
 
-export default function CarsByClass() {
+export default function Cars() {
   const location = useLocation();
   const [cars, setCars] = useState<Car[]>([]);
   const [searchTerm, setSearchTerm] = useState<string>(

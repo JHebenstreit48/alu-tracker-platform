@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { GarageLevelsInterface } from '@/GarageLevels/interface';
+import { GarageLevelsInterface } from '@/components/GarageLevels/interface';
 
 interface GarageLevelTrackerProps {
   levels: GarageLevelsInterface[]; // Accept levels as a prop

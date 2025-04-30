@@ -1,8 +1,8 @@
-import Header from "@/components/Header";
-import PageTab from "@/components/PageTab";
-import ImageCarousel from "@/HomePage/ImageCarousel";
-import Carousel from "@/HomePage/ImagesForCarousel";
-import GameInfo from "@/HomePage/GameInfo";
+import Header from "@/components/Shared/Header";
+import PageTab from "@/components/Shared/PageTab";
+import ImageCarousel from "@/components/HomePage/ImageCarousel";
+import Carousel from "@components/HomePage/ImagesForCarousel";
+import GameInfo from "@components/HomePage/GameInfo";
 import '@/SCSS/PageAndHome/Home.scss';
 
 export default function Home() {

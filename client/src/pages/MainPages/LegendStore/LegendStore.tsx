@@ -1,7 +1,7 @@
-import Header from "@/components/Header";
-import PageTab from "@/components/PageTab";
-import LegendStoreFilters from "@/LegendStore/LegendStoreFiltersAndSearch";
-import LegendStoreTables from "@/LegendStore/LegendStoreTables";
+import Header from "@/components/Shared/Header";
+import PageTab from "@/components/Shared/PageTab";
+import LegendStoreFilters from "@/components/LegendStore/LegendStoreFiltersAndSearch";
+import LegendStoreTables from "@/components/LegendStore/LegendStoreTables";
 import '@/SCSS/MiscellaneousStyle/LegendStore.scss';
 import { useState } from "react";
 

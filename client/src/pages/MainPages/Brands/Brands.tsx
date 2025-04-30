@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Header from "@/components/Header";
-import PageTab from "@/components/PageTab";
-import BrandQuickList from "@/Brands/BrandInfo/BrandQuickList";
+import Header from "@/components/Shared/Header";
+import PageTab from "@/components/Shared/PageTab";
+import BrandQuickList from "@/components/Brands/BrandInfo/BrandQuickList";
 import "@/SCSS/Brands/BrandMap.scss"; // ✅ Still reuse SCSS
 
 interface Manufacturer {
@@ -33,9 +33,9 @@ export default function Brands() {
   if (error) return <div className="error-message">Failed to load manufacturers.</div>;
 
   return (
-    <div className="manufacturers-map-page">
-      <PageTab title="Manufacturers Map">
-        <Header text="Manufacturers Map" />
+    <div className="brands">
+      <PageTab title="Brands">
+        <Header text="Brands" />
         
         {/* ✅ Show the Jump List (grouped properly) */}
         <BrandQuickList manufacturers={manufacturers} />

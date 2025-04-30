@@ -25,20 +25,15 @@ export default function Navigation() {
 
   const NavLinks = [
     { label: "Home", path: () => navigation("/"), location: "/" },
-    // {
-    //   label: "Brands",
-    //   path: () => navigation("/manufacturers"),
-    //   location: "/manufacturers",
-    // },
     {
       label: 'Brands',
-      path: () => navigation('/manufacturers/manufacturersmap'),
-      location: '/manufacturers/manufacturersmap'
+      path: () => navigation('/brands'),
+      location: '/brands'
     },
     {
       label: "Cars",
-      path: () => navigation("/carsbyclass"),
-      location: "/carsbyclass",
+      path: () => navigation("/cars"),
+      location: "/cars",
     },
     {
       label: "Garage Levels",
