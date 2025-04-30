@@ -6,7 +6,7 @@ interface StarRatingProps {
 
 const backendBaseUrl = import.meta.env.VITE_PUBLIC_BASE_URL;
 
-const StarRating: React.FC<StarRatingProps> = ({ count }) => {
+const StarRank: React.FC<StarRatingProps> = ({ count }) => {
   return (
     <div className="StarRating">
       {Array.from({ length: count }).map((_, i) => (
@@ -21,4 +21,4 @@ const StarRating: React.FC<StarRatingProps> = ({ count }) => {
   );
 };
 
-export default StarRating;
+export default StarRank;

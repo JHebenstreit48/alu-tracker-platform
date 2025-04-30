@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import StarRating from "@/components/StarRank"; // Adjust path as needed
+import StarRank from "@/components/StarRank"; // Adjust path as needed
 
 interface Car {
   _id: string;
@@ -38,7 +38,7 @@ export default function carClassTables({ cars, selectedClass }: ClassTablesProps
                 </Link>
               </td>
               <td>
-                <StarRating count={car.Stars} />
+                <StarRank count={car.Stars} />
               </td>
             </tr>
           ))}
