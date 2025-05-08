@@ -1,7 +1,7 @@
 {
     "brand": "Jaguar",
     "slug": "jaguar",
-    "description": "Information about Jaguar is not currently available.",
+    "description": "In 1922, a gentleman named William Lyons founded the Swallow Sidecar Company. A few years later, he built his first car, the SS1. Then in 1935, he introduced a breakthrough – the SS Jaguar – and a star was born. His company quickly became famous with the Jaguar line, which were both visually stunning and technically ground-breaking. The C-type, D-Type and E-type models paved the way for the current models. The rest, as they say, is history.",
     "logo": "/Images/Logos/J/Jaguar/jaguar-logo.png",
     "country": ["United Kingdom"],
     "established": 1922,
@@ -11,6 +11,11 @@
       "lat": 52.3925,
       "lng": -1.4825
     },
-    "resources": []
+    "resources": [
+      {
+        "text": "Jaguar USA - About Jaguar - Heritage",
+        "url": "https://www.jaguarusa.com/about-jaguar/heritage/index.html"
+      }
+    ]
   }
   
