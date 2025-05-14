@@ -6,19 +6,15 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "outDir": "dist",
-    "rootDir": "src",                        // 👈 All code must now be under /src
-    "baseUrl": "src",                        // 👈 Required for path aliases
+    "rootDir": "src",
+    "baseUrl": "src",
     "paths": {
-      "@/*": ["*"]                           // 👈 Example: @/models/car = src/models/car
+      "@/*": ["*"]
     },
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node"]                             // ✅ Add this line
   },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
