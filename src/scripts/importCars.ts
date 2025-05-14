@@ -18,7 +18,7 @@ const collectJsonFiles = (dirPath: string): string[] => {
     const fullPath = path.join(dirPath, entry.name);
 
     if (entry.isDirectory()) {
-      jsonFiles = jsonFiles.concat(collectJsonFiles(fullPath)); // Recurse
+      jsonFiles = jsonFiles.concat(collectJsonFiles(fullPath));
     } else if (entry.isFile() && fullPath.endsWith(".json")) {
       jsonFiles.push(fullPath);
     }
@@ -28,19 +28,14 @@ const collectJsonFiles = (dirPath: string): string[] => {
 };
 
 const importCars = async () => {
-  console.log("🌱 Seeding started...");
+  console.log("🌱 Car seeding started...");
 
   try {
     await connectToDb();
 
-    const shouldClear = process.env.SEED_CLEAR === "true";
-
-    if (shouldClear) {
-      await CarModel.deleteMany();
-      console.log("🧼 Existing cars removed.");
-    } else {
-      console.log("⚠️ Skipping deletion. Set SEED_CLEAR=true to enable wiping.");
-    }
+    // ✅ Always clear the collection
+    await CarModel.deleteMany();
+    console.log("🧼 Existing cars removed.");
 
     const allJsonFiles = collectJsonFiles(brandsDir);
     console.log(`📄 Found ${allJsonFiles.length} JSON files.`);
