@@ -12,7 +12,7 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-const isDev = process.env.NODE_ENV !== "production";
+// const isDev = process.env.NODE_ENV !== "production";
 
 app.use(cors({
   origin: [
