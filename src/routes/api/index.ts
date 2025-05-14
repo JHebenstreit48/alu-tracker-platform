@@ -11,14 +11,19 @@ const router: Router = express.Router();
 //       🚗 CAR ROUTES
 // ============================
 
-router.get("/cars", async (_req: Request, res: Response): Promise<void> => {
+router.get("/cars", async (req: Request, res: Response): Promise<void> => {
+  const limit = parseInt(req.query.limit as string) || 25;
+  const offset = parseInt(req.query.offset as string) || 0;
+
   try {
-    const cars = await CarModel.find();
+    const cars = await CarModel.find().skip(offset).limit(limit);
     res.status(200).json(cars);
   } catch (error) {
+    console.error("[ERROR] Failed to fetch paginated cars:", error);
     res.status(500).json({ error: "Failed to fetch cars" });
   }
 });
+
 
 router.get(
   "/cars/:class",
