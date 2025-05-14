@@ -18,9 +18,9 @@ const collectJsonFiles = (dirPath: string): string[] => {
     const fullPath = path.join(dirPath, entry.name);
 
     if (entry.isDirectory()) {
-      jsonFiles = jsonFiles.concat(collectJsonFiles(fullPath)); // Recursively go deeper
+      jsonFiles = jsonFiles.concat(collectJsonFiles(fullPath)); // Recurse
     } else if (entry.isFile() && fullPath.endsWith(".json")) {
-      jsonFiles.push(fullPath); // Save path if it’s a .json file
+      jsonFiles.push(fullPath);
     }
   }
 
@@ -33,11 +33,13 @@ const importCars = async () => {
   try {
     await connectToDb();
 
-    if (process.env.NODE_ENV !== "production") {
+    const shouldClear = process.env.SEED_CLEAR === "true";
+
+    if (shouldClear) {
       await CarModel.deleteMany();
       console.log("🧼 Existing cars removed.");
     } else {
-      console.log("🛑 Skipping deleteMany() in production.");
+      console.log("⚠️ Skipping deletion. Set SEED_CLEAR=true to enable wiping.");
     }
 
     const allJsonFiles = collectJsonFiles(brandsDir);
@@ -47,12 +49,12 @@ const importCars = async () => {
 
     for (const filePath of allJsonFiles) {
       const rawData = fs.readFileSync(filePath, "utf-8");
-      let parsedData;
 
+      let parsedData;
       try {
         parsedData = JSON.parse(rawData);
       } catch (e) {
-        console.warn(`⚠️ Skipped (invalid JSON): ${filePath}`);
+        console.warn(`⚠️ Skipped invalid JSON: ${filePath}`);
         continue;
       }
 
@@ -66,7 +68,9 @@ const importCars = async () => {
       totalCount += parsedData.length;
     }
 
+    const finalCount = await CarModel.countDocuments();
     console.log(`🚗 Finished importing ${totalCount} cars.`);
+    console.log(`📊 Current total in database: ${finalCount}`);
   } catch (error) {
     console.error("❌ Error during import:", error);
   } finally {
