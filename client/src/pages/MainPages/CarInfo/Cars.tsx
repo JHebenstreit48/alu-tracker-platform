@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+
 import Header from "@/components/Shared/Header";
 import PageTab from "@/components/Shared/PageTab";
 import ClassTables from "@/components/CarInformation/CarList/ClassTables";
@@ -8,7 +9,6 @@ import "@/SCSS/Cars/CarsByClass.scss";
 
 // API base URL
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:3001";
-
 
 interface Car {
   _id: string;
@@ -32,13 +32,14 @@ export default function Cars() {
     return savedUnit === "imperial" || savedUnit === "metric" ? savedUnit : "metric";
   });
   const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState<boolean>(true); // ✅ new
 
-  // Accent-safe normalization
   const normalize = (text: string): string =>
     text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
   useEffect(() => {
     setError(null);
+    setLoading(true); // ✅ start loading
 
     const endpoint =
       selectedClass === "All Classes"
@@ -58,7 +59,8 @@ export default function Cars() {
       .catch((error) => {
         setError("Failed to fetch cars. Please try again later.");
         console.error(error);
-      });
+      })
+      .finally(() => setLoading(false)); // ✅ end loading
   }, [selectedClass, location.state]);
 
   const handleSearch = (term: string) => {
@@ -121,76 +123,66 @@ export default function Cars() {
       return 0;
     });
 
-    if (error) {
-      return (
-        <div className="cars">
-          <PageTab title="Cars">
-            <Header text="Cars" />
-            <div className="error-message">{error}</div>
-            <CarFilters onSearch={handleSearch} onFilter={handleStarFilter} />
-            <ClassTables cars={[]} selectedClass={selectedClass} />
-          </PageTab>
-        </div>
-      );
-    }
-
-    if (!cars.length && !error) {
-      return (
-        <div className="cars">
-          <PageTab title="Cars">
-            <Header text="Cars" />
-            <div className="loading-message">Loading cars...</div>
-            <CarFilters onSearch={handleSearch} onFilter={handleStarFilter} />
-          </PageTab>
-        </div>
-      );
-    }
+  if (error) {
+    return (
+      <div className="cars">
+        <PageTab title="Cars">
+          <Header text="Cars" />
+          <div className="error-message">{error}</div>
+          <CarFilters onSearch={handleSearch} onFilter={handleStarFilter} />
+          <ClassTables cars={[]} selectedClass={selectedClass} loading={loading} />
+        </PageTab>
+      </div>
+    );
+  }
 
   return (
-    <div>
+    <div className="cars">
       <PageTab title="Cars">
         <Header text="Cars" />
-        <div>
-          <CarFilters onSearch={handleSearch} onFilter={handleStarFilter} />
-          <div className="settings-row">
+        <CarFilters onSearch={handleSearch} onFilter={handleStarFilter} />
+        <div className="settings-row">
+          <select
+            onChange={handleClassChange}
+            value={selectedClass}
+            className="classSelect"
+          >
+            <option value="All Classes">All Classes</option>
+            <option value="D">D</option>
+            <option value="C">C</option>
+            <option value="B">B</option>
+            <option value="A">A</option>
+            <option value="S">S</option>
+          </select>
+
+          <button className="resetFilters" onClick={handleResetFilters}>
+            Reset Filters
+          </button>
+
+          <div className="unitSelection">
             <select
-              onChange={handleClassChange}
-              value={selectedClass}
-              className="classSelect"
+              onChange={handleUnitPreferenceChange}
+              value={unitPreference}
+              className="unitSelect"
             >
-              <option value="All Classes">All Classes</option>
-              <option value="D">D</option>
-              <option value="C">C</option>
-              <option value="B">B</option>
-              <option value="A">A</option>
-              <option value="S">S</option>
+              <option value="metric">Metric (km/h, m/s²)</option>
+              <option value="imperial">Imperial (mph, ft/s²)</option>
             </select>
-
-            <button className="resetFilters" onClick={handleResetFilters}>
-              Reset Filters
-            </button>
-
-            <div className="unitSelection">
-              <select
-                onChange={handleUnitPreferenceChange}
-                value={unitPreference}
-                className="unitSelect"
-              >
-                <option value="metric">Metric (km/h, m/s²)</option>
-                <option value="imperial">Imperial (mph, ft/s²)</option>
-              </select>
-              <span
-                className="infoTooltip"
-                data-bs-toggle="tooltip"
-                data-bs-placement="right"
-                title="This setting applies units of measurement for individual car details pages."
-              >
-                &#9432;
-              </span>
-            </div>
+            <span
+              className="infoTooltip"
+              data-bs-toggle="tooltip"
+              data-bs-placement="right"
+              title="This setting applies units of measurement for individual car details pages."
+            >
+              &#9432;
+            </span>
           </div>
         </div>
-        <ClassTables cars={filteredCars} selectedClass={selectedClass} />
+        <ClassTables
+          cars={filteredCars}
+          selectedClass={selectedClass}
+          loading={loading} // ✅ new prop passed
+        />
       </PageTab>
     </div>
   );
