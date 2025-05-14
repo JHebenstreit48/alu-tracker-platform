@@ -1,6 +1,6 @@
 import { ImageCarouselType } from "@/components/HomePage/ImagesForCarousel";
 
-const backendImageUrl = import.meta.env.VITE_PUBLIC_BASE_URL ?? "http://localhost:3001";
+const backendImageUrl = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:3001";
 
 type ImageCarouselPropsType = {
   project: ImageCarouselType[];

@@ -17,11 +17,11 @@ const CarDetails = () => {
   const unitPreference =
     localStorage.getItem("preferredUnit") === "imperial" ? "imperial" : "metric";
 
-  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
+    const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:3001';
 
   useEffect(() => {
     function fetchCarDetails(carId: string) {
-      fetch(`${API_BASE_URL}/cars/detail/${carId}`)
+      fetch(`${API_BASE_URL}/api/cars/detail/${carId}`)
         .then((response) => {
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);

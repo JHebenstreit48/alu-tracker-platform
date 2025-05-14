@@ -22,10 +22,10 @@ export default function BrandInfo() {
   const [manufacturer, setManufacturer] = useState<Manufacturer | null>(null);
   const [error, setError] = useState(false);
 
-  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:3001';
 
   useEffect(() => {
-    fetch(`${API_BASE_URL}/manufacturers`)
+    fetch(`${API_BASE_URL}/api/manufacturers`)
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
         return res.json();

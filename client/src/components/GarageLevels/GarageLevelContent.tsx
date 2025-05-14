@@ -45,7 +45,7 @@ export function GLContent({ GarageLevelKey, xp, cars }: GarageLevelProps) {
 
             const sanitizedBrand = sanitizeBrandName(brand); // preserves accents
             const filename = image.split("/").pop(); // assume filename is clean
-            const imagePath = `${import.meta.env.VITE_PUBLIC_BASE_URL}/images/cars/${sanitizedBrand[0]}/${sanitizedBrand}/${filename}`;
+            const imagePath = `${import.meta.env.VITE_API_BASE_URL}/images/cars/${sanitizedBrand[0]}/${sanitizedBrand}/${filename}`;
 
             console.log(`[${index}] Brand: ${brand}`);
             console.log(`[${index}] Sanitized: ${sanitizedBrand}`);

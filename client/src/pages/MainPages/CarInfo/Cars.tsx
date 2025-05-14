@@ -7,7 +7,8 @@ import CarFilters from "@/components/CarInformation/CarList/CarFilters";
 import "@/SCSS/Cars/CarsByClass.scss";
 
 // API base URL
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:3001";
+
 
 interface Car {
   _id: string;
@@ -41,8 +42,8 @@ export default function Cars() {
 
     const endpoint =
       selectedClass === "All Classes"
-        ? `${API_BASE_URL}/cars`
-        : `${API_BASE_URL}/cars/${selectedClass}`;
+        ? `${API_BASE_URL}/api/cars`
+        : `${API_BASE_URL}/api/cars/${selectedClass}`;
 
     fetch(endpoint)
       .then((response) => {
@@ -120,7 +121,30 @@ export default function Cars() {
       return 0;
     });
 
-  if (error) return <div>Error: {error}</div>;
+    if (error) {
+      return (
+        <div className="cars">
+          <PageTab title="Cars">
+            <Header text="Cars" />
+            <div className="error-message">{error}</div>
+            <CarFilters onSearch={handleSearch} onFilter={handleStarFilter} />
+            <ClassTables cars={[]} selectedClass={selectedClass} />
+          </PageTab>
+        </div>
+      );
+    }
+
+    if (!cars.length && !error) {
+      return (
+        <div className="cars">
+          <PageTab title="Cars">
+            <Header text="Cars" />
+            <div className="loading-message">Loading cars...</div>
+            <CarFilters onSearch={handleSearch} onFilter={handleStarFilter} />
+          </PageTab>
+        </div>
+      );
+    }
 
   return (
     <div>

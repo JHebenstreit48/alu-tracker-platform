@@ -12,8 +12,14 @@ const app = express();
 
 // Middleware
 app.use(express.json());
+const isDev = process.env.NODE_ENV !== "production";
+
 app.use(cors({
-  origin: process.env.CLIENT_ORIGIN || "http://localhost:3000",
+  origin: [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "https://asphaltlegendsunitetracker.netlify.app/"
+  ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 }));
