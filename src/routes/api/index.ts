@@ -16,9 +16,11 @@ router.get("/cars", async (req: Request, res: Response): Promise<void> => {
   const offset = parseInt(req.query.offset as string) || 0;
 
   try {
+    const filter = {}; // Add filters here if needed (e.g., by class)
+
     const [cars, total] = await Promise.all([
-      CarModel.find().skip(offset).limit(limit),
-      CarModel.countDocuments()
+      CarModel.find(filter).skip(offset).limit(limit),
+      CarModel.countDocuments(filter)
     ]);
 
     res.status(200).json({ cars, total });
@@ -27,6 +29,7 @@ router.get("/cars", async (req: Request, res: Response): Promise<void> => {
     res.status(500).json({ error: "Failed to fetch cars" });
   }
 });
+
 
 router.get(
   "/cars/:class",
