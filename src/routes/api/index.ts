@@ -16,14 +16,17 @@ router.get("/cars", async (req: Request, res: Response): Promise<void> => {
   const offset = parseInt(req.query.offset as string) || 0;
 
   try {
-    const cars = await CarModel.find().skip(offset).limit(limit);
-    res.status(200).json(cars);
+    const [cars, total] = await Promise.all([
+      CarModel.find().skip(offset).limit(limit),
+      CarModel.countDocuments()
+    ]);
+
+    res.status(200).json({ cars, total });
   } catch (error) {
     console.error("[ERROR] Failed to fetch paginated cars:", error);
     res.status(500).json({ error: "Failed to fetch cars" });
   }
 });
-
 
 router.get(
   "/cars/:class",
