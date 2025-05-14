@@ -14,13 +14,18 @@ const router: Router = express.Router();
 router.get("/cars", async (req: Request, res: Response): Promise<void> => {
   const limit = parseInt(req.query.limit as string) || 25;
   const offset = parseInt(req.query.offset as string) || 0;
+  const selectedClass = req.query.class as string | undefined;
 
   try {
-    const filter = {}; // Add filters here if needed (e.g., by class)
+    const filter: Record<string, any> = {};
+
+    if (selectedClass && selectedClass !== "All Classes") {
+      filter.Class = selectedClass;
+    }
 
     const [cars, total] = await Promise.all([
       CarModel.find(filter).skip(offset).limit(limit),
-      CarModel.countDocuments(filter)
+      CarModel.countDocuments(filter),
     ]);
 
     res.status(200).json({ cars, total });
@@ -29,6 +34,7 @@ router.get("/cars", async (req: Request, res: Response): Promise<void> => {
     res.status(500).json({ error: "Failed to fetch cars" });
   }
 });
+
 
 
 router.get(
