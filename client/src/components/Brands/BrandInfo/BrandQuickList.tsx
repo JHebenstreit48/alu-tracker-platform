@@ -12,6 +12,12 @@ interface BrandQuickListProps {
 }
 
 export default function BrandQuickList({ manufacturers }: BrandQuickListProps) {
+  console.log("🧪 BrandQuickList received manufacturers:", manufacturers);
+  
+  if (!manufacturers || manufacturers.length === 0) {
+    return <div className="error-message">No manufacturers found.</div>;
+  }
+
   // Group manufacturers by Country first
   const groupedByCountry = manufacturers.reduce(
     (acc: Record<string, { _id: string; brand: string; slug: string; }[]>, manufacturer) => {

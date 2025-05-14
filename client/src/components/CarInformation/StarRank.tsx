@@ -4,7 +4,7 @@ interface StarRatingProps {
   count: number; // Number of stars (3–6 typically)
 }
 
-const backendBaseUrl = import.meta.env.VITE_PUBLIC_BASE_URL;
+const backendBaseUrl = import.meta.env.VITE_API_BASE_URL;
 
 const StarRank: React.FC<StarRatingProps> = ({ count }) => {
   // Prevent runtime crashes if count is undefined or invalid

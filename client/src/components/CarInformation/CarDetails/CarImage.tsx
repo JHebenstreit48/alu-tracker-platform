@@ -1,7 +1,7 @@
 import { Car } from "@/components/CarInformation/CarDetails/CarInterfaces";
 
 // Define backend URL for image fetching (same as in ImageCarousel.tsx)
-const backendImageUrl = import.meta.env.VITE_PUBLIC_BASE_URL ?? "http://localhost:3001";
+const backendImageUrl = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:3001";
 
 interface CarImageProps {
   car: Car;
