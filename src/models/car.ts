@@ -10,6 +10,7 @@ interface ICar extends Document {
   Model: string;
   Rarity: string;
   Stars: number;
+  KeyCar?: boolean;
   Max_Rank: number;
   Epics: number;
   Obtainable_Via: string;
@@ -51,6 +52,7 @@ const carSchema: Schema = new Schema({
   Model: { type: String, required: true },
   Rarity: { type: String },
   Stars: { type: Number },
+  KeyCar: { type: Boolean, default: false },
   Max_Rank: { type: Number },
   Epics: { type: Number },
   Obtainable_Via: { type: String },
