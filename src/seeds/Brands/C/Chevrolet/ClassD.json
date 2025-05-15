@@ -37,6 +37,7 @@
     "Model": "Corvette C7.R",
     "Rarity": "Epic",
     "Stars": 5,
+    "KeyCar": "true",
     "Max_Rank": 2948,
     "Epics": 8,
     "Obtainable_Via": "Key Hunt",
