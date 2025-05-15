@@ -15,25 +15,37 @@ router.get('/cars', async (req: Request, res: Response): Promise<void> => {
   const limit = parseInt(req.query.limit as string) || 25;
   const offset = parseInt(req.query.offset as string) || 0;
   const selectedClass = req.query.class as string | undefined;
+  const searchTerm = req.query.search?.toString().toLowerCase();
 
   try {
     const filter: Record<string, any> = {};
+
     if (selectedClass && selectedClass !== 'All Classes') {
       filter.Class = selectedClass;
     }
 
+    if (searchTerm) {
+      filter.$or = [
+        { Brand: { $regex: searchTerm, $options: 'i' } },
+        { Model: { $regex: searchTerm, $options: 'i' } },
+      ];
+    }
+
     const [cars, total] = await Promise.all([
-      CarModel.find(filter).skip(offset).limit(limit),
+      CarModel.find(filter)
+        .sort({ Brand: 1, Model: 1 }) // ✅ Ensure consistent and predictable order
+        .skip(offset)
+        .limit(limit),
       CarModel.countDocuments(filter),
     ]);
 
-    // 🛠️ UNIFIED RETURN
     res.status(200).json({ cars, total });
   } catch (error) {
     console.error('[ERROR] Failed to fetch paginated cars:', error);
     res.status(500).json({ error: 'Failed to fetch cars' });
   }
 });
+
 
 router.get(
   '/cars/:class',
