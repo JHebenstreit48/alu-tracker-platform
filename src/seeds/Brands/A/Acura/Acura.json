@@ -38,6 +38,7 @@
     "Model": "NSX GT3 Evo",
     "Rarity": "Epic",
     "Stars": 5,
+    "KeyCar": true,
     "Max_Rank": 3585,
     "Epics": 8,
     "Obtainable_Via": "Key Hunt",
