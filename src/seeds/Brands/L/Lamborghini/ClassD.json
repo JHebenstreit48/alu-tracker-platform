@@ -41,6 +41,7 @@
     "Model": "Huracán Super Trofeo Evo",
     "Rarity": "Epic",
     "Stars": 5,
+    "KeyCar": true,
     "Max_Rank": 3000,
     "Epics": 8,
     "Obtainable_Via": null,

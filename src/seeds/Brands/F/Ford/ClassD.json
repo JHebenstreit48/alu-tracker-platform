@@ -40,6 +40,7 @@
     "Model": "Mustang Mach-E1400",
     "Rarity": "Epic",
     "Stars": 5,
+    "KeyCar": true,
     "Max_Rank": 3097,
     "Epics": 8,
     "Obtainable_Via": "Key Hunt",

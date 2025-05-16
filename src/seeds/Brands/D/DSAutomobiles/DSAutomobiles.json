@@ -37,6 +37,7 @@
     "Model": "DS E-Tense Performance",
     "Rarity": "Epic",
     "Stars": 5,
+    "KeyCar": true,
     "Max_Rank": 3086,
     "Top_Speed": "303,8",
     "Acceleration": "86,03",

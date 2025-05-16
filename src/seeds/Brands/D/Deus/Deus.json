@@ -7,6 +7,7 @@
     "Model": "Vayanne",
     "Rarity": "Epic",
     "Stars": 6,
+    "KeyCar": true,
     "Max_Rank": 5082,
     "Epics": 16,
     "Obtainable_Via": null,
