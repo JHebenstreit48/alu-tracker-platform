@@ -9,7 +9,7 @@ import mongoose from 'mongoose';
 
 const router: Router = express.Router();
 
-router.use(userRoutes);
+router.use("/users", userRoutes);
 
 // ============================
 //       🚗 CAR ROUTES
