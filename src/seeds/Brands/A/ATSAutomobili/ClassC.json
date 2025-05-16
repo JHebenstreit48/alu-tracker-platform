@@ -7,6 +7,7 @@
     "Model": "Corsa RRTurbo",
     "Rarity": "Rare",
     "Stars": 4,
+    "KeyCar": true,
     "Max_Rank": 3392,
     "Epics": 4,
     "Obtainable_Via": "Key Hunt",

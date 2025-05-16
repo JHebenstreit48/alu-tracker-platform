@@ -38,6 +38,7 @@
     "Model": "AF8 Falcon Edition",
     "Rarity": "Rare",
     "Stars": 4,
+    "KeyCar": true,
     "Max_Rank": 3289,
     "Epics": 8,
     "Obtainable_Via": null,

@@ -133,6 +133,7 @@
     "Model": "Valour",
     "Rarity": "Rare",
     "Stars": 4,
+    "KeyCar": true,
     "Max_Rank": 3178,
     "Epics": 8,
     "Obtainable_Via": null,
