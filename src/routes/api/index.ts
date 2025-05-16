@@ -3,9 +3,13 @@ import CarModel from '@/models/car';
 import BlueprintPricesModel from '@/models/blueprints';
 import ManufacturerModel from '@/models/manufacturers';
 import GarageLevelModel from '@/models/garageLevels';
+
+import userRoutes from '@/routes/api/user';
 import mongoose from 'mongoose';
 
 const router: Router = express.Router();
+
+router.use(userRoutes);
 
 // ============================
 //       🚗 CAR ROUTES
