@@ -68,6 +68,7 @@
     "Model": "718 Cayman GT4 Clubsport",
     "Rarity": "Epic",
     "Stars": 5,
+    "KeyCar": true,
     "Max_Rank": 3727,
     "Epics": 8,
     "Obtainable_Via": "Key Hunt",

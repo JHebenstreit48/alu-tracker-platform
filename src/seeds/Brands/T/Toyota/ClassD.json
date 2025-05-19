@@ -1,0 +1,13 @@
+[
+    {
+        "Id": 1,
+        "Image": "/images/cars/T/Toyota/grsupra2023.jpg",
+        "Class": "D",
+        "Brand": "Toyota",
+        "Model": "GR Supra 2023",
+        "Rarity": "Rare",
+        "Stars": 4,
+        "Country": "Japan"
+
+    }
+]

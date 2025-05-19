@@ -7,6 +7,7 @@
     "Model": "004C",
     "Rarity": "Epic",
     "Stars": 5,
+    "KeyCar": true,
     "Max_Rank": 3075,
     "Epics": 8,
     "Obtainable_Via": "Key Hunt",
