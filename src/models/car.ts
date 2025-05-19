@@ -15,17 +15,20 @@ interface ICar extends Document {
   Epics: number;
   Obtainable_Via: string;
   Garage_Level: number;
-  Top_Speed: number;
-  Acceleration: number;
-  Handling: number;
-  Nitro: number;
-  Nitro_TS: string;
-  Perfect_Nitro_TS: string | null;
+  Stock_Rank: number;
+  Stock_Top_Speed: number;
+  Stock_Acceleration: number;
+  Stock_Handling: number;
+  Stock_Nitro: number;
+  One_Star_Top_Speed: number;
+  Gold_Top_Speed: number;
+  Gold_Acceleration: number;
+  Gold_Handling: number;
+  Gold_Nitro: number;
   Added: string;
   Added_With: string | null;
   Added_Date: string;
   Total_Upgrade_Cost: number | null;
-  Total_GL_Points: number | null;
   Country: string;
   Tags: string;
   BPs_1_Star: number;
@@ -35,7 +38,6 @@ interface ICar extends Document {
   BPs_5_Star: number | null;
   BPs_6_Star: number | null;
   Total_BPs: number | null;
-  Cost_Epic: number | null;
 }
 
 // Define the schema

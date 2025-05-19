@@ -6,7 +6,23 @@
         "Brand": "HTT",
         "Model": "Locus Pléthore LC750",
         "Rarity": "Epic",
-        "Stars": 6
-
+        "Stars": 6,
+        "Max_Rank": 4955,
+        "Epics": 16,
+        "Gold_Top_Speed": 415.5,
+        "Gold_Acceleration": 78.04,
+        "Gold_Handling": 75.86,
+        "Gold_Nitro": 84.58,
+        "BPs_1_Star": 85,
+        "BPs_2_Star": 25,
+        "BPs_3_Star": 29,
+        "BPs_4_Star": 38,
+        "BPs_5_Star": 54,
+        "BPs_6_Star": 69,
+        "Stock_Rank":3746,
+        "Stock_Top_Speed": 398,
+        "Stock_Acceleration": 74.8,
+        "Stock_Handling": 59.9,
+        "Stock_Nitro": 55.7
     }
 ]
