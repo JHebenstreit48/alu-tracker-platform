@@ -1,0 +1,13 @@
+[
+    {
+        "Id": 1,
+        "Image": "/images/cars/T/Toyota/grsupersportconcept.jpg",
+        "Class": "B",
+        "Brand": "Toyota",
+        "Model": "GR Super Sport Concept",
+        "Rarity": "Epic",
+        "Stars": 5,
+        "KeyCar": true,
+        "Country": "Japan"
+    }
+]
