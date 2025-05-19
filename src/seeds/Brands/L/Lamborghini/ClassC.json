@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/L/Lamborghini/miuraconcept.jpg",
     "Class": "C",
     "Brand": "Lamborghini",
     "Model": "Miura Concept",
@@ -37,6 +38,7 @@
   },
   {
     "Id": 2,
+    "Image": "/images/cars/L/Lamborghini/diablogt.jpg",
     "Class": "C",
     "Brand": "Lamborghini",
     "Model": "Diablo GT",
@@ -72,6 +74,7 @@
   },
   {
     "Id": 3,
+    "Image": "/images/cars/L/Lamborghini/gallardolp5604.jpg",
     "Class": "C",
     "Brand": "Lamborghini",
     "Model": "Gallardo LP 560-4",
