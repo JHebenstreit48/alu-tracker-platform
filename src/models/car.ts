@@ -15,10 +15,10 @@ interface ICar extends Document {
   Epics: number;
   Obtainable_Via: string;
   Garage_Level: number;
-  Top_Speed: string;
-  Acceleration: string;
-  Handling: string;
-  Nitro: string;
+  Top_Speed: number;
+  Acceleration: number;
+  Handling: number;
+  Nitro: number;
   Nitro_TS: string;
   Perfect_Nitro_TS: string | null;
   Added: string;
