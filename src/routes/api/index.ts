@@ -1,5 +1,5 @@
 import express, { Request, Response, Router } from 'express';
-import CarModel from '@/models/car';
+import CarModel from "@/models/car/schema";
 import BlueprintPricesModel from '@/models/blueprints';
 import ManufacturerModel from '@/models/manufacturers';
 import GarageLevelModel from '@/models/garageLevels';

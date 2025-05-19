@@ -4,7 +4,7 @@ dotenv.config();
 import fs from "fs";
 import path from "path";
 import mongoose from "mongoose";
-import CarModel from "@/models/car";
+import CarModel from "@/models/car/schema";
 import { connectToDb } from "@/Utility/connection";
 
 const brandsDir = path.resolve(__dirname, "../seeds/Brands");
