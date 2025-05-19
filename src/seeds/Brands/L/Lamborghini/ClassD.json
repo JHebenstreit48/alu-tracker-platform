@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Image": "/images/cars/L/Lamborghini/countach25thanniversary.jpg",
     "Class": "D",
     "Brand": "Lamborghini",
     "Model": "Countach 25th Anniversary",
@@ -36,6 +37,7 @@
   },
   {
     "Id": 2,
+    "Image": "/images/cars/L/Lamborghini/huracansupertrofeoevo.jpg",
     "Class": "D",
     "Brand": "Lamborghini",
     "Model": "Huracán Super Trofeo Evo",

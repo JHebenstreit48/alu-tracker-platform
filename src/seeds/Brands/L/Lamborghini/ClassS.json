@@ -1,6 +1,7 @@
 [
     {
         "Id": 1,
+        "Image": "/images/cars/L/Lamborghini/sianfkp37.jpg",
         "Class": "S",
         "Brand": "Lamborghini",
         "Model": "Sián FKP 37",
@@ -36,6 +37,7 @@
       },
       {
         "Id": 2,
+        "Image": "/images/cars/L/Lamborghini/terzomillennio.jpg",
         "Class": "S",
         "Brand": "Lamborghini",
         "Model": "Terzo Millennio",
@@ -71,6 +73,7 @@
       },
       {
         "Id": 3,
+        "Image": "/images/cars/L/Lamborghini/egoista.jpg",
         "Class": "S",
         "Brand": "Lamborghini",
         "Model": "Egoista",
@@ -106,6 +109,7 @@
       },
       {
         "Id": 4,
+        "Image": "/images/cars/L/Lamborghini/veneno.jpg",
         "Class": "S",
         "Brand": "Lamborghini",
         "Model": "Veneno",
@@ -141,6 +145,7 @@
       },
       {
         "Id": 5,
+        "Image": "/images/cars/L/Lamborghini/autentica.jpg",
         "Class": "S",
         "Brand": "Lamborghini",
         "Model": "Autentica",
@@ -177,6 +182,7 @@
       },
       {
         "Id": 6,
+        "Image": "/images/cars/L/Lamborghini/centenario.jpg",
         "Class": "S",
         "Brand": "Lamborghini",
         "Model": "Centenario",
