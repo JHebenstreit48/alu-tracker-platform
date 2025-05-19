@@ -15,12 +15,20 @@ interface ICar extends Document {
   Epics: number;
   Obtainable_Via: string;
   Garage_Level: number;
-  Stock_Rank: number;
-  Stock_Top_Speed: number;
-  Stock_Acceleration: number;
-  Stock_Handling: number;
-  Stock_Nitro: number;
-  One_Star_Top_Speed: number;
+  Stock_Rank?: number;
+  Stock_Top_Speed?: number;
+  Stock_Acceleration?: number;
+  Stock_Handling?: number;
+  Stock_Nitro?: number;
+  One_Star_Top_Speed?: number;
+  One_Star_Acceleration?: number;
+  One_Star_Handling?: number;
+  One_Star_Nitro?: number;
+  Two_Star_Stock_Rank?: number;
+  Two_Star_Top_Speed?: number;
+  Two_Star_Acceleration?: number;
+  Two_Star_Handling?: number;
+  Two_Star_Nitro?: number;
   Gold_Top_Speed: number;
   Gold_Acceleration: number;
   Gold_Handling: number;
@@ -59,17 +67,29 @@ const carSchema: Schema = new Schema({
   Epics: { type: Number },
   Obtainable_Via: { type: String },
   Garage_Level: { type: Number },
-  Top_Speed: { type: String },
-  Acceleration: { type: String },
-  Handling: { type: String },
-  Nitro: { type: String },
-  Nitro_TS: { type: String },
-  Perfect_Nitro_TS: { type: String, default: null },
+  Stock_Rank: { type: Number },
+  Stock_Top_Speed: { type: Number },
+  Stock_Acceleration: { type: Number },
+  Stock_Handling: { type: Number },
+  Stock_Nitro: { type: Number },
+  One_Star_Stock_Rank: { type: Number },
+  One_Star_Top_Speed: { type: Number },
+  One_Star_Acceleration: { type: Number },
+  One_Star_Handling: { type: Number },
+  One_Star_Nitro: { type: Number },
+  Two_Star_Stock_Rank: { type: Number },
+  Two_Star_Top_Speed: { type: Number },
+  Two_Star_Acceleration: { type: Number },
+  Two_Star_Handling: { type: Number },
+  Two_Star_Nitro: { type: Number },
+  Gold_Top_Speed: { type: Number },
+  Gold_Acceleration: { type: Number },
+  Gold_Handling: { type: Number },
+  Gold_Nitro: { type: Number },
   Added: { type: String },
   Added_With: { type: String, default: null },
   Added_Date: { type: String },
   Total_Upgrade_Cost: { type: Number, default: null },
-  Total_GL_Points: { type: Number, default: null },
   Country: { type: String },
   Tags: { type: String },
   BPs_1_Star: { type: Number },
