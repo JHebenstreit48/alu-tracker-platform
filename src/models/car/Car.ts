@@ -1,8 +1,8 @@
 import { baseCarInfo } from "@/models/car/baseCarInfo";
 import { blueprints } from "@/models/car/blueprints";
 import { stockStats } from "@/models/car/stockStats";
-import { oneStarStockStats } from "@/models/car/oneStarStockStats";
-import { twoStarStockStats } from "@/models/car/twoStarStockStats";
+import { oneStarStockStats } from "@/models/car/oneStarMaxStats";
+import { twoStarStockStats } from "@/models/car/twoStarMaxStats";
 import { goldMaxStats } from "@/models/car/goldMaxStats";
 
 // ✅ Utility type to extract all keys as optional fields

@@ -7,6 +7,7 @@
         "Model": "GT65",
         "Rarity": "Epic",
         "Stars": 5,
+        "KeyCar": true,
         "Max_Rank": 4171,
         "Gold_Top_Speed": 342.4,
         "Gold_Acceleration": 85.38,
@@ -17,6 +18,16 @@
         "BPs_2_Star": 26,
         "BPs_3_Star": 34,
         "BPs_4_Star": 40,
-        "BPs_5_Star": 62
+        "BPs_5_Star": 62,
+        "Stock_Rank": 2319,
+        "Stock_Top_Speed": 355,
+        "Stock_Acceleration": 75.7,
+        "Stock_Handling": 34.21,
+        "Stock_Nitro": 26.49,
+        "One_Star_Max_Rank": 2564,
+        "One_Star_Max_Top_Speed": 355,
+        "One_Star_Max_Acceleration": 75.7,
+        "One_Star_Max_Handling": 34.21,
+        "One_Star_Max_Nitro": 26.49
     }
 ]
