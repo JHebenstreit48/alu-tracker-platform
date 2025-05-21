@@ -29,16 +29,15 @@
     "Stock_Acceleration": 42.4,
     "Stock_Handling": 46.3,
     "Stock_Nitro": 54.8,
-    "One_Star_Stock_Rank": 728,
-    "One_Star_Stock_Top_Speed": 255.7,
-    "One_Star_Stock_Acceleration": 46.02,
-    "One_Star_Stock_Handling": 48.45,
-    "One_Star_Stock_Nitro": 58.66,
+    "One_Star_Max_Rank": 728,
+    "One_Star_Max_Top_Speed": 255.7,
+    "One_Star_Max_Acceleration": 46.02,
+    "One_Star_Max_Handling": 48.45,
+    "One_Star_Max_Nitro": 58.66,
     "Two_Star_Stock_Rank": 1031,
     "Two_Star_Stock_Top_Speed": 262.4,
     "Two_Star_Stock_Acceleration": 50.21,
     "Two_Star_Stock_Handling": 50.93,
     "Two_Star_Stock_Nitro": 63.1
-
   }
 ]

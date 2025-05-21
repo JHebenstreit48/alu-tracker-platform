@@ -5,7 +5,7 @@
     "Model": "M4 GTS",
     "GarageLevel": 6,
     "StarRank": 3,
-    "CarRarity": "Common",
+    "CarRarity": "Uncommon",
     "BlueprintPrices": [13000, 19500, 26000, 32500, 39000]
   },
   {
@@ -14,7 +14,7 @@
     "Model": "AMG GT S",
     "GarageLevel": 4,
     "StarRank": 3,
-    "CarRarity": "Common",
+    "CarRarity": "Uncommon",
     "BlueprintPrices": [13000, 19500, 26000, 32500, 39000]
   },
   {
@@ -23,7 +23,7 @@
     "Model": "Challenger SRT8",
     "GarageLevel": 1,
     "StarRank": 3,
-    "CarRarity": "Common",
+    "CarRarity": "Uncommon",
     "BlueprintPrices": [13000, 19500, 26000, 32500, 39000]
   },
   {
@@ -32,7 +32,7 @@
     "Model": "Camaro ZL1 50th Ed.",
     "GarageLevel": 2,
     "StarRank": 3,
-    "CarRarity": "Common",
+    "CarRarity": "Uncommon",
     "BlueprintPrices": [13000, 19500, 26000, 32500, 39000]
   },
   {
@@ -41,7 +41,7 @@
     "Model": "3.0 CSL Hommage",
     "GarageLevel": 2,
     "StarRank": 3,
-    "CarRarity": "Common",
+    "CarRarity": "Uncommon",
     "BlueprintPrices": [13000, 19500, 26000, 32500, 39000]
   },
   {
@@ -50,7 +50,7 @@
     "Model": "Evora Sport 410",
     "GarageLevel": 3,
     "StarRank": 3,
-    "CarRarity": "Common",
+    "CarRarity": "Uncommon",
     "BlueprintPrices": [13000, 19500, 26000, 32500, 39000]
   },
   {
