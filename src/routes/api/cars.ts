@@ -67,6 +67,7 @@ router.get('/class/:class', async (req: Request<{ class: string }>, res: Respons
 // GET /api/cars/detail/:slug – by _id or normalizedKey
 router.get('/detail/:slug', async (req: Request<{ slug: string }>, res: Response): Promise<void> => {
   const { slug } = req.params;
+  console.log(`🧪 Incoming request for slug: ${slug}`);
 
   if (!slug || slug.length < 3) {
     res.status(400).json({ error: 'Invalid ID or slug provided.' });
