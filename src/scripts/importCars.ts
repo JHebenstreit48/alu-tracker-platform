@@ -7,6 +7,11 @@ import mongoose from "mongoose";
 import CarModel from "@/models/car/schema";
 import { connectToDb } from "@/Utility/connection";
 
+// 🔑 Helper to generate normalized keys
+const generateCarKey = (brand: string, model: string): string => {
+  return `${brand}_${model}`.toLowerCase().replace(/[^\w]/g, "_");
+};
+
 const brandsDir = path.resolve(__dirname, "../seeds/Brands");
 
 const collectJsonFiles = (dirPath: string): string[] => {
@@ -58,9 +63,17 @@ const importCars = async () => {
         continue;
       }
 
-      await CarModel.insertMany(parsedData);
-      console.log(`✅ Imported ${parsedData.length} from ${filePath}`);
-      totalCount += parsedData.length;
+      // ✅ Enrich each car with normalizedKey
+      const enrichedData = parsedData.map((car) => {
+        return {
+          ...car,
+          normalizedKey: generateCarKey(car.Brand, car.Model),
+        };
+      });
+
+      await CarModel.insertMany(enrichedData);
+      console.log(`✅ Imported ${enrichedData.length} from ${filePath}`);
+      totalCount += enrichedData.length;
     }
 
     const finalCount = await CarModel.countDocuments();

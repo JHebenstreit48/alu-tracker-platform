@@ -73,7 +73,7 @@ router.get(
 );
 
 router.get(
-  '/cars/detail/:id',
+  '/cars/detail/:slug',
   async (req: Request<{ id: string }>, res: Response): Promise<void> => {
     const { id } = req.params;
 
