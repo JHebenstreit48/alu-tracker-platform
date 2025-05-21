@@ -7,9 +7,20 @@ import mongoose from "mongoose";
 import CarModel from "@/models/car/schema";
 import { connectToDb } from "@/Utility/connection";
 
+const normalizeString = (str: string): string => {
+  return str
+    .normalize("NFD")                         // Decompose accents
+    .replace(/[\u0300-\u036f]/g, "")          // Strip diacritics
+    .toLowerCase()
+    .replace(/\./g, "")                       // Remove periods
+    .replace(/-/g, "_")                       // Replace dashes with underscores
+    .replace(/\s+/g, "_")                     // Replace spaces with underscores
+    .replace(/[^a-z0-9_]/g, "");              // Remove any remaining special chars
+};
+
 // 🔑 Helper to generate normalized keys
 const generateCarKey = (brand: string, model: string): string => {
-  return `${brand}_${model}`.toLowerCase().replace(/[^\w]/g, "_");
+  return normalizeString(`${brand}_${model}`);
 };
 
 const brandsDir = path.resolve(__dirname, "../seeds/Brands");
