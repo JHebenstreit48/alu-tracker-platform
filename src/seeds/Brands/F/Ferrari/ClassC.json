@@ -136,6 +136,7 @@
     "Model": "Daytona SP3",
     "Rarity": "Epic",
     "Stars": 5,
+    "KeyCar": true,
     "Max_Rank": 4073,
     "Epics": 8,
     "Obtainable_Via": null,
