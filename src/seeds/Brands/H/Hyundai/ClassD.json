@@ -1,0 +1,12 @@
+[
+  {
+    "Id": 1,
+    "Image": "/images/cars/H/Hyundai/ioniq5n.jpg",
+    "Brand": "Hyundai",
+    "Model": "Ioniq 5 N",
+    "Class": "D",
+    "Stars": 4,
+    "Country": "Japan",
+    "Rarity": "Rare"
+  }
+]
