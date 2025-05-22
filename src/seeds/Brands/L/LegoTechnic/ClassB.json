@@ -6,7 +6,30 @@
       "Brand": "LEGO Technic ",
       "Model": "Chevrolet Corvette Stingray",
       "Rarity": "Epic",
-      "Stars": 5
+      "Stars": 5,
+      "Stock_Rank": 2200,
+      "Stock_Top_Speed": 312.0,
+      "Stock_Acceleration": 73.0,
+      "Stock_Handling": 52.35,
+      "Stock_Nitro": 37.32,
+      "One_Star_Max_Rank": 2402,
+      "One_Star_Max_Top_Speed": 314.1,
+      "One_Star_Max_Acceleration": 74.23,
+      "One_Star_Max_Handling": 55.89,
+      "One_Star_Max_Nitro": 42.18,
+      "Two_Star_Stock_Rank": 0,
+      "Max_Rank": 3647,
+      "Gold_Top_Speed": 327.7,
+      "Gold_Acceleration": 82.76,
+      "Gold_Handling": 80.66,
+      "Gold_Nitro": 70.4,
+      "BPs_1_Star": 45,
+      "BPs_2_Star": 17,
+      "BPs_3_Star": 23,
+      "BPs_4_Star": 32,
+      "BPs_5_Star": 45
+
+
     }
   ]
   
