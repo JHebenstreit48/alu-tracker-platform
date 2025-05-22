@@ -1,10 +1,10 @@
 [
   {
     "Id": 1,
-    "Image": "/images/cars/L/Lego/technicmclarensennagtr.jpg",
+    "Image": "/images/cars/L/Lego/mclarensennagtr.jpg",
     "Class": "A",
-    "Brand": "LEGO Technic McLaren",
-    "Model": "Senna GTR",
+    "Brand": "LEGO Technic",
+    "Model": " McLaren Senna GTR",
     "Rarity": "Epic",
     "Stars": 5,
     "Max_Rank": 3846,
