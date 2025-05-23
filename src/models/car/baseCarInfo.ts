@@ -2,8 +2,8 @@ export const baseCarInfo = {
   Image: { type: String, required: false },
   ImageStatus: {
     type: String,
-    enum: ["available", "coming-soon", "unavailable"],
-    default: "available",
+    enum: ["Available", "Coming Soon", "Removed"],
+    default: "Available",
   },
   Class: { type: String, required: true },
   Brand: { type: String, required: true },
