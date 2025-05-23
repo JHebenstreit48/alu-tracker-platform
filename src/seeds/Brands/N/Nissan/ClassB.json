@@ -39,6 +39,7 @@
     "Model": "R390 GT1",
     "Rarity": "Epic",
     "Stars": 5,
+    "KeyCar": true,
     "Max_Rank": 3627,
     "Epics": 8,
     "Obtainable_Via": null,
