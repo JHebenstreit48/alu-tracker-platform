@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "ImageStatus": "Removed",
     "Class": "S",
     "Brand": "Inferno Automobili",
     "Model": "Inferno",
@@ -36,6 +37,7 @@
   },
   {
     "Id": 2,
+    "ImageStatus": "Removed",
     "Class": "S",
     "Brand": "Inferno Automobili",
     "Model": "Settimo Cerchio",
