@@ -1,4 +1,4 @@
-export const twoStarStockStats = {
+export const twoStarMaxStats = {
     Two_Star_Max_Rank: { type: Number },
     Two_Star_Max_Top_Speed: { type: Number },
     Two_Star_Max_Acceleration: { type: Number },

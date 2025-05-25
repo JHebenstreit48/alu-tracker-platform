@@ -9,6 +9,7 @@ export const baseCarInfo = {
   Brand: { type: String, required: true },
   Model: { type: String, required: true },
   Rarity: { type: String },
+  Obtainable_Via: { type: String },
   Country: { type: String },
   ObtainableVia: { type: String },
   Stars: { type: Number },

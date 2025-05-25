@@ -7,7 +7,7 @@
     "Model": "XJR-15",
     "Rarity": "Rare",
     "Stars": 4,
-    "Max_Rank": 3221,
+    "Gold_Max_Rank": 3221,
     "Epics": 4,
     "Obtainable_Via": null,
     "Garage_Lvl": null,
@@ -38,7 +38,7 @@
     "Model": "XE SV Project 8",
     "Rarity": "Epic",
     "Stars": 5,
-    "Max_Rank": 3483,
+    "Gold_Max_Rank": 3483,
     "Epics": 8,
     "Obtainable_Via": null,
     "Garage_Lvl": null,
@@ -70,6 +70,6 @@
     "Model": "XKR-S GT",
     "Rarity": "Rare",
     "Stars": 4,
-    "Max_Rank": 2700
+    "Gold_Max_Rank": 2700
   }
 ]
