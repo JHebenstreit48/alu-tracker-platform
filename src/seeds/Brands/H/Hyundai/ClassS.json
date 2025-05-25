@@ -1,0 +1,14 @@
+[
+    {
+        "Id": 1,
+        "Image": "/images/cars/H/Hyundai/nvision74concept.jpg",
+        "Class": "S",
+        "Brand": "Hyundai",
+        "Model": "N Vision 74 Concept",
+        "Rarity": "Epic",
+        "Stars": 6,
+        "KeyCar": true
+
+    
+}
+]
