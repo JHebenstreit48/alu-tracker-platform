@@ -37,6 +37,7 @@
     "Model": "Electric R",
     "Rarity": "Epic",
     "Stars": 5,
+    "KeyCar": true,
     "Gold_Max_Rank": 3054,
     "Epics": 8,
     "Obtainable_Via": "Clash Store",

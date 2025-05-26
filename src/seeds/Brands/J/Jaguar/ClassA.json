@@ -39,6 +39,7 @@
     "Model": "XJR-9",
     "Rarity": "Epic",
     "Stars": 6,
+    "KeyCar": true,
     "Gold_Max_Rank": 4551,
     "Epics": 16,
     "Obtainable_Via": null,

@@ -40,6 +40,7 @@
     "Model": "E-R9",
     "Rarity": "Epic",
     "Stars": 6,
+    "KeyCar": true,
     "Gold_Max_Rank": 4403,
     "Epics": 12,
     "Obtainable_Via": null,
