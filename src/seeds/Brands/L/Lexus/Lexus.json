@@ -1,0 +1,13 @@
+[
+  {
+    "Id": 1,
+    "Image": "/images/cars/L/Lexus/bevsportconcept.jpg",
+    "Class": "A",
+    "Brand": "Lexus",
+    "Model": "BEV Sport Concept",
+    "Rarity": "Epic",
+    "Stars": 6,
+    "Country": "Japan",
+    "BPs_1_Star": 70
+  }
+]

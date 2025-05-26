@@ -1,0 +1,23 @@
+[
+    {
+        "Id": 1,
+        "Image": "/images/cars/K/Kimera/evo37.jpg",
+        "Brand": "Kimera",
+        "Model": "Evo 37",
+        "Class": "C",
+        "Stars": 5,
+        "Country": "Italy",
+        "Rarity": "Epic",
+        "KeyCar": true,
+        "Stock_Rank": 1545,
+        "Stock_Top_Speed": 280,
+        "Stock_Acceleration": 72.1,
+        "Stock_Handling": 64.96,
+        "Stock_Nitro": 34.65,
+        "BPs_1_Star": 0,
+        "BPs_2_Star": 22,
+        "BPs_3_Star": 30,
+        "BPs_4_Star": 35,
+        "BPs_5_Star": 38
+
+    }]

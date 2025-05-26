@@ -41,6 +41,7 @@
     "Model": "Countach LPI 800-4",
     "Rarity": "Epic",
     "Stars": 6,
+    "KeyCar": true,
     "Gold_Max_Rank": 4559,
     "Epics": 16,
     "Obtainable_Via": null,
