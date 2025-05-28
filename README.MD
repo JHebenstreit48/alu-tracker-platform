@@ -51,7 +51,7 @@ Visit the website to see all relevant information for the game. They will eventu
 [W3Schools box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.php)
 [Chrome For Developers - Scrollbar](https://developer.chrome.com/docs/css-ui/scrollbar-styling)
 
-
+Some friends also provided me with missing car images.
 
 ## Tests
 
