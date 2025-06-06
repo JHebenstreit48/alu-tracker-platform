@@ -10,7 +10,7 @@
     "KeyCar": true,
     "Gold_Max_Rank": 4348,
     "Epics": 12,
-    "Obtainable_Via": "Showroom",
+    "ObtainableVia": "Showroom",
     "Garage_Lvl": null,
     "Gold_Top_Speed": 370.5,
     "Gold_Acceleration": 79.08,

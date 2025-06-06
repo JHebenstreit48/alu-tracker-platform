@@ -10,7 +10,7 @@
     "KeyCar": true,
     "Gold_Max_Rank": 2783,
     "Epics": 4,
-    "Obtainable_Via": "Key Hunt",
+    "ObtainableVia": "Key Hunt",
     "Garage_Lvl": null,
     "Gold_Top_Speed": 300.8,
     "Gold_Acceleration": 74.74,
