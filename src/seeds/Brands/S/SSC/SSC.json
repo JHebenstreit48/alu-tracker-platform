@@ -41,5 +41,17 @@
     "Rarity": "Epic",
     "Stars": 6,
     "KeyCar": true
+  },
+  {
+    "Id": 3,
+    "Image": "/images/cars/S/SSC/ultimateaerott.jpg",
+    "Brand": "SSC",
+    "Model": "Ultimate Aero TT",
+    "Class": "S",
+    "Stars": 6,
+    "Country": "USA",
+    "Rarity": "Epic",
+    "ObtainableVia": "Racing Around the World (Sonic the Hedgehog themed Special Event)",
+    "Added_With": "Pinnacle of Speed Season"
   }
 ]

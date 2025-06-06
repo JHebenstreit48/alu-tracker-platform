@@ -1,16 +1,16 @@
 [
   {
     "Id": 1,
-    "Image": "/images/cars/L/Lego/mclarensennagtr.jpg",
-    "Class": "A",
+    "Image": "/images/cars/L/LegoTechnic/mclarensennagtr.jpg",
     "Brand": "LEGO Technic",
     "Model": " McLaren Senna GTR",
-    "Rarity": "Epic",
+    "Class": "A",
     "Stars": 5,
-    "Gold_Max_Rank": 3846,
+    "Rarity": "Epic",
     "Epics": null,
     "Obtainable_Via": null,
     "Garage_Lvl": null,
+    "Gold_Max_Rank": 3846,
     "Gold_Top_Speed": 349.8,
     "Gold_Acceleration": 82.43,
     "Gold_Handling": 79.32,
@@ -34,5 +34,15 @@
     "Total_BPs": 0,
     "Unnamed: 32": 43846,
     "Cost epic": 0
+  },
+  {
+    "Id": 2,
+    "Image": "/images/cars/L/LegoTechnic/astonmartinvalkyrie.jpg",
+    "Brand": "LEGO Technic",
+    "Model": " Aston Martin Valkyrie",
+    "Class": "A",
+    "Stars": 5,
+    "Rarity": "Epic",
+    "Stock_Rank": 2663
   }
 ]
