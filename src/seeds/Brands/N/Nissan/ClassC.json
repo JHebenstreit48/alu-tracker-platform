@@ -1,0 +1,17 @@
+[
+  {
+    "Id": 1,
+    "Image": "/images/cars/N/Nissan/zgt4.jpg",
+    "Brand": "Nissan",
+    "Model": "Z GT4",
+    "Class": "C",
+    "Stars": 5,
+    "Country": "Japan",
+    "Rarity": "Epic",
+    "Stock_Rank": 2365,
+    "Stock_Top_Speed": 335,
+    "Stock_Acceleration": 73,
+    "Stock_Handling": 35.04,
+    "Stock_Nitro": 39.24
+  }
+]

@@ -1,12 +1,12 @@
 [
     {
       "Id": 1,
-      "Image": "/images/cars/L/Lego/chevroletcorvettestingray.jpg",
-      "Class": "B",
-      "Brand": "LEGO Technic ",
+      "Image": "/images/cars/L/LegoTechnic/chevroletcorvettestingray.jpg",
+      "Brand": "LEGO Technic",
       "Model": "Chevrolet Corvette Stingray",
-      "Rarity": "Epic",
+      "Class": "B",
       "Stars": 5,
+      "Rarity": "Epic",
       "Stock_Rank": 2200,
       "Stock_Top_Speed": 312.0,
       "Stock_Acceleration": 73.0,

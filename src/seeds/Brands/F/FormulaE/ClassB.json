@@ -1,0 +1,17 @@
+[
+  {
+    "Id": 1,
+    "Image": "/images/cars/F/FormulaE/gen3evochampionshipedition.jpg",
+    "Brand": "Formula E",
+    "Model": "Gen 3 Evo Championship Edition",
+    "Class": "B",
+    "Stars": 5,
+    "Rarity": "Epic",
+    "KeyCar": true,
+    "Stock_Rank": 2468,
+    "Stock_Top_Speed": 322,
+    "Stock_Acceleration": 83.62,
+    "Stock_Handling": 46.32,
+    "Stock_Nitro": 41.99
+  }
+]
