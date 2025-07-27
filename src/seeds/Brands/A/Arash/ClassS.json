@@ -1,0 +1,14 @@
+[
+    {
+        "Id": 1,
+        "Image": "/images/cars/A/Arash/imperium.jpg",
+        "Class": "S",
+        "Brand": "Arash",
+        "Model": "Imperium",
+        "Rarity": "Epic",
+        "Stars": 6,
+        "KeyCar": true,
+        "BPs_1_Star": 0,
+        "BPs_2_Star": 45
+    }
+]

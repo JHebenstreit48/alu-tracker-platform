@@ -1,0 +1,17 @@
+[
+  {
+    "Id": 1,
+    "Image": "/images/cars/M/Mosler/supergt.jpg",
+    "Brand": "Mosler",
+    "Model": "Super GT",
+    "Class": "S",
+    "Stars": 6,
+    "Country": "USA",
+    "Rarity": "Epic",
+    "Stock_Rank": 3944,
+    "Stock_Top_Speed": 491,
+    "Stock_Acceleration": 78.4,
+    "Stock_Handling": 39.41,
+    "Stock_Nitro": 27.64
+  }
+]
