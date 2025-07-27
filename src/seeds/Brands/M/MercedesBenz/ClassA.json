@@ -46,7 +46,18 @@
     "ObtainableVia": "Special Events",
     "Stock_Rank": 2907,
     "Stock_Top_Speed": 352,
-    "Stock_Acceleration": 73.90,
-    "Stock_Handling": 53.20
+    "Stock_Acceleration": 73.9,
+    "Stock_Handling": 53.2
+  },
+  {
+    "Id": 3,
+    "Image": "/images/cars/M/MercedesBenz/silverlightning.jpg",
+    "Brand": "Mercedes-Benz",
+    "Model": "Silver Lightning",
+    "Class": "A",
+    "Stars": 6,
+    "Country": "Germany",
+    "Rarity": "Epic",
+    "Stock_Rank": 3311
   }
 ]

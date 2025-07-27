@@ -165,5 +165,17 @@
     "BPs_4_Star": 44,
     "BPs_5_Star": 59,
     "BPs_6_Star": 86
+  },
+  {
+    "Id": 6,
+    "Image": "/images/cars/P/Pagani/zondacinque.jpg",
+    "Class": "A",
+    "Brand": "Pagani",
+    "Model": "Zonda Cinque",
+    "Rarity": "Epic",
+    "Stars": 6,
+    "Country": "Italy",
+    "Tags": null,
+    "BPs_1_Star": 30
   }
 ]
