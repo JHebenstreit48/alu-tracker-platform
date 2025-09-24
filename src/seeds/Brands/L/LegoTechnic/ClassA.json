@@ -6,6 +6,7 @@
     "Model": " McLaren Senna GTR",
     "Class": "A",
     "Stars": 5,
+    "KeyCar": true,
     "Rarity": "Epic",
     "Epics": null,
     "ObtainableVia": null,
