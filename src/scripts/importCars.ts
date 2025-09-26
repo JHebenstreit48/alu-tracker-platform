@@ -5,6 +5,7 @@ import fs from "fs";
 import path from "path";
 import mongoose from "mongoose";
 import CarModel from "@/models/car/schema";
+import CarDataStatus from "@/models/car/dataStatus"; // ⬅️ NEW (status upserts)
 import { connectToDb } from "@/Utility/connection";
 
 const normalizeString = (str: string): string => {
@@ -43,6 +44,15 @@ const collectJsonFiles = (dirPath: string): string[] => {
   return jsonFiles;
 };
 
+// ✔ Only accept known status values (fallback to "unknown")
+const cleanStatus = (raw: any): "complete" | "in progress" | "missing" | "unknown" => {
+  if (raw == null) return "unknown";
+  const s = String(raw).toLowerCase().replace(/_/g, " ").trim();
+  return (["complete", "in progress", "missing", "unknown"] as const).includes(s as any)
+    ? (s as any)
+    : "unknown";
+};
+
 const importCars = async () => {
   console.log("🌱 Car seeding started...");
 
@@ -61,7 +71,7 @@ const importCars = async () => {
     for (const filePath of allJsonFiles) {
       const rawData = fs.readFileSync(filePath, "utf-8");
 
-      let parsedData;
+      let parsedData: any[];
       try {
         parsedData = JSON.parse(rawData);
       } catch (e) {
@@ -75,16 +85,47 @@ const importCars = async () => {
       }
 
       // ✅ Enrich each car with normalizedKey
-      const enrichedData = parsedData.map((car) => {
+      const statusOps: any[] = []; // bulk upserts for statuses
+      const enrichedData = parsedData.map((car: any) => {
+        const normalizedKey = generateCarKey(car.Brand, car.Model);
+
+        // If status info exists in the JSON, queue an upsert into CarDataStatus
+        if (car.status !== undefined || car.message !== undefined || car.sources !== undefined) {
+          const safeSources =
+            Array.isArray(car.sources) ? car.sources : car.sources ? [String(car.sources)] : [];
+
+          statusOps.push({
+            updateOne: {
+              filter: { normalizedKey },
+              update: {
+                $set: {
+                  Brand: car.Brand,
+                  Model: car.Model,
+                  normalizedKey,
+                  status: cleanStatus(car.status),
+                  message: car.message ?? "",
+                  sources: safeSources,
+                },
+              },
+              upsert: true,
+            },
+          });
+        }
+
         return {
           ...car,
-          normalizedKey: generateCarKey(car.Brand, car.Model),
+          normalizedKey,
         };
       });
 
       await CarModel.insertMany(enrichedData);
       console.log(`✅ Imported ${enrichedData.length} from ${filePath}`);
       totalCount += enrichedData.length;
+
+      if (statusOps.length) {
+        await CarDataStatus.bulkWrite(statusOps, { ordered: false });
+        console.log(`🛈 Upserted ${statusOps.length} status record(s) for ${filePath}`);
+      }
     }
 
     const finalCount = await CarModel.countDocuments();
