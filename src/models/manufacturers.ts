@@ -50,4 +50,5 @@ const manufacturerSchema: Schema = new Schema({
 
 // Create and export the model
 const ManufacturerModel = mongoose.model<IManufacturer>("Manufacturer", manufacturerSchema);
+
 export default ManufacturerModel;
