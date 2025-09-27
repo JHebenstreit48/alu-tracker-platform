@@ -7,7 +7,7 @@
     "Model": "Corsa RRTurbo",
     "normalizedKey": "ats_automobili_corsa_rrturbo",
     "status": "in progress",
-    "message": "Have not added known data from source yet.",
+    "message": "Still adding data I have so far.",
     "sources": ["MEI"],
     "Rarity": "Rare",
     "Stars": 4,
