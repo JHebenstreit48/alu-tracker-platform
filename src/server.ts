@@ -1,6 +1,7 @@
+// path: src/server.ts
 import express from "express";
 import path from "node:path";
-import cors from "cors";
+import cors, { type CorsOptions } from "cors";
 import dotenv from "dotenv";
 import apiRoutes from "@/routes/api";
 import { connectToDb } from "@/Utility/connection";
@@ -12,17 +13,27 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-// const isDev = process.env.NODE_ENV !== "production";
 
-app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "http://localhost:3000",
-    "https://asphaltlegendsunitetracker.netlify.app"
-  ],
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true,
-}));
+// --- CORS: keep localhosts, add prod via env (no trailing slash) ---
+const PROD_ORIGIN = (process.env.CLIENT_ORIGIN || "").replace(/\/+$/, "");
+const allowedOrigins = [
+  "http://localhost:5173",
+  "http://localhost:3000",
+  ...(PROD_ORIGIN ? [PROD_ORIGIN] : []),
+];
+
+const corsOptions: CorsOptions = {
+  origin: allowedOrigins,
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // include OPTIONS for preflight
+  credentials: true, // keep true if the frontend uses credentials: 'include'
+  allowedHeaders: ["Content-Type", "Authorization"], // add others here if you send them
+  optionsSuccessStatus: 204,
+};
+
+app.use(cors(corsOptions));
+app.options("/api/*", cors(corsOptions)); // preflight reliability
+
+console.log("🌐 (data) CORS allowed origins:", allowedOrigins.join(", ") || "(none)");
 
 // ✅ Serve public images (for cars, logos, etc.)
 app.use("/images", express.static(path.join(process.cwd(), "public/images")));
