@@ -44,11 +44,11 @@
     "Stock_Acceleration": 73.82,
     "Stock_Handling": 51.77,
     "Stock_Nitro": 45.46,
-    "BPs_1_Star": 0,
-    "BPs_2_Star": 0,
-    "BPs_3_Star": 0,
-    "BPs_4_Star": 0,
-    "BPs_5_Star": 0
+    "BPs_1_Star": "Unknown",
+    "BPs_2_Star": "Unknown",
+    "BPs_3_Star": "Unknown",
+    "BPs_4_Star": "Unknown",
+    "BPs_5_Star": "Unknown"
   },
   {
     "Id": 3,
@@ -63,10 +63,10 @@
     "Stock_Acceleration": 76.6,
     "Stock_Handling": 38.45,
     "Stock_Nitro": 50.68,
-    "BPs_1_Star": 0,
-    "BPs_2_Star": 0,
-    "BPs_3_Star": 0,
-    "BPs_4_Star": 0,
-    "BPs_5_Star": 0
+    "BPs_1_Star": "Unknown",
+    "BPs_2_Star": "Unknown",
+    "BPs_3_Star": "Unknown",
+    "BPs_4_Star": "Unknown",
+    "BPs_5_Star": "Unknown"
   }
 ]
