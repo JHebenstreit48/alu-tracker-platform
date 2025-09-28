@@ -4,6 +4,10 @@
     "Image": "/images/cars/L/LegoTechnic/chevroletcorvettestingray.jpg",
     "Brand": "LEGO Technic",
     "Model": "Chevrolet Corvette Stingray",
+    "normalizedKey": "lego_technic_chevrolet_corvette_stingray",
+    "status": "in progress",
+    "message": "Unable to find data on missing star rank information",
+    "sources": ["MEI"],
     "Class": "B",
     "Stars": 5,
     "Rarity": "Epic",
@@ -38,6 +42,10 @@
     "Image": "/images/cars/L/LegoTechnic/lamborghinirevuelto.jpg",
     "Brand": "LEGO Technic",
     "Model": "Lamborghini Revuelto",
+    "normalizedKey": "lego_technic_lamborghini_revuelto",
+    "status": "unknown",
+    "message": "Cannot find data on this car in any source.",
+    "sources": [""],
     "Class": "B",
     "Stars": 6,
     "Rarity": "Epic",
@@ -45,6 +53,12 @@
     "Stock_Top_Speed": 350,
     "Stock_Acceleration": 76,
     "Stock_Handling": 43.03,
-    "Stock_Nitro": 13.98
+    "Stock_Nitro": 13.98,
+    "BPs_1_Star": "Unknown",
+    "BPs_2_Star": "Unknown",
+    "BPs_3_Star": "Unknown",
+    "BPs_4_Star": "Unknown",
+    "BPs_5_Star": "Unknown",
+    "BPs_6_Star": "Unknown"
   }
 ]
