@@ -7,6 +7,7 @@
     "start": "ts-node -r tsconfig-paths/register src/server.ts",
     "dev": "ts-node -r tsconfig-paths/register src/server.ts",
     "seed": "ts-node -r tsconfig-paths/register src/scripts/importCars.ts",
+    "seed:experiment": "ts-node -r tsconfig-paths/register src/scripts/importCarsExperimental.ts",
     "seed:blueprints": "ts-node -r tsconfig-paths/register src/scripts/importBlueprintPrices.ts",
     "seed:manufacturers": "ts-node -r tsconfig-paths/register src/scripts/importManufacturers.ts",
     "seed:garagelevels": "ts-node -r tsconfig-paths/register src/scripts/importGarageLevels.ts",
