@@ -1,4 +1,4 @@
-import { obtainableViaField } from "@/models/car/obtainableVia";
+import { Schema } from "mongoose";
 
 export const baseCarInfo = {
   Image: { type: String, required: false },
@@ -13,8 +13,17 @@ export const baseCarInfo = {
   Rarity: { type: String },
   Country: { type: String },
 
-  // Accepts array | string | null; stored as array-of-objects or null
-  ObtainableVia: obtainableViaField,
+  // Accepts string | string[] | null (no extra parsing; your other files handle normalization)
+  ObtainableVia: {
+    type: Schema.Types.Mixed,
+    default: null,
+    set(v: unknown) {
+      if (v == null) return null;
+      if (typeof v === "string") return v;
+      if (Array.isArray(v)) return v;
+      return null;
+    },
+  },
 
   Stars: { type: Number },
   KeyCar: { type: Boolean, default: false },
@@ -23,6 +32,5 @@ export const baseCarInfo = {
   Added_Date: { type: String },
   Tags: { type: String },
   Cost_Epic: { type: Number, default: null },
-
   normalizedKey: { type: String, required: true, unique: true },
 };
