@@ -1,3 +1,3 @@
-import zondaR from '@/seeds/Brands/P/Pagani/A/ZondaR.json';
+import zondaR from '@/seeds/Brands/P/Pagani/A/zondaR.json';
 
 export default [zondaR ];
