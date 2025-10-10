@@ -2,6 +2,7 @@ import express from "express";
 import path from "node:path";
 import cors, { type CorsOptions } from "cors";
 import dotenv from "dotenv";
+import compression from "compression";
 import apiRoutes from "@/routes/api";
 import { connectToDb } from "@/Utility/connection";
 import fs from "fs";
@@ -15,6 +16,7 @@ const app = express();
 
 // Middleware
 app.use(express.json());
+app.use(compression()); // 🔥 shrink JSON responses
 
 // --- CORS: keep localhosts, add prod via env (no trailing slash) ---
 const PROD_ORIGIN = (process.env.CLIENT_ORIGIN || "").replace(/\/+$/, "");
@@ -58,19 +60,16 @@ app.get("/api/health/cors", (req, res) => {
 // DB health (safe access to connection.db)
 app.get("/api/health/db", async (_req, res) => {
   try {
-    const state = mongoose.connection.readyState; // 0=disconnected,1=connected,2=connecting,3=disconnecting
+    const state = mongoose.connection.readyState; // 0..3
     const carCount = await CarModel.estimatedDocumentCount();
 
-    // stats() requires an established connection and permissions
     let stats: any = null;
     if (state === 1) {
       const db: Db | undefined = (mongoose.connection as any).db;
       if (db && typeof db.stats === "function") {
         try {
           stats = await db.stats();
-        } catch {
-          // ignore if not permitted
-        }
+        } catch { /* ignore */ }
       }
     }
 

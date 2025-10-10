@@ -1,7 +1,7 @@
 import { Router, Request, Response } from 'express';
 import mongoose from 'mongoose';
 import CarModel from '@/models/car/schema';
-import { formatObtainableViaDisplay } from '@/models/car/obtainableVia'; // ✅ Add this
+import { formatObtainableViaDisplay } from '@/models/car/obtainableVia';
 
 const router = Router();
 
@@ -9,11 +9,17 @@ const router = Router();
 //       🚗 CAR ROUTES
 // ============================
 
+const MAX_LIMIT = 250; // hard cap to avoid 502s on free tier
+
 // GET /api/cars – paginated list
 router.get('/', async (req: Request, res: Response): Promise<void> => {
-  const limit = parseInt(req.query.limit as string) || 25;
-  const offset = parseInt(req.query.offset as string) || 0;
-  const selectedClass = req.query.class as string | undefined;
+  // clamp + sanitize
+  const rawLimit = parseInt(req.query.limit as string) || 25;
+  const rawOffset = parseInt(req.query.offset as string) || 0;
+  const limit = Math.min(Math.max(rawLimit, 1), MAX_LIMIT);
+  const offset = Math.max(rawOffset, 0);
+
+  const selectedClass = (req.query.class as string | undefined)?.trim();
   const searchTerm = req.query.search?.toString().toLowerCase();
 
   try {
@@ -31,16 +37,20 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
     }
 
     const [cars, total] = await Promise.all([
-      CarModel.find(filter).sort({ Brand: 1, Model: 1 }).skip(offset).limit(limit),
+      // lean() => plain objects (faster/smaller than full Mongoose docs)
+      CarModel.find(filter)
+        .sort({ Brand: 1, Model: 1 })
+        .skip(offset)
+        .limit(limit)
+        .lean(),
       CarModel.countDocuments(filter),
     ]);
 
-    // ✅ Clean up ObtainableVia field before sending
-    const safeCars = cars.map((doc: any) => {
-      const carObj = doc.toObject ? doc.toObject() : doc;
-      carObj.ObtainableVia = formatObtainableViaDisplay(carObj.ObtainableVia);
-      return carObj;
-    });
+    // normalize ObtainableVia for FE: always a comma-joined string
+    const safeCars = cars.map((car: any) => ({
+      ...car,
+      ObtainableVia: formatObtainableViaDisplay(car?.ObtainableVia),
+    }));
 
     res.status(200).json({ cars: safeCars, total });
   } catch (error) {
@@ -54,7 +64,7 @@ router.get('/class/:class', async (req: Request<{ class: string }>, res: Respons
   const carClass = req.params.class.trim();
 
   try {
-    const cars = await CarModel.find({ Class: carClass });
+    const cars = await CarModel.find({ Class: carClass }).lean();
 
     if (!cars || cars.length === 0) {
       console.log(`[INFO] No cars found for class: ${carClass}`);
@@ -62,11 +72,10 @@ router.get('/class/:class', async (req: Request<{ class: string }>, res: Respons
       return;
     }
 
-    const safeCars = cars.map((doc: any) => {
-      const carObj = doc.toObject ? doc.toObject() : doc;
-      carObj.ObtainableVia = formatObtainableViaDisplay(carObj.ObtainableVia);
-      return carObj;
-    });
+    const safeCars = cars.map((car: any) => ({
+      ...car,
+      ObtainableVia: formatObtainableViaDisplay(car?.ObtainableVia),
+    }));
 
     res.status(200).json(safeCars);
   } catch (error) {
@@ -89,28 +98,23 @@ router.get('/detail/:slug', async (req: Request<{ slug: string }>, res: Response
   }
 
   try {
-    let car = null;
-
     if (mongoose.Types.ObjectId.isValid(slug)) {
-      car = await CarModel.findById(slug);
-      if (car) {
-        const carObj: any = car.toObject();
-        carObj.ObtainableVia = formatObtainableViaDisplay(carObj.ObtainableVia);
-        res.json(carObj);
+      const carById = await CarModel.findById(slug).lean();
+      if (carById) {
+        carById.ObtainableVia = formatObtainableViaDisplay(carById.ObtainableVia);
+        res.json(carById);
         return;
       }
     }
 
-    car = await CarModel.findOne({ normalizedKey: slug });
+    const car = await CarModel.findOne({ normalizedKey: slug }).lean();
     if (!car) {
       res.status(404).json({ error: 'Car not found for the given ID or slug.' });
       return;
     }
 
-    const carObj: any = car.toObject();
-    carObj.ObtainableVia = formatObtainableViaDisplay(carObj.ObtainableVia);
-
-    res.json(carObj);
+    car.ObtainableVia = formatObtainableViaDisplay(car.ObtainableVia);
+    res.json(car);
   } catch (error) {
     console.error(`[ERROR] Failed to fetch car details for slug ${slug}:`, error);
     res.status(500).json({ error: 'Failed to fetch car details' });
