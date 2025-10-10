@@ -1,6 +1,7 @@
 import { Router, Request, Response } from 'express';
 import mongoose from 'mongoose';
 import CarModel from '@/models/car/schema';
+import { formatObtainableViaDisplay } from '@/models/car/obtainableVia'; // ✅ Add this
 
 const router = Router();
 
@@ -34,7 +35,14 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
       CarModel.countDocuments(filter),
     ]);
 
-    res.status(200).json({ cars, total });
+    // ✅ Clean up ObtainableVia field before sending
+    const safeCars = cars.map((doc: any) => {
+      const carObj = doc.toObject ? doc.toObject() : doc;
+      carObj.ObtainableVia = formatObtainableViaDisplay(carObj.ObtainableVia);
+      return carObj;
+    });
+
+    res.status(200).json({ cars: safeCars, total });
   } catch (error) {
     console.error('[ERROR] Failed to fetch paginated cars:', error);
     res.status(500).json({ error: 'Failed to fetch cars' });
@@ -54,7 +62,13 @@ router.get('/class/:class', async (req: Request<{ class: string }>, res: Respons
       return;
     }
 
-    res.status(200).json(cars);
+    const safeCars = cars.map((doc: any) => {
+      const carObj = doc.toObject ? doc.toObject() : doc;
+      carObj.ObtainableVia = formatObtainableViaDisplay(carObj.ObtainableVia);
+      return carObj;
+    });
+
+    res.status(200).json(safeCars);
   } catch (error) {
     console.error(`[ERROR] Error in /cars/class/:class route:`, error);
     res.status(500).json({
@@ -75,21 +89,28 @@ router.get('/detail/:slug', async (req: Request<{ slug: string }>, res: Response
   }
 
   try {
+    let car = null;
+
     if (mongoose.Types.ObjectId.isValid(slug)) {
-      const car = await CarModel.findById(slug);
+      car = await CarModel.findById(slug);
       if (car) {
-        res.json(car);
+        const carObj: any = car.toObject();
+        carObj.ObtainableVia = formatObtainableViaDisplay(carObj.ObtainableVia);
+        res.json(carObj);
         return;
       }
     }
 
-    const car = await CarModel.findOne({ normalizedKey: slug });
+    car = await CarModel.findOne({ normalizedKey: slug });
     if (!car) {
       res.status(404).json({ error: 'Car not found for the given ID or slug.' });
       return;
     }
 
-    res.json(car);
+    const carObj: any = car.toObject();
+    carObj.ObtainableVia = formatObtainableViaDisplay(carObj.ObtainableVia);
+
+    res.json(carObj);
   } catch (error) {
     console.error(`[ERROR] Failed to fetch car details for slug ${slug}:`, error);
     res.status(500).json({ error: 'Failed to fetch car details' });
