@@ -41,7 +41,7 @@
     "Stars": 5,
     "Gold_Max_Rank": 4059,
     "Epics": 8,
-    "ObtainableVia": ["GL15", "Multiplayer"],
+    "ObtainableVia": "GL15, Multiplayer",
     "Garage_Lvl": 16,
     "Gold_Top_Speed": 355.4,
     "Gold_Acceleration": 79.16,

@@ -1,3 +1,5 @@
+import { Schema } from "mongoose";
+
 export const baseCarInfo = {
   Image: { type: String, required: false },
   ImageStatus: {
@@ -10,7 +12,10 @@ export const baseCarInfo = {
   Model: { type: String, required: true },
   Rarity: { type: String },
   Country: { type: String },
-  ObtainableVia: { type: String },
+
+  // Accept string | string[] | null in DB during migration
+  ObtainableVia: { type: Schema.Types.Mixed, default: null },
+
   Stars: { type: Number },
   KeyCar: { type: Boolean, default: false },
   Added: { type: String },
@@ -18,7 +23,5 @@ export const baseCarInfo = {
   Added_Date: { type: String },
   Tags: { type: String },
   Cost_Epic: { type: Number, default: null },
-
-  // ✅ No trailing comma above this
-  normalizedKey: { type: String, required: true, unique: true }
+  normalizedKey: { type: String, required: true, unique: true },
 };
