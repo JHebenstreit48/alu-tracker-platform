@@ -11,8 +11,6 @@ import { fourStarMaxStats } from "@/models/car/fourStarMaxStats";
 import { fiveStarMaxStats } from "@/models/car/fiveStarMaxStats";
 import { sixStarMaxStats } from "@/models/car/sixStarMaxStats";
 
-import { formatObtainableViaDisplay } from "@/models/car/obtainableVia";
-
 const carSchemaFields = {
   _id: { type: Schema.Types.ObjectId, auto: true },
   ...baseCarInfo,
@@ -28,20 +26,6 @@ const carSchemaFields = {
 };
 
 const carSchema = new Schema(carSchemaFields, { timestamps: true, versionKey: false });
-
-// Prevent serialization crashes
-carSchema.set("toJSON", {
-  transform: (_doc, ret) => {
-    try {
-      if ("ObtainableVia" in ret) {
-        ret.ObtainableVia = formatObtainableViaDisplay(ret.ObtainableVia);
-      }
-    } catch {
-      // leave it untouched if formatting fails
-    }
-    return ret;
-  }
-});
-
 const CarModel = mongoose.model("Car", carSchema);
+
 export default CarModel;
