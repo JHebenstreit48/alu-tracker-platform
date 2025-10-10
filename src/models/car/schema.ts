@@ -11,6 +11,8 @@ import { fourStarMaxStats } from "@/models/car/fourStarMaxStats";
 import { fiveStarMaxStats } from "@/models/car/fiveStarMaxStats";
 import { sixStarMaxStats } from "@/models/car/sixStarMaxStats";
 
+import { formatObtainableViaDisplay } from "@/models/car/obtainableVia"; // <-- NEW
+
 const carSchemaFields = {
   _id: { type: Schema.Types.ObjectId, auto: true },
   ...baseCarInfo,
@@ -22,10 +24,20 @@ const carSchemaFields = {
   ...fourStarMaxStats,
   ...fiveStarMaxStats,
   ...sixStarMaxStats,
-  ...goldMaxStats
+  ...goldMaxStats,
 };
 
 const carSchema = new Schema(carSchemaFields, { timestamps: true, versionKey: false });
-const CarModel = mongoose.model("Car", carSchema);
 
+// Ensure API output always has ObtainableVia as a string (comma + space)
+carSchema.set("toJSON", {
+  transform: (_doc, ret) => {
+    if ("ObtainableVia" in ret) {
+      ret.ObtainableVia = formatObtainableViaDisplay(ret.ObtainableVia);
+    }
+    return ret;
+  },
+});
+
+const CarModel = mongoose.model("Car", carSchema);
 export default CarModel;
