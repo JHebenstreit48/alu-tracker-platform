@@ -5,7 +5,7 @@ import fs from "fs";
 import path from "path";
 import mongoose from "mongoose";
 import CarModel from "@/models/car/schema";
-import CarDataStatus from "@/models/car/dataStatus";
+import CarDataStatus from "@/models/car/Statuses/dataStatus";
 import { connectToDb } from "@/Utility/connection";
 
 // Enable TS + alias imports at runtime for Class*.ts

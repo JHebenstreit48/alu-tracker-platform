@@ -5,7 +5,7 @@ import fs from "fs";
 import path from "path";
 import mongoose from "mongoose";
 import CarModel from "@/models/car/schema";
-import CarDataStatus from "@/models/car/dataStatus"; // ⬅️ NEW (status upserts)
+import CarDataStatus from "@/models/car/Statuses/dataStatus"; // ⬅️ NEW (status upserts)
 import { connectToDb } from "@/Utility/connection";
 
 const normalizeString = (str: string): string => {

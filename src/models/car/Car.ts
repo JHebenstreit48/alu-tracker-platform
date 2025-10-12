@@ -1,13 +1,13 @@
-import { baseCarInfo } from "@/models/car/baseCarInfo";
-import { blueprints } from "@/models/car/blueprints";
-import { stockStats } from "@/models/car/stockStats";
-import { oneStarMaxStats } from "@/models/car/oneStarMaxStats";
-import { twoStarMaxStats } from "@/models/car/twoStarMaxStats";
-import { threeStarMaxStats } from "@/models/car/threeStarMaxStats";
-import { fourStarMaxStats } from "@/models/car/fourStarMaxStats";
-import { fiveStarMaxStats } from "@/models/car/fiveStarMaxStats";
-import { sixStarMaxStats } from "@/models/car/sixStarMaxStats";
-import { goldMaxStats } from "@/models/car/goldMaxStats";
+import { baseCarInfo } from "@/models/car/Core/baseCarInfo";
+import { blueprints } from "@/models/car/Core/blueprints";
+import { stockStats } from "@/models/car/Stats/Stages/stockStats";
+import { oneStarMaxStats } from "@/models/car/Stats/MaxStats/oneStarMaxStats";
+import { twoStarMaxStats } from "@/models/car/Stats/MaxStats/twoStarMaxStats";
+import { threeStarMaxStats } from "@/models/car/Stats/MaxStats/threeStarMaxStats";
+import { fourStarMaxStats } from "@/models/car/Stats/MaxStats/fourStarMaxStats";
+import { fiveStarMaxStats } from "@/models/car/Stats/MaxStats/fiveStarMaxStats";
+import { sixStarMaxStats } from "@/models/car/Stats/MaxStats/sixStarMaxStats";
+import { goldMaxStats } from "@/models/car/Stats/MaxStats/goldMaxStats";
 
 // ✅ Utility type to extract all keys as optional fields
 type ExtractKeys<T> = {
