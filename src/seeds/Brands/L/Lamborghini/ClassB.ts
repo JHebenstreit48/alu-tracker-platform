@@ -6,7 +6,7 @@ import asterion from '@/seeds/Brands/L/Lamborghini/B/asterion.json';
 import huracanSTO from '@/seeds/Brands/L/Lamborghini/B/huracanSTO.json';
 import murcielagoLP640Roadster from '@/seeds/Brands/L/Lamborghini/B/murcielagoLP640Roadster.json';
 import invencible from '@/seeds/Brands/L/Lamborghini/B/invencible.json';
-import huracanEvoSpyder from '@/seeds/Brands/L/Lamborghini/B/huracanEvoSpyder.json';
+import huracanEvoSpyder from '@/seeds/Brands/L/Lamborghini/B/huracanEVOSpyder.json';
 import sestoElemento from '@/seeds/Brands/L/Lamborghini/B/sestoElemento.json';
 import revuelto from '@/seeds/Brands/L/Lamborghini/B/revuelto.json';
 
