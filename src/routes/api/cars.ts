@@ -1,7 +1,7 @@
 import { Router, Request, Response } from 'express';
 import mongoose from 'mongoose';
 import CarModel from '@/models/car/schema';
-import { formatObtainableViaDisplay } from '@/models/car/obtainableVia';
+import { formatObtainableViaDisplay } from '@/models/car/Core/obtainableVia';
 
 const router = Router();
 

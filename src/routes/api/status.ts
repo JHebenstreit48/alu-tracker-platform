@@ -1,6 +1,6 @@
 import { Router, Request, Response } from "express";
 import CarModel from "@/models/car/schema";
-import CarDataStatus from "@/models/car/dataStatus";
+import CarDataStatus from "@/models/car/Statuses/dataStatus";
 
 const router = Router();
 
