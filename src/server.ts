@@ -18,9 +18,9 @@ const app = express();
 //         Middleware
 // ============================
 app.use(express.json());
-app.use(compression()); // shrink JSON responses
+app.use(compression());
 
-// --- CORS: keep localhosts, add prod via env (no trailing slash) ---
+// --- CORS ---
 const PROD_ORIGIN = (process.env.CLIENT_ORIGIN || "").replace(/\/+$/, "");
 const allowedOrigins = [
   "http://localhost:5173",
@@ -45,20 +45,17 @@ console.log(
 );
 
 // ============================
-//     🔎 Health/Debug Endpoints
+//     Health/Debug Endpoints
 // ============================
-
-// Echo origin + allowed origins (CORS debug)
 app.get("/api/health/cors", (req, res) => {
   const origin = req.headers.origin || "(none)";
   res.setHeader("X-Seen-Origin", String(origin));
   res.json({ ok: true, allowedOrigins, seenOrigin: origin });
 });
 
-// DB health (safe access to connection.db)
 app.get("/api/health/db", async (_req, res) => {
   try {
-    const state = mongoose.connection.readyState; // 0..3
+    const state = mongoose.connection.readyState;
     const carCount = await CarModel.estimatedDocumentCount();
 
     let stats: any = null;
@@ -75,7 +72,6 @@ app.get("/api/health/db", async (_req, res) => {
   }
 });
 
-// Minimal cars smoke test
 app.get("/api/health/cars-sample", async (_req, res) => {
   try {
     const sample = await CarModel.find({}, { Brand: 1, Model: 1, Class: 1 })
@@ -88,7 +84,6 @@ app.get("/api/health/cars-sample", async (_req, res) => {
   }
 });
 
-// Process/runtime snapshot
 app.get("/api/health/runtime", (_req, res) => {
   const mem = process.memoryUsage();
   res.json({
@@ -102,23 +97,31 @@ app.get("/api/health/runtime", (_req, res) => {
   });
 });
 
-// ✅ Simple liveness check
+// ✅ Simple liveness
 app.get("/api/test", (_req, res) => {
   res.status(200).json({ status: "alive" });
 });
 
-// ❌ Removed: serving /images from local disk
-// app.use("/images", express.static(path.join(process.cwd(), "public/images")));
+// ✅ Serve ONLY small UI icons from this repo
+//    (car photos live on the Image Vault)
+const ICONS_DIR = path.join(process.cwd(), "public/images/icons");
+app.use(
+  "/images/icons",
+  express.static(ICONS_DIR, {
+    maxAge: "365d",
+    immutable: true,
+  })
+);
 
 // ✅ API routes (brands, cars, etc.)
 app.use("/api", apiRoutes);
 
-// ✅ Serve React frontend static files (only if you ship the client in this repo)
+// ✅ Serve built frontend (if present in this repo)
 app.use(express.static(path.join(process.cwd(), "../client/dist")));
 
-// ✅ Wildcard for frontend pages (don’t swallow API 404s)
+// ✅ Wildcard for real FE pages (don’t swallow API 404s)
 app.get("*", (req, res) => {
-  if (req.path.startsWith("/api")) {
+  if (req.path.startsWith("/api") || req.path.startsWith("/images/icons")) {
     res.status(404).send("Not found.");
     return;
   }
