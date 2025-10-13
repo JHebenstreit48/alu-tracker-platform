@@ -14,9 +14,11 @@ dotenv.config();
 
 const app = express();
 
-// Middleware
+// ============================
+//         Middleware
+// ============================
 app.use(express.json());
-app.use(compression()); // 🔥 shrink JSON responses
+app.use(compression()); // shrink JSON responses
 
 // --- CORS: keep localhosts, add prod via env (no trailing slash) ---
 const PROD_ORIGIN = (process.env.CLIENT_ORIGIN || "").replace(/\/+$/, "");
@@ -50,11 +52,7 @@ console.log(
 app.get("/api/health/cors", (req, res) => {
   const origin = req.headers.origin || "(none)";
   res.setHeader("X-Seen-Origin", String(origin));
-  res.json({
-    ok: true,
-    allowedOrigins,
-    seenOrigin: origin,
-  });
+  res.json({ ok: true, allowedOrigins, seenOrigin: origin });
 });
 
 // DB health (safe access to connection.db)
@@ -67,19 +65,11 @@ app.get("/api/health/db", async (_req, res) => {
     if (state === 1) {
       const db: Db | undefined = (mongoose.connection as any).db;
       if (db && typeof db.stats === "function") {
-        try {
-          stats = await db.stats();
-        } catch { /* ignore */ }
+        try { stats = await db.stats(); } catch { /* ignore */ }
       }
     }
 
-    res.json({
-      ok: true,
-      mongoState: state,
-      carCount,
-      dbName: mongoose.connection.name || null,
-      stats,
-    });
+    res.json({ ok: true, mongoState: state, carCount, dbName: mongoose.connection.name || null, stats });
   } catch (e: any) {
     res.status(500).json({ ok: false, error: e.message });
   }
@@ -117,24 +107,23 @@ app.get("/api/test", (_req, res) => {
   res.status(200).json({ status: "alive" });
 });
 
-// ✅ Serve public images (for cars, logos, etc.)
-app.use("/images", express.static(path.join(process.cwd(), "public/images")));
+// ❌ Removed: serving /images from local disk
+// app.use("/images", express.static(path.join(process.cwd(), "public/images")));
 
 // ✅ API routes (brands, cars, etc.)
 app.use("/api", apiRoutes);
 
-// ✅ Serve React frontend static files
+// ✅ Serve React frontend static files (only if you ship the client in this repo)
 app.use(express.static(path.join(process.cwd(), "../client/dist")));
 
-// ✅ PROPER Wildcard Route (only log real frontend page fallbacks)
+// ✅ Wildcard for frontend pages (don’t swallow API 404s)
 app.get("*", (req, res) => {
-  if (req.path.startsWith("/api") || req.path.startsWith("/images")) {
+  if (req.path.startsWith("/api")) {
     res.status(404).send("Not found.");
     return;
   }
 
   console.log("Wildcard triggered for frontend page. Path:", req.path);
-
   const indexPath = path.join(process.cwd(), "../client/dist/index.html");
   if (fs.existsSync(indexPath)) {
     res.sendFile(indexPath);
@@ -143,7 +132,9 @@ app.get("*", (req, res) => {
   }
 });
 
-// ✅ Server Start
+// ============================
+//          Server Start
+// ============================
 const main = async () => {
   try {
     await connectToDb();

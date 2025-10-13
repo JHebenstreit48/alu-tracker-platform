@@ -1,13 +1,10 @@
 import { Router, Request, Response } from 'express';
 import mongoose from 'mongoose';
 import CarModel from '@/models/car/schema';
+import { withImageUrl } from '@/Utility/imageUrl';
 import { formatObtainableViaDisplay } from '@/models/car/Core/obtainableVia';
 
 const router = Router();
-
-// ============================
-//       🚗 CAR ROUTES
-// ============================
 
 /**
  * Server caps the page size (does NOT cap total).
@@ -74,6 +71,7 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
 
     const safeItems = items.map((car: any) => ({
       ...car,
+      Image: withImageUrl(car?.Image), // prefix to absolute URL
       ObtainableVia: formatObtainableViaDisplay(car?.ObtainableVia),
     }));
 
@@ -109,7 +107,6 @@ router.get('/brands', async (_req: Request, res: Response): Promise<void> => {
 
 /**
  * GET /api/cars/class/:class – all cars in a class (unpaged)
- * (You can keep this if some pages still expect the old shape.)
  */
 router.get(
   '/class/:class',
@@ -127,6 +124,7 @@ router.get(
 
       const safeCars = cars.map((car: any) => ({
         ...car,
+        Image: withImageUrl(car?.Image), // prefix to absolute URL
         ObtainableVia: formatObtainableViaDisplay(car?.ObtainableVia),
       }));
 
@@ -161,6 +159,7 @@ router.get(
         const carById = await CarModel.findById(slug).lean();
         if (carById) {
           carById.ObtainableVia = formatObtainableViaDisplay(carById.ObtainableVia);
+          (carById as any).Image = withImageUrl((carById as any).Image); // make absolute
           res.json(carById);
           return;
         }
@@ -174,6 +173,7 @@ router.get(
       }
 
       car.ObtainableVia = formatObtainableViaDisplay(car.ObtainableVia);
+      (car as any).Image = withImageUrl((car as any).Image); // make absolute
       res.json(car);
     } catch (error) {
       console.error(`[ERROR] Failed to fetch car details for slug ${slug}:`, error);
