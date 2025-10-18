@@ -1,3 +1,5 @@
+// src/scripts/DatabaseImports/importCars.ts
+
 import dotenv from "dotenv";
 dotenv.config();
 
@@ -8,20 +10,12 @@ import CarModel from "@/models/car/schema";
 import CarDataStatus from "@/models/car/Statuses/dataStatus";
 import { connectToDb } from "@/Utility/connection";
 
-// Allow importing TS collectors like ClassA.ts at runtime
-// (ts-node/register might already be injected by CLI; this is idempotent)
 try {
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
   require("ts-node/register/transpile-only");
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
   require("tsconfig-paths/register");
 } catch {}
 
-/**
- * Root folder that contains Brands/<Letter>/<Brand>/(ClassX.ts|ClassX.json|<ClassFolder>/*.json)
- * Adjust if your layout differs.
- */
-const ROOT_DIR = path.resolve(__dirname, "../seeds/Brands");
+const ROOT_DIR = path.resolve(__dirname, "../../seeds/Brands");
 
 type CarDoc = Record<string, any>;
 
@@ -50,21 +44,17 @@ function* walk(dir: string): Generator<string> {
 const isJson = (f: string) => /\.json$/i.test(f);
 const isTsCollector = (f: string) => /[/\\]Class[A-Z]\.ts$/i.test(f);
 
-// ---- Helpers to map files to (brand, class) so we can prefer collectors ----
 function parseBrandAndClass(file: string): { brand?: string; klass?: string } {
   const parts = file.split(path.sep);
   const i = parts.lastIndexOf("Brands");
   if (i < 0) return {};
-  // layout: .../Brands/<Letter>/<Brand>/(ClassX.* | <ClassFolder>/file.json)
   const brand = parts[i + 2];
   let klass: string | undefined;
 
   const base = path.basename(file).toLowerCase();
-  const m = base.match(/^class([a-z])\./i); // ClassA.ts / ClassA.json
-  if (m) {
-    klass = m[1].toUpperCase();
-  } else {
-    // .../<Brand>/<ClassFolder>/<car>.json → use folder name as class
+  const m = base.match(/^class([a-z])\./i);
+  if (m) klass = m[1].toUpperCase();
+  else {
     const folder = parts[i + 3];
     if (folder && /^[A-D|S]$/i.test(folder)) klass = folder.toUpperCase();
   }
@@ -87,7 +77,6 @@ async function loadCarsFromFile(file: string): Promise<CarDoc[]> {
   return [];
 }
 
-// Sanitize status values
 const cleanStatus = (
   raw: any
 ): "complete" | "in progress" | "missing" | "unknown" => {
@@ -101,33 +90,38 @@ const cleanStatus = (
 };
 
 (async function main() {
-  console.log("🌱 Seeding cars (unified): TS collectors + JSON, with de-dup + status upserts");
-  console.log("📁 Root:", ROOT_DIR);
+  console.log(
+    "🌱 Seeding cars (unified): TS collectors + JSON, with de-dup + status upserts"
+  );
+  console.log(
+    "📁 Root:",
+    ROOT_DIR,
+    "exists:",
+    fs.existsSync(ROOT_DIR)
+  );
 
   await connectToDb();
+  console.log("✅ Connected to MongoDB.");
 
-  // Ensure unique index on normalizedKey so we don't create true dupes
   try {
     await CarModel.collection.createIndex({ normalizedKey: 1 }, { unique: true });
   } catch {}
 
-  // 1) Discover all candidate files
   const allFiles = Array.from(walk(ROOT_DIR)).filter(
     (f) => isJson(f) || isTsCollector(f)
   );
 
-  // 2) Build a set of brand/class combos that have a TS collector (preferred)
   const collectorSet = new Set<string>();
   for (const f of allFiles.filter(isTsCollector)) {
     const { brand, klass } = parseBrandAndClass(f);
     if (brand && klass) collectorSet.add(`${brand}::${klass}`);
   }
 
-  // 3) Decide the final list:
-  //    - Always include ClassX.ts (collector) for that brand/class
-  //    - Include ClassX.json only if there is NO ClassX.ts for that brand/class
-  //    - Include per-car JSON inside class folders only if there is NO collector for that class
-  //    - Include any other JSON (e.g., Brand.json) as-is
+  const includeClassJsonWithCollector =
+    process.env.INCLUDE_CLASS_JSON_WITH_COLLECTOR === "1";
+  const includePerCarWithCollector =
+    process.env.INCLUDE_PER_CAR_WITH_COLLECTOR === "1";
+
   const files: string[] = [];
   for (const f of allFiles) {
     const { brand, klass } = parseBrandAndClass(f);
@@ -146,31 +140,30 @@ const cleanStatus = (
     if (isJson(f)) {
       const base = path.basename(f).toLowerCase();
       if (/^class[a-z]\.json$/.test(base)) {
-        if (!collectorSet.has(key)) files.push(f);
+        if (!collectorSet.has(key) || includeClassJsonWithCollector) files.push(f);
       } else {
-        // per-car jsons inside class folder
-        if (!collectorSet.has(key)) files.push(f);
+        if (!collectorSet.has(key) || includePerCarWithCollector) files.push(f);
       }
     }
   }
 
   console.log(`📄 Eligible files after de-dupe: ${files.length}`);
 
-  let carOps = 0;
-  let statusOps = 0;
-  let totalInserted = 0;
+  // ---- PASS 1: read all docs and bucket by brand ----
+  const brandBuckets = new Map<
+    string,
+    { docs: CarDoc[]; statusOps: any[]; keys: Set<string> }
+  >();
+  let expectedFromSeeds = 0;
 
   for (const file of files) {
     try {
       const docs = await loadCarsFromFile(file);
+      console.log(`📦 ${path.relative(process.cwd(), file)} → docs: ${docs.length}`);
       if (!docs.length) {
         console.warn(`⚠️ Skipped empty/invalid: ${file}`);
         continue;
       }
-
-      const bulk: any[] = [];
-      const statusBulk: any[] = [];
-      const opKeys: string[] = [];
 
       for (const car of docs) {
         const Brand = car.Brand ?? "";
@@ -179,23 +172,20 @@ const cleanStatus = (
           (car.normalizedKey && String(car.normalizedKey).trim()) ||
           (Brand && Model ? generateCarKey(Brand, Model) : undefined);
 
-        if (!normalizedKey) {
+        if (!normalizedKey || !Brand) {
           console.warn(
             `⚠️ Missing Brand/Model/normalizedKey in ${file}; skipping one entry.`
           );
           continue;
         }
 
+        const bucket =
+          brandBuckets.get(Brand) ||
+          { docs: [], statusOps: [], keys: new Set<string>() };
         const doc = { ...car, Brand, Model, normalizedKey };
 
-        bulk.push({
-          updateOne: {
-            filter: { normalizedKey },
-            update: { $set: doc },
-            upsert: true,
-          },
-        });
-        opKeys.push(normalizedKey);
+        bucket.docs.push(doc);
+        bucket.keys.add(normalizedKey);
 
         if (
           car.status !== undefined ||
@@ -207,7 +197,7 @@ const cleanStatus = (
             : car.sources
             ? [String(car.sources)]
             : [];
-          statusBulk.push({
+          bucket.statusOps.push({
             updateOne: {
               filter: { normalizedKey },
               update: {
@@ -224,42 +214,73 @@ const cleanStatus = (
             },
           });
         }
-      }
 
-      if (bulk.length) {
-        const res = await CarModel.bulkWrite(bulk, { ordered: false });
-
-        const upsertedIdx = Object.keys(res.upsertedIds || {}).map(Number);
-        const insertedKeys = upsertedIdx.map((i) => opKeys[i]);
-        const insertedCount = upsertedIdx.length;
-        const updatedCount = bulk.length - insertedCount;
-        totalInserted += insertedCount;
-
-        console.log(
-          `✅ ${path.relative(process.cwd(), file)} → updated: ${updatedCount}, inserted: ${insertedCount}`
-        );
-        if (insertedKeys.length) {
-          console.log(`   🆕 inserted normalizedKey(s): ${insertedKeys.join(", ")}`);
-        }
-
-        carOps += bulk.length;
-      }
-
-      if (statusBulk.length) {
-        const res2 = await CarDataStatus.bulkWrite(statusBulk, { ordered: false });
-        const insertedStatuses = Object.keys(res2.upsertedIds || {}).length;
-        const updatedStatuses = statusBulk.length - insertedStatuses;
-        console.log(
-          `🛈 ${path.relative(process.cwd(), file)} (status) → updated: ${updatedStatuses}, inserted: ${insertedStatuses}`
-        );
-        statusOps += statusBulk.length;
+        brandBuckets.set(Brand, bucket);
+        expectedFromSeeds += 1;
       }
     } catch (e: any) {
-      console.warn(`⚠️ Failed ${file}: ${e.message}`);
+      console.warn(`⚠️ Failed ${file}: ${e?.message}`);
+    }
+  }
+
+  // ---- PASS 2: per-brand prune + upsert ----
+  let carOps = 0;
+  let statusOps = 0;
+  let totalInserted = 0;
+
+  for (const [brand, bucket] of brandBuckets.entries()) {
+    const newKeys = Array.from(bucket.keys);
+    const pruneFilter = { Brand: brand, normalizedKey: { $nin: newKeys } };
+    const toDelete = await CarModel.countDocuments(pruneFilter);
+    if (toDelete > 0) {
+      const delRes = await CarModel.deleteMany(pruneFilter);
+      console.log(`🧹 ${brand}: pruned ${delRes.deletedCount} stale row(s).`);
+    }
+
+    const bulk: any[] = [];
+    const opKeys: string[] = [];
+
+    for (const doc of bucket.docs) {
+      bulk.push({
+        updateOne: {
+          filter: { normalizedKey: doc.normalizedKey },
+          update: { $set: doc },
+          upsert: true,
+        },
+      });
+      opKeys.push(doc.normalizedKey);
+    }
+
+    if (bulk.length) {
+      const res = await CarModel.bulkWrite(bulk, { ordered: false });
+      const upsertedIdx = Object.keys(res.upsertedIds || {}).map(Number);
+      const insertedKeys = upsertedIdx.map((i) => opKeys[i]);
+      const insertedCount = upsertedIdx.length;
+      const updatedCount = bulk.length - insertedCount;
+      totalInserted += insertedCount;
+      carOps += bulk.length;
+
+      console.log(
+        `✅ ${brand} → updated: ${updatedCount}, inserted: ${insertedCount}`
+      );
+      if (insertedKeys.length) {
+        console.log(`   🆕 inserted normalizedKey(s): ${insertedKeys.join(", ")}`);
+      }
+    }
+
+    if (bucket.statusOps.length) {
+      const res2 = await CarDataStatus.bulkWrite(bucket.statusOps, { ordered: false });
+      const insertedStatuses = Object.keys(res2.upsertedIds || {}).length;
+      const updatedStatuses = bucket.statusOps.length - insertedStatuses;
+      console.log(
+        `🛈 ${brand} (status) → updated: ${updatedStatuses}, inserted: ${insertedStatuses}`
+      );
+      statusOps += bucket.statusOps.length;
     }
   }
 
   const final = await CarModel.countDocuments();
+  console.log(`🧮 Expected from seeds (this run): ${expectedFromSeeds}`);
   console.log(
     `📊 DB total: ${final} | Car ops: ${carOps} | Status ops: ${statusOps} | Newly inserted: ${totalInserted}`
   );
@@ -268,6 +289,8 @@ const cleanStatus = (
   console.log("🔌 Disconnected.");
 })().catch(async (e) => {
   console.error("❌ Import failed:", e);
-  try { await mongoose.disconnect(); } catch {}
+  try {
+    await mongoose.disconnect();
+  } catch {}
   process.exit(1);
 });
