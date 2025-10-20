@@ -60,5 +60,20 @@
     "BPs_2_Star": 23,
     "BPs_3_Star": 33,
     "BPs_4_Star": 42
+  },
+  {
+    "Id": 3,
+    "Image": "/images/cars/L/Lotus/emeya.jpg",
+    "Class": "D",
+    "Brand": "Lotus",
+    "Model": "Emeya",
+    "normalizedKey": "lotus_emeya",
+    "Rarity": "Rare",
+    "Stars": 4,
+    "Gold_Max_Rank": 2873,
+    "Epics": 8,
+    "ObtainableVia": "Legend Pass",
+    "Country": "UK",
+    "BPs_1_Star": 15
   }
 ]
