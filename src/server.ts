@@ -22,16 +22,22 @@ app.use(compression());
 
 // --- CORS ---
 const PROD_ORIGIN = (process.env.CLIENT_ORIGIN || "").replace(/\/+$/, "");
-const allowedOrigins = [
+const ORIGINS = [
   "http://localhost:5173",
+  "http://127.0.0.1:5173",
   "http://localhost:3000",
+  "http://127.0.0.1:3000",
   ...(PROD_ORIGIN ? [PROD_ORIGIN] : []),
 ];
 
 const corsOptions: CorsOptions = {
-  origin: allowedOrigins,
-  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  origin(origin, cb) {
+    if (!origin) return cb(null, true);           // allow curl/dev-tools/no-origin
+    if (ORIGINS.includes(origin)) return cb(null, true);
+    return cb(new Error(`CORS blocked: ${origin}`));
+  },
   credentials: true,
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS", "HEAD"],
   allowedHeaders: ["Content-Type", "Authorization"],
   optionsSuccessStatus: 204,
 };
@@ -39,18 +45,21 @@ const corsOptions: CorsOptions = {
 app.use(cors(corsOptions));
 app.options("/api/*", cors(corsOptions));
 
-console.log(
-  "🌐 (data) CORS allowed origins:",
-  allowedOrigins.length ? allowedOrigins.join(", ") : "(none)"
-);
+console.log("🌐 (data) CORS allowed origins:", ORIGINS.join(", "));
 
 // ============================
 //     Health/Debug Endpoints
 // ============================
+
+// NEW: featherweight liveness for wake probes (no DB)
+app.get("/api/health", (_req, res) => {
+  res.status(200).json({ ok: true, service: "cars" });
+});
+
 app.get("/api/health/cors", (req, res) => {
   const origin = req.headers.origin || "(none)";
   res.setHeader("X-Seen-Origin", String(origin));
-  res.json({ ok: true, allowedOrigins, seenOrigin: origin });
+  res.json({ ok: true, allowedOrigins: ORIGINS, seenOrigin: origin });
 });
 
 app.get("/api/health/db", async (_req, res) => {
@@ -97,20 +106,16 @@ app.get("/api/health/runtime", (_req, res) => {
   });
 });
 
-// ✅ Simple liveness
+// ✅ Simple liveness (legacy)
 app.get("/api/test", (_req, res) => {
   res.status(200).json({ status: "alive" });
 });
 
 // ✅ Serve ONLY small UI icons from this repo
-//    (car photos live on the Image Vault)
 const ICONS_DIR = path.join(process.cwd(), "public/images/icons");
 app.use(
   "/images/icons",
-  express.static(ICONS_DIR, {
-    maxAge: "365d",
-    immutable: true,
-  })
+  express.static(ICONS_DIR, { maxAge: "365d", immutable: true })
 );
 
 // ✅ API routes (brands, cars, etc.)
@@ -125,14 +130,10 @@ app.get("*", (req, res) => {
     res.status(404).send("Not found.");
     return;
   }
-
   console.log("Wildcard triggered for frontend page. Path:", req.path);
   const indexPath = path.join(process.cwd(), "../client/dist/index.html");
-  if (fs.existsSync(indexPath)) {
-    res.sendFile(indexPath);
-  } else {
-    res.status(404).send("Frontend not found.");
-  }
+  if (fs.existsSync(indexPath)) res.sendFile(indexPath);
+  else res.status(404).send("Frontend not found.");
 });
 
 // ============================
@@ -142,7 +143,6 @@ const main = async () => {
   try {
     await connectToDb();
     console.log("✅ Database connected successfully.");
-
     const PORT = process.env.PORT || 3001;
     console.log("🔍 Binding to port:", PORT);
     app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
@@ -150,5 +150,4 @@ const main = async () => {
     console.error("❌ Failed to start server:", error);
   }
 };
-
 main().catch((error) => console.error("❌ Unexpected error:", error));
