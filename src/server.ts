@@ -111,11 +111,15 @@ app.get("/api/test", (_req, res) => {
   res.status(200).json({ status: "alive" });
 });
 
-// ✅ Serve ONLY small UI icons from this repo
-const ICONS_DIR = path.join(process.cwd(), "public/images/icons");
+// ✅ Serve ALL image assets from this repo
+const IMAGES_DIR = path.join(process.cwd(), "public/images");
+
 app.use(
-  "/images/icons",
-  express.static(ICONS_DIR, { maxAge: "365d", immutable: true })
+  "/images",
+  express.static(IMAGES_DIR, {
+    maxAge: "365d",
+    immutable: true,
+  })
 );
 
 // ✅ API routes (brands, cars, etc.)
