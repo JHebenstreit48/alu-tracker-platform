@@ -6,12 +6,12 @@
       {
         "brand": "Italdesign",
         "model": "DaVinci",
-        "image": "davinci.jpg"
+        "image": "/images/cars/I/Italdesign/davinci.jpg"
       },
       {
         "brand": "Renault",
         "model": "Trezor",
-        "image": "trezor.jpg"
+        "image": "/images/cars/R/Renault/trezor.jpg"
       }
     ]
   },
@@ -22,12 +22,12 @@
       {
         "brand": "Ford",
         "model": "Shelby GR-1",
-        "image": "shelbygr1.jpg"
+        "image": "/images/cars/F/Ford/shelbygr1.jpg"
       },
       {
         "brand": "Aston Martin",
         "model": "V12 Speedster",
-        "image": "v12speedster.jpg"
+        "image": "/images/cars/A/AstonMartin/v12speedster.jpg"
       }
     ]
   },
@@ -38,12 +38,12 @@
       {
         "brand": "Nio",
         "model": "EP9",
-        "image": "ep9.jpg"
+        "image": "/images/cars/N/Nio/ep9.jpg"
       },
       {
         "brand": "Bolwell",
         "model": "MK X Nagari 500",
-        "image": "mkxnagari500.jpg"
+        "image": "/images/cars/B/Bolwell/mkxnagari500.jpg"
       }
     ]
   },
@@ -54,12 +54,12 @@
       {
         "brand": "Porsche",
         "model": "911 GT1 Evolution",
-        "image": "911gt1evolution.jpg"
+        "image": "/images/cars/P/Porsche/911gt1evolution.jpg"
       },
       {
         "brand": "Bentley",
         "model": "Continental GT Speed",
-        "image": "continentalgtspeed.jpg"
+        "image": "/images/cars/B/Bentley/continentalgtspeed.jpg"
       }
     ]
   },
@@ -70,12 +70,12 @@
       {
         "brand": "Arash",
         "model": "AF10",
-        "image": "af10.jpg"
+        "image": "/images/cars/A/Arash/af10.jpg"
       },
       {
         "brand": "Ferrari",
         "model": "Monza SP1",
-        "image": "monzasp1.jpg"
+        "image": "/images/cars/F/Ferrari/monzasp1.jpg"
       }
     ]
   }

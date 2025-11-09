@@ -6,12 +6,12 @@
       {
         "brand": "Infiniti",
         "model": "Project Black S",
-        "image": "projectblacks.jpg"
+        "image": "/images/cars/I/Infiniti/projectblacks.jpg"
       },
       {
         "brand": "Lamborghini",
         "model": "Countach 25th Anniv.",
-        "image": "countach25thanniversary.jpg"
+        "image": "/images/cars/L/Lamborghini/countach25thanniversary.jpg"
       }
     ]
   },
@@ -22,12 +22,12 @@
       {
         "brand": "Ferrari",
         "model": "Roma",
-        "image": "roma.jpg"
+        "image": "/images/cars/F/Ferrari/roma.jpg"
       },
       {
         "brand": "Lotus",
         "model": "Emira",
-        "image": "emira.jpg"
+        "image": "/images/cars/L/Lotus/emira.jpg"
       }
     ]
   },
@@ -38,12 +38,12 @@
       {
         "brand": "BMW",
         "model": "i8 Roadster",
-        "image": "i8roadster.jpg"
+        "image": "/images/cars/B/BMW/i8roadster.jpg"
       },
       {
         "brand": "Renault",
         "model": "Dezir",
-        "image": "dezir.jpg"
+        "image": "/images/cars/R/Renault/dezir.jpg"
       }
     ]
   },
@@ -54,12 +54,12 @@
       {
         "brand": "Porsche",
         "model": "Taycan Turbo S",
-        "image": "taycanturbos.jpg"
+        "image": "/images/cars/P/Porsche/taycanturbos.jpg"
       },
       {
         "brand": "Saleen",
         "model": "S1",
-        "image": "s1.jpg"
+        "image": "/images/cars/S/Saleen/s1.jpg"
       }
     ]
   },
@@ -70,12 +70,12 @@
       {
         "brand": "Chevrolet",
         "model": "Corvette Stingray",
-        "image": "corvettestingray.jpg"
+        "image": "/images/cars/C/Chevrolet/corvettestingray.jpg"
       },
       {
         "brand": "Drako",
         "model": "GTE",
-        "image": "gte.jpg"
+        "image": "/images/cars/D/Drako/gte.jpg"
       }
     ]
   },
@@ -91,7 +91,7 @@
       {
         "brand": "Lamborghini",
         "model": "Diablo GT",
-        "image": "diablogt.jpg"
+        "image": "/images/cars/L/Lamborghini/diablogt.jpg"
       }
     ]
   }

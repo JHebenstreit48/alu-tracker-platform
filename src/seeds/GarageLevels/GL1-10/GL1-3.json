@@ -6,22 +6,22 @@
       {
         "brand": "BMW",
         "model": "Z4 LCI E89",
-        "image": "z4lcie89.jpg"
+        "image": "/images/cars/B/BMW/z4lcie89.jpg"
       },
       {
         "brand": "Chevrolet",
         "model": "Camaro LT",
-        "image": "camarolt.jpg"
+        "image": "/images/cars/C/Chevrolet/camarolt.jpg"
       },
       {
         "brand": "Mitsubishi",
         "model": "Lancer Evolution",
-        "image": "lancerevolution.jpg"
+        "image": "/images/cars/M/Mitsubishi/lancerevolution.jpg"
       },
       {
         "brand": "Dodge",
         "model": "Challenger SRT8",
-        "image": "challengersrt8.jpg"
+        "image": "/images/cars/D/Dodge/challengersrt8.jpg"
       }
     ]
   },
@@ -32,22 +32,22 @@
       {
         "brand": "BMW",
         "model": "3.0 CSL Hommage",
-        "image": "30cslhommage.jpg"
+        "image": "/images/cars/B/BMW/30cslhommage.jpg"
       },
       {
         "brand": "Chevrolet",
         "model": "Camaro ZL1 50th Ed.",
-        "image": "camarozl150thedition.jpg"
+        "image": "/images/cars/C/Chevrolet/camarozl150thedition.jpg"
       },
       {
         "brand": "Nissan",
         "model": "370Z Nismo",
-        "image": "370znismo.jpg"
+        "image": "/images/cars/N/Nissan/370znismo.jpg"
       },
       {
         "brand": "DS Automobiles",
         "model": "DS E-Tense",
-        "image": "dsetense.jpg"
+        "image": "/images/cars/D/DSAutomobiles/dsetense.jpg"
       }
     ]
   },
@@ -58,22 +58,22 @@
       {
         "brand": "Dodge",
         "model": "Challenger 392 Hemi Scat Pack",
-        "image": "challenger392hemiscatpack.jpg"
+        "image": "/images/cars/D/Dodge/challenger392hemiscatpack.jpg"
       },
       {
         "brand": "Volkswagen",
         "model": "XL Sport Concept",
-        "image": "xlsportconcept.jpg"
+        "image": "/images/cars/V/Volkswagen/xlsportconcept.jpg"
       },
       {
         "brand": "Lotus",
         "model": "Evora Sport 410",
-        "image": "evorasport410.jpg"
+        "image": "/images/cars/L/Lotus/evorasport410.jpg"
       },
       {
         "brand": "Porsche",
         "model": "911 Targa 4S",
-        "image": "911targa4s.jpg"
+        "image": "/images/cars/P/Porsche/911targa4s.jpg"
       }
     ]
   }

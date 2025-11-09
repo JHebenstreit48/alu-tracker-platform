@@ -6,7 +6,7 @@
       {
         "brand": "Lamborghini",
         "model": "Veneno",
-        "image": "veneno.jpg"
+        "image": "/images/cars/L/Lamborghini/veneno.jpg"
       }
     ]
   },
@@ -17,7 +17,7 @@
       {
         "brand": "Lamborghini",
         "model": "Sesto Elemento",
-        "image": "sestoelemento.jpg"
+        "image": "/images/cars/L/Lamborghini/sestoelemento.jpg"
       }
     ]
   },
@@ -28,7 +28,7 @@
       {
         "brand": "Peugeot",
         "model": "Onyx",
-        "image": "onyx.jpg"
+        "image": "/images/cars/P/Peugeot/onyx.jpg"
       }
     ]
   },
@@ -39,7 +39,7 @@
       {
         "brand": "Pagani",
         "model": "Imola",
-        "image": "imola.jpg"
+        "image": "/images/cars/P/Pagani/imola.jpg"
       }
     ]
   },
@@ -50,7 +50,7 @@
       {
         "brand": "Ferrari",
         "model": "SF90 Stradale",
-        "image": "sf90stradale.jpg"
+        "image": "/images/cars/F/Ferrari/sf90stradale.jpg"
       }
     ]
   }

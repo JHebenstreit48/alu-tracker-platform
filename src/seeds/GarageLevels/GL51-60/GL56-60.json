@@ -6,7 +6,7 @@
       {
         "brand": "Rimac",
         "model": "Concept_One",
-        "image": "conceptone.jpg"
+        "image": "/images/cars/R/Rimac/conceptone.jpg"
       }
     ]
   },
@@ -17,7 +17,7 @@
       {
         "brand": "McLaren",
         "model": "Senna",
-        "image": "senna.jpg"
+        "image": "/images/cars/M/McLaren/senna.jpg"
       }
     ]
   },
@@ -28,7 +28,7 @@
       {
         "brand": "Naran",
         "model": "Hyper Coupe",
-        "image": "hypercoupe.jpg"
+        "image": "/images/cars/N/Naran/hypercoupe.jpg"
       }
     ]
   },
@@ -39,7 +39,7 @@
       {
         "brand": "Bugatti",
         "model": "Veyron 16.4 Grand Sport Vitesse",
-        "image": "veyron164grandsportvitesse.jpg"
+        "image": "/images/cars/B/Bugatti/veyron164grandsportvitesse.jpg"
       }
     ]
   },
@@ -50,7 +50,7 @@
       {
         "brand": "Lamborghini",
         "model": "Sián FKP 37",
-        "image": "sianfkp37.jpg"
+        "image": "/images/cars/L/Lamborghini/sianfkp37.jpg"
       }
     ]
   }
