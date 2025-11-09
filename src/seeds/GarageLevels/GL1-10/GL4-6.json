@@ -6,22 +6,22 @@
       {
         "brand": "Mercedes-Benz",
         "model": "AMG GT S",
-        "image": "amggts.jpg"
+        "image": "/images/cars/M/MercedesBenz/amggts.jpg"
       },
       {
         "brand": "Porsche",
         "model": "718 Cayman",
-        "image": "718cayman.jpg"
+        "image": "/images/cars/P/Porsche/718cayman.jpg"
       },
       {
         "brand": "Porsche",
         "model": "911 GTS Coupé",
-        "image": "911gtscoupe.jpg"
+        "image": "/images/cars/P/Porsche/911gtscoupe.jpg"
       },
       {
         "brand": "Ginetta",
         "model": "G60",
-        "image": "g60.jpg"
+        "image": "/images/cars/G/Ginetta/g60.jpg"
       }
     ]
   },
@@ -32,22 +32,22 @@
       {
         "brand": "Jaguar",
         "model": "F-Type SVR",
-        "image": "ftypesvr.jpg"
+        "image": "/images/cars/J/Jaguar/ftypesvr.jpg"
       },
       {
         "brand": "Aston Martin",
         "model": "DB11",
-        "image": "db11.jpg"
+        "image": "/images/cars/A/AstonMartin/db11.jpg"
       },
       {
         "brand": "Lotus",
         "model": "Elise Sprint 220",
-        "image": "elisesprint220.jpg"
+        "image": "/images/cars/L/Lotus/elisesprint220.jpg"
       },
       {
         "brand": "TVR",
         "model": "Griffith",
-        "image": "griffith.jpg"
+        "image": "/images/cars/T/TVR/griffith.jpg"
       }
     ]
   },
@@ -58,22 +58,22 @@
       {
         "brand": "BMW",
         "model": "M4 GTS",
-        "image": "m4gts.jpg"
+        "image": "/images/cars/B/BMW/m4gts.jpg"
       },
       {
         "brand": "Exotic Rides",
         "model": "W70",
-        "image": "w70.jpg"
+        "image": "/images/cars/E/ExoticRides/w70.jpg"
       },
       {
         "brand": "Ford",
         "model": "Shelby GT350R",
-        "image": "shelbygt350r.jpg"
+        "image": "/images/cars/F/Ford/shelbygt350r.jpg"
       },
       {
         "brand": "Mazda",
         "model": "Furai",
-        "image": "furai.jpg"
+        "image": "/images/cars/M/Mazda/furai.jpg"
       }
     ]
   }

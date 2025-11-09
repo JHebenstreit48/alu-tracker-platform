@@ -6,17 +6,17 @@
       {
         "brand": "Lamborghini",
         "model": "Centenario",
-        "image": "centenario.jpg"
+        "image": "/images/cars/L/Lamborghini/centenario.jpg"
       },
       {
         "brand": "Maserati",
         "model": "Alfieri",
-        "image": "alfieri.jpg"
+        "image": "/images/cars/M/Maserati/alfieri.jpg"
       },
       {
         "brand": "Vencer",
         "model": "Sarthe",
-        "image": "sarthe.jpg"
+        "image": "/images/cars/V/Vencer/sarthe.jpg"
       }
     ]
   },
@@ -27,17 +27,17 @@
       {
         "brand": "Ferrari",
         "model": "FXX K",
-        "image": "fxxk.jpg"
+        "image": "/images/cars/F/Ferrari/fxxk.jpg"
       },
       {
         "brand": "Lamborghini",
         "model": "Aventador SV Coupe",
-        "image": "aventadorsvcoupe.jpg"
+        "image": "/images/cars/L/Lamborghini/aventadorsvcoupe.jpg"
       },
       {
         "brand": "McLaren",
         "model": "P1",
-        "image": "p1.jpg"
+        "image": "/images/cars/M/McLaren/p1.jpg"
       }
     ]
   },
@@ -48,17 +48,17 @@
       {
         "brand": "Chevrolet",
         "model": "Corvette Grand Sport",
-        "image": "corvettegrandsport.jpg"
+        "image": "/images/cars/C/Chevrolet/corvettegrandsport.jpg"
       },
       {
         "brand": "Ferrari",
         "model": "F12tdf",
-        "image": "f12tdf.jpg"
+        "image": "/images/cars/F/Ferrari/f12tdf.jpg"
       },
       {
         "brand": "Icona",
         "model": "Vulcano Titanium",
-        "image": "vulcanotitanium.jpg"
+        "image": "/images/cars/I/Icona/vulcanotitanium.jpg"
       }
     ]
   },
@@ -69,17 +69,17 @@
       {
         "brand": "Porsche",
         "model": "918 Spyder",
-        "image": "918spyder.jpg"
+        "image": "/images/cars/P/Porsche/918spyder.jpg"
       },
       {
         "brand": "Apollo",
         "model": "N",
-        "image": "n.jpg"
+        "image": "/images/cars/A/Apollo/n.jpg"
       },
       {
         "brand": "Arrinera",
         "model": "Hussarya 33",
-        "image": "hussarya33.jpg"
+        "image": "/images/cars/A/Arrinera/hussarya33.jpg"
       }
     ]
   }

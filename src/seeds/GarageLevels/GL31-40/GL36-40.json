@@ -6,7 +6,7 @@
       {
         "brand": "Lamborghini",
         "model": "Terzo Millennio",
-        "image": "terzomillennio.jpg"
+        "image": "/images/cars/L/Lamborghini/terzomillennio.jpg"
       }
     ]
   },
@@ -17,7 +17,7 @@
       {
         "brand": "Vision",
         "model": "1789",
-        "image": "1789.jpg"
+        "image": "/images/cars/V/Vision/1789.jpg"
       }
     ]
   },
@@ -28,7 +28,7 @@
       {
         "brand": "Aston Martin",
         "model": "Valhalla Concept Car",
-        "image": "valhallaconceptcar.jpg"
+        "image": "/images/cars/A/AstonMartin/valhallaconceptcar.jpg"
       }
     ]
   },
@@ -39,7 +39,7 @@
       {
         "brand": "Automobili Pininfarina",
         "model": "Battista",
-        "image": "battista.jpg"
+        "image": "/images/cars/A/AutomobiliPininfarina/battista.jpg"
       }
     ]
   },
@@ -50,7 +50,7 @@
       {
         "brand": "Aston Martin",
         "model": "Valkyrie",
-        "image": "valkyrie.jpg"
+        "image": "/images/cars/A/AstonMartin/valkyrie.jpg"
       }
     ]
   }

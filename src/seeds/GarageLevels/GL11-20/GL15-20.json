@@ -6,12 +6,12 @@
       {
         "brand": "Lamborghini",
         "model": "Aventador J",
-        "image": "aventadorj.jpg"
+        "image": "/images/cars/L/Lamborghini/aventadorj.jpg"
       },
       {
         "brand": "Aston Martin",
         "model": "Vantage GT12",
-        "image": "vantagegt12.jpg"
+        "image": "/images/cars/A/AstonMartin/vantagegt12.jpg"
       }
     ]
   },
@@ -22,12 +22,12 @@
       {
         "brand": "W Motors",
         "model": "Lykan Hypersport",
-        "image": "lykanhypersport.jpg"
+        "image": "/images/cars/W/WMotors/lykanhypersport.jpg"
       },
       {
         "brand": "Aston Martin",
         "model": "DBS Superleggera",
-        "image": "dbssuperleggera.jpg"
+        "image": "/images/cars/A/AstonMartin/dbssuperleggera.jpg"
       }
     ]
   },
@@ -38,12 +38,12 @@
       {
         "brand": "McLaren",
         "model": "570S Spider",
-        "image": "570sspider.jpg"
+        "image": "/images/cars/M/McLaren/570sspider.jpg"
       },
       {
         "brand": "Vanda Electrics",
         "model": "Dendrobium",
-        "image": "dendrobium.jpg"
+        "image": "/images/cars/V/VandaElectrics/dendrobium.jpg"
       }
     ]
   },
@@ -54,12 +54,12 @@
       {
         "brand": "Koenigsegg",
         "model": "Regera",
-        "image": "regera.jpg"
+        "image": "/images/cars/K/Koenigsegg/regera.jpg"
       },
       {
         "brand": "Lamborghini",
         "model": "Huracan Evo Spyder",
-        "image": "huracanevospyder.jpg"
+        "image": "/images/cars/L/Lamborghini/huracanevospyder.jpg"
       }
     ]
   },
@@ -70,12 +70,12 @@
       {
         "brand": "Pagani",
         "model": "Huayra BC",
-        "image": "huayrabc.jpg"
+        "image": "/images/cars/P/Pagani/huayrabc.jpg"
       },
       {
         "brand": "Ferrari",
         "model": "LaFerrari Aperta",
-        "image": "laferrariaperta.jpg"
+        "image": "/images/cars/F/Ferrari/laferrariaperta.jpg"
       }
     ]
   },
@@ -86,12 +86,12 @@
       {
         "brand": "Bugatti",
         "model": "Chiron",
-        "image": "chiron.jpg"
+        "image": "/images/cars/B/Bugatti/chiron.jpg"
       },
       {
         "brand": "Genty",
         "model": "Akylone",
-        "image": "akylone.jpg"
+        "image": "/images/cars/G/Genty/akylone.jpg"
       }
     ]
   }

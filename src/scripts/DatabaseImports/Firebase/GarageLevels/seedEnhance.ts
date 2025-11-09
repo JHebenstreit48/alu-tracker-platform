@@ -1,11 +1,24 @@
 import path from "path";
 import { LevelSeed, LevelDoc, CarSeed } from "./seedTypes";
-import { PUBLIC_DIR } from "./seedConfig";
 
-// Same logic as your Mongo script's buildImagePath
+const sanitize = (s: string): string =>
+  s
+    .replace(/[\s']/g, "")
+    .replace(/&/g, "and")
+    .replace(/[^A-Za-z0-9_-]/g, "");
+
 function buildImagePath(brand: string, filename: string): string {
-  const brandInitial = brand.charAt(0).toUpperCase();
-  return `/images/cars/${brandInitial}/${brand}/${filename}`;
+  if (!filename) return "";
+
+  // If it's already a full images path, trust it (covers your manual edits)
+  if (filename.startsWith("/images/")) {
+    return filename;
+  }
+
+  const letter = brand?.[0]?.toUpperCase() ?? "_";
+  const folder = sanitize(brand);
+  const file = filename.split("/").pop() || "";
+  return `/images/cars/${letter}/${folder}/${file}`;
 }
 
 export function enhanceLevels(levels: LevelSeed[]): LevelDoc[] {
@@ -20,5 +33,4 @@ export function enhanceLevels(levels: LevelSeed[]): LevelDoc[] {
   }));
 }
 
-// Tiny helper for prettier log output if desired
 export const rel = (p: string): string => path.relative(process.cwd(), p);

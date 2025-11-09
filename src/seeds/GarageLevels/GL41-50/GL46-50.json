@@ -6,12 +6,12 @@
       {
         "brand": "Apollo",
         "model": "IE",
-        "image": "ie.jpg"
+        "image": "/images/cars/A/Apollo/ie.jpg"
       },
       {
         "brand": "McLaren",
         "model": "GT",
-        "image": "gt.jpg"
+        "image": "/images/cars/M/McLaren/gt.jpg"
       }
     ]
   },
@@ -22,12 +22,12 @@
       {
         "brand": "Bentley",
         "model": "Mulliner Bacalar",
-        "image": "mullinerbacalar.jpg"
+        "image": "/images/cars/B/Bentley/mullinerbacalar.jpg"
       },
       {
         "brand": "Puritalia",
         "model": "Berlinetta",
-        "image": "berlinetta.jpg"
+        "image": "/images/cars/P/Puritalia/berlinetta.jpg"
       }
     ]
   },
@@ -38,12 +38,12 @@
       {
         "brand": "Lamborghini",
         "model": "Gallardo LP 560-4 Coupé",
-        "image": "gallardolp5604.jpg"
+        "image": "/images/cars/L/Lamborghini/gallardolp5604.jpg"
       },
       {
         "brand": "Ferrari",
         "model": "Enzo",
-        "image": "enzoferrari.jpg"
+        "image": "/images/cars/F/Ferrari/enzoferrari.jpg"
       }
     ]
   },
@@ -54,12 +54,12 @@
       {
         "brand": "Lotus",
         "model": "Evija",
-        "image": "evija.jpg"
+        "image": "/images/cars/L/Lotus/evija.jpg"
       },
       {
         "brand": "McLaren",
         "model": "765LT",
-        "image": "765lt.jpg"
+        "image": "/images/cars/M/McLaren/765lt.jpg"
       }
     ]
   },
@@ -70,12 +70,12 @@
       {
         "brand": "Porsche",
         "model": "Carrera GT",
-        "image": "carreragt.jpg"
+        "image": "/images/cars/P/Porsche/carreragt.jpg"
       },
       {
         "brand": "Jaguar",
         "model": "C-X75",
-        "image": "cx75.jpg"
+        "image": "/images/cars/J/Jaguar/cx75.jpg"
       }
     ]
   }
