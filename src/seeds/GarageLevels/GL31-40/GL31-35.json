@@ -1,0 +1,57 @@
+[
+  {
+    "GarageLevelKey": 31,
+    "xp": 1600000,
+    "cars": [
+      {
+        "brand": "Lamborghini",
+        "model": "Aventador SVJ Roadster",
+        "image": "aventadorsvjroadster.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 32,
+    "xp": 1800000,
+    "cars": [
+      {
+        "brand": "McLaren",
+        "model": "Speedtail",
+        "image": "speedtail.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 33,
+    "xp": 2000000,
+    "cars": [
+      {
+        "brand": "Citroën",
+        "model": "GT by Citroën",
+        "image": "gtbycitroen.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 34,
+    "xp": 2300000,
+    "cars": [
+      {
+        "brand": "Aston Martin",
+        "model": "Victor",
+        "image": "victor.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 35,
+    "xp": 2600000,
+    "cars": [
+      {
+        "brand": "Ferrari",
+        "model": "F8 Tributo",
+        "image": "f8tributo.jpg"
+      }
+    ]
+  }
+]

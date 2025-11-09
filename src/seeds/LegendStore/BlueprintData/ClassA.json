@@ -1,0 +1,209 @@
+[
+  {
+    "Class": "A",
+    "Brand": "Nissan",
+    "Model": "GT-R Nismo",
+    "GarageLevel": 8,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [57000, 86000, 115000, 144000, 173000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Aston Martin",
+    "Model": "Vulcan",
+    "GarageLevel": 7,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [57000, 86000, 115000, 144000, 173000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Dodge",
+    "Model": "Viper GTS",
+    "GarageLevel": 9,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [57000, 86000, 115000, 144000, 173000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Ferrari",
+    "Model": "J50",
+    "GarageLevel": 9,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [57000, 86000, 115000, 144000, 173000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Nio",
+    "Model": "EP9",
+    "GarageLevel": 43,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [57000, 86000, 115000, 144000, 173000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Bentley",
+    "Model": "Continental GT Speed",
+    "GarageLevel": 44,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [57000, 86000, 115000, 144000, 173000]
+  },
+  {
+    "Class": "A",
+    "Brand": "McLaren",
+    "Model": "P1",
+    "GarageLevel": 12,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [144000, 216000, 288000, 360000, 432000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Lamborghini",
+    "Model": "Aventador SV Coupe",
+    "GarageLevel": 12,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [144000, 216000, 288000, 360000, 432000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Ferrari",
+    "Model": "LaFerrari",
+    "GarageLevel": 10,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [144000, 216000, 288000, 360000, 432000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Lamborghini",
+    "Model": "Aventador J",
+    "GarageLevel": 15,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [144000, 216000, 288000, 360000, 432000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Ferrari",
+    "Model": "812 Superfast",
+    "GarageLevel": 28,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [144000, 216000, 288000, 360000, 432000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Porsche",
+    "Model": "918 Spyder",
+    "GarageLevel": 14,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [144000, 216000, 288000, 360000, 432000]
+  },
+  {
+    "Class": "A",
+    "Brand": "McLaren",
+    "Model": "Senna GTR",
+    "GarageLevel": 29,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [144000, 216000, 288000, 360000, 432000]
+  },
+  {
+    "Class": "A",
+    "Brand": "McLaren",
+    "Model": "570S Spider",
+    "GarageLevel": 17,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [228000, 338000, 448000, 558000, 668000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Pagani",
+    "Model": "Huayra BC",
+    "GarageLevel": 19,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [228000, 338000, 448000, 558000, 668000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Vanda Electrics",
+    "Model": "Dendrobium",
+    "GarageLevel": 17,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [228000, 338000, 448000, 558000, 668000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Ferrari",
+    "Model": "LaFerrari Aperta",
+    "GarageLevel": 19,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [228000, 338000, 448000, 558000, 668000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Genty",
+    "Model": "Akylone",
+    "GarageLevel": 20,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [228000, 338000, 448000, 558000, 668000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Lamborghini",
+    "Model": "Aventador SVJ Roadster",
+    "GarageLevel": 31,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [228000, 338000, 448000, 558000, 668000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Citroën",
+    "Model": "GT by Citroën",
+    "GarageLevel": 33,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [228000, 338000, 448000, 558000, 668000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Aston Martin",
+    "Model": "Victor",
+    "GarageLevel": 34,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [228000, 338000, 448000, 558000, 668000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Ferrari",
+    "Model": "F8 Tributo",
+    "GarageLevel": 35,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [228000, 338000, 448000, 558000, 668000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Aston Martin",
+    "Model": "Valhalla Concept Car",
+    "GarageLevel": 38,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [228000, 338000, 448000, 558000, 668000]
+  }
+]

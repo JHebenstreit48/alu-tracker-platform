@@ -58,9 +58,13 @@ try {
     if (isJson(f)) {
       const base = f.split(/[\\/]/).pop()!.toLowerCase();
       if (/^class[a-z]\.json$/.test(base)) {
-        if (!collectorSet.has(key) || includeClassJson) files.push(f);
+        if (!collectorSet.has(key) || includeClassJson) {
+          files.push(f);
+        }
       } else {
-        if (!collectorSet.has(key) || includePerCarJson) files.push(f);
+        if (!collectorSet.has(key) || includePerCarJson) {
+          files.push(f);
+        }
       }
     }
   }

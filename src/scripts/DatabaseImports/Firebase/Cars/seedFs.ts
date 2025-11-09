@@ -12,22 +12,32 @@ export function* walk(dir: string): Generator<string> {
 }
 
 export const isJson = (f: string): boolean => /\.json$/i.test(f);
-export const isTsCollector = (f: string): boolean => /[/\\]Class[A-Z]\.ts$/i.test(f);
+export const isTsCollector = (f: string): boolean =>
+  /[/\\]Class[A-Z]\.ts$/i.test(f);
 
-export function parseBrandAndClass(file: string): { brand?: string; klass?: string } {
+export function parseBrandAndClass(
+  file: string
+): { brand?: string; klass?: string } {
   const parts = file.split(path.sep);
-  const i = parts.lastIndexOf("Brands");
+  const i = parts.lastIndexOf("Cars");
   if (i < 0) return {};
+
+  // Structure:
+  // src/seeds/Cars/<Letter>/<Brand>/.../file
   const brand = parts[i + 2];
   let klass: string | undefined;
 
   const base = path.basename(file).toLowerCase();
   const m = base.match(/^class([a-z])\./i);
-  if (m) klass = m[1].toUpperCase();
-  else {
+  if (m) {
+    klass = m[1].toUpperCase();
+  } else {
     const folder = parts[i + 3];
-    if (folder && /^[A-D|S]$/i.test(folder)) klass = folder.toUpperCase();
+    if (folder && /^[A-D|S]$/i.test(folder)) {
+      klass = folder.toUpperCase();
+    }
   }
+
   return { brand, klass };
 }
 

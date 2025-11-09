@@ -1,0 +1,21 @@
+{
+    "brand": "Faraday Future",
+    "slug": "faraday-future",
+    "description": "Faraday Future is an American start-up technology company focused on the development of intelligent electric vehicles. Faraday Future was established in April 2014 and is headquartered in Los Angeles, California, in the Harbor Gateway neighborhood. The company aims to redefine mobility through intelligent, electric transportation solutions.",
+    "logo": "/Images/Logos/F/FaradayFuture/faraday-future-logo.png",
+    "country": ["United States"],
+    "established": 2014,
+    "headquarters": "Los Angeles, California, USA",
+    "primaryMarket": "Global",
+    "location": {
+      "lat": 33.8571,
+      "lng": -118.2915
+    },
+    "resources": [
+      {
+        "text": "Wikipedia - Faraday Future",
+        "url": "https://en.wikipedia.org/wiki/Faraday_Future"
+      }
+    ]
+  }
+  

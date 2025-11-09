@@ -1,0 +1,21 @@
+{
+    "brand": "Deus Automobiles",
+    "slug": "deus-automobiles",
+    "description": "Deus Automobiles is an Austrian car manufacturer specializing in the creation of high-performance electric hypercars. Founded by Benjamin Freudenthal, the company is based in Vienna, Austria. Deus focuses on blending avant-garde design with cutting-edge electric vehicle technology, exemplified by their flagship project, the Deus Vayanne.",
+    "logo": "/Images/Logos/D/Deus/deus-logo.png",
+    "country": ["Austria"],
+    "established": 2020,
+    "headquarters": "Vienna, Austria",
+    "primaryMarket": "Global",
+    "location": {
+      "lat": 48.2082,
+      "lng": 16.3738
+    },
+    "resources": [
+      {
+        "text": "Wikipedia - Deus Automobiles",
+        "url": "https://en.wikipedia.org/wiki/Deus_Automobiles"
+      }
+    ]
+  }
+  

@@ -1,0 +1,21 @@
+{
+    "brand": "Icona",
+    "slug": "icona",
+    "description": "The Icona Group is a worldwide collective comprising designers, modelers, engineers, project managers, and support staff. With our extensive expertise and consolidated knowledge, we adeptly handle the creation of complex and varied products. Our teams operate seamlessly, fostering tight collaboration both internally and with clients, offering them our visions from each major global market. Embracing the motto ‘We are Glocal,’ we provide global insights while remaining attuned to the distinct localized needs of users in the regions our clients aim to reach. In 2010, the company was founded with a clear mission: to bring top-notch Italian-made transportation and product design to the world. ",
+    "logo": "/Images/Logos/I/Icona/icona-logo.png",
+    "country": ["Italy", "China"],
+    "established": 2010,
+    "headquarters": "Turin, Italy / Shanghai, China",
+    "primaryMarket": "Global",
+    "location": {
+      "lat": 45.0703,
+      "lng": 7.6869
+    },
+    "resources": [
+      {
+        "text": "Icona Design Group - Company",
+        "url": "https://icona-designgroup.com/company/"
+      }
+    ]
+  }
+  

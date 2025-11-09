@@ -1,0 +1,80 @@
+[
+  {
+    "GarageLevelKey": 4,
+    "xp": 20000,
+    "cars": [
+      {
+        "brand": "Mercedes-Benz",
+        "model": "AMG GT S",
+        "image": "amggts.jpg"
+      },
+      {
+        "brand": "Porsche",
+        "model": "718 Cayman",
+        "image": "718cayman.jpg"
+      },
+      {
+        "brand": "Porsche",
+        "model": "911 GTS Coupé",
+        "image": "911gtscoupe.jpg"
+      },
+      {
+        "brand": "Ginetta",
+        "model": "G60",
+        "image": "g60.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 5,
+    "xp": 40000,
+    "cars": [
+      {
+        "brand": "Jaguar",
+        "model": "F-Type SVR",
+        "image": "ftypesvr.jpg"
+      },
+      {
+        "brand": "Aston Martin",
+        "model": "DB11",
+        "image": "db11.jpg"
+      },
+      {
+        "brand": "Lotus",
+        "model": "Elise Sprint 220",
+        "image": "elisesprint220.jpg"
+      },
+      {
+        "brand": "TVR",
+        "model": "Griffith",
+        "image": "griffith.jpg"
+      }
+    ]
+  },
+  {
+    "GarageLevelKey": 6,
+    "xp": 80000,
+    "cars": [
+      {
+        "brand": "BMW",
+        "model": "M4 GTS",
+        "image": "m4gts.jpg"
+      },
+      {
+        "brand": "Exotic Rides",
+        "model": "W70",
+        "image": "w70.jpg"
+      },
+      {
+        "brand": "Ford",
+        "model": "Shelby GT350R",
+        "image": "shelbygt350r.jpg"
+      },
+      {
+        "brand": "Mazda",
+        "model": "Furai",
+        "image": "furai.jpg"
+      }
+    ]
+  }
+]

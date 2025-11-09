@@ -1,0 +1,21 @@
+{
+    "brand": "Dodge",
+    "slug": "dodge",
+    "description": "Dodge is an American brand of automobile manufactured by FCA US LLC, based in Auburn Hills, Michigan. Dodge vehicles currently include performance cars, though for much of its existence Dodge was Chrysler's mid-priced brand above Plymouth.",
+    "logo": "/Images/Logos/D/Dodge/dodge-logo.png",
+    "country": ["United States"],
+    "established": 1900,
+    "headquarters": "Auburn Hills, Michigan, USA",
+    "primaryMarket": "United States",
+    "location": {
+      "lat": 42.6875,
+      "lng": -83.2341
+    },
+    "resources": [
+      {
+        "text": "Wikipedia - Dodge",
+        "url": "https://en.wikipedia.org/wiki/Dodge"
+      }
+    ]
+  }
+  

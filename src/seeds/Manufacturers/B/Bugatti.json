@@ -1,0 +1,21 @@
+{
+    "brand": "Bugatti",
+    "slug": "bugatti",
+    "description": "Automobiles Ettore Bugatti was a French manufacturer of high-performance automobiles, founded in 1909 by the Italian-born industrial designer Ettore Bugatti. Based in Molsheim, Alsace, France, Bugatti became legendary for its advanced engineering and artistic designs, creating some of the fastest and most luxurious cars of its time.",
+    "logo": "/Images/Logos/B/Bugatti/bugatti-logo.png",
+    "country": ["France"],
+    "established": 1909,
+    "headquarters": "Molsheim, Alsace, France",
+    "primaryMarket": "Global",
+    "location": {
+      "lat": 48.5386,
+      "lng": 7.4926
+    },
+    "resources": [
+      {
+        "text": "Wikipedia - Bugatti",
+        "url": "https://en.wikipedia.org/wiki/Bugatti"
+      }
+    ]
+  }
+  

@@ -12,6 +12,7 @@
   "seed:firebase": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importCarsFirebase.ts",
   "seed:firebase:cars": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importCarsFirebase.ts",
   "seed:firebase:images": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importCarImages.ts",
+  "seed:firebase:brands": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importBrandsFirebase.ts",
 
   "ping:firebase": "ts-node -r tsconfig-paths/register src/scripts/pingFirestore.ts",
   "seed:diagnose": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/diagnoseCarSet.ts",

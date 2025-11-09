@@ -1,0 +1,21 @@
+{
+    "brand": "Alfa Romeo",
+    "slug": "alfa-romeo",
+    "description": "Alfa Romeo's origins date back to June 24, 1910. It was the result of a takeover of the Italian Darracq automobile company. The 'Alfa' portion of the name is an acronym for Anonima Lombarda Fabbrica Automobili (A.L.F.A).",
+    "logo": "/Images/Logos/A/alfa-romeo.png",
+    "country": ["Italy"],
+    "established": 1910,
+    "headquarters": "Turin, Italy",
+    "primaryMarket": "Global",
+    "location": {
+      "lat": 45.0703,
+      "lng": 7.6869
+    },
+    "resources": [
+      {
+        "text": "Wikipedia - Alfa Romeo",
+        "url": "https://en.wikipedia.org/wiki/Alfa_Romeo"
+      }
+    ]
+  }
+  

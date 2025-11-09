@@ -1,0 +1,21 @@
+{
+    "brand": "Chevrolet",
+    "slug": "chevrolet",
+    "description": "Chevrolet, colloquially referred to as Chevy and formally the Chevrolet Division of General Motors Company, is an American automobile division of the American manufacturer General Motors. Louis Chevrolet and ousted General Motors founder William C. Durant started the company on November 3, 1911 as the Chevrolet Motor Car Company.",
+    "logo": "/Images/Logos/C/Chevrolet/chevrolet-logo.png",
+    "country": ["United States"],
+    "established": 1911,
+    "headquarters": "Detroit, Michigan, USA",
+    "primaryMarket": "United States",
+    "location": {
+      "lat": 42.3314,
+      "lng": -83.0458
+    },
+    "resources": [
+      {
+        "text": "Wikipedia - Chevrolet",
+        "url": "https://en.wikipedia.org/wiki/Chevrolet"
+      }
+    ]
+  }
+  

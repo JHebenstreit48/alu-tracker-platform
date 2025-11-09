@@ -1,0 +1,21 @@
+{
+    "brand": "Citroën",
+    "slug": "citroen",
+    "description": "Citroën is a French automobile manufacturer founded in 1919 by the French industrialist André-Gustave Citroën, and part of the PSA Peugeot Citroën group since 1976.",
+    "logo": "/Images/Logos/C/Citroen/citroen-logo.png",
+    "country": ["France"],
+    "established": 1919,
+    "headquarters": "Saint-Ouen-sur-Seine, France",
+    "primaryMarket": "Europe",
+    "location": {
+      "lat": 48.9126,
+      "lng": 2.3335
+    },
+    "resources": [
+      {
+        "text": "Wikipedia - Citroën",
+        "url": "https://en.wikipedia.org/wiki/Citroën"
+      }
+    ]
+  }
+  

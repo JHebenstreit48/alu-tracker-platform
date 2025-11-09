@@ -46,7 +46,7 @@ export async function buildBuckets(files: string[]): Promise<BuildResult> {
         }
 
         const bucket =
-          brandBuckets.get(Brand) || {
+          brandBuckets.get(Brand) ?? {
             docs: [],
             statuses: [],
             keys: new Set<string>(),
@@ -108,7 +108,7 @@ export async function applyBuckets(
   for (const [brand, bucket] of brandBuckets.entries()) {
     const newKeys = bucket.keys;
 
-    // ----- prune stale cars for this brand -----
+    // prune stale cars for this brand
     const existingSnap = await adminDb
       .collection("cars")
       .where("Brand", "==", brand)
@@ -130,7 +130,7 @@ export async function applyBuckets(
       console.log(`🧹 ${brand}: pruned ${deleteCount} stale row(s).`);
     }
 
-    // ----- upsert cars -----
+    // upsert cars
     let batch = adminDb.batch();
     let batchCount = 0;
 
@@ -138,7 +138,7 @@ export async function applyBuckets(
       const ref = adminDb.collection("cars").doc(doc.normalizedKey);
       const imagePath =
         typeof doc.Image === "string" ? doc.Image : undefined;
-      const resolvedImage = await resolveImagePath(imagePath);
+      const resolvedImage = resolveImagePath(imagePath);
 
       const toWrite: CarDoc = {
         ...doc,
@@ -161,7 +161,7 @@ export async function applyBuckets(
       carOps += batchCount;
     }
 
-    // ----- upsert statuses with updatedAt -----
+    // upsert statuses with updatedAt
     if (bucket.statuses.length) {
       let sBatch = adminDb.batch();
       let sCount = 0;

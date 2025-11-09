@@ -1,0 +1,21 @@
+{
+    "brand": "De Tomaso Automobili",
+    "slug": "de-tomaso-automobili",
+    "description": "De Tomaso Automobili was an Italian car-manufacturing company founded by the Argentine-born Alejandro de Tomaso in Modena, Italy, in 1959. The company originally produced prototypes and racing cars, including a Formula One car for Frank Williams's team in 1970. De Tomaso became famous for its sports cars, blending Italian design with American V8 power.",
+    "logo": "/Images/Logos/D/DeTomaso/de-tomaso-logo.png",
+    "country": ["Italy"],
+    "established": 1959,
+    "headquarters": "Modena, Italy",
+    "primaryMarket": "Global",
+    "location": {
+      "lat": 44.6471,
+      "lng": 10.9252
+    },
+    "resources": [
+      {
+        "text": "Wikipedia - De Tomaso",
+        "url": "https://en.wikipedia.org/wiki/De_Tomaso"
+      }
+    ]
+  }
+  

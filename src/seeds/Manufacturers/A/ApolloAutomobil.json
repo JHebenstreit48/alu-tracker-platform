@@ -1,0 +1,21 @@
+{
+    "brand": "Apollo Automobil",
+    "slug": "apollo-automobil",
+    "description": "Apollo Automobil GmbH is a German hypercar manufacturer founded in 2004 by Roland Gumpert under the original name GMG Sportwagenmanufaktur Altenburg GmbH. The company was previously known as Gumpert Sportwagenmanufaktur before being rebranded to Apollo Automobil. Apollo focuses on extreme performance hypercars such as the Apollo IE and Apollo Intensa Emozione.",
+    "logo": "/images/logos/A/apollo-automobil.png",
+    "country": ["Germany"],
+    "established": 2004,
+    "headquarters": "Denkendorf, Germany",
+    "primaryMarket": "Global",
+    "location": {
+      "lat": 48.7025,
+      "lng": 9.3407
+    },
+    "resources": [
+      {
+        "text": "Wikipedia - Apollo Automobil",
+        "url": "https://en.wikipedia.org/wiki/Apollo_Automobil"
+      }
+    ]
+  }
+  
