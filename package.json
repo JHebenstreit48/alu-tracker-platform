@@ -13,6 +13,7 @@
     "seed:firebase:images": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importCarImages.ts",
     "seed:firebase:brands": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importBrandsFirebase.ts",
     "seed:firebase:garage-levels": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importGarageLevelsFirebase.ts",
+    "seed:firebase:legend-store": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importLegendStoreFirebase.ts",
 
     "ping:firebase": "ts-node -r tsconfig-paths/register src/scripts/pingFirestore.ts",
     "seed:diagnose": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/diagnoseCarSet.ts",
