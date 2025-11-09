@@ -5,18 +5,20 @@ import {
   isJson,
   isTsCollector,
   parseBrandAndClass,
-} from "@/scripts/DatabaseImports/Firebase/seedFs";
-import { logConfig } from "@/scripts/DatabaseImports/Firebase/seedConfig";
-import { buildBuckets, applyBuckets } from "@/scripts/DatabaseImports/Firebase/seedBuckets";
+} from "@/scripts/DatabaseImports/Firebase/Cars/seedFs";
+import { logConfig } from "@/scripts/DatabaseImports/Firebase/Cars/seedConfig";
+import {
+  buildBuckets,
+  applyBuckets,
+} from "@/scripts/DatabaseImports/Firebase/Cars/seedBuckets";
 
-// Enable TS + path aliases for ClassA.ts-style collectors (mirror Mongo script)
 try {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
   require("ts-node/register/transpile-only");
   // eslint-disable-next-line @typescript-eslint/no-var-requires
   require("tsconfig-paths/register");
 } catch (e) {
-  console.warn("⚠️ ts-node/tsconfig-paths not loaded. TS collectors may fail.", e);
+  console.warn("⚠️ ts-node/tsconfig-paths not loaded.", e);
 }
 
 (async function main(): Promise<void> {
@@ -25,7 +27,6 @@ try {
 
   const allFiles = getAllSeedFiles();
 
-  // Detect collectors (for de-dupe behavior)
   const collectorSet = new Set<string>();
   for (const f of allFiles.filter(isTsCollector)) {
     const { brand, klass } = parseBrandAndClass(f);

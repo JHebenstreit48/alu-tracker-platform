@@ -1,4 +1,5 @@
 import { adminDb } from "@/Firebase/firebaseAdmin";
+import { FieldValue } from "firebase-admin/firestore";
 import {
   CarDoc,
   SeedCar,
@@ -7,7 +8,7 @@ import {
   cleanStatus,
 } from "./seedTypes";
 import { loadCarsFromFile } from "./seedLoadCars";
-import { resolveImagePath } from "./seedImages";
+import { resolveImagePath } from "@/scripts/DatabaseImports/Firebase/Images/seedImages";
 
 type BrandBucket = {
   docs: CarDoc[];
@@ -88,7 +89,9 @@ export async function buildBuckets(files: string[]): Promise<BuildResult> {
       }
     } catch (e) {
       console.warn(
-        `⚠️ Failed ${file}: ${e instanceof Error ? e.message : String(e)}`
+        `⚠️ Failed ${file}: ${
+          e instanceof Error ? e.message : String(e)
+        }`
       );
     }
   }
@@ -105,7 +108,7 @@ export async function applyBuckets(
   for (const [brand, bucket] of brandBuckets.entries()) {
     const newKeys = bucket.keys;
 
-    // prune stale docs for this brand
+    // ----- prune stale cars for this brand -----
     const existingSnap = await adminDb
       .collection("cars")
       .where("Brand", "==", brand)
@@ -114,10 +117,10 @@ export async function applyBuckets(
     const deleteBatch = adminDb.batch();
     let deleteCount = 0;
 
-    existingSnap.forEach((doc) => {
-      const nk = doc.get("normalizedKey") as string | undefined;
+    existingSnap.forEach((docSnap) => {
+      const nk = docSnap.get("normalizedKey") as string | undefined;
       if (!nk || !newKeys.has(nk)) {
-        deleteBatch.delete(doc.ref);
+        deleteBatch.delete(docSnap.ref);
         deleteCount++;
       }
     });
@@ -127,14 +130,14 @@ export async function applyBuckets(
       console.log(`🧹 ${brand}: pruned ${deleteCount} stale row(s).`);
     }
 
-    // upsert cars
+    // ----- upsert cars -----
     let batch = adminDb.batch();
     let batchCount = 0;
 
     for (const doc of bucket.docs) {
       const ref = adminDb.collection("cars").doc(doc.normalizedKey);
       const imagePath =
-        typeof doc.Image === "string" ? (doc.Image as string) : undefined;
+        typeof doc.Image === "string" ? doc.Image : undefined;
       const resolvedImage = await resolveImagePath(imagePath);
 
       const toWrite: CarDoc = {
@@ -158,14 +161,24 @@ export async function applyBuckets(
       carOps += batchCount;
     }
 
-    // upsert statuses
+    // ----- upsert statuses with updatedAt -----
     if (bucket.statuses.length) {
       let sBatch = adminDb.batch();
       let sCount = 0;
 
       for (const s of bucket.statuses) {
-        const ref = adminDb.collection("car_data_status").doc(s.normalizedKey);
-        sBatch.set(ref, s, { merge: true });
+        const ref = adminDb
+          .collection("car_data_status")
+          .doc(s.normalizedKey);
+
+        const payload: StatusDoc & {
+          updatedAt: FirebaseFirestore.FieldValue;
+        } = {
+          ...s,
+          updatedAt: FieldValue.serverTimestamp(),
+        };
+
+        sBatch.set(ref, payload, { merge: true });
         sCount++;
 
         if (sCount >= 450) {

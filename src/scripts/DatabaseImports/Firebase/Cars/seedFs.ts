@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { ROOT_DIR } from "./seedConfig";
+import { ROOT_DIR } from "@/scripts/DatabaseImports/Firebase/Cars/seedConfig";
 
 export function* walk(dir: string): Generator<string> {
   if (!fs.existsSync(dir)) return;
