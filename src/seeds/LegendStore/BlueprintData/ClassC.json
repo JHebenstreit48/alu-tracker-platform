@@ -1,0 +1,200 @@
+[
+  {
+    "Class": "C",
+    "Brand": "BMW",
+    "Model": "M4 GTS",
+    "GarageLevel": 6,
+    "StarRank": 3,
+    "CarRarity": "Uncommon",
+    "BlueprintPrices": [13000, 19500, 26000, 32500, 39000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Mercedes-Benz",
+    "Model": "AMG GT S",
+    "GarageLevel": 4,
+    "StarRank": 3,
+    "CarRarity": "Uncommon",
+    "BlueprintPrices": [13000, 19500, 26000, 32500, 39000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Dodge",
+    "Model": "Challenger SRT8",
+    "GarageLevel": 1,
+    "StarRank": 3,
+    "CarRarity": "Uncommon",
+    "BlueprintPrices": [13000, 19500, 26000, 32500, 39000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Chevrolet",
+    "Model": "Camaro ZL1 50th Ed.",
+    "GarageLevel": 2,
+    "StarRank": 3,
+    "CarRarity": "Uncommon",
+    "BlueprintPrices": [13000, 19500, 26000, 32500, 39000]
+  },
+  {
+    "Class": "C",
+    "Brand": "BMW",
+    "Model": "3.0 CSL Hommage",
+    "GarageLevel": 2,
+    "StarRank": 3,
+    "CarRarity": "Uncommon",
+    "BlueprintPrices": [13000, 19500, 26000, 32500, 39000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Lotus",
+    "Model": "Evora Sport 410",
+    "GarageLevel": 3,
+    "StarRank": 3,
+    "CarRarity": "Uncommon",
+    "BlueprintPrices": [13000, 19500, 26000, 32500, 39000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Saleen",
+    "Model": "S1",
+    "GarageLevel": 24,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Dodge",
+    "Model": "Viper ACR",
+    "GarageLevel": 7,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Maserati",
+    "Model": "Alfieri",
+    "GarageLevel": 11,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Bolwell",
+    "Model": "MK X Nagari 500",
+    "GarageLevel": 43,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Artega",
+    "Model": "Scalo Superelletra",
+    "GarageLevel": 7,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Pininfarina",
+    "Model": "H2 Speed",
+    "GarageLevel": 8,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Acura",
+    "Model": "2017 NSX",
+    "GarageLevel": 10,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Ford",
+    "Model": "Shelby GR-1",
+    "GarageLevel": 42,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Aston Martin",
+    "Model": "V12 Speedster",
+    "GarageLevel": 42,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Ferrari",
+    "Model": "Monza SP1",
+    "GarageLevel": 45,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [120000, 180000, 240000, 300000, 360000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Arrinera",
+    "Model": "Hussarya 33",
+    "GarageLevel": 14,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [120000, 180000, 240000, 300000, 360000]
+  },
+  {
+    "Class": "C",
+    "Brand": "McLaren",
+    "Model": "GT",
+    "GarageLevel": 46,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [120000, 180000, 240000, 300000, 360000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Vencer",
+    "Model": "Sarthe",
+    "GarageLevel": 11,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [120000, 180000, 240000, 300000, 360000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Chevrolet",
+    "Model": "Corvette Stingray",
+    "GarageLevel": 25,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [120000, 180000, 240000, 300000, 360000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Lamborghini",
+    "Model": "Diablo GT",
+    "GarageLevel": 26,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [120000, 180000, 240000, 300000, 360000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Bentley",
+    "Model": "Mulliner Bacalar",
+    "GarageLevel": 47,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [120000, 180000, 240000, 300000, 360000]
+  }
+]

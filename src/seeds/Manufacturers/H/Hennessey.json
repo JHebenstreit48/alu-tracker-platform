@@ -1,0 +1,22 @@
+{
+    "brand": "Hennessey",
+    "slug": "hennessey",
+    "description": "Hennessey® Performance was founded more than 30 years ago and has been focused on pioneering automotive performance ever since.John Hennessey, our founder and CEO, made a name for himself in the early 1990s with race-winning vehicle modifications that gained global fame. Pursuing his true passion, John left his small environmental business and aimed his entrepreneurial skills at modifying, tuning, and enhancing high performance cars and trucks. Today, the company operates Hennessey® Performance Engineering (HPE), Hennessey® Special Vehicles (HSV), and the world-famous Tuner School® where future vehicle engineers and tuners learn the trade. Hennessey® has modified more than 15,000 cars and trucks since opening in 1991.",
+    "logo": "/Images/Logos/H/Hennessey/hennessey-logo.png",
+    "country": ["United States"],
+    "established": 1991,
+    "headquarters": "Sealy, Texas, USA",
+    "primaryMarket": "United States",
+    "location": {
+      "lat": 29.7805,
+      "lng": -96.1575
+    },
+    "resources": [
+      {
+        "text": "Hennessey About Us - Hennessey Performance",
+        "url": "https://www.hennesseyperformance.com/about/"
+      }
+
+    ]
+  }
+  

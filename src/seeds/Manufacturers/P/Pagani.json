@@ -1,0 +1,21 @@
+{
+    "brand": "Pagani",
+    "slug": "pagani",
+    "description": "Pagani Automobili S.p.A. is an Italian manufacturer of high-performance hypercars and carbon fiber components. Founded in 1992 by Horacio Pagani, an Argentine engineer, the company is headquartered in San Cesario sul Panaro, Italy. Pagani is celebrated for its meticulously crafted vehicles like the Zonda and the Huayra.",
+    "logo": "/Images/Logos/P/Pagani/pagani-logo.png",
+    "country": ["Italy"],
+    "established": 1992,
+    "headquarters": "San Cesario sul Panaro, Italy",
+    "primaryMarket": "Global",
+    "location": {
+      "lat": 44.5650,
+      "lng": 11.0678
+    },
+    "resources": [
+      {
+        "text": "Wikipedia - Pagani",
+        "url": "https://en.wikipedia.org/wiki/Pagani_(company)"
+      }
+    ]
+  }
+  

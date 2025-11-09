@@ -4,21 +4,30 @@
   "description": "Database for all ALU car data",
   "main": "dist/index.js",
   "scripts": {
-    "start": "ts-node -r tsconfig-paths/register src/server.ts",
-    "dev": "ts-node -r tsconfig-paths/register src/server.ts",
-    "seed": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCars.ts",
-    "seed:diagnose": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/diagnoseCarSet.ts",
-    "seed:backfill": "cross-env INCLUDE_PER_CAR_WITH_COLLECTOR=1 INCLUDE_CLASS_JSON_WITH_COLLECTOR=1 ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCars.ts",
-    "db:count": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/dbCount.ts",
-    "seeds:count": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/seedsCount.ts",
-    "compare:seeds-db": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/compareSeedsToDb.ts",
-    "clean:content": "ts-node -r tsconfig-paths/register src/scripts/maintenance/cleanContent.ts",
-    "clean:content:allow": "cross-env ALLOW_CONTENT_DROP=1 ts-node -r tsconfig-paths/register src/scripts/maintenance/cleanContent.ts",
-    "ts": "ts-node",
-    "build": "tsc",
-    "start:watch": "nodemon --exec ts-node -r tsconfig-paths/register src/server.ts",
-    "start:dev": "npm run start:watch"
-  },
+  "start": "ts-node -r tsconfig-paths/register src/server.ts",
+  "dev": "ts-node -r tsconfig-paths/register src/server.ts",
+
+  "seed": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCars.ts",
+
+  "seed:firebase": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importCarsFirebase.ts",
+  "seed:firebase:cars": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importCarsFirebase.ts",
+  "seed:firebase:images": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importCarImages.ts",
+  "seed:firebase:brands": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importBrandsFirebase.ts",
+
+  "ping:firebase": "ts-node -r tsconfig-paths/register src/scripts/pingFirestore.ts",
+  "seed:diagnose": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/diagnoseCarSet.ts",
+  "seed:backfill": "cross-env INCLUDE_PER_CAR_WITH_COLLECTOR=1 INCLUDE_CLASS_JSON_WITH_COLLECTOR=1 ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCars.ts",
+  "seeds:count": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/seedsCount.ts",
+  "db:count": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/dbCount.ts",
+  "compare:seeds-db": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/compareSeedsToDb.ts",
+  "clean:content": "ts-node -r tsconfig-paths/register src/scripts/maintenance/cleanContent.ts",
+  "clean:content:allow": "cross-env ALLOW_CONTENT_DROP=1 ts-node -r tsconfig-paths/register src/scripts/maintenance/cleanContent.ts",
+
+  "ts": "ts-node",
+  "build": "tsc",
+  "start:watch": "nodemon --exec ts-node -r tsconfig-paths/register src/server.ts",
+  "start:dev": "npm run start:watch"
+},
   "author": "Justin Hebenstreit",
   "license": "MIT",
   "devDependencies": {
@@ -30,6 +39,7 @@
     "@types/node": "^22.15.18",
     "cross-env": "^10.1.0",
     "dotenv": "^16.4.5",
+    "fast-glob": "^3.3.3",
     "inquirer": "^8.2.4",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
@@ -41,6 +51,7 @@
     "compression": "^1.8.1",
     "cors": "^2.8.5",
     "express": "^4.21.2",
+    "firebase-admin": "^13.6.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.8.4"
   }

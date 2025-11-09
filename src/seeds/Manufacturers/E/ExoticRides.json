@@ -1,0 +1,26 @@
+{
+    "brand": "Exotic Rides",
+    "slug": "exotic-rides",
+    "description": "Based in Orlando Florida, Exotic Rides has been building and customizing cars for over two decades. From small builds to one off projects we have enjoyed building amazing pieces of art and making our customers car dreams come to life. Producing cars for the every day driver to movie cars. With our talented and experienced crew members we were able to engineer and build the all new ER W70 to be produced on a limited number of 70 units worldwide The W70 has an all aluminum tube frame, LS7 626 HP motor with a 6 speed manual Porsche transaxle.",
+    "logo": "/Images/Logos/E/ExoticRides/exotic-rides-logo.png",
+    "country": ["United States"],
+    "established": 2005,
+    "headquarters": "Orlando, Florida, USA",
+    "primaryMarket": "United States",
+    "location": {
+      "lat": 28.5383,
+      "lng": -81.3792
+    },
+    "resources": [
+      {
+        "text": "Exotic Rides - Asphalt Wiki",
+        "url": "https://asphalt.fandom.com/wiki/Exotic_Rides#:~:text=Based%20in%20Orlando%20Florida%2C%20Exotic,day%20driver%20to%20movie%20cars."
+      },
+      {
+        "text": "Exotic Rides W70 - Driving Your Dream",
+        "url": "https://www.drivingyourdream.com/store/p328/ExoticRidesw70.html"
+
+      }
+    ]
+  }
+  

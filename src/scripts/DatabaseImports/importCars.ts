@@ -1,5 +1,3 @@
-// src/scripts/DatabaseImports/importCars.ts
-
 import dotenv from "dotenv";
 dotenv.config();
 
