@@ -1,25 +1,10 @@
 import { Router, type Request, type Response } from "express";
-import rateLimit from "express-rate-limit";
 import { z } from "zod";
-import {
-  createFeedback,
-  listPublicFeedback,
-  adminListFeedback,
-  updateFeedback,
-  deleteFeedback,
-  type FeedbackRecord,
-} from "@/comments/firestore";
+import { adminDb } from "@/Firebase/firebaseAdmin";
+import { FieldValue, Timestamp } from "firebase-admin/firestore";
 
 const router = Router();
-const ADMIN_KEY = process.env.FEEDBACK_ADMIN_KEY ?? "";
-
-// Public POST limiter
-const postLimiter = rateLimit({
-  windowMs: 10 * 60 * 1000,
-  max: 20,
-  standardHeaders: "draft-7",
-  legacyHeaders: false,
-});
+const COLL = "feedback";
 
 const createSchema = z.object({
   category: z.enum(["bug", "feature", "content", "other"]),
@@ -27,224 +12,128 @@ const createSchema = z.object({
     .string()
     .min(5)
     .max(3000)
-    .transform((s) => s.replace(/\s+/g, " ").trim()),
+    .transform((s: string) => s.replace(/\s+/g, " ").trim()),
   email: z.string().email().max(254).optional(),
   pageUrl: z.string().url().max(2000).optional(),
   hp: z.string().optional(),
 });
 
-function requireAdmin(req: Request, res: Response): boolean {
-  if (!ADMIN_KEY) {
-    res
-      .status(501)
-      .json({
-        ok: false,
-        error: {
-          code: "NOT_CONFIGURED",
-          message: "Set FEEDBACK_ADMIN_KEY",
-        },
-      });
-    return false;
-  }
-  if (req.header("x-admin-key") !== ADMIN_KEY) {
-    res
-      .status(401)
-      .json({
-        ok: false,
-        error: { code: "UNAUTHORIZED", message: "Invalid admin key" },
-      });
-    return false;
-  }
-  return true;
+type CreateBody = z.infer<typeof createSchema>;
+
+type FeedbackCategory = "bug" | "feature" | "content" | "other";
+type FeedbackStatus = "new" | "triaged" | "closed";
+
+interface FeedbackDoc {
+  category: FeedbackCategory;
+  message: string;
+  email?: string;
+  pageUrl?: string;
+  userAgent?: string;
+  status: FeedbackStatus;
+  createdAt: Timestamp;
+  updatedAt: Timestamp;
+}
+
+interface ErrorPayload {
+  code: string;
+  message: string;
+}
+
+interface ApiOk<T> {
+  ok: true;
+  data: T;
+}
+
+interface ApiErr {
+  ok: false;
+  error: ErrorPayload;
+}
+
+function ok<T>(data: T): ApiOk<T> {
+  return { ok: true, data };
+}
+
+function err(code: string, message: string): ApiErr {
+  return { ok: false, error: { code, message } };
 }
 
 // POST /api/feedback
-router.post("/", postLimiter, async (req, res) => {
+router.post("/", async (req: Request, res: Response) => {
   try {
-    const parsed = createSchema.safeParse(req.body);
+    const parsed = createSchema.safeParse(req.body as CreateBody);
     if (!parsed.success) {
-      res
-        .status(400)
-        .json({
-          ok: false,
-          error: {
-            code: "VALIDATION_ERROR",
-            message: "Invalid input",
-            details: parsed.error.flatten(),
-          },
-        });
+      res.status(400).json(err("VALIDATION_ERROR", "Invalid input"));
       return;
     }
 
     const { hp, ...data } = parsed.data;
     if (hp && hp.trim() !== "") {
-      res.json({ ok: true });
+      res.json(ok({}));
       return;
     }
 
-    await createFeedback({
+    const now = FieldValue.serverTimestamp();
+
+    const toSave: Omit<FeedbackDoc, "createdAt" | "updatedAt"> & {
+      createdAt: typeof now;
+      updatedAt: typeof now;
+    } = {
       ...data,
-      userAgent: req.headers["user-agent"] || undefined,
-    });
-
-    console.log(
-      `[feedback] created category=${data.category} len=${data.message.length}`
-    );
-    res.json({ ok: true });
-  } catch (err) {
-    console.error("POST /api/feedback", err);
-    res
-      .status(500)
-      .json({
-        ok: false,
-        error: { code: "SERVER_ERROR", message: "Unexpected error" },
-      });
-  }
-});
-
-// GET /api/feedback/public
-router.get("/public", async (req, res) => {
-  try {
-    const { mode, status, limit } = req.query as {
-      mode?: "recent" | "all";
-      status?: string;
-      limit?: string;
+      userAgent: typeof req.headers["user-agent"] === "string"
+        ? req.headers["user-agent"]
+        : undefined,
+      status: "new",
+      createdAt: now,
+      updatedAt: now,
     };
 
-    type S = FeedbackRecord["status"];
+    await adminDb.collection(COLL).add(toSave);
 
-    let allowed: S[] =
-      mode === "all"
-        ? ["new", "triaged", "closed"]
-        : ["new", "triaged"];
+    res.json(ok({}));
+  } catch (e) {
+    console.error("[feedback] POST error", e);
+    res.status(500).json(err("SERVER_ERROR", "Unexpected error"));
+  }
+});
 
-    if (status) {
-      const asked = status
-        .split(",")
-        .map((s) => s.trim())
-        .filter(
-          (s): s is S =>
-            s === "new" || s === "triaged" || s === "closed"
-        );
-      if (asked.length) {
-        allowed = asked.filter((s) => allowed.includes(s));
-      }
-    }
+// GET /api/feedback/public?status=triaged
+router.get("/public", async (req: Request, res: Response) => {
+  try {
+    const statusParam = (req.query.status as string | undefined) ?? "triaged";
 
-    const defLimit = mode === "recent" ? 20 : 100;
-    const limParsed = parseInt(String(limit ?? defLimit), 10);
-    const lim = Math.min(
-      Math.max(Number.isFinite(limParsed) ? limParsed : defLimit, 1),
-      200
-    );
+    const allStatuses: FeedbackStatus[] = ["new", "triaged", "closed"];
+    const requested = statusParam
+      .split(",")
+      .map((s) => s.trim())
+      .filter((s): s is FeedbackStatus => allStatuses.includes(s as FeedbackStatus));
 
-    const items = await listPublicFeedback({
-      statuses: allowed,
-      limit: lim,
+    const useStatuses =
+      requested.length > 0 ? requested : (["triaged"] as FeedbackStatus[]);
+
+    const snap = await adminDb
+      .collection(COLL)
+      .where("status", "in", useStatuses)
+      .orderBy("createdAt", "desc")
+      .limit(100)
+      .get();
+
+    const items = snap.docs.map((doc) => {
+      const fb = doc.data() as FeedbackDoc;
+      return {
+        _id: doc.id,
+        category: fb.category,
+        message: fb.message,
+        pageUrl: fb.pageUrl,
+        status: fb.status,
+        createdAt: fb.createdAt.toDate().toISOString(),
+      };
     });
 
-    res.json({ ok: true, data: { items } });
-  } catch (err) {
-    console.error("GET /api/feedback/public", err);
-    res
-      .status(500)
-      .json({
-        ok: false,
-        error: { code: "SERVER_ERROR", message: "Unexpected error" },
-      });
+    res.json(ok({ items }));
+  } catch (e) {
+    console.error("[feedback] GET /public error", e);
+    res.status(500).json(err("SERVER_ERROR", "Unexpected error"));
   }
-});
-
-// GET /api/feedback/admin/list
-router.get("/admin/list", async (req, res) => {
-  if (!requireAdmin(req, res)) return;
-
-  const { status, limit } = req.query as {
-    status?: "new" | "triaged" | "closed" | "all";
-    limit?: string;
-  };
-
-  const limParsed = parseInt(String(limit ?? "200"), 10);
-  const lim = Math.min(
-    Math.max(Number.isFinite(limParsed) ? limParsed : 200, 1),
-    500
-  );
-
-  const items = await adminListFeedback({
-    status: status ?? "all",
-    limit: lim,
-  });
-
-  res.json({ ok: true, data: { items } });
-});
-
-// PATCH /api/feedback/:id
-router.patch("/:id", async (req, res) => {
-  if (!requireAdmin(req, res)) return;
-
-  const bodySchema = z
-    .object({
-      message: z
-        .string()
-        .min(5)
-        .max(3000)
-        .transform((s) => s.replace(/\s+/g, " ").trim())
-        .optional(),
-      status: z.enum(["new", "triaged", "closed"]).optional(),
-    })
-    .refine((v) => v.message || v.status, {
-      message: "No changes provided",
-    });
-
-  const parsed = bodySchema.safeParse(req.body);
-  if (!parsed.success) {
-    res
-      .status(400)
-      .json({
-        ok: false,
-        error: {
-          code: "VALIDATION_ERROR",
-          message: "Invalid input",
-          details: parsed.error.flatten(),
-        },
-      });
-    return;
-  }
-
-  const updated = await updateFeedback(req.params.id, parsed.data);
-  if (!updated) {
-    res
-      .status(404)
-      .json({
-        ok: false,
-        error: {
-          code: "NOT_FOUND",
-          message: "Feedback not found",
-        },
-      });
-    return;
-  }
-
-  res.json({ ok: true, data: { feedback: updated } });
-});
-
-// DELETE /api/feedback/:id
-router.delete("/:id", async (req, res) => {
-  if (!requireAdmin(req, res)) return;
-  const ok = await deleteFeedback(req.params.id);
-  if (!ok) {
-    res
-      .status(404)
-      .json({
-        ok: false,
-        error: {
-          code: "NOT_FOUND",
-          message: "Feedback not found",
-        },
-      });
-    return;
-  }
-  res.json({ ok: true });
 });
 
 export default router;

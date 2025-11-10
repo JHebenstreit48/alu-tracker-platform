@@ -1,33 +1,15 @@
 import { Router, type Request, type Response } from "express";
-import rateLimit from "express-rate-limit";
-import { z } from "zod";
 import crypto from "node:crypto";
-import {
-  createComment,
-  getVisibleCommentsBySlug,
-  adminListComments,
-  getCommentWithSecret,
-  updateComment,
-  deleteComment,
-  claimCommentsByEmail,
-  type CommentStatus,
-} from "@/comments/firestore";
+import { z } from "zod";
+import { adminDb } from "@/Firebase/firebaseAdmin";
+import { FieldValue, Timestamp } from "firebase-admin/firestore";
 
 const router = Router();
+const COLL = "comments";
 
-const AUTO_VISIBLE =
-  process.env.COMMENTS_AUTO_VISIBLE === "true";
-const ADMIN_KEY = process.env.COMMENTS_ADMIN_KEY || "";
+const AUTO_VISIBLE = process.env.COMMENTS_AUTO_VISIBLE === "true";
 
-// Rate limit on create
-const limiter = rateLimit({
-  windowMs: 10 * 60 * 1000,
-  max: 10,
-  standardHeaders: "draft-7",
-  legacyHeaders: false,
-});
-
-const createCommentSchema = z.object({
+const createSchema = z.object({
   normalizedKey: z.string().trim().min(1).max(200),
   brand: z.string().trim().max(120).optional(),
   model: z.string().trim().max(120).optional(),
@@ -36,326 +18,139 @@ const createCommentSchema = z.object({
     .string()
     .min(5)
     .max(2000)
-    .transform((s) => s.replace(/\s+/g, " ").trim()),
+    .transform((s: string) => s.replace(/\s+/g, " ").trim()),
   authorName: z.string().trim().max(120).optional(),
-  authorEmail: z
-    .string()
-    .trim()
-    .max(254)
-    .email("Invalid email")
-    .optional(),
-  hp: z.string().optional(),
+  authorEmail: z.string().trim().max(254).email().optional(),
+  hp: z.string().optional(), // honeypot
 });
 
-const selfEditSchema = z.object({
-  body: z
-    .string()
-    .min(5)
-    .max(2000)
-    .transform((s) => s.replace(/\s+/g, " ").trim()),
-  editKey: z.string().optional(),
-});
+type CreateBody = z.infer<typeof createSchema>;
 
-const selfDeleteSchema = z.object({
-  editKey: z.string().optional(),
-});
+type CommentStatus = "visible" | "pending" | "hidden";
 
-function requireAdminKey(req: Request, res: Response): boolean {
-  if (!ADMIN_KEY) {
-    res
-      .status(501)
-      .json({
-        ok: false,
-        error: {
-          code: "NOT_CONFIGURED",
-          message: "Set COMMENTS_ADMIN_KEY",
-        },
-      });
-    return false;
-  }
-  if (req.header("x-admin-key") !== ADMIN_KEY) {
-    res
-      .status(401)
-      .json({
-        ok: false,
-        error: { code: "UNAUTHORIZED", message: "Invalid admin key" },
-      });
-    return false;
-  }
-  return true;
+interface CommentDoc {
+  normalizedKey: string;
+  brand?: string;
+  model?: string;
+  type: "missing-data" | "correction" | "general";
+  body: string;
+  authorName?: string;
+  authorEmail?: string; // stored; never exposed in public GET
+  status: CommentStatus;
+  editKeyHash?: string;
+  createdAt: Timestamp;
+  updatedAt: Timestamp;
+}
+
+interface ErrorPayload {
+  code: string;
+  message: string;
+}
+
+interface ApiOk<T> {
+  ok: true;
+  data: T;
+}
+
+interface ApiErr {
+  ok: false;
+  error: ErrorPayload;
+}
+
+function ok<T>(data: T): ApiOk<T> {
+  return { ok: true, data };
+}
+
+function err(code: string, message: string): ApiErr {
+  return { ok: false, error: { code, message } };
 }
 
 function sha256Hex(input: string): string {
-  return crypto
-    .createHash("sha256")
-    .update(input, "utf8")
-    .digest("hex");
+  return crypto.createHash("sha256").update(input, "utf8").digest("hex");
 }
 
-/* ===== ADMIN ===== */
-
-router.get("/admin/list", async (req, res) => {
-  if (!requireAdminKey(req, res)) return;
-
-  const { status, slug, limit } = req.query as {
-    status?: CommentStatus;
-    slug?: string;
-    limit?: string;
-  };
-
-  const lim = Math.min(
-    Math.max(parseInt(String(limit ?? "200"), 10) || 200, 1),
-    500
-  );
-
-  const items = await adminListComments({
-    status,
-    slug,
-    limit: lim,
-  });
-
-  res.json({ ok: true, data: { items } });
-});
-
-router.patch("/:id/visible", async (req, res) => {
-  if (!requireAdminKey(req, res)) return;
-  const ok = await updateComment(req.params.id, { status: "visible" });
-  if (!ok) {
-    res
-      .status(404)
-      .json({
-        ok: false,
-        error: { code: "NOT_FOUND", message: "Comment not found" },
-      });
+// GET /api/comments/:slug → visible comments (newest first)
+router.get("/:slug", async (req: Request, res: Response) => {
+  const slug = String(req.params.slug || "").trim();
+  if (!slug) {
+    res.status(400).json(err("BAD_REQUEST", "Missing slug"));
     return;
   }
-  res.json({ ok: true });
-});
 
-router.patch("/:id/hide", async (req, res) => {
-  if (!requireAdminKey(req, res)) return;
-  const ok = await updateComment(req.params.id, { status: "hidden" });
-  if (!ok) {
-    res
-      .status(404)
-      .json({
-        ok: false,
-        error: { code: "NOT_FOUND", message: "Comment not found" },
-      });
-    return;
-  }
-  res.json({ ok: true });
-});
-
-router.delete("/:id", async (req, res) => {
-  if (!requireAdminKey(req, res)) return;
-  const ok = await deleteComment(req.params.id);
-  if (!ok) {
-    res
-      .status(404)
-      .json({
-        ok: false,
-        error: { code: "NOT_FOUND", message: "Comment not found" },
-      });
-    return;
-  }
-  res.json({ ok: true });
-});
-
-/* ===== PUBLIC ===== */
-
-// GET /api/comments/:slug
-router.get("/:slug", async (req, res) => {
   try {
-    const slug = String(req.params.slug || "").trim();
-    if (!slug) {
-      res
-        .status(400)
-        .json({
-          ok: false,
-          error: { code: "BAD_REQUEST", message: "Missing slug" },
-        });
-      return;
-    }
+    const snap = await adminDb
+      .collection(COLL)
+      .where("normalizedKey", "==", slug)
+      .where("status", "==", "visible")
+      .orderBy("createdAt", "desc")
+      .limit(200)
+      .get();
 
-    const comments = await getVisibleCommentsBySlug(slug);
-    res.json({ ok: true, data: { comments } });
-  } catch (err) {
-    console.error("GET /api/comments/:slug", err);
-    res
-      .status(500)
-      .json({
-        ok: false,
-        error: { code: "SERVER_ERROR", message: "Unexpected error" },
-      });
+    const comments = snap.docs.map((doc) => {
+      const c = doc.data() as CommentDoc;
+      return {
+        _id: doc.id,
+        normalizedKey: c.normalizedKey,
+        brand: c.brand,
+        model: c.model,
+        type: c.type,
+        body: c.body,
+        authorName: c.authorName,
+        status: c.status,
+        createdAt: c.createdAt.toDate().toISOString(),
+        updatedAt: c.updatedAt.toDate().toISOString(),
+      };
+    });
+
+    res.json(ok({ comments }));
+  } catch (e) {
+    console.error("[comments] GET error", e);
+    res.status(500).json(err("SERVER_ERROR", "Unexpected error"));
   }
 });
 
-// POST /api/comments
-router.post("/", limiter, async (req, res) => {
+// POST /api/comments → create
+router.post("/", async (req: Request, res: Response) => {
   try {
-    const parsed = createCommentSchema.safeParse(req.body);
+    const parsed = createSchema.safeParse(req.body as CreateBody);
     if (!parsed.success) {
-      res
-        .status(400)
-        .json({
-          ok: false,
-          error: {
-            code: "VALIDATION_ERROR",
-            message: "Invalid input",
-            details: parsed.error.flatten(),
-          },
-        });
+      res.status(400).json(err("VALIDATION_ERROR", "Invalid input"));
       return;
     }
 
     const { hp, ...data } = parsed.data;
     if (hp && hp.trim() !== "") {
-      res.json({ ok: true }); // honeypot
+      // Honeypot: pretend success
+      res.json(ok({}));
       return;
     }
 
     const editKey = crypto.randomBytes(24).toString("hex");
-    const status = AUTO_VISIBLE ? "visible" : "pending";
+    const now = FieldValue.serverTimestamp();
 
-    const created = await createComment({
+    const toSave: Omit<CommentDoc, "createdAt" | "updatedAt"> & {
+      createdAt: typeof now;
+      updatedAt: typeof now;
+    } = {
       ...data,
+      status: AUTO_VISIBLE ? "visible" : "pending",
       editKeyHash: sha256Hex(editKey),
-      status,
-    });
+      createdAt: now,
+      updatedAt: now,
+    };
 
-    console.log(
-      `[comments] created id=${created.id} key=${data.normalizedKey} status=${created.status}`
-    );
+    const ref = await adminDb.collection(COLL).add(toSave);
 
-    res.json({
-      ok: true,
-      data: {
-        id: created.id,
-        status: created.status,
+    res.json(
+      ok({
+        id: ref.id,
+        status: toSave.status,
         editKey,
-      },
-    });
-  } catch (err) {
-    console.error("POST /api/comments", err);
-    res
-      .status(500)
-      .json({
-        ok: false,
-        error: { code: "SERVER_ERROR", message: "Unexpected error" },
-      });
-  }
-});
-
-/* ===== SELF (guest edit/delete via editKey) ===== */
-
-router.patch("/:id/self", async (req, res) => {
-  try {
-    const { id } = req.params;
-    const parsed = selfEditSchema.safeParse(req.body);
-    if (!parsed.success) {
-      res
-        .status(400)
-        .json({
-          ok: false,
-          error: {
-            code: "VALIDATION_ERROR",
-            message: "Invalid input",
-          },
-        });
-      return;
-    }
-
-    const doc = await getCommentWithSecret(id);
-    if (!doc || !doc.editKeyHash) {
-      res
-        .status(404)
-        .json({
-          ok: false,
-          error: { code: "NOT_FOUND", message: "Comment not found" },
-        });
-      return;
-    }
-
-    const ok =
-      !!parsed.data.editKey &&
-      sha256Hex(parsed.data.editKey) === doc.editKeyHash;
-
-    if (!ok) {
-      res
-        .status(403)
-        .json({
-          ok: false,
-          error: { code: "FORBIDDEN", message: "Not allowed" },
-        });
-      return;
-    }
-
-    await updateComment(id, { body: parsed.data.body });
-    res.json({ ok: true, data: { id } });
-  } catch (err) {
-    console.error("PATCH /api/comments/:id/self", err);
-    res
-      .status(500)
-      .json({
-        ok: false,
-        error: { code: "SERVER_ERROR", message: "Unexpected error" },
-      });
-  }
-});
-
-router.delete("/:id/self", async (req, res) => {
-  try {
-    const { id } = req.params;
-    const parsed = selfDeleteSchema.safeParse(req.body ?? {});
-    if (!parsed.success) {
-      res
-        .status(400)
-        .json({
-          ok: false,
-          error: {
-            code: "VALIDATION_ERROR",
-            message: "Invalid input",
-          },
-        });
-      return;
-    }
-
-    const doc = await getCommentWithSecret(id);
-    if (!doc || !doc.editKeyHash) {
-      res
-        .status(404)
-        .json({
-          ok: false,
-          error: { code: "NOT_FOUND", message: "Comment not found" },
-        });
-      return;
-    }
-
-    const ok =
-      !!parsed.data.editKey &&
-      sha256Hex(parsed.data.editKey) === doc.editKeyHash;
-
-    if (!ok) {
-      res
-        .status(403)
-        .json({
-          ok: false,
-          error: { code: "FORBIDDEN", message: "Not allowed" },
-        });
-      return;
-    }
-
-    await deleteComment(id);
-    res.json({ ok: true });
-  } catch (err) {
-    console.error("DELETE /api/comments/:id/self", err);
-    res
-      .status(500)
-      .json({
-        ok: false,
-        error: { code: "SERVER_ERROR", message: "Unexpected error" },
-      });
+      })
+    );
+  } catch (e) {
+    console.error("[comments] POST error", e);
+    res.status(500).json(err("SERVER_ERROR", "Unexpected error"));
   }
 });
 
