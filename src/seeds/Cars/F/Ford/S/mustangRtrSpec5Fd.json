@@ -1,0 +1,18 @@
+{
+  "Id": 1,
+  "Image": "/images/cars/F/Ford/mustangrtrspec5fd.jpg",
+  "Brand": "Ford",
+  "Model": "Mustang RTR Spec 5-FD",
+  "Class": "S",
+  "Stars": 6,
+  "Country": "USA",
+  "Rarity": "Epic",
+  "Stock_Rank": 3525,
+  "Stock_Top_Speed": 403.0,
+  "Stock_Acceleration": 73.9,
+  "Stock_Handling": 46.04,
+  "Stock_Nitro": 58.48,
+  "BPs_1_Star": null,
+  "BPs_2_Star": 40,
+  "BPs_3_Star": null
+}
