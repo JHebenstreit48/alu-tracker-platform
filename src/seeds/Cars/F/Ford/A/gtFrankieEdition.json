@@ -3,6 +3,7 @@
   "Image": "/images/cars/F/Ford/gtfrankieedition.jpg",
   "Brand": "Ford",
   "Model": "GT Frankie Edition",
+  "normalizedKey": "ford_gt_frankie_edition",
   "Class": "A",
   "Stars": 5,
   "Country": "USA",
