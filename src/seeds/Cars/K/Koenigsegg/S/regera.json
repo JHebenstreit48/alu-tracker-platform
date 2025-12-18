@@ -6,16 +6,15 @@
   "Model": "Regera",
   "Rarity": "Epic",
   "Stars": 6,
-  "Gold_Max_Rank": 4616,
   "Epics": 16,
   "ObtainableVia": "GL17",
   "Garage_Lvl": 18,
+  "Gold_Max_Rank": 4616,
   "Gold_Top_Speed": 457.1,
   "Gold_Acceleration": 80.88,
   "Gold_Handling": 48.75,
   "Gold_Nitro": 52.48,
   "Nitro_TS": null,
-  "Unnamed: 16": "475,4",
   "Perfect_Nitro_TS": null,
   "Added": "Soft Launch",
   "Added_With": null,
@@ -29,5 +28,6 @@
   "BPs_3_Star": 16,
   "BPs_4_Star": 25,
   "BPs_5_Star": 38,
-  "BPs_6_Star": 48
+  "BPs_6_Star": 48,
+  "Unnamed: 16": "475,4"
 }

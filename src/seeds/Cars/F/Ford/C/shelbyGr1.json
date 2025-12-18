@@ -6,16 +6,15 @@
   "Model": "Shelby GR-1",
   "Rarity": "Rare",
   "Stars": 4,
-  "Gold_Max_Rank": 2909,
   "Epics": 4,
   "ObtainableVia": "TC",
   "Garage_Lvl": 42,
+  "Gold_Max_Rank": 2909,
   "Gold_Top_Speed": 321.7,
   "Gold_Acceleration": 75.32,
   "Gold_Handling": 69.6,
   "Gold_Nitro": 66.63,
   "Nitro_TS": null,
-  "Unnamed: 16": "334,6",
   "Perfect_Nitro_TS": null,
   "Added": "Godly Beasts",
   "Added_With": "DS",
@@ -27,5 +26,6 @@
   "BPs_1_Star": 50,
   "BPs_2_Star": 29,
   "BPs_3_Star": 38,
-  "BPs_4_Star": 48
+  "BPs_4_Star": 48,
+  "Unnamed: 16": "334,6"
 }

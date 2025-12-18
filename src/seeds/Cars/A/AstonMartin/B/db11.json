@@ -6,16 +6,15 @@
   "Model": "DB11",
   "Rarity": "Uncommon",
   "Stars": 3,
-  "Gold_Max_Rank": 2330,
   "Epics": 4,
   "ObtainableVia": "GL05",
   "Garage_Lvl": 5,
+  "Gold_Max_Rank": 2330,
   "Gold_Top_Speed": 340.6,
   "Gold_Acceleration": 74.2,
   "Gold_Handling": 43.21,
   "Gold_Nitro": 55.4,
   "Nitro_TS": null,
-  "Unnamed: 16": "354,2",
   "Perfect_Nitro_TS": null,
   "Added": "Soft Launch",
   "Added_With": null,
@@ -26,5 +25,6 @@
   "Tags": "Europe",
   "BPs_1_Star": 30,
   "BPs_2_Star": 30,
-  "BPs_3_Star": 70
+  "BPs_3_Star": 70,
+  "Unnamed: 16": "354,2"
 }

@@ -6,17 +6,17 @@
   "scripts": {
     "start": "ts-node -r tsconfig-paths/register src/server.ts",
     "dev": "ts-node -r tsconfig-paths/register src/server.ts",
-    
-    "seed:firebase": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importCarsFirebase.ts",
-    "seed:firebase:cars": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importCarsFirebase.ts",
+    "seed:cars": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importCars.ts",
     "seed:firebase:images": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importCarImages.ts",
     "seed:firebase:brands": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importBrandsFirebase.ts",
     "seed:firebase:garage-levels": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importGarageLevelsFirebase.ts",
     "seed:firebase:legend-store": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importLegendStoreFirebase.ts",
 
+    "seeds:normalize": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/Cars/seedsNormalize.ts",
+    "seeds:normalize:apply": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/Cars/seedsNormalize.ts --apply",
+    
     "seed:firebase:icons": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importIcons.ts",
     "seed:firebase:logos": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Firebase/importLogos.ts",
-    
     "ping:firebase": "ts-node -r tsconfig-paths/register src/scripts/pingFirestore.ts",
     "seed:diagnose": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/diagnoseCarSet.ts",
     "seed:backfill": "cross-env INCLUDE_PER_CAR_WITH_COLLECTOR=1 INCLUDE_CLASS_JSON_WITH_COLLECTOR=1 ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCars.ts",

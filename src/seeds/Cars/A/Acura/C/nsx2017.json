@@ -5,9 +5,6 @@
   "Brand": "Acura",
   "Model": "2017 NSX",
   "normalizedKey": "acura_2017_nsx",
-  "status": "in progress",
-  "message": "Still adding data",
-  "sources": ["MEI"],
   "Rarity": "Rare",
   "Stars": 4,
   "Epics": 4,
@@ -27,5 +24,10 @@
   "BPs_1_Star": 35,
   "BPs_2_Star": 10,
   "BPs_3_Star": 20,
-  "BPs_4_Star": 32
+  "BPs_4_Star": 32,
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": [
+    "MEI"
+  ]
 }

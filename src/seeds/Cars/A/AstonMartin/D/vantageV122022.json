@@ -16,7 +16,6 @@
   "Gold_Handling": 39.15,
   "Gold_Nitro": 42.5,
   "Nitro_TS": null,
-  "Unnamed: 16": "344,3",
   "Perfect_Nitro_TS": null,
   "Added": "Eurobloom",
   "Added_With": "GP",
@@ -29,5 +28,6 @@
   "BPs_2_Star": 22,
   "BPs_3_Star": 30,
   "BPs_4_Star": 35,
-  "BPs_5_Star": 38
+  "BPs_5_Star": 38,
+  "Unnamed: 16": "344,3"
 }
