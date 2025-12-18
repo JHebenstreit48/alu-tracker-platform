@@ -13,10 +13,9 @@
   "Gold_Max_Rank": 4284,
   "Gold_Top_Speed": 362.1,
   "Gold_Acceleration": 82.03,
-  "Gold_Handling": 64.0,
+  "Gold_Handling": 64,
   "Gold_Nitro": 82.48,
   "Nitro_TS": null,
-  "Unnamed: 16": "376,6",
   "Perfect_Nitro_TS": null,
   "Added": "Lamborghini Season",
   "Added_With": "GP",
@@ -30,5 +29,6 @@
   "BPs_3_Star": 32,
   "BPs_4_Star": 44,
   "BPs_5_Star": 59,
-  "BPs_6_Star": 86
+  "BPs_6_Star": 86,
+  "Unnamed: 16": "376,6"
 }

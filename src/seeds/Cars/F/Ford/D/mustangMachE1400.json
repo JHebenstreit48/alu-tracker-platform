@@ -16,7 +16,6 @@
   "Gold_Handling": 53.98,
   "Gold_Nitro": 61.36,
   "Nitro_TS": null,
-  "Unnamed: 16": "311,8",
   "Perfect_Nitro_TS": null,
   "Added": "New Tech Reloaded",
   "Added_With": "Key Hunt",
@@ -29,5 +28,6 @@
   "BPs_2_Star": 22,
   "BPs_3_Star": 30,
   "BPs_4_Star": 35,
-  "BPs_5_Star": 38
+  "BPs_5_Star": 38,
+  "Unnamed: 16": "311,8"
 }

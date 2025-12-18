@@ -6,16 +6,19 @@
   "Model": "DBS Superleggera",
   "Rarity": "Epic",
   "Stars": 5,
-  "Gold_Max_Rank": 4059,
   "Epics": 8,
-  "ObtainableVia": ["Garage Level 16", "Multiplayer", "Starway"],
+  "ObtainableVia": [
+    "Garage Level 16",
+    "Multiplayer",
+    "Starway"
+  ],
   "Garage_Lvl": 16,
+  "Gold_Max_Rank": 4059,
   "Gold_Top_Speed": 355.4,
   "Gold_Acceleration": 79.16,
   "Gold_Handling": 70.74,
   "Gold_Nitro": 73.88,
   "Nitro_TS": null,
-  "Unnamed: 16": "369,6",
   "Perfect_Nitro_TS": null,
   "Added": "King of the Fall",
   "Added_With": null,
@@ -28,5 +31,6 @@
   "BPs_2_Star": 17,
   "BPs_3_Star": 23,
   "BPs_4_Star": 32,
-  "BPs_5_Star": 45
+  "BPs_5_Star": 45,
+  "Unnamed: 16": "369,6"
 }
