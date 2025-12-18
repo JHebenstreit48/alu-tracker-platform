@@ -1,23 +1,21 @@
-[
-    {
-        "Id": 1,
-        "Image": "/images/cars/B/Bentley/continentalgtspeed.jpg",
-        "Class": "A",
-        "Brand": "Bentley",
-        "Model": "Continental GT Speed",
-        "Rarity": "Rare",
-        "Stars": 4,
-        "Gold_Max_Rank": 3342,
-        "Epics": 4,
-        "Gold_Top_Speed": 348.3,
-        "Gold_Acceleration": 76.55,
-        "Gold_Handling": 71.23,
-        "Gold_Nitro": 53.23,
-        "Country": "UK",
-        "Tags": "Europe",
-        "BPs_1_Star": 60,
-        "BPs_2_Star": 40,
-        "BPs_3_Star": 51,
-        "BPs_4_Star": 63
-    }
-]
+{
+  "Id": 1,
+  "Image": "/images/cars/B/Bentley/continentalgtspeed.jpg",
+  "Class": "A",
+  "Brand": "Bentley",
+  "Model": "Continental GT Speed",
+  "Rarity": "Rare",
+  "Stars": 4,
+  "Epics": 4,
+  "Gold_Max_Rank": 3342,
+  "Gold_Top_Speed": 348.3,
+  "Gold_Acceleration": 76.55,
+  "Gold_Handling": 71.23,
+  "Gold_Nitro": 53.23,
+  "Country": "UK",
+  "Tags": "Europe",
+  "BPs_1_Star": 60,
+  "BPs_2_Star": 40,
+  "BPs_3_Star": 51,
+  "BPs_4_Star": 63
+}

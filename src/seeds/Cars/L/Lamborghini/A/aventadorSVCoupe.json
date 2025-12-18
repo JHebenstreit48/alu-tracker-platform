@@ -6,16 +6,15 @@
   "Model": "Aventador SV Coupé",
   "Rarity": "Epic",
   "Stars": 5,
-  "Gold_Max_Rank": 3763,
   "Epics": 12,
   "ObtainableVia": "GL12",
   "Garage_Lvl": 12,
+  "Gold_Max_Rank": 3763,
   "Gold_Top_Speed": 367.9,
   "Gold_Acceleration": 80.83,
   "Gold_Handling": 50.15,
   "Gold_Nitro": 70.6,
   "Nitro_TS": null,
-  "Unnamed: 16": "382,6",
   "Perfect_Nitro_TS": null,
   "Added": "Soft Launch",
   "Added_With": null,
@@ -28,5 +27,6 @@
   "BPs_2_Star": 12,
   "BPs_3_Star": 15,
   "BPs_4_Star": 24,
-  "BPs_5_Star": 36
+  "BPs_5_Star": 36,
+  "Unnamed: 16": "382,6"
 }

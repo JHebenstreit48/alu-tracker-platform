@@ -6,16 +6,15 @@
   "Model": "DB12",
   "Rarity": "Epic",
   "Stars": 5,
-  "Gold_Max_Rank": 3580,
   "Epics": 8,
   "ObtainableVia": null,
   "Garage_Lvl": null,
+  "Gold_Max_Rank": 3580,
   "Gold_Top_Speed": 343.2,
   "Gold_Acceleration": 74.11,
   "Gold_Handling": 69.68,
   "Gold_Nitro": 77.89,
   "Nitro_TS": null,
-  "Unnamed: 16": "356,9",
   "Perfect_Nitro_TS": null,
   "Added": "Supercharged Summer",
   "Added_With": "LP car",
@@ -28,5 +27,6 @@
   "BPs_2_Star": 17,
   "BPs_3_Star": 23,
   "BPs_4_Star": 32,
-  "BPs_5_Star": 45
+  "BPs_5_Star": 45,
+  "Unnamed: 16": "356,9"
 }

@@ -1,12 +1,11 @@
 {
   "Id": 1,
   "Image": "/images/cars/F/Ford/gt.jpg",
+  "Class": "B",
   "Brand": "Ford",
   "Model": "GT",
-  "Class": "B",
-  "Stars": 4,
-  "Country": "USA",
   "Rarity": "Rare",
+  "Stars": 4,
   "Epics": 8,
   "ObtainableVia": "GL07",
   "Garage_Lvl": 7,
@@ -16,15 +15,16 @@
   "Gold_Handling": 34.36,
   "Gold_Nitro": 54.49,
   "Nitro_TS": null,
-  "Unnamed: 16": "377,3",
   "Perfect_Nitro_TS": null,
   "Added": "Soft Launch",
   "Added_With": null,
   "Added date": "26/02/2018",
   "Total upgrade cost": null,
+  "Country": "USA",
   "Tags": "Super Car",
   "BPs_1_Star": 35,
   "BPs_2_Star": 12,
   "BPs_3_Star": 24,
-  "BPs_4_Star": 36
+  "BPs_4_Star": 36,
+  "Unnamed: 16": "377,3"
 }

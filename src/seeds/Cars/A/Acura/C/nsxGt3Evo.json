@@ -5,13 +5,9 @@
   "Brand": "Acura",
   "Model": "NSX GT3 Evo",
   "normalizedKey": "acura_nsx_gt3_evo",
-  "status": "in progress",
-  "message": "Still adding data",
-  "sources": ["MEI"],
   "Rarity": "Epic",
   "Stars": 5,
   "KeyCar": true,
-  "Gold_Max_Rank": 3585,
   "Epics": 8,
   "ObtainableVia": "Key Hunt",
   "Garage_Lvl": null,
@@ -20,12 +16,12 @@
   "Stock_Acceleration": 60.85,
   "Stock_Handling": 63.92,
   "Stock_Nitro": 55.78,
+  "Gold_Max_Rank": 3585,
   "Gold_Top_Speed": 314.4,
   "Gold_Acceleration": 74.29,
   "Gold_Handling": 86.13,
   "Gold_Nitro": 73.76,
   "Nitro_TS": null,
-  "Unnamed: 16": "327,0",
   "Perfect_Nitro_TS": "345,0",
   "Added": "Fire and Lightning",
   "Added_With": "GP",
@@ -38,5 +34,11 @@
   "BPs_2_Star": 25,
   "BPs_3_Star": 32,
   "BPs_4_Star": 36,
-  "BPs_5_Star": 41
+  "BPs_5_Star": 41,
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": [
+    "MEI"
+  ],
+  "Unnamed: 16": "327,0"
 }

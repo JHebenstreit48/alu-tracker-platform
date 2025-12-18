@@ -5,21 +5,17 @@
   "Brand": "Aston Martin",
   "Model": "Victor",
   "normalizedKey": "aston_martin_victor",
-  "status": "in progress",
-  "message": "Still adding data",
-  "sources": ["MEI"],
   "Rarity": "Epic",
   "Stars": 6,
-  "Gold_Max_Rank": 4255,
   "Epics": 16,
   "ObtainableVia": null,
   "Garage_Lvl": 34,
+  "Gold_Max_Rank": 4255,
   "Gold_Top_Speed": 371.4,
   "Gold_Acceleration": 78.33,
   "Gold_Handling": 76.84,
   "Gold_Nitro": 69.63,
   "Nitro_TS": null,
-  "Unnamed: 16": "386,3",
   "Perfect_Nitro_TS": null,
   "Added": "European Season",
   "Added_With": "LP car",
@@ -33,5 +29,11 @@
   "BPs_3_Star": 27,
   "BPs_4_Star": 36,
   "BPs_5_Star": 52,
-  "BPs_6_Star": 59
+  "BPs_6_Star": 59,
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": [
+    "MEI"
+  ],
+  "Unnamed: 16": "386,3"
 }

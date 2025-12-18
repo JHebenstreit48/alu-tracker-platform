@@ -7,16 +7,15 @@
   "Rarity": "Rare",
   "Stars": 4,
   "KeyCar": true,
-  "Gold_Max_Rank": 3200,
   "Epics": 8,
   "ObtainableVia": "Key Hunt",
   "Garage_Lvl": null,
+  "Gold_Max_Rank": 3200,
   "Gold_Top_Speed": 315.5,
   "Gold_Acceleration": 86.26,
-  "Gold_Handling": 79.0,
+  "Gold_Handling": 79,
   "Gold_Nitro": 67.88,
   "Nitro_TS": null,
-  "Unnamed: 16": "328,1",
   "Perfect_Nitro_TS": null,
   "Added": "American Season",
   "Added_With": "GP",
@@ -28,5 +27,6 @@
   "BPs_1_Star": 0,
   "BPs_2_Star": 35,
   "BPs_3_Star": 55,
-  "BPs_4_Star": 85
+  "BPs_4_Star": 85,
+  "Unnamed: 16": "328,1"
 }
