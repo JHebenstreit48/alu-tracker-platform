@@ -6,7 +6,6 @@
   "Model": "Vantage GT12",
   "Rarity": "Epic",
   "Stars": 5,
-  
   "Epics": 8,
   "ObtainableVia": "GL14",
   "Garage_Lvl": 15,
@@ -16,7 +15,6 @@
   "Gold_Handling": 86.85,
   "Gold_Nitro": 80.46,
   "Nitro_TS": null,
-  "Unnamed: 16": "351,3",
   "Perfect_Nitro_TS": null,
   "Added": "Tune It Up",
   "Added_With": null,
@@ -29,5 +27,6 @@
   "BPs_2_Star": 17,
   "BPs_3_Star": 23,
   "BPs_4_Star": 32,
-  "BPs_5_Star": 45
+  "BPs_5_Star": 45,
+  "Unnamed: 16": "351,3"
 }

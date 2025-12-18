@@ -5,21 +5,17 @@
   "Brand": "Aston Martin",
   "Model": "Vulcan",
   "normalizedKey": "aston_martin_vulcan",
-  "status": "in progress",
-  "message": "Still adding data",
-  "sources": ["MEI"],
   "Rarity": "Rare",
   "Stars": 4,
-  "Gold_Max_Rank": 3012,
   "Epics": 8,
   "ObtainableVia": "GL07",
   "Garage_Lvl": 7,
+  "Gold_Max_Rank": 3012,
   "Gold_Top_Speed": 343.5,
   "Gold_Acceleration": 78.7,
   "Gold_Handling": 47.8,
   "Gold_Nitro": 64.79,
   "Nitro_TS": null,
-  "Unnamed: 16": "357,2",
   "Perfect_Nitro_TS": null,
   "Added": "Soft Launch",
   "Added_With": null,
@@ -31,5 +27,11 @@
   "BPs_1_Star": 45,
   "BPs_2_Star": 21,
   "BPs_3_Star": 28,
-  "BPs_4_Star": 42
+  "BPs_4_Star": 42,
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": [
+    "MEI"
+  ],
+  "Unnamed: 16": "357,2"
 }

@@ -1,0 +1,920 @@
+[
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\Acura\\C\\nsx2017.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\Acura\\C\\nsxGt3Evo.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\Ajlani\\Ajlani.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AlfaRomeo\\AlfaRomeo.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\Apex\\Apex.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\ApolloCars\\Apollo.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\Arash\\B\\af10.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\Arash\\B\\af8FalconEdition.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\Arash\\ClassS.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\Ares\\Ares.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\Arrinera\\Arrinera.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\Artega\\Artega.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\Aspark\\Aspark.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AstonMartin\\A\\dbsGTZagato.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AstonMartin\\A\\valhallaConceptCar.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AstonMartin\\A\\victor.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AstonMartin\\A\\vulcan.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AstonMartin\\B\\db11.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AstonMartin\\B\\db12.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AstonMartin\\B\\dbsSuperleggera.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AstonMartin\\B\\one77.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AstonMartin\\B\\valour.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AstonMartin\\B\\vantageGt12.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AstonMartin\\C\\v12Speedster.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AstonMartin\\D\\vantageV122022.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AstonMartin\\S\\valkyrie.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\ATSAutomobili\\ClassC.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\ATSAutomobili\\ClassS.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AutomobiliPininfarina\\A\\b95.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AutomobiliPininfarina\\A\\battistaEdizioneNinoFarina.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\A\\AutomobiliPininfarina\\ClassS.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\B\\Bentley\\ClassA.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\B\\Bentley\\ClassD.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\B\\BentleyMulliner\\BentleyMulliner.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\B\\BMW\\ClassB.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\B\\BMW\\ClassC.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\B\\BMW\\ClassD.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\B\\Bolwell\\Bolwell.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\B\\Brabham\\Brabham.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\B\\Bugatti\\ClassC.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\B\\Bugatti\\ClassS.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\B\\BXR\\BXR.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\C\\Cadillac\\Cadillac.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\C\\Chevrolet\\ClassA.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\C\\Chevrolet\\ClassB.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\C\\Chevrolet\\ClassC.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\C\\Chevrolet\\ClassD.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\C\\Chrysler\\Chrysler.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\C\\Citroën\\ClassA.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\C\\Citroën\\ClassC.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\C\\CZinger\\CZinger.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\D\\DeTomaso\\ClassA.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\D\\DeTomaso\\ClassC.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\D\\Deus\\Deus.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\D\\Devel\\Devel.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\D\\Dodge\\ClassA.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\D\\Dodge\\ClassC.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\D\\Dodge\\ClassD.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\D\\Donkervoort\\Donkervoort.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\D\\Drako\\Drako.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\D\\DSAutomobiles\\DSAutomobiles.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\E\\ExoticRides\\ExoticRides.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\FaradayFuture\\FaradayFuture.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ferrari\\ClassA.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ferrari\\ClassB.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ferrari\\ClassC.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ferrari\\ClassS.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ford\\A\\gtFrankieEdition.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ford\\A\\shelbySuperSnake.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ford\\A\\teamFordzillaP1.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ford\\B\\gt.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ford\\B\\gtMkII.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ford\\B\\gtMkIV.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ford\\B\\mustangRtrSpec510thAnniversary.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ford\\C\\shelbyGr1.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ford\\D\\mustangMachE1400.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ford\\D\\shelbyGt350R.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ford\\S\\mustangRtrSpec5Fd.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\FormulaE\\ClassB.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\FormulaE\\ClassC.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\FVFrangivento\\ClassA.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\FVFrangivento\\ClassB.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\FVFrangivento\\ClassS.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\G\\Genty\\Genty.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\G\\Ginetta\\Ginetta.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\G\\Glickenhaus\\ClassA.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\G\\Glickenhaus\\ClassB.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\G\\Glickenhaus\\ClassD.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\H\\Hennessey\\Hennessey.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\H\\Honda\\Honda.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\H\\HTT\\HTT.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\H\\Hyundai\\ClassD.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\H\\Hyundai\\ClassS.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\I\\Icona\\Icona.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\I\\InfernoAutomobili\\InfernoAutomobili.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\I\\Infiniti\\Infiniti.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\I\\Italdesign\\ClassB.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\I\\Italdesign\\ClassD.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\J\\Jaguar\\ClassA.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\J\\Jaguar\\ClassB.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\J\\Jaguar\\ClassC.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\J\\Jaguar\\ClassS.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\K\\Kepler\\Kepler.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\K\\Kimera\\Kimera.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\K\\Koenigsegg\\S\\ageraRS.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\K\\Koenigsegg\\S\\cc850.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\K\\Koenigsegg\\S\\ccxr.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\K\\Koenigsegg\\S\\gemera.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\K\\Koenigsegg\\S\\jesko.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\K\\Koenigsegg\\S\\jeskoAbsolut.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\K\\Koenigsegg\\S\\oneTo1.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\K\\Koenigsegg\\S\\regera.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\K\\KTM\\KTM.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\A\\aventadorJ.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\A\\aventadorSVCoupe.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\A\\aventadorSVJRoadster.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\A\\countachLPI800-4.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\A\\sc18.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\A\\sc20.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\B\\asterion.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\B\\essenzaSCV12.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\B\\huracanEVOSpyder.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\B\\huracanSTO.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\B\\invencible.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\B\\murcielagoLP640Roadster.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\B\\reventonRoadster.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\B\\revuelto.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\B\\sc63.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\B\\sestoElemento.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\B\\temerario.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\C\\diabloGT.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\C\\gallardoLP560-4.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\C\\miuraConcept.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\D\\countach25thAnniversary.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\D\\huracanSuperTrofeoEvo.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\S\\autentica.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\S\\centenario.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\S\\egoista.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\S\\sianFKP37.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\S\\terzoMillennio.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lamborghini\\S\\veneno.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\LegoTechnic\\ClassA.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\LegoTechnic\\ClassB.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lexus\\Lexus.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lotus\\ClassB.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lotus\\ClassC.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\L\\Lotus\\ClassD.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\Maserati\\ClassB.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\Maserati\\ClassC.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\Mazda\\Mazda.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\Mazzanti\\Mazzanti.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\McLaren\\ClassA.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\McLaren\\ClassB.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\McLaren\\ClassC.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\McLaren\\ClassS.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\McMurtry\\McMurtry.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\MercedesBenz\\ClassA.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\MercedesBenz\\ClassB.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\MercedesBenz\\ClassC.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\Mitsubishi\\Mitsubishi.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\Mosler\\Mosler.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\N\\Naran\\Naran.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\N\\Nio\\Nio.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\N\\Nissan\\ClassA.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\N\\Nissan\\ClassB.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\N\\Nissan\\ClassC.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\N\\Nissan\\ClassD.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\N\\Nissan\\ClassS.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\N\\Noble\\Noble.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Pagani\\A\\huayraBC.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Pagani\\A\\imola.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Pagani\\A\\utopiaCoupe.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Pagani\\A\\zondaCinque.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Pagani\\A\\zondaHPBarchetta.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Pagani\\A\\zondaR.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Pagani\\ClassB.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Peugeot\\ClassA.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Peugeot\\ClassD.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Pininfarina\\ClassC.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Pininfarina\\ClassS.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Porsche\\ClassA.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Porsche\\ClassB.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Porsche\\ClassC.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Porsche\\ClassD.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Praga\\ClassC.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Praga\\ClassD.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\P\\Puritalia\\Puritalia.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\R\\Raesr\\Raesr.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\R\\Renault\\ClassC.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\R\\Renault\\ClassD.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\R\\Rezvani\\Rezvani.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\R\\Rimac\\ClassA.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\R\\Rimac\\ClassS.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\S\\Saleen\\ClassC.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\S\\Saleen\\ClassS.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\S\\SIN\\SIN.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\S\\SpaniaGTA\\SpaniaGTA.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\S\\SSC\\SSC.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\T\\Techrules\\Techrules.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\T\\TorinoDesign\\TorinoDesign.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\T\\Toroidion\\Toroidion.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\T\\Toyota\\ClassB.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\T\\Toyota\\ClassD.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\T\\Trion\\Trion.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\T\\Tushek\\Tushek.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\T\\TVR\\ClassC.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\T\\TVR\\ClassD.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\U\\Ultima\\Ultima.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\V\\VandaElectrics\\VandaElectrics.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\V\\Vencer\\Vencer.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\V\\Vision\\Vision.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\V\\VLF\\VLF.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\V\\Volkswagen\\ClassB.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\V\\Volkswagen\\ClassD.json",
+    "status": "error",
+    "reason": "Array root with multiple entries (split file first)."
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\W\\WMotors\\S\\fenyrSuperSport.json",
+    "status": "changed"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\W\\WMotors\\S\\lykanHyperSport.json",
+    "status": "changed"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\W\\WMotors\\S\\lykanNeonEdition.json",
+    "status": "changed"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\Z\\Zenvo\\B\\tsrs.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\Z\\Zenvo\\S\\auroraTur.json",
+    "status": "ok"
+  },
+  {
+    "file": "F:\\CodingBackup\\Miscellaneous-Projects\\web-dev\\ALU-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\Z\\Zenvo\\S\\ts1GtAnniversaryEdition.json",
+    "status": "ok"
+  }
+]

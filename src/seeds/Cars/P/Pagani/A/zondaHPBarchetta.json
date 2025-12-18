@@ -7,16 +7,15 @@
   "Rarity": "Epic",
   "Stars": 5,
   "KeyCar": true,
-  "Gold_Max_Rank": 3678,
   "Epics": 12,
   "ObtainableVia": "Key Hunt",
   "Garage_Lvl": null,
+  "Gold_Max_Rank": 3678,
   "Gold_Top_Speed": 350.1,
   "Gold_Acceleration": 79.43,
   "Gold_Handling": 73.54,
   "Gold_Nitro": 73.67,
   "Nitro_TS": null,
-  "Unnamed: 16": "364,1",
   "Perfect_Nitro_TS": null,
   "Added": "Heatwave Season",
   "Added_With": "GP",
@@ -29,5 +28,6 @@
   "BPs_2_Star": 28,
   "BPs_3_Star": 32,
   "BPs_4_Star": 44,
-  "BPs_5_Star": 83
+  "BPs_5_Star": 83,
+  "Unnamed: 16": "364,1"
 }

@@ -6,7 +6,6 @@
   "Model": "Valkyrie",
   "Rarity": "Epic",
   "Stars": 6,
-  "Gold_Max_Rank": 4488,
   "Epics": 16,
   "ObtainableVia": null,
   "Garage_Lvl": 40,
@@ -25,12 +24,12 @@
   "Two_Star_Max_Acceleration": 75.05,
   "Two_Star_Max_Handling": 59.96,
   "Two_Star_Max_Nitro": 63.3,
+  "Gold_Max_Rank": 4488,
   "Gold_Top_Speed": 378.2,
   "Gold_Acceleration": 80.3,
   "Gold_Handling": 77.91,
   "Gold_Nitro": 76.7,
   "Nitro_TS": null,
-  "Unnamed: 16": "393,3",
   "Perfect_Nitro_TS": null,
   "Added": "European Season",
   "Added_With": "SE",
@@ -44,5 +43,6 @@
   "BPs_3_Star": 29,
   "BPs_4_Star": 38,
   "BPs_5_Star": 54,
-  "BPs_6_Star": 69
+  "BPs_6_Star": 69,
+  "Unnamed: 16": "393,3"
 }

@@ -7,16 +7,15 @@
   "Rarity": "Rare",
   "Stars": 4,
   "KeyCar": true,
-  "Gold_Max_Rank": 3178,
   "Epics": 8,
   "ObtainableVia": null,
   "Garage_Lvl": null,
-  "Gold_Top_Speed": 331.0,
+  "Gold_Max_Rank": 3178,
+  "Gold_Top_Speed": 331,
   "Gold_Acceleration": 78.23,
   "Gold_Handling": 56.43,
   "Gold_Nitro": 60.73,
   "Nitro_TS": null,
-  "Unnamed: 16": null,
   "Perfect_Nitro_TS": null,
   "Added": "Speed Parade/Haunted Wheels",
   "Added_With": "GP",
@@ -28,5 +27,6 @@
   "BPs_1_Star": 0,
   "BPs_2_Star": 35,
   "BPs_3_Star": 55,
-  "BPs_4_Star": 85
+  "BPs_4_Star": 85,
+  "Unnamed: 16": null
 }
