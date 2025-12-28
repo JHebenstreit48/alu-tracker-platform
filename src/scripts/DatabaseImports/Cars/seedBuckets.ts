@@ -8,7 +8,7 @@ import {
   cleanStatus,
 } from "./seedTypes";
 import { loadCarsFromFile } from "./seedLoadCars";
-import { resolveImagePath } from "@/scripts/DatabaseImports/Firebase/Images/seedImages";
+import { resolveImagePath } from "@/scripts/DatabaseImports/Images/seedImages";
 
 type BrandBucket = {
   docs: CarDoc[];
