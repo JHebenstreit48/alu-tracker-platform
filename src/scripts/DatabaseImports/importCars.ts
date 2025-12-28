@@ -5,12 +5,12 @@ import {
   isJson,
   isTsCollector,
   parseBrandAndClass,
-} from "@/scripts/DatabaseImports/Firebase/Cars/seedFs";
-import { logConfig } from "@/scripts/DatabaseImports/Firebase/Cars/seedConfig";
+} from "@/scripts/DatabaseImports/Cars/seedFs";
+import { logConfig } from "@/scripts/DatabaseImports/Cars/seedConfig";
 import {
   buildBuckets,
   applyBuckets,
-} from "@/scripts/DatabaseImports/Firebase/Cars/seedBuckets";
+} from "@/scripts/DatabaseImports/Cars/seedBuckets";
 
 try {
   // eslint-disable-next-line @typescript-eslint/no-var-requires

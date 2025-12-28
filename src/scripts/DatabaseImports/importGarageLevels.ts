@@ -17,18 +17,18 @@ try {
 import {
   logGarageLevelsConfig,
   ROOT_DIR,
-} from "@/scripts/DatabaseImports/Firebase/GarageLevels/seedConfig";
+} from "@/scripts/DatabaseImports/GarageLevels/seedConfig";
 import {
   getAllSeedFiles,
   isCollector,
   isPerLevelJson,
   parentFolderName,
-} from "@/scripts/DatabaseImports/Firebase/GarageLevels/seedFs";
-import { loadLevelsFromFile } from "@/scripts/DatabaseImports/Firebase/GarageLevels/seedLoadLevels";
+} from "@/scripts/DatabaseImports/GarageLevels/seedFs";
+import { loadLevelsFromFile } from "@/scripts/DatabaseImports/GarageLevels/seedLoadLevels";
 import {
   enhanceLevels,
   rel as relPath,
-} from "@/scripts/DatabaseImports/Firebase/GarageLevels/seedEnhance";
+} from "@/scripts/DatabaseImports/GarageLevels/seedEnhance";
 
 const LEGACY_FILE = path.join(ROOT_DIR, "GarageLevels.json");
 const COLL_NAME = "garagelevels"; // 1:1 with old GarageLevel collection
