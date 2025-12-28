@@ -1,7 +1,7 @@
 import {
   USE_FIREBASE_STORAGE_IMAGES,
   IMAGE_BASE_URL,
-} from "@/scripts/DatabaseImports/Firebase/Cars/seedConfig";
+} from "@/scripts/DatabaseImports/Cars/seedConfig";
 
 export function resolveImagePath(
   rel?: string | null

@@ -4,16 +4,16 @@ import { adminDb } from "@/Firebase/firebaseAdmin";
 
 import {
   logLegendStoreConfig,
-} from "@/scripts/DatabaseImports/Firebase/LegendStore/seedConfig";
+} from "@/scripts/DatabaseImports/LegendStore/seedConfig";
 import {
   getBlueprintFiles,
-} from "@/scripts/DatabaseImports/Firebase/LegendStore/seedFs";
+} from "@/scripts/DatabaseImports/LegendStore/seedFs";
 import {
   toBlueprintDoc,
-} from "@/scripts/DatabaseImports/Firebase/LegendStore/seedNormalize";
+} from "@/scripts/DatabaseImports/LegendStore/seedNormalize";
 import type {
   BlueprintSeed,
-} from "@/scripts/DatabaseImports/Firebase/LegendStore/seedTypes";
+} from "@/scripts/DatabaseImports/LegendStore/seedTypes";
 
 const COLL_NAME = "blueprints"; // 1:1 with old BlueprintPricesModel ("Blueprints")
 

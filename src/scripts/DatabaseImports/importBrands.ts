@@ -1,10 +1,10 @@
 import "dotenv/config";
 import { adminBucket } from "@/Firebase/firebaseAdmin";
-import { logConfig } from "@/scripts/DatabaseImports/Firebase/Cars/seedConfig";
+import { logConfig } from "@/scripts/DatabaseImports/Cars/seedConfig";
 import {
   buildBrandDocs,
   applyBrandDocs,
-} from "@/scripts/DatabaseImports/Firebase/Brands/seedBrands";
+} from "@/scripts/DatabaseImports/Brands/seedBrands";
 
 (async function main(): Promise<void> {
   console.log("🌱 Seeding brands/manufacturers into Firebase");

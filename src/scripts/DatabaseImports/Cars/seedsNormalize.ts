@@ -3,7 +3,7 @@ import path from "node:path";
 
 // IMPORTANT: path alias "@/..." won't work from plain node unless you run via ts-node + tsconfig-paths.
 // So for scripts, use a relative import:
-import { SEED_CAR_KEY_ORDER } from "@/scripts/DatabaseImports/Firebase/Cars/seedKeyOrder";
+import { SEED_CAR_KEY_ORDER } from "@/scripts/DatabaseImports/Cars/seedKeyOrder";
 
 const ROOT = path.resolve(process.cwd(), "src/seeds/Cars");
 const APPLY = process.argv.includes("--apply");
