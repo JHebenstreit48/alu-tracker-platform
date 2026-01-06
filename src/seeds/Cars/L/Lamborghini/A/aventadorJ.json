@@ -5,6 +5,8 @@
   "Brand": "Lamborghini",
   "Model": "Aventador J",
   "normalizedKey": "lamborghini_aventador_j",
+  "status": "in progress",
+  "message": "Still adding data from sources",
   "Rarity": "Epic",
   "Stars": 5,
   "Epics": 12,
@@ -29,7 +31,5 @@
   "BPs_3_Star": 27,
   "BPs_4_Star": 36,
   "BPs_5_Star": 51,
-  "status": "in progress",
-  "message": "Still adding data from sources",
   "Unnamed: 16": "378,4"
 }

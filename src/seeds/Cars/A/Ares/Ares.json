@@ -5,6 +5,11 @@
   "Brand": "Ares",
   "Model": "S1",
   "normalizedKey": "ares_s1",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": [
+    "MEI"
+  ],
   "Rarity": "Epic",
   "Stars": 5,
   "KeyCar": true,
@@ -30,10 +35,5 @@
   "BPs_3_Star": 32,
   "BPs_4_Star": 36,
   "BPs_5_Star": 41,
-  "status": "in progress",
-  "message": "Still adding data",
-  "sources": [
-    "MEI"
-  ],
   "Unnamed: 16": "320,1"
 }
