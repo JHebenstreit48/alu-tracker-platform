@@ -5,6 +5,11 @@
   "Brand": "Mitsubishi",
   "Model": "Lancer Evolution",
   "normalizedKey": "mitsubishi_lancer_evolution",
+  "status": "in progress",
+  "message": "(temporarily) Completed until I can new tables and data",
+  "sources": [
+    "MEI"
+  ],
   "Rarity": "Uncommon",
   "Stars": 3,
   "Epics": 0,
@@ -32,11 +37,6 @@
   "BPs_1_Star": 5,
   "BPs_2_Star": 8,
   "BPs_3_Star": 30,
-  "status": "in progress",
-  "message": "(temporarily) Completed until I can new tables and data",
-  "sources": [
-    "MEI"
-  ],
   "Two_Star_Stock_Rank": 1031,
   "Two_Star_Stock_Top_Speed": 262.4,
   "Two_Star_Stock_Acceleration": 50.21,
