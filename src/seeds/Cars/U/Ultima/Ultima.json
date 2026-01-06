@@ -5,6 +5,11 @@
   "Brand": "Ultima",
   "Model": "RS",
   "normalizedKey": "ultima_rs",
+  "status": "in progress",
+  "message": "Still missing data",
+  "sources": [
+    "MEI"
+  ],
   "Rarity": "Epic",
   "Stars": 6,
   "KeyCar": true,
@@ -63,10 +68,5 @@
   "BPs_3_Star": 45,
   "BPs_4_Star": 60,
   "BPs_5_Star": 70,
-  "BPs_6_Star": 85,
-  "status": "in progress",
-  "message": "Still missing data",
-  "sources": [
-    "MEI"
-  ]
+  "BPs_6_Star": 85
 }

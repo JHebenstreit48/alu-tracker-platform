@@ -5,12 +5,12 @@
   "Brand": "Automobili Pininfarina",
   "Model": "B95",
   "normalizedKey": "automobili_pininfarina_b95",
-  "Rarity": "Epic",
-  "Stars": 6,
-  "Country": "Italy",
   "status": "in progress",
   "message": "Still adding data.",
   "sources": [
     "MEI"
-  ]
+  ],
+  "Rarity": "Epic",
+  "Stars": 6,
+  "Country": "Italy"
 }

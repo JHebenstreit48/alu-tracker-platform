@@ -1,0 +1,16 @@
+{
+    "Id": 3,
+    "Image": "/images/cars/D/Dodge/chargerSrtHellcatRedeyeWidebody.jpg",
+    "Class": "C",
+    "Brand": "Dodge",
+    "Model": "Charger SRT® Hellcat Redeye Widebody",
+    "normalizedKey": "dodge_charger_srt_hellcat_redeye_widebody",
+    "status": "in progress",
+    "message": "Still adding data",
+    "sources": [
+        "My own research"
+    ],
+    "Rarity": "Epic",
+    "Stars": 5,
+    "ObtainableVia": "Drive Syndicate(DS)"
+}

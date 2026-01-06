@@ -5,6 +5,11 @@
   "Brand": "Arrinera",
   "Model": "Hussarya 33",
   "normalizedKey": "arrinera_hussarya_33",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": [
+    "MEI"
+  ],
   "Rarity": "Epic",
   "Stars": 5,
   "Epics": 8,
@@ -26,10 +31,5 @@
   "BPs_2_Star": 15,
   "BPs_3_Star": 21,
   "BPs_4_Star": 28,
-  "BPs_5_Star": 35,
-  "status": "in progress",
-  "message": "Still adding data",
-  "sources": [
-    "MEI"
-  ]
+  "BPs_5_Star": 35
 }

@@ -5,6 +5,11 @@
   "Brand": "ATS Automobili",
   "Model": "Corsa RRTurbo",
   "normalizedKey": "ats_automobili_corsa_rrturbo",
+  "status": "in progress",
+  "message": "Still adding data I have so far.",
+  "sources": [
+    "MEI"
+  ],
   "Rarity": "Rare",
   "Stars": 4,
   "KeyCar": true,
@@ -29,10 +34,5 @@
   "BPs_2_Star": 25,
   "BPs_3_Star": 38,
   "BPs_4_Star": 52,
-  "status": "in progress",
-  "message": "Still adding data I have so far.",
-  "sources": [
-    "MEI"
-  ],
   "Unnamed: 16": "334,6"
 }
