@@ -6,11 +6,11 @@
   "Model": "DS Survolt",
   "Rarity": "Rare",
   "Stars": 4,
+  "Country": "France",
   "Stock_Rank": 1538,
   "Stock_Top_Speed": 276,
   "Stock_Acceleration": 73,
   "Stock_Handling": 61.09,
   "Stock_Nitro": 49.86,
-  "Country": "France",
   "BPs_1_Star": 20
 }

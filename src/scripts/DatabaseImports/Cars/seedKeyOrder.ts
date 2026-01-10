@@ -11,10 +11,10 @@ export const SEED_CAR_KEY_ORDER = [
   'Rarity',
   'Stars',
   'KeyCar',
+  'Country',
 
   'Epics',
   'ObtainableVia',
-  'Garage_Lvl',
 
   'Stock_Rank',
   'Stock_Top_Speed',
@@ -64,17 +64,11 @@ export const SEED_CAR_KEY_ORDER = [
   'Gold_Handling',
   'Gold_Nitro',
 
-  'Nitro_TS',
-  'Perfect_Nitro_TS',
-
   'Added',
   'Added_With',
   'Added date',
   'Total upgrade cost',
   'Total GL points',
-
-  'Country',
-  'Tags',
 
   'BPs_1_Star',
   'BPs_2_Star',
@@ -82,4 +76,4 @@ export const SEED_CAR_KEY_ORDER = [
   'BPs_4_Star',
   'BPs_5_Star',
   'BPs_6_Star',
-]; /* no as const needed */
+];

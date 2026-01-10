@@ -12,9 +12,9 @@
   ],
   "Rarity": "Epic",
   "Stars": 5,
+  "Country": "Poland",
   "Epics": 8,
   "ObtainableVia": "GL13",
-  "Garage_Lvl": 14,
   "Gold_Max_Rank": 3897,
   "Gold_Top_Speed": 352.1,
   "Gold_Acceleration": 78.53,
@@ -25,11 +25,11 @@
   "Added date": "27/07/2019",
   "Total upgrade cost": null,
   "Total GL points": null,
-  "Country": "Poland",
-  "Tags": "Europe",
   "BPs_1_Star": 35,
   "BPs_2_Star": 15,
   "BPs_3_Star": 21,
   "BPs_4_Star": 28,
-  "BPs_5_Star": 35
+  "BPs_5_Star": 35,
+  "Garage_Lvl": 14,
+  "Tags": "Europe"
 }

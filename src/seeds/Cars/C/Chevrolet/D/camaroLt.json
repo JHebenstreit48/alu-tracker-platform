@@ -6,9 +6,9 @@
   "Model": "Camaro LT",
   "Rarity": "Uncommon",
   "Stars": 3,
+  "Country": "USA",
   "Epics": 0,
   "ObtainableVia": "GL01",
-  "Garage_Lvl": 1,
   "Stock_Rank": 556,
   "Stock_Top_Speed": 265,
   "Stock_Acceleration": 51.4,
@@ -29,13 +29,13 @@
   "Gold_Acceleration": 64.81,
   "Gold_Handling": 48.39,
   "Gold_Nitro": 63.29,
-  "Nitro_TS": "296,0",
   "Added": "Soft Launch",
   "Added_With": null,
   "Added date": "26/02/2018",
-  "Country": "USA",
-  "Tags": "Muscle",
   "BPs_1_Star": 5,
   "BPs_2_Star": 12,
-  "BPs_3_Star": 30
+  "BPs_3_Star": 30,
+  "Garage_Lvl": 1,
+  "Nitro_TS": "296,0",
+  "Tags": "Muscle"
 }
