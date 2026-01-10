@@ -6,6 +6,7 @@
   "Model": "Super GT",
   "Rarity": "Epic",
   "Stars": 6,
+  "Country": "USA",
   "Stock_Rank": 3944,
   "Stock_Top_Speed": 491,
   "Stock_Acceleration": 78.4,
@@ -15,6 +16,5 @@
   "Gold_Top_Speed": 506.7,
   "Gold_Acceleration": 83.27,
   "Gold_Handling": 49.79,
-  "Gold_Nitro": 44.54,
-  "Country": "USA"
+  "Gold_Nitro": 44.54
 }

@@ -7,6 +7,7 @@
   "Rarity": "Epic",
   "Stars": 5,
   "KeyCar": true,
+  "Country": "Denmark",
   "Stock_Rank": 2021,
   "Stock_Top_Speed": 325,
   "Stock_Acceleration": 74.8,
@@ -22,11 +23,10 @@
   "Added date": "01/06/2021",
   "Total upgrade cost": null,
   "Total GL points": null,
-  "Country": "Denmark",
-  "Tags": "Europe; Hybrid",
   "BPs_1_Star": 0,
   "BPs_2_Star": 26,
   "BPs_3_Star": 34,
   "BPs_4_Star": 40,
-  "BPs_5_Star": 62
+  "BPs_5_Star": 62,
+  "Tags": "Europe; Hybrid"
 }

@@ -7,6 +7,7 @@
   "Rarity": "Epic",
   "Stars": 5,
   "KeyCar": true,
+  "Country": "Italy",
   "ObtainableVia": "Special Events",
   "Stock_Rank": 2555,
   "Stock_Top_Speed": 340,
@@ -43,12 +44,11 @@
   "Added date": "30/05/2022",
   "Total upgrade cost": null,
   "Total GL points": null,
-  "Country": "Italy",
-  "Tags": "Europe",
   "BPs_1_Star": 0,
   "BPs_2_Star": 26,
   "BPs_3_Star": 34,
   "BPs_4_Star": 40,
   "BPs_5_Star": 62,
+  "Tags": "Europe",
   "Unnamed: 16": "370,6"
 }
