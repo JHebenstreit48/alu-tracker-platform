@@ -6,12 +6,12 @@
   "Model": "Mustang RTR Spec 5-FD",
   "Rarity": "Epic",
   "Stars": 6,
+  "Country": "USA",
   "Stock_Rank": 3525,
   "Stock_Top_Speed": 403,
   "Stock_Acceleration": 73.9,
   "Stock_Handling": 46.04,
   "Stock_Nitro": 58.48,
-  "Country": "USA",
   "BPs_1_Star": null,
   "BPs_2_Star": 40,
   "BPs_3_Star": null
