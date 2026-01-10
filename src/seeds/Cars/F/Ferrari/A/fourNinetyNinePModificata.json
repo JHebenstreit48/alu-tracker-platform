@@ -1,0 +1,16 @@
+{
+    "Id": 7,
+    "Image": "/images/cars/F/Ferrari/499pmodificata.jpg",
+    "Class": "A",
+    "Brand": "Ferrari",
+    "Model": "499P Modificata",
+    "Rarity": "Epic",
+    "Stars": 6,
+    "Stock_Rank": 3277,
+    "Stock_Top_Speed": 340,
+    "Stock_Acceleration": 75.7,
+    "Stock_Handling": 51.89,
+    "Stock_Nitro": 51.64,
+    "Gold_Max_Rank": 4572,
+    "Gold_Top_Speed": 358.6
+  }
