@@ -1,0 +1,20 @@
+{
+  "Id": 2,
+  "Image": "/images/cars/L/LegoTechnic/astonmartinvalkyrie.jpg",
+  "Class": "A",
+  "Brand": "LEGO Technic",
+  "Model": "Aston Martin Valkyrie",
+  "normalizedKey": "lego_technic_aston_martin_valkyrie",
+  "Rarity": "Epic",
+  "Stars": 5,
+  "Stock_Rank": 2663,
+  "Stock_Top_Speed": 361.5,
+  "Stock_Acceleration": 73.82,
+  "Stock_Handling": 51.77,
+  "Stock_Nitro": 45.46,
+  "BPs_1_Star": "Unknown",
+  "BPs_2_Star": "Unknown",
+  "BPs_3_Star": "Unknown",
+  "BPs_4_Star": "Unknown",
+  "BPs_5_Star": "Unknown"
+}
