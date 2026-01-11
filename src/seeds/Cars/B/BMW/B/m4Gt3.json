@@ -1,5 +1,5 @@
 {
-  "Id": 5,
+  "Id": 1,
   "Image": "/images/cars/B/BMW/m4gt3.jpg",
   "Class": "B",
   "Brand": "BMW",
@@ -22,10 +22,5 @@
   "BPs_1_Star": 55,
   "BPs_2_Star": 35,
   "BPs_3_Star": 44,
-  "BPs_4_Star": 54,
-  "Garage_Lvl": null,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": null,
-  "Unnamed: 16": "346,6"
+  "BPs_4_Star": 54
 }
