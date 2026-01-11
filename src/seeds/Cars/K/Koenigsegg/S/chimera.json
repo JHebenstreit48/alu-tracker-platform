@@ -1,0 +1,17 @@
+{
+  "Id": 9,
+  "Image": "/images/cars/K/Koenigsegg/chimera.jpg",
+  "Class": "S",
+  "Brand": "Koenigsegg",
+  "Model": "Chimera",
+  "normalizedKey": "koenigsegg_chimera",
+  "status": "in progress",
+  "message": "Still missing data",
+  "Rarity": "Epic",
+  "Stars": 6,
+  "KeyCar": true,
+  "Country": "Sweden",
+  "Stock_Rank": 4167,
+  "BPs_1_Star": 0,
+  "BPs_2_Star": 45
+}

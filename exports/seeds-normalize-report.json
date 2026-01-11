@@ -271,11 +271,11 @@
   },
   {
     "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ferrari\\A\\eightTwelveSuperfast.json",
-    "status": "changed"
+    "status": "ok"
   },
   {
     "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ferrari\\A\\f8Tributo.json",
-    "status": "changed"
+    "status": "ok"
   },
   {
     "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ferrari\\A\\fourNinetyNinePModificata.json",
@@ -283,19 +283,19 @@
   },
   {
     "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ferrari\\A\\j50.json",
-    "status": "changed"
+    "status": "ok"
   },
   {
     "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ferrari\\A\\laFerrari.json",
-    "status": "changed"
+    "status": "ok"
   },
   {
     "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ferrari\\A\\laFerrariAperta.json",
-    "status": "changed"
+    "status": "ok"
   },
   {
     "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ferrari\\A\\sf90XxStradale.json",
-    "status": "changed"
+    "status": "ok"
   },
   {
     "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\F\\Ferrari\\ClassB.json",
@@ -718,6 +718,26 @@
     "status": "ok"
   },
   {
+    "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\MercedesBenz\\C\\amgGtBlackSeries.json",
+    "status": "changed"
+  },
+  {
+    "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\MercedesBenz\\C\\amgGtS.json",
+    "status": "changed"
+  },
+  {
+    "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\MercedesBenz\\C\\c63AmgDtm.json",
+    "status": "ok"
+  },
+  {
+    "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\MercedesBenz\\C\\clkGtr.json",
+    "status": "changed"
+  },
+  {
+    "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\MercedesBenz\\C\\TwentyTwentyTwoShowcarVisionAMG.json",
+    "status": "changed"
+  },
+  {
     "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\MercedesBenz\\ClassA.json",
     "status": "error",
     "reason": "Array root with multiple entries (split file first)."
@@ -725,11 +745,6 @@
   {
     "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\MercedesBenz\\ClassB.json",
     "status": "ok"
-  },
-  {
-    "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\MercedesBenz\\ClassC.json",
-    "status": "error",
-    "reason": "Array root with multiple entries (split file first)."
   },
   {
     "file": "C:\\Users\\jhebe\\Documents\\Coding\\Miscellaneous-Projects\\AL-Tracker-Project\\alu-tracker-platform\\src\\seeds\\Cars\\M\\Mitsubishi\\Mitsubishi.json",
