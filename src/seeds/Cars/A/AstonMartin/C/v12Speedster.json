@@ -1,5 +1,5 @@
 {
-  "Id": 2,
+  "Id": 1,
   "Image": "/images/cars/A/AstonMartin/v12speedster.jpg",
   "Class": "C",
   "Brand": "Aston Martin",
@@ -23,9 +23,5 @@
   "BPs_2_Star": 29,
   "BPs_3_Star": 38,
   "BPs_4_Star": 48,
-  "Garage_Lvl": 42,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": "Europe",
-  "Unnamed: 16": "312,3"
+  "Garage_Lvl": 42
 }
