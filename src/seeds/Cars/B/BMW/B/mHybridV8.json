@@ -1,0 +1,14 @@
+{
+    "Id": 2,
+    "Image": "/images/cars/B/BMW/mhybridv8.jpg",
+    "Class": "B",
+    "Brand": "BMW",
+    "Model": "M Hybrid V8",
+    "normalizedKey": "bmw_m_hybrid_v8",
+    "Rarity": "Epic",
+    "Stars": 5,
+    "KeyCar": true,
+    "Country": "Germany",
+    "BPs_1_Star": 0,
+    "BPs_2_Star": 35
+}

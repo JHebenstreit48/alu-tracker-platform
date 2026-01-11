@@ -1,0 +1,19 @@
+{
+    "Id": 2,
+    "Image": "/images/cars/A/AstonMartin/dbs770ultimate.jpg",
+    "Class": "C",
+    "Brand": "Aston Martin",
+    "Model": "DBS 770 Ultimate",
+    "normalizedKey": "aston_martin_dbs_770_ultimate",
+    "status": "in progress",
+    "message": "Still missing data",
+    "sources": [
+        "My own research"
+    ],
+    "Rarity": "Epic",
+    "Stars": 5,
+    "KeyCar": true,
+    "Country": "UK",
+    "BPs_1_Star": 0,
+    "BPs_2_Star": 30
+}
