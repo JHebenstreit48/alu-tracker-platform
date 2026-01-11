@@ -1,0 +1,30 @@
+{
+  "Id": 1,
+  "Image": "/images/cars/L/LegoTechnic/mclarensennagtr.jpg",
+  "Class": "A",
+  "Brand": "LEGO Technic",
+  "Model": "McLaren Senna GTR",
+  "normalizedKey": "lego_technic_mclaren_senna_gtr",
+  "status": "still missing/adding data",
+  "message": "I cannot find any data thus far on this car in any source.",
+  "sources": [
+    ""
+  ],
+  "Rarity": "Epic",
+  "Stars": 5,
+  "KeyCar": true,
+  "Country": "UK",
+  "Epics": null,
+  "ObtainableVia": null,
+  "Gold_Max_Rank": 3846,
+  "Gold_Top_Speed": 349.8,
+  "Gold_Acceleration": 82.43,
+  "Gold_Handling": 79.32,
+  "Gold_Nitro": 65.28,
+  "BPs_1_Star": 0,
+  "BPs_2_Star": 0,
+  "BPs_3_Star": 0,
+  "BPs_4_Star": 0,
+  "BPs_5_Star": 0,
+  "Garage_Lvl": null
+}
