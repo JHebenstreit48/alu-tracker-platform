@@ -75,15 +75,17 @@ router.post("/", async (req: Request, res: Response) => {
 
     const now = FieldValue.serverTimestamp();
 
+    const userAgent =
+      typeof req.headers["user-agent"] === "string"
+        ? req.headers["user-agent"]
+        : undefined;
+
     const toSave: Omit<FeedbackDoc, "createdAt" | "updatedAt"> & {
       createdAt: typeof now;
       updatedAt: typeof now;
     } = {
       ...data,
-      userAgent:
-        typeof req.headers["user-agent"] === "string"
-          ? req.headers["user-agent"]
-          : undefined,
+      userAgent,
       status: "new",
       createdAt: now,
       updatedAt: now,
@@ -98,45 +100,58 @@ router.post("/", async (req: Request, res: Response) => {
   }
 });
 
-// GET /api/feedback/public?status=triaged
+// GET /api/feedback/public?mode=recent|all OR ?status=new,triaged
 router.get("/public", async (req: Request, res: Response) => {
   try {
-    const statusParam = (req.query.status as string | undefined) ?? "triaged";
+    const mode = (req.query.mode as string | undefined)?.trim();
+
+    // Frontend uses mode=recent|all; map to statuses
+    let statusParam = (req.query.status as string | undefined) ?? "triaged";
+
+    if (mode === "all") {
+      statusParam = "new,triaged,closed";
+    } else if (mode === "recent") {
+      statusParam = "new,triaged";
+    }
 
     const allStatuses: FeedbackStatus[] = ["new", "triaged", "closed"];
     const requested = statusParam
       .split(",")
       .map((s) => s.trim())
-      .filter((s): s is FeedbackStatus =>
-        allStatuses.includes(s as FeedbackStatus)
-      );
+      .filter((s): s is FeedbackStatus => {
+        return allStatuses.includes(s as FeedbackStatus);
+      });
 
     const useStatuses =
       requested.length > 0 ? requested : (["triaged"] as FeedbackStatus[]);
 
+    // Simple query (no composite index needed). Filter statuses in memory.
     const snap = await adminDb
       .collection(COLL)
-      .where("status", "in", useStatuses)
       .orderBy("createdAt", "desc")
-      .limit(100)
+      .limit(200)
       .get();
 
-    const items = snap.docs.map((doc) => {
-      const fb = doc.data() as FeedbackDoc;
-      return {
-        _id: doc.id,
-        category: fb.category,
-        message: fb.message,
-        pageUrl: fb.pageUrl,
-        status: fb.status,
-        createdAt: fb.createdAt.toDate().toISOString(),
-      };
-    });
+    const items = snap.docs
+      .map((doc) => {
+        const fb = doc.data() as FeedbackDoc;
+        return {
+          _id: doc.id,
+          category: fb.category,
+          message: fb.message,
+          pageUrl: fb.pageUrl,
+          status: fb.status,
+          createdAt: fb.createdAt.toDate().toISOString(),
+        };
+      })
+      .filter((i) => useStatuses.includes(i.status))
+      .slice(0, 100);
 
     res.json(ok({ items }));
   } catch (e) {
     console.error("[feedback] GET /public error", e);
-    res.status(500).json(err("SERVER_ERROR", "Unexpected error"));
+    const msg = e instanceof Error ? e.message : String(e);
+    res.status(500).json(err("SERVER_ERROR", msg));
   }
 });
 
