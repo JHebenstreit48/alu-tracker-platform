@@ -7,16 +7,12 @@
   "normalizedKey": "acura_2017_nsx",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": [
-    "MEI"
-  ],
+  "sources": ["MEI"],
   "Rarity": "Rare",
   "Stars": 4,
   "Country": "Japan",
   "Epics": 4,
-  "ObtainableVia": [
-    "GL09"
-  ],
+  "ObtainableVia": ["GL09"],
   "Gold_Max_Rank": 3199,
   "Gold_Top_Speed": 323.5,
   "Gold_Acceleration": 84.32,
