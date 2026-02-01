@@ -7,9 +7,7 @@
   "normalizedKey": "acura_nsx_gt3_evo",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": [
-    "MEI"
-  ],
+  "sources": ["MEI"],
   "Rarity": "Epic",
   "Stars": 5,
   "KeyCar": true,

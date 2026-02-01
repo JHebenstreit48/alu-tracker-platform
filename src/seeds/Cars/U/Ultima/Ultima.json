@@ -7,9 +7,7 @@
   "normalizedKey": "ultima_rs",
   "status": "in progress",
   "message": "temporarily complete",
-  "sources": [
-    "MEI"
-  ],
+  "sources": ["MEI"],
   "Rarity": "Epic",
   "Stars": 6,
   "KeyCar": true,
