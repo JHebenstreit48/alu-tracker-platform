@@ -1,0 +1,20 @@
+{
+  "Id": 5,
+  "Image": "/images/cars/P/Porsche/911turbo50years.jpg",
+  "Class": "B",
+  "Brand": "Porsche",
+  "Model": "911 Turbo 50 Years",
+  "Rarity": "Rare",
+  "Stars": 4,
+  "Country": "Germany",
+  "Stock_Rank": 2193,
+  "Stock_Top_Speed": 330,
+  "Stock_Acceleration": 75.7,
+  "Stock_Handling": 32.47,
+  "Stock_Nitro": 34.91,
+  "Gold_Max_Rank": 3495,
+  "Gold_Top_Speed": 343.5,
+  "Gold_Acceleration": 82.94,
+  "Gold_Handling": 53.72,
+  "Gold_Nitro": 59.39
+}
