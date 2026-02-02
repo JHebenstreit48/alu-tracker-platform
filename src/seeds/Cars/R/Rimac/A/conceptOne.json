@@ -4,6 +4,9 @@
   "Class": "A",
   "Brand": "Rimac",
   "Model": "Concept_One",
+  "normalizedKey": "rimac_concept_one",
+  "status": "in progress",
+  "message": "still adding data",
   "Rarity": "Epic",
   "Stars": 6,
   "Country": "Croatia",
@@ -17,8 +20,6 @@
   "Added": "Electric Season",
   "Added_With": "SE",
   "Added date": "23/09/2021",
-  "Total upgrade cost": null,
-  "Total GL points": null,
   "BPs_1_Star": 70,
   "BPs_2_Star": 23,
   "BPs_3_Star": 27,
@@ -26,8 +27,5 @@
   "BPs_5_Star": 52,
   "BPs_6_Star": 59,
   "Garage_Lvl": 56,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": "Electric; Europe; Super Car",
-  "Unnamed: 16": "383,2"
+  "Tags": "Electric; Europe; Super Car"
 }
