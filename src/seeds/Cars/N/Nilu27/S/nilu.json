@@ -1,0 +1,16 @@
+{
+  "Id": 1,
+  "Image": "/images/cars/N/Nilu27/nilu.jpg",
+  "Class": "S",
+  "Brand": "Nilu27",
+  "Model": "Nilu",
+  "normalizedKey": "nilu27_nilu",
+  "status": "in progress",
+  "message": "still adding and missing data",
+  "sources": ["MEI", "My own research"],
+  "Rarity": "Epic",
+  "Stars": 6,
+  "Country": "USA",
+  "Stock_Rank": 3122,
+  "BPs_1_Star": 35
+}

@@ -1,0 +1,20 @@
+{
+  "Id": 3,
+  "Image": "/images/cars/L/LegoTechnic/bmwm4gt3evo.jpg",
+  "Class": "B",
+  "Brand": "LEGO Technic",
+  "Model": "BMW M4 GT3 Evo",
+  "normalizedKey": "lego_technic_bmw_m4_gt3_evo",
+  "status": "in progress",
+  "message": "Still adding and missing data.",
+  "sources": ["My own research"],
+  "Rarity": "Epic",
+  "Stars": 5,
+  "Country": "Germany",
+  "Stock_Rank": 2487,
+  "Stock_Top_Speed": 320,
+  "Stock_Acceleration": 69.4,
+  "Stock_Handling": 56.88,
+  "Stock_Nitro": 55.2,
+  "BPs_1_Star": 25
+}

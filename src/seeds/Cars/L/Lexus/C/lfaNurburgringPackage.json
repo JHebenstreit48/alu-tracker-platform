@@ -1,0 +1,20 @@
+{
+  "Id": 1,
+  "Image": "/images/cars/L/Lexus/lfanurburgringpackage.jpg",
+  "Class": "C",
+  "Brand": "Lexus",
+  "Model": "LFA Nürburgring Package",
+  "normalizedKey": "lexus_lfa_nurburgring_package",
+  "status": "in progress",
+  "message": "Still adding and missing data.",
+  "sources": ["My own research"],
+  "Rarity": "Epic",
+  "Stars": 5,
+  "Country": "Japan",
+  "Stock_Rank": 2106,
+  "Stock_Top_Speed": 325,
+  "Stock_Acceleration": 67.6,
+  "Stock_Handling": 43,
+  "Stock_Nitro": 30.67,
+  "BPs_1_Star": 20
+}
