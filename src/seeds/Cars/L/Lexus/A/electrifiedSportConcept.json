@@ -7,9 +7,7 @@
   "normalizedKey": "lexus_electrified_sport_concept",
   "status": "in progress",
   "message": "Still adding data I have so far.",
-  "sources": [
-    "MEI"
-  ],
+  "sources": ["MEI"],
   "Rarity": "Epic",
   "Stars": 6,
   "Country": "Japan",
