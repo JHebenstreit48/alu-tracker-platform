@@ -1,0 +1,20 @@
+{
+  "Id": 1,
+  "Image": "/images/cars/T/Toyota/grsupra2023.jpg",
+  "Brand": "Toyota",
+  "Model": "GR Supra 2023",
+  "Class": "D",
+  "Stars": 4,
+  "Country": "Japan",
+  "Rarity": "Rare",
+  "ObtainableVia": "Season Pass",
+  "Stock_Rank": 742,
+  "Stock_Top_Speed": 250,
+  "Stock_Acceleration": 64.9,
+  "Stock_Handling": 45.09,
+  "Stock_Nitro": 32.14,
+  "BPs_1_Star": 15,
+  "BPs_2_Star": 25,
+  "BPs_3_Star": 35,
+  "BPs_4_Star": 50
+}

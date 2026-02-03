@@ -8,7 +8,7 @@
   "Stars": 4,
   "Country": "UK",
   "Epics": 4,
-  "ObtainableVia": "GL05",
+  "ObtainableVia": ["Garage Level 5"],
   "Gold_Max_Rank": 2751,
   "Gold_Top_Speed": 338.7,
   "Gold_Acceleration": 69.28,
@@ -17,15 +17,9 @@
   "Added": "Tune It Up",
   "Added_With": null,
   "Added date": "27/07/2019",
-  "Total upgrade cost": null,
-  "Total GL points": null,
   "BPs_1_Star": 30,
   "BPs_2_Star": 23,
   "BPs_3_Star": 33,
   "BPs_4_Star": 42,
-  "Garage_Lvl": 5,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": "Europe",
-  "Unnamed: 16": "352,2"
+  "Tags": "Europe"
 }
