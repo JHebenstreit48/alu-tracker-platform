@@ -4,11 +4,15 @@
   "Class": "C",
   "Brand": "Saleen",
   "Model": "S1",
+  "normalizedKey": "saleen_s1",
+  "status": "in progress",
+  "message": "still adding data",
+  "sources": ["MEI"],
   "Rarity": "Rare",
   "Stars": 4,
   "Country": "USA",
   "Epics": 4,
-  "ObtainableVia": "Showroom",
+  "ObtainableVia": ["Showroom", "Garage Level 24"],
   "Gold_Max_Rank": 3144,
   "Gold_Top_Speed": 305.3,
   "Gold_Acceleration": 76.74,
@@ -23,9 +27,5 @@
   "BPs_2_Star": 29,
   "BPs_3_Star": 38,
   "BPs_4_Star": 48,
-  "Garage_Lvl": 24,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": "326,0",
-  "Tags": "Super Car",
-  "Unnamed: 16": "317,5"
+  "Tags": "Super Car"
 }

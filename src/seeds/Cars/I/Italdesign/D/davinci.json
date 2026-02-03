@@ -8,7 +8,7 @@
   "Stars": 4,
   "Country": "Italy",
   "Epics": 4,
-  "ObtainableVia": null,
+  "ObtainableVia": ["Garage Level 41"],
   "Gold_Max_Rank": 2217,
   "Gold_Top_Speed": 278.3,
   "Gold_Acceleration": 83.53,
@@ -17,15 +17,9 @@
   "Added": "Italian Season",
   "Added_With": "MP 1v1",
   "Added date": "08/04/2021",
-  "Total upgrade cost": null,
-  "Total GL points": null,
   "BPs_1_Star": 30,
   "BPs_2_Star": 23,
   "BPs_3_Star": 33,
   "BPs_4_Star": 42,
-  "Garage_Lvl": 41,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": "Electric; Europe",
-  "Unnamed: 16": "289,4"
+  "Tags": "Electric; Europe"
 }
