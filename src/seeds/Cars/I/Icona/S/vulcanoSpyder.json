@@ -1,0 +1,18 @@
+{
+  "Id": 2,
+  "Image": "/images/cars/I/Icona/vulcanospyder.jpg",
+  "Class": "S",
+  "Brand": "Icona",
+  "Model": "Vulcano Spyder",
+  "Rarity": "Epic",
+  "Stars": 6,
+  "Country": "Italy",
+  "ObtainableVia": [""],
+  "Gold_Max_Rank": "unknown",
+  "Gold_Top_Speed": "unknown",
+  "Gold_Acceleration": "unknown",
+  "Gold_Handling": "unknown",
+  "Gold_Nitro": "unknown",
+  "Added date": "03/02/2026",
+  "BPs_1_Star": 35
+}
