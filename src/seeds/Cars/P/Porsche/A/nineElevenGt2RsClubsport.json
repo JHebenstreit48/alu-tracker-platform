@@ -4,6 +4,7 @@
   "Class": "A",
   "Brand": "Porsche",
   "Model": "911 GT2 RS Clubsport",
+  "normalizedKey": "porsche_911_gt2_rs_clubsport",
   "Rarity": "Epic",
   "Stars": 6,
   "KeyCar": true,
