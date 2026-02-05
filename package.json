@@ -7,6 +7,8 @@
     "start": "ts-node -r tsconfig-paths/register src/server.ts",
     "dev": "ts-node -r tsconfig-paths/register src/server.ts",
     "seed:cars": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCars.ts",
+    "seed:cars:selected": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCarsSelected.ts",
+
     "seed:images": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCarImages.ts",
     "seed:brands": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importBrands.ts",
     "seed:garage-levels": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importGarageLevelsFirebase.ts",
