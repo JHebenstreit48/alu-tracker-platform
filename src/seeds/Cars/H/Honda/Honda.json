@@ -8,7 +8,7 @@
   "Stars": 4,
   "Country": "Japan",
   "Epics": 4,
-  "ObtainableVia": "Showroom",
+  "ObtainableVia": ["Showroom"],
   "Gold_Max_Rank": 2698,
   "Gold_Top_Speed": 285.3,
   "Gold_Acceleration": 82.09,

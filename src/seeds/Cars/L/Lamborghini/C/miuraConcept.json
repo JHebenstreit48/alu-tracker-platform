@@ -9,7 +9,7 @@
   "KeyCar": true,
   "Country": "Italy",
   "Epics": 8,
-  "ObtainableVia": "Showroom",
+  "ObtainableVia": ["Showroom"],
   "Stock_Rank": 1864,
   "Stock_Top_Speed": 330,
   "Stock_Acceleration": 65.8,

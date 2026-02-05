@@ -14,7 +14,7 @@
   "Stars": 6,
   "Country": "Italy",
   "Epics": 16,
-  "ObtainableVia": "Special Events",
+  "ObtainableVia": ["Special Events"],
   "Stock_Rank": 3078,
   "Stock_Top_Speed": 380,
   "Stock_Acceleration": 76.6,

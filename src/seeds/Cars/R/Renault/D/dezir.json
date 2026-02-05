@@ -11,7 +11,7 @@
   "Stars": 4,
   "Country": "France",
   "Epics": 4,
-  "ObtainableVia": "Showroom",
+  "ObtainableVia": ["Showroom"],
   "Gold_Max_Rank": 2213,
   "Gold_Top_Speed": 293.2,
   "Gold_Acceleration": 65.56,

@@ -8,7 +8,7 @@
   "Stars": 4,
   "Country": "Italy",
   "Epics": 8,
-  "ObtainableVia": "Daily Missions",
+  "ObtainableVia": ["Daily Missions"],
   "Gold_Max_Rank": 2983,
   "Gold_Top_Speed": 336.8,
   "Gold_Acceleration": 81.05,

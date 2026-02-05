@@ -8,7 +8,7 @@
   "Stars": 6,
   "Country": "Sweden",
   "Epics": 16,
-  "ObtainableVia": "GL17",
+  "ObtainableVia": ["GL17"],
   "Gold_Max_Rank": 4616,
   "Gold_Top_Speed": 457.1,
   "Gold_Acceleration": 80.88,

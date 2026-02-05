@@ -8,7 +8,7 @@
   "Stars": 6,
   "Country": "France",
   "Epics": 16,
-  "ObtainableVia": "GL18",
+  "ObtainableVia": ["GL18"],
   "Gold_Max_Rank": 4310,
   "Gold_Top_Speed": 371.7,
   "Gold_Acceleration": 82.93,

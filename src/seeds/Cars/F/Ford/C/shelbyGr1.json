@@ -8,7 +8,7 @@
   "Stars": 4,
   "Country": "USA",
   "Epics": 4,
-  "ObtainableVia": "TC",
+  "ObtainableVia": ["TC"],
   "Gold_Max_Rank": 2909,
   "Gold_Top_Speed": 321.7,
   "Gold_Acceleration": 75.32,

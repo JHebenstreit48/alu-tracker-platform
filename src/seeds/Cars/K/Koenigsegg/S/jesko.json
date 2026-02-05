@@ -9,7 +9,7 @@
   "KeyCar": true,
   "Country": "Sweden",
   "Epics": 16,
-  "ObtainableVia": "Clash Store (obsolete)",
+  "ObtainableVia": ["Clash Store (obsolete)"],
   "Gold_Max_Rank": 4826,
   "Gold_Top_Speed": 496.6,
   "Gold_Acceleration": 80.07,

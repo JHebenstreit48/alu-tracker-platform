@@ -8,7 +8,7 @@
   "Stars": 4,
   "Country": "UK",
   "Epics": 4,
-  "ObtainableVia": "GL04 / Multiplayer",
+  "ObtainableVia": ["GL04 / Multiplayer"],
   "Gold_Max_Rank": 2646,
   "Gold_Top_Speed": 290.7,
   "Gold_Acceleration": 71.51,

@@ -9,7 +9,7 @@
   "Stars": 5,
   "Country": "UAE",
   "Epics": 12,
-  "ObtainableVia": "GL15",
+  "ObtainableVia": ["GL15"],
   "Gold_Max_Rank": 4083,
   "Gold_Top_Speed": 407.5,
   "Gold_Acceleration": 80.48,

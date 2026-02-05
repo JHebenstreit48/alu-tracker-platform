@@ -8,7 +8,7 @@
   "Stars": 3,
   "Country": "Japan",
   "Epics": 0,
-  "ObtainableVia": "TC",
+  "ObtainableVia": ["TC"],
   "Stock_Rank": 311,
   "Gold_Max_Rank": 1569,
   "Gold_Top_Speed": 244.5,

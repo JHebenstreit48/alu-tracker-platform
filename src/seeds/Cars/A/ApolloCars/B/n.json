@@ -14,7 +14,7 @@
   "Stars": 5,
   "Country": "Germany",
   "Epics": 8,
-  "ObtainableVia": "GL14",
+  "ObtainableVia": ["GL14"],
   "Gold_Max_Rank": 4047,
   "Gold_Top_Speed": 374.1,
   "Gold_Acceleration": 80.32,

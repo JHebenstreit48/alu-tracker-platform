@@ -8,7 +8,7 @@
   "Stars": 6,
   "Country": "UK",
   "Epics": 16,
-  "ObtainableVia": "Starway",
+  "ObtainableVia": ["Starway"],
   "Gold_Max_Rank": 4593,
   "Gold_Top_Speed": 416.7,
   "Gold_Acceleration": 81.11,

@@ -8,7 +8,7 @@
   "Stars": 6,
   "Country": "Italy",
   "Epics": 16,
-  "ObtainableVia": "Showroom",
+  "ObtainableVia": ["Showroom"],
   "Gold_Max_Rank": 4685,
   "Gold_Top_Speed": 368.1,
   "Gold_Acceleration": 82.1,

@@ -8,7 +8,7 @@
   "Stars": 5,
   "Country": "UK",
   "Epics": 8,
-  "ObtainableVia": "Car Hunt",
+  "ObtainableVia": ["Car Hunt"],
   "Gold_Max_Rank": 3533,
   "Gold_Top_Speed": 339.1,
   "Gold_Acceleration": 81.31,

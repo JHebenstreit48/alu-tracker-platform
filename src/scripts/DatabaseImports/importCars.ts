@@ -4,6 +4,7 @@ import {
   getAllSeedFiles,
   isJson,
   isTsCollector,
+  isCarFolderIndexTs,
   parseBrandAndClass,
 } from "@/scripts/DatabaseImports/Cars/seedFs";
 import { logConfig } from "@/scripts/DatabaseImports/Cars/seedConfig";
@@ -41,6 +42,12 @@ try {
   const files: string[] = [];
 
   for (const f of allFiles) {
+    // ✅ New-format folder overrides are ALWAYS eligible
+    if (isCarFolderIndexTs(f)) {
+      files.push(f);
+      continue;
+    }
+
     const { brand, klass } = parseBrandAndClass(f);
 
     if (!brand || !klass) {

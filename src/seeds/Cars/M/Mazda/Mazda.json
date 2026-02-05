@@ -8,7 +8,7 @@
   "Stars": 4,
   "Country": "Japan",
   "Epics": 4,
-  "ObtainableVia": "GL06",
+  "ObtainableVia": ["GL06"],
   "Gold_Max_Rank": 2853,
   "Gold_Top_Speed": 305.5,
   "Gold_Acceleration": 80.95,

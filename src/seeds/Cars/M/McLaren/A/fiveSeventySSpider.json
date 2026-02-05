@@ -8,7 +8,7 @@
   "Stars": 6,
   "Country": "UK",
   "Epics": 16,
-  "ObtainableVia": "GL16",
+  "ObtainableVia": ["GL16"],
   "Gold_Max_Rank": 4116,
   "Gold_Top_Speed": 377.2,
   "Gold_Acceleration": 79.23,

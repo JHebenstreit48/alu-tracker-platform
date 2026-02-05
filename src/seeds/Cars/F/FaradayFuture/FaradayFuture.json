@@ -8,7 +8,7 @@
   "Stars": 6,
   "Country": "USA",
   "Epics": 16,
-  "ObtainableVia": "Road Test",
+  "ObtainableVia": ["Road Test"],
   "Gold_Max_Rank": 4602,
   "Gold_Top_Speed": 423,
   "Gold_Acceleration": 86.06,

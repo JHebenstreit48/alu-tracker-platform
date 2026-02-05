@@ -8,7 +8,7 @@
   "Stars": 5,
   "KeyCar": true,
   "Country": "Italy",
-  "ObtainableVia": "Special Events",
+  "ObtainableVia": ["Special Events"],
   "Stock_Rank": 2555,
   "Stock_Top_Speed": 340,
   "Stock_Acceleration": 69.4,

@@ -12,8 +12,18 @@ export function* walk(dir: string): Generator<string> {
 }
 
 export const isJson = (f: string): boolean => /\.json$/i.test(f);
+
 export const isTsCollector = (f: string): boolean =>
   /[/\\]Class[A-Z]\.ts$/i.test(f);
+
+/**
+ * New-format car folder override:
+ * src/seeds/Cars/<Letter>/<Brand>/<Class>/<CarFolder>/index.ts
+ */
+export const isCarFolderIndexTs = (f: string): boolean =>
+  /[/\\]Cars[/\\][^/\\]+[/\\][^/\\]+[/\\][A-DSa-ds][\/\\][^/\\]+[/\\]index\.ts$/i.test(
+    f
+  );
 
 export function parseBrandAndClass(
   file: string
@@ -42,4 +52,6 @@ export function parseBrandAndClass(
 }
 
 export const getAllSeedFiles = (): string[] =>
-  Array.from(walk(ROOT_DIR)).filter((f) => isJson(f) || isTsCollector(f));
+  Array.from(walk(ROOT_DIR)).filter(
+    (f) => isJson(f) || isTsCollector(f) || isCarFolderIndexTs(f)
+  );

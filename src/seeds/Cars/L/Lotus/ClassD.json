@@ -9,7 +9,7 @@
     "Stars": 4,
     "Gold_Max_Rank": 2390,
     "Epics": 4,
-    "ObtainableVia": "GL05",
+    "ObtainableVia": ["GL05"],
     "Garage_Lvl": 5,
     "Gold_Top_Speed": 270.0,
     "Gold_Acceleration": 82.25,
@@ -40,7 +40,7 @@
     "Stars": 4,
     "Gold_Max_Rank": 2611,
     "Epics": 4,
-    "ObtainableVia": "Showroom",
+    "ObtainableVia": ["Showroom"],
     "Garage_Lvl": 22,
     "Gold_Top_Speed": 307.2,
     "Gold_Acceleration": 70.87,
@@ -72,7 +72,7 @@
     "Stars": 4,
     "Gold_Max_Rank": 2873,
     "Epics": 8,
-    "ObtainableVia": "Legend Pass",
+    "ObtainableVia": ["Legend Pass"],
     "Country": "UK",
     "BPs_1_Star": 15
   }

@@ -10,7 +10,7 @@
   "KeyCar": true,
   "Country": "Germany",
   "Epics": 16,
-  "ObtainableVia": "Grand Prix",
+  "ObtainableVia": ["Grand Prix"],
   "Gold_Max_Rank": 4229,
   "Gold_Top_Speed": 352,
   "Gold_Acceleration": 84.94,

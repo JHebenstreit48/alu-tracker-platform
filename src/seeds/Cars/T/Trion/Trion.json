@@ -8,7 +8,7 @@
   "Stars": 6,
   "Country": "USA",
   "Epics": 16,
-  "ObtainableVia": "Exclusive",
+  "ObtainableVia": ["Exclusive"],
   "Stock_Rank": 3232,
   "Stock_Top_Speed": 434,
   "Stock_Acceleration": 73.9,

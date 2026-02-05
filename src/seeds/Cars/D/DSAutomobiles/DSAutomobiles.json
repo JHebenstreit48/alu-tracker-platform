@@ -9,7 +9,7 @@
     "Stars": 3,
     "Gold_Max_Rank": 1976,
     "Epics": 0,
-    "ObtainableVia": "GL02",
+    "ObtainableVia": ["GL02"],
     "Garage_Lvl": 2,
     "Gold_Top_Speed": 270.1,
     "Gold_Acceleration": 76.07,
@@ -44,9 +44,10 @@
     "Gold_Handling": 46.54,
     "Gold_Nitro": 53.59,
     "Country": "France",
-    "BPs_1_Star": 22,
-    "BPs_2_Star": 30,
-    "BPs_3_Star": 35,
-    "BPs_4_Star": 38
+    "BPs_1_Star": 0,
+    "BPs_2_Star": 22,
+    "BPs_3_Star": 30,
+    "BPs_4_Star": 35,
+    "BPs_5_Star": 38
   }
 ]

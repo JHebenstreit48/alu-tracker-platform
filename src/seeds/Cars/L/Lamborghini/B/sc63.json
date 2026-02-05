@@ -9,7 +9,7 @@
   "KeyCar": true,
   "Country": "Italy",
   "Epics": 8,
-  "ObtainableVia": "Special Events",
+  "ObtainableVia": ["Special Events"],
   "Gold_Max_Rank": 4062,
   "Gold_Top_Speed": 353.8,
   "Gold_Acceleration": 85.38,

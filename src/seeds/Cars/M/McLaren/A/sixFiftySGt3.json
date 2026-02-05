@@ -8,7 +8,7 @@
   "Stars": 6,
   "Country": "UK",
   "Epics": 16,
-  "ObtainableVia": "Clash Store",
+  "ObtainableVia": ["Clash Store"],
   "Gold_Max_Rank": 4279,
   "Gold_Top_Speed": 357,
   "Gold_Acceleration": 84.34,

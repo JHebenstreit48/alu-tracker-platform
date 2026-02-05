@@ -14,7 +14,7 @@
   "Stars": 5,
   "Country": "Poland",
   "Epics": 8,
-  "ObtainableVia": "GL13",
+  "ObtainableVia": ["GL13"],
   "Gold_Max_Rank": 3897,
   "Gold_Top_Speed": 352.1,
   "Gold_Acceleration": 78.53,

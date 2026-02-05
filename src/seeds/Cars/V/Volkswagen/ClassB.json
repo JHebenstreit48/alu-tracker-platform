@@ -9,7 +9,7 @@
   "KeyCar": true,
   "Country": "Germany",
   "Epics": 12,
-  "ObtainableVia": "Showroom",
+  "ObtainableVia": ["Showroom"],
   "Gold_Max_Rank": 4348,
   "Gold_Top_Speed": 370.5,
   "Gold_Acceleration": 79.08,

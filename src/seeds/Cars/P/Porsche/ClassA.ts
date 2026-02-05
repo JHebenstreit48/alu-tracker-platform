@@ -1,4 +1,4 @@
-import nineEighteenSpyder from '@/seeds/Cars/P/Porsche/A/nineEighteenSpyder.json';
+import nineEighteenSpyder from '@/seeds/Cars/P/Porsche/A/918Spyder';
 import nineThirtyFive2019 from '@/seeds/Cars/P/Porsche/A/nineThirtyFive2019.json';
 import nineElevenGt2RsClubsport from '@/seeds/Cars/P/Porsche/A/nineElevenGt2RsClubsport.json';
 import nineThirtyFiveDragonforceEdition from '@/seeds/Cars/P/Porsche/A/nineThirtyFiveDragonforceEdition.json';

@@ -8,7 +8,7 @@
   "Stars": 4,
   "Country": "France",
   "Epics": 4,
-  "ObtainableVia": "Car Hunt",
+  "ObtainableVia": ["Car Hunt"],
   "Gold_Max_Rank": 2307,
   "Gold_Top_Speed": 310.5,
   "Gold_Acceleration": 71.51,

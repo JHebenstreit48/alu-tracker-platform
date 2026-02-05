@@ -14,7 +14,7 @@
   "Stars": 3,
   "Country": "Japan",
   "Epics": 0,
-  "ObtainableVia": "Garage Level 1",
+  "ObtainableVia": ["Garage Level 1"],
   "Stock_Rank": 467,
   "Stock_Top_Speed": 250,
   "Stock_Acceleration": 42.4,

@@ -9,7 +9,7 @@
   "KeyCar": true,
   "Country": "Italy",
   "Epics": 8,
-  "ObtainableVia": "Key Hunt",
+  "ObtainableVia": ["Key Hunt"],
   "Gold_Max_Rank": 3843,
   "Gold_Top_Speed": 322,
   "Gold_Acceleration": 80.98,

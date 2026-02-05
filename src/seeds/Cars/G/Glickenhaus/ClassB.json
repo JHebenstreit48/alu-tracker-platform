@@ -8,7 +8,7 @@
   "Stars": 4,
   "Country": "USA",
   "Epics": 8,
-  "ObtainableVia": "GL10 / Multiplayer",
+  "ObtainableVia": ["GL10 / Multiplayer"],
   "Gold_Max_Rank": 3519,
   "Gold_Top_Speed": 368.8,
   "Gold_Acceleration": 79.44,

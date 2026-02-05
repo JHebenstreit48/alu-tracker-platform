@@ -8,7 +8,7 @@
   "Stars": 3,
   "Country": "USA",
   "Epics": 4,
-  "ObtainableVia": "GL01",
+  "ObtainableVia": ["GL01"],
   "Gold_Max_Rank": 1687,
   "Gold_Top_Speed": 308.6,
   "Gold_Acceleration": 71.92,

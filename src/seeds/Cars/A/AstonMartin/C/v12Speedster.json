@@ -8,7 +8,7 @@
   "Stars": 4,
   "Country": "UK",
   "Epics": 4,
-  "ObtainableVia": "Showroom",
+  "ObtainableVia": ["Showroom"],
   "Gold_Max_Rank": 2735,
   "Gold_Top_Speed": 300.3,
   "Gold_Acceleration": 84.42,

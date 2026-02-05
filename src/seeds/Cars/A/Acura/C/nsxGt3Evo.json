@@ -13,7 +13,7 @@
   "KeyCar": true,
   "Country": "Japan",
   "Epics": 8,
-  "ObtainableVia": "Key Hunt",
+  "ObtainableVia": ["Key Hunt"],
   "Stock_Rank": 2089,
   "Stock_Top_Speed": 295,
   "Stock_Acceleration": 60.85,

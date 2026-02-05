@@ -8,7 +8,7 @@
   "Stars": 5,
   "Country": "Italy",
   "Epics": 12,
-  "ObtainableVia": "TC",
+  "ObtainableVia": ["TC"],
   "Gold_Max_Rank": 3827,
   "Gold_Top_Speed": 353.6,
   "Gold_Acceleration": 81.13,

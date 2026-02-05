@@ -8,7 +8,7 @@
   "Stars": 3,
   "Country": "Germany",
   "Epics": 4,
-  "ObtainableVia": "GL04",
+  "ObtainableVia": ["GL04"],
   "Gold_Max_Rank": 2186,
   "Gold_Top_Speed": 328.8,
   "Gold_Acceleration": 71.21,

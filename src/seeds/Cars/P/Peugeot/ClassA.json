@@ -9,7 +9,7 @@
     "Stars": 6,
     "Gold_Max_Rank": 4145,
     "Epics": 16,
-    "ObtainableVia": "Starway",
+    "ObtainableVia": ["Starway"],
     "Garage_Lvl": 53,
     "Gold_Top_Speed": 370.6,
     "Gold_Acceleration": 81.93,
