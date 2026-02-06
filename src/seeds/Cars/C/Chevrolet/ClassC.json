@@ -9,7 +9,7 @@
     "Stars": 3,
     "Gold_Max_Rank": 1971,
     "Epics": 4,
-    "ObtainableVia": "GL02",
+    "ObtainableVia": ["GL02"],
     "Garage_Lvl": 2,
     "Gold_Top_Speed": 271.0,
     "Gold_Acceleration": 78.14,

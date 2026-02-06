@@ -8,7 +8,7 @@
   "Stars": 6,
   "Country": "Italy",
   "Epics": 16,
-  "ObtainableVia": "Career",
+  "ObtainableVia": ["Career"],
   "Gold_Max_Rank": 4148,
   "Gold_Top_Speed": 370.2,
   "Gold_Acceleration": 81.2,

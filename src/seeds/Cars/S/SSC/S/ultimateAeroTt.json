@@ -11,7 +11,7 @@
   "Rarity": "Epic",
   "Stars": 6,
   "Country": "USA",
-  "ObtainableVia": "Racing Around the World (Sonic the Hedgehog themed Special Event)",
+  "ObtainableVia": ["Racing Around the World (Sonic the Hedgehog themed Special Event)"],
   "Stock_Rank": 3577,
   "One_Star_Max_Rank": 3734,
   "Two_Star_Max_Rank": 3919,

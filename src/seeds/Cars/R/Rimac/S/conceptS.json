@@ -11,7 +11,7 @@
   "Stars": 6,
   "Country": "Croatia",
   "Epics": 16,
-  "ObtainableVia": "Multiplayer",
+  "ObtainableVia": ["Multiplayer"],
   "Gold_Max_Rank": 4528,
   "Gold_Top_Speed": 376.3,
   "Gold_Acceleration": 84.53,

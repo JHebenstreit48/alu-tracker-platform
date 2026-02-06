@@ -14,7 +14,7 @@
   "Stars": 6,
   "Country": "Sweden",
   "Epics": 16,
-  "ObtainableVia": "Clash Store (obsolete)",
+  "ObtainableVia": ["Clash Store (obsolete)"],
   "Stock_Rank": 3734,
   "Stock_Top_Speed": 447.2,
   "Stock_Acceleration": 74.8,

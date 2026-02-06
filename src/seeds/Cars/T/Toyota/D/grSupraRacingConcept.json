@@ -10,7 +10,7 @@
   "Rarity": "Epic",
   "Stars": 5,
   "Country": "Japan",
-  "ObtainableVia": "Season Pass",
+  "ObtainableVia": ["Season Pass"],
   "Stock_Rank": 1454,
   "Stock_Top_Speed": 298,
   "Stock_Acceleration": 63.1,

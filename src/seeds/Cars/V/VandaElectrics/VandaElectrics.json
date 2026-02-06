@@ -8,7 +8,7 @@
   "Stars": 6,
   "Country": "Singapore",
   "Epics": 16,
-  "ObtainableVia": "GL16",
+  "ObtainableVia": ["GL16"],
   "Gold_Max_Rank": 4099,
   "Gold_Top_Speed": 339.9,
   "Gold_Acceleration": 86.24,

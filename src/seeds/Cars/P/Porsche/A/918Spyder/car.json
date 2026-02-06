@@ -1,0 +1,22 @@
+{
+  "id": 1,
+  "image": "/images/cars/P/Porsche/918spyder.jpg",
+  "class": "A",
+  "brand": "Porsche",
+  "model": "918 Spyder",
+  "normalizedKey": "porsche_918_spyder",
+  "rarity": "Epic",
+  "stars": 5,
+  "country": "Germany",
+  "epics": 12,
+  "obtainableVia": ["Garage Level 14"],
+  "added": "Soft Launch",
+  "addedWith": null,
+  "addedDate": "26/02/2018",
+  "blueprints1Star": 35,
+  "blueprints2Star": 12,
+  "blueprints3Star": 15,
+  "blueprints4Star": 24,
+  "blueprints5Star": 36,
+  "Tags": "Europe; Hyper; Hybrid"
+}

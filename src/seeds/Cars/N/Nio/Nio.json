@@ -8,7 +8,7 @@
   "Stars": 4,
   "Country": "China",
   "Epics": 8,
-  "ObtainableVia": "Car Hunt",
+  "ObtainableVia": ["Car Hunt"],
   "Gold_Max_Rank": 3194,
   "Gold_Top_Speed": 326.1,
   "Gold_Acceleration": 83.03,

@@ -9,7 +9,7 @@
   "KeyCar": true,
   "Country": "France",
   "Epics": 8,
-  "ObtainableVia": "Showroom",
+  "ObtainableVia": ["Showroom"],
   "Gold_Max_Rank": 3565,
   "Gold_Top_Speed": 320.7,
   "Gold_Acceleration": 83.68,

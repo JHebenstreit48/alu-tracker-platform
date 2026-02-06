@@ -12,7 +12,7 @@
   "KeyCar": true,
   "Country": "Italy",
   "Epics": 16,
-  "ObtainableVia": "Special Event Car Hunt",
+  "ObtainableVia": ["Special Event Car Hunt"],
   "Stock_Rank": 2603,
   "Stock_Top_Speed": 353,
   "Stock_Acceleration": 75.7,

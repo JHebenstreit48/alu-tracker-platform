@@ -7,7 +7,7 @@
   "Rarity": "Rare",
   "Stars": 4,
   "Country": "Japan",
-  "ObtainableVia": "Season Pass",
+  "ObtainableVia": ["Season Pass"],
   "Stock_Rank": 742,
   "Stock_Top_Speed": 250,
   "Stock_Acceleration": 64.9,

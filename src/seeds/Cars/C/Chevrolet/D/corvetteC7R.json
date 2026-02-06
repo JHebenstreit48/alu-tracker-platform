@@ -9,7 +9,7 @@
   "KeyCar": true,
   "Country": "USA",
   "Epics": 8,
-  "ObtainableVia": "Key Hunt",
+  "ObtainableVia": ["Key Hunt"],
   "Gold_Max_Rank": 2948,
   "Gold_Top_Speed": 307.6,
   "Gold_Acceleration": 80.48,

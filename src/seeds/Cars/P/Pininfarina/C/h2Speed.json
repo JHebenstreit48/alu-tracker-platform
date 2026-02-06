@@ -8,7 +8,7 @@
   "Stars": 4,
   "Country": "Italy",
   "Epics": 4,
-  "ObtainableVia": "GL08",
+  "ObtainableVia": ["GL08"],
   "Gold_Max_Rank": 3003,
   "Gold_Top_Speed": 317.9,
   "Gold_Acceleration": 78.22,

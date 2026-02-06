@@ -11,7 +11,7 @@
   "Rarity": "Epic",
   "Stars": 5,
   "Country": "Japan",
-  "ObtainableVia": "Legend Pass",
+  "ObtainableVia": ["Legend Pass"],
   "Stock_Rank": 2106,
   "Stock_Top_Speed": 325,
   "Stock_Acceleration": 67.6,

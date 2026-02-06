@@ -8,7 +8,7 @@
   "Stars": 5,
   "Country": "Germany",
   "Epics": 8,
-  "ObtainableVia": "Car Hunt",
+  "ObtainableVia": ["Car Hunt"],
   "Gold_Max_Rank": 3953,
   "Gold_Top_Speed": 348.3,
   "Gold_Acceleration": 84.65,

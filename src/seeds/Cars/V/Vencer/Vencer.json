@@ -8,7 +8,7 @@
   "Stars": 5,
   "Country": "The Netherlands",
   "Epics": 8,
-  "ObtainableVia": "GL11 / Multiplayer",
+  "ObtainableVia": ["GL11 / Multiplayer"],
   "Gold_Max_Rank": 3638,
   "Gold_Top_Speed": 350.5,
   "Gold_Acceleration": 74.12,

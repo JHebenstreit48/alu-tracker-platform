@@ -8,7 +8,7 @@
   "Stars": 4,
   "Country": "Czech Republic",
   "Epics": 4,
-  "ObtainableVia": "Multiplayer",
+  "ObtainableVia": ["Multiplayer"],
   "Gold_Max_Rank": 2625,
   "Gold_Top_Speed": 283.3,
   "Gold_Acceleration": 87.8,

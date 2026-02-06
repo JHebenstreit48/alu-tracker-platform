@@ -8,7 +8,7 @@
   "Stars": 6,
   "Country": "Italy",
   "Epics": 16,
-  "ObtainableVia": "GL17 / Multiplayer",
+  "ObtainableVia": ["GL17 / Multiplayer"],
   "Gold_Max_Rank": 4291,
   "Gold_Top_Speed": 366.2,
   "Gold_Acceleration": 81.03,

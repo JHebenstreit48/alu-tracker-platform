@@ -9,7 +9,7 @@
     "Stars": 4,
     "Gold_Max_Rank": 3206,
     "Epics": 4,
-    "ObtainableVia": "GL10",
+    "ObtainableVia": ["GL10"],
     "Garage_Lvl": 11,
     "Gold_Top_Speed": 335.7,
     "Gold_Acceleration": 74.43,

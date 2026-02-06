@@ -8,7 +8,7 @@
   "Stars": 6,
   "KeyCar": true,
   "Country": "Germany",
-  "ObtainableVia": "Special Events",
+  "ObtainableVia": ["Special Events"],
   "Stock_Rank": 2907,
   "Stock_Top_Speed": 352,
   "Stock_Acceleration": 73.9,
