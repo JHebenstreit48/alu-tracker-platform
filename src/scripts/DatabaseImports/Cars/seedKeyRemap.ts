@@ -1,114 +1,198 @@
-import { SeedCar } from "./seedTypes";
+import type { SeedCar } from "@/types/scripts/seedTypes";
 
 type AnyObj = Record<string, unknown>;
 
-/**
- * Seed migration helper:
- * - Accepts NEW camelCase keys in seed files
- * - Accepts OLD legacy keys in seed files
- * - Outputs LEGACY keys for Firestore so the deployed frontend keeps working
- */
-export function remapToLegacyCar(raw: AnyObj): SeedCar {
-  const out: AnyObj = { ...raw };
+const NEW_KEYS = new Set<string>([
+  "id",
+  "image",
+  "class",
+  "brand",
+  "model",
+  "normalizedKey",
+  "rarity",
+  "stars",
+  "keyCar",
+  "country",
+  "epics",
+  "obtainableVia",
+  "added",
+  "addedDate",
+  "addedWith",
+  "totalUpgradeCost",
+  "totalGlPoints",
+  "blueprints1Star",
+  "blueprints2Star",
+  "blueprints3Star",
+  "blueprints4Star",
+  "blueprints5Star",
+  "blueprints6Star",
+  "goldMaxRank",
+  "goldTopSpeed",
+  "goldAcceleration",
+  "goldHandling",
+  "goldNitro",
+  "stockRank",
+  "stockTopSpeed",
+  "stockAcceleration",
+  "stockHandling",
+  "stockNitro",
+  "oneStarMaxRank",
+  "oneStarMaxTopSpeed",
+  "oneStarMaxAcceleration",
+  "oneStarMaxHandling",
+  "oneStarMaxNitro",
+  "twoStarMaxRank",
+  "twoStarMaxTopSpeed",
+  "twoStarMaxAcceleration",
+  "twoStarMaxHandling",
+  "twoStarMaxNitro",
+  "threeStarMaxRank",
+  "threeStarMaxTopSpeed",
+  "threeStarMaxAcceleration",
+  "threeStarMaxHandling",
+  "threeStarMaxNitro",
+  "fourStarMaxRank",
+  "fourStarMaxTopSpeed",
+  "fourStarMaxAcceleration",
+  "fourStarMaxHandling",
+  "fourStarMaxNitro",
+  "fiveStarMaxRank",
+  "fiveStarMaxTopSpeed",
+  "fiveStarMaxAcceleration",
+  "fiveStarMaxHandling",
+  "fiveStarMaxNitro",
+  "sixStarMaxRank",
+  "sixStarMaxTopSpeed",
+  "sixStarMaxAcceleration",
+  "sixStarMaxHandling",
+  "sixStarMaxNitro",
+  "status",
+  "message",
+  "sources",
+  "tags",
+]);
 
-  // Core identity (new -> legacy)
-  if (raw.brand !== undefined && out.Brand === undefined) out.Brand = raw.brand;
-  if (raw.model !== undefined && out.Model === undefined) out.Model = raw.model;
-  if (raw.image !== undefined && out.Image === undefined) out.Image = raw.image;
-  if (raw.class !== undefined && out.Class === undefined) out.Class = raw.class;
-  if (raw.id !== undefined && out.Id === undefined) out.Id = raw.id;
+const LEGACY_TO_CAMEL: Record<string, string> = {
+  Id: "id",
+  Image: "image",
+  Class: "class",
+  Brand: "brand",
+  Model: "model",
 
-  // Meta
-  if (raw.rarity !== undefined && out.Rarity === undefined) out.Rarity = raw.rarity;
-  if (raw.stars !== undefined && out.Stars === undefined) out.Stars = raw.stars;
-  if (raw.keyCar !== undefined && out.KeyCar === undefined) out.KeyCar = raw.keyCar;
-  if (raw.country !== undefined && out.Country === undefined) out.Country = raw.country;
-  if (raw.epics !== undefined && out.Epics === undefined) out.Epics = raw.epics;
+  Rarity: "rarity",
+  Stars: "stars",
+  KeyCar: "keyCar",
+  Country: "country",
+  Epics: "epics",
 
-  // ObtainableVia (keep whatever you provide; can be string or string[])
-  if (raw.obtainableVia !== undefined && out.ObtainableVia === undefined) {
-    out.ObtainableVia = raw.obtainableVia;
+  ObtainableVia: "obtainableVia",
+
+  Added: "added",
+  Added_With: "addedWith",
+  "Added date": "addedDate",
+
+  "Total upgrade cost": "totalUpgradeCost",
+  "Total GL points": "totalGlPoints",
+
+  BPs_1_Star: "blueprints1Star",
+  BPs_2_Star: "blueprints2Star",
+  BPs_3_Star: "blueprints3Star",
+  BPs_4_Star: "blueprints4Star",
+  BPs_5_Star: "blueprints5Star",
+  BPs_6_Star: "blueprints6Star",
+
+  Stock_Rank: "stockRank",
+  Stock_Top_Speed: "stockTopSpeed",
+  Stock_Acceleration: "stockAcceleration",
+  Stock_Handling: "stockHandling",
+  Stock_Nitro: "stockNitro",
+
+  One_Star_Max_Rank: "oneStarMaxRank",
+  One_Star_Max_Top_Speed: "oneStarMaxTopSpeed",
+  One_Star_Max_Acceleration: "oneStarMaxAcceleration",
+  One_Star_Max_Handling: "oneStarMaxHandling",
+  One_Star_Max_Nitro: "oneStarMaxNitro",
+
+  Two_Star_Max_Rank: "twoStarMaxRank",
+  Two_Star_Max_Top_Speed: "twoStarMaxTopSpeed",
+  Two_Star_Max_Acceleration: "twoStarMaxAcceleration",
+  Two_Star_Max_Handling: "twoStarMaxHandling",
+  Two_Star_Max_Nitro: "twoStarMaxNitro",
+
+  Three_Star_Max_Rank: "threeStarMaxRank",
+  Three_Star_Max_Top_Speed: "threeStarMaxTopSpeed",
+  Three_Star_Max_Acceleration: "threeStarMaxAcceleration",
+  Three_Star_Max_Handling: "threeStarMaxHandling",
+  Three_Star_Max_Nitro: "threeStarMaxNitro",
+
+  Four_Star_Max_Rank: "fourStarMaxRank",
+  Four_Star_Max_Top_Speed: "fourStarMaxTopSpeed",
+  Four_Star_Max_Acceleration: "fourStarMaxAcceleration",
+  Four_Star_Max_Handling: "fourStarMaxHandling",
+  Four_Star_Max_Nitro: "fourStarMaxNitro",
+
+  Five_Star_Max_Rank: "fiveStarMaxRank",
+  Five_Star_Max_Top_Speed: "fiveStarMaxTopSpeed",
+  Five_Star_Max_Acceleration: "fiveStarMaxAcceleration",
+  Five_Star_Max_Handling: "fiveStarMaxHandling",
+  Five_Star_Max_Nitro: "fiveStarMaxNitro",
+
+  Six_Star_Max_Rank: "sixStarMaxRank",
+  Six_Star_Max_Top_Speed: "sixStarMaxTopSpeed",
+  Six_Star_Max_Acceleration: "sixStarMaxAcceleration",
+  Six_Star_Max_Handling: "sixStarMaxHandling",
+  Six_Star_Max_Nitro: "sixStarMaxNitro",
+
+  Gold_Max_Rank: "goldMaxRank",
+  Gold_Top_Speed: "goldTopSpeed",
+  Gold_Acceleration: "goldAcceleration",
+  Gold_Handling: "goldHandling",
+  Gold_Nitro: "goldNitro",
+
+  Tags: "tags",
+};
+
+export function isLikelyNewFormat(doc: AnyObj): boolean {
+  for (const k of Object.keys(doc)) {
+    if (NEW_KEYS.has(k)) return true;
+  }
+  return false;
+}
+
+export type RemapResult = {
+  car: SeedCar;
+  wasNewFormat: boolean;
+};
+
+function normalizeObtainableVia(v: unknown): string[] | undefined {
+  if (v == null) return undefined;
+  if (Array.isArray(v)) return v.map(String);
+  if (typeof v === "string") {
+    const s = v.trim();
+    if (!s) return undefined;
+    return [s];
+  }
+  return undefined;
+}
+
+export function remapToCanonicalCar(raw: AnyObj): RemapResult {
+  const wasNewFormat = isLikelyNewFormat(raw);
+  const out: AnyObj = {};
+
+  for (const [k, v] of Object.entries(raw)) {
+    if (k === "__seedWasNewFormat") continue;
+
+    if (NEW_KEYS.has(k)) {
+      out[k] = v;
+      continue;
+    }
+
+    const mapped = LEGACY_TO_CAMEL[k];
+    if (mapped) out[mapped] = v;
   }
 
-  // Added fields
-  if (raw.added !== undefined && out.Added === undefined) out.Added = raw.added;
-  if (raw.addedWith !== undefined && out.Added_With === undefined) out.Added_With = raw.addedWith;
-  if (raw.addedDate !== undefined && out["Added date"] === undefined) out["Added date"] = raw.addedDate;
+  const ov = normalizeObtainableVia(out.obtainableVia);
+  if (ov) out.obtainableVia = ov;
 
-  // Totals
-  if (raw.totalUpgradeCost !== undefined && out["Total upgrade cost"] === undefined) {
-    out["Total upgrade cost"] = raw.totalUpgradeCost;
-  }
-  if (raw.totalGlPoints !== undefined && out["Total GL points"] === undefined) {
-    out["Total GL points"] = raw.totalGlPoints;
-  }
-
-  // Blueprints
-  if (raw.blueprints1Star !== undefined && out.BPs_1_Star === undefined) out.BPs_1_Star = raw.blueprints1Star;
-  if (raw.blueprints2Star !== undefined && out.BPs_2_Star === undefined) out.BPs_2_Star = raw.blueprints2Star;
-  if (raw.blueprints3Star !== undefined && out.BPs_3_Star === undefined) out.BPs_3_Star = raw.blueprints3Star;
-  if (raw.blueprints4Star !== undefined && out.BPs_4_Star === undefined) out.BPs_4_Star = raw.blueprints4Star;
-  if (raw.blueprints5Star !== undefined && out.BPs_5_Star === undefined) out.BPs_5_Star = raw.blueprints5Star;
-  if (raw.blueprints6Star !== undefined && out.BPs_6_Star === undefined) out.BPs_6_Star = raw.blueprints6Star;
-
-  // Garage + tags
-  if (raw.garageLvl !== undefined && out.Garage_Lvl === undefined) out.Garage_Lvl = raw.garageLvl;
-  if (raw.tags !== undefined && out.Tags === undefined) out.Tags = raw.tags;
-
-  // Stats mapping new -> legacy (only if legacy missing)
-  const stats: Array<[newKey: string, oldKey: string]> = [
-    ["stockRank", "Stock_Rank"],
-    ["stockTopSpeed", "Stock_Top_Speed"],
-    ["stockAcceleration", "Stock_Acceleration"],
-    ["stockHandling", "Stock_Handling"],
-    ["stockNitro", "Stock_Nitro"],
-
-    ["oneStarMaxRank", "One_Star_Max_Rank"],
-    ["oneStarMaxTopSpeed", "One_Star_Max_Top_Speed"],
-    ["oneStarMaxAcceleration", "One_Star_Max_Acceleration"],
-    ["oneStarMaxHandling", "One_Star_Max_Handling"],
-    ["oneStarMaxNitro", "One_Star_Max_Nitro"],
-
-    ["twoStarMaxRank", "Two_Star_Max_Rank"],
-    ["twoStarMaxTopSpeed", "Two_Star_Max_Top_Speed"],
-    ["twoStarMaxAcceleration", "Two_Star_Max_Acceleration"],
-    ["twoStarMaxHandling", "Two_Star_Max_Handling"],
-    ["twoStarMaxNitro", "Two_Star_Max_Nitro"],
-
-    ["threeStarMaxRank", "Three_Star_Max_Rank"],
-    ["threeStarMaxTopSpeed", "Three_Star_Max_Top_Speed"],
-    ["threeStarMaxAcceleration", "Three_Star_Max_Acceleration"],
-    ["threeStarMaxHandling", "Three_Star_Max_Handling"],
-    ["threeStarMaxNitro", "Three_Star_Max_Nitro"],
-
-    ["fourStarMaxRank", "Four_Star_Max_Rank"],
-    ["fourStarMaxTopSpeed", "Four_Star_Max_Top_Speed"],
-    ["fourStarMaxAcceleration", "Four_Star_Max_Acceleration"],
-    ["fourStarMaxHandling", "Four_Star_Max_Handling"],
-    ["fourStarMaxNitro", "Four_Star_Max_Nitro"],
-
-    ["fiveStarMaxRank", "Five_Star_Max_Rank"],
-    ["fiveStarMaxTopSpeed", "Five_Star_Max_Top_Speed"],
-    ["fiveStarMaxAcceleration", "Five_Star_Max_Acceleration"],
-    ["fiveStarMaxHandling", "Five_Star_Max_Handling"],
-    ["fiveStarMaxNitro", "Five_Star_Max_Nitro"],
-
-    ["sixStarMaxRank", "Six_Star_Max_Rank"],
-    ["sixStarMaxTopSpeed", "Six_Star_Max_Top_Speed"],
-    ["sixStarMaxAcceleration", "Six_Star_Max_Acceleration"],
-    ["sixStarMaxHandling", "Six_Star_Max_Handling"],
-    ["sixStarMaxNitro", "Six_Star_Max_Nitro"],
-
-    ["goldMaxRank", "Gold_Max_Rank"],
-    ["goldTopSpeed", "Gold_Top_Speed"],
-    ["goldAcceleration", "Gold_Acceleration"],
-    ["goldHandling", "Gold_Handling"],
-    ["goldNitro", "Gold_Nitro"],
-  ];
-
-  for (const [newKey, oldKey] of stats) {
-    if (raw[newKey] !== undefined && out[oldKey] === undefined) out[oldKey] = raw[newKey];
-  }
-
-  return out as SeedCar;
+  return { car: out as SeedCar, wasNewFormat };
 }

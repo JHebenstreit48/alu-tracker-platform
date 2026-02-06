@@ -1,8 +1,9 @@
-import { adminDb } from '@/Firebase/firebaseAdmin';
-import { FieldValue } from 'firebase-admin/firestore';
-import { CarDoc, SeedCar, StatusDoc, generateCarKey, cleanStatus } from './seedTypes';
-import { loadCarsFromFile } from './seedLoadCars';
-import { resolveImagePath } from '@/scripts/DatabaseImports/Images/seedImages';
+import { adminDb } from "@/Firebase/firebaseAdmin";
+import { FieldValue } from "firebase-admin/firestore";
+import type { CarDoc, SeedCar, StatusDoc } from "@/types/scripts/seedTypes";
+import { generateCarKey, cleanStatus } from "@/types/scripts/seedTypes";
+import { loadCarsFromFile, SeedCarWithMeta } from "./seedLoadCars";
+import { resolveImagePath } from "@/scripts/DatabaseImports/Images/seedImages";
 
 type BrandBucket = {
   docs: CarDoc[];
@@ -13,6 +14,8 @@ type BrandBucket = {
   _bestPrioByKey: Map<string, number>;
   _dupSeen: number;
   _dupReplaced: number;
+
+  _overwriteByKey: Map<string, boolean>;
 };
 
 export type BuildResult = {
@@ -45,42 +48,58 @@ export async function buildBuckets(files: string[], opts: BuildOptions = {}): Pr
 
     try {
       const docs = await loadCarsFromFile(file);
-      const quiet = process.env.SEED_QUIET === '1';
+      const quiet = process.env.SEED_QUIET === "1";
       if (!quiet) console.log(`📦 ${file} → docs: ${docs.length}`);
       if (!docs.length) continue;
 
-      for (const car of docs as SeedCar[]) {
-        const Brand = (car.Brand ?? '').toString().trim();
-        const Model = (car.Model ?? '').toString().trim();
+      for (const carAny of docs as SeedCarWithMeta[]) {
+        const car = carAny as SeedCar;
+
+        const brand = (car.brand ?? "").toString().trim();
+        const model = (car.model ?? "").toString().trim();
+
         const normalizedKey =
           (car.normalizedKey && String(car.normalizedKey).trim()) ||
-          (Brand && Model ? generateCarKey(Brand, Model) : '');
+          (brand && model ? generateCarKey(brand, model) : "");
 
-        if (!Brand || !normalizedKey) {
-          console.warn(`⚠️ Missing Brand/normalizedKey in ${file}; skipping one entry.`);
+        if (!brand || !normalizedKey) {
+          console.warn(`⚠️ Missing brand/normalizedKey in ${file}; skipping one entry.`);
           continue;
         }
 
-        // ✅ if seeding only selected keys, skip others
         if (opts.onlyKeys && !opts.onlyKeys.has(normalizedKey)) continue;
 
-        const bucket = brandBuckets.get(Brand) ?? {
-          docs: [],
-          statuses: [],
-          keys: new Set<string>(),
+        const bucket =
+          brandBuckets.get(brand) ??
+          ({
+            docs: [],
+            statuses: [],
+            keys: new Set<string>(),
 
-          _bestByKey: new Map<string, CarDoc>(),
-          _bestPrioByKey: new Map<string, number>(),
-          _dupSeen: 0,
-          _dupReplaced: 0,
+            _bestByKey: new Map<string, CarDoc>(),
+            _bestPrioByKey: new Map<string, number>(),
+            _dupSeen: 0,
+            _dupReplaced: 0,
+
+            _overwriteByKey: new Map<string, boolean>(),
+          } as BrandBucket);
+
+        const nextDocBase: any = { ...car };
+        const wasNewFormat = nextDocBase.__seedWasNewFormat === true;
+        delete nextDocBase.__seedWasNewFormat;
+
+        const nextDoc: CarDoc = {
+          ...(nextDocBase as SeedCar),
+          brand,
+          model,
+          normalizedKey,
         };
-
-        const nextDoc: CarDoc = { ...car, Brand, Model, normalizedKey };
 
         const prev = bucket._bestByKey.get(normalizedKey);
         if (!prev) {
           bucket._bestByKey.set(normalizedKey, nextDoc);
           bucket._bestPrioByKey.set(normalizedKey, filePriority);
+          bucket._overwriteByKey.set(normalizedKey, wasNewFormat);
           bucket.keys.add(normalizedKey);
           expectedFromSeeds++;
         } else {
@@ -90,6 +109,7 @@ export async function buildBuckets(files: string[], opts: BuildOptions = {}): Pr
           if (filePriority > prevPrio) {
             bucket._bestByKey.set(normalizedKey, nextDoc);
             bucket._bestPrioByKey.set(normalizedKey, filePriority);
+            bucket._overwriteByKey.set(normalizedKey, wasNewFormat);
             bucket._dupReplaced++;
             console.log(
               `🔁 Override ${normalizedKey}: replaced lower-priority seed with higher-priority (${prevPrio}→${filePriority}) from ${file}`
@@ -111,15 +131,15 @@ export async function buildBuckets(files: string[], opts: BuildOptions = {}): Pr
 
           bucket.statuses.push({
             normalizedKey,
-            Brand,
-            Model,
+            brand,
+            model,
             status: cleanStatus(car.status),
-            message: car.message ? String(car.message) : '',
+            message: car.message ? String(car.message) : "",
             sources,
           });
         }
 
-        brandBuckets.set(Brand, bucket);
+        brandBuckets.set(brand, bucket);
       }
     } catch (e) {
       console.warn(`⚠️ Failed ${file}: ${e instanceof Error ? e.message : String(e)}`);
@@ -129,15 +149,12 @@ export async function buildBuckets(files: string[], opts: BuildOptions = {}): Pr
   for (const [brand, bucket] of brandBuckets.entries()) {
     bucket.docs = Array.from(bucket._bestByKey.values());
 
-    // de-dupe statuses
     const statusByKey = new Map<string, StatusDoc>();
     for (const s of bucket.statuses) statusByKey.set(s.normalizedKey, s);
     bucket.statuses = Array.from(statusByKey.values());
 
     if (bucket._dupSeen > 0) {
-      console.log(
-        `🧩 ${brand}: duplicates seen ${bucket._dupSeen}, replaced by overrides ${bucket._dupReplaced}`
-      );
+      console.log(`🧩 ${brand}: duplicates seen ${bucket._dupSeen}, replaced by overrides ${bucket._dupReplaced}`);
     }
   }
 
@@ -151,47 +168,56 @@ export async function applyBuckets(
   let carOps = 0;
   let statusOps = 0;
 
+  const forceOverwrite = process.env.SEED_FORCE_OVERWRITE === "1";
+  const quiet = process.env.SEED_QUIET === "1";
+
   for (const [brand, bucket] of brandBuckets.entries()) {
     const newKeys = bucket.keys;
 
-    // ✅ prune only for full/brand seeds, NOT partial targeted seeds
     if (!opts.disablePrune) {
-      const existingSnap = await adminDb.collection('cars').where('Brand', '==', brand).get();
+      const legacySnap = await adminDb.collection("cars").where("Brand", "==", brand).get();
+      const newSnap = await adminDb.collection("cars").where("brand", "==", brand).get();
+
+      const existing = new Map<string, FirebaseFirestore.QueryDocumentSnapshot>();
+      for (const d of legacySnap.docs) existing.set(d.id, d);
+      for (const d of newSnap.docs) existing.set(d.id, d);
 
       const deleteBatch = adminDb.batch();
       let deleteCount = 0;
 
-      existingSnap.forEach((docSnap) => {
-        const nk = docSnap.get('normalizedKey') as string | undefined;
+      for (const docSnap of existing.values()) {
+        const nk = docSnap.get("normalizedKey") as string | undefined;
         if (!nk || !newKeys.has(nk)) {
           deleteBatch.delete(docSnap.ref);
           deleteCount++;
         }
-      });
+      }
 
       if (deleteCount > 0) {
         await deleteBatch.commit();
-        console.log(`🧹 ${brand}: pruned ${deleteCount} stale row(s).`);
+        if (!quiet) console.log(`🧹 ${brand}: pruned ${deleteCount} stale row(s).`);
       }
     }
 
-    // upsert cars
     let batch = adminDb.batch();
     let batchCount = 0;
 
     for (const doc of bucket.docs) {
       if (opts.onlyKeys && !opts.onlyKeys.has(doc.normalizedKey)) continue;
 
-      const ref = adminDb.collection('cars').doc(doc.normalizedKey);
-      const imagePath = typeof doc.Image === 'string' ? doc.Image : undefined;
+      const ref = adminDb.collection("cars").doc(doc.normalizedKey);
+
+      const imagePath = typeof doc.image === "string" ? doc.image : undefined;
       const resolvedImage = resolveImagePath(imagePath);
 
       const toWrite: CarDoc = {
         ...doc,
-        Image: resolvedImage ?? imagePath ?? '',
+        image: resolvedImage ?? imagePath ?? "",
       };
 
-      batch.set(ref, toWrite, { merge: true });
+      const overwrite = forceOverwrite || bucket._overwriteByKey.get(doc.normalizedKey) === true;
+      batch.set(ref, toWrite, { merge: !overwrite });
+
       batchCount++;
 
       if (batchCount >= 450) {
@@ -207,7 +233,6 @@ export async function applyBuckets(
       carOps += batchCount;
     }
 
-    // upsert statuses with updatedAt
     if (bucket.statuses.length) {
       let sBatch = adminDb.batch();
       let sCount = 0;
@@ -215,16 +240,16 @@ export async function applyBuckets(
       for (const s of bucket.statuses) {
         if (opts.onlyKeys && !opts.onlyKeys.has(s.normalizedKey)) continue;
 
-        const ref = adminDb.collection('car_data_status').doc(s.normalizedKey);
+        const ref = adminDb.collection("car_data_status").doc(s.normalizedKey);
 
-        const payload: StatusDoc & {
-          updatedAt: FirebaseFirestore.FieldValue;
-        } = {
+        const payload: StatusDoc & { updatedAt: FirebaseFirestore.FieldValue } = {
           ...s,
           updatedAt: FieldValue.serverTimestamp(),
         };
 
-        sBatch.set(ref, payload, { merge: true });
+        const overwrite = forceOverwrite || bucket._overwriteByKey.get(s.normalizedKey) === true;
+        sBatch.set(ref, payload, { merge: !overwrite });
+
         sCount++;
 
         if (sCount >= 450) {

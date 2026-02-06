@@ -1,4 +1,5 @@
 import "dotenv/config";
+
 import fs from "fs";
 import { adminDb, adminBucket } from "@/Firebase/firebaseAdmin";
 import {
@@ -10,15 +11,6 @@ import {
 } from "@/scripts/DatabaseImports/Cars/seedFs";
 import { logConfig } from "@/scripts/DatabaseImports/Cars/seedConfig";
 import { buildBuckets, applyBuckets } from "@/scripts/DatabaseImports/Cars/seedBuckets";
-
-try {
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
-  require("ts-node/register/transpile-only");
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
-  require("tsconfig-paths/register");
-} catch (e) {
-  console.warn("⚠️ ts-node/tsconfig-paths not loaded.", e);
-}
 
 function getArg(name: string): string | undefined {
   const hit = process.argv.find((a) => a.startsWith(`--${name}=`));
@@ -43,6 +35,8 @@ function readKeysFile(filePath: string): string[] {
 }
 
 (async function main(): Promise<void> {
+  const quiet = process.env.SEED_QUIET === "1";
+
   const keysArg = getArg("keys") || process.env.SEED_KEYS;
   const fileArg = getArg("file") || process.env.SEED_KEYS_FILE;
 
@@ -58,7 +52,7 @@ function readKeysFile(filePath: string): string[] {
 
   const onlyKeys = new Set(keys);
 
-  console.log(`🌱 Seeding SELECTED cars into Firebase: ${keys.length} key(s)`);
+  if (!quiet) console.log(`🌱 Seeding SELECTED cars into Firebase: ${keys.length} key(s)`);
   logConfig(adminBucket?.name);
 
   const allFiles = getAllSeedFiles();
@@ -102,16 +96,15 @@ function readKeysFile(filePath: string): string[] {
     }
   }
 
-  const { brandBuckets, expectedFromSeeds } = await buildBuckets(files, {
-    onlyKeys,
-  });
+  if (!quiet) console.log(`📄 Eligible files after de-dupe: ${files.length}`);
+
+  const { brandBuckets, expectedFromSeeds } = await buildBuckets(files, { onlyKeys });
 
   const { carOps, statusOps } = await applyBuckets(brandBuckets, {
     onlyKeys,
-    disablePrune: true, // ✅ do NOT prune for selected seed
+    disablePrune: true,
   });
 
-  // quick sanity check: count how many of the requested docs exist now
   let existsCount = 0;
   for (const k of keys) {
     const doc = await adminDb.collection("cars").doc(k).get();
