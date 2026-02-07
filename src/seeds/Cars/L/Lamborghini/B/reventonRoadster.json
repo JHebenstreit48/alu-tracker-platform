@@ -1,14 +1,16 @@
 {
-   "id": 3,
-   "image": "/images/cars/L/Lamborghini/reventonroadster.jpg",
+  "id": 3,
+  "image": "/images/cars/L/Lamborghini/reventonroadster.jpg",
   "class": "B",
-   "brand": "Lamborghini",
-   "model": "Reventón Roadster",
+  "brand": "Lamborghini",
+  "model": "Reventón Roadster",
   "rarity": "Epic",
   "stars": 5,
   "keyCar": true,
   "country": "Italy",
-  "obtainableVia": ["Special Events"],
+  "obtainableVia": [
+    "Special Events"
+  ],
   "stockRank": 2555,
   "stockTopSpeed": 340,
   "stockAcceleration": 69.4,
@@ -42,13 +44,13 @@
   "added": "Raging Bull Season",
   "addedWith": "GP",
   "addedDate": "30/05/2022",
-  "Total upgrade cost": null,
-  "Total GL points": null,
   "blueprints1Star": 0,
   "blueprints2Star": 26,
   "blueprints3Star": 34,
   "blueprints4Star": 40,
   "blueprints5Star": 62,
+  "Total upgrade cost": null,
+  "Total GL points": null,
   "Tags": "Europe",
   "Unnamed: 16": "370,6"
 }

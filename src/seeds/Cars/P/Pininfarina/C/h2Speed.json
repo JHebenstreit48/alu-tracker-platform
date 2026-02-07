@@ -1,14 +1,16 @@
 {
-   "id": 1,
-   "image": "/images/cars/P/Pininfarina/h2speed.jpg",
+  "id": 1,
+  "image": "/images/cars/P/Pininfarina/h2speed.jpg",
   "class": "C",
-   "brand": "Pininfarina",
-   "model": "H2 Speed",
+  "brand": "Pininfarina",
+  "model": "H2 Speed",
   "rarity": "Rare",
   "stars": 4,
   "country": "Italy",
   "epics": 4,
-  "obtainableVia": ["GL08"],
+  "obtainableVia": [
+    "GL08"
+  ],
   "goldMaxRank": 3003,
   "goldTopSpeed": 317.9,
   "goldAcceleration": 78.22,
@@ -17,10 +19,10 @@
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
-  "Total upgrade cost": null,
-  "Total GL points": null,
   "blueprints1Star": 35,
   "blueprints2Star": 10,
   "blueprints3Star": 20,
-  "blueprints4Star": 32
+  "blueprints4Star": 32,
+  "Total upgrade cost": null,
+  "Total GL points": null
 }

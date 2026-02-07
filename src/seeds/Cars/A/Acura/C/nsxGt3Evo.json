@@ -1,9 +1,9 @@
 {
-   "id": 2,
-   "image": "/images/cars/A/Acura/nsxgt3evo.jpg",
+  "id": 2,
+  "image": "/images/cars/A/Acura/nsxgt3evo.jpg",
   "class": "C",
-   "brand": "Acura",
-   "model": "NSX GT3 Evo",
+  "brand": "Acura",
+  "model": "NSX GT3 Evo",
   "normalizedKey": "acura_nsx_gt3_evo",
   "status": "in progress",
   "message": "Still adding data",
@@ -27,16 +27,9 @@
   "added": "Fire and Lightning",
   "addedWith": "GP",
   "addedDate": "03/02/2021",
-  "Total upgrade cost": null,
-  "Total GL points": null,
   "blueprints1Star": 0,
   "blueprints2Star": 25,
   "blueprints3Star": 32,
   "blueprints4Star": 36,
-  "blueprints5Star": 41,
-  "Garage_Lvl": null,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": "345,0",
-  "Tags": "Asia",
-  "Unnamed: 16": "327,0"
+  "blueprints5Star": 41
 }

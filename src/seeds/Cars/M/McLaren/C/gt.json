@@ -1,9 +1,9 @@
 {
-   "id": 1,
-   "image": "/images/cars/M/McLaren/gt.jpg",
+  "id": 1,
+  "image": "/images/cars/M/McLaren/gt.jpg",
   "class": "C",
-   "brand": "McLaren",
-   "model": "GT",
+  "brand": "McLaren",
+  "model": "GT",
   "rarity": "Epic",
   "stars": 5,
   "country": "UK",
@@ -17,11 +17,11 @@
   "added": "British Tour",
   "addedWith": "Tour",
   "addedDate": "07/02/2022",
-  "Total upgrade cost": null,
-  "Total GL points": null,
   "blueprints1Star": 35,
   "blueprints2Star": 15,
   "blueprints3Star": 21,
   "blueprints4Star": 28,
-  "blueprints5Star": 35
+  "blueprints5Star": 35,
+  "Total upgrade cost": null,
+  "Total GL points": null
 }

@@ -1,18 +1,23 @@
 {
-   "id": 1,
-   "image": "/images/cars/S/Saleen/s1.jpg",
+  "id": 1,
+  "image": "/images/cars/S/Saleen/s1.jpg",
   "class": "C",
-   "brand": "Saleen",
-   "model": "S1",
+  "brand": "Saleen",
+  "model": "S1",
   "normalizedKey": "saleen_s1",
   "status": "in progress",
   "message": "still adding data",
-  "sources": ["MEI"],
+  "sources": [
+    "MEI"
+  ],
   "rarity": "Rare",
   "stars": 4,
   "country": "USA",
   "epics": 4,
-  "obtainableVia": ["Showroom", "Garage Level 24"],
+  "obtainableVia": [
+    "Showroom",
+    "Garage Level 24"
+  ],
   "goldMaxRank": 3144,
   "goldTopSpeed": 305.3,
   "goldAcceleration": 76.74,
@@ -21,11 +26,11 @@
   "added": "Festive Season",
   "addedWith": "DS",
   "addedDate": "16/12/2021",
-  "Total upgrade cost": null,
-  "Total GL points": null,
   "blueprints1Star": 50,
   "blueprints2Star": 29,
   "blueprints3Star": 38,
   "blueprints4Star": 48,
+  "Total upgrade cost": null,
+  "Total GL points": null,
   "Tags": "Super Car"
 }

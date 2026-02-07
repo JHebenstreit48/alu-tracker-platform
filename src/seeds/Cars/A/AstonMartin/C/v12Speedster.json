@@ -1,14 +1,16 @@
 {
-   "id": 1,
-   "image": "/images/cars/A/AstonMartin/v12speedster.jpg",
+  "id": 1,
+  "image": "/images/cars/A/AstonMartin/v12speedster.jpg",
   "class": "C",
-   "brand": "Aston Martin",
-   "model": "V12 Speedster",
+  "brand": "Aston Martin",
+  "model": "V12 Speedster",
   "rarity": "Rare",
   "stars": 4,
   "country": "UK",
   "epics": 4,
-  "obtainableVia": ["Showroom"],
+  "obtainableVia": [
+    "Showroom"
+  ],
   "goldMaxRank": 2735,
   "goldTopSpeed": 300.3,
   "goldAcceleration": 84.42,
@@ -17,11 +19,11 @@
   "added": "Heatwave Season",
   "addedWith": "Car Hunt",
   "addedDate": "01/08/2021",
-  "Total upgrade cost": null,
-  "Total GL points": null,
   "blueprints1Star": 50,
   "blueprints2Star": 29,
   "blueprints3Star": 38,
   "blueprints4Star": 48,
+  "Total upgrade cost": null,
+  "Total GL points": null,
   "Garage_Lvl": 42
 }

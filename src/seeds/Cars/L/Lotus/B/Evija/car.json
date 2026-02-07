@@ -12,17 +12,17 @@
   "country": "UK",
   "epics": 12,
   "obtainableVia": null,
-  "Garage_Lvl": 49,
   "added": "Grand Prix",
   "addedWith": "SE",
   "addedDate": "05/02/2020",
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Tags": "Electric; Europe",
   "blueprints1Star": 55,
   "blueprints2Star": 18,
   "blueprints3Star": 24,
   "blueprints4Star": 32,
   "blueprints5Star": 50,
-  "blueprints6Star": 61
+  "blueprints6Star": 61,
+  "Garage_Lvl": 49,
+  "Total upgrade cost": null,
+  "Total GL points": null,
+  "Tags": "Electric; Europe"
 }

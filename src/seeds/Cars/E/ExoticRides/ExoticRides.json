@@ -8,7 +8,9 @@
   "stars": 3,
   "country": "USA",
   "epics": 4,
-  "obtainableVia": ["Garage Level 6"],
+  "obtainableVia": [
+    "Garage Level 6"
+  ],
   "goldMaxRank": 2633,
   "goldTopSpeed": 329.7,
   "goldAcceleration": 80.21,
@@ -17,9 +19,9 @@
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
-  "Total upgrade cost": null,
-  "Total GL points": null,
   "blueprints1Star": 40,
   "blueprints2Star": 30,
-  "blueprints3Star": 70
+  "blueprints3Star": 70,
+  "Total upgrade cost": null,
+  "Total GL points": null
 }

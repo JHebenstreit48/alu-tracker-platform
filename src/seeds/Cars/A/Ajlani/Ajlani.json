@@ -1,15 +1,13 @@
 {
-   "id": 1,
-   "image": "/images/cars/A/Ajlani/drakuma.jpg",
+  "id": 1,
+  "image": "/images/cars/A/Ajlani/drakuma.jpg",
   "class": "S",
-   "brand": "Ajlani",
-   "model": "Drakuma",
+  "brand": "Ajlani",
+  "model": "Drakuma",
   "normalizedKey": "ajlani_drakuma",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": [
-    "MEI"
-  ],
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 6,
   "country": "UAE",
@@ -23,17 +21,10 @@
   "added": "Around the World",
   "addedWith": "SE",
   "addedDate": "03/04/2022",
-  "Total upgrade cost": null,
-  "Total GL points": null,
   "blueprints1Star": 85,
   "blueprints2Star": 25,
   "blueprints3Star": 29,
   "blueprints4Star": 38,
   "blueprints5Star": 54,
-  "blueprints6Star": 69,
-  "Garage_Lvl": null,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": null,
-  "Unnamed: 16": "458,6"
+  "blueprints6Star": 69
 }

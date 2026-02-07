@@ -1,9 +1,9 @@
 {
-   "id": 1,
-   "image": "/images/cars/A/Acura/2017nsx.jpg",
+  "id": 1,
+  "image": "/images/cars/A/Acura/2017nsx.jpg",
   "class": "C",
-   "brand": "Acura",
-   "model": "2017 NSX",
+  "brand": "Acura",
+  "model": "2017 NSX",
   "normalizedKey": "acura_2017_nsx",
   "status": "in progress",
   "message": "Still adding data",
@@ -12,7 +12,7 @@
   "stars": 4,
   "country": "Japan",
   "epics": 4,
-  "obtainableVia": ["GL09"],
+  "obtainableVia": ["Garage Level 10"],
   "goldMaxRank": 3199,
   "goldTopSpeed": 323.5,
   "goldAcceleration": 84.32,
@@ -21,11 +21,8 @@
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
-  "Total upgrade cost": null,
   "blueprints1Star": 35,
   "blueprints2Star": 10,
   "blueprints3Star": 20,
-  "blueprints4Star": 32,
-  "Garage_Lvl": 10,
-  "Tags": "Asia"
+  "blueprints4Star": 32
 }
