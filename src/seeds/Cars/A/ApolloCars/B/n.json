@@ -1,17 +1,17 @@
 {
-  "Id": 2,
-  "Image": "/images/cars/A/Apollo/n.jpg",
+   "id": 2,
+   "image": "/images/cars/A/Apollo/n.jpg",
   "Class": "B",
-  "Brand": "Apollo",
-  "Model": "N",
+   "brand": "Apollo",
+   "model": "N",
   "normalizedKey": "apollo_n",
   "status": "in progress",
   "message": "Still adding data",
   "sources": [
     "MEI"
   ],
-  "Rarity": "Epic",
-  "Stars": 5,
+  "rarity": "Epic",
+  "stars": 5,
   "Country": "Germany",
   "Epics": 8,
   "ObtainableVia": ["GL14"],

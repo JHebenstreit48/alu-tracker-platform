@@ -1,17 +1,17 @@
 {
-  "Id": 1,
-  "Image": "/images/cars/M/Mitsubishi/lancerevolution.jpg",
+   "id": 1,
+   "image": "/images/cars/M/Mitsubishi/lancerevolution.jpg",
   "Class": "D",
-  "Brand": "Mitsubishi",
-  "Model": "Lancer Evolution",
+   "brand": "Mitsubishi",
+   "model": "Lancer Evolution",
   "normalizedKey": "mitsubishi_lancer_evolution",
   "status": "in progress",
   "message": "(temporarily) Completed until I can new tables and data",
   "sources": [
     "MEI"
   ],
-  "Rarity": "Uncommon",
-  "Stars": 3,
+  "rarity": "Uncommon",
+  "stars": 3,
   "Country": "Japan",
   "Epics": 0,
   "ObtainableVia": ["Garage Level 1"],

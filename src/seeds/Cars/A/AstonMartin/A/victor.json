@@ -1,17 +1,17 @@
 {
-  "Id": 3,
-  "Image": "/images/cars/A/AstonMartin/victor.jpg",
+   "id": 3,
+   "image": "/images/cars/A/AstonMartin/victor.jpg",
   "Class": "A",
-  "Brand": "Aston Martin",
-  "Model": "Victor",
+   "brand": "Aston Martin",
+   "model": "Victor",
   "normalizedKey": "aston_martin_victor",
   "status": "in progress",
   "message": "Still adding data",
   "sources": [
     "MEI"
   ],
-  "Rarity": "Epic",
-  "Stars": 6,
+  "rarity": "Epic",
+  "stars": 6,
   "Country": "UK",
   "Epics": 16,
   "ObtainableVia": null,

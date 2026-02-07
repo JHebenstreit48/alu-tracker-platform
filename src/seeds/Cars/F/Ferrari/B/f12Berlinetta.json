@@ -1,9 +1,9 @@
 {
-  "Id": 7,
-  "Image": "/images/cars/F/Ferrari/f12berlinetta.jpg",
+   "id": 7,
+   "image": "/images/cars/F/Ferrari/f12berlinetta.jpg",
   "Class": "B",
-  "Brand": "Ferrari",
-  "Model": "F12 Berlinetta",
-  "Rarity": "Epic",
-  "Stars": 5
+   "brand": "Ferrari",
+   "model": "F12 Berlinetta",
+  "rarity": "Epic",
+  "stars": 5
 }

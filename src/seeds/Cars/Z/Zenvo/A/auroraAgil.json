@@ -1,17 +1,17 @@
 {
-  "Id": 1,
-  "Image": "/images/cars/Z/Zenvo/auroraagil.jpg",
+   "id": 1,
+   "image": "/images/cars/Z/Zenvo/auroraagil.jpg",
   "Class": "A",
-  "Brand": "Zenvo",
-  "Model": "Aurora Agil",
+   "brand": "Zenvo",
+   "model": "Aurora Agil",
   "normalizedKey": "zenvo_aurora_agil",
   "status": "in progress",
   "message": "Still adding data",
   "sources": [
     "My own research"
   ],
-  "Rarity": "Epic",
-  "Stars": 6,
+  "rarity": "Epic",
+  "stars": 6,
   "Country": "Denmark",
   "ObtainableVia": [
     "Drive Syndicate",
