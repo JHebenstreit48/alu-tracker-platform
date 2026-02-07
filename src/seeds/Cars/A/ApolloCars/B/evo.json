@@ -1,17 +1,17 @@
 {
-  "Id": 1,
-  "Image": "/images/cars/A/Apollo/evo.jpg",
+   "id": 1,
+   "image": "/images/cars/A/Apollo/evo.jpg",
   "Class": "B",
-  "Brand": "Apollo",
-  "Model": "Evo",
+   "brand": "Apollo",
+   "model": "Evo",
   "normalizedKey": "apollo_evo",
   "status": "in progress",
   "message": "Still adding data",
   "sources": [
     "MEI"
   ],
-  "Rarity": "Epic",
-  "Stars": 6,
+  "rarity": "Epic",
+  "stars": 6,
   "Country": "Germany",
   "Epics": 12,
   "ObtainableVia": null,

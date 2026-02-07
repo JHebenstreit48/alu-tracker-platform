@@ -1,17 +1,17 @@
 {
-  "Id": 1,
-  "Image": "/images/cars/A/AstonMartin/valhallaconceptcar.jpg",
+   "id": 1,
+   "image": "/images/cars/A/AstonMartin/valhallaconceptcar.jpg",
   "Class": "A",
-  "Brand": "Aston Martin",
-  "Model": "Valhalla Concept Car",
+   "brand": "Aston Martin",
+   "model": "Valhalla Concept Car",
   "normalizedKey": "aston_martin_valhalla_concept_car",
   "status": "in progress",
   "message": "Still adding data",
   "sources": [
     "MEI"
   ],
-  "Rarity": "Epic",
-  "Stars": 6,
+  "rarity": "Epic",
+  "stars": 6,
   "Country": "UK",
   "Epics": 16,
   "ObtainableVia": null,

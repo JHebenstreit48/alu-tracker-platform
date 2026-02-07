@@ -1,17 +1,17 @@
 {
-  "Id": 2,
-  "Image": "/images/cars/A/AstonMartin/dbsgtzagato.jpg",
+   "id": 2,
+   "image": "/images/cars/A/AstonMartin/dbsgtzagato.jpg",
   "Class": "A",
-  "Brand": "Aston Martin",
-  "Model": "DBS GT Zagato",
+   "brand": "Aston Martin",
+   "model": "DBS GT Zagato",
   "normalizedKey": "aston_martin_dbs_gt_zagato",
   "status": "in progress",
   "message": "Still adding data",
   "sources": [
     "MEI"
   ],
-  "Rarity": "Epic",
-  "Stars": 6,
+  "rarity": "Epic",
+  "stars": 6,
   "Country": "UK",
   "Epics": 16,
   "ObtainableVia": null,

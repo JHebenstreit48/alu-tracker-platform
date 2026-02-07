@@ -1,11 +1,11 @@
 {
-  "Id": 3,
-  "Image": "/images/cars/M/MercedesBenz/silverlightning.jpg",
+   "id": 3,
+   "image": "/images/cars/M/MercedesBenz/silverlightning.jpg",
   "Class": "A",
-  "Brand": "Mercedes-Benz",
-  "Model": "Silver Lightning",
-  "Rarity": "Epic",
-  "Stars": 6,
+   "brand": "Mercedes-Benz",
+   "model": "Silver Lightning",
+  "rarity": "Epic",
+  "stars": 6,
   "Country": "Germany",
   "Stock_Rank": 3311
 }

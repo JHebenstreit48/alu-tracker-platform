@@ -1,17 +1,17 @@
 {
-  "Id": 7,
-  "Image": "/images/cars/K/Koenigsegg/agerars.jpg",
+   "id": 7,
+   "image": "/images/cars/K/Koenigsegg/agerars.jpg",
   "Class": "S",
-  "Brand": "Koenigsegg",
-  "Model": "Agera RS",
+   "brand": "Koenigsegg",
+   "model": "Agera RS",
   "normalizedKey": "koenigsegg_agera_rs",
   "status": "in progress",
   "message": "Still adding data",
   "sources": [
     "MEI"
   ],
-  "Rarity": "Epic",
-  "Stars": 6,
+  "rarity": "Epic",
+  "stars": 6,
   "Country": "Sweden",
   "Epics": 16,
   "ObtainableVia": ["Clash Store (obsolete)"],

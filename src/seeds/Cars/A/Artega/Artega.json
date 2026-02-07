@@ -1,17 +1,17 @@
 {
-  "Id": 1,
-  "Image": "/images/cars/A/Artega/scalosuperelletra.jpg",
+   "id": 1,
+   "image": "/images/cars/A/Artega/scalosuperelletra.jpg",
   "Class": "C",
-  "Brand": "Artega",
-  "Model": "Scalo Superelletra",
+   "brand": "Artega",
+   "model": "Scalo Superelletra",
   "normalizedKey": "artega_scalo_superelletra",
   "status": "in progress",
   "message": "Still adding data",
   "sources": [
     "MEI"
   ],
-  "Rarity": "Rare",
-  "Stars": 4,
+  "rarity": "Rare",
+  "stars": 4,
   "Country": "Germany",
   "Epics": 4,
   "ObtainableVia": ["GL07"],

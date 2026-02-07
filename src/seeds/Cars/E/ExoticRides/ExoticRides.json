@@ -1,14 +1,14 @@
 {
-  "Id": 1,
-  "Image": "/images/cars/E/ExoticRides/w70.jpg",
+  "id": 1,
+  "image": "/images/cars/E/ExoticRides/w70.jpg",
   "Class": "B",
-  "Brand": "Exotic Rides",
-  "Model": "W70",
-  "Rarity": "Uncommon",
-  "Stars": 3,
+  "brand": "Exotic Rides",
+  "model": "W70",
+  "rarity": "Uncommon",
+  "stars": 3,
   "Country": "USA",
   "Epics": 4,
-  "ObtainableVia": ["GL06"],
+  "ObtainableVia": ["Garage Level 6"],
   "Gold_Max_Rank": 2633,
   "Gold_Top_Speed": 329.7,
   "Gold_Acceleration": 80.21,
@@ -21,10 +21,5 @@
   "Total GL points": null,
   "BPs_1_Star": 40,
   "BPs_2_Star": 30,
-  "BPs_3_Star": 70,
-  "Garage_Lvl": 6,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": null,
-  "Unnamed: 16": "342,9"
+  "BPs_3_Star": 70
 }

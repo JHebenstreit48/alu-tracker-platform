@@ -1,14 +1,14 @@
 {
-  "Id": 5,
-  "Image": "/images/cars/M/MercedesBenz/c63amgdtm.jpg",
+   "id": 5,
+   "image": "/images/cars/M/MercedesBenz/c63amgdtm.jpg",
   "Class": "C",
-  "Brand": "Mercedes-Benz",
-  "Model": "C 63 AMG DTM",
+   "brand": "Mercedes-Benz",
+   "model": "C 63 AMG DTM",
   "normalizedKey": "mercedes_benz_c_63_amg_dtm",
   "status": "in progress",
-  "Rarity": "Epic",
-  "Stars": 5,
-  "KeyCar": true,
+  "rarity": "Epic",
+  "stars": 5,
+  "keyCar": true,
   "BPs_1_Star": 0,
   "BPs_2_Star": 30
 }

@@ -1,11 +1,11 @@
 {
-  "Id": 2,
-  "Image": "/images/cars/A/AstonMartin/dbssuperleggera.jpg",
+   "id": 2,
+   "image": "/images/cars/A/AstonMartin/dbssuperleggera.jpg",
   "Class": "B",
-  "Brand": "Aston Martin",
-  "Model": "DBS Superleggera",
-  "Rarity": "Epic",
-  "Stars": 5,
+   "brand": "Aston Martin",
+   "model": "DBS Superleggera",
+  "rarity": "Epic",
+  "stars": 5,
   "Country": "UK",
   "Epics": 8,
   "ObtainableVia": [

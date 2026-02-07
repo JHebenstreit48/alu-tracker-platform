@@ -1,11 +1,11 @@
 {
-  "Id": 5,
-  "Image": "/images/cars/P/Porsche/91150yearsporschedesign.jpg",
+   "id": 5,
+   "image": "/images/cars/P/Porsche/91150yearsporschedesign.jpg",
   "Class": "C",
-  "Brand": "Porsche",
-  "Model": "911 50 Years Porsche Design",
-  "Rarity": "Rare",
-  "Stars": 4,
+   "brand": "Porsche",
+   "model": "911 50 Years Porsche Design",
+  "rarity": "Rare",
+  "stars": 4,
   "Country": "Germany",
   "Stock_Rank": 1832
 }

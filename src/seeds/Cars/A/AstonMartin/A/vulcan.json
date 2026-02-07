@@ -1,17 +1,17 @@
 {
-  "Id": 4,
-  "Image": "/images/cars/A/AstonMartin/vulcan.jpg",
+   "id": 4,
+   "image": "/images/cars/A/AstonMartin/vulcan.jpg",
   "Class": "A",
-  "Brand": "Aston Martin",
-  "Model": "Vulcan",
+   "brand": "Aston Martin",
+   "model": "Vulcan",
   "normalizedKey": "aston_martin_vulcan",
   "status": "in progress",
   "message": "Still adding data",
   "sources": [
     "MEI"
   ],
-  "Rarity": "Rare",
-  "Stars": 4,
+  "rarity": "Rare",
+  "stars": 4,
   "Country": "UK",
   "Epics": 8,
   "ObtainableVia": ["GL07"],
