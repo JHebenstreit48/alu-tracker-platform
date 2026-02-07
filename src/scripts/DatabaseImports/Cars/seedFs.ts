@@ -13,26 +13,27 @@ export function* walk(dir: string): Generator<string> {
 
 export const isJson = (f: string): boolean => /\.json$/i.test(f);
 
-export const isTsCollector = (f: string): boolean =>
-  /[/\\]Class[A-Z]\.ts$/i.test(f);
+export const isTsCollector = (f: string): boolean => /[/\\]Class[A-Z]\.ts$/i.test(f);
 
 /**
  * New-format car folder override:
  * src/seeds/Cars/<Letter>/<Brand>/<Class>/<CarFolder>/index.ts
  */
 export const isCarFolderIndexTs = (f: string): boolean =>
-  /[/\\]Cars[/\\][^/\\]+[/\\][^/\\]+[/\\][A-DSa-ds][\/\\][^/\\]+[/\\]index\.ts$/i.test(
-    f
-  );
+  /[/\\]Cars[/\\][^/\\]+[/\\][^/\\]+[/\\][A-DS][/\\][^/\\]+[/\\]index\.ts$/i.test(f);
 
-export function parseBrandAndClass(
-  file: string
-): { brand?: string; klass?: string } {
+/**
+ * Split parts that should NOT be treated as standalone car docs:
+ * src/seeds/Cars/<Letter>/<Brand>/<Class>/<CarFolder>/(car|stats).json
+ */
+export const isSplitPartJson = (f: string): boolean =>
+  /[/\\]Cars[/\\][^/\\]+[/\\][^/\\]+[/\\][A-DS][/\\][^/\\]+[/\\](car|stats)\.json$/i.test(f);
+
+export function parseBrandAndClass(file: string): { brand?: string; klass?: string } {
   const parts = file.split(path.sep);
   const i = parts.lastIndexOf("Cars");
   if (i < 0) return {};
 
-  // Structure:
   // src/seeds/Cars/<Letter>/<Brand>/.../file
   const brand = parts[i + 2];
   let klass: string | undefined;
@@ -42,8 +43,8 @@ export function parseBrandAndClass(
   if (m) {
     klass = m[1].toUpperCase();
   } else {
-    const folder = parts[i + 3];
-    if (folder && /^[A-D|S]$/i.test(folder)) {
+    const folder = parts[i + 3]; // class folder
+    if (folder && /^[A-DS]$/i.test(folder)) {
       klass = folder.toUpperCase();
     }
   }
@@ -52,6 +53,4 @@ export function parseBrandAndClass(
 }
 
 export const getAllSeedFiles = (): string[] =>
-  Array.from(walk(ROOT_DIR)).filter(
-    (f) => isJson(f) || isTsCollector(f) || isCarFolderIndexTs(f)
-  );
+  Array.from(walk(ROOT_DIR)).filter((f) => isJson(f) || isTsCollector(f) || isCarFolderIndexTs(f));

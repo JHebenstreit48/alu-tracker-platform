@@ -123,11 +123,7 @@ export async function buildBuckets(files: string[], opts: BuildOptions = {}): Pr
 
         if (car.status !== undefined || car.message !== undefined || car.sources !== undefined) {
           const rawSources = car.sources;
-          const sources = Array.isArray(rawSources)
-            ? rawSources.map(String)
-            : rawSources
-              ? [String(rawSources)]
-              : [];
+          const sources = Array.isArray(rawSources) ? rawSources.map(String) : rawSources ? [String(rawSources)] : [];
 
           bucket.statuses.push({
             normalizedKey,
@@ -175,18 +171,17 @@ export async function applyBuckets(
     const newKeys = bucket.keys;
 
     if (!opts.disablePrune) {
-      const legacySnap = await adminDb.collection("cars").where("Brand", "==", brand).get();
-      const newSnap = await adminDb.collection("cars").where("brand", "==", brand).get();
-
-      const existing = new Map<string, FirebaseFirestore.QueryDocumentSnapshot>();
-      for (const d of legacySnap.docs) existing.set(d.id, d);
-      for (const d of newSnap.docs) existing.set(d.id, d);
+      // Canonical-only prune: query canonical "brand"
+      const snap = await adminDb.collection("cars").where("brand", "==", brand).get();
 
       const deleteBatch = adminDb.batch();
       let deleteCount = 0;
 
-      for (const docSnap of existing.values()) {
-        const nk = docSnap.get("normalizedKey") as string | undefined;
+      for (const docSnap of snap.docs) {
+        const nk =
+          (docSnap.get("normalizedKey") as string | undefined) ||
+          docSnap.id; // your docs are keyed by normalizedKey anyway
+
         if (!nk || !newKeys.has(nk)) {
           deleteBatch.delete(docSnap.ref);
           deleteCount++;

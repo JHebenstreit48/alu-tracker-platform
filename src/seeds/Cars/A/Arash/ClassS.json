@@ -1,7 +1,7 @@
 {
    "id": 1,
    "image": "/images/cars/A/Arash/imperium.jpg",
-  "Class": "S",
+  "class": "S",
    "brand": "Arash",
    "model": "Imperium",
   "normalizedKey": "arash_imperium",
@@ -13,6 +13,6 @@
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
-  "BPs_1_Star": 0,
-  "BPs_2_Star": 45
+  "blueprints1Star": 0,
+  "blueprints2Star": 45
 }

@@ -1,10 +1,10 @@
 {
    "id": 3,
    "image": "/images/cars/J/Jaguar/xkrsgt.jpg",
-  "Class": "C",
+  "class": "C",
    "brand": "Jaguar",
    "model": "XKR-S GT",
   "rarity": "Rare",
   "stars": 4,
-  "Gold_Max_Rank": 2700
+  "goldMaxRank": 2700
 }

@@ -1,7 +1,7 @@
 {
-  "Stock_Rank": 2996,
-  "Stock_Top_Speed": 355,
-  "Stock_Acceleration": 71.2,
-  "Stock_Handling": 53.52,
-  "Stock_Nitro": 53.33
+  "stockRank": 2996,
+  "stockTopSpeed": 355,
+  "stockAcceleration": 71.2,
+  "stockHandling": 53.52,
+  "stockNitro": 53.33
 }

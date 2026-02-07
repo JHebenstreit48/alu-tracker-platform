@@ -1,7 +1,7 @@
 {
    "id": 2,
    "image": "/images/cars/A/AutomobiliPininfarina/b95.jpg",
-  "Class": "A",
+  "class": "A",
    "brand": "Automobili Pininfarina",
    "model": "B95",
   "normalizedKey": "automobili_pininfarina_b95",
@@ -12,5 +12,5 @@
   ],
   "rarity": "Epic",
   "stars": 6,
-  "Country": "Italy"
+  "country": "Italy"
 }

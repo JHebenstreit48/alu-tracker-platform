@@ -1,7 +1,7 @@
 {
    "id": 7,
    "image": "/images/cars/F/Ferrari/f12berlinetta.jpg",
-  "Class": "B",
+  "class": "B",
    "brand": "Ferrari",
    "model": "F12 Berlinetta",
   "rarity": "Epic",

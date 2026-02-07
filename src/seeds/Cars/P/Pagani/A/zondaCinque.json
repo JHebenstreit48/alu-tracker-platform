@@ -1,7 +1,7 @@
 {
    "id": 6,
    "image": "/images/cars/P/Pagani/zondacinque.jpg",
-  "Class": "A",
+  "class": "A",
    "brand": "Pagani",
    "model": "Zonda Cinque",
   "normalizedKey": "pagani_zonda_cinque",
@@ -10,11 +10,11 @@
   "sources": ["Asphalt Wiki"],
   "rarity": "Epic",
   "stars": 6,
-  "Country": "Italy",
-  "BPs_1_Star": 30,
-  "BPs_2_Star": 35,
-  "BPs_3_Star": 40,
-  "BPs_4_Star": 45,
-  "BPs_5_Star": 55,
-  "BPs_6_Star": 65
+  "country": "Italy",
+  "blueprints1Star": 30,
+  "blueprints2Star": 35,
+  "blueprints3Star": 40,
+  "blueprints4Star": 45,
+  "blueprints5Star": 55,
+  "blueprints6Star": 65
 }

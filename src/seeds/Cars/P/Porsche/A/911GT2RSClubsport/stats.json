@@ -1,7 +1,7 @@
 {
-  "Gold_Max_Rank": 4270,
-  "Gold_Top_Speed": 356.9,
-  "Gold_Acceleration": 83.64,
-  "Gold_Handling": 85.42,
-  "Gold_Nitro": 73.65
+  "goldMaxRank": 4270,
+  "goldTopSpeed": 356.9,
+  "goldAcceleration": 83.64,
+  "goldHandling": 85.42,
+  "goldNitro": 73.65
 }

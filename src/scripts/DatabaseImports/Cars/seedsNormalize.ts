@@ -1,8 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
 
-// IMPORTANT: path alias "@/..." won't work from plain node unless you run via ts-node + tsconfig-paths.
-// So for scripts, use a relative import:
 import { SEED_CAR_KEY_ORDER } from "@/scripts/DatabaseImports/Cars/seedKeyOrder";
 
 const ROOT = path.resolve(process.cwd(), "src/seeds/Cars");
@@ -13,11 +11,11 @@ const REPORT_FILE = path.join(REPORT_DIR, "seeds-normalize-report.json");
 
 type AnyObj = Record<string, any>;
 
-function* walk(dir: string): Generator<string> {
+function* walkJson(dir: string): Generator<string> {
   if (!fs.existsSync(dir)) return;
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, e.name);
-    if (e.isDirectory()) yield* walk(full);
+    if (e.isDirectory()) yield* walkJson(full);
     else if (e.isFile() && /\.json$/i.test(e.name)) yield full;
   }
 }
@@ -31,6 +29,7 @@ function writeJson(file: string, obj: unknown): void {
 }
 
 function normalizeRoot(raw: unknown): AnyObj {
+  // supports legacy "[ { ... } ]" format
   if (Array.isArray(raw)) {
     if (raw.length === 1 && raw[0] && typeof raw[0] === "object" && !Array.isArray(raw[0])) {
       return raw[0] as AnyObj;
@@ -44,14 +43,14 @@ function normalizeRoot(raw: unknown): AnyObj {
 function reorderKeys(obj: AnyObj): AnyObj {
   const out: AnyObj = {};
 
-  // ordered keys first
+  // 1) ordered keys first (canonical)
   for (const k of SEED_CAR_KEY_ORDER) {
     if (Object.prototype.hasOwnProperty.call(obj, k)) {
       out[k] = obj[k];
     }
   }
 
-  // then everything else (unknown keys) in existing order
+  // 2) then everything else in existing order (unknown keys)
   for (const k of Object.keys(obj)) {
     if (!Object.prototype.hasOwnProperty.call(out, k)) {
       out[k] = obj[k];
@@ -62,7 +61,7 @@ function reorderKeys(obj: AnyObj): AnyObj {
 }
 
 function run() {
-  const files = Array.from(walk(ROOT));
+  const files = Array.from(walkJson(ROOT));
   const report: Array<{ file: string; status: string; reason?: string }> = [];
 
   let wouldChange = 0;
@@ -74,11 +73,13 @@ function run() {
       const obj = normalizeRoot(raw);
       const next = reorderKeys(obj);
 
-      // compare “meaningfully”
       const beforeStr = JSON.stringify(obj);
       const nextStr = JSON.stringify(next);
 
-      if (beforeStr !== nextStr || Array.isArray(raw)) {
+      // If original file was array-root, we treat it as a change even if order matches
+      const shouldChange = beforeStr !== nextStr || Array.isArray(raw);
+
+      if (shouldChange) {
         wouldChange++;
         report.push({ file: f, status: APPLY ? "changed" : "would-change" });
 

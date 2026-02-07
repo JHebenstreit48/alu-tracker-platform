@@ -1,7 +1,7 @@
 {
      "id": 2,
      "image": "/images/cars/A/AstonMartin/dbs770ultimate.jpg",
-    "Class": "C",
+    "class": "C",
      "brand": "Aston Martin",
      "model": "DBS 770 Ultimate",
     "normalizedKey": "aston_martin_dbs_770_ultimate",
@@ -13,7 +13,7 @@
     "rarity": "Epic",
     "stars": 5,
     "keyCar": true,
-    "Country": "UK",
-    "BPs_1_Star": 0,
-    "BPs_2_Star": 30
+    "country": "UK",
+    "blueprints1Star": 0,
+    "blueprints2Star": 30
 }

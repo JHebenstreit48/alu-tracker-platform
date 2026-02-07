@@ -1,7 +1,7 @@
 {
    "id": 1,
    "image": "/images/cars/Z/Zenvo/auroraagil.jpg",
-  "Class": "A",
+  "class": "A",
    "brand": "Zenvo",
    "model": "Aurora Agil",
   "normalizedKey": "zenvo_aurora_agil",
@@ -12,21 +12,21 @@
   ],
   "rarity": "Epic",
   "stars": 6,
-  "Country": "Denmark",
-  "ObtainableVia": [
+  "country": "Denmark",
+  "obtainableVia": [
     "Drive Syndicate",
     "Store - Cosmetics",
     "Drive Syndicate Event Shop"
   ],
-  "Stock_Rank": 3243,
-  "Stock_Top_Speed": 365,
-  "Stock_Acceleration": 77.5,
-  "Stock_Handling": 50.67,
-  "Stock_Nitro": 41.74,
-  "BPs_1_Star": 30,
-  "BPs_2_Star": 35,
-  "BPs_3_Star": 0,
-  "BPs_4_Star": 0,
-  "BPs_5_Star": 0,
+  "stockRank": 3243,
+  "stockTopSpeed": 365,
+  "stockAcceleration": 77.5,
+  "stockHandling": 50.67,
+  "stockNitro": 41.74,
+  "blueprints1Star": 30,
+  "blueprints2Star": 35,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0,
   "Tags": "Europe"
 }

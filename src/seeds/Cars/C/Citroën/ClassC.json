@@ -1,16 +1,16 @@
 {
    "id": 1,
    "image": "/images/cars/C/Citroën/dssurvolt.jpg",
-  "Class": "C",
+  "class": "C",
    "brand": "Citroën",
    "model": "DS Survolt",
   "rarity": "Rare",
   "stars": 4,
-  "Country": "France",
-  "Stock_Rank": 1538,
-  "Stock_Top_Speed": 276,
-  "Stock_Acceleration": 73,
-  "Stock_Handling": 61.09,
-  "Stock_Nitro": 49.86,
-  "BPs_1_Star": 20
+  "country": "France",
+  "stockRank": 1538,
+  "stockTopSpeed": 276,
+  "stockAcceleration": 73,
+  "stockHandling": 61.09,
+  "stockNitro": 49.86,
+  "blueprints1Star": 20
 }

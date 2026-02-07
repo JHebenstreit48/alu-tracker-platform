@@ -1,9 +1,9 @@
 {
   "id": 1,
-   "image": "/images/cars/P/Porsche/918spyder.jpg",
+  "image": "/images/cars/P/Porsche/918spyder.jpg",
   "class": "A",
-   "brand": "Porsche",
-   "model": "918 Spyder",
+  "brand": "Porsche",
+  "model": "918 Spyder",
   "normalizedKey": "porsche_918_spyder",
   "rarity": "Epic",
   "stars": 5,

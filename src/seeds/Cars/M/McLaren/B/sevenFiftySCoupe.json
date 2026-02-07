@@ -1,7 +1,7 @@
 {
    "id": 7,
    "image": "/images/cars/M/McLaren/750scoupe.jpg",
-  "Class": "B",
+  "class": "B",
    "brand": "McLaren",
    "model": "750S Coupé",
   "normalizedKey": "mclaren_750s_coupe",
@@ -10,5 +10,5 @@
   "sources": ["My own research"],
   "rarity": "Epic",
   "stars": 5,
-  "ObtainableVia": ["Legend/Season Pass", "Limited-Time Packs"]
+  "obtainableVia": ["Legend/Season Pass", "Limited-Time Packs"]
 }
