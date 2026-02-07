@@ -67,8 +67,6 @@ export const SEED_CAR_KEY_ORDER = [
   'added',
   'addedWith',
   'addedDate',
-  'totalUpgradeCost',
-  'totalGlPoints',
 
   'blueprints1Star',
   'blueprints2Star',

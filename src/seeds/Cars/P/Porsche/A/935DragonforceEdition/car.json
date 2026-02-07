@@ -1,0 +1,21 @@
+{
+  "id": 4,
+  "image": "/images/cars/P/Porsche/935dragonforceedition.jpg",
+  "class": "A",
+  "brand": "Porsche",
+  "model": "935 Dragonforce Edition",
+  "normalizedKey": "porsche_935_dragonforce_edition",
+  "status": "in progress",
+  "message": "still adding and missing data",
+  "rarity": "Epic",
+  "stars": 6,
+  "keyCar": true,
+  "country": "Germany",
+  "obtainableVia": ["Special Events - Dragonforce"],
+  "blueprints1Star": 0,
+  "blueprints2Star": 40,
+  "blueprints3Star": 45,
+  "blueprints4Star": 50,
+  "blueprints5Star": 60,
+  "blueprints6Star": 75
+}

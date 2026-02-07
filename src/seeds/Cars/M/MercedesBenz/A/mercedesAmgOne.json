@@ -1,16 +1,16 @@
 {
    "id": 2,
    "image": "/images/cars/M/MercedesBenz/mercedesamgone.jpg",
-  "Class": "A",
+  "class": "A",
    "brand": "Mercedes-Benz",
    "model": "Mercedes-AMG One",
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
-  "Country": "Germany",
-  "ObtainableVia": ["Special Events"],
-  "Stock_Rank": 2907,
-  "Stock_Top_Speed": 352,
-  "Stock_Acceleration": 73.9,
-  "Stock_Handling": 53.2
+  "country": "Germany",
+  "obtainableVia": ["Special Events"],
+  "stockRank": 2907,
+  "stockTopSpeed": 352,
+  "stockAcceleration": 73.9,
+  "stockHandling": 53.2
 }

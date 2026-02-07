@@ -6,6 +6,7 @@ import {
   isJson,
   isTsCollector,
   isCarFolderIndexTs,
+  isSplitPartJson,
   parseBrandAndClass,
 } from "@/scripts/DatabaseImports/Cars/seedFs";
 import { logConfig } from "@/scripts/DatabaseImports/Cars/seedConfig";
@@ -35,6 +36,9 @@ import { buildBuckets, applyBuckets } from "@/scripts/DatabaseImports/Cars/seedB
       files.push(f);
       continue;
     }
+
+    // Never treat split parts as standalone seeds
+    if (isSplitPartJson(f)) continue;
 
     const { brand, klass } = parseBrandAndClass(f);
 
@@ -75,9 +79,7 @@ import { buildBuckets, applyBuckets } from "@/scripts/DatabaseImports/Cars/seedB
   const finalSnap = await adminDb.collection("cars").get();
 
   console.log(`🧮 Expected from seeds (this run): ${expectedFromSeeds}`);
-  console.log(
-    `📊 Firestore cars total: ${finalSnap.size} | Car ops: ${carOps} | Status ops: ${statusOps}`
-  );
+  console.log(`📊 Firestore cars total: ${finalSnap.size} | Car ops: ${carOps} | Status ops: ${statusOps}`);
   console.log("✅ Firebase car import complete.");
 
   process.exit(0);

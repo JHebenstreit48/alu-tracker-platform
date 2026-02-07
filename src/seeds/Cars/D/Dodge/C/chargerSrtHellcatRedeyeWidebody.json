@@ -1,7 +1,7 @@
 {
    "id": 3,
    "image": "/images/cars/D/Dodge/chargersrthellcatredeyewidebody.jpg",
-  "Class": "C",
+  "class": "C",
    "brand": "Dodge",
    "model": "Charger SRT® Hellcat Redeye Widebody",
   "normalizedKey": "dodge_charger_srt_hellcat_redeye_widebody",
@@ -10,11 +10,11 @@
   "sources": ["My own research", "Asphalt Wiki"],
   "rarity": "Epic",
   "stars": 5,
-  "ObtainableVia": ["Drive Syndicate(DS)"],
-  "Stock_Rank": 2037,
-  "BPs_1_Star": 20,
-  "BPs_2_Star": 25,
-  "BPs_3_Star": 30,
-  "BPs_4_Star": 35,
-  "BPs_5_Star": 40
+  "obtainableVia": ["Drive Syndicate(DS)"],
+  "stockRank": 2037,
+  "blueprints1Star": 20,
+  "blueprints2Star": 25,
+  "blueprints3Star": 30,
+  "blueprints4Star": 35,
+  "blueprints5Star": 40
 }

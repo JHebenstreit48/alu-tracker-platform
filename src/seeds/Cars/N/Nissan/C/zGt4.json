@@ -1,15 +1,15 @@
 {
    "id": 1,
    "image": "/images/cars/N/Nissan/zgt4.jpg",
-  "Class": "C",
+  "class": "C",
    "brand": "Nissan",
    "model": "Z GT4",
   "rarity": "Epic",
   "stars": 5,
-  "Country": "Japan",
-  "Stock_Rank": 2365,
-  "Stock_Top_Speed": 335,
-  "Stock_Acceleration": 73,
-  "Stock_Handling": 35.04,
-  "Stock_Nitro": 39.24
+  "country": "Japan",
+  "stockRank": 2365,
+  "stockTopSpeed": 335,
+  "stockAcceleration": 73,
+  "stockHandling": 35.04,
+  "stockNitro": 39.24
 }

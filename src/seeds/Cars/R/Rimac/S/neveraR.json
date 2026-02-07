@@ -1,7 +1,7 @@
 {
    "id": 4,
    "image": "/images/cars/R/Rimac/neverar.jpg",
-  "Class": "S",
+  "class": "S",
    "brand": "Rimac",
    "model": "Nevera R",
   "normalizedKey": "rimac_nevera_r",
@@ -10,13 +10,13 @@
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
-  "Country": "Croatia",
-  "ObtainableVia": [""],
-  "Stock_Rank": 3839,
-  "Stock_Top_Speed": 431,
-  "Stock_Acceleration": 84.52,
-  "Stock_Handling": 39.3,
-  "Stock_Nitro": 18.59,
-  "BPs_1_Star": 0,
-  "BPs_2_Star": 45
+  "country": "Croatia",
+  "obtainableVia": [""],
+  "stockRank": 3839,
+  "stockTopSpeed": 431,
+  "stockAcceleration": 84.52,
+  "stockHandling": 39.3,
+  "stockNitro": 18.59,
+  "blueprints1Star": 0,
+  "blueprints2Star": 45
 }

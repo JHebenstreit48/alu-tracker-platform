@@ -1,18 +1,18 @@
 {
    "id": 1,
    "image": "/images/cars/F/Ford/mustangrtrspec5fd.jpg",
-  "Class": "S",
+  "class": "S",
    "brand": "Ford",
    "model": "Mustang RTR Spec 5-FD",
   "rarity": "Epic",
   "stars": 6,
-  "Country": "USA",
-  "Stock_Rank": 3525,
-  "Stock_Top_Speed": 403,
-  "Stock_Acceleration": 73.9,
-  "Stock_Handling": 46.04,
-  "Stock_Nitro": 58.48,
-  "BPs_1_Star": null,
-  "BPs_2_Star": 40,
-  "BPs_3_Star": null
+  "country": "USA",
+  "stockRank": 3525,
+  "stockTopSpeed": 403,
+  "stockAcceleration": 73.9,
+  "stockHandling": 46.04,
+  "stockNitro": 58.48,
+  "blueprints1Star": null,
+  "blueprints2Star": 40,
+  "blueprints3Star": null
 }

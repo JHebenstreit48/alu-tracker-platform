@@ -1,7 +1,7 @@
 {
    "id": 1,
    "image": "/images/cars/L/LegoTechnic/bugattichironpursport.jpg",
-  "Class": "S",
+  "class": "S",
    "brand": "LEGO Technic",
    "model": "Bugatti Chiron Pur Sport",
   "normalizedKey": "lego_technic_bugatti_chiron_pur_sport",
@@ -11,8 +11,8 @@
   ],
   "rarity": "Epic",
   "stars": 5,
-  "Country": "France",
-  "Stock_Rank": 3589,
-  "One_Star_Max_Rank": 3743,
-  "BPs_1_Star": 35
+  "country": "France",
+  "stockRank": 3589,
+  "oneStarMaxRank": 3743,
+  "blueprints1Star": 35
 }

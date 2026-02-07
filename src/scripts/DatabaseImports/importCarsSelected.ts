@@ -7,6 +7,7 @@ import {
   isJson,
   isTsCollector,
   isCarFolderIndexTs,
+  isSplitPartJson,
   parseBrandAndClass,
 } from "@/scripts/DatabaseImports/Cars/seedFs";
 import { logConfig } from "@/scripts/DatabaseImports/Cars/seedConfig";
@@ -19,10 +20,7 @@ function getArg(name: string): string | undefined {
 
 function parseKeys(keysArg?: string): string[] {
   if (!keysArg) return [];
-  return keysArg
-    .split(",")
-    .map((s) => s.trim())
-    .filter(Boolean);
+  return keysArg.split(",").map((s) => s.trim()).filter(Boolean);
 }
 
 function readKeysFile(filePath: string): string[] {
@@ -44,9 +42,7 @@ function readKeysFile(filePath: string): string[] {
   if (!keys.length && fileArg) keys = readKeysFile(fileArg);
 
   if (!keys.length) {
-    console.error(
-      `❌ Provide keys via --keys=a,b,c OR --file=path.txt (or env SEED_KEYS / SEED_KEYS_FILE)`
-    );
+    console.error(`❌ Provide keys via --keys=a,b,c OR --file=path.txt (or env SEED_KEYS / SEED_KEYS_FILE)`);
     process.exit(1);
   }
 
@@ -72,6 +68,9 @@ function readKeysFile(filePath: string): string[] {
       files.push(f);
       continue;
     }
+
+    // Never treat split parts as standalone seeds
+    if (isSplitPartJson(f)) continue;
 
     const { brand, klass } = parseBrandAndClass(f);
     if (!brand || !klass) {

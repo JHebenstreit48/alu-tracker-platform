@@ -1,24 +1,28 @@
 {
-   "id": 1,
-   "image": "/images/cars/N/Nilu27/nilu.jpg",
-  "Class": "S",
-   "brand": "Nilu27",
-   "model": "Nilu",
+  "id": 1,
+  "image": "/images/cars/N/Nilu27/nilu.jpg",
+  "class": "S",
+  "brand": "Nilu27",
+  "model": "Nilu",
   "normalizedKey": "nilu27_nilu",
   "status": "in progress",
   "message": "still adding and missing data",
-  "sources": ["My own research"],
+  "sources": [
+    "My own research"
+  ],
   "rarity": "Epic",
   "stars": 6,
-  "Country": "USA",
-  "ObtainableVia": ["Special Events - Dragonforce"],
-  "Stock_Rank": 3122,
-  "Added_With": "Flames of Fortune Update",
-  "Added_Date": "03/02/2026",
-  "BPs_1_Star": 35,
-  "BPs_2_Star": 40,
-  "BPs_3_Star": 45,
-  "BPs_4_Star": 50,
-  "BPs_5_Star": 60,
-  "BPs_6_Star": 70
+  "country": "USA",
+  "obtainableVia": [
+    "Special Events - Dragonforce"
+  ],
+  "stockRank": 3122,
+  "addedWith": "Flames of Fortune Update",
+  "blueprints1Star": 35,
+  "blueprints2Star": 40,
+  "blueprints3Star": 45,
+  "blueprints4Star": 50,
+  "blueprints5Star": 60,
+  "blueprints6Star": 70,
+  "Added_Date": "03/02/2026"
 }

@@ -1,11 +1,11 @@
 {
      "id": 3,
      "image": "/images/cars/R/Raesr/aglaia.jpg",
-    "Class": "S",
+    "class": "S",
      "brand": "Raesr",
      "model": "Aglaia",
     "rarity": "Epic",
     "stars": 6,
-    "Country": "USA",
-    "BPs_1_Star": 35
+    "country": "USA",
+    "blueprints1Star": 35
 }

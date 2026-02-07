@@ -1,7 +1,7 @@
 {
      "id": 2,
      "image": "/images/cars/T/Tushek/aeone.jpg",
-    "Class": "S",
+    "class": "S",
      "brand": "Tushek",
      "model": "Aeon E",
     "normalizedKey": "tushek_aeon_e",
@@ -9,7 +9,7 @@
     "message": "Still missing data",
     "rarity": "Epic",
     "stars": 6,
-    "Country": "Austria",
-    "Stock_Rank": 3876,
-    "BPs_1_Star": 35
+    "country": "Austria",
+    "stockRank": 3876,
+    "blueprints1Star": 35
 }
