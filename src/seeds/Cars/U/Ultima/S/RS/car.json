@@ -1,9 +1,9 @@
 {
-   "id": 1,
-   "image": "/images/cars/U/Ultima/rs.jpg",
+  "id": 1,
+  "image": "/images/cars/U/Ultima/rs.jpg",
   "Class": "S",
-   "brand": "Ultima",
-   "model": "RS",
+  "brand": "Ultima",
+  "model": "RS",
   "normalizedKey": "ultima_rs",
   "status": "in progress",
   "message": "temporarily complete",
