@@ -7,16 +7,12 @@
   "normalizedKey": "porsche_718_cayman",
   "status": "in progress",
   "message": "still adding data",
-  "sources": [
-    "Garage Level 4"
-  ],
+  "sources": ["MEI", "Reddit users Google Sheets document."],
   "rarity": "Rare",
   "stars": 4,
   "country": "Germany",
   "epics": 4,
-  "obtainableVia": [
-    "GL04"
-  ],
+  "obtainableVia": ["Garage Level 4"],
   "goldMaxRank": 2360,
   "goldTopSpeed": 295.7,
   "goldAcceleration": 70.52,
@@ -29,11 +25,5 @@
   "blueprints2Star": 8,
   "blueprints3Star": 14,
   "blueprints4Star": 28,
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Garage_Lvl": 4,
-  "Nitro_TS": null,
-  "Unnamed: 16": "307,5",
-  "Perfect_Nitro_TS": null,
   "Tags": "Europe"
 }

@@ -7,16 +7,12 @@
   "normalizedKey": "artega_scalo_superelletra",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": [
-    "MEI"
-  ],
+  "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
   "country": "Germany",
   "epics": 4,
-  "obtainableVia": [
-    "GL07"
-  ],
+  "obtainableVia": ["GL07"],
   "goldMaxRank": 3088,
   "goldTopSpeed": 316.3,
   "goldAcceleration": 85.72,

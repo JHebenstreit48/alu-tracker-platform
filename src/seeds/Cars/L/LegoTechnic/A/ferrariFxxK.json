@@ -1,16 +1,13 @@
 {
-   "id": 3,
-   "image": "/images/cars/L/LegoTechnic/ferrarifxxk.jpg",
+  "id": 3,
+  "image": "/images/cars/L/LegoTechnic/ferrarifxxk.jpg",
   "class": "A",
-   "brand": "LEGO Technic",
-   "model": "Ferrari FXXK",
+  "brand": "LEGO Technic",
+  "model": "Ferrari FXXK",
   "normalizedKey": "lego_technic_ferrari_fxxk",
   "status": "in progress",
   "message": "Missing data",
-  "sources": [
-    "MEI",
-    "Car is at Max one Star in game"
-  ],
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 5,
   "stockRank": 2382,

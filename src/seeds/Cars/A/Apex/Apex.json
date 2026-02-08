@@ -7,16 +7,12 @@
   "normalizedKey": "apex_ap_0",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": [
-    "MEI"
-  ],
+  "sources": ["MEI", "Reddit users Google Sheets document."],
   "rarity": "Epic",
   "stars": 5,
   "country": "UK",
   "epics": 8,
-  "obtainableVia": [
-    "Car Hunt"
-  ],
+  "obtainableVia": ["Car Hunt"],
   "goldMaxRank": 3946,
   "goldTopSpeed": 335.1,
   "goldAcceleration": 80.96,
