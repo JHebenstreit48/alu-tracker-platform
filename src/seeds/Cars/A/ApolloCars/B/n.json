@@ -7,16 +7,12 @@
   "normalizedKey": "apollo_n",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": [
-    "MEI"
-  ],
+  "sources": ["MEI", "Reddit users Google Sheets document."],
   "rarity": "Epic",
   "stars": 5,
   "country": "Germany",
   "epics": 8,
-  "obtainableVia": [
-    "GL14"
-  ],
+  "obtainableVia": ["GL14"],
   "goldMaxRank": 4047,
   "goldTopSpeed": 374.1,
   "goldAcceleration": 80.32,

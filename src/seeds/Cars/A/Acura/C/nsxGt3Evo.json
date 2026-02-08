@@ -7,7 +7,7 @@
   "normalizedKey": "acura_nsx_gt3_evo",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Reddit users Google Sheets document."],
   "rarity": "Epic",
   "stars": 5,
   "keyCar": true,
