@@ -11,7 +11,7 @@
   "rarity": "Epic",
   "stars": 5,
   "country": "Japan",
-  "obtainableVia": ["Legend Pass"],
+  "obtainableVia": ["Legend Pass", "Drive Syndicate", "Drive Syndicate Store Packs"],
   "stockRank": 2106,
   "stockTopSpeed": 325,
   "stockAcceleration": 67.6,
