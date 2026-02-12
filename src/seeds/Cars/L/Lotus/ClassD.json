@@ -1,10 +1,10 @@
 [
   {
-     "id": 1,
-     "image": "/images/cars/L/Lotus/elisesprint220.jpg",
+    "id": 1,
+    "image": "/images/cars/L/Lotus/elisesprint220.jpg",
     "class": "D",
-     "brand": "Lotus",
-     "model": "Elise Sprint 220",
+    "brand": "Lotus",
+    "model": "Elise Sprint 220",
     "rarity": "Rare",
     "stars": 4,
     "goldMaxRank": 2390,
@@ -31,11 +31,11 @@
     "blueprints4Star": 28
   },
   {
-     "id": 2,
-     "image": "/images/cars/L/Lotus/emira.jpg",
+    "id": 2,
+    "image": "/images/cars/L/Lotus/emira.jpg",
     "class": "D",
-     "brand": "Lotus",
-     "model": "Emira",
+    "brand": "Lotus",
+    "model": "Emira",
     "rarity": "Rare",
     "stars": 4,
     "goldMaxRank": 2611,
@@ -62,11 +62,11 @@
     "blueprints4Star": 42
   },
   {
-     "id": 3,
-     "image": "/images/cars/L/Lotus/emeya.jpg",
+    "id": 3,
+    "image": "/images/cars/L/Lotus/emeya.jpg",
     "class": "D",
-     "brand": "Lotus",
-     "model": "Emeya",
+    "brand": "Lotus",
+    "model": "Emeya",
     "normalizedKey": "lotus_emeya",
     "rarity": "Rare",
     "stars": 4,
