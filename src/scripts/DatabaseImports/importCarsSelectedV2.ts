@@ -1,6 +1,7 @@
 import "dotenv/config";
 
-process.env.SEED_EMIT_LEGACY_FLAT_STATS ??= "1";
+// V2 default: do NOT emit legacy flat stats unless you explicitly opt-in per run.
+process.env.SEED_EMIT_LEGACY_FLAT_STATS ??= "0";
 
 import fs from "fs";
 import { adminDb, adminBucket } from "@/Firebase/firebaseAdmin";
@@ -44,7 +45,9 @@ function readKeysFile(filePath: string): string[] {
   if (!keys.length && fileArg) keys = readKeysFile(fileArg);
 
   if (!keys.length) {
-    console.error(`❌ Provide keys via --keys=a,b,c OR --file=path.txt (or env SEED_KEYS / SEED_KEYS_FILE)`);
+    console.error(
+      `❌ Provide keys via --keys=a,b,c OR --file=path.txt (or env SEED_KEYS / SEED_KEYS_FILE)`
+    );
     process.exit(1);
   }
 
@@ -100,6 +103,9 @@ function readKeysFile(filePath: string): string[] {
 
   const { brandBuckets, expectedFromSeeds } = await buildBuckets(files, { onlyKeys });
 
+  // NOTE: disablePrune true means your separate prune script controls deletions.
+  // We will make V2 idempotent by adding "delete legacy when new maps exist"
+  // inside applyBuckets itself (see patch below).
   const { carOps, statusOps } = await applyBuckets(brandBuckets, {
     onlyKeys,
     disablePrune: true,

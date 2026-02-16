@@ -40,6 +40,48 @@ function inferPriorityFromFile(file: string): number {
   return 0;
 }
 
+function buildLegacyDeletesForNestedGroups(toWrite: Record<string, any>): Record<string, any> {
+  const deletes: Record<string, any> = {};
+
+  // If nested stock exists, delete legacy stock flat fields.
+  if (toWrite?.stock && typeof toWrite.stock === "object") {
+    deletes.stockRank = FieldValue.delete();
+    deletes.stockTopSpeed = FieldValue.delete();
+    deletes.stockAcceleration = FieldValue.delete();
+    deletes.stockHandling = FieldValue.delete();
+    deletes.stockNitro = FieldValue.delete();
+  }
+
+  // If nested gold exists, delete legacy gold flat fields.
+  if (toWrite?.gold && typeof toWrite.gold === "object") {
+    deletes.goldMaxRank = FieldValue.delete();
+    deletes.goldTopSpeed = FieldValue.delete();
+    deletes.goldAcceleration = FieldValue.delete();
+    deletes.goldHandling = FieldValue.delete();
+    deletes.goldNitro = FieldValue.delete();
+  }
+
+  // If nested maxStar has DATA, delete legacy max-star flat fields.
+  // (Avoid treating maxStar: {} as "migrated".)
+  if (
+    toWrite?.maxStar &&
+    typeof toWrite.maxStar === "object" &&
+    Object.keys(toWrite.maxStar).length > 0
+  ) {
+    const stars = ["oneStar", "twoStar", "threeStar", "fourStar", "fiveStar", "sixStar"] as const;
+    const suffixes = ["Rank", "TopSpeed", "Acceleration", "Handling", "Nitro"] as const;
+
+    for (const s of stars) {
+      const prefix = `${s}Max`;
+      for (const suf of suffixes) {
+        deletes[`${prefix}${suf}`] = FieldValue.delete();
+      }
+    }
+  }
+
+  return deletes;
+}
+
 export async function buildBuckets(files: string[], opts: BuildOptions = {}): Promise<BuildResult> {
   const brandBuckets = new Map<string, BrandBucket>();
   let expectedFromSeeds = 0;
@@ -124,7 +166,11 @@ export async function buildBuckets(files: string[], opts: BuildOptions = {}): Pr
 
         if (car.status !== undefined || car.message !== undefined || car.sources !== undefined) {
           const rawSources = car.sources;
-          const sources = Array.isArray(rawSources) ? rawSources.map(String) : rawSources ? [String(rawSources)] : [];
+          const sources = Array.isArray(rawSources)
+            ? rawSources.map(String)
+            : rawSources
+            ? [String(rawSources)]
+            : [];
 
           bucket.statuses.push({
             normalizedKey,
@@ -208,12 +254,27 @@ export async function applyBuckets(
         image: resolvedImage ?? imagePath ?? "",
       };
 
-      // Additive V2 logic: if doc contains V2 structured stats, emit legacy flat stat keys too.
+      // Compat emission (OFF by default in your V2 scripts)
       toWrite = applyV2LegacyKeys(toWrite) as CarDoc;
 
-      // Critical: overwrite only when this seed is marked new format (or force flag is set)
+      // If nested groups exist, legacy flat fields must be deleted.
+      const legacyDeletes = buildLegacyDeletesForNestedGroups(toWrite);
+
       const overwrite = forceOverwrite || bucket._overwriteByKey.get(doc.normalizedKey) === true;
+
+      /**
+       * IMPORTANT FIRESTORE RULE:
+       * FieldValue.delete() cannot be used in set() with merge:false.
+       *
+       * So:
+       *  1) write doc normally using merge based on overwrite
+       *  2) apply deletes in a second set() using merge:true
+       */
       batch.set(ref, toWrite, { merge: !overwrite });
+
+      if (Object.keys(legacyDeletes).length > 0) {
+        batch.set(ref, legacyDeletes, { merge: true });
+      }
 
       batchCount++;
 
