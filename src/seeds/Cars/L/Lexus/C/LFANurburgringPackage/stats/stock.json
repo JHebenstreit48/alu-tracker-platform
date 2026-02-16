@@ -1,3 +1,9 @@
 {
-    
+  "stock": {
+    "rank": 2106,
+    "topSpeed": 325,
+    "acceleration": 67.6,
+    "handling": 43,
+    "nitro": 30.67
+  }
 }

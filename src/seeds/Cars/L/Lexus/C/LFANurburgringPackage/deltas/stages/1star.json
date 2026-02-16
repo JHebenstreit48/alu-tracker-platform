@@ -1,0 +1,47 @@
+[
+  {
+    "stage": 1,
+    "rankByStat": {
+      "topSpeed": 10,
+      "acceleration": 9,
+      "handling": 10,
+      "nitro": 11
+    },
+    "statByStat": {
+      "topSpeed": 0.3,
+      "acceleration": 0.17,
+      "handling": 0.48,
+      "nitro": 0.84
+    }
+  },
+  {
+    "stage": 2,
+    "rankByStat": {
+      "topSpeed": 10,
+      "acceleration": 9,
+      "handling": 10,
+      "nitro": 12
+    },
+    "statByStat": {
+      "topSpeed": 0.3,
+      "acceleration": 0.18,
+      "handling": 0.5,
+      "nitro": 0.86
+    }
+  },
+  {
+    "stage": 3,
+    "rankByStat": {
+      "topSpeed": 11,
+      "acceleration": 9,
+      "handling": 11,
+      "nitro": 12
+    },
+    "statByStat": {
+      "topSpeed": 0.3,
+      "acceleration": 0.18,
+      "handling": 0.51,
+      "nitro": 0.89
+    }
+  }
+]

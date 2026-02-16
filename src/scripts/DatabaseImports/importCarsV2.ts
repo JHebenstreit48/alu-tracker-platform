@@ -1,6 +1,7 @@
 import "dotenv/config";
 
-process.env.SEED_EMIT_LEGACY_FLAT_STATS ??= "1";
+// V2 default: do NOT emit legacy flat stats unless you explicitly opt-in per run.
+process.env.SEED_EMIT_LEGACY_FLAT_STATS ??= "0";
 
 import { adminDb, adminBucket } from "@/Firebase/firebaseAdmin";
 import {
@@ -80,7 +81,9 @@ import { buildBuckets, applyBuckets } from "@/scripts/DatabaseImports/Cars/seedB
   const finalSnap = await adminDb.collection("cars").get();
 
   console.log(`🧮 Expected from seeds (this run): ${expectedFromSeeds}`);
-  console.log(`📊 Firestore cars total: ${finalSnap.size} | Car ops: ${carOps} | Status ops: ${statusOps}`);
+  console.log(
+    `📊 Firestore cars total: ${finalSnap.size} | Car ops: ${carOps} | Status ops: ${statusOps}`
+  );
   console.log("✅ Firebase car import complete (V2).");
 
   process.exit(0);

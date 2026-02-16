@@ -121,15 +121,18 @@ function coerceStatLine(x: unknown): StatLine | null {
 }
 
 /**
- * For V2 seeds, emit legacy flat keys so the current frontend keeps working.
- * Keeps V2 objects too (maxStar/stages/stock/gold) so you can migrate forward.
+ * Legacy flat emission (compat) — OPT-IN ONLY.
  *
- * Toggle via env:
- *   SEED_EMIT_LEGACY_FLAT_STATS=0  -> stops emitting legacy keys
- * Default: emits legacy keys.
+ * If enabled, it will emit legacy flat keys from V2 structures.
+ * For your migration workflow, keep this OFF so pruned legacy never returns.
+ *
+ * Enable explicitly only if needed:
+ *   SEED_EMIT_LEGACY_FLAT_STATS=1
+ *
+ * Default: OFF.
  */
 export function applyV2LegacyKeys(car: SeedCar): SeedCar {
-  const emitLegacy = process.env.SEED_EMIT_LEGACY_FLAT_STATS !== "0";
+  const emitLegacy = process.env.SEED_EMIT_LEGACY_FLAT_STATS === "1";
   const anyCar = car as any;
 
   if (!emitLegacy) return car;
@@ -153,7 +156,7 @@ export function applyV2LegacyKeys(car: SeedCar): SeedCar {
     setLegacyMaxStar(out, mapped);
   }
 
-  // stages: no legacy equivalent existed; keep V2 only.
+  // stages: no legacy equivalent; keep V2 only.
 
   return out;
 }

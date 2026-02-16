@@ -1,7 +1,9 @@
 {
-  "stockRank": 3122,
-  "stockTopSpeed": 400,
-  "stockAcceleration": 73,
-  "stockHandling": 41.57,
-  "stockNitro": 48.04
+  "stock": {
+    "rank": 3122,
+    "topSpeed": 400,
+    "acceleration": 73,
+    "handling": 41.57,
+    "nitro": 48.04
+  }
 }
