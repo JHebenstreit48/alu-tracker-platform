@@ -1,0 +1,32 @@
+[
+  {
+    "stage": 1,
+    "rankByStat": {
+      "topSpeed": 5,
+      "acceleration": 7,
+      "handling": 8,
+      "nitro": 5
+    },
+    "statByStat": {
+      "topSpeed": 0.19,
+      "acceleration": 0.15,
+      "handling": 0.46,
+      "nitro": 0.37
+    }
+  },
+  {
+    "stage": 2,
+    "rankByStat": {
+      "topSpeed": 5,
+      "acceleration": 7,
+      "handling": 8,
+      "nitro": 5
+    },
+    "statByStat": {
+      "topSpeed": 0.19,
+      "acceleration": 0.15,
+      "handling": 0.47,
+      "nitro": 0.38
+    }
+  }
+]
