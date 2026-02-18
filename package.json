@@ -14,6 +14,8 @@
     "seed:cars:selected:v2": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCarsSelectedV2.ts",
 
     "seed:prune:legacy-stats": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Cars/pruneLegacyStats.ts",
+    "seed:prune:legacy-stats:all": "npm run seed:prune:legacy-stats -- --all",
+    "seed:prune:legacy-stats:all:apply": "npm run seed:prune:legacy-stats -- --all --apply",
 
     "seed:images": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCarImages.ts",
     "seed:brands": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importBrands.ts",

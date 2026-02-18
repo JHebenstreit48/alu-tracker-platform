@@ -3,4 +3,4 @@ import stages from '@/seeds/Cars/K/Koenigsegg/S/CCXR/stats/stages';
 import maxStar from '@/seeds/Cars/K/Koenigsegg/S/CCXR/stats/maxStar.json';
 import gold from '@/seeds/Cars/K/Koenigsegg/S/CCXR/stats/gold.json';
 
-export default {...stock, ...stages, ...maxStar, ...gold};
+export default {...stock, ...stages, maxStar, ...gold};
