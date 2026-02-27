@@ -13,11 +13,6 @@
   "country": "UAE",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4702,
-  "goldTopSpeed": 441,
-  "goldAcceleration": 81.56,
-  "goldHandling": 47.91,
-  "goldNitro": 60.58,
   "added": "Around the World",
   "addedWith": "SE",
   "addedDate": "03/04/2022",
@@ -26,5 +21,16 @@
   "blueprints3Star": 29,
   "blueprints4Star": 38,
   "blueprints5Star": 54,
-  "blueprints6Star": 69
+  "blueprints6Star": 69,
+  "stock": {},
+  "gold": {
+    "gold": {
+      "rank": 4702,
+      "topSpeed": 441,
+      "acceleration": 81.56,
+      "handling": 47.91,
+      "nitro": 60.58
+    }
+  },
+  "maxStar": {}
 }

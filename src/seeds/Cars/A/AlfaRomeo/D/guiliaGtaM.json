@@ -13,11 +13,6 @@
   "country": "Italy",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 2895,
-  "goldTopSpeed": 314,
-  "goldAcceleration": 77.28,
-  "goldHandling": 48.23,
-  "goldNitro": 49.35,
   "added": "Italian Revolution I",
   "addedWith": "GP",
   "addedDate": "19/2/2024",
@@ -25,5 +20,14 @@
   "blueprints2Star": 22,
   "blueprints3Star": 30,
   "blueprints4Star": 35,
-  "blueprints5Star": 38
+  "blueprints5Star": 38,
+  "gold": {
+    "gold": {
+      "rank": 2895,
+      "topSpeed": 314,
+      "acceleration": 77.28,
+      "handling": 48.23,
+      "nitro": 49.35
+    }
+  }
 }

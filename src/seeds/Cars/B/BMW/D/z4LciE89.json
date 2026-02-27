@@ -17,26 +17,6 @@
   "obtainableVia": [
     "GL01"
   ],
-  "stockRank": 518,
-  "stockTopSpeed": 250,
-  "stockAcceleration": 58.6,
-  "stockHandling": 39.02,
-  "stockNitro": 45.09,
-  "oneStarMaxRank": 793,
-  "oneStarMaxTopSpeed": 254.8,
-  "oneStarMaxAcceleration": 61.55,
-  "oneStarMaxHandling": 41.43,
-  "oneStarMaxNitro": 48.65,
-  "twoStarMaxRank": 1111,
-  "twoStarMaxTopSpeed": 260.3,
-  "twoStarMaxAcceleration": 64.95,
-  "twoStarMaxHandling": 44.22,
-  "twoStarMaxNitro": 52.77,
-  "goldMaxRank": 1476,
-  "goldTopSpeed": 266.8,
-  "goldAcceleration": 68.86,
-  "goldHandling": 47.43,
-  "goldNitro": 57.49,
   "added": "Soft Launch",
   "blueprints1Star": 5,
   "blueprints2Star": 8,
@@ -44,5 +24,39 @@
   "Garage_Lvl": 1,
   "Added_with": null,
   "Added_date": "26/02/2018",
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "stock": {
+    "stock": {
+      "rank": 518,
+      "topSpeed": 250,
+      "acceleration": 58.6,
+      "handling": 39.02,
+      "nitro": 45.09
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 1476,
+      "topSpeed": 266.8,
+      "acceleration": 68.86,
+      "handling": 47.43,
+      "nitro": 57.49
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 793,
+      "topSpeed": 254.8,
+      "acceleration": 61.55,
+      "handling": 41.43,
+      "nitro": 48.65
+    },
+    "twoStar": {
+      "rank": 1111,
+      "topSpeed": 260.3,
+      "acceleration": 64.95,
+      "handling": 44.22,
+      "nitro": 52.77
+    }
+  }
 }

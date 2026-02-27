@@ -6,7 +6,6 @@
   "scripts": {
     "start": "ts-node -r tsconfig-paths/register src/server.ts",
     "dev": "ts-node -r tsconfig-paths/register src/server.ts",
-
     "seed:cars": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCars.ts",
     "seed:cars:selected": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCarsSelected.ts",
 
@@ -25,9 +24,12 @@
     "seed:normalize": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Cars/seedNormalize.ts",
     "seed:normalize:apply": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Cars/seedNormalize.ts --apply",
 
+    "legacy:one": "ts-node -r tsconfig-paths/register src/scripts/maintenance/legacyToNested.ts",
+    "legacy:scan": "ts-node -r tsconfig-paths/register src/scripts/maintenance/legacyToNested.ts",
+    "legacy:scan:dry": "ts-node -r tsconfig-paths/register src/scripts/maintenance/legacyToNested.ts --dry",
+    
     "seed:icons": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importIcons.ts",
     "seed:logos": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importLogos.ts",
-
     "ping:firebase": "ts-node -r tsconfig-paths/register src/scripts/pingFirestore.ts",
     "seed:diagnose": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/diagnoseCarSet.ts",
     "seed:backfill": "cross-env INCLUDE_PER_CAR_WITH_COLLECTOR=1 INCLUDE_CLASS_JSON_WITH_COLLECTOR=1 ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCars.ts",
