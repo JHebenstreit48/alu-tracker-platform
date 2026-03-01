@@ -1,0 +1,22 @@
+{
+  "id": 1,
+  "image": "/images/cars/B/BMW/z4lcie89.jpg",
+  "class": "D",
+  "brand": "BMW",
+  "model": "Z4 LCI E89",
+  "normalizedKey": "bmw_z4_lci_e89",
+  "status": "in progress",
+  "message": "Still adding data I have so far.",
+  "sources": ["MEI"],
+  "rarity": "Uncommon",
+  "stars": 3,
+  "country": "Germany",
+  "epics": 0,
+  "obtainableVia": ["Garage Level 1"],
+  "added": "Soft Launch",
+  "blueprints1Star": 5,
+  "blueprints2Star": 8,
+  "blueprints3Star": 45,
+  "Added_with": null,
+  "Added_date": "26/02/2018"
+}
