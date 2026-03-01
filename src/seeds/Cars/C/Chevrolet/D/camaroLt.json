@@ -11,15 +11,13 @@
   "stars": 3,
   "country": "USA",
   "epics": 0,
-  "obtainableVia": ["GL01"],
+  "obtainableVia": ["Garage Level 1"],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
   "blueprints1Star": 5,
   "blueprints2Star": 12,
   "blueprints3Star": 30,
-  "Garage_Lvl": 1,
-  "Nitro_TS": "296,0",
   "Tags": "Muscle",
   "stock": {
     "stock": {
