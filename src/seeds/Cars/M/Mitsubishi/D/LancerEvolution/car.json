@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "image": "/images/cars/M/Mitsubishi/lancerevolution.jpg",
+  "class": "D",
+  "brand": "Mitsubishi",
+  "model": "Lancer Evolution",
+  "normalizedKey": "mitsubishi_lancer_evolution",
+  "status": "in progress",
+  "message": "(temporarily) Completed until I can new tables and data",
+  "sources": ["MEI"],
+  "rarity": "Uncommon",
+  "stars": 3,
+  "country": "Japan",
+  "epics": 0,
+  "obtainableVia": ["Garage Level 1"],
+  "added": "Soft Launch",
+  "blueprints1Star": 5,
+  "blueprints2Star": 8,
+  "blueprints3Star": 30,
+  "Tags": "Asia",
+  "Added_with": "Starter car",
+  "Added_date": "26/02/2018"
+}

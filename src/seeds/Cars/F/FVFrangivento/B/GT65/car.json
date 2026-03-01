@@ -1,0 +1,19 @@
+{
+  "id": 1,
+  "image": "/images/cars/F/FVFrangivento/gt65.jpg",
+  "class": "B",
+  "brand": "FV Frangivento",
+  "model": "GT65",
+  "normalizedKey": "fv_frangivento_gt65",
+  "status": "in progress",
+  "message": "Still adding data including stages",
+  "rarity": "Epic",
+  "stars": 5,
+  "keyCar": true,
+  "country": "Italy",
+  "blueprints1Star": 0,
+  "blueprints2Star": 26,
+  "blueprints3Star": 34,
+  "blueprints4Star": 40,
+  "blueprints5Star": 62
+}

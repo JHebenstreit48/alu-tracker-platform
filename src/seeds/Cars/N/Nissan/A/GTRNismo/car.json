@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "image": "/images/cars/N/Nissan/gtrnismo.jpg",
+  "class": "A",
+  "brand": "Nissan",
+  "model": "GT-R Nismo",
+  "normalizedKey": "nissan_gt_r_nismo",
+  "status": "In Progress",
+  "message": "Still adding data",
+  "rarity": "Rare",
+  "stars": 4,
+  "country": "Japan",
+  "epics": 8,
+  "obtainableVia": ["Garage Level 8"],
+  "added": "Soft Launch",
+  "addedWith": null,
+  "addedDate": "26/02/2018",
+  "blueprints1Star": 45,
+  "blueprints2Star": 21,
+  "blueprints3Star": 28,
+  "blueprints4Star": 42,
+  "Tags": "Asia; Super Car"
+}
