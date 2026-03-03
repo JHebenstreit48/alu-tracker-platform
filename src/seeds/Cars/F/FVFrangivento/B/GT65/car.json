@@ -11,6 +11,7 @@
   "stars": 5,
   "keyCar": true,
   "country": "Italy",
+  "obtainableVia": ["Drive Syndicate"],
   "blueprints1Star": 0,
   "blueprints2Star": 26,
   "blueprints3Star": 34,

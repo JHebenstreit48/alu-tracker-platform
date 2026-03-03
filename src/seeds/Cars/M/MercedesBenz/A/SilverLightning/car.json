@@ -1,0 +1,17 @@
+{
+  "id": 3,
+  "image": "/images/cars/M/MercedesBenz/silverlightning.jpg",
+  "class": "A",
+  "brand": "Mercedes-Benz",
+  "model": "Silver Lightning",
+  "normalizedKey": "mercedes_benz_silver_lightning",
+  "status": "in progress",
+  "message": "Still adding data",
+  "rarity": "Epic",
+  "stars": 6,
+  "country": "Germany",
+  "obtainableVia": ["Drive Syndicate"],
+  "blueprints1Star": 30,
+  "blueprints2Star": 35,
+  "blueprints3Star": 40
+}
