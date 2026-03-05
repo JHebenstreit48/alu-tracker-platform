@@ -17,14 +17,14 @@ export const isTsCollector = (f: string): boolean => /[/\\]Class[A-Z]\.ts$/i.tes
 
 /**
  * New-format car folder override:
- * src/seeds/Cars/<Letter>/<Brand>/<Class>/<CarFolder>/index.ts
+ * src/seeds/cars/<Letter>/<Brand>/<Class>/<CarFolder>/index.ts
  */
 export const isCarFolderIndexTs = (f: string): boolean =>
   /[/\\]Cars[/\\][^/\\]+[/\\][^/\\]+[/\\][A-DS][/\\][^/\\]+[/\\]index\.ts$/i.test(f);
 
 /**
  * Split parts that should NOT be treated as standalone car docs:
- * src/seeds/Cars/<Letter>/<Brand>/<Class>/<CarFolder>/(car|stats).json
+ * src/seeds/cars/<Letter>/<Brand>/<Class>/<CarFolder>/(car|stats).json
  */
 export const isSplitPartJson = (f: string): boolean =>
   /[/\\]Cars[/\\][^/\\]+[/\\][^/\\]+[/\\][A-DS][/\\][^/\\]+[/\\](car|stats)\.json$/i.test(f);
@@ -34,7 +34,7 @@ export function parseBrandAndClass(file: string): { brand?: string; klass?: stri
   const i = parts.lastIndexOf("Cars");
   if (i < 0) return {};
 
-  // src/seeds/Cars/<Letter>/<Brand>/.../file
+  // src/seeds/cars/<Letter>/<Brand>/.../file
   const brand = parts[i + 2];
   let klass: string | undefined;
 

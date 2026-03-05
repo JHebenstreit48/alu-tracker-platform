@@ -1,0 +1,1 @@
+import owl from '@/seeds/cars/A/Aspark/S/owl.json';

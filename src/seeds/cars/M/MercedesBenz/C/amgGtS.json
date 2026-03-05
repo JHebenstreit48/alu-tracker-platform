@@ -1,0 +1,37 @@
+{
+  "id": 1,
+  "image": "/images/cars/M/MercedesBenz/amggts.jpg",
+  "class": "C",
+  "brand": "Mercedes-Benz",
+  "model": "AMG GT S",
+  "normalizedKey": "mercedes_benz_amg_gt_s",
+  "rarity": "Uncommon",
+  "stars": 3,
+  "country": "Germany",
+  "epics": 4,
+  "obtainableVia": [
+    "GL04"
+  ],
+  "added": "Soft Launch",
+  "addedWith": null,
+  "addedDate": "26/02/2018",
+  "blueprints1Star": 30,
+  "blueprints2Star": 20,
+  "blueprints3Star": 50,
+  "Total upgrade cost": null,
+  "Total GL points": null,
+  "Garage_Lvl": 4,
+  "Nitro_TS": null,
+  "Unnamed: 16": "342,6",
+  "Perfect_Nitro_TS": null,
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 2281,
+      "topSpeed": 329.4,
+      "acceleration": 71.34,
+      "handling": 42.69,
+      "nitro": 54.66
+    }
+  }
+}
