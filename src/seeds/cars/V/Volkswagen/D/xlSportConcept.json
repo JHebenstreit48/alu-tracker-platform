@@ -7,12 +7,9 @@
   "rarity": "Uncommon",
   "stars": 3,
   "epics": 0,
-  "obtainableVia": ["Garage Level 3"],
-  "goldMaxRank": 1814,
-  "goldTopSpeed": 291.2,
-  "goldAcceleration": 60.31,
-  "goldHandling": 62.02,
-  "goldNitro": 61.94,
+  "obtainableVia": [
+    "Garage Level 3"
+  ],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -20,5 +17,14 @@
   "blueprints2Star": 12,
   "blueprints3Star": 30,
   "Garage_Lvl": 3,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 1814,
+      "topSpeed": 291.2,
+      "acceleration": 60.31,
+      "handling": 62.02,
+      "nitro": 61.94
+    }
+  }
 }

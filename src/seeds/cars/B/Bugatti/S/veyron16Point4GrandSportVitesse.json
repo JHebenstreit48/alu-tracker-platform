@@ -9,14 +9,6 @@
   "country": "France",
   "epics": 16,
   "obtainableVia": null,
-  "stockRank": 3111,
-  "stockTopSpeed": 410,
-  "stockAcceleration": 76.6,
-  "goldMaxRank": 4406,
-  "goldTopSpeed": 419,
-  "goldAcceleration": 81.06,
-  "goldHandling": 49.15,
-  "goldNitro": 50.72,
   "added": "Heatwave Season",
   "addedWith": "SE",
   "addedDate": "01/08/2021",
@@ -27,5 +19,21 @@
   "blueprints5Star": 54,
   "blueprints6Star": 69,
   "Garage_Lvl": 59,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "stock": {
+    "stock": {
+      "rank": 3111,
+      "topSpeed": 410,
+      "acceleration": 76.6
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 4406,
+      "topSpeed": 419,
+      "acceleration": 81.06,
+      "handling": 49.15,
+      "nitro": 50.72
+    }
+  }
 }

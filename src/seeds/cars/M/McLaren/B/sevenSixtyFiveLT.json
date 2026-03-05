@@ -9,11 +9,6 @@
   "country": "UK",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3821,
-  "goldTopSpeed": 349.5,
-  "goldAcceleration": 80.5,
-  "goldHandling": 70.61,
-  "goldNitro": 62.26,
   "added": "Bring the Heat",
   "addedWith": "DS",
   "addedDate": "25/07/2022",
@@ -27,5 +22,14 @@
   "Garage_Lvl": 49,
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
-  "Tags": "Europe; Super Car"
+  "Tags": "Europe; Super Car",
+  "gold": {
+    "gold": {
+      "rank": 3821,
+      "topSpeed": 349.5,
+      "acceleration": 80.5,
+      "handling": 70.61,
+      "nitro": 62.26
+    }
+  }
 }

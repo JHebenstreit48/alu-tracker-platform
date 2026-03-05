@@ -8,12 +8,9 @@
   "stars": 4,
   "country": "USA",
   "epics": 8,
-  "obtainableVia": ["Exclusive"],
-  "goldMaxRank": 3155,
-  "goldTopSpeed": 368,
-  "goldAcceleration": 76.55,
-  "goldHandling": 36.14,
-  "goldNitro": 61.1,
+  "obtainableVia": [
+    "Exclusive"
+  ],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -21,5 +18,14 @@
   "blueprints2Star": 18,
   "blueprints3Star": 22,
   "blueprints4Star": 36,
-  "Tags": "Super Car"
+  "Tags": "Super Car",
+  "gold": {
+    "gold": {
+      "rank": 3155,
+      "topSpeed": 368,
+      "acceleration": 76.55,
+      "handling": 36.14,
+      "nitro": 61.1
+    }
+  }
 }

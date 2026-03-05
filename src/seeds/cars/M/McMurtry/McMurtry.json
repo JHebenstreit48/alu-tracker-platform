@@ -9,11 +9,6 @@
   "country": "Ireland",
   "epics": 12,
   "obtainableVia": null,
-  "goldMaxRank": 3789,
-  "goldTopSpeed": 331.7,
-  "goldAcceleration": 90.52,
-  "goldHandling": 80.62,
-  "goldNitro": 61.7,
   "added": "Supercharged Summer",
   "addedWith": "Unleashed",
   "addedDate": "27/5/2024",
@@ -28,5 +23,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "345,0"
+  "Unnamed: 16": "345,0",
+  "gold": {
+    "gold": {
+      "rank": 3789,
+      "topSpeed": 331.7,
+      "acceleration": 90.52,
+      "handling": 80.62,
+      "nitro": 61.7
+    }
+  }
 }

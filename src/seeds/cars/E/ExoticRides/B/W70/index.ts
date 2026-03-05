@@ -1,6 +1,6 @@
-import car from '@/seeds/cars/F/FVFrangivento/B/GT65/car.json';
-import stats from '@/seeds/cars/F/FVFrangivento/B/GT65/stats';
-import upgrades from '@/seeds/cars/F/FVFrangivento/B/GT65/upgrades';
-import deltas from '@/seeds/cars/F/FVFrangivento/B/GT65/deltas';
+import car from '@/seeds/cars/E/ExoticRides/B/W70/car.json';
+import stats from '@/seeds/cars/E/ExoticRides/B/W70/stats';
+import upgrades from '@/seeds/cars/E/ExoticRides/B/W70/upgrades';
+import deltas from '@/seeds/cars/E/ExoticRides/B/W70/deltas';
 
 export default {...car, ...stats, ...upgrades, ...deltas};

@@ -1,27 +1,41 @@
 {
-   "id": 5,
-   "image": "/images/cars/M/McLaren/sabre.jpg",
+  "id": 5,
+  "image": "/images/cars/M/McLaren/sabre.jpg",
   "class": "A",
-   "brand": "McLaren",
-   "model": "Sabre",
+  "brand": "McLaren",
+  "model": "Sabre",
   "rarity": "Epic",
   "stars": 6,
   "country": "UK",
-  "obtainableVia": ["Daily Events"],
-  "stockRank": 2629,
-  "stockTopSpeed": 351,
-  "stockAcceleration": 76.6,
-  "stockHandling": 49.26,
-  "stockNitro": 40.57,
-  "oneStarMaxRank": 2831,
-  "oneStarMaxTopSpeed": 352.8,
-  "oneStarMaxAcceleration": 77.98,
-  "oneStarMaxHandling": 51.75,
-  "oneStarMaxNitro": 42.94,
-  "twoStarMaxRank": 3074,
-  "twoStarMaxTopSpeed": 354.8,
-  "twoStarMaxAcceleration": 79.61,
-  "twoStarMaxHandling": 54.69,
-  "twoStarMaxNitro": 45.75,
-  "threeStarMaxRank": 3296
+  "obtainableVia": [
+    "Daily Events"
+  ],
+  "stock": {
+    "stock": {
+      "rank": 2629,
+      "topSpeed": 351,
+      "acceleration": 76.6,
+      "handling": 49.26,
+      "nitro": 40.57
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 2831,
+      "topSpeed": 352.8,
+      "acceleration": 77.98,
+      "handling": 51.75,
+      "nitro": 42.94
+    },
+    "twoStar": {
+      "rank": 3074,
+      "topSpeed": 354.8,
+      "acceleration": 79.61,
+      "handling": 54.69,
+      "nitro": 45.75
+    },
+    "threeStar": {
+      "rank": 3296
+    }
+  }
 }

@@ -9,11 +9,6 @@
   "country": "Italy",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3222,
-  "goldTopSpeed": 320.3,
-  "goldAcceleration": 85.88,
-  "goldHandling": 73.05,
-  "goldNitro": 57.09,
   "added": "Italian Revolution I",
   "addedWith": "LP car",
   "addedDate": "19/2/2024",
@@ -30,5 +25,14 @@
   "Unnamed: 16": "333,1",
   "Total_BPs": 188,
   "Unnamed: 32": 33222,
-  "Cost epic": null
+  "Cost epic": null,
+  "gold": {
+    "gold": {
+      "rank": 3222,
+      "topSpeed": 320.3,
+      "acceleration": 85.88,
+      "handling": 73.05,
+      "nitro": 57.09
+    }
+  }
 }

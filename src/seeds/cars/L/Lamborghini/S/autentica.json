@@ -10,11 +10,6 @@
   "country": "Italy",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3894,
-  "goldTopSpeed": 366.9,
-  "goldAcceleration": 78.86,
-  "goldHandling": 47.25,
-  "goldNitro": 68.87,
   "added": "Unite Update",
   "addedWith": "GP",
   "addedDate": "16/7/2024",
@@ -33,5 +28,14 @@
   "Unnamed: 16": "381,6",
   "Total_BPs": 162,
   "Unnamed: 32": 53894,
-  "Cost epic": null
+  "Cost epic": null,
+  "gold": {
+    "gold": {
+      "rank": 3894,
+      "topSpeed": 366.9,
+      "acceleration": 78.86,
+      "handling": 47.25,
+      "nitro": 68.87
+    }
+  }
 }

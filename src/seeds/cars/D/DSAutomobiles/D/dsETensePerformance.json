@@ -8,14 +8,18 @@
   "stars": 5,
   "keyCar": true,
   "country": "France",
-  "goldMaxRank": 3086,
-  "goldTopSpeed": 303.8,
-  "goldAcceleration": 86.03,
-  "goldHandling": 46.54,
-  "goldNitro": 53.59,
   "blueprints1Star": 0,
   "blueprints2Star": 22,
   "blueprints3Star": 30,
   "blueprints4Star": 35,
-  "blueprints5Star": 38
+  "blueprints5Star": 38,
+  "gold": {
+    "gold": {
+      "rank": 3086,
+      "topSpeed": 303.8,
+      "acceleration": 86.03,
+      "handling": 46.54,
+      "nitro": 53.59
+    }
+  }
 }

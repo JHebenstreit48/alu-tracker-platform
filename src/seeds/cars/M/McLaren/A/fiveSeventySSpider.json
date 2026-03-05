@@ -11,11 +11,6 @@
   "obtainableVia": [
     "GL16"
   ],
-  "goldMaxRank": 4116,
-  "goldTopSpeed": 377.2,
-  "goldAcceleration": 79.23,
-  "goldHandling": 66.06,
-  "goldNitro": 64.75,
   "added": "Slipstream",
   "addedWith": null,
   "addedDate": "11/12/2018",
@@ -26,5 +21,14 @@
   "blueprints5Star": 37,
   "blueprints6Star": 45,
   "Total upgrade cost": null,
-  "Total GL points": null
+  "Total GL points": null,
+  "gold": {
+    "gold": {
+      "rank": 4116,
+      "topSpeed": 377.2,
+      "acceleration": 79.23,
+      "handling": 66.06,
+      "nitro": 64.75
+    }
+  }
 }

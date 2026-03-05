@@ -1,9 +1,9 @@
 {
-   "id": 1,
-   "image": "/images/cars/R/Renault/dezir.jpg",
+  "id": 1,
+  "image": "/images/cars/R/Renault/dezir.jpg",
   "class": "D",
-   "brand": "Renault",
-   "model": "Dezir",
+  "brand": "Renault",
+  "model": "Dezir",
   "normalizedKey": "renault_dezir",
   "status": "in progress",
   "message": "still adding data",
@@ -11,12 +11,9 @@
   "stars": 4,
   "country": "France",
   "epics": 4,
-  "obtainableVia": ["Showroom"],
-  "goldMaxRank": 2213,
-  "goldTopSpeed": 293.2,
-  "goldAcceleration": 65.56,
-  "goldHandling": 69.43,
-  "goldNitro": 68.44,
+  "obtainableVia": [
+    "Showroom"
+  ],
   "added": "Bring the Heat",
   "addedWith": "DS",
   "addedDate": "25/07/2022",
@@ -25,5 +22,14 @@
   "blueprints3Star": 33,
   "blueprints4Star": 42,
   "Garage_Lvl": 23,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 2213,
+      "topSpeed": 293.2,
+      "acceleration": 65.56,
+      "handling": 69.43,
+      "nitro": 68.44
+    }
+  }
 }

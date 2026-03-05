@@ -15,41 +15,6 @@
   "obtainableVia": [
     "Special Event Car Hunt"
   ],
-  "stockRank": 2603,
-  "stockTopSpeed": 353,
-  "stockAcceleration": 75.7,
-  "stockHandling": 41.77,
-  "stockNitro": 48.95,
-  "oneStarMaxRank": 2811,
-  "oneStarMaxTopSpeed": 354.9,
-  "oneStarMaxAcceleration": 76.88,
-  "oneStarMaxHandling": 43.84,
-  "oneStarMaxNitro": 51.44,
-  "twoStarMaxRank": 3056,
-  "twoStarMaxTopSpeed": 357.3,
-  "twoStarMaxAcceleration": 78.26,
-  "twoStarMaxHandling": 46.28,
-  "twoStarMaxNitro": 54.36,
-  "threeStarMaxRank": 3282,
-  "threeStarMaxTopSpeed": 359.4,
-  "threeStarMaxAcceleration": 79.54,
-  "threeStarMaxHandling": 48.53,
-  "threeStarMaxNitro": 57.04,
-  "fourStarMaxRank": 3580,
-  "fourStarMaxTopSpeed": 363,
-  "fourStarMaxAcceleration": 81.42,
-  "fourStarMaxHandling": 51.83,
-  "fourStarMaxNitro": 60.18,
-  "fiveStarMaxRank": 3874,
-  "fiveStarMaxTopSpeed": 365,
-  "fiveStarMaxAcceleration": 83.16,
-  "fiveStarMaxHandling": 54,
-  "fiveStarMaxNitro": 63.61,
-  "goldMaxRank": 4158,
-  "goldTopSpeed": 368.3,
-  "goldAcceleration": 84.54,
-  "goldHandling": 57.29,
-  "goldNitro": 67.54,
   "added": "Festive Season",
   "addedWith": "GP",
   "addedDate": "16/12/2021",
@@ -64,5 +29,60 @@
   "Garage_Lvl": null,
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "stock": {
+    "stock": {
+      "rank": 2603,
+      "topSpeed": 353,
+      "acceleration": 75.7,
+      "handling": 41.77,
+      "nitro": 48.95
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 4158,
+      "topSpeed": 368.3,
+      "acceleration": 84.54,
+      "handling": 57.29,
+      "nitro": 67.54
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 2811,
+      "topSpeed": 354.9,
+      "acceleration": 76.88,
+      "handling": 43.84,
+      "nitro": 51.44
+    },
+    "twoStar": {
+      "rank": 3056,
+      "topSpeed": 357.3,
+      "acceleration": 78.26,
+      "handling": 46.28,
+      "nitro": 54.36
+    },
+    "threeStar": {
+      "rank": 3282,
+      "topSpeed": 359.4,
+      "acceleration": 79.54,
+      "handling": 48.53,
+      "nitro": 57.04
+    },
+    "fourStar": {
+      "rank": 3580,
+      "topSpeed": 363,
+      "acceleration": 81.42,
+      "handling": 51.83,
+      "nitro": 60.18
+    },
+    "fiveStar": {
+      "rank": 3874,
+      "topSpeed": 365,
+      "acceleration": 83.16,
+      "handling": 54,
+      "nitro": 63.61
+    }
+  }
 }

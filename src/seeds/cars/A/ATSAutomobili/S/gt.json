@@ -7,32 +7,16 @@
   "normalizedKey": "ats_automobili_gt",
   "status": "in progress",
   "message": "Still adding data.",
-  "sources": ["MEI"],
+  "sources": [
+    "MEI"
+  ],
   "rarity": "Epic",
   "stars": 6,
   "country": "Italy",
   "epics": 16,
-  "obtainableVia": ["Special Events"],
-  "stockRank": 3078,
-  "stockTopSpeed": 380,
-  "stockAcceleration": 76.6,
-  "stockHandling": 40.02,
-  "stockNitro": 32.17,
-  "oneStarMaxRank": 3220,
-  "oneStarMaxTopSpeed": 381.2,
-  "oneStarMaxAcceleration": 77.24,
-  "oneStarMaxHandling": 41.6,
-  "oneStarMaxNitro": 34.09,
-  "twoStarMaxRank": 3385,
-  "twoStarMaxTopSpeed": 382.8,
-  "twoStarMaxAcceleration": 77.99,
-  "twoStarMaxHandling": 43.45,
-  "twoStarMaxNitro": 36.35,
-  "goldMaxRank": 4161,
-  "goldTopSpeed": 391.1,
-  "goldAcceleration": 81.47,
-  "goldHandling": 52.12,
-  "goldNitro": 46.85,
+  "obtainableVia": [
+    "Special Events"
+  ],
   "added": "Italian Revolution I",
   "addedWith": "Special Hunt",
   "addedDate": "19/2/2024",
@@ -41,5 +25,39 @@
   "blueprints3Star": 29,
   "blueprints4Star": 38,
   "blueprints5Star": 54,
-  "blueprints6Star": 69
+  "blueprints6Star": 69,
+  "stock": {
+    "stock": {
+      "rank": 3078,
+      "topSpeed": 380,
+      "acceleration": 76.6,
+      "handling": 40.02,
+      "nitro": 32.17
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 4161,
+      "topSpeed": 391.1,
+      "acceleration": 81.47,
+      "handling": 52.12,
+      "nitro": 46.85
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 3220,
+      "topSpeed": 381.2,
+      "acceleration": 77.24,
+      "handling": 41.6,
+      "nitro": 34.09
+    },
+    "twoStar": {
+      "rank": 3385,
+      "topSpeed": 382.8,
+      "acceleration": 77.99,
+      "handling": 43.45,
+      "nitro": 36.35
+    }
+  }
 }

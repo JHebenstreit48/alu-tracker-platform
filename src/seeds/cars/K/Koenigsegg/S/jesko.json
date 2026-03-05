@@ -12,11 +12,6 @@
   "obtainableVia": [
     "Clash Store (obsolete)"
   ],
-  "goldMaxRank": 4826,
-  "goldTopSpeed": 496.6,
-  "goldAcceleration": 80.07,
-  "goldHandling": 48.19,
-  "goldNitro": 58.23,
   "added": "Summer",
   "addedWith": "DS",
   "addedDate": "18/06/2019",
@@ -35,5 +30,14 @@
   "Unnamed: 16": "516,5",
   "Total_BPs": 300,
   "Unnamed: 32": 54826,
-  "Cost epic": 15000
+  "Cost epic": 15000,
+  "gold": {
+    "gold": {
+      "rank": 4826,
+      "topSpeed": 496.6,
+      "acceleration": 80.07,
+      "handling": 48.19,
+      "nitro": 58.23
+    }
+  }
 }

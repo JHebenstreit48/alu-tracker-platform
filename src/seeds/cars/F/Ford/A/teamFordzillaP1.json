@@ -9,11 +9,6 @@
   "country": "USA",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4548,
-  "goldTopSpeed": 382,
-  "goldAcceleration": 87.72,
-  "goldHandling": 53.75,
-  "goldNitro": 60.72,
   "added": "Dragon Race",
   "addedWith": "SE",
   "addedDate": "11/12/2023",
@@ -26,5 +21,14 @@
   "Total upgrade cost": null,
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
-  "Unnamed: 16": "397,3"
+  "Unnamed: 16": "397,3",
+  "gold": {
+    "gold": {
+      "rank": 4548,
+      "topSpeed": 382,
+      "acceleration": 87.72,
+      "handling": 53.75,
+      "nitro": 60.72
+    }
+  }
 }

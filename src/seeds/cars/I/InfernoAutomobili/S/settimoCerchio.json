@@ -8,11 +8,6 @@
   "country": "Mexico",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4817,
-  "goldTopSpeed": 447.1,
-  "goldAcceleration": 84.34,
-  "goldHandling": 61.43,
-  "goldNitro": 39.21,
   "added": "Around the World",
   "addedWith": "SE",
   "addedDate": "03/04/2022",
@@ -24,5 +19,14 @@
   "blueprints6Star": 69,
   "ImageStatus": "Removed",
   "Garage_Lvl": null,
-  "Tags": null
+  "Tags": null,
+  "gold": {
+    "gold": {
+      "rank": 4817,
+      "topSpeed": 447.1,
+      "acceleration": 84.34,
+      "handling": 61.43,
+      "nitro": 39.21
+    }
+  }
 }

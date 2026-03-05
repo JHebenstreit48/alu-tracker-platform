@@ -11,11 +11,6 @@
   "obtainableVia": [
     "TC"
   ],
-  "goldMaxRank": 4411,
-  "goldTopSpeed": 394.3,
-  "goldAcceleration": 82.77,
-  "goldHandling": 52.84,
-  "goldNitro": 69.29,
   "added": "Worldwide Launch",
   "addedWith": null,
   "addedDate": "25/07/2018",
@@ -34,5 +29,14 @@
   "Unnamed: 16": "410,1",
   "Total_BPs": 200,
   "Unnamed: 32": 54411,
-  "Cost epic": 15000
+  "Cost epic": 15000,
+  "gold": {
+    "gold": {
+      "rank": 4411,
+      "topSpeed": 394.3,
+      "acceleration": 82.77,
+      "handling": 52.84,
+      "nitro": 69.29
+    }
+  }
 }

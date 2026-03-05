@@ -11,11 +11,6 @@
   "obtainableVia": [
     "TC"
   ],
-  "goldMaxRank": 3827,
-  "goldTopSpeed": 353.6,
-  "goldAcceleration": 81.13,
-  "goldHandling": 63.17,
-  "goldNitro": 74.33,
   "added": "Summer",
   "addedWith": "DS",
   "addedDate": "18/06/2019",
@@ -30,5 +25,14 @@
   "Nitro_TS": null,
   "Unnamed: 16": "367,7",
   "Perfect_Nitro_TS": null,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 3827,
+      "topSpeed": 353.6,
+      "acceleration": 81.13,
+      "handling": 63.17,
+      "nitro": 74.33
+    }
+  }
 }

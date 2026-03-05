@@ -8,14 +8,18 @@
   "stars": 4,
   "country": "UK",
   "epics": 4,
-  "goldMaxRank": 3342,
-  "goldTopSpeed": 348.3,
-  "goldAcceleration": 76.55,
-  "goldHandling": 71.23,
-  "goldNitro": 53.23,
   "blueprints1Star": 60,
   "blueprints2Star": 40,
   "blueprints3Star": 51,
   "blueprints4Star": 63,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 3342,
+      "topSpeed": 348.3,
+      "acceleration": 76.55,
+      "handling": 71.23,
+      "nitro": 53.23
+    }
+  }
 }

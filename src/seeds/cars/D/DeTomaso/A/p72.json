@@ -10,11 +10,6 @@
   "country": "Germany",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4586,
-  "goldTopSpeed": 375.6,
-  "goldAcceleration": 82.74,
-  "goldHandling": 75.24,
-  "goldNitro": 71.18,
   "added": "Wanderlust and Fifth Anniversary Season",
   "addedWith": "SE",
   "addedDate": "29/05/2023",
@@ -23,5 +18,14 @@
   "blueprints3Star": 40,
   "blueprints4Star": 50,
   "blueprints5Star": 65,
-  "blueprints6Star": 80
+  "blueprints6Star": 80,
+  "gold": {
+    "gold": {
+      "rank": 4586,
+      "topSpeed": 375.6,
+      "acceleration": 82.74,
+      "handling": 75.24,
+      "nitro": 71.18
+    }
+  }
 }

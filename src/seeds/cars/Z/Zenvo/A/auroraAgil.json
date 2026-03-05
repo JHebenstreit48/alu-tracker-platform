@@ -1,9 +1,9 @@
 {
-   "id": 1,
-   "image": "/images/cars/Z/Zenvo/auroraagil.jpg",
+  "id": 1,
+  "image": "/images/cars/Z/Zenvo/auroraagil.jpg",
   "class": "A",
-   "brand": "Zenvo",
-   "model": "Aurora Agil",
+  "brand": "Zenvo",
+  "model": "Aurora Agil",
   "normalizedKey": "zenvo_aurora_agil",
   "status": "in progress",
   "message": "Still adding data",
@@ -18,15 +18,19 @@
     "Store - Cosmetics",
     "Drive Syndicate Event Shop"
   ],
-  "stockRank": 3243,
-  "stockTopSpeed": 365,
-  "stockAcceleration": 77.5,
-  "stockHandling": 50.67,
-  "stockNitro": 41.74,
   "blueprints1Star": 30,
   "blueprints2Star": 35,
   "blueprints3Star": 0,
   "blueprints4Star": 0,
   "blueprints5Star": 0,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "stock": {
+    "stock": {
+      "rank": 3243,
+      "topSpeed": 365,
+      "acceleration": 77.5,
+      "handling": 50.67,
+      "nitro": 41.74
+    }
+  }
 }

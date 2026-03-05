@@ -9,11 +9,6 @@
   "country": "France",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4821,
-  "goldTopSpeed": 397.8,
-  "goldAcceleration": 87.01,
-  "goldHandling": 73.62,
-  "goldNitro": 65.32,
   "added": "Unite Update",
   "addedWith": "SE",
   "addedDate": "16/7/2024",
@@ -26,5 +21,14 @@
   "Garage_Lvl": null,
   "Total upgrade cost": null,
   "Total GL points": null,
-  "Tags": null
+  "Tags": null,
+  "gold": {
+    "gold": {
+      "rank": 4821,
+      "topSpeed": 397.8,
+      "acceleration": 87.01,
+      "handling": 73.62,
+      "nitro": 65.32
+    }
+  }
 }

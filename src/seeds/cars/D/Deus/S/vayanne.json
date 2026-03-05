@@ -10,11 +10,6 @@
   "country": "Austria",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 5082,
-  "goldTopSpeed": 438.7,
-  "goldAcceleration": 86.55,
-  "goldHandling": 47.61,
-  "goldNitro": 47.08,
   "added": "New Tech",
   "addedWith": "SE",
   "addedDate": "25/09/2023",
@@ -23,5 +18,14 @@
   "blueprints3Star": 45,
   "blueprints4Star": 60,
   "blueprints5Star": 70,
-  "blueprints6Star": 85
+  "blueprints6Star": 85,
+  "gold": {
+    "gold": {
+      "rank": 5082,
+      "topSpeed": 438.7,
+      "acceleration": 86.55,
+      "handling": 47.61,
+      "nitro": 47.08
+    }
+  }
 }

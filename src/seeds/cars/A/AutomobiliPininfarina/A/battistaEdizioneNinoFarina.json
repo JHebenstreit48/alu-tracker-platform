@@ -1,22 +1,26 @@
 {
-   "id": 1,
-   "image": "/images/cars/A/AutomobiliPininfarina/battistaedizioneninofarina.jpg",
+  "id": 1,
+  "image": "/images/cars/A/AutomobiliPininfarina/battistaedizioneninofarina.jpg",
   "class": "A",
-   "brand": "Automobili Pininfarina",
-   "model": "Battista Edizione Nino Farina",
+  "brand": "Automobili Pininfarina",
+  "model": "Battista Edizione Nino Farina",
   "rarity": "Epic",
   "stars": 6,
   "country": "Italy",
   "epics": 15,
-  "goldMaxRank": 4125,
-  "goldTopSpeed": 365.4,
-  "goldAcceleration": "89.37",
-  "goldHandling": 64.44,
-  "goldNitro": "45.9",
   "blueprints1Star": 70,
   "blueprints2Star": 23,
   "blueprints3Star": 27,
   "blueprints4Star": 36,
   "blueprints5Star": 52,
-  "blueprints6Star": 59
+  "blueprints6Star": 59,
+  "gold": {
+    "gold": {
+      "rank": 4125,
+      "topSpeed": 365.4,
+      "acceleration": "89.37",
+      "handling": 64.44,
+      "nitro": "45.9"
+    }
+  }
 }

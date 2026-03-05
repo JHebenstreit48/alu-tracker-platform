@@ -8,16 +8,6 @@
   "stars": 5,
   "keyCar": true,
   "country": "Denmark",
-  "stockRank": 2021,
-  "stockTopSpeed": 325,
-  "stockAcceleration": 74.8,
-  "stockHandling": 50.25,
-  "stockNitro": 40.34,
-  "goldMaxRank": 4171,
-  "goldTopSpeed": 342.4,
-  "goldAcceleration": 85.38,
-  "goldHandling": 82.88,
-  "goldNitro": 67.36,
   "added": "European Season",
   "addedWith": "GP",
   "addedDate": "01/06/2021",
@@ -28,5 +18,23 @@
   "blueprints5Star": 62,
   "Total upgrade cost": null,
   "Total GL points": null,
-  "Tags": "Europe; Hybrid"
+  "Tags": "Europe; Hybrid",
+  "stock": {
+    "stock": {
+      "rank": 2021,
+      "topSpeed": 325,
+      "acceleration": 74.8,
+      "handling": 50.25,
+      "nitro": 40.34
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 4171,
+      "topSpeed": 342.4,
+      "acceleration": 85.38,
+      "handling": 82.88,
+      "nitro": 67.36
+    }
+  }
 }

@@ -1,24 +1,28 @@
 {
-   "id": 1,
-   "image": "/images/cars/J/Jaguar/xjr15.jpg",
+  "id": 1,
+  "image": "/images/cars/J/Jaguar/xjr15.jpg",
   "class": "C",
-   "brand": "Jaguar",
-   "model": "XJR-15",
+  "brand": "Jaguar",
+  "model": "XJR-15",
   "rarity": "Rare",
   "stars": 4,
   "country": "UK",
   "epics": 4,
   "obtainableVia": null,
-  "goldMaxRank": 3221,
-  "goldTopSpeed": 320.4,
-  "goldAcceleration": 80.82,
-  "goldHandling": 70.91,
-  "goldNitro": 61.06,
   "added": "Racing Through Fire",
   "addedWith": "LP car",
   "addedDate": "24/07/2023",
   "blueprints1Star": 50,
   "blueprints2Star": 29,
   "blueprints3Star": 38,
-  "blueprints4Star": 48
+  "blueprints4Star": 48,
+  "gold": {
+    "gold": {
+      "rank": 3221,
+      "topSpeed": 320.4,
+      "acceleration": 80.82,
+      "handling": 70.91,
+      "nitro": 61.06
+    }
+  }
 }

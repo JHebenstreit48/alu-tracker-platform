@@ -7,14 +7,22 @@
   "rarity": "Rare",
   "stars": 4,
   "country": "Japan",
-  "stockRank": 1034,
-  "stockTopSpeed": 260,
-  "stockAcceleration": 70.03,
-  "stockHandling": 41.28,
-  "stockNitro": 18.03,
-  "goldMaxRank": 2559,
-  "goldTopSpeed": 275.9,
-  "goldAcceleration": 88.63,
-  "goldHandling": 80.51,
-  "goldNitro": 63.38
+  "stock": {
+    "stock": {
+      "rank": 1034,
+      "topSpeed": 260,
+      "acceleration": 70.03,
+      "handling": 41.28,
+      "nitro": 18.03
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 2559,
+      "topSpeed": 275.9,
+      "acceleration": 88.63,
+      "handling": 80.51,
+      "nitro": 63.38
+    }
+  }
 }

@@ -11,11 +11,6 @@
   "obtainableVia": [
     "GL09"
   ],
-  "goldMaxRank": 3306,
-  "goldTopSpeed": 353.5,
-  "goldAcceleration": 80.33,
-  "goldHandling": 45.29,
-  "goldNitro": 67.55,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Super Car",
-  "Unnamed: 16": "367,6"
+  "Unnamed: 16": "367,6",
+  "gold": {
+    "gold": {
+      "rank": 3306,
+      "topSpeed": 353.5,
+      "acceleration": 80.33,
+      "handling": 45.29,
+      "nitro": 67.55
+    }
+  }
 }

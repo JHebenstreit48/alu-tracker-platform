@@ -1,19 +1,14 @@
 {
-   "id": 1,
-   "image": "/images/cars/P/Porsche/911carrerars38.jpg",
+  "id": 1,
+  "image": "/images/cars/P/Porsche/911carrerars38.jpg",
   "class": "D",
-   "brand": "Porsche",
-   "model": "911 Carrera RS 3.8",
+  "brand": "Porsche",
+  "model": "911 Carrera RS 3.8",
   "rarity": "Rare",
   "stars": 4,
   "country": "Germany",
   "epics": 4,
   "obtainableVia": null,
-  "goldMaxRank": 2339,
-  "goldTopSpeed": 296.9,
-  "goldAcceleration": 70.52,
-  "goldHandling": 65.24,
-  "goldNitro": 35.55,
   "added": "West to East",
   "addedWith": "LP car",
   "addedDate": "17/04/2024",
@@ -22,5 +17,14 @@
   "blueprints3Star": 33,
   "blueprints4Star": 42,
   "Garage_Lvl": null,
-  "Tags": null
+  "Tags": null,
+  "gold": {
+    "gold": {
+      "rank": 2339,
+      "topSpeed": 296.9,
+      "acceleration": 70.52,
+      "handling": 65.24,
+      "nitro": 35.55
+    }
+  }
 }

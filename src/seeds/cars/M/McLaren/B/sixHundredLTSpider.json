@@ -9,11 +9,6 @@
   "country": "UK",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 4075,
-  "goldTopSpeed": 340.5,
-  "goldAcceleration": 86.11,
-  "goldHandling": 83.17,
-  "goldNitro": 74.54,
   "added": "Winterfest",
   "addedWith": "DS",
   "addedDate": "12/12/2022",
@@ -28,5 +23,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "354,1"
+  "Unnamed: 16": "354,1",
+  "gold": {
+    "gold": {
+      "rank": 4075,
+      "topSpeed": 340.5,
+      "acceleration": 86.11,
+      "handling": 83.17,
+      "nitro": 74.54
+    }
+  }
 }

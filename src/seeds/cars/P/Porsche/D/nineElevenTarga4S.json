@@ -1,19 +1,16 @@
 {
-   "id": 3,
-   "image": "/images/cars/P/Porsche/911targa4s.jpg",
+  "id": 3,
+  "image": "/images/cars/P/Porsche/911targa4s.jpg",
   "class": "D",
-   "brand": "Porsche",
-   "model": "911 Targa 4S",
+  "brand": "Porsche",
+  "model": "911 Targa 4S",
   "rarity": "Rare",
   "stars": 4,
   "country": "Germany",
   "epics": 4,
-  "obtainableVia": ["GL03"],
-  "goldMaxRank": 2589,
-  "goldTopSpeed": 315.1,
-  "goldAcceleration": 75.37,
-  "goldHandling": 41.57,
-  "goldNitro": 38.35,
+  "obtainableVia": [
+    "GL03"
+  ],
   "added": "Summer",
   "addedWith": "DS",
   "addedDate": "18/06/2019",
@@ -22,5 +19,14 @@
   "blueprints3Star": 33,
   "blueprints4Star": 42,
   "Garage_Lvl": 3,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 2589,
+      "topSpeed": 315.1,
+      "acceleration": 75.37,
+      "handling": 41.57,
+      "nitro": 38.35
+    }
+  }
 }

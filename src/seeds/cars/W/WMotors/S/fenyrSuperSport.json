@@ -10,11 +10,6 @@
   "country": "UAE",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4479,
-  "goldTopSpeed": 416.9,
-  "goldAcceleration": 82.19,
-  "goldHandling": 43.24,
-  "goldNitro": 68.6,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -30,5 +25,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Asia; Hyper",
-  "Unnamed: 16": "433,6"
+  "Unnamed: 16": "433,6",
+  "gold": {
+    "gold": {
+      "rank": 4479,
+      "topSpeed": 416.9,
+      "acceleration": 82.19,
+      "handling": 43.24,
+      "nitro": 68.6
+    }
+  }
 }

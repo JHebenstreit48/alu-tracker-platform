@@ -11,16 +11,20 @@
   "obtainableVia": [
     "Garage Level 2"
   ],
-  "goldMaxRank": 1826,
-  "goldTopSpeed": 297.4,
-  "goldAcceleration": 73.39,
-  "goldHandling": 50.08,
-  "goldNitro": 51.2,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
   "blueprints1Star": 20,
   "blueprints2Star": 20,
   "blueprints3Star": 50,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 1826,
+      "topSpeed": 297.4,
+      "acceleration": 73.39,
+      "handling": 50.08,
+      "nitro": 51.2
+    }
+  }
 }

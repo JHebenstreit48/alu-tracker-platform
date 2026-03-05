@@ -9,11 +9,6 @@
   "country": "Japan",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4382,
-  "goldTopSpeed": 361.4,
-  "goldAcceleration": 87.55,
-  "goldHandling": 89.35,
-  "goldNitro": 67.55,
   "added": "Supercharged Summer",
   "addedWith": "SE",
   "addedDate": "27/5/2024",
@@ -28,5 +23,14 @@
   "Garage_Lvl": null,
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
-  "Tags": null
+  "Tags": null,
+  "gold": {
+    "gold": {
+      "rank": 4382,
+      "topSpeed": 361.4,
+      "acceleration": 87.55,
+      "handling": 89.35,
+      "nitro": 67.55
+    }
+  }
 }

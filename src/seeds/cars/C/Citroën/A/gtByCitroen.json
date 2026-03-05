@@ -8,12 +8,9 @@
   "stars": 6,
   "country": "France",
   "epics": 16,
-  "obtainableVia": ["Garage Level 33"],
-  "goldMaxRank": 4222,
-  "goldTopSpeed": 388.7,
-  "goldAcceleration": 76.53,
-  "goldHandling": 64.61,
-  "goldNitro": 67.2,
+  "obtainableVia": [
+    "Garage Level 33"
+  ],
   "added": "Full Throttle",
   "addedWith": "DS",
   "addedDate": "10/12/2020",
@@ -23,5 +20,14 @@
   "blueprints4Star": 36,
   "blueprints5Star": 52,
   "blueprints6Star": 62,
-  "Tags": "Electric; Europe; Super Car"
+  "Tags": "Electric; Europe; Super Car",
+  "gold": {
+    "gold": {
+      "rank": 4222,
+      "topSpeed": 388.7,
+      "acceleration": 76.53,
+      "handling": 64.61,
+      "nitro": 67.2
+    }
+  }
 }

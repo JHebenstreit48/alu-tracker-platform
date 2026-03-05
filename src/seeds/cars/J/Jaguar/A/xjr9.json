@@ -1,9 +1,9 @@
 {
-   "id": 2,
-   "image": "/images/cars/J/Jaguar/xjr9.jpg",
+  "id": 2,
+  "image": "/images/cars/J/Jaguar/xjr9.jpg",
   "class": "A",
-   "brand": "Jaguar",
-   "model": "XJR-9",
+  "brand": "Jaguar",
+  "model": "XJR-9",
   "normalizedKey": "jaguar_xjr_9",
   "status": "in progress",
   "message": "Still adding data",
@@ -13,21 +13,6 @@
   "country": "UK",
   "epics": 16,
   "obtainableVia": null,
-  "stockRank": 3261,
-  "stockTopSpeed": 394,
-  "stockAcceleration": 60.4,
-  "stockHandling": 53.61,
-  "stockNitro": 64.18,
-  "oneStarMaxRank": 3433,
-  "oneStarMaxTopSpeed": 396.4,
-  "oneStarMaxAcceleration": 61.58,
-  "oneStarMaxHandling": 55.38,
-  "oneStarMaxNitro": 66.96,
-  "goldMaxRank": 4551,
-  "goldTopSpeed": 412.3,
-  "goldAcceleration": 69.24,
-  "goldHandling": 59.33,
-  "goldNitro": 84.95,
   "added": "European Season (2023)",
   "addedWith": null,
   "addedDate": "30/03/2023",
@@ -36,5 +21,32 @@
   "blueprints3Star": 40,
   "blueprints4Star": 50,
   "blueprints5Star": 65,
-  "blueprints6Star": 80
+  "blueprints6Star": 80,
+  "stock": {
+    "stock": {
+      "rank": 3261,
+      "topSpeed": 394,
+      "acceleration": 60.4,
+      "handling": 53.61,
+      "nitro": 64.18
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 4551,
+      "topSpeed": 412.3,
+      "acceleration": 69.24,
+      "handling": 59.33,
+      "nitro": 84.95
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 3433,
+      "topSpeed": 396.4,
+      "acceleration": 61.58,
+      "handling": 55.38,
+      "nitro": 66.96
+    }
+  }
 }

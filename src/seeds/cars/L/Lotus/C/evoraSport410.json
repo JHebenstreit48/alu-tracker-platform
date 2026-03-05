@@ -8,17 +8,23 @@
   "stars": 3,
   "country": "UK",
   "epics": 4,
-  "obtainableVia": ["Garage Level 3"],
-  "goldMaxRank": 2123,
-  "goldTopSpeed": 317.7,
-  "goldAcceleration": 71.7,
-  "goldHandling": 50.93,
-  "goldNitro": 47.05,
+  "obtainableVia": [
+    "Garage Level 3"
+  ],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
   "blueprints1Star": 20,
   "blueprints2Star": 20,
   "blueprints3Star": 50,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 2123,
+      "topSpeed": 317.7,
+      "acceleration": 71.7,
+      "handling": 50.93,
+      "nitro": 47.05
+    }
+  }
 }

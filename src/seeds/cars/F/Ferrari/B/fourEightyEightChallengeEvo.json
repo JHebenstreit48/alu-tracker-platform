@@ -10,11 +10,6 @@
   "country": "Italy",
   "epics": 12,
   "obtainableVia": null,
-  "goldMaxRank": 4255,
-  "goldTopSpeed": 351.2,
-  "goldAcceleration": 82.76,
-  "goldHandling": 77.11,
-  "goldNitro": 76.98,
   "added": "Ferrari Season",
   "addedWith": "GP",
   "addedDate": "20/10/2020",
@@ -30,5 +25,14 @@
   "Nitro_TS": null,
   "Unnamed: 16": "365,2",
   "Perfect_Nitro_TS": null,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 4255,
+      "topSpeed": 351.2,
+      "acceleration": 82.76,
+      "handling": 77.11,
+      "nitro": 76.98
+    }
+  }
 }

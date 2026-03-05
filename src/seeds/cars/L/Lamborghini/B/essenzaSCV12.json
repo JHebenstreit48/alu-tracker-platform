@@ -10,11 +10,6 @@
   "country": "Italy",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 4061,
-  "goldTopSpeed": 340.5,
-  "goldAcceleration": 85.1,
-  "goldHandling": 75.81,
-  "goldNitro": 74.78,
   "added": "Italian Season",
   "addedWith": "GP",
   "addedDate": "08/04/2021",
@@ -31,5 +26,14 @@
   "Perfect_Nitro_TS": null,
   "Tags": "Europe",
   "Total_BPs": 162,
-  "Cost epic": 0
+  "Cost epic": 0,
+  "gold": {
+    "gold": {
+      "rank": 4061,
+      "topSpeed": 340.5,
+      "acceleration": 85.1,
+      "handling": 75.81,
+      "nitro": 74.78
+    }
+  }
 }

@@ -11,11 +11,6 @@
   "obtainableVia": [
     "Garage Level 20"
   ],
-  "goldMaxRank": 4755,
-  "goldTopSpeed": 443.4,
-  "goldAcceleration": 84.4,
-  "goldHandling": 45.62,
-  "goldNitro": 63.63,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -25,5 +20,14 @@
   "blueprints4Star": 25,
   "blueprints5Star": 38,
   "blueprints6Star": 48,
-  "Tags": "Europe; Hyper"
+  "Tags": "Europe; Hyper",
+  "gold": {
+    "gold": {
+      "rank": 4755,
+      "topSpeed": 443.4,
+      "acceleration": 84.4,
+      "handling": 45.62,
+      "nitro": 63.63
+    }
+  }
 }

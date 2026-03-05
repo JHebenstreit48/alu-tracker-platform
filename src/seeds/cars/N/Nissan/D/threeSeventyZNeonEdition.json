@@ -9,11 +9,6 @@
   "country": "Japan",
   "epics": 4,
   "obtainableVia": null,
-  "goldMaxRank": 2675,
-  "goldTopSpeed": 271.1,
-  "goldAcceleration": 83.26,
-  "goldHandling": 82.91,
-  "goldNitro": 65.22,
   "added": "Racing Through Fire",
   "addedWith": "DS",
   "addedDate": "24/07/2023",
@@ -22,5 +17,14 @@
   "blueprints3Star": 33,
   "blueprints4Star": 42,
   "Total upgrade cost": null,
-  "Total GL points": null
+  "Total GL points": null,
+  "gold": {
+    "gold": {
+      "rank": 2675,
+      "topSpeed": 271.1,
+      "acceleration": 83.26,
+      "handling": 82.91,
+      "nitro": 65.22
+    }
+  }
 }

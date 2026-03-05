@@ -12,11 +12,6 @@
   "obtainableVia": [
     "Key Hunt"
   ],
-  "goldMaxRank": 3097,
-  "goldTopSpeed": 299.8,
-  "goldAcceleration": 83.66,
-  "goldHandling": 53.98,
-  "goldNitro": 61.36,
   "added": "New Tech Reloaded",
   "addedWith": "Key Hunt",
   "addedDate": "25/09/2023",
@@ -31,5 +26,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "311,8"
+  "Unnamed: 16": "311,8",
+  "gold": {
+    "gold": {
+      "rank": 3097,
+      "topSpeed": 299.8,
+      "acceleration": 83.66,
+      "handling": 53.98,
+      "nitro": 61.36
+    }
+  }
 }

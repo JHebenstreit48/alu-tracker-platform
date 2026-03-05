@@ -9,11 +9,6 @@
   "country": "France",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3412,
-  "goldTopSpeed": 304.6,
-  "goldAcceleration": 87.43,
-  "goldHandling": 83.66,
-  "goldNitro": 74.04,
   "added": "Italian Revolution II",
   "addedWith": "TLE",
   "addedDate": "19/2/2024",
@@ -21,5 +16,14 @@
   "blueprints2Star": 15,
   "blueprints3Star": 21,
   "blueprints4Star": 28,
-  "blueprints5Star": 35
+  "blueprints5Star": 35,
+  "gold": {
+    "gold": {
+      "rank": 3412,
+      "topSpeed": 304.6,
+      "acceleration": 87.43,
+      "handling": 83.66,
+      "nitro": 74.04
+    }
+  }
 }

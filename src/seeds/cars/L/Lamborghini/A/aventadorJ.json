@@ -14,11 +14,6 @@
   "obtainableVia": [
     "GL15"
   ],
-  "goldMaxRank": 4133,
-  "goldTopSpeed": 363.8,
-  "goldAcceleration": 79.83,
-  "goldHandling": 73.1,
-  "goldNitro": 77.86,
   "added": "Carribean",
   "addedWith": "SE",
   "addedDate": "10/04/2019",
@@ -33,5 +28,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe; Super Car",
-  "Unnamed: 16": "378,4"
+  "Unnamed: 16": "378,4",
+  "gold": {
+    "gold": {
+      "rank": 4133,
+      "topSpeed": 363.8,
+      "acceleration": 79.83,
+      "handling": 73.1,
+      "nitro": 77.86
+    }
+  }
 }

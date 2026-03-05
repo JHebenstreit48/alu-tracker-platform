@@ -7,50 +7,72 @@
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
-  "stockRank": 3143,
-  "stockTopSpeed": 390,
-  "stockAcceleration": 70.3,
-  "stockHandling": 40.79,
-  "stockNitro": 35,
-  "oneStarMaxRank": 3287,
-  "oneStarMaxTopSpeed": 391.8,
-  "oneStarMaxAcceleration": 70.94,
-  "oneStarMaxHandling": 42.25,
-  "oneStarMaxNitro": 37.52,
-  "twoStarMaxRank": 3455,
-  "twoStarMaxTopSpeed": 394,
-  "twoStarMaxAcceleration": 71.69,
-  "twoStarMaxHandling": 43.95,
-  "twoStarMaxNitro": 40.49,
-  "threeStarMaxRank": 3634,
-  "threeStarMaxTopSpeed": 396.4,
-  "threeStarMaxAcceleration": 72.49,
-  "threeStarMaxHandling": 45.77,
-  "threeStarMaxNitro": 43.66,
-  "fourStarMaxRank": 3820,
-  "fourStarMaxTopSpeed": 398.7,
-  "fourStarMaxAcceleration": 73.34,
-  "fourStarMaxHandling": 47.72,
-  "fourStarMaxNitro": 46.85,
-  "fiveStarMaxRank": 4034,
-  "fiveStarMaxTopSpeed": 401.4,
-  "fiveStarMaxAcceleration": 74.36,
-  "fiveStarMaxHandling": 50.1,
-  "fiveStarMaxNitro": 50.36,
-  "sixStarMaxRank": 4043,
-  "sixStarMaxTopSpeed": 402.1,
-  "sixStarMaxAcceleration": 74.29,
-  "sixStarMaxHandling": 49.96,
-  "sixStarMaxNitro": 50.98,
-  "goldMaxRank": 4239,
-  "goldTopSpeed": 404.5,
-  "goldAcceleration": 75.17,
-  "goldHandling": 51.92,
-  "goldNitro": 54.42,
   "blueprints1Star": 0,
   "blueprints2Star": 40,
   "blueprints3Star": 45,
   "blueprints4Star": 60,
   "blueprints5Star": 70,
-  "blueprints6Star": 85
+  "blueprints6Star": 85,
+  "stock": {
+    "stock": {
+      "rank": 3143,
+      "topSpeed": 390,
+      "acceleration": 70.3,
+      "handling": 40.79,
+      "nitro": 35
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 4239,
+      "topSpeed": 404.5,
+      "acceleration": 75.17,
+      "handling": 51.92,
+      "nitro": 54.42
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 3287,
+      "topSpeed": 391.8,
+      "acceleration": 70.94,
+      "handling": 42.25,
+      "nitro": 37.52
+    },
+    "twoStar": {
+      "rank": 3455,
+      "topSpeed": 394,
+      "acceleration": 71.69,
+      "handling": 43.95,
+      "nitro": 40.49
+    },
+    "threeStar": {
+      "rank": 3634,
+      "topSpeed": 396.4,
+      "acceleration": 72.49,
+      "handling": 45.77,
+      "nitro": 43.66
+    },
+    "fourStar": {
+      "rank": 3820,
+      "topSpeed": 398.7,
+      "acceleration": 73.34,
+      "handling": 47.72,
+      "nitro": 46.85
+    },
+    "fiveStar": {
+      "rank": 4034,
+      "topSpeed": 401.4,
+      "acceleration": 74.36,
+      "handling": 50.1,
+      "nitro": 50.36
+    },
+    "sixStar": {
+      "rank": 4043,
+      "topSpeed": 402.1,
+      "acceleration": 74.29,
+      "handling": 49.96,
+      "nitro": 50.98
+    }
+  }
 }

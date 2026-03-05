@@ -9,11 +9,6 @@
   "country": "Italy",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4286,
-  "goldTopSpeed": 361.2,
-  "goldAcceleration": 85.73,
-  "goldHandling": 79.19,
-  "goldNitro": 62.58,
   "added": "Unite Update",
   "addedWith": "DS",
   "addedDate": "16/7/2024",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Unnamed: 16": "375,6",
   "Perfect_Nitro_TS": null,
-  "Tags": null
+  "Tags": null,
+  "gold": {
+    "gold": {
+      "rank": 4286,
+      "topSpeed": 361.2,
+      "acceleration": 85.73,
+      "handling": 79.19,
+      "nitro": 62.58
+    }
+  }
 }

@@ -7,7 +7,10 @@
   "normalizedKey": "apollo_ie",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Reddit users Google Sheets document."],
+  "sources": [
+    "MEI",
+    "Reddit users Google Sheets document."
+  ],
   "rarity": "Epic",
   "stars": 5,
   "country": "Germany",
@@ -15,11 +18,6 @@
   "obtainableVia": [
     "Car Hunt"
   ],
-  "goldMaxRank": 3953,
-  "goldTopSpeed": 348.3,
-  "goldAcceleration": 84.65,
-  "goldHandling": 73.17,
-  "goldNitro": 69.12,
   "added": "Full Throttle",
   "addedWith": "LP car",
   "addedDate": "10/12/2020",
@@ -31,5 +29,14 @@
   "Total upgrade cost": null,
   "Total GL points": null,
   "Garage_Lvl": 46,
-  "Tags": "Europe; Super Car"
+  "Tags": "Europe; Super Car",
+  "gold": {
+    "gold": {
+      "rank": 3953,
+      "topSpeed": 348.3,
+      "acceleration": 84.65,
+      "handling": 73.17,
+      "nitro": 69.12
+    }
+  }
 }

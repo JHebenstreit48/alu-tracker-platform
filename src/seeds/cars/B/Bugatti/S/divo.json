@@ -8,12 +8,9 @@
   "stars": 6,
   "country": "France",
   "epics": 16,
-  "obtainableVia": ["Special Events"],
-  "goldMaxRank": 4773,
-  "goldTopSpeed": 396,
-  "goldAcceleration": 85.7,
-  "goldHandling": 61.48,
-  "goldNitro": 73.99,
+  "obtainableVia": [
+    "Special Events"
+  ],
   "added": "Full Throttle",
   "addedWith": "SE",
   "addedDate": "10/12/2020",
@@ -23,5 +20,14 @@
   "blueprints4Star": 38,
   "blueprints5Star": 54,
   "blueprints6Star": 69,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 4773,
+      "topSpeed": 396,
+      "acceleration": 85.7,
+      "handling": 61.48,
+      "nitro": 73.99
+    }
+  }
 }

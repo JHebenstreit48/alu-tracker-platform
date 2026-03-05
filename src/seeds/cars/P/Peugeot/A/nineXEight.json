@@ -9,11 +9,6 @@
   "country": "France",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4108,
-  "goldTopSpeed": 344.3,
-  "goldAcceleration": 90.03,
-  "goldHandling": 94.15,
-  "goldNitro": 69.94,
   "added": "Winterfest",
   "addedWith": "DS",
   "addedDate": "12/12/2022",
@@ -23,5 +18,14 @@
   "blueprints4Star": 36,
   "blueprints5Star": 52,
   "blueprints6Star": 59,
-  "Tags": null
+  "Tags": null,
+  "gold": {
+    "gold": {
+      "rank": 4108,
+      "topSpeed": 344.3,
+      "acceleration": 90.03,
+      "handling": 94.15,
+      "nitro": 69.94
+    }
+  }
 }

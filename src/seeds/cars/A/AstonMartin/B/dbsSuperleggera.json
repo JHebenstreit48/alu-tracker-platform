@@ -13,11 +13,6 @@
     "Multiplayer",
     "Starway"
   ],
-  "goldMaxRank": 4059,
-  "goldTopSpeed": 355.4,
-  "goldAcceleration": 79.16,
-  "goldHandling": 70.74,
-  "goldNitro": 73.88,
   "added": "King of the Fall",
   "addedWith": null,
   "addedDate": "15/10/2019",
@@ -32,5 +27,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe",
-  "Unnamed: 16": "369,6"
+  "Unnamed: 16": "369,6",
+  "gold": {
+    "gold": {
+      "rank": 4059,
+      "topSpeed": 355.4,
+      "acceleration": 79.16,
+      "handling": 70.74,
+      "nitro": 73.88
+    }
+  }
 }

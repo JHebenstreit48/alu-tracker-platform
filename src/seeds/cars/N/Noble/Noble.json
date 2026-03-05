@@ -9,11 +9,6 @@
   "country": "UK",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4464,
-  "goldTopSpeed": 375.7,
-  "goldAcceleration": 81.3,
-  "goldHandling": 85.47,
-  "goldNitro": 61.71,
   "added": "Racing Through Fire",
   "addedWith": "DS",
   "addedDate": "24/07/2023",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "390,7"
+  "Unnamed: 16": "390,7",
+  "gold": {
+    "gold": {
+      "rank": 4464,
+      "topSpeed": 375.7,
+      "acceleration": 81.3,
+      "handling": 85.47,
+      "nitro": 61.71
+    }
+  }
 }

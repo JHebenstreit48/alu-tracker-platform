@@ -11,31 +11,6 @@
   "obtainableVia": [
     "Exclusive"
   ],
-  "stockRank": 3232,
-  "stockTopSpeed": 434,
-  "stockAcceleration": 73.9,
-  "stockHandling": 39.45,
-  "stockNitro": 35.92,
-  "oneStarMaxRank": 3380,
-  "oneStarMaxTopSpeed": 436.3,
-  "oneStarMaxAcceleration": 74.71,
-  "oneStarMaxHandling": 40.63,
-  "oneStarMaxNitro": 36.53,
-  "twoStarMaxRank": 3551,
-  "twoStarMaxTopSpeed": 438.9,
-  "twoStarMaxAcceleration": 75.65,
-  "twoStarMaxHandling": 42.01,
-  "twoStarMaxNitro": 37.98,
-  "threeStarMaxRank": 3732,
-  "threeStarMaxTopSpeed": 441.7,
-  "threeStarMaxAcceleration": 76.65,
-  "threeStarMaxHandling": 43.49,
-  "threeStarMaxNitro": 39.53,
-  "goldMaxRank": 4344,
-  "goldTopSpeed": 450.7,
-  "goldAcceleration": 79.98,
-  "goldHandling": 48.49,
-  "goldNitro": 44.79,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -51,5 +26,46 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Hyper",
-  "Unnamed: 16": "468,7"
+  "Unnamed: 16": "468,7",
+  "stock": {
+    "stock": {
+      "rank": 3232,
+      "topSpeed": 434,
+      "acceleration": 73.9,
+      "handling": 39.45,
+      "nitro": 35.92
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 4344,
+      "topSpeed": 450.7,
+      "acceleration": 79.98,
+      "handling": 48.49,
+      "nitro": 44.79
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 3380,
+      "topSpeed": 436.3,
+      "acceleration": 74.71,
+      "handling": 40.63,
+      "nitro": 36.53
+    },
+    "twoStar": {
+      "rank": 3551,
+      "topSpeed": 438.9,
+      "acceleration": 75.65,
+      "handling": 42.01,
+      "nitro": 37.98
+    },
+    "threeStar": {
+      "rank": 3732,
+      "topSpeed": 441.7,
+      "acceleration": 76.65,
+      "handling": 43.49,
+      "nitro": 39.53
+    }
+  }
 }

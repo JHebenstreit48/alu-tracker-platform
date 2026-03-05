@@ -10,11 +10,6 @@
   "country": "Italy",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4559,
-  "goldTopSpeed": 373.4,
-  "goldAcceleration": 81.23,
-  "goldHandling": 85.96,
-  "goldNitro": 72.4,
   "added": "Raging Bull Season",
   "addedWith": "SE/LP",
   "addedDate": "30/05/2022",
@@ -30,5 +25,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe",
-  "Unnamed: 16": "388,3"
+  "Unnamed: 16": "388,3",
+  "gold": {
+    "gold": {
+      "rank": 4559,
+      "topSpeed": 373.4,
+      "acceleration": 81.23,
+      "handling": 85.96,
+      "nitro": 72.4
+    }
+  }
 }

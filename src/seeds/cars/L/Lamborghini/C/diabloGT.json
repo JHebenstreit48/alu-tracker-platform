@@ -9,11 +9,6 @@
   "country": "Italy",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3871,
-  "goldTopSpeed": 348.6,
-  "goldAcceleration": 74.03,
-  "goldHandling": 62.5,
-  "goldNitro": 58.63,
   "added": "Raging Bull Season",
   "addedWith": "Packs only",
   "addedDate": "30/05/2022",
@@ -32,5 +27,14 @@
   "Unnamed: 16": "362,5",
   "Total_BPs": 134,
   "Unnamed: 32": 23871,
-  "Cost epic": 0
+  "Cost epic": 0,
+  "gold": {
+    "gold": {
+      "rank": 3871,
+      "topSpeed": 348.6,
+      "acceleration": 74.03,
+      "handling": 62.5,
+      "nitro": 58.63
+    }
+  }
 }

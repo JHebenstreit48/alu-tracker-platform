@@ -1,9 +1,9 @@
 {
-   "id": 1,
-   "image": "/images/cars/R/Rimac/conceptone.jpg",
+  "id": 1,
+  "image": "/images/cars/R/Rimac/conceptone.jpg",
   "class": "A",
-   "brand": "Rimac",
-   "model": "Concept_One",
+  "brand": "Rimac",
+  "model": "Concept_One",
   "normalizedKey": "rimac_concept_one",
   "status": "in progress",
   "message": "still adding data",
@@ -12,11 +12,6 @@
   "country": "Croatia",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4480,
-  "goldTopSpeed": 368.5,
-  "goldAcceleration": 86.34,
-  "goldHandling": 84.08,
-  "goldNitro": 54.53,
   "added": "Electric Season",
   "addedWith": "SE",
   "addedDate": "23/09/2021",
@@ -27,5 +22,14 @@
   "blueprints5Star": 52,
   "blueprints6Star": 59,
   "Garage_Lvl": 56,
-  "Tags": "Electric; Europe; Super Car"
+  "Tags": "Electric; Europe; Super Car",
+  "gold": {
+    "gold": {
+      "rank": 4480,
+      "topSpeed": 368.5,
+      "acceleration": 86.34,
+      "handling": 84.08,
+      "nitro": 54.53
+    }
+  }
 }

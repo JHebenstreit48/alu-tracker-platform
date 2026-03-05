@@ -1,20 +1,28 @@
 {
-   "id": 1,
-   "image": "/images/cars/M/Mosler/supergt.jpg",
+  "id": 1,
+  "image": "/images/cars/M/Mosler/supergt.jpg",
   "class": "S",
-   "brand": "Mosler",
-   "model": "Super GT",
+  "brand": "Mosler",
+  "model": "Super GT",
   "rarity": "Epic",
   "stars": 6,
   "country": "USA",
-  "stockRank": 3944,
-  "stockTopSpeed": 491,
-  "stockAcceleration": 78.4,
-  "stockHandling": 39.41,
-  "stockNitro": 27.64,
-  "goldMaxRank": 5169,
-  "goldTopSpeed": 506.7,
-  "goldAcceleration": 83.27,
-  "goldHandling": 49.79,
-  "goldNitro": 44.54
+  "stock": {
+    "stock": {
+      "rank": 3944,
+      "topSpeed": 491,
+      "acceleration": 78.4,
+      "handling": 39.41,
+      "nitro": 27.64
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 5169,
+      "topSpeed": 506.7,
+      "acceleration": 83.27,
+      "handling": 49.79,
+      "nitro": 44.54
+    }
+  }
 }

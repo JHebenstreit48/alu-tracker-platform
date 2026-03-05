@@ -10,11 +10,6 @@
   "country": "USA",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4187,
-  "goldTopSpeed": 358.6,
-  "goldAcceleration": 89.33,
-  "goldHandling": 82.63,
-  "goldNitro": 55.24,
   "added": "Festive Season",
   "addedWith": "GP",
   "addedDate": "16/12/2021",
@@ -23,5 +18,14 @@
   "blueprints3Star": 32,
   "blueprints4Star": 44,
   "blueprints5Star": 59,
-  "blueprints6Star": 86
+  "blueprints6Star": 86,
+  "gold": {
+    "gold": {
+      "rank": 4187,
+      "topSpeed": 358.6,
+      "acceleration": 89.33,
+      "handling": 82.63,
+      "nitro": 55.24
+    }
+  }
 }

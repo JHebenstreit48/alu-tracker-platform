@@ -11,11 +11,6 @@
   "obtainableVia": [
     "GL06"
   ],
-  "goldMaxRank": 2853,
-  "goldTopSpeed": 305.5,
-  "goldAcceleration": 80.95,
-  "goldHandling": 57.23,
-  "goldNitro": 49.67,
   "added": "Godly Beasts",
   "addedWith": null,
   "addedDate": "10/12/2019",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Asia",
-  "Unnamed: 16": "317,7"
+  "Unnamed: 16": "317,7",
+  "gold": {
+    "gold": {
+      "rank": 2853,
+      "topSpeed": 305.5,
+      "acceleration": 80.95,
+      "handling": 57.23,
+      "nitro": 49.67
+    }
+  }
 }

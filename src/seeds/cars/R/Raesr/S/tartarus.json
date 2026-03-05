@@ -10,11 +10,6 @@
   "country": "USA",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 5285,
-  "goldTopSpeed": 538.7,
-  "goldAcceleration": 90.64,
-  "goldHandling": 61.77,
-  "goldNitro": 30.57,
   "added": null,
   "addedWith": null,
   "addedDate": null,
@@ -29,5 +24,14 @@
   "Garage_Lvl": null,
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
-  "Tags": null
+  "Tags": null,
+  "gold": {
+    "gold": {
+      "rank": 5285,
+      "topSpeed": 538.7,
+      "acceleration": 90.64,
+      "handling": 61.77,
+      "nitro": 30.57
+    }
+  }
 }

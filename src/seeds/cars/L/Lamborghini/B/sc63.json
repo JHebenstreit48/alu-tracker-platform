@@ -12,11 +12,6 @@
   "obtainableVia": [
     "Special Events"
   ],
-  "goldMaxRank": 4062,
-  "goldTopSpeed": 353.8,
-  "goldAcceleration": 85.38,
-  "goldHandling": 70.15,
-  "goldNitro": 56.43,
   "added": "West to East",
   "addedWith": "GP",
   "addedDate": "17/04/2024",
@@ -35,5 +30,14 @@
   "Unnamed: 16": "368,0",
   "Total_BPs": 162,
   "Unnamed: 32": 34062,
-  "Cost epic": null
+  "Cost epic": null,
+  "gold": {
+    "gold": {
+      "rank": 4062,
+      "topSpeed": 353.8,
+      "acceleration": 85.38,
+      "handling": 70.15,
+      "nitro": 56.43
+    }
+  }
 }

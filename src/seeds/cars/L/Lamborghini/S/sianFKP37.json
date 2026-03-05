@@ -11,11 +11,6 @@
   "obtainableVia": [
     "Showroom"
   ],
-  "goldMaxRank": 4685,
-  "goldTopSpeed": 368.1,
-  "goldAcceleration": 82.1,
-  "goldHandling": 92.35,
-  "goldNitro": 81.18,
   "added": "Lamborghini Season",
   "addedWith": "SE",
   "addedDate": "05/05/2020",
@@ -34,5 +29,14 @@
   "Unnamed: 16": "382,8",
   "Total_BPs": 300,
   "Unnamed: 32": 54685,
-  "Cost epic": 0
+  "Cost epic": 0,
+  "gold": {
+    "gold": {
+      "rank": 4685,
+      "topSpeed": 368.1,
+      "acceleration": 82.1,
+      "handling": 92.35,
+      "nitro": 81.18
+    }
+  }
 }

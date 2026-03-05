@@ -7,18 +7,15 @@
   "normalizedKey": "ares_s1",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": [
+    "MEI"
+  ],
   "rarity": "Epic",
   "stars": 5,
   "keyCar": true,
   "country": "Italy",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3859,
-  "goldTopSpeed": 307.8,
-  "goldAcceleration": 89.55,
-  "goldHandling": 78.93,
-  "goldNitro": 68.93,
   "added": "Winterfest",
   "addedWith": "GP",
   "addedDate": "12/12/2022",
@@ -26,5 +23,14 @@
   "blueprints2Star": 25,
   "blueprints3Star": 32,
   "blueprints4Star": 36,
-  "blueprints5Star": 41
+  "blueprints5Star": 41,
+  "gold": {
+    "gold": {
+      "rank": 3859,
+      "topSpeed": 307.8,
+      "acceleration": 89.55,
+      "handling": 78.93,
+      "nitro": 68.93
+    }
+  }
 }

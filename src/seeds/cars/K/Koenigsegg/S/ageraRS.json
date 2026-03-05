@@ -17,21 +17,6 @@
   "obtainableVia": [
     "Clash Store (obsolete)"
   ],
-  "stockRank": 3734,
-  "stockTopSpeed": 447.2,
-  "stockAcceleration": 74.8,
-  "stockHandling": 49.16,
-  "stockNitro": 43.12,
-  "oneStarMaxRank": 3892,
-  "oneStarMaxTopSpeed": 452,
-  "oneStarMaxAcceleration": 75.44,
-  "oneStarMaxHandling": 50.58,
-  "oneStarMaxNitro": 45.17,
-  "goldMaxRank": 4940,
-  "goldTopSpeed": 484.8,
-  "goldAcceleration": 79.67,
-  "goldHandling": 60.03,
-  "goldNitro": 58.86,
   "added": "Around the World",
   "addedWith": "Clash Store (obsolete)",
   "addedDate": "03/04/2022",
@@ -49,5 +34,32 @@
   "Unnamed: 16": "504,2",
   "Total_BPs": 300,
   "Unnamed: 32": 54940,
-  "Cost epic": 15000
+  "Cost epic": 15000,
+  "stock": {
+    "stock": {
+      "rank": 3734,
+      "topSpeed": 447.2,
+      "acceleration": 74.8,
+      "handling": 49.16,
+      "nitro": 43.12
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 4940,
+      "topSpeed": 484.8,
+      "acceleration": 79.67,
+      "handling": 60.03,
+      "nitro": 58.86
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 3892,
+      "topSpeed": 452,
+      "acceleration": 75.44,
+      "handling": 50.58,
+      "nitro": 45.17
+    }
+  }
 }

@@ -1,21 +1,25 @@
 {
-   "id": 1,
-   "image": "/images/cars/P/Pininfarina/teorema.jpg",
+  "id": 1,
+  "image": "/images/cars/P/Pininfarina/teorema.jpg",
   "class": "S",
-   "brand": "Pininfarina",
-   "model": "Teorema",
+  "brand": "Pininfarina",
+  "model": "Teorema",
   "rarity": "Epic",
   "stars": 6,
   "country": "Italy",
-  "goldMaxRank": 4473,
-  "goldTopSpeed": 422.9,
-  "goldAcceleration": 77.14,
-  "goldHandling": 55.74,
-  "goldNitro": "51.7",
   "blueprints1Star": 85,
   "blueprints2Star": 25,
   "blueprints3Star": 29,
   "blueprints4Star": 38,
   "blueprints5Star": 54,
-  "blueprints6Star": 69
+  "blueprints6Star": 69,
+  "gold": {
+    "gold": {
+      "rank": 4473,
+      "topSpeed": 422.9,
+      "acceleration": 77.14,
+      "handling": 55.74,
+      "nitro": "51.7"
+    }
+  }
 }

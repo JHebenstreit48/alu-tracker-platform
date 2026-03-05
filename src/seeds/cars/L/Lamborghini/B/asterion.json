@@ -11,11 +11,6 @@
   "obtainableVia": [
     "Daily Missions"
   ],
-  "goldMaxRank": 2983,
-  "goldTopSpeed": 336.8,
-  "goldAcceleration": 81.05,
-  "goldHandling": 45.56,
-  "goldNitro": 68.21,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -32,5 +27,14 @@
   "Unnamed: 16": "350,3",
   "Total_BPs": 112,
   "Unnamed: 32": 32983,
-  "Cost epic": 8000
+  "Cost epic": 8000,
+  "gold": {
+    "gold": {
+      "rank": 2983,
+      "topSpeed": 336.8,
+      "acceleration": 81.05,
+      "handling": 45.56,
+      "nitro": 68.21
+    }
+  }
 }

@@ -1,9 +1,9 @@
 {
-   "id": 1,
-   "image": "/images/cars/I/Icona/vulcanotitanium.jpg",
+  "id": 1,
+  "image": "/images/cars/I/Icona/vulcanotitanium.jpg",
   "class": "S",
-   "brand": "Icona",
-   "model": "Vulcano Titanium",
+  "brand": "Icona",
+  "model": "Vulcano Titanium",
   "normalizedKey": "icona_vulcano_titanium",
   "status": "in progress",
   "message": "still adding data",
@@ -11,12 +11,9 @@
   "stars": 5,
   "country": "Italy",
   "epics": 12,
-  "obtainableVia": ["Garage Level 13"],
-  "goldMaxRank": 3957,
-  "goldTopSpeed": 381.7,
-  "goldAcceleration": 81.38,
-  "goldHandling": 43.38,
-  "goldNitro": 65.89,
+  "obtainableVia": [
+    "Garage Level 13"
+  ],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -26,5 +23,14 @@
   "blueprints4Star": 25,
   "blueprints5Star": 39,
   "Garage_Lvl": 13,
-  "Tags": "Europe; Hyper"
+  "Tags": "Europe; Hyper",
+  "gold": {
+    "gold": {
+      "rank": 3957,
+      "topSpeed": 381.7,
+      "acceleration": 81.38,
+      "handling": 43.38,
+      "nitro": 65.89
+    }
+  }
 }

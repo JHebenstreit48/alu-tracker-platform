@@ -9,11 +9,6 @@
   "country": "USA",
   "epics": 12,
   "obtainableVia": [],
-  "goldMaxRank": 3876,
-  "goldTopSpeed": 355.4,
-  "goldAcceleration": 82.03,
-  "goldHandling": 60.09,
-  "goldNitro": 76.33,
   "added": "Godly Beasts",
   "addedWith": "DS",
   "addedDate": "10/12/2019",
@@ -21,5 +16,14 @@
   "blueprints2Star": 23,
   "blueprints3Star": 27,
   "blueprints4Star": 36,
-  "blueprints5Star": 51
+  "blueprints5Star": 51,
+  "gold": {
+    "gold": {
+      "rank": 3876,
+      "topSpeed": 355.4,
+      "acceleration": 82.03,
+      "handling": 60.09,
+      "nitro": 76.33
+    }
+  }
 }

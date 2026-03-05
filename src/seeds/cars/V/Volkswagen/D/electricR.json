@@ -9,12 +9,9 @@
   "keyCar": true,
   "country": "Germany",
   "epics": 8,
-  "obtainableVia": ["Clash Store"],
-  "goldMaxRank": 3054,
-  "goldTopSpeed": 290.5,
-  "goldAcceleration": 88.5,
-  "goldHandling": 57.91,
-  "goldNitro": 67.93,
+  "obtainableVia": [
+    "Clash Store"
+  ],
   "added": "Electric Season",
   "addedWith": "GP",
   "addedDate": "23/09/2021",
@@ -23,5 +20,14 @@
   "blueprints3Star": 30,
   "blueprints4Star": 35,
   "blueprints5Star": 38,
-  "Tags": "Electric; Europe"
+  "Tags": "Electric; Europe",
+  "gold": {
+    "gold": {
+      "rank": 3054,
+      "topSpeed": 290.5,
+      "acceleration": 88.5,
+      "handling": 57.91,
+      "nitro": 67.93
+    }
+  }
 }

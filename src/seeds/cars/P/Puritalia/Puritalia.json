@@ -11,11 +11,6 @@
   "obtainableVia": [
     "Car Hunt"
   ],
-  "goldMaxRank": 4076,
-  "goldTopSpeed": 349.5,
-  "goldAcceleration": 83.43,
-  "goldHandling": 82.74,
-  "goldNitro": 69.66,
   "added": "New Breed Rivals",
   "addedWith": "LP car",
   "addedDate": "04/04/2022",
@@ -30,5 +25,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe; Hybrid",
-  "Unnamed: 16": "363,5"
+  "Unnamed: 16": "363,5",
+  "gold": {
+    "gold": {
+      "rank": 4076,
+      "topSpeed": 349.5,
+      "acceleration": 83.43,
+      "handling": 82.74,
+      "nitro": 69.66
+    }
+  }
 }

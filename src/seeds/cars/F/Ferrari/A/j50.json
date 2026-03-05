@@ -11,11 +11,6 @@
   "obtainableVia": [
     "GL09"
   ],
-  "goldMaxRank": 3230,
-  "goldTopSpeed": 350.6,
-  "goldAcceleration": 80.41,
-  "goldHandling": 48.37,
-  "goldNitro": 64.65,
   "added": "Community Update",
   "addedWith": null,
   "addedDate": "03/10/2018",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Unnamed: 16": "364,6",
   "Perfect_Nitro_TS": null,
-  "Tags": "Europe; Super Car"
+  "Tags": "Europe; Super Car",
+  "gold": {
+    "gold": {
+      "rank": 3230,
+      "topSpeed": 350.6,
+      "acceleration": 80.41,
+      "handling": 48.37,
+      "nitro": 64.65
+    }
+  }
 }

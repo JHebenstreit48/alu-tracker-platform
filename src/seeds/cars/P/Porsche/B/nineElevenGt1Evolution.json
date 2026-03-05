@@ -1,19 +1,16 @@
 {
-   "id": 2,
-   "image": "/images/cars/P/Porsche/911gt1evolution.jpg",
+  "id": 2,
+  "image": "/images/cars/P/Porsche/911gt1evolution.jpg",
   "class": "B",
-   "brand": "Porsche",
-   "model": "911 GT1 Evolution",
+  "brand": "Porsche",
+  "model": "911 GT1 Evolution",
   "rarity": "Rare",
   "stars": 4,
   "country": "Germany",
   "epics": 8,
-  "obtainableVia": ["Car Hunt"],
-  "goldMaxRank": 2735,
-  "goldTopSpeed": 329.8,
-  "goldAcceleration": 75.15,
-  "goldHandling": 53.7,
-  "goldNitro": 68.88,
+  "obtainableVia": [
+    "Car Hunt"
+  ],
   "added": "Porsche Season",
   "addedWith": null,
   "addedDate": "19/03/2020",
@@ -22,5 +19,14 @@
   "blueprints3Star": 44,
   "blueprints4Star": 54,
   "Garage_Lvl": 44,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 2735,
+      "topSpeed": 329.8,
+      "acceleration": 75.15,
+      "handling": 53.7,
+      "nitro": 68.88
+    }
+  }
 }

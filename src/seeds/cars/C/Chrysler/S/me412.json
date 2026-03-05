@@ -9,11 +9,6 @@
   "country": "USA",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4142,
-  "goldTopSpeed": 399.1,
-  "goldAcceleration": 74.9,
-  "goldHandling": 66.52,
-  "goldNitro": 63.39,
   "added": "Winterfest",
   "addedWith": "SE",
   "addedDate": "12/12/2022",
@@ -22,5 +17,14 @@
   "blueprints3Star": 29,
   "blueprints4Star": 38,
   "blueprints5Star": 54,
-  "blueprints6Star": 69
+  "blueprints6Star": 69,
+  "gold": {
+    "gold": {
+      "rank": 4142,
+      "topSpeed": 399.1,
+      "acceleration": 74.9,
+      "handling": 66.52,
+      "nitro": 63.39
+    }
+  }
 }

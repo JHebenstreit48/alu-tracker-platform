@@ -9,11 +9,6 @@
   "country": "USA",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 5059,
-  "goldTopSpeed": 423.4,
-  "goldAcceleration": 89.07,
-  "goldHandling": 49.38,
-  "goldNitro": 51.51,
   "added": "Speed Parade/Haunted Wheels",
   "addedWith": "SE",
   "addedDate": "23/9/2024",
@@ -22,5 +17,14 @@
   "blueprints3Star": 29,
   "blueprints4Star": 38,
   "blueprints5Star": 54,
-  "blueprints6Star": 69
+  "blueprints6Star": 69,
+  "gold": {
+    "gold": {
+      "rank": 5059,
+      "topSpeed": 423.4,
+      "acceleration": 89.07,
+      "handling": 49.38,
+      "nitro": 51.51
+    }
+  }
 }

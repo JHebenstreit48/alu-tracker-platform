@@ -15,11 +15,6 @@
   "country": "UK",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4109,
-  "goldTopSpeed": 361.9,
-  "goldAcceleration": 80.65,
-  "goldHandling": 75.77,
-  "goldNitro": 78.17,
   "added": "Festive Sparks",
   "addedWith": "DS",
   "addedDate": "11/12/2023",
@@ -35,5 +30,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "376,4"
+  "Unnamed: 16": "376,4",
+  "gold": {
+    "gold": {
+      "rank": 4109,
+      "topSpeed": 361.9,
+      "acceleration": 80.65,
+      "handling": 75.77,
+      "nitro": 78.17
+    }
+  }
 }

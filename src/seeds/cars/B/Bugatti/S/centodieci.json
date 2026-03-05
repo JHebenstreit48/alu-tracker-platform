@@ -10,11 +10,6 @@
   "country": "France",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4843,
-  "goldTopSpeed": 402.7,
-  "goldAcceleration": 86.51,
-  "goldHandling": 62.58,
-  "goldNitro": 77.09,
   "added": "Bring the Heat",
   "addedWith": "DS",
   "addedDate": "25/07/2022",
@@ -25,5 +20,14 @@
   "blueprints5Star": 70,
   "blueprints6Star": 85,
   "Garage_Lvl": null,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 4843,
+      "topSpeed": 402.7,
+      "acceleration": 86.51,
+      "handling": 62.58,
+      "nitro": 77.09
+    }
+  }
 }

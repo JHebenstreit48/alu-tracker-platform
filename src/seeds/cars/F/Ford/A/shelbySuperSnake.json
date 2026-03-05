@@ -1,26 +1,34 @@
 {
-   "id": 3,
-   "image": "/images/cars/F/Ford/shelbysupersnake.jpg",
+  "id": 3,
+  "image": "/images/cars/F/Ford/shelbysupersnake.jpg",
   "class": "A",
-   "brand": "Ford",
-   "model": "Shelby Super Snake",
+  "brand": "Ford",
+  "model": "Shelby Super Snake",
   "rarity": "Epic",
   "stars": 6,
   "country": "USA",
-  "stockRank": 3046,
-  "stockTopSpeed": 346.8,
-  "stockAcceleration": 76.6,
-  "stockHandling": 56.43,
-  "stockNitro": 34.15,
-  "goldMaxRank": 4350,
-  "goldTopSpeed": 363.4,
-  "goldAcceleration": 85.44,
-  "goldHandling": 75.98,
-  "goldNitro": 59.74,
   "blueprints1Star": 70,
   "blueprints2Star": 23,
   "blueprints3Star": 27,
   "blueprints4Star": 36,
   "blueprints5Star": 52,
-  "blueprints6Star": 59
+  "blueprints6Star": 59,
+  "stock": {
+    "stock": {
+      "rank": 3046,
+      "topSpeed": 346.8,
+      "acceleration": 76.6,
+      "handling": 56.43,
+      "nitro": 34.15
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 4350,
+      "topSpeed": 363.4,
+      "acceleration": 85.44,
+      "handling": 75.98,
+      "nitro": 59.74
+    }
+  }
 }

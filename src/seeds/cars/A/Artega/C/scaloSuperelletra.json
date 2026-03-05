@@ -7,17 +7,16 @@
   "normalizedKey": "artega_scalo_superelletra",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": [
+    "MEI"
+  ],
   "rarity": "Rare",
   "stars": 4,
   "country": "Germany",
   "epics": 4,
-  "obtainableVia": ["GL07"],
-  "goldMaxRank": 3088,
-  "goldTopSpeed": 316.3,
-  "goldAcceleration": 85.72,
-  "goldHandling": 57.94,
-  "goldNitro": 71.91,
+  "obtainableVia": [
+    "GL07"
+  ],
   "added": "Tune It Up",
   "addedWith": null,
   "addedDate": "27/07/2019",
@@ -26,5 +25,14 @@
   "blueprints3Star": 38,
   "blueprints4Star": 48,
   "Garage_Lvl": 7,
-  "Tags": "Electric; Europe"
+  "Tags": "Electric; Europe",
+  "gold": {
+    "gold": {
+      "rank": 3088,
+      "topSpeed": 316.3,
+      "acceleration": 85.72,
+      "handling": 57.94,
+      "nitro": 71.91
+    }
+  }
 }

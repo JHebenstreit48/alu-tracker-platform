@@ -8,12 +8,9 @@
   "stars": 3,
   "country": "France",
   "epics": 0,
-  "obtainableVia": ["Garage Level 2"],
-  "goldMaxRank": 1976,
-  "goldTopSpeed": 270.1,
-  "goldAcceleration": 76.07,
-  "goldHandling": 81.27,
-  "goldNitro": 72.3,
+  "obtainableVia": [
+    "Garage Level 2"
+  ],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -21,5 +18,14 @@
   "blueprints2Star": 12,
   "blueprints3Star": 30,
   "Garage_Lvl": 2,
-  "Tags": "Electric; Europe"
+  "Tags": "Electric; Europe",
+  "gold": {
+    "gold": {
+      "rank": 1976,
+      "topSpeed": 270.1,
+      "acceleration": 76.07,
+      "handling": 81.27,
+      "nitro": 72.3
+    }
+  }
 }

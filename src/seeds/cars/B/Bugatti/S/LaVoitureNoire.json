@@ -10,11 +10,6 @@
   "country": "France",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 5041,
-  "goldTopSpeed": 443.4,
-  "goldAcceleration": 84.89,
-  "goldHandling": 54.63,
-  "goldNitro": 63.79,
   "added": "Full Throttle",
   "addedWith": "DS",
   "addedDate": "10/12/2020",
@@ -24,5 +19,14 @@
   "blueprints4Star": 60,
   "blueprints5Star": 70,
   "blueprints6Star": 85,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 5041,
+      "topSpeed": 443.4,
+      "acceleration": 84.89,
+      "handling": 54.63,
+      "nitro": 63.79
+    }
+  }
 }

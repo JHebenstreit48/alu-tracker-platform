@@ -10,11 +10,6 @@
   "country": "Sweden",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 5145,
-  "goldTopSpeed": 478.3,
-  "goldAcceleration": 82.37,
-  "goldHandling": 54.39,
-  "goldNitro": 39.44,
   "added": "Racing Through Fire",
   "addedWith": "DS",
   "addedDate": "24/07/2023",
@@ -33,5 +28,14 @@
   "Unnamed: 16": "497,4",
   "Total_BPs": 300,
   "Unnamed: 32": 55145,
-  "Cost epic": null
+  "Cost epic": null,
+  "gold": {
+    "gold": {
+      "rank": 5145,
+      "topSpeed": 478.3,
+      "acceleration": 82.37,
+      "handling": 54.39,
+      "nitro": 39.44
+    }
+  }
 }

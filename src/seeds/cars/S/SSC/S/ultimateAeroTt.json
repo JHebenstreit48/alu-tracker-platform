@@ -1,28 +1,49 @@
 {
-   "id": 3,
-   "image": "/images/cars/S/SSC/ultimateaerott.jpg",
+  "id": 3,
+  "image": "/images/cars/S/SSC/ultimateaerott.jpg",
   "class": "S",
-   "brand": "SSC",
-   "model": "Ultimate Aero TT",
+  "brand": "SSC",
+  "model": "Ultimate Aero TT",
   "normalizedKey": "ssc_ultimate_aero_tt",
   "status": "in progress",
   "message": "still missing data",
-  "sources": ["Asphalt Wiki", "My own research"],
+  "sources": [
+    "Asphalt Wiki",
+    "My own research"
+  ],
   "rarity": "Epic",
   "stars": 6,
   "country": "USA",
-  "obtainableVia": ["Racing Around the World (Sonic the Hedgehog themed Special Event)"],
-  "stockRank": 3577,
-  "oneStarMaxRank": 3734,
-  "twoStarMaxRank": 3919,
-  "threeStarMaxRank": 4116,
-  "fourStarMaxRank": 4321,
-  "fiveStarMaxRank": 4559,
+  "obtainableVia": [
+    "Racing Around the World (Sonic the Hedgehog themed Special Event)"
+  ],
   "addedWith": "Pinnacle of Speed Season",
   "blueprints1Star": 35,
   "blueprints2Star": 40,
   "blueprints3Star": 45,
   "blueprints4Star": 50,
   "blueprints5Star": 60,
-  "blueprints6Star": 70
+  "blueprints6Star": 70,
+  "stock": {
+    "stock": {
+      "rank": 3577
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 3734
+    },
+    "twoStar": {
+      "rank": 3919
+    },
+    "threeStar": {
+      "rank": 4116
+    },
+    "fourStar": {
+      "rank": 4321
+    },
+    "fiveStar": {
+      "rank": 4559
+    }
+  }
 }

@@ -1,19 +1,16 @@
 {
-   "id": 1,
-   "image": "/images/cars/I/Italdesign/zerouno.jpg",
+  "id": 1,
+  "image": "/images/cars/I/Italdesign/zerouno.jpg",
   "class": "B",
-   "brand": "Italdesign",
-   "model": "Zerouno",
+  "brand": "Italdesign",
+  "model": "Zerouno",
   "rarity": "Rare",
   "stars": 4,
   "country": "Italy",
   "epics": 8,
-  "obtainableVia": ["Garage Level 8"],
-  "goldMaxRank": 3245,
-  "goldTopSpeed": 341,
-  "goldAcceleration": 79.25,
-  "goldHandling": 58.34,
-  "goldNitro": 54.1,
+  "obtainableVia": [
+    "Garage Level 8"
+  ],
   "added": "Godly Beasts",
   "addedWith": "DS",
   "addedDate": "10/12/2019",
@@ -21,5 +18,14 @@
   "blueprints2Star": 35,
   "blueprints3Star": 44,
   "blueprints4Star": 54,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 3245,
+      "topSpeed": 341,
+      "acceleration": 79.25,
+      "handling": 58.34,
+      "nitro": 54.1
+    }
+  }
 }

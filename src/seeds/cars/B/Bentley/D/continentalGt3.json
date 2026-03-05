@@ -9,12 +9,9 @@
   "keyCar": true,
   "country": "UK",
   "epics": 4,
-  "obtainableVia": ["Key Hunt"],
-  "goldMaxRank": 2783,
-  "goldTopSpeed": 300.8,
-  "goldAcceleration": 74.74,
-  "goldHandling": 72.52,
-  "goldNitro": 50.97,
+  "obtainableVia": [
+    "Key Hunt"
+  ],
   "added": "British Season",
   "addedWith": "GP",
   "addedDate": "27/08/2020",
@@ -22,5 +19,14 @@
   "blueprints2Star": 26,
   "blueprints3Star": 38,
   "blueprints4Star": 64,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 2783,
+      "topSpeed": 300.8,
+      "acceleration": 74.74,
+      "handling": 72.52,
+      "nitro": 50.97
+    }
+  }
 }

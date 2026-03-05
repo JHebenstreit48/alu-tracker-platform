@@ -10,11 +10,6 @@
   "country": "France",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3946,
-  "goldTopSpeed": 348.4,
-  "goldAcceleration": 76.18,
-  "goldHandling": 66.08,
-  "goldNitro": 58.82,
   "added": "Bring the Heat",
   "addedWith": "GP",
   "addedDate": "25/07/2022",
@@ -23,5 +18,14 @@
   "blueprints3Star": 32,
   "blueprints4Star": 36,
   "blueprints5Star": 41,
-  "Tags": "Europe; Super Car"
+  "Tags": "Europe; Super Car",
+  "gold": {
+    "gold": {
+      "rank": 3946,
+      "topSpeed": 348.4,
+      "acceleration": 76.18,
+      "handling": 66.08,
+      "nitro": 58.82
+    }
+  }
 }

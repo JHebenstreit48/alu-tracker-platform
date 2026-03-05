@@ -9,11 +9,6 @@
   "country": "UK",
   "epics": 12,
   "obtainableVia": null,
-  "goldMaxRank": 4025,
-  "goldTopSpeed": 358,
-  "goldAcceleration": 82.03,
-  "goldHandling": 60.84,
-  "goldNitro": 77.62,
   "added": "British Tour",
   "addedWith": "Tour",
   "addedDate": "07/02/2022",
@@ -28,5 +23,14 @@
   "Nitro_TS": null,
   "Unnamed: 16": "372,3",
   "Perfect_Nitro_TS": null,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 4025,
+      "topSpeed": 358,
+      "acceleration": 82.03,
+      "handling": 60.84,
+      "nitro": 77.62
+    }
+  }
 }

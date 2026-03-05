@@ -10,11 +10,6 @@
   "country": "Italy",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4741,
-  "goldTopSpeed": 405.3,
-  "goldAcceleration": 82.28,
-  "goldHandling": 62.3,
-  "goldNitro": 75.81,
   "added": "City of Lights",
   "addedWith": "SE",
   "addedDate": "06/02/2023",
@@ -30,5 +25,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "421,5"
+  "Unnamed: 16": "421,5",
+  "gold": {
+    "gold": {
+      "rank": 4741,
+      "topSpeed": 405.3,
+      "acceleration": 82.28,
+      "handling": 62.3,
+      "nitro": 75.81
+    }
+  }
 }

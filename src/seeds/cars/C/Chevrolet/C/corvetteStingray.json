@@ -11,11 +11,6 @@
   "obtainableVia": [
     "Garage Level 25"
   ],
-  "goldMaxRank": 3787,
-  "goldTopSpeed": 327.7,
-  "goldAcceleration": 81.56,
-  "goldHandling": 60.15,
-  "goldNitro": 64.44,
   "added": "American Season",
   "addedWith": "LP car",
   "blueprints1Star": 35,
@@ -23,5 +18,14 @@
   "blueprints3Star": 21,
   "blueprints4Star": 28,
   "blueprints5Star": 35,
-  "Tags": null
+  "Tags": null,
+  "gold": {
+    "gold": {
+      "rank": 3787,
+      "topSpeed": 327.7,
+      "acceleration": 81.56,
+      "handling": 60.15,
+      "nitro": 64.44
+    }
+  }
 }

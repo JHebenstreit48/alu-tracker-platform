@@ -7,10 +7,14 @@
   "rarity": "Rare",
   "stars": 4,
   "country": "France",
-  "stockRank": 1538,
-  "stockTopSpeed": 276,
-  "stockAcceleration": 73,
-  "stockHandling": 61.09,
-  "stockNitro": 49.86,
-  "blueprints1Star": 20
+  "blueprints1Star": 20,
+  "stock": {
+    "stock": {
+      "rank": 1538,
+      "topSpeed": 276,
+      "acceleration": 73,
+      "handling": 61.09,
+      "nitro": 49.86
+    }
+  }
 }

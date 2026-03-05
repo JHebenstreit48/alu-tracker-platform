@@ -8,12 +8,9 @@
   "stars": 6,
   "country": "USA",
   "epics": 16,
-  "obtainableVia": ["Multiplayer"],
-  "goldMaxRank": 5114,
-  "goldTopSpeed": 512.3,
-  "goldAcceleration": 80.66,
-  "goldHandling": 49.07,
-  "goldNitro": 46.53,
+  "obtainableVia": [
+    "Multiplayer"
+  ],
   "added": "Heatwave Season",
   "addedWith": "SE",
   "addedDate": "01/08/2021",
@@ -22,5 +19,14 @@
   "blueprints3Star": 29,
   "blueprints4Star": 38,
   "blueprints5Star": 54,
-  "blueprints6Star": 69
+  "blueprints6Star": 69,
+  "gold": {
+    "gold": {
+      "rank": 5114,
+      "topSpeed": 512.3,
+      "acceleration": 80.66,
+      "handling": 49.07,
+      "nitro": 46.53
+    }
+  }
 }

@@ -8,12 +8,9 @@
   "stars": 6,
   "country": "France",
   "epics": 16,
-  "obtainableVia": ["Garage Level 20"],
-  "goldMaxRank": 4310,
-  "goldTopSpeed": 371.7,
-  "goldAcceleration": 82.93,
-  "goldHandling": 67.81,
-  "goldNitro": 70.35,
+  "obtainableVia": [
+    "Garage Level 20"
+  ],
   "added": "Community Update",
   "addedWith": null,
   "addedDate": "03/10/2018",
@@ -23,5 +20,14 @@
   "blueprints4Star": 36,
   "blueprints5Star": 52,
   "blueprints6Star": 62,
-  "Tags": "Europe; Super Car"
+  "Tags": "Europe; Super Car",
+  "gold": {
+    "gold": {
+      "rank": 4310,
+      "topSpeed": 371.7,
+      "acceleration": 82.93,
+      "handling": 67.81,
+      "nitro": 70.35
+    }
+  }
 }

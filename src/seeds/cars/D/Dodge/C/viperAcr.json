@@ -11,11 +11,6 @@
   "obtainableVia": [
     "GL07"
   ],
-  "goldMaxRank": 2816,
-  "goldTopSpeed": 303.9,
-  "goldAcceleration": 77.32,
-  "goldHandling": 86.2,
-  "goldNitro": 68.94,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "316,1"
+  "Unnamed: 16": "316,1",
+  "gold": {
+    "gold": {
+      "rank": 2816,
+      "topSpeed": 303.9,
+      "acceleration": 77.32,
+      "handling": 86.2,
+      "nitro": 68.94
+    }
+  }
 }

@@ -10,11 +10,6 @@
   "country": "Italy",
   "epics": 12,
   "obtainableVia": null,
-  "goldMaxRank": 4375,
-  "goldTopSpeed": 361.5,
-  "goldAcceleration": 86.36,
-  "goldHandling": 76.33,
-  "goldNitro": 54.22,
   "added": "European Season (2023)",
   "addedWith": null,
   "addedDate": "30/03/2023",
@@ -33,5 +28,14 @@
   "Unnamed: 16": "376,0",
   "Total_BPs": 240,
   "Unnamed: 32": 34375,
-  "Cost epic": null
+  "Cost epic": null,
+  "gold": {
+    "gold": {
+      "rank": 4375,
+      "topSpeed": 361.5,
+      "acceleration": 86.36,
+      "handling": 76.33,
+      "nitro": 54.22
+    }
+  }
 }

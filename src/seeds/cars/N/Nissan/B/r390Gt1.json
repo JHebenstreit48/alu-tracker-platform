@@ -10,11 +10,6 @@
   "country": "Japan",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3627,
-  "goldTopSpeed": 373.5,
-  "goldAcceleration": 76.72,
-  "goldHandling": 52.63,
-  "goldNitro": 55.45,
   "added": "Around the World",
   "addedWith": "GP",
   "addedDate": "03/04/2022",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "388,4"
+  "Unnamed: 16": "388,4",
+  "gold": {
+    "gold": {
+      "rank": 3627,
+      "topSpeed": 373.5,
+      "acceleration": 76.72,
+      "handling": 52.63,
+      "nitro": 55.45
+    }
+  }
 }

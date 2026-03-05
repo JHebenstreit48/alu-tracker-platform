@@ -15,11 +15,6 @@
   "obtainableVia": [
     "Key Hunt"
   ],
-  "goldMaxRank": 3678,
-  "goldTopSpeed": 350.1,
-  "goldAcceleration": 79.43,
-  "goldHandling": 73.54,
-  "goldNitro": 73.67,
   "added": "Heatwave Season",
   "addedWith": "GP",
   "addedDate": "01/08/2021",
@@ -34,5 +29,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe",
-  "Unnamed: 16": "364,1"
+  "Unnamed: 16": "364,1",
+  "gold": {
+    "gold": {
+      "rank": 3678,
+      "topSpeed": 350.1,
+      "acceleration": 79.43,
+      "handling": 73.54,
+      "nitro": 73.67
+    }
+  }
 }

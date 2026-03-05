@@ -8,17 +8,23 @@
   "stars": 4,
   "country": "France",
   "epics": 4,
-  "obtainableVia": ["Car Hunt"],
-  "goldMaxRank": 2307,
-  "goldTopSpeed": 310.5,
-  "goldAcceleration": 71.51,
-  "goldHandling": 52.39,
-  "goldNitro": 31.19,
+  "obtainableVia": [
+    "Car Hunt"
+  ],
   "added": "Around the World",
   "addedWith": "Car Hunt",
   "addedDate": "03/04/2022",
   "blueprints1Star": 30,
   "blueprints2Star": 23,
   "blueprints3Star": 33,
-  "blueprints4Star": 42
+  "blueprints4Star": 42,
+  "gold": {
+    "gold": {
+      "rank": 2307,
+      "topSpeed": 310.5,
+      "acceleration": 71.51,
+      "handling": 52.39,
+      "nitro": 31.19
+    }
+  }
 }

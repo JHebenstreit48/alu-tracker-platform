@@ -12,8 +12,12 @@
   "obtainableVia": [
     "Legend Pass"
   ],
-  "goldMaxRank": 2873,
   "blueprints1Star": 15,
   "blueprints2Star": 30,
-  "blueprints3Star": 35
+  "blueprints3Star": 35,
+  "gold": {
+    "gold": {
+      "rank": 2873
+    }
+  }
 }

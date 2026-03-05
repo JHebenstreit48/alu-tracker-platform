@@ -16,11 +16,6 @@
   "country": "Italy",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4307,
-  "goldTopSpeed": 370.7,
-  "goldAcceleration": 81.9,
-  "goldHandling": 72.51,
-  "goldNitro": 68.9,
   "added": "Heatwave Season",
   "addedWith": "GP",
   "addedDate": "01/08/2021",
@@ -36,5 +31,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe",
-  "Unnamed: 16": "385,5"
+  "Unnamed: 16": "385,5",
+  "gold": {
+    "gold": {
+      "rank": 4307,
+      "topSpeed": 370.7,
+      "acceleration": 81.9,
+      "handling": 72.51,
+      "nitro": 68.9
+    }
+  }
 }

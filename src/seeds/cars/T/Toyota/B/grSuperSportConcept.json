@@ -1,30 +1,41 @@
 {
-   "id": 1,
-   "image": "/images/cars/T/Toyota/grsupersportconcept.jpg",
+  "id": 1,
+  "image": "/images/cars/T/Toyota/grsupersportconcept.jpg",
   "class": "B",
-   "brand": "Toyota",
-   "model": "GR Super Sport Concept",
+  "brand": "Toyota",
+  "model": "GR Super Sport Concept",
   "normalizedKey": "toyota_gr_super_sport_concept",
   "status": "in progress",
   "message": "still adding data",
-  "sources": ["MEI", "My own research"],
+  "sources": [
+    "MEI",
+    "My own research"
+  ],
   "rarity": "Epic",
   "stars": 5,
   "keyCar": true,
   "country": "Japan",
-  "stockRank": 2229,
-  "stockTopSpeed": 350,
-  "stockAcceleration": 77.5,
-  "stockHandling": 37.69,
-  "stockNitro": 16.02,
-  "oneStarMaxRank": 2478,
-  "oneStarMaxTopSpeed": 352.1,
-  "oneStarMaxAcceleration": 78.51,
-  "oneStarMaxHandling": 40.07,
-  "oneStarMaxNitro": 20.28,
   "blueprints1Star": 0,
   "blueprints2Star": 26,
   "blueprints3Star": 34,
   "blueprints4Star": 40,
-  "blueprints5Star": 62
+  "blueprints5Star": 62,
+  "stock": {
+    "stock": {
+      "rank": 2229,
+      "topSpeed": 350,
+      "acceleration": 77.5,
+      "handling": 37.69,
+      "nitro": 16.02
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 2478,
+      "topSpeed": 352.1,
+      "acceleration": 78.51,
+      "handling": 40.07,
+      "nitro": 20.28
+    }
+  }
 }

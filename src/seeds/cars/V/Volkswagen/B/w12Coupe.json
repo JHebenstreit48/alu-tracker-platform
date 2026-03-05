@@ -9,12 +9,9 @@
   "keyCar": true,
   "country": "Germany",
   "epics": 12,
-  "obtainableVia": ["Showroom"],
-  "goldMaxRank": 4348,
-  "goldTopSpeed": 370.5,
-  "goldAcceleration": 79.08,
-  "goldHandling": 84.44,
-  "goldNitro": 54.64,
+  "obtainableVia": [
+    "Showroom"
+  ],
   "added": "European Season",
   "addedWith": "SE",
   "addedDate": "01/06/2021",
@@ -23,5 +20,14 @@
   "blueprints3Star": 34,
   "blueprints4Star": 46,
   "blueprints5Star": 61,
-  "blueprints6Star": 73
+  "blueprints6Star": 73,
+  "gold": {
+    "gold": {
+      "rank": 4348,
+      "topSpeed": 370.5,
+      "acceleration": 79.08,
+      "handling": 84.44,
+      "nitro": 54.64
+    }
+  }
 }

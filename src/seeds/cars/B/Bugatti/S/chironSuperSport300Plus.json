@@ -10,11 +10,6 @@
   "country": "France",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4983,
-  "goldTopSpeed": 453.6,
-  "goldAcceleration": 83.27,
-  "goldHandling": 60.63,
-  "goldNitro": 41.7,
   "added": "Black Friday (2023)",
   "addedWith": "SE",
   "addedDate": "25/09/2023",
@@ -25,5 +20,14 @@
   "blueprints5Star": 70,
   "blueprints6Star": 85,
   "Garage_Lvl": null,
-  "Tags": null
+  "Tags": null,
+  "gold": {
+    "gold": {
+      "rank": 4983,
+      "topSpeed": 453.6,
+      "acceleration": 83.27,
+      "handling": 60.63,
+      "nitro": 41.7
+    }
+  }
 }

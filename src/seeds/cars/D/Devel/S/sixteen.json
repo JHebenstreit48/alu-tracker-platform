@@ -7,53 +7,18 @@
   "normalizedKey": "devel_sixteen",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": [
+    "MEI"
+  ],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
   "country": "UAE",
   "epics": 16,
-  "obtainableVia": ["Gauntlet", "Drive Syndicate (original way)"],
-  "stockRank": 4071,
-  "stockTopSpeed": 552,
-  "stockAcceleration": 75.7,
-  "stockHandling": 45.52,
-  "stockNitro": 25.65,
-  "oneStarMaxRank": 4225,
-  "oneStarMaxTopSpeed": 552.6,
-  "oneStarMaxAcceleration": 76.45,
-  "oneStarMaxHandling": 46.93,
-  "oneStarMaxNitro": 27.3,
-  "twoStarMaxRank": 4407,
-  "twoStarMaxTopSpeed": 553.3,
-  "twoStarMaxAcceleration": 77.33,
-  "twoStarMaxHandling": 48.53,
-  "twoStarMaxNitro": 29.27,
-  "threeStarMaxRank": 4599,
-  "threeStarMaxTopSpeed": 554,
-  "threeStarMaxAcceleration": 78.26,
-  "threeStarMaxHandling": 50.28,
-  "threeStarMaxNitro": 31.36,
-  "fourStarMaxRank": 4800,
-  "fourStarMaxTopSpeed": 554.7,
-  "fourStarMaxAcceleration": 79.24,
-  "fourStarMaxHandling": 52.21,
-  "fourStarMaxNitro": 33.46,
-  "fiveStarMaxRank": 5038,
-  "fiveStarMaxTopSpeed": 555.4,
-  "fiveStarMaxAcceleration": 80.45,
-  "fiveStarMaxHandling": 54.58,
-  "fiveStarMaxNitro": 35.78,
-  "sixStarMaxRank": 5043,
-  "sixStarMaxTopSpeed": 555.7,
-  "sixStarMaxAcceleration": 81.38,
-  "sixStarMaxHandling": 54.46,
-  "sixStarMaxNitro": 36.19,
-  "goldMaxRank": 5255,
-  "goldTopSpeed": 556.5,
-  "goldAcceleration": 81.38,
-  "goldHandling": 56.38,
-  "goldNitro": 38.47,
+  "obtainableVia": [
+    "Gauntlet",
+    "Drive Syndicate (original way)"
+  ],
   "added": "Festive Sparks, Gauntlet",
   "addedWith": "Drive Syndicate",
   "addedDate": "11/12/2023",
@@ -62,5 +27,67 @@
   "blueprints3Star": 45,
   "blueprints4Star": 60,
   "blueprints5Star": 70,
-  "blueprints6Star": 85
+  "blueprints6Star": 85,
+  "stock": {
+    "stock": {
+      "rank": 4071,
+      "topSpeed": 552,
+      "acceleration": 75.7,
+      "handling": 45.52,
+      "nitro": 25.65
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 5255,
+      "topSpeed": 556.5,
+      "acceleration": 81.38,
+      "handling": 56.38,
+      "nitro": 38.47
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 4225,
+      "topSpeed": 552.6,
+      "acceleration": 76.45,
+      "handling": 46.93,
+      "nitro": 27.3
+    },
+    "twoStar": {
+      "rank": 4407,
+      "topSpeed": 553.3,
+      "acceleration": 77.33,
+      "handling": 48.53,
+      "nitro": 29.27
+    },
+    "threeStar": {
+      "rank": 4599,
+      "topSpeed": 554,
+      "acceleration": 78.26,
+      "handling": 50.28,
+      "nitro": 31.36
+    },
+    "fourStar": {
+      "rank": 4800,
+      "topSpeed": 554.7,
+      "acceleration": 79.24,
+      "handling": 52.21,
+      "nitro": 33.46
+    },
+    "fiveStar": {
+      "rank": 5038,
+      "topSpeed": 555.4,
+      "acceleration": 80.45,
+      "handling": 54.58,
+      "nitro": 35.78
+    },
+    "sixStar": {
+      "rank": 5043,
+      "topSpeed": 555.7,
+      "acceleration": 81.38,
+      "handling": 54.46,
+      "nitro": 36.19
+    }
+  }
 }

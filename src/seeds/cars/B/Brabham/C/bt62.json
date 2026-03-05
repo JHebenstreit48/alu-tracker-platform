@@ -10,11 +10,6 @@
   "country": "Australia",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3817,
-  "goldTopSpeed": 322,
-  "goldAcceleration": 83.93,
-  "goldHandling": 76.11,
-  "goldNitro": 75.7,
   "added": "New Breed Rivals",
   "addedWith": "SE",
   "addedDate": "04/04/2022",
@@ -22,5 +17,14 @@
   "blueprints2Star": 25,
   "blueprints3Star": 32,
   "blueprints4Star": 36,
-  "blueprints5Star": 41
+  "blueprints5Star": 41,
+  "gold": {
+    "gold": {
+      "rank": 3817,
+      "topSpeed": 322,
+      "acceleration": 83.93,
+      "handling": 76.11,
+      "nitro": 75.7
+    }
+  }
 }

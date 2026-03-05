@@ -1,9 +1,9 @@
 {
-   "id": 2,
-   "image": "/images/cars/S/SSC/tuatarastriker.jpg",
+  "id": 2,
+  "image": "/images/cars/S/SSC/tuatarastriker.jpg",
   "class": "S",
-   "brand": "SSC",
-   "model": "Tuatara Striker",
+  "brand": "SSC",
+  "model": "Tuatara Striker",
   "normalizedKey": "ssc_tuatara_striker",
   "status": "in progress",
   "message": "still missing data",
@@ -11,50 +11,72 @@
   "stars": 6,
   "keyCar": true,
   "country": "USA",
-  "stockRank": 3838,
-  "stockTopSpeed": 435,
-  "stockAcceleration": 76.42,
-  "stockHandling": 52.87,
-  "stockNitro": 32.96,
-  "oneStarMaxRank": 4000,
-  "oneStarMaxTopSpeed": "Unknown",
-  "oneStarMaxAcceleration": "Unknown",
-  "oneStarMaxHandling": "Unknown",
-  "oneStarMaxNitro": "Unknown",
-  "twoStarMaxRank": "Unknown",
-  "twoStarMaxTopSpeed": "Unknown",
-  "twoStarMaxAcceleration": "Unknown",
-  "twoStarMaxHandling": "Unknown",
-  "twoStarMaxNitro": "Unknown",
-  "threeStarMaxRank": 4388,
-  "threeStarMaxTopSpeed": "Unknown",
-  "threeStarMaxAcceleration": "Unknown",
-  "threeStarMaxHandling": "Unknown",
-  "threeStarMaxNitro": "Unknown",
-  "fourStarMaxRank": 4598,
-  "fourStarMaxTopSpeed": "Unknown",
-  "fourStarMaxAcceleration": "Unknown",
-  "fourStarMaxHandling": "Unknown",
-  "fourStarMaxNitro": "Unknown",
-  "fiveStarMaxRank": 4844,
-  "fiveStarMaxTopSpeed": "Unknown",
-  "fiveStarMaxAcceleration": "Unknown",
-  "fiveStarMaxHandling": "Unknown",
-  "fiveStarMaxNitro": "Unknown",
-  "sixStarMaxRank": "Unknown",
-  "sixStarMaxTopSpeed": "Unknown",
-  "sixStarMaxAcceleration": "Unknown",
-  "sixStarMaxHandling": "Unknown",
-  "sixStarMaxNitro": "Unknown",
-  "goldMaxRank": 5070,
-  "goldTopSpeed": 459,
-  "goldAcceleration": 80.64,
-  "goldHandling": 58.62,
-  "goldNitro": 58.32,
   "blueprints1Star": 0,
   "blueprints2Star": 40,
   "blueprints3Star": 45,
   "blueprints4Star": 60,
   "blueprints5Star": 70,
-  "blueprints6Star": 85
+  "blueprints6Star": 85,
+  "stock": {
+    "stock": {
+      "rank": 3838,
+      "topSpeed": 435,
+      "acceleration": 76.42,
+      "handling": 52.87,
+      "nitro": 32.96
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 5070,
+      "topSpeed": 459,
+      "acceleration": 80.64,
+      "handling": 58.62,
+      "nitro": 58.32
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 4000,
+      "topSpeed": "Unknown",
+      "acceleration": "Unknown",
+      "handling": "Unknown",
+      "nitro": "Unknown"
+    },
+    "twoStar": {
+      "rank": "Unknown",
+      "topSpeed": "Unknown",
+      "acceleration": "Unknown",
+      "handling": "Unknown",
+      "nitro": "Unknown"
+    },
+    "threeStar": {
+      "rank": 4388,
+      "topSpeed": "Unknown",
+      "acceleration": "Unknown",
+      "handling": "Unknown",
+      "nitro": "Unknown"
+    },
+    "fourStar": {
+      "rank": 4598,
+      "topSpeed": "Unknown",
+      "acceleration": "Unknown",
+      "handling": "Unknown",
+      "nitro": "Unknown"
+    },
+    "fiveStar": {
+      "rank": 4844,
+      "topSpeed": "Unknown",
+      "acceleration": "Unknown",
+      "handling": "Unknown",
+      "nitro": "Unknown"
+    },
+    "sixStar": {
+      "rank": "Unknown",
+      "topSpeed": "Unknown",
+      "acceleration": "Unknown",
+      "handling": "Unknown",
+      "nitro": "Unknown"
+    }
+  }
 }

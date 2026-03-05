@@ -9,11 +9,6 @@
   "country": "Italy",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 4091,
-  "goldTopSpeed": 340.4,
-  "goldAcceleration": 88.49,
-  "goldHandling": 75.74,
-  "goldNitro": 67.94,
   "added": "Festive Sparks",
   "addedWith": "LP car",
   "addedDate": "11/12/2023",
@@ -32,5 +27,14 @@
   "Unnamed: 16": "354,0",
   "Total_BPs": 162,
   "Unnamed: 32": 34091,
-  "Cost epic": null
+  "Cost epic": null,
+  "gold": {
+    "gold": {
+      "rank": 4091,
+      "topSpeed": 340.4,
+      "acceleration": 88.49,
+      "handling": 75.74,
+      "nitro": 67.94
+    }
+  }
 }

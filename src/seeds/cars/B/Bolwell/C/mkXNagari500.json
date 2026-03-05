@@ -8,12 +8,10 @@
   "stars": 4,
   "country": "Australia",
   "epics": 4,
-  "obtainableVia": ["Garage Level 43", "Showroom"],
-  "goldMaxRank": 2857,
-  "goldTopSpeed": 314.6,
-  "goldAcceleration": 81.62,
-  "goldHandling": 65.85,
-  "goldNitro": 62.99,
+  "obtainableVia": [
+    "Garage Level 43",
+    "Showroom"
+  ],
   "added": "New Breed Rivals",
   "addedWith": "Car Hunt/MP2",
   "addedDate": "04/04/2022",
@@ -21,5 +19,14 @@
   "blueprints2Star": 29,
   "blueprints3Star": 38,
   "blueprints4Star": 48,
-  "Tags": "Super Car"
+  "Tags": "Super Car",
+  "gold": {
+    "gold": {
+      "rank": 2857,
+      "topSpeed": 314.6,
+      "acceleration": 81.62,
+      "handling": 65.85,
+      "nitro": 62.99
+    }
+  }
 }

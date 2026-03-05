@@ -10,11 +10,6 @@
   "country": "Italy",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4284,
-  "goldTopSpeed": 362.1,
-  "goldAcceleration": 82.03,
-  "goldHandling": 64,
-  "goldNitro": 82.48,
   "added": "Lamborghini Season",
   "addedWith": "GP",
   "addedDate": "05/05/2020",
@@ -30,5 +25,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe",
-  "Unnamed: 16": "376,6"
+  "Unnamed: 16": "376,6",
+  "gold": {
+    "gold": {
+      "rank": 4284,
+      "topSpeed": 362.1,
+      "acceleration": 82.03,
+      "handling": 64,
+      "nitro": 82.48
+    }
+  }
 }

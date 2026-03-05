@@ -11,11 +11,6 @@
   "obtainableVia": [
     "GL17"
   ],
-  "goldMaxRank": 4616,
-  "goldTopSpeed": 457.1,
-  "goldAcceleration": 80.88,
-  "goldHandling": 48.75,
-  "goldNitro": 52.48,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -31,5 +26,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe; Hyper; Hybrid",
-  "Unnamed: 16": "475,4"
+  "Unnamed: 16": "475,4",
+  "gold": {
+    "gold": {
+      "rank": 4616,
+      "topSpeed": 457.1,
+      "acceleration": 80.88,
+      "handling": 48.75,
+      "nitro": 52.48
+    }
+  }
 }

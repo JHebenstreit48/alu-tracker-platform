@@ -1,21 +1,27 @@
 {
-   "id": 2,
-   "image": "/images/cars/I/Icona/vulcanospyder.jpg",
+  "id": 2,
+  "image": "/images/cars/I/Icona/vulcanospyder.jpg",
   "class": "S",
-   "brand": "Icona",
-   "model": "Vulcano Spyder",
+  "brand": "Icona",
+  "model": "Vulcano Spyder",
   "normalizedKey": "icona_vulcano_spyder",
   "status": "in progress",
   "message": "still adding and missing data",
   "rarity": "Epic",
   "stars": 6,
   "country": "Italy",
-  "obtainableVia": [""],
-  "goldMaxRank": "unknown",
-  "goldTopSpeed": "unknown",
-  "goldAcceleration": "unknown",
-  "goldHandling": "unknown",
-  "goldNitro": "unknown",
+  "obtainableVia": [
+    ""
+  ],
   "addedDate": "03/02/2026",
-  "blueprints1Star": 35
+  "blueprints1Star": 35,
+  "gold": {
+    "gold": {
+      "rank": "unknown",
+      "topSpeed": "unknown",
+      "acceleration": "unknown",
+      "handling": "unknown",
+      "nitro": "unknown"
+    }
+  }
 }

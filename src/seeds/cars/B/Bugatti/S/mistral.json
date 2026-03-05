@@ -9,11 +9,6 @@
   "country": "France",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4859,
-  "goldTopSpeed": 459.8,
-  "goldAcceleration": 81.56,
-  "goldHandling": 57.68,
-  "goldNitro": 50.52,
   "added": "Speed Parade/Haunted Wheels",
   "addedWith": "SE",
   "addedDate": "23/9/2024",
@@ -24,5 +19,14 @@
   "blueprints5Star": 54,
   "blueprints6Star": 69,
   "Garage_Lvl": null,
-  "Tags": null
+  "Tags": null,
+  "gold": {
+    "gold": {
+      "rank": 4859,
+      "topSpeed": 459.8,
+      "acceleration": 81.56,
+      "handling": 57.68,
+      "nitro": 50.52
+    }
+  }
 }

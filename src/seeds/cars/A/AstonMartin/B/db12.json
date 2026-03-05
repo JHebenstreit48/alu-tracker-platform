@@ -9,11 +9,6 @@
   "country": "UK",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3580,
-  "goldTopSpeed": 343.2,
-  "goldAcceleration": 74.11,
-  "goldHandling": 69.68,
-  "goldNitro": 77.89,
   "added": "Supercharged Summer",
   "addedWith": "LP car",
   "addedDate": "27/5/2024",
@@ -28,5 +23,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "356,9"
+  "Unnamed: 16": "356,9",
+  "gold": {
+    "gold": {
+      "rank": 3580,
+      "topSpeed": 343.2,
+      "acceleration": 74.11,
+      "handling": 69.68,
+      "nitro": 77.89
+    }
+  }
 }

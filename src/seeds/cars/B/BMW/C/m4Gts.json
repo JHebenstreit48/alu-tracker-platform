@@ -12,16 +12,20 @@
     "Garage Level 6",
     "Multiplayer"
   ],
-  "goldMaxRank": 2447,
-  "goldTopSpeed": 326.5,
-  "goldAcceleration": 73.72,
-  "goldHandling": 51.19,
-  "goldNitro": 52.48,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
   "blueprints1Star": 40,
   "blueprints2Star": 20,
   "blueprints3Star": 50,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 2447,
+      "topSpeed": 326.5,
+      "acceleration": 73.72,
+      "handling": 51.19,
+      "nitro": 52.48
+    }
+  }
 }

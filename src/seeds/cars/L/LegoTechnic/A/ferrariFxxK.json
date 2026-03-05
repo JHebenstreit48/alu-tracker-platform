@@ -7,22 +7,32 @@
   "normalizedKey": "lego_technic_ferrari_fxxk",
   "status": "in progress",
   "message": "Missing data",
-  "sources": ["MEI"],
+  "sources": [
+    "MEI"
+  ],
   "rarity": "Epic",
   "stars": 5,
-  "stockRank": 2382,
-  "stockTopSpeed": 350,
-  "stockAcceleration": 76.6,
-  "stockHandling": 38.45,
-  "stockNitro": 50.68,
-  "oneStarMaxRank": 2511,
-  "oneStarMaxTopSpeed": 351.8,
-  "oneStarMaxAcceleration": 77.14,
-  "oneStarMaxHandling": 39.23,
-  "oneStarMaxNitro": 52.41,
   "blueprints1Star": "Unknown",
   "blueprints2Star": "Unknown",
   "blueprints3Star": "Unknown",
   "blueprints4Star": "Unknown",
-  "blueprints5Star": "Unknown"
+  "blueprints5Star": "Unknown",
+  "stock": {
+    "stock": {
+      "rank": 2382,
+      "topSpeed": 350,
+      "acceleration": 76.6,
+      "handling": 38.45,
+      "nitro": 50.68
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 2511,
+      "topSpeed": 351.8,
+      "acceleration": 77.14,
+      "handling": 39.23,
+      "nitro": 52.41
+    }
+  }
 }

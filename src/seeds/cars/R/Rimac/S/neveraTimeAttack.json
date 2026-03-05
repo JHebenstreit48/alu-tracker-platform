@@ -1,9 +1,9 @@
 {
-   "id": 3,
-   "image": "/images/cars/R/Rimac/neveratimeattack.jpg",
+  "id": 3,
+  "image": "/images/cars/R/Rimac/neveratimeattack.jpg",
   "class": "S",
-   "brand": "Rimac",
-   "model": "Nevera Time Attack",
+  "brand": "Rimac",
+  "model": "Nevera Time Attack",
   "normalizedKey": "rimac_nevera_time_attack",
   "status": "in progress",
   "message": "still adding data",
@@ -12,15 +12,19 @@
   "keyCar": true,
   "country": "Croatia",
   "epics": 16,
-  "goldMaxRank": 4835,
-  "goldTopSpeed": 409.7,
-  "goldAcceleration": 89.13,
-  "goldHandling": 63.68,
-  "goldNitro": 45.99,
   "blueprints1Star": 0,
   "blueprints2Star": 40,
   "blueprints3Star": 45,
   "blueprints4Star": 60,
   "blueprints5Star": 70,
-  "blueprints6Star": 85
+  "blueprints6Star": 85,
+  "gold": {
+    "gold": {
+      "rank": 4835,
+      "topSpeed": 409.7,
+      "acceleration": 89.13,
+      "handling": 63.68,
+      "nitro": 45.99
+    }
+  }
 }

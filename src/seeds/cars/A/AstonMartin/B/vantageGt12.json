@@ -11,11 +11,6 @@
   "obtainableVia": [
     "GL14"
   ],
-  "goldMaxRank": 3946,
-  "goldTopSpeed": 337.8,
-  "goldAcceleration": 78.26,
-  "goldHandling": 86.85,
-  "goldNitro": 80.46,
   "added": "Tune It Up",
   "addedWith": null,
   "addedDate": "27/07/2019",
@@ -30,5 +25,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe",
-  "Unnamed: 16": "351,3"
+  "Unnamed: 16": "351,3",
+  "gold": {
+    "gold": {
+      "rank": 3946,
+      "topSpeed": 337.8,
+      "acceleration": 78.26,
+      "handling": 86.85,
+      "nitro": 80.46
+    }
+  }
 }

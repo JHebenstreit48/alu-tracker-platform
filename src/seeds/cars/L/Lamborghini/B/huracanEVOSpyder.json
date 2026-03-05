@@ -11,11 +11,6 @@
   "obtainableVia": [
     "GL16"
   ],
-  "goldMaxRank": 4109,
-  "goldTopSpeed": 344,
-  "goldAcceleration": 84.31,
-  "goldHandling": 75.97,
-  "goldNitro": 82.43,
   "added": "Motor Show",
   "addedWith": "SE",
   "addedDate": "04/03/2019",
@@ -34,5 +29,14 @@
   "Unnamed: 16": "357,8",
   "Total_BPs": 162,
   "Unnamed: 32": 34109,
-  "Cost epic": 8000
+  "Cost epic": 8000,
+  "gold": {
+    "gold": {
+      "rank": 4109,
+      "topSpeed": 344,
+      "acceleration": 84.31,
+      "handling": 75.97,
+      "nitro": 82.43
+    }
+  }
 }

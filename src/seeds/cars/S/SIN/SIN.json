@@ -11,11 +11,6 @@
   "obtainableVia": [
     "TC"
   ],
-  "goldMaxRank": 3971,
-  "goldTopSpeed": 370.6,
-  "goldAcceleration": 77.04,
-  "goldHandling": 45.74,
-  "goldNitro": 85,
   "added": "Slipstream",
   "addedWith": null,
   "addedDate": "11/12/2018",
@@ -30,5 +25,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe",
-  "Unnamed: 16": "385,4"
+  "Unnamed: 16": "385,4",
+  "gold": {
+    "gold": {
+      "rank": 3971,
+      "topSpeed": 370.6,
+      "acceleration": 77.04,
+      "handling": 45.74,
+      "nitro": 85
+    }
+  }
 }

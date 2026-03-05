@@ -10,11 +10,6 @@
   "country": "Italy",
   "epics": 12,
   "obtainableVia": null,
-  "goldMaxRank": 4398,
-  "goldTopSpeed": 359.1,
-  "goldAcceleration": 87.26,
-  "goldHandling": 71.33,
-  "goldNitro": 62.7,
   "added": "Speed Parade/Haunted Wheels",
   "addedWith": "SE",
   "addedDate": "23/9/2024",
@@ -33,5 +28,14 @@
   "Unnamed: 16": null,
   "Total_BPs": 240,
   "Unnamed: 32": 34398,
-  "Cost epic": null
+  "Cost epic": null,
+  "gold": {
+    "gold": {
+      "rank": 4398,
+      "topSpeed": 359.1,
+      "acceleration": 87.26,
+      "handling": 71.33,
+      "nitro": 62.7
+    }
+  }
 }

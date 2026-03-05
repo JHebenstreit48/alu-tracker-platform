@@ -1,9 +1,9 @@
 {
-   "id": 1,
-   "image": "/images/cars/S/SSC/tuatara.jpg",
+  "id": 1,
+  "image": "/images/cars/S/SSC/tuatara.jpg",
   "class": "S",
-   "brand": "SSC",
-   "model": "Tuatara",
+  "brand": "SSC",
+  "model": "Tuatara",
   "normalizedKey": "ssc_tuatara",
   "status": "in progress",
   "message": "temporarily complete",
@@ -15,46 +15,6 @@
   "keyCar": true,
   "country": "USA",
   "epics": 16,
-  "stockRank": 3758,
-  "stockTopSpeed": 482.8,
-  "stockAcceleration": 74.8,
-  "stockHandling": 42.34,
-  "stockNitro": 38.72,
-  "oneStarMaxRank": 3918,
-  "oneStarMaxTopSpeed": 484,
-  "oneStarMaxAcceleration": 75.8,
-  "oneStarMaxHandling": 43.19,
-  "oneStarMaxNitro": 41.76,
-  "twoStarMaxRank": 4105,
-  "twoStarMaxTopSpeed": 485.3,
-  "twoStarMaxAcceleration": 76.98,
-  "twoStarMaxHandling": 44.18,
-  "twoStarMaxNitro": 45.34,
-  "threeStarMaxRank": 4303,
-  "threeStarMaxTopSpeed": 486.6,
-  "threeStarMaxAcceleration": 78.24,
-  "threeStarMaxHandling": 45.22,
-  "threeStarMaxNitro": 49.15,
-  "fourStarMaxRank": 4506,
-  "fourStarMaxTopSpeed": 487.7,
-  "fourStarMaxAcceleration": 79.6,
-  "fourStarMaxHandling": 46.34,
-  "fourStarMaxNitro": 52.98,
-  "fiveStarMaxRank": 4744,
-  "fiveStarMaxTopSpeed": 489,
-  "fiveStarMaxAcceleration": 81.25,
-  "fiveStarMaxHandling": 47.71,
-  "fiveStarMaxNitro": 57.19,
-  "sixStarMaxRank": 4757,
-  "sixStarMaxTopSpeed": 489.4,
-  "sixStarMaxAcceleration": 81.15,
-  "sixStarMaxHandling": 47.61,
-  "sixStarMaxNitro": 57.92,
-  "goldMaxRank": 4969,
-  "goldTopSpeed": 490.6,
-  "goldAcceleration": 82.51,
-  "goldHandling": 48.77,
-  "goldNitro": 62.04,
   "added": "American Season",
   "addedWith": "SE",
   "addedDate": "30/06/2020",
@@ -64,5 +24,67 @@
   "blueprints4Star": 60,
   "blueprints5Star": 70,
   "blueprints6Star": 85,
-  "Tags": null
+  "Tags": null,
+  "stock": {
+    "stock": {
+      "rank": 3758,
+      "topSpeed": 482.8,
+      "acceleration": 74.8,
+      "handling": 42.34,
+      "nitro": 38.72
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 4969,
+      "topSpeed": 490.6,
+      "acceleration": 82.51,
+      "handling": 48.77,
+      "nitro": 62.04
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 3918,
+      "topSpeed": 484,
+      "acceleration": 75.8,
+      "handling": 43.19,
+      "nitro": 41.76
+    },
+    "twoStar": {
+      "rank": 4105,
+      "topSpeed": 485.3,
+      "acceleration": 76.98,
+      "handling": 44.18,
+      "nitro": 45.34
+    },
+    "threeStar": {
+      "rank": 4303,
+      "topSpeed": 486.6,
+      "acceleration": 78.24,
+      "handling": 45.22,
+      "nitro": 49.15
+    },
+    "fourStar": {
+      "rank": 4506,
+      "topSpeed": 487.7,
+      "acceleration": 79.6,
+      "handling": 46.34,
+      "nitro": 52.98
+    },
+    "fiveStar": {
+      "rank": 4744,
+      "topSpeed": 489,
+      "acceleration": 81.25,
+      "handling": 47.71,
+      "nitro": 57.19
+    },
+    "sixStar": {
+      "rank": 4757,
+      "topSpeed": 489.4,
+      "acceleration": 81.15,
+      "handling": 47.61,
+      "nitro": 57.92
+    }
+  }
 }

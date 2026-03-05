@@ -9,11 +9,6 @@
   "country": "USA",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3380,
-  "goldTopSpeed": 338.5,
-  "goldAcceleration": 85.45,
-  "goldHandling": 48.72,
-  "goldNitro": 61.18,
   "added": "European Season (2023)",
   "addedWith": null,
   "addedDate": "30/03/2023",
@@ -27,5 +22,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "352,0"
+  "Unnamed: 16": "352,0",
+  "gold": {
+    "gold": {
+      "rank": 3380,
+      "topSpeed": 338.5,
+      "acceleration": 85.45,
+      "handling": 48.72,
+      "nitro": 61.18
+    }
+  }
 }

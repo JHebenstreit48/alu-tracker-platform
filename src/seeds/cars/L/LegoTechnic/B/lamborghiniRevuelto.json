@@ -1,9 +1,9 @@
 {
-   "id": 2,
-   "image": "/images/cars/L/LegoTechnic/lamborghinirevuelto.jpg",
+  "id": 2,
+  "image": "/images/cars/L/LegoTechnic/lamborghinirevuelto.jpg",
   "class": "B",
-   "brand": "LEGO Technic",
-   "model": "Lamborghini Revuelto",
+  "brand": "LEGO Technic",
+  "model": "Lamborghini Revuelto",
   "normalizedKey": "lego_technic_lamborghini_revuelto",
   "status": "still missing data",
   "message": "Cannot find data on this car in any source yet.",
@@ -12,15 +12,19 @@
   ],
   "rarity": "Epic",
   "stars": 6,
-  "stockRank": 2184,
-  "stockTopSpeed": 350,
-  "stockAcceleration": 76,
-  "stockHandling": 43.03,
-  "stockNitro": 13.98,
   "blueprints1Star": "Unknown",
   "blueprints2Star": "Unknown",
   "blueprints3Star": "Unknown",
   "blueprints4Star": "Unknown",
   "blueprints5Star": "Unknown",
-  "blueprints6Star": "Unknown"
+  "blueprints6Star": "Unknown",
+  "stock": {
+    "stock": {
+      "rank": 2184,
+      "topSpeed": 350,
+      "acceleration": 76,
+      "handling": 43.03,
+      "nitro": 13.98
+    }
+  }
 }

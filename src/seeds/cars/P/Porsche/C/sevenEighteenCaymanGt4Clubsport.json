@@ -1,20 +1,17 @@
 {
-   "id": 3,
-   "image": "/images/cars/P/Porsche/718caymangt4clubsport.jpg",
+  "id": 3,
+  "image": "/images/cars/P/Porsche/718caymangt4clubsport.jpg",
   "class": "C",
-   "brand": "Porsche",
-   "model": "718 Cayman GT4 Clubsport",
+  "brand": "Porsche",
+  "model": "718 Cayman GT4 Clubsport",
   "rarity": "Epic",
   "stars": 5,
   "keyCar": true,
   "country": "Germany",
   "epics": 8,
-  "obtainableVia": ["Key Hunt"],
-  "goldMaxRank": 3727,
-  "goldTopSpeed": 323.6,
-  "goldAcceleration": 73.44,
-  "goldHandling": 87.24,
-  "goldNitro": 70.55,
+  "obtainableVia": [
+    "Key Hunt"
+  ],
   "added": "Porsche Season",
   "addedWith": "GP",
   "addedDate": "19/03/2020",
@@ -24,5 +21,14 @@
   "blueprints4Star": 36,
   "blueprints5Star": 40,
   "Garage_Lvl": null,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 3727,
+      "topSpeed": 323.6,
+      "acceleration": 73.44,
+      "handling": 87.24,
+      "nitro": 70.55
+    }
+  }
 }

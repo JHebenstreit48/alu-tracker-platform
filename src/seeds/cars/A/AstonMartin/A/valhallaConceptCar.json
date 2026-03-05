@@ -15,11 +15,6 @@
   "country": "UK",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4517,
-  "goldTopSpeed": 377.4,
-  "goldAcceleration": 82.23,
-  "goldHandling": 81.76,
-  "goldNitro": 59.55,
   "added": "British Season",
   "addedWith": "SE",
   "addedDate": "27/08/2020",
@@ -38,5 +33,14 @@
   "Unnamed: 16": "392,5",
   "Total_BPs": 265,
   "Unnamed: 32": 44517,
-  "Cost epic": 0
+  "Cost epic": 0,
+  "gold": {
+    "gold": {
+      "rank": 4517,
+      "topSpeed": 377.4,
+      "acceleration": 82.23,
+      "handling": 81.76,
+      "nitro": 59.55
+    }
+  }
 }

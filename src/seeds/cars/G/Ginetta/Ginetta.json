@@ -8,12 +8,10 @@
   "stars": 4,
   "country": "UK",
   "epics": 4,
-  "obtainableVia": ["Garage Level 4", "Multiplayer"],
-  "goldMaxRank": 2646,
-  "goldTopSpeed": 290.7,
-  "goldAcceleration": 71.51,
-  "goldHandling": 74.81,
-  "goldNitro": 62.66,
+  "obtainableVia": [
+    "Garage Level 4",
+    "Multiplayer"
+  ],
   "added": "Summer",
   "addedWith": "DS",
   "addedDate": "18/06/2019",
@@ -22,5 +20,14 @@
   "blueprints3Star": 33,
   "blueprints4Star": 42,
   "Perfect_Nitro_TS": null,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 2646,
+      "topSpeed": 290.7,
+      "acceleration": 71.51,
+      "handling": 74.81,
+      "nitro": 62.66
+    }
+  }
 }

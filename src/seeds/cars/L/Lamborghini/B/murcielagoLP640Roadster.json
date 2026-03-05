@@ -9,11 +9,6 @@
   "country": "Italy",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3792,
-  "goldTopSpeed": 354.1,
-  "goldAcceleration": 77.54,
-  "goldHandling": 67.18,
-  "goldNitro": 61.13,
   "added": "Italian Season",
   "addedWith": "LP car",
   "addedDate": "08/04/2021",
@@ -32,5 +27,14 @@
   "Unnamed: 16": "368,3",
   "Total_BPs": 162,
   "Unnamed: 32": 33792,
-  "Cost epic": 0
+  "Cost epic": 0,
+  "gold": {
+    "gold": {
+      "rank": 3792,
+      "topSpeed": 354.1,
+      "acceleration": 77.54,
+      "handling": 67.18,
+      "nitro": 61.13
+    }
+  }
 }

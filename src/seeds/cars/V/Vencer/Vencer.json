@@ -11,11 +11,6 @@
   "obtainableVia": [
     "GL11 / Multiplayer"
   ],
-  "goldMaxRank": 3638,
-  "goldTopSpeed": 350.5,
-  "goldAcceleration": 74.12,
-  "goldHandling": 62.87,
-  "goldNitro": 46.83,
   "added": "Road Kings",
   "addedWith": null,
   "addedDate": "30/01/2019",
@@ -30,5 +25,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe",
-  "Unnamed: 16": "364,5"
+  "Unnamed: 16": "364,5",
+  "gold": {
+    "gold": {
+      "rank": 3638,
+      "topSpeed": 350.5,
+      "acceleration": 74.12,
+      "handling": 62.87,
+      "nitro": 46.83
+    }
+  }
 }

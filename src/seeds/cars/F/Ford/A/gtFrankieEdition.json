@@ -10,11 +10,6 @@
   "country": "USA",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 3974,
-  "goldTopSpeed": 371.8,
-  "goldAcceleration": 79.14,
-  "goldHandling": 58.82,
-  "goldNitro": 74.63,
   "added": "Unite Update",
   "addedWith": "TLE",
   "addedDate": "16/7/2024",
@@ -28,5 +23,14 @@
   "Nitro_TS": "386,0",
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "386,7"
+  "Unnamed: 16": "386,7",
+  "gold": {
+    "gold": {
+      "rank": 3974,
+      "topSpeed": 371.8,
+      "acceleration": 79.14,
+      "handling": 58.82,
+      "nitro": 74.63
+    }
+  }
 }

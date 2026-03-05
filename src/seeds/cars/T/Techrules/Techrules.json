@@ -10,11 +10,6 @@
   "country": "China",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4444,
-  "goldTopSpeed": 364.6,
-  "goldAcceleration": 85.53,
-  "goldHandling": 75.74,
-  "goldNitro": 69.65,
   "added": "Grand Prix",
   "addedWith": "GP",
   "addedDate": "05/02/2020",
@@ -30,5 +25,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Asia; Electric",
-  "Unnamed: 16": "379,2"
+  "Unnamed: 16": "379,2",
+  "gold": {
+    "gold": {
+      "rank": 4444,
+      "topSpeed": 364.6,
+      "acceleration": 85.53,
+      "handling": 75.74,
+      "nitro": 69.65
+    }
+  }
 }

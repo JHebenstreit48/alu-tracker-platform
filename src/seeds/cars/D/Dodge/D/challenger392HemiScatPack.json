@@ -11,11 +11,6 @@
   "obtainableVia": [
     "GL03"
   ],
-  "goldMaxRank": 2144,
-  "goldTopSpeed": 299.3,
-  "goldAcceleration": 72.46,
-  "goldHandling": 43.24,
-  "goldNitro": 62.34,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -28,5 +23,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Muscle",
-  "Unnamed: 16": "311,3"
+  "Unnamed: 16": "311,3",
+  "gold": {
+    "gold": {
+      "rank": 2144,
+      "topSpeed": 299.3,
+      "acceleration": 72.46,
+      "handling": 43.24,
+      "nitro": 62.34
+    }
+  }
 }

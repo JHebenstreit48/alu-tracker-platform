@@ -1,9 +1,9 @@
 {
-   "id": 9,
-   "image": "/images/cars/K/Koenigsegg/chimera.jpg",
+  "id": 9,
+  "image": "/images/cars/K/Koenigsegg/chimera.jpg",
   "class": "S",
-   "brand": "Koenigsegg",
-   "model": "Chimera",
+  "brand": "Koenigsegg",
+  "model": "Chimera",
   "normalizedKey": "koenigsegg_chimera",
   "status": "in progress",
   "message": "Still missing data",
@@ -11,7 +11,11 @@
   "stars": 6,
   "keyCar": true,
   "country": "Sweden",
-  "stockRank": 4167,
   "blueprints1Star": 0,
-  "blueprints2Star": 45
+  "blueprints2Star": 45,
+  "stock": {
+    "stock": {
+      "rank": 4167
+    }
+  }
 }

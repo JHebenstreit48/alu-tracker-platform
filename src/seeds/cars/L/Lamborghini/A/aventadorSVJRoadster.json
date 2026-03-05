@@ -9,11 +9,6 @@
   "country": "Italy",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4081,
-  "goldTopSpeed": 364.7,
-  "goldAcceleration": 81.13,
-  "goldHandling": 73.73,
-  "goldNitro": 73.93,
   "added": "Heatwave Season",
   "addedWith": "Unleashed",
   "addedDate": "01/08/2021",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe",
-  "Unnamed: 16": "379,3"
+  "Unnamed: 16": "379,3",
+  "gold": {
+    "gold": {
+      "rank": 4081,
+      "topSpeed": 364.7,
+      "acceleration": 81.13,
+      "handling": 73.73,
+      "nitro": 73.93
+    }
+  }
 }

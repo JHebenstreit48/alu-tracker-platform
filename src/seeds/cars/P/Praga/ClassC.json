@@ -11,11 +11,6 @@
   "obtainableVia": [
     "Multiplayer"
   ],
-  "goldMaxRank": 3553,
-  "goldTopSpeed": 315.7,
-  "goldAcceleration": 80.72,
-  "goldHandling": 80.22,
-  "goldNitro": 69.65,
   "added": "Winterfest",
   "addedWith": "DS",
   "addedDate": "12/12/2022",
@@ -30,5 +25,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "294,6"
+  "Unnamed: 16": "294,6",
+  "gold": {
+    "gold": {
+      "rank": 3553,
+      "topSpeed": 315.7,
+      "acceleration": 80.72,
+      "handling": 80.22,
+      "nitro": 69.65
+    }
+  }
 }

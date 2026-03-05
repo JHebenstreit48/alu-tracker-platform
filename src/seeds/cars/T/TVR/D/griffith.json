@@ -1,19 +1,16 @@
 {
-   "id": 1,
-   "image": "/images/cars/T/TVR/griffith.jpg",
+  "id": 1,
+  "image": "/images/cars/T/TVR/griffith.jpg",
   "class": "D",
-   "brand": "TVR",
-   "model": "Griffith",
+  "brand": "TVR",
+  "model": "Griffith",
   "rarity": "Rare",
   "stars": 4,
   "country": "UK",
   "epics": 4,
-  "obtainableVia": ["Garage Level 5"],
-  "goldMaxRank": 2751,
-  "goldTopSpeed": 338.7,
-  "goldAcceleration": 69.28,
-  "goldHandling": 47.31,
-  "goldNitro": 37.49,
+  "obtainableVia": [
+    "Garage Level 5"
+  ],
   "added": "Tune It Up",
   "addedWith": null,
   "addedDate": "27/07/2019",
@@ -21,5 +18,14 @@
   "blueprints2Star": 23,
   "blueprints3Star": 33,
   "blueprints4Star": 42,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 2751,
+      "topSpeed": 338.7,
+      "acceleration": 69.28,
+      "handling": 47.31,
+      "nitro": 37.49
+    }
+  }
 }

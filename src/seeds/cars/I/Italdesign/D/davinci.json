@@ -1,19 +1,16 @@
 {
-   "id": 1,
-   "image": "/images/cars/I/Italdesign/davinci.jpg",
+  "id": 1,
+  "image": "/images/cars/I/Italdesign/davinci.jpg",
   "class": "D",
-   "brand": "Italdesign",
-   "model": "DaVinci",
+  "brand": "Italdesign",
+  "model": "DaVinci",
   "rarity": "Rare",
   "stars": 4,
   "country": "Italy",
   "epics": 4,
-  "obtainableVia": ["Garage Level 41"],
-  "goldMaxRank": 2217,
-  "goldTopSpeed": 278.3,
-  "goldAcceleration": 83.53,
-  "goldHandling": 73.57,
-  "goldNitro": 55.35,
+  "obtainableVia": [
+    "Garage Level 41"
+  ],
   "added": "Italian Season",
   "addedWith": "MP 1v1",
   "addedDate": "08/04/2021",
@@ -21,5 +18,14 @@
   "blueprints2Star": 23,
   "blueprints3Star": 33,
   "blueprints4Star": 42,
-  "Tags": "Electric; Europe"
+  "Tags": "Electric; Europe",
+  "gold": {
+    "gold": {
+      "rank": 2217,
+      "topSpeed": 278.3,
+      "acceleration": 83.53,
+      "handling": 73.57,
+      "nitro": 55.35
+    }
+  }
 }

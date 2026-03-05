@@ -10,11 +10,6 @@
   "country": "Sweden",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 5223,
-  "goldTopSpeed": 541,
-  "goldAcceleration": 83.36,
-  "goldHandling": 61.28,
-  "goldNitro": 33.34,
   "added": "Unite Update",
   "addedWith": "DS",
   "addedDate": "16/7/2024",
@@ -33,5 +28,14 @@
   "Unnamed: 16": "562,6",
   "Total_BPs": 300,
   "Unnamed: 32": 55223,
-  "Cost epic": null
+  "Cost epic": null,
+  "gold": {
+    "gold": {
+      "rank": 5223,
+      "topSpeed": 541,
+      "acceleration": 83.36,
+      "handling": 61.28,
+      "nitro": 33.34
+    }
+  }
 }

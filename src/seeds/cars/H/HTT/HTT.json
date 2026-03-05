@@ -7,20 +7,28 @@
   "rarity": "Epic",
   "stars": 6,
   "epics": 16,
-  "stockRank": 3746,
-  "stockTopSpeed": 398,
-  "stockAcceleration": 74.8,
-  "stockHandling": 59.9,
-  "stockNitro": 55.7,
-  "goldMaxRank": 4955,
-  "goldTopSpeed": 415.5,
-  "goldAcceleration": 78.04,
-  "goldHandling": 75.86,
-  "goldNitro": 84.58,
   "blueprints1Star": 85,
   "blueprints2Star": 25,
   "blueprints3Star": 29,
   "blueprints4Star": 38,
   "blueprints5Star": 54,
-  "blueprints6Star": 69
+  "blueprints6Star": 69,
+  "stock": {
+    "stock": {
+      "rank": 3746,
+      "topSpeed": 398,
+      "acceleration": 74.8,
+      "handling": 59.9,
+      "nitro": 55.7
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 4955,
+      "topSpeed": 415.5,
+      "acceleration": 78.04,
+      "handling": 75.86,
+      "nitro": 84.58
+    }
+  }
 }

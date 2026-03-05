@@ -7,19 +7,17 @@
   "normalizedKey": "ats_automobili_corsa_rrturbo",
   "status": "in progress",
   "message": "Still adding data I have so far.",
-  "sources": ["MEI"],
+  "sources": [
+    "MEI"
+  ],
   "rarity": "Rare",
   "stars": 4,
   "keyCar": true,
   "country": "Italy",
   "epics": 4,
-  "obtainableVia": ["Key Hunt"],
-  "stockRank": 1979,
-  "goldMaxRank": 3392,
-  "goldTopSpeed": 321.7,
-  "goldAcceleration": 87.51,
-  "goldHandling": 68.27,
-  "goldNitro": 46.32,
+  "obtainableVia": [
+    "Key Hunt"
+  ],
   "added": "Italian Season",
   "addedWith": "Unleashed",
   "addedDate": "08/04/2021",
@@ -27,5 +25,19 @@
   "blueprints2Star": 25,
   "blueprints3Star": 38,
   "blueprints4Star": 52,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "stock": {
+    "stock": {
+      "rank": 1979
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 3392,
+      "topSpeed": 321.7,
+      "acceleration": 87.51,
+      "handling": 68.27,
+      "nitro": 46.32
+    }
+  }
 }

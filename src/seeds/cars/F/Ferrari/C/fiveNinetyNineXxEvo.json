@@ -12,11 +12,6 @@
   "obtainableVia": [
     "Key Hunt"
   ],
-  "goldMaxRank": 3843,
-  "goldTopSpeed": 322,
-  "goldAcceleration": 80.98,
-  "goldHandling": 83.65,
-  "goldNitro": 70.81,
   "added": "Ferrari Season",
   "addedWith": "GP",
   "addedDate": "20/10/2020",
@@ -31,5 +26,14 @@
   "Nitro_TS": null,
   "Unnamed: 16": "334,9",
   "Perfect_Nitro_TS": null,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 3843,
+      "topSpeed": 322,
+      "acceleration": 80.98,
+      "handling": 83.65,
+      "nitro": 70.81
+    }
+  }
 }

@@ -9,11 +9,6 @@
   "country": "Italy",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3997,
-  "goldTopSpeed": 340.7,
-  "goldAcceleration": 76.56,
-  "goldHandling": 75.81,
-  "goldNitro": 59.69,
   "added": "Lamborghini Season",
   "addedWith": "LP car",
   "addedDate": "05/05/2020",
@@ -32,5 +27,14 @@
   "Unnamed: 16": "354,3",
   "Total_BPs": 134,
   "Unnamed: 32": 23997,
-  "Cost epic": 0
+  "Cost epic": 0,
+  "gold": {
+    "gold": {
+      "rank": 3997,
+      "topSpeed": 340.7,
+      "acceleration": 76.56,
+      "handling": 75.81,
+      "nitro": 59.69
+    }
+  }
 }

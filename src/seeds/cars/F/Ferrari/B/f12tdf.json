@@ -11,11 +11,6 @@
   "obtainableVia": [
     "GL12"
   ],
-  "goldMaxRank": 3724,
-  "goldTopSpeed": 360.5,
-  "goldAcceleration": 78.38,
-  "goldHandling": 40.13,
-  "goldNitro": 80.18,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -30,5 +25,14 @@
   "Nitro_TS": null,
   "Unnamed: 16": "374,9",
   "Perfect_Nitro_TS": null,
-  "Tags": "Europe; Super Car"
+  "Tags": "Europe; Super Car",
+  "gold": {
+    "gold": {
+      "rank": 3724,
+      "topSpeed": 360.5,
+      "acceleration": 78.38,
+      "handling": 40.13,
+      "nitro": 80.18
+    }
+  }
 }

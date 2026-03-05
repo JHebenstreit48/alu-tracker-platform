@@ -11,11 +11,6 @@
   "obtainableVia": [
     "Car Hunt"
   ],
-  "goldMaxRank": 3533,
-  "goldTopSpeed": 339.1,
-  "goldAcceleration": 81.31,
-  "goldHandling": 75.51,
-  "goldNitro": 65.9,
   "added": "Heatwave Season",
   "addedWith": "LP car",
   "addedDate": "01/08/2021",
@@ -30,5 +25,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe",
-  "Unnamed: 16": "352,7"
+  "Unnamed: 16": "352,7",
+  "gold": {
+    "gold": {
+      "rank": 3533,
+      "topSpeed": 339.1,
+      "acceleration": 81.31,
+      "handling": 75.51,
+      "nitro": 65.9
+    }
+  }
 }

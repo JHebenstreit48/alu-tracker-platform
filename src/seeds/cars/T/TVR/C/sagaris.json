@@ -9,11 +9,6 @@
   "country": "UK",
   "epics": 4,
   "obtainableVia": null,
-  "goldMaxRank": 3046,
-  "goldTopSpeed": 312.8,
-  "goldAcceleration": 75.52,
-  "goldHandling": 69.34,
-  "goldNitro": 78.28,
   "added": "Speed Parade/Haunted Wheels",
   "addedWith": "LP car",
   "addedDate": "23/9/2024",
@@ -22,5 +17,14 @@
   "blueprints3Star": 38,
   "blueprints4Star": 48,
   "Total upgrade cost": null,
-  "Total GL points": null
+  "Total GL points": null,
+  "gold": {
+    "gold": {
+      "rank": 3046,
+      "topSpeed": 312.8,
+      "acceleration": 75.52,
+      "handling": 69.34,
+      "nitro": 78.28
+    }
+  }
 }

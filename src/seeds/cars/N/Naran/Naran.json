@@ -9,11 +9,6 @@
   "country": "UK",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4566,
-  "goldTopSpeed": 383.4,
-  "goldAcceleration": 85.79,
-  "goldHandling": 67.31,
-  "goldNitro": 65.58,
   "added": "Festive Season",
   "addedWith": "SE",
   "addedDate": "16/12/2021",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe; Super Car",
-  "Unnamed: 16": "398,7"
+  "Unnamed: 16": "398,7",
+  "gold": {
+    "gold": {
+      "rank": 4566,
+      "topSpeed": 383.4,
+      "acceleration": 85.79,
+      "handling": 67.31,
+      "nitro": 65.58
+    }
+  }
 }

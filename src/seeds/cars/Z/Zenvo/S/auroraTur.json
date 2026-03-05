@@ -9,11 +9,6 @@
   "country": "Denmark",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 5100,
-  "goldTopSpeed": 467.5,
-  "goldAcceleration": 81.73,
-  "goldHandling": 56.53,
-  "goldNitro": 42.65,
   "added": "Eurobloom",
   "addedWith": "SE",
   "addedDate": "17/04/2024",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "486,2"
+  "Unnamed: 16": "486,2",
+  "gold": {
+    "gold": {
+      "rank": 5100,
+      "topSpeed": 467.5,
+      "acceleration": 81.73,
+      "handling": 56.53,
+      "nitro": 42.65
+    }
+  }
 }

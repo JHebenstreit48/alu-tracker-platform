@@ -9,11 +9,6 @@
   "country": "Italy",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4550,
-  "goldTopSpeed": 368.5,
-  "goldAcceleration": 88.49,
-  "goldHandling": 80.45,
-  "goldNitro": 78.26,
   "added": "King of the Fall",
   "addedWith": "SE",
   "addedDate": "15/10/2019",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Electric; Europe",
-  "Unnamed: 16": "383,2"
+  "Unnamed: 16": "383,2",
+  "gold": {
+    "gold": {
+      "rank": 4550,
+      "topSpeed": 368.5,
+      "acceleration": 88.49,
+      "handling": 80.45,
+      "nitro": 78.26
+    }
+  }
 }

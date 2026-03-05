@@ -10,11 +10,6 @@
   "country": "UK",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3178,
-  "goldTopSpeed": 331,
-  "goldAcceleration": 78.23,
-  "goldHandling": 56.43,
-  "goldNitro": 60.73,
   "added": "Speed Parade/Haunted Wheels",
   "addedWith": "GP",
   "addedDate": "23/9/2024",
@@ -28,5 +23,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": null
+  "Unnamed: 16": null,
+  "gold": {
+    "gold": {
+      "rank": 3178,
+      "topSpeed": 331,
+      "acceleration": 78.23,
+      "handling": 56.43,
+      "nitro": 60.73
+    }
+  }
 }

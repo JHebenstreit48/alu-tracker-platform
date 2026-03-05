@@ -7,23 +7,14 @@
   "normalizedKey": "apollo_evo",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": [
+    "MEI"
+  ],
   "rarity": "Epic",
   "stars": 6,
   "country": "Germany",
   "epics": 12,
   "obtainableVia": null,
-  "stockRank": 2319,
-  "stockTopSpeed": 335,
-  "stockAcceleration": 75.7,
-  "stockHandling": 43.93,
-  "stockNitro": 45.17,
-  "oneStarMaxRank": 2557,
-  "goldMaxRank": 4265,
-  "goldTopSpeed": 355,
-  "goldAcceleration": 85.46,
-  "goldHandling": 70.34,
-  "goldNitro": 65.79,
   "added": "Wanderlust and Fifth Anniversary Season",
   "addedWith": "SE",
   "addedDate": "29/05/2023",
@@ -37,5 +28,28 @@
   "Total GL points": null,
   "Garage_Lvl": null,
   "One_Star_Top_Speed": 337.5,
-  "Tags": null
+  "Tags": null,
+  "stock": {
+    "stock": {
+      "rank": 2319,
+      "topSpeed": 335,
+      "acceleration": 75.7,
+      "handling": 43.93,
+      "nitro": 45.17
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 4265,
+      "topSpeed": 355,
+      "acceleration": 85.46,
+      "handling": 70.34,
+      "nitro": 65.79
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 2557
+    }
+  }
 }

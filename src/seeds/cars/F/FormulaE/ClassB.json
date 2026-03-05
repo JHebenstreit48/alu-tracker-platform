@@ -7,9 +7,13 @@
   "rarity": "Epic",
   "stars": 5,
   "keyCar": true,
-  "stockRank": 2468,
-  "stockTopSpeed": 322,
-  "stockAcceleration": 83.62,
-  "stockHandling": 46.32,
-  "stockNitro": 41.99
+  "stock": {
+    "stock": {
+      "rank": 2468,
+      "topSpeed": 322,
+      "acceleration": 83.62,
+      "handling": 46.32,
+      "nitro": 41.99
+    }
+  }
 }

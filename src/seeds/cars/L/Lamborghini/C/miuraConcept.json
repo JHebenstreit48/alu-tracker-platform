@@ -12,16 +12,6 @@
   "obtainableVia": [
     "Showroom"
   ],
-  "stockRank": 1864,
-  "stockTopSpeed": 330,
-  "stockAcceleration": 65.8,
-  "stockHandling": 39.8,
-  "stockNitro": 38.82,
-  "goldMaxRank": 3690,
-  "goldTopSpeed": 346.2,
-  "goldAcceleration": 72.32,
-  "goldHandling": 54.97,
-  "goldNitro": 60.38,
   "added": "Raging Bull Season",
   "addedWith": "Looper Prix",
   "addedDate": "30/05/2022",
@@ -34,5 +24,23 @@
   "Total GL points": null,
   "Garage_Lvl": null,
   "Tags": "Europe",
-  "Total_BPs": 133
+  "Total_BPs": 133,
+  "stock": {
+    "stock": {
+      "rank": 1864,
+      "topSpeed": 330,
+      "acceleration": 65.8,
+      "handling": 39.8,
+      "nitro": 38.82
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 3690,
+      "topSpeed": 346.2,
+      "acceleration": 72.32,
+      "handling": 54.97,
+      "nitro": 60.38
+    }
+  }
 }

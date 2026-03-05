@@ -1,9 +1,9 @@
 {
-   "id": 4,
-   "image": "/images/cars/P/Porsche/911gt3rs.jpg",
+  "id": 4,
+  "image": "/images/cars/P/Porsche/911gt3rs.jpg",
   "class": "B",
-   "brand": "Porsche",
-   "model": "911 GT3 RS",
+  "brand": "Porsche",
+  "model": "911 GT3 RS",
   "normalizedKey": "porsche_911_gt3_rs",
   "status": "in progress",
   "message": "still adding data",
@@ -11,12 +11,9 @@
   "stars": 6,
   "country": "Germany",
   "epics": 12,
-  "obtainableVia": ["Garage Level 30"],
-  "goldMaxRank": 4211,
-  "goldTopSpeed": 339.4,
-  "goldAcceleration": 85.84,
-  "goldHandling": 92.97,
-  "goldNitro": 86.39,
+  "obtainableVia": [
+    "Garage Level 30"
+  ],
   "added": "Tune It Up",
   "addedWith": null,
   "addedDate": "27/07/2019",
@@ -27,5 +24,14 @@
   "blueprints5Star": 47,
   "blueprints6Star": 50,
   "Garage_Lvl": 30,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 4211,
+      "topSpeed": 339.4,
+      "acceleration": 85.84,
+      "handling": 92.97,
+      "nitro": 86.39
+    }
+  }
 }

@@ -11,11 +11,6 @@
   "obtainableVia": [
     "GL11"
   ],
-  "goldMaxRank": 3709,
-  "goldTopSpeed": 363.9,
-  "goldAcceleration": 80.48,
-  "goldHandling": 47.46,
-  "goldNitro": 70.31,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -34,5 +29,14 @@
   "Unnamed: 16": "378,5",
   "Total_BPs": 133,
   "Unnamed: 32": 53709,
-  "Cost epic": 15000
+  "Cost epic": 15000,
+  "gold": {
+    "gold": {
+      "rank": 3709,
+      "topSpeed": 363.9,
+      "acceleration": 80.48,
+      "handling": 47.46,
+      "nitro": 70.31
+    }
+  }
 }

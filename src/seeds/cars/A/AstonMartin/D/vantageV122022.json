@@ -10,11 +10,6 @@
   "country": "UK",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 2968,
-  "goldTopSpeed": 331.1,
-  "goldAcceleration": 75.84,
-  "goldHandling": 39.15,
-  "goldNitro": 42.5,
   "added": "Eurobloom",
   "addedWith": "GP",
   "addedDate": "17/04/2024",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "344,3"
+  "Unnamed: 16": "344,3",
+  "gold": {
+    "gold": {
+      "rank": 2968,
+      "topSpeed": 331.1,
+      "acceleration": 75.84,
+      "handling": 39.15,
+      "nitro": 42.5
+    }
+  }
 }

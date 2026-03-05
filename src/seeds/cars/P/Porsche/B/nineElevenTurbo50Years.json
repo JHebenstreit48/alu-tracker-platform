@@ -1,20 +1,28 @@
 {
-   "id": 5,
-   "image": "/images/cars/P/Porsche/911turbo50years.jpg",
+  "id": 5,
+  "image": "/images/cars/P/Porsche/911turbo50years.jpg",
   "class": "B",
-   "brand": "Porsche",
-   "model": "911 Turbo 50 Years",
+  "brand": "Porsche",
+  "model": "911 Turbo 50 Years",
   "rarity": "Rare",
   "stars": 4,
   "country": "Germany",
-  "stockRank": 2193,
-  "stockTopSpeed": 330,
-  "stockAcceleration": 75.7,
-  "stockHandling": 32.47,
-  "stockNitro": 34.91,
-  "goldMaxRank": 3495,
-  "goldTopSpeed": 343.5,
-  "goldAcceleration": 82.94,
-  "goldHandling": 53.72,
-  "goldNitro": 59.39
+  "stock": {
+    "stock": {
+      "rank": 2193,
+      "topSpeed": 330,
+      "acceleration": 75.7,
+      "handling": 32.47,
+      "nitro": 34.91
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 3495,
+      "topSpeed": 343.5,
+      "acceleration": 82.94,
+      "handling": 53.72,
+      "nitro": 59.39
+    }
+  }
 }

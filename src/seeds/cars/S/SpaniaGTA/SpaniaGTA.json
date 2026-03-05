@@ -9,11 +9,6 @@
   "country": "Spain",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4373,
-  "goldTopSpeed": 383.7,
-  "goldAcceleration": 81.2,
-  "goldHandling": 59.72,
-  "goldNitro": 69.97,
   "added": "City of Lights",
   "addedWith": "SE",
   "addedDate": "06/02/2023",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "399,0"
+  "Unnamed: 16": "399,0",
+  "gold": {
+    "gold": {
+      "rank": 4373,
+      "topSpeed": 383.7,
+      "acceleration": 81.2,
+      "handling": 59.72,
+      "nitro": 69.97
+    }
+  }
 }

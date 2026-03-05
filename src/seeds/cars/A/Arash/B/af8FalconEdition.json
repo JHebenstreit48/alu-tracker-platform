@@ -16,11 +16,6 @@
   "country": "UK",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3289,
-  "goldTopSpeed": 332.6,
-  "goldAcceleration": 76.74,
-  "goldHandling": 66.01,
-  "goldNitro": 76.94,
   "added": "New Breed Rivals",
   "addedWith": "Looper Prix",
   "addedDate": "04/04/2022",
@@ -34,5 +29,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe",
-  "Unnamed: 16": "345,9"
+  "Unnamed: 16": "345,9",
+  "gold": {
+    "gold": {
+      "rank": 3289,
+      "topSpeed": 332.6,
+      "acceleration": 76.74,
+      "handling": 66.01,
+      "nitro": 76.94
+    }
+  }
 }

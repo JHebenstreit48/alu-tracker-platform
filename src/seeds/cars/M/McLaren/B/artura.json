@@ -9,11 +9,6 @@
   "country": "UK",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3267,
-  "goldTopSpeed": 337.7,
-  "goldAcceleration": 81.05,
-  "goldHandling": 68.33,
-  "goldNitro": 47.34,
   "added": "New Tech",
   "addedWith": "LP",
   "addedDate": "25/09/2023",
@@ -27,5 +22,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "351,2"
+  "Unnamed: 16": "351,2",
+  "gold": {
+    "gold": {
+      "rank": 3267,
+      "topSpeed": 337.7,
+      "acceleration": 81.05,
+      "handling": 68.33,
+      "nitro": 47.34
+    }
+  }
 }

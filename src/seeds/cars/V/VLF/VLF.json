@@ -11,11 +11,6 @@
   "obtainableVia": [
     "Exclusive"
   ],
-  "goldMaxRank": 3929,
-  "goldTopSpeed": 368.8,
-  "goldAcceleration": 80.33,
-  "goldHandling": 54.68,
-  "goldNitro": 74.63,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -30,5 +25,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Hyper",
-  "Unnamed: 16": "383,6"
+  "Unnamed: 16": "383,6",
+  "gold": {
+    "gold": {
+      "rank": 3929,
+      "topSpeed": 368.8,
+      "acceleration": 80.33,
+      "handling": 54.68,
+      "nitro": 74.63
+    }
+  }
 }

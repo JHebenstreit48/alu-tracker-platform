@@ -11,11 +11,6 @@
   "obtainableVia": [
     "GL17 / Multiplayer"
   ],
-  "goldMaxRank": 4291,
-  "goldTopSpeed": 366.2,
-  "goldAcceleration": 81.03,
-  "goldHandling": 82.48,
-  "goldNitro": 70.1,
   "added": "Summer",
   "addedWith": "SE",
   "addedDate": "18/06/2019",
@@ -31,5 +26,14 @@
   "Nitro_TS": null,
   "Unnamed: 16": "380,8",
   "Perfect_Nitro_TS": null,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 4291,
+      "topSpeed": 366.2,
+      "acceleration": 81.03,
+      "handling": 82.48,
+      "nitro": 70.1
+    }
+  }
 }

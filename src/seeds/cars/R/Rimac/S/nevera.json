@@ -1,9 +1,9 @@
 {
-   "id": 1,
-   "image": "/images/cars/R/Rimac/nevera.jpg",
+  "id": 1,
+  "image": "/images/cars/R/Rimac/nevera.jpg",
   "class": "S",
-   "brand": "Rimac",
-   "model": "Nevera",
+  "brand": "Rimac",
+  "model": "Nevera",
   "normalizedKey": "rimac_nevera",
   "status": "in progress",
   "message": "still adding data",
@@ -13,11 +13,6 @@
   "country": "Croatia",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4897,
-  "goldTopSpeed": 421.6,
-  "goldAcceleration": 87.71,
-  "goldHandling": 51.33,
-  "goldNitro": 56.51,
   "added": "Godly Beasts",
   "addedWith": "DS",
   "addedDate": "10/12/2019",
@@ -28,5 +23,14 @@
   "blueprints5Star": 70,
   "blueprints6Star": 85,
   "Garage_Lvl": null,
-  "Tags": "Electric; Europe"
+  "Tags": "Electric; Europe",
+  "gold": {
+    "gold": {
+      "rank": 4897,
+      "topSpeed": 421.6,
+      "acceleration": 87.71,
+      "handling": 51.33,
+      "nitro": 56.51
+    }
+  }
 }

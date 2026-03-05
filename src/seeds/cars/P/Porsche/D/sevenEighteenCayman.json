@@ -7,17 +7,17 @@
   "normalizedKey": "porsche_718_cayman",
   "status": "in progress",
   "message": "still adding data",
-  "sources": ["MEI", "Reddit users Google Sheets document."],
+  "sources": [
+    "MEI",
+    "Reddit users Google Sheets document."
+  ],
   "rarity": "Rare",
   "stars": 4,
   "country": "Germany",
   "epics": 4,
-  "obtainableVia": ["Garage Level 4"],
-  "goldMaxRank": 2360,
-  "goldTopSpeed": 295.7,
-  "goldAcceleration": 70.52,
-  "goldHandling": 61.91,
-  "goldNitro": 60.26,
+  "obtainableVia": [
+    "Garage Level 4"
+  ],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -25,5 +25,14 @@
   "blueprints2Star": 8,
   "blueprints3Star": 14,
   "blueprints4Star": 28,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 2360,
+      "topSpeed": 295.7,
+      "acceleration": 70.52,
+      "handling": 61.91,
+      "nitro": 60.26
+    }
+  }
 }

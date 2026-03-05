@@ -8,11 +8,6 @@
   "country": "Mexico",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4722,
-  "goldTopSpeed": 412.6,
-  "goldAcceleration": 83.05,
-  "goldHandling": 54.88,
-  "goldNitro": 76.62,
   "added": "Fire and Lightning",
   "addedWith": "SE",
   "addedDate": "11/02/2021",
@@ -32,5 +27,14 @@
   "Tags": null,
   "Total_BPs": 300,
   "Unnamed: 32": 54722,
-  "Cost epic": 0
+  "Cost epic": 0,
+  "gold": {
+    "gold": {
+      "rank": 4722,
+      "topSpeed": 412.6,
+      "acceleration": 83.05,
+      "handling": 54.88,
+      "nitro": 76.62
+    }
+  }
 }

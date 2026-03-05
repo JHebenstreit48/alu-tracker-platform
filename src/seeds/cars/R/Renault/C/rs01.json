@@ -12,11 +12,6 @@
   "obtainableVia": [
     "Showroom"
   ],
-  "goldMaxRank": 3565,
-  "goldTopSpeed": 320.7,
-  "goldAcceleration": 83.68,
-  "goldHandling": 61.38,
-  "goldNitro": 72.01,
   "added": "European Season",
   "addedWith": "GP",
   "addedDate": "01/06/2021",
@@ -31,5 +26,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe",
-  "Unnamed: 16": "333,5"
+  "Unnamed: 16": "333,5",
+  "gold": {
+    "gold": {
+      "rank": 3565,
+      "topSpeed": 320.7,
+      "acceleration": 83.68,
+      "handling": 61.38,
+      "nitro": 72.01
+    }
+  }
 }

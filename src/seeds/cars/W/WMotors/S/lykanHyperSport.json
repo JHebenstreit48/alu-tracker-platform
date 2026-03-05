@@ -12,11 +12,6 @@
   "obtainableVia": [
     "GL15"
   ],
-  "goldMaxRank": 4083,
-  "goldTopSpeed": 407.5,
-  "goldAcceleration": 80.48,
-  "goldHandling": 40.97,
-  "goldNitro": 58.26,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -31,5 +26,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Asia; Hyper",
-  "Unnamed: 16": "423,8"
+  "Unnamed: 16": "423,8",
+  "gold": {
+    "gold": {
+      "rank": 4083,
+      "topSpeed": 407.5,
+      "acceleration": 80.48,
+      "handling": 40.97,
+      "nitro": 58.26
+    }
+  }
 }

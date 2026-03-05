@@ -1,7 +1,11 @@
 {
-  "goldMaxRank": 4099,
-  "goldTopSpeed": 362.4,
-  "goldAcceleration": 83.02,
-  "goldHandling": 51.79,
-  "goldNitro": 79.96
+  "gold": {
+    "gold": {
+      "rank": 4099,
+      "topSpeed": 362.4,
+      "acceleration": 83.02,
+      "handling": 51.79,
+      "nitro": 79.96
+    }
+  }
 }

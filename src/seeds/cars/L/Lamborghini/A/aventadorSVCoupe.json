@@ -11,11 +11,6 @@
   "obtainableVia": [
     "GL12"
   ],
-  "goldMaxRank": 3763,
-  "goldTopSpeed": 367.9,
-  "goldAcceleration": 80.83,
-  "goldHandling": 50.15,
-  "goldNitro": 70.6,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -30,5 +25,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe; Hyper",
-  "Unnamed: 16": "382,6"
+  "Unnamed: 16": "382,6",
+  "gold": {
+    "gold": {
+      "rank": 3763,
+      "topSpeed": 367.9,
+      "acceleration": 80.83,
+      "handling": 50.15,
+      "nitro": 70.6
+    }
+  }
 }

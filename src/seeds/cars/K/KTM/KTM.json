@@ -9,11 +9,6 @@
   "country": "Austria",
   "epics": 0,
   "obtainableVia": null,
-  "goldMaxRank": 1738,
-  "goldTopSpeed": 247.5,
-  "goldAcceleration": 83.84,
-  "goldHandling": 64.99,
-  "goldNitro": 66.99,
   "added": "European Season (2023)",
   "addedWith": null,
   "addedDate": "30/03/2023",
@@ -26,5 +21,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "257,4"
+  "Unnamed: 16": "257,4",
+  "gold": {
+    "gold": {
+      "rank": 1738,
+      "topSpeed": 247.5,
+      "acceleration": 83.84,
+      "handling": 64.99,
+      "nitro": 66.99
+    }
+  }
 }

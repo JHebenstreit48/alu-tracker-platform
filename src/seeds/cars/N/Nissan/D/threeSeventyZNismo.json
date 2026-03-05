@@ -11,11 +11,6 @@
   "obtainableVia": [
     "GL02"
   ],
-  "goldMaxRank": 1662,
-  "goldTopSpeed": 268.5,
-  "goldAcceleration": 66.61,
-  "goldHandling": 81.83,
-  "goldNitro": 67.07,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -28,5 +23,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Asia",
-  "Unnamed: 16": "279,2"
+  "Unnamed: 16": "279,2",
+  "gold": {
+    "gold": {
+      "rank": 1662,
+      "topSpeed": 268.5,
+      "acceleration": 66.61,
+      "handling": 81.83,
+      "nitro": 67.07
+    }
+  }
 }

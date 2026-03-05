@@ -12,11 +12,6 @@
   "country": "UK",
   "epics": 12,
   "obtainableVia": null,
-  "goldMaxRank": 3898,
-  "goldTopSpeed": 369.2,
-  "goldAcceleration": 75.54,
-  "goldHandling": 73.17,
-  "goldNitro": 74.12,
   "added": "British Season",
   "addedWith": "Unleashed",
   "addedDate": "27/08/2020",
@@ -31,5 +26,14 @@
   "Nitro_TS": null,
   "Unnamed: 16": "384,0",
   "Perfect_Nitro_TS": null,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 3898,
+      "topSpeed": 369.2,
+      "acceleration": 75.54,
+      "handling": 73.17,
+      "nitro": 74.12
+    }
+  }
 }

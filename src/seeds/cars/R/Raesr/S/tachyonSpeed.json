@@ -10,11 +10,6 @@
   "country": "USA",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4109,
-  "goldTopSpeed": 400.3,
-  "goldAcceleration": 77.91,
-  "goldHandling": 53.44,
-  "goldNitro": 59.94,
   "added": "Electric Season",
   "addedWith": "GP",
   "addedDate": "23/09/2021",
@@ -33,5 +28,14 @@
   "Tags": null,
   "Total_BPs": 300,
   "Unnamed: 32": 54109,
-  "Cost epic": 0
+  "Cost epic": 0,
+  "gold": {
+    "gold": {
+      "rank": 4109,
+      "topSpeed": 400.3,
+      "acceleration": 77.91,
+      "handling": 53.44,
+      "nitro": 59.94
+    }
+  }
 }

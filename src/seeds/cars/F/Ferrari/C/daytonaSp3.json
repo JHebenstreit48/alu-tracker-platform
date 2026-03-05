@@ -10,11 +10,6 @@
   "country": "Italy",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 4073,
-  "goldTopSpeed": 348.8,
-  "goldAcceleration": 80.46,
-  "goldHandling": 54.89,
-  "goldNitro": 60.3,
   "added": "Italian Revolution II",
   "addedWith": "GP",
   "addedDate": "19/2/2024",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Unnamed: 16": "362,8",
   "Perfect_Nitro_TS": null,
-  "Tags": null
+  "Tags": null,
+  "gold": {
+    "gold": {
+      "rank": 4073,
+      "topSpeed": 348.8,
+      "acceleration": 80.46,
+      "handling": 54.89,
+      "nitro": 60.3
+    }
+  }
 }

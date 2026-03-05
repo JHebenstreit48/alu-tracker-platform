@@ -9,11 +9,6 @@
   "country": "Austria",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4779,
-  "goldTopSpeed": 395.2,
-  "goldAcceleration": 86,
-  "goldHandling": 73.31,
-  "goldNitro": 61.51,
   "added": "New Breed Rivals",
   "addedWith": "Store",
   "addedDate": "04/04/2022",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe",
-  "Unnamed: 16": "411,0"
+  "Unnamed: 16": "411,0",
+  "gold": {
+    "gold": {
+      "rank": 4779,
+      "topSpeed": 395.2,
+      "acceleration": 86,
+      "handling": 73.31,
+      "nitro": 61.51
+    }
+  }
 }

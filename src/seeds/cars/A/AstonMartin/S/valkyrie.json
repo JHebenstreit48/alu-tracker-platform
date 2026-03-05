@@ -9,26 +9,6 @@
   "country": "UK",
   "epics": 16,
   "obtainableVia": null,
-  "stockRank": 3176,
-  "stockTopSpeed": 360,
-  "stockAcceleration": 73,
-  "stockHandling": 52.9,
-  "stockNitro": 57.97,
-  "oneStarMaxRank": 3346,
-  "oneStarMaxTopSpeed": 362.4,
-  "oneStarMaxAcceleration": 73.94,
-  "oneStarMaxHandling": 56.14,
-  "oneStarMaxNitro": 60.43,
-  "twoStarMaxRank": 3548,
-  "twoStarMaxTopSpeed": 365.2,
-  "twoStarMaxAcceleration": 75.05,
-  "twoStarMaxHandling": 59.96,
-  "twoStarMaxNitro": 63.3,
-  "goldMaxRank": 4488,
-  "goldTopSpeed": 378.2,
-  "goldAcceleration": 80.3,
-  "goldHandling": 77.91,
-  "goldNitro": 76.7,
   "added": "European Season",
   "addedWith": "SE",
   "addedDate": "01/06/2021",
@@ -44,5 +24,39 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe; Hybrid",
-  "Unnamed: 16": "393,3"
+  "Unnamed: 16": "393,3",
+  "stock": {
+    "stock": {
+      "rank": 3176,
+      "topSpeed": 360,
+      "acceleration": 73,
+      "handling": 52.9,
+      "nitro": 57.97
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 4488,
+      "topSpeed": 378.2,
+      "acceleration": 80.3,
+      "handling": 77.91,
+      "nitro": 76.7
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 3346,
+      "topSpeed": 362.4,
+      "acceleration": 73.94,
+      "handling": 56.14,
+      "nitro": 60.43
+    },
+    "twoStar": {
+      "rank": 3548,
+      "topSpeed": 365.2,
+      "acceleration": 75.05,
+      "handling": 59.96,
+      "nitro": 63.3
+    }
+  }
 }

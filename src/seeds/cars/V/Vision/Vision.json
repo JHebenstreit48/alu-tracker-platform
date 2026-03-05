@@ -9,11 +9,6 @@
   "country": "France",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4435,
-  "goldTopSpeed": 390.2,
-  "goldAcceleration": 81.29,
-  "goldHandling": 59.91,
-  "goldNitro": 72.19,
   "added": "New Breed Rivals",
   "addedWith": "MP2",
   "addedDate": "04/04/2022",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Electric; Europe",
-  "Unnamed: 16": "405,8"
+  "Unnamed: 16": "405,8",
+  "gold": {
+    "gold": {
+      "rank": 4435,
+      "topSpeed": 390.2,
+      "acceleration": 81.29,
+      "handling": 59.91,
+      "nitro": 72.19
+    }
+  }
 }

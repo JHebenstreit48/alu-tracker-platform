@@ -9,11 +9,6 @@
   "country": "UK",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3483,
-  "goldTopSpeed": 338.7,
-  "goldAcceleration": 78.28,
-  "goldHandling": 48.14,
-  "goldNitro": 62.98,
   "added": "Around the World",
   "addedWith": "LP car",
   "addedDate": "03/04/2022",
@@ -28,5 +23,14 @@
   "Nitro_TS": null,
   "Unnamed: 16": "352,2",
   "Perfect_Nitro_TS": null,
-  "Tags": null
+  "Tags": null,
+  "gold": {
+    "gold": {
+      "rank": 3483,
+      "topSpeed": 338.7,
+      "acceleration": 78.28,
+      "handling": 48.14,
+      "nitro": 62.98
+    }
+  }
 }

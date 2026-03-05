@@ -1,20 +1,15 @@
 {
-   "id": 1,
-   "image": "/images/cars/J/Jaguar/xj220stwr.jpg",
+  "id": 1,
+  "image": "/images/cars/J/Jaguar/xj220stwr.jpg",
   "class": "S",
-   "brand": "Jaguar",
-   "model": "XJ220S TWR",
+  "brand": "Jaguar",
+  "model": "XJ220S TWR",
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
   "country": "UK",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4173,
-  "goldTopSpeed": 383.2,
-  "goldAcceleration": 75.17,
-  "goldHandling": 60.57,
-  "goldNitro": 82.21,
   "added": "British Tour",
   "addedWith": "Tour",
   "addedDate": "07/02/2022",
@@ -24,5 +19,14 @@
   "blueprints4Star": 60,
   "blueprints5Star": 70,
   "blueprints6Star": 85,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 4173,
+      "topSpeed": 383.2,
+      "acceleration": 75.17,
+      "handling": 60.57,
+      "nitro": 82.21
+    }
+  }
 }

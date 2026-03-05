@@ -9,11 +9,6 @@
   "country": "USA",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 3025,
-  "goldTopSpeed": 335.2,
-  "goldAcceleration": 75.65,
-  "goldHandling": 46.89,
-  "goldNitro": 73.82,
   "added": "Unite Update",
   "addedWith": "LP car",
   "addedDate": "16/7/2024",
@@ -27,5 +22,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "348,6"
+  "Unnamed: 16": "348,6",
+  "gold": {
+    "gold": {
+      "rank": 3025,
+      "topSpeed": 335.2,
+      "acceleration": 75.65,
+      "handling": 46.89,
+      "nitro": 73.82
+    }
+  }
 }

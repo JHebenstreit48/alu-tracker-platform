@@ -1,19 +1,16 @@
 {
-   "id": 4,
-   "image": "/images/cars/P/Porsche/taycanturbos.jpg",
+  "id": 4,
+  "image": "/images/cars/P/Porsche/taycanturbos.jpg",
   "class": "D",
-   "brand": "Porsche",
-   "model": "Taycan Turbo S",
+  "brand": "Porsche",
+  "model": "Taycan Turbo S",
   "rarity": "Rare",
   "stars": 4,
   "country": "Germany",
   "epics": 4,
-  "obtainableVia": ["Car Hunt"],
-  "goldMaxRank": 2724,
-  "goldTopSpeed": 279.2,
-  "goldAcceleration": 83.74,
-  "goldHandling": 75.77,
-  "goldNitro": 57.18,
+  "obtainableVia": [
+    "Car Hunt"
+  ],
   "added": "Porsche Season",
   "addedWith": "LP car",
   "addedDate": "19/03/2020",
@@ -22,5 +19,14 @@
   "blueprints3Star": 33,
   "blueprints4Star": 42,
   "Garage_Lvl": 24,
-  "Tags": "Electric; Europe"
+  "Tags": "Electric; Europe",
+  "gold": {
+    "gold": {
+      "rank": 2724,
+      "topSpeed": 279.2,
+      "acceleration": 83.74,
+      "handling": 75.77,
+      "nitro": 57.18
+    }
+  }
 }

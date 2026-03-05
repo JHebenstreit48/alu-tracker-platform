@@ -18,11 +18,6 @@
     "Showroom",
     "Garage Level 24"
   ],
-  "goldMaxRank": 3144,
-  "goldTopSpeed": 305.3,
-  "goldAcceleration": 76.74,
-  "goldHandling": 82.8,
-  "goldNitro": 74.07,
   "added": "Festive Season",
   "addedWith": "DS",
   "addedDate": "16/12/2021",
@@ -32,5 +27,14 @@
   "blueprints4Star": 48,
   "Total upgrade cost": null,
   "Total GL points": null,
-  "Tags": "Super Car"
+  "Tags": "Super Car",
+  "gold": {
+    "gold": {
+      "rank": 3144,
+      "topSpeed": 305.3,
+      "acceleration": 76.74,
+      "handling": 82.8,
+      "nitro": 74.07
+    }
+  }
 }

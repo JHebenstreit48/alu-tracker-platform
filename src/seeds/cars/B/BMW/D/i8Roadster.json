@@ -11,11 +11,6 @@
   "obtainableVia": [
     "Showroom"
   ],
-  "goldMaxRank": 2247,
-  "goldTopSpeed": 278.3,
-  "goldAcceleration": 79.72,
-  "goldHandling": 78.61,
-  "goldNitro": 66.88,
   "added": "Full Throttle",
   "addedWith": "DS",
   "addedDate": "10/12/2020",
@@ -24,5 +19,14 @@
   "blueprints3Star": 33,
   "blueprints4Star": 42,
   "Garage_Lvl": 23,
-  "Tags": "Europe; Hybrid"
+  "Tags": "Europe; Hybrid",
+  "gold": {
+    "gold": {
+      "rank": 2247,
+      "topSpeed": 278.3,
+      "acceleration": 79.72,
+      "handling": 78.61,
+      "nitro": 66.88
+    }
+  }
 }

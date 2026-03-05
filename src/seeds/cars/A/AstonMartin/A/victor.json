@@ -15,11 +15,6 @@
   "country": "UK",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4255,
-  "goldTopSpeed": 371.4,
-  "goldAcceleration": 78.33,
-  "goldHandling": 76.84,
-  "goldNitro": 69.63,
   "added": "European Season",
   "addedWith": "LP car",
   "addedDate": "01/06/2021",
@@ -35,5 +30,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe",
-  "Unnamed: 16": "386,3"
+  "Unnamed: 16": "386,3",
+  "gold": {
+    "gold": {
+      "rank": 4255,
+      "topSpeed": 371.4,
+      "acceleration": 78.33,
+      "handling": 76.84,
+      "nitro": 69.63
+    }
+  }
 }

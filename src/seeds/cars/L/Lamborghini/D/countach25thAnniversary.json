@@ -9,11 +9,6 @@
   "country": "Italy",
   "epics": 4,
   "obtainableVia": null,
-  "goldMaxRank": 2498,
-  "goldTopSpeed": 304.9,
-  "goldAcceleration": 71.69,
-  "goldHandling": 55.89,
-  "goldNitro": 36.3,
   "added": "Raging Bull Season",
   "addedWith": "Free LP car",
   "addedDate": "30/05/2022",
@@ -30,5 +25,14 @@
   "Unnamed: 16": "317,1",
   "Total_BPs": 128,
   "Unnamed: 32": 12498,
-  "Cost epic": 0
+  "Cost epic": 0,
+  "gold": {
+    "gold": {
+      "rank": 2498,
+      "topSpeed": 304.9,
+      "acceleration": 71.69,
+      "handling": 55.89,
+      "nitro": 36.3
+    }
+  }
 }

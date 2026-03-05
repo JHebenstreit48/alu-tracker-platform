@@ -10,11 +10,6 @@
   "country": "Italy",
   "epics": 8,
   "obtainableVia": null,
-  "goldMaxRank": 4009,
-  "goldTopSpeed": 341.6,
-  "goldAcceleration": 81.23,
-  "goldHandling": 65,
-  "goldNitro": 52.12,
   "added": "Dragon Race",
   "addedWith": "GP",
   "addedDate": "11/12/2023",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Unnamed: 16": "355,3",
   "Perfect_Nitro_TS": null,
-  "Tags": null
+  "Tags": null,
+  "gold": {
+    "gold": {
+      "rank": 4009,
+      "topSpeed": 341.6,
+      "acceleration": 81.23,
+      "handling": 65,
+      "nitro": 52.12
+    }
+  }
 }

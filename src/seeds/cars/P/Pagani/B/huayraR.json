@@ -1,9 +1,9 @@
 {
-   "id": 1,
-   "image": "/images/cars/P/Pagani/huayrar.jpg",
+  "id": 1,
+  "image": "/images/cars/P/Pagani/huayrar.jpg",
   "class": "B",
-   "brand": "Pagani",
-   "model": "Huayra R",
+  "brand": "Pagani",
+  "model": "Huayra R",
   "normalizedKey": "pagani_huayra_r",
   "status": "in progress",
   "message": "Still adding data",
@@ -12,41 +12,6 @@
   "country": "Italy",
   "epics": 12,
   "obtainableVia": null,
-  "stockRank": 2356,
-  "stockTopSpeed": 360,
-  "stockAcceleration": 73,
-  "stockHandling": 42.36,
-  "stockNitro": 43.41,
-  "oneStarMaxRank": 2600,
-  "oneStarMaxTopSpeed": 362.4,
-  "oneStarMaxAcceleration": 74.12,
-  "oneStarMaxHandling": 44.14,
-  "oneStarMaxNitro": 46.19,
-  "twoStarMaxRank": 2883,
-  "twoStarMaxTopSpeed": 365,
-  "twoStarMaxAcceleration": 75.39,
-  "twoStarMaxHandling": 46.14,
-  "twoStarMaxNitro": 49.51,
-  "threeStarMaxRank": 3173,
-  "threeStarMaxTopSpeed": 367.4,
-  "threeStarMaxAcceleration": 76.88,
-  "threeStarMaxHandling": 48.47,
-  "threeStarMaxNitro": 52.55,
-  "fourStarMaxRank": 3566,
-  "fourStarMaxTopSpeed": 370.9,
-  "fourStarMaxAcceleration": 78.7,
-  "fourStarMaxHandling": 51.36,
-  "fourStarMaxNitro": 57.01,
-  "fiveStarMaxRank": 4030,
-  "fiveStarMaxTopSpeed": 374.3,
-  "fiveStarMaxAcceleration": 81.25,
-  "fiveStarMaxHandling": 55.4,
-  "fiveStarMaxNitro": 62.36,
-  "goldMaxRank": 4363,
-  "goldTopSpeed": 376.6,
-  "goldAcceleration": 83.17,
-  "goldHandling": 58.41,
-  "goldNitro": 64.38,
   "added": "Bring the Heat",
   "addedWith": "SE",
   "addedDate": "25/07/2022",
@@ -55,5 +20,60 @@
   "blueprints3Star": 24,
   "blueprints4Star": 32,
   "blueprints5Star": 47,
-  "blueprints6Star": 50
+  "blueprints6Star": 50,
+  "stock": {
+    "stock": {
+      "rank": 2356,
+      "topSpeed": 360,
+      "acceleration": 73,
+      "handling": 42.36,
+      "nitro": 43.41
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 4363,
+      "topSpeed": 376.6,
+      "acceleration": 83.17,
+      "handling": 58.41,
+      "nitro": 64.38
+    }
+  },
+  "maxStar": {
+    "oneStar": {
+      "rank": 2600,
+      "topSpeed": 362.4,
+      "acceleration": 74.12,
+      "handling": 44.14,
+      "nitro": 46.19
+    },
+    "twoStar": {
+      "rank": 2883,
+      "topSpeed": 365,
+      "acceleration": 75.39,
+      "handling": 46.14,
+      "nitro": 49.51
+    },
+    "threeStar": {
+      "rank": 3173,
+      "topSpeed": 367.4,
+      "acceleration": 76.88,
+      "handling": 48.47,
+      "nitro": 52.55
+    },
+    "fourStar": {
+      "rank": 3566,
+      "topSpeed": 370.9,
+      "acceleration": 78.7,
+      "handling": 51.36,
+      "nitro": 57.01
+    },
+    "fiveStar": {
+      "rank": 4030,
+      "topSpeed": 374.3,
+      "acceleration": 81.25,
+      "handling": 55.4,
+      "nitro": 62.36
+    }
+  }
 }

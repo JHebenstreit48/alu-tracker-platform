@@ -11,11 +11,6 @@
   "obtainableVia": [
     "GL08"
   ],
-  "goldMaxRank": 3003,
-  "goldTopSpeed": 317.9,
-  "goldAcceleration": 78.22,
-  "goldHandling": 86.5,
-  "goldNitro": 60.57,
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -24,5 +19,14 @@
   "blueprints3Star": 20,
   "blueprints4Star": 32,
   "Total upgrade cost": null,
-  "Total GL points": null
+  "Total GL points": null,
+  "gold": {
+    "gold": {
+      "rank": 3003,
+      "topSpeed": 317.9,
+      "acceleration": 78.22,
+      "handling": 86.5,
+      "nitro": 60.57
+    }
+  }
 }

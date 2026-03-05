@@ -9,11 +9,6 @@
   "country": "Denmark",
   "epics": 16,
   "obtainableVia": null,
-  "goldMaxRank": 4514,
-  "goldTopSpeed": 418.2,
-  "goldAcceleration": 81.29,
-  "goldHandling": 46.66,
-  "goldNitro": 63.43,
   "added": "Road Kings",
   "addedWith": "SE",
   "addedDate": "30/01/2019",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": "Europe",
-  "Unnamed: 16": "434,9"
+  "Unnamed: 16": "434,9",
+  "gold": {
+    "gold": {
+      "rank": 4514,
+      "topSpeed": 418.2,
+      "acceleration": 81.29,
+      "handling": 46.66,
+      "nitro": 63.43
+    }
+  }
 }

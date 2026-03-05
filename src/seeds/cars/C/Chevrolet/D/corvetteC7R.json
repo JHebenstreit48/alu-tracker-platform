@@ -12,11 +12,6 @@
   "obtainableVia": [
     "Key Hunt"
   ],
-  "goldMaxRank": 2948,
-  "goldTopSpeed": 307.6,
-  "goldAcceleration": 80.48,
-  "goldHandling": 47.08,
-  "goldNitro": 57.03,
   "added": "American Season",
   "addedWith": "GP",
   "addedDate": "30/06/2020",
@@ -31,5 +26,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "319,9"
+  "Unnamed: 16": "319,9",
+  "gold": {
+    "gold": {
+      "rank": 2948,
+      "topSpeed": 307.6,
+      "acceleration": 80.48,
+      "handling": 47.08,
+      "nitro": 57.03
+    }
+  }
 }

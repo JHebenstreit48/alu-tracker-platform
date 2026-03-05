@@ -1,22 +1,30 @@
 {
-   "id": 4,
-   "image": "/images/cars/F/Ford/gtmkiv.jpg",
+  "id": 4,
+  "image": "/images/cars/F/Ford/gtmkiv.jpg",
   "class": "B",
-   "brand": "Ford",
-   "model": "GT MK IV",
+  "brand": "Ford",
+  "model": "GT MK IV",
   "rarity": "Epic",
   "stars": 6,
   "country": "USA",
-  "stockRank": 2328,
-  "stockTopSpeed": 350,
-  "stockAcceleration": 77.5,
-  "stockHandling": 33.86,
-  "stockNitro": 32.33,
-  "goldMaxRank": 4322,
   "blueprints1Star": 25,
   "blueprints3Star": 35,
   "Gold_Max_Top_Speed": 366.5,
   "Gold_Max_Acceleration": 87.26,
   "Gold_Max_Handling": 49.35,
-  "Gold_Max_Nitro": 60.2
+  "Gold_Max_Nitro": 60.2,
+  "stock": {
+    "stock": {
+      "rank": 2328,
+      "topSpeed": 350,
+      "acceleration": 77.5,
+      "handling": 33.86,
+      "nitro": 32.33
+    }
+  },
+  "gold": {
+    "gold": {
+      "rank": 4322
+    }
+  }
 }

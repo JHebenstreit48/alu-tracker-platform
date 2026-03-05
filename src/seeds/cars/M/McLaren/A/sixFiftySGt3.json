@@ -11,11 +11,6 @@
   "obtainableVia": [
     "Clash Store"
   ],
-  "goldMaxRank": 4279,
-  "goldTopSpeed": 357,
-  "goldAcceleration": 84.34,
-  "goldHandling": 85.82,
-  "goldNitro": 78.22,
   "added": "Winterfest",
   "addedWith": "Clash Store",
   "addedDate": "12/12/2022",
@@ -31,5 +26,14 @@
   "Nitro_TS": null,
   "Perfect_Nitro_TS": null,
   "Tags": null,
-  "Unnamed: 16": "371,3"
+  "Unnamed: 16": "371,3",
+  "gold": {
+    "gold": {
+      "rank": 4279,
+      "topSpeed": 357,
+      "acceleration": 84.34,
+      "handling": 85.82,
+      "nitro": 78.22
+    }
+  }
 }

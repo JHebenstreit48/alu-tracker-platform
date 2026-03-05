@@ -11,11 +11,6 @@
   "obtainableVia": [
     "Showroom"
   ],
-  "goldMaxRank": 3334,
-  "goldTopSpeed": 319.1,
-  "goldAcceleration": 82.32,
-  "goldHandling": 61.88,
-  "goldNitro": 63.25,
   "added": "Bring the Heat",
   "addedWith": "LP car",
   "addedDate": "25/07/2022",
@@ -29,5 +24,14 @@
   "Nitro_TS": null,
   "Unnamed: 16": "331,9",
   "Perfect_Nitro_TS": null,
-  "Tags": "Europe"
+  "Tags": "Europe",
+  "gold": {
+    "gold": {
+      "rank": 3334,
+      "topSpeed": 319.1,
+      "acceleration": 82.32,
+      "handling": 61.88,
+      "nitro": 63.25
+    }
+  }
 }

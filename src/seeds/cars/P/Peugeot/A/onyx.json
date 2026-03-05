@@ -12,11 +12,6 @@
     "Starway",
     "Garage Level 53"
   ],
-  "goldMaxRank": 4145,
-  "goldTopSpeed": 370.6,
-  "goldAcceleration": 81.93,
-  "goldHandling": 84.82,
-  "goldNitro": 59.61,
   "added": "Full Throttle",
   "addedWith": "Unleashed",
   "addedDate": "10/12/2020",
@@ -26,5 +21,14 @@
   "blueprints4Star": 36,
   "blueprints5Star": 52,
   "blueprints6Star": 62,
-  "Tags": "Europe; Hybrid"
+  "Tags": "Europe; Hybrid",
+  "gold": {
+    "gold": {
+      "rank": 4145,
+      "topSpeed": 370.6,
+      "acceleration": 81.93,
+      "handling": 84.82,
+      "nitro": 59.61
+    }
+  }
 }
