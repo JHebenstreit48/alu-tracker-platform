@@ -4,6 +4,10 @@
   "class": "C",
   "brand": "Formula E",
   "model": "Gen 2 Asphalt Edition",
+  "normalizedKey": "formula_e_gen_2_asphalt_edition",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 5,
   "country": "France",
@@ -16,14 +20,5 @@
   "blueprints2Star": 15,
   "blueprints3Star": 21,
   "blueprints4Star": 28,
-  "blueprints5Star": 35,
-  "gold": {
-    "gold": {
-      "rank": 3412,
-      "topSpeed": 304.6,
-      "acceleration": 87.43,
-      "handling": 83.66,
-      "nitro": 74.04
-    }
-  }
+  "blueprints5Star": 35
 }
