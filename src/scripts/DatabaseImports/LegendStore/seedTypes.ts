@@ -41,3 +41,26 @@ export type TradeCoinDoc = {
   DailyLimit: number;
   seededAt: string;
 };
+
+export type ImportSeed = {
+  Class: string;
+  Brand: string;
+  Model: string;
+  GarageLevel?: number | null;
+  StarRank: number;
+  CarRarity: string;
+  TradeCoinCost: number;
+  DailyLimit: number;
+};
+
+export type ImportDoc = {
+  Class: string;
+  Brand: string;
+  Model: string;
+  GarageLevel?: number;
+  StarRank: number;
+  CarRarity: string;
+  TradeCoinCost: number;
+  DailyLimit: number;
+  seededAt: string;
+};
