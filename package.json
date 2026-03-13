@@ -19,8 +19,8 @@
 
     "seed:images": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCarImages.ts",
     "seed:brands": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importBrands.ts",
-    "seed:garage-levels": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importGarageLevelsFirebase.ts",
-    "seed:legend-store": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importLegendStoreFirebase.ts",
+    "seed:garage-levels": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importGarageLevels.ts",
+    "seed:legend-store": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importLegendStore.ts",
 
     "seed:normalize": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Cars/seedNormalize.ts",
     "seed:normalize:apply": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Cars/seedNormalize.ts --apply",

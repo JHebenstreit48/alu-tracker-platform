@@ -1,0 +1,56 @@
+[
+  {
+    "Class": "C",
+    "Brand": "Arrinera",
+    "Model": "Hussarya 33",
+    "GarageLevel": 14,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [120000, 180000, 240000, 300000, 360000]
+  },
+  {
+    "Class": "C",
+    "Brand": "McLaren",
+    "Model": "GT",
+    "GarageLevel": 46,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [120000, 180000, 240000, 300000, 360000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Vencer",
+    "Model": "Sarthe",
+    "GarageLevel": 11,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [120000, 180000, 240000, 300000, 360000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Chevrolet",
+    "Model": "Corvette Stingray",
+    "GarageLevel": 25,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [120000, 180000, 240000, 300000, 360000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Lamborghini",
+    "Model": "Diablo GT",
+    "GarageLevel": 26,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [120000, 180000, 240000, 300000, 360000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Bentley",
+    "Model": "Mulliner Bacalar",
+    "GarageLevel": 47,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "BlueprintPrices": [120000, 180000, 240000, 300000, 360000]
+  }
+]

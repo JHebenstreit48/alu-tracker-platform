@@ -1,0 +1,92 @@
+[
+  {
+    "Class": "C",
+    "Brand": "Saleen",
+    "Model": "S1",
+    "GarageLevel": 24,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Dodge",
+    "Model": "Viper ACR",
+    "GarageLevel": 7,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Maserati",
+    "Model": "Alfieri",
+    "GarageLevel": 11,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Bolwell",
+    "Model": "MK X Nagari 500",
+    "GarageLevel": 43,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Artega",
+    "Model": "Scalo Superelletra",
+    "GarageLevel": 7,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Pininfarina",
+    "Model": "H2 Speed",
+    "GarageLevel": 8,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Acura",
+    "Model": "2017 NSX",
+    "GarageLevel": 10,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Ford",
+    "Model": "Shelby GR-1",
+    "GarageLevel": 42,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Aston Martin",
+    "Model": "V12 Speedster",
+    "GarageLevel": 42,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [54000, 81000, 108000, 135000, 162000]
+  },
+  {
+    "Class": "C",
+    "Brand": "Ferrari",
+    "Model": "Monza SP1",
+    "GarageLevel": 45,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [120000, 180000, 240000, 300000, 360000]
+  }
+]

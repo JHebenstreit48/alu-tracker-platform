@@ -1,0 +1,12 @@
+[
+  {
+    "Class": "C",
+    "Brand": "Ford",
+    "Model": "Shelby GR-1",
+    "GarageLevel": 42,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "TradeCoinCost": 500,
+    "DailyLimit": 1
+  }
+]
