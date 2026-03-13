@@ -1,0 +1,56 @@
+[
+  {
+    "Class": "A",
+    "Brand": "Nissan",
+    "Model": "GT-R Nismo",
+    "GarageLevel": 8,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [57000, 86000, 115000, 144000, 173000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Aston Martin",
+    "Model": "Vulcan",
+    "GarageLevel": 7,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [57000, 86000, 115000, 144000, 173000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Dodge",
+    "Model": "Viper GTS",
+    "GarageLevel": 9,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [57000, 86000, 115000, 144000, 173000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Ferrari",
+    "Model": "J50",
+    "GarageLevel": 9,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [57000, 86000, 115000, 144000, 173000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Nio",
+    "Model": "EP9",
+    "GarageLevel": 43,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [57000, 86000, 115000, 144000, 173000]
+  },
+  {
+    "Class": "A",
+    "Brand": "Bentley",
+    "Model": "Continental GT Speed",
+    "GarageLevel": 44,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "BlueprintPrices": [57000, 86000, 115000, 144000, 173000]
+  }
+]

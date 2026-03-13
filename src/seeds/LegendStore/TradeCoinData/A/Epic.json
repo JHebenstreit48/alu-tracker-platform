@@ -1,0 +1,12 @@
+[
+  {
+    "Class": "A",
+    "Brand": "Ferrari",
+    "Model": "812 Superfast",
+    "GarageLevel": 28,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "TradeCoinCost": 1600,
+    "DailyLimit": 1
+  }
+]

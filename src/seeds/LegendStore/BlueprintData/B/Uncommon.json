@@ -1,0 +1,29 @@
+[
+  {
+    "Class": "B",
+    "Brand": "Exotic Rides",
+    "Model": "W70",
+    "GarageLevel": 6,
+    "StarRank": 3,
+    "CarRarity": "Uncommon",
+    "BlueprintPrices": [18000, 27000, 36000, 45000, 54000]
+  },
+  {
+    "Class": "B",
+    "Brand": "Aston Martin",
+    "Model": "DB11",
+    "GarageLevel": 5,
+    "StarRank": 3,
+    "CarRarity": "Uncommon",
+    "BlueprintPrices": [18000, 27000, 36000, 45000, 54000]
+  },
+  {
+    "Class": "B",
+    "Brand": "Porsche",
+    "Model": "911 GTS Coupe",
+    "GarageLevel": 4,
+    "StarRank": 3,
+    "CarRarity": "Uncommon",
+    "BlueprintPrices": [18000, 27000, 36000, 45000, 54000]
+  }
+]
