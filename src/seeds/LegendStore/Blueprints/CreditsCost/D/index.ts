@@ -1,5 +1,5 @@
-import uncommon from '@/seeds/LegendStore/BlueprintData/D/Uncommon.json';
-import rare from '@/seeds/LegendStore/BlueprintData/D/Rare.json';
+import uncommon from '@/seeds/LegendStore/Blueprints/CreditsCost/D/Uncommon.json';
+import rare from '@/seeds/LegendStore/Blueprints/CreditsCost/D/Rare.json';
 
 // Only import Epic if/when Class D gets Epic cars
 // import epic from './Epic.json';

@@ -16,27 +16,28 @@ export type BlueprintDoc = {
   StarRank: number;
   CarRarity: string;
   BlueprintPrices: number[];
+  seededAt: string;
 };
 
-// Uncomment and fill in once Trade Coin data structure is confirmed
-// export type TradeCoinSeed = {
-//   Class: string;
-//   Brand: string;
-//   Model: string;
-//   GarageLevel?: number | null;
-//   StarRank: number;
-//   CarRarity: string;
-//   TradeCoinCost: number;
-//   DailyLimit: number;        // always 1 for now
-// };
+export type TradeCoinSeed = {
+  Class: string;
+  Brand: string;
+  Model: string;
+  GarageLevel?: number | null;
+  StarRank: number;
+  CarRarity: string;
+  TradeCoinCost: number;
+  DailyLimit: number;
+};
 
-// export type TradeCoinDoc = {
-//   Class: string;
-//   Brand: string;
-//   Model: string;
-//   GarageLevel?: number;
-//   StarRank: number;
-//   CarRarity: string;
-//   TradeCoinCost: number;
-//   DailyLimit: number;
-// };
+export type TradeCoinDoc = {
+  Class: string;
+  Brand: string;
+  Model: string;
+  GarageLevel?: number;
+  StarRank: number;
+  CarRarity: string;
+  TradeCoinCost: number;
+  DailyLimit: number;
+  seededAt: string;
+};

@@ -1,4 +1,9 @@
-import type { BlueprintSeed, BlueprintDoc } from "./seedTypes";
+import type {
+  BlueprintSeed,
+  BlueprintDoc,
+  TradeCoinSeed,
+  TradeCoinDoc,
+} from "./seedTypes";
 
 const normalize = (s: string): string =>
   s
@@ -36,6 +41,42 @@ export function toBlueprintDoc(seed: BlueprintSeed): {
     StarRank,
     CarRarity: String(seed.CarRarity).trim(),
     BlueprintPrices,
+    seededAt: new Date().toISOString(),
+  };
+
+  if (seed.GarageLevel != null) {
+    doc.GarageLevel = Number(seed.GarageLevel);
+  }
+
+  return { id, doc };
+}
+
+export function toTradeCoinDoc(seed: TradeCoinSeed): {
+  id: string;
+  doc: TradeCoinDoc;
+} {
+  const Class = String(seed.Class).trim();
+  const Brand = String(seed.Brand).trim();
+  const Model = String(seed.Model).trim();
+  const StarRank = Number(seed.StarRank);
+
+  const id = [
+    "ls_tc",
+    Class || "x",
+    normalize(Brand),
+    normalize(Model),
+    StarRank || 0,
+  ].join("_");
+
+  const doc: TradeCoinDoc = {
+    Class,
+    Brand,
+    Model,
+    StarRank,
+    CarRarity: String(seed.CarRarity).trim(),
+    TradeCoinCost: Number(seed.TradeCoinCost),
+    DailyLimit: Number(seed.DailyLimit ?? 1),
+    seededAt: new Date().toISOString(),
   };
 
   if (seed.GarageLevel != null) {

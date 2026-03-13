@@ -6,12 +6,11 @@ export const BLUEPRINT_ROOT_DIR = path.resolve(
   "src/seeds/LegendStore/BlueprintData"
 );
 
-// Keeping old name as alias so importLegendStore.ts doesn't break yet
 export const ROOT_DIR = BLUEPRINT_ROOT_DIR;
 
 export const TRADE_COIN_ROOT_DIR = path.resolve(
   process.cwd(),
-  "src/seeds/LegendStore/TradeCoinsData"
+  "src/seeds/LegendStore/TradeCoinData"  // removed the 's'
 );
 
 export const logLegendStoreConfig = (): void => {
