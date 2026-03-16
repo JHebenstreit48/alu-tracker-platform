@@ -1,0 +1,13 @@
+[
+  {
+    "Class": "A",
+    "Brand": "Aston Martin",
+    "Model": "Victor",
+    "GarageLevel": 34,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 10000,
+    "DailyLimit": 1
+  }
+]

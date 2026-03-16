@@ -49,6 +49,7 @@ export type ImportSeed = {
   GarageLevel?: number | null;
   StarRank: number;
   CarRarity: string;
+  ImportRarity: string;
   TradeCoinCost: number;
   DailyLimit: number;
 };
@@ -60,6 +61,7 @@ export type ImportDoc = {
   GarageLevel?: number;
   StarRank: number;
   CarRarity: string;
+  ImportRarity: string;
   TradeCoinCost: number;
   DailyLimit: number;
   seededAt: string;

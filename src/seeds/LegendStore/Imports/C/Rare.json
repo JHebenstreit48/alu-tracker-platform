@@ -1,0 +1,13 @@
+[
+    {
+        "Class": "C",
+        "Brand": "Maserati",
+        "Model": "Alfieri",
+        "GarageLevel": 11,
+        "StarRank": 4,
+        "CarRarity": "Rare",
+        "ImportRarity": "Epic",
+        "TradeCoinCost": 6000,
+        "DailyLimit": 1
+    }
+]

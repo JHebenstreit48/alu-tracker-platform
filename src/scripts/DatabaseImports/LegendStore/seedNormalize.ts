@@ -111,6 +111,7 @@ export function toImportDoc(seed: ImportSeed): {
     Model,
     StarRank,
     CarRarity: String(seed.CarRarity).trim(),
+    ImportRarity: String(seed.ImportRarity).trim(),
     TradeCoinCost: Number(seed.TradeCoinCost),
     DailyLimit: Number(seed.DailyLimit ?? 1),
     seededAt: new Date().toISOString(),

@@ -1,0 +1,20 @@
+{
+  "brand": "Raesr",
+  "slug": "raesr",
+  "description": "placeholder",
+  "logo": "placeholder",
+  "country": ["USA"],
+  "established": 2014,
+  "headquarters": "Los Angeles, California",
+  "primaryMarket": "USA",
+  "location": {
+    "lat": 34.052235,
+    "lng": -118.243683
+  },
+  "resources": [
+    {
+      "text": "LatLong.net",
+      "url": "https://www.latlong.net/place/los-angeles-ca-usa-1531.html"
+    }
+  ]
+}
