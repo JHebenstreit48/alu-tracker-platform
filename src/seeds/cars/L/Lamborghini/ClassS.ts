@@ -1,4 +1,4 @@
-import sianFKP37 from '@/seeds/cars/L/Lamborghini/S/sianFKP37.json';
+import sianFKP37 from '@/seeds/cars/L/Lamborghini/S/SianFkp37';
 import terzoMillennio from '@/seeds/cars/L/Lamborghini/S/terzoMillennio.json';
 import egoista from '@/seeds/cars/L/Lamborghini/S/egoista.json';
 import veneno from '@/seeds/cars/L/Lamborghini/S/veneno.json';

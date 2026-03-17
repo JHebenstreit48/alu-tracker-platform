@@ -8,9 +8,7 @@
   "stars": 6,
   "country": "Italy",
   "epics": 16,
-  "obtainableVia": [
-    "Exclusive"
-  ],
+  "obtainableVia": ["Exclusive"],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -20,16 +18,7 @@
   "blueprints4Star": 25,
   "blueprints5Star": 38,
   "blueprints6Star": 48,
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Garage_Lvl": null,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
   "Tags": "Electric; Europe; Hyper",
-  "Unnamed: 16": "381,1",
-  "Total_BPs": 200,
-  "Unnamed: 32": 54213,
-  "Cost epic": 15000,
   "gold": {
     "gold": {
       "rank": 4213,

@@ -4,13 +4,15 @@
   "class": "S",
   "brand": "Lamborghini",
   "model": "Sián FKP 37",
+  "normalizedKey": "lamborghini_sian_fkp_37",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI", "Reddit users Google Sheets document"],
   "rarity": "Epic",
   "stars": 6,
   "country": "Italy",
   "epics": 16,
-  "obtainableVia": [
-    "Showroom"
-  ],
+  "obtainableVia": ["Showroom", "Garage Level 60"],
   "added": "Lamborghini Season",
   "addedWith": "SE",
   "addedDate": "05/05/2020",
@@ -20,23 +22,5 @@
   "blueprints4Star": 38,
   "blueprints5Star": 54,
   "blueprints6Star": 69,
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Garage_Lvl": 60,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": "393,0",
-  "Tags": "Europe",
-  "Unnamed: 16": "382,8",
-  "Total_BPs": 300,
-  "Unnamed: 32": 54685,
-  "Cost epic": 0,
-  "gold": {
-    "gold": {
-      "rank": 4685,
-      "topSpeed": 368.1,
-      "acceleration": 82.1,
-      "handling": 92.35,
-      "nitro": 81.18
-    }
-  }
+  "Tags": "Europe"
 }
