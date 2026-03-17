@@ -1,0 +1,20 @@
+{
+  "id": 1,
+  "image": "/images/cars/H/HTT/locusplethorelc750.jpg",
+  "class": "S",
+  "brand": "HTT",
+  "model": "Locus Pléthore LC750",
+  "normalizedKey": "htt_locus_plethore_lc750",
+  "status": "in progress",
+  "message": "Still adding data",
+  "rarity": "Epic",
+  "stars": 6,
+  "country": "Canada",
+  "epics": 16,
+  "blueprints1Star": 85,
+  "blueprints2Star": 25,
+  "blueprints3Star": 29,
+  "blueprints4Star": 38,
+  "blueprints5Star": 54,
+  "blueprints6Star": 69
+}
