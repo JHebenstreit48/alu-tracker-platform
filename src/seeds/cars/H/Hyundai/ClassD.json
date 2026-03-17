@@ -1,28 +1,12 @@
 {
-  "id": 1,
-  "image": "/images/cars/H/Hyundai/ioniq5n.jpg",
-  "class": "D",
-  "brand": "Hyundai",
-  "model": "Ioniq 5 N",
-  "rarity": "Rare",
-  "stars": 4,
-  "country": "Japan",
   "stock": {
     "stock": {
-      "rank": 1034,
-      "topSpeed": 260,
-      "acceleration": 70.03,
-      "handling": 41.28,
-      "nitro": 18.03
+      
     }
   },
   "gold": {
     "gold": {
-      "rank": 2559,
-      "topSpeed": 275.9,
-      "acceleration": 88.63,
-      "handling": 80.51,
-      "nitro": 63.38
+      
     }
   }
 }

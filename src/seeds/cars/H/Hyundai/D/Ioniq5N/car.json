@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "image": "/images/cars/H/Hyundai/ioniq5n.jpg",
+  "class": "D",
+  "brand": "Hyundai",
+  "model": "Ioniq 5 N",
+  "normalizedKey": "hyundai_ioniq_5_n",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
+  "rarity": "Rare",
+  "stars": 4,
+  "country": "South Korea",
+  "blueprints1Star": 15,
+  "blueprints2Star": 25,
+  "blueprints3Star": 35,
+  "blueprints4Star": 50
+}
