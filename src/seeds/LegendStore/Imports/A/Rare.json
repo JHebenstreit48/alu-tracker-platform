@@ -1,0 +1,13 @@
+[
+  {
+    "Class": "A",
+    "Brand": "Nissan",
+    "Model": "GT-R Nismo",
+    "GarageLevel": 8,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 10000,
+    "DailyLimit": 1
+  }
+]

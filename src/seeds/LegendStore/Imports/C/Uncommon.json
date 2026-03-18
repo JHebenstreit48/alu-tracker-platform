@@ -1,0 +1,24 @@
+[
+  {
+    "Class": "C",
+    "Brand": "BMW",
+    "Model": "M4 GTS",
+    "GarageLevel": 6,
+    "StarRank": 3,
+    "CarRarity": "Uncommon",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 6000,
+    "DailyLimit": 1
+  },
+  {
+    "Class": "C",
+    "Brand": "Lotus",
+    "Model": "Evora Sport 410",
+    "GarageLevel": 3,
+    "StarRank": 3,
+    "CarRarity": "Uncommon",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 6000,
+    "DailyLimit": 1
+  }
+]

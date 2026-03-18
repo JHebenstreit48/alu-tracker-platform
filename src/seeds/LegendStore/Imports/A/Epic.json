@@ -9,5 +9,27 @@
     "ImportRarity": "Epic",
     "TradeCoinCost": 10000,
     "DailyLimit": 1
+  },
+  {
+    "Class": "A",
+    "Brand": "Ferrari",
+    "Model": "LaFerrari Aperta",
+    "GarageLevel": 19,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 10000,
+    "DailyLimit": 1
+  },
+  {
+    "Class": "A",
+    "Brand": "Ferrari",
+    "Model": "LaFerrari",
+    "GarageLevel": 10,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 10000,
+    "DailyLimit": 1
   }
 ]

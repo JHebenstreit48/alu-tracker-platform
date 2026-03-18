@@ -4,13 +4,14 @@
   "class": "C",
   "brand": "Ford",
   "model": "Shelby GR-1",
+  "normalizedKey": "ford_shelby_gr_1",
+  "status": "in progress",
+  "message": "Still adding data",
   "rarity": "Rare",
   "stars": 4,
   "country": "USA",
   "epics": 4,
-  "obtainableVia": [
-    "TC"
-  ],
+  "obtainableVia": ["Trade Credits", "Garage Level 42"],
   "added": "Godly Beasts",
   "addedWith": "DS",
   "addedDate": "10/12/2019",
@@ -18,13 +19,6 @@
   "blueprints2Star": 29,
   "blueprints3Star": 38,
   "blueprints4Star": 48,
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Garage_Lvl": 42,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": null,
-  "Unnamed: 16": "334,6",
   "gold": {
     "gold": {
       "rank": 2909,

@@ -1,13 +1,24 @@
 [
-    {
-        "Class": "C",
-        "Brand": "Maserati",
-        "Model": "Alfieri",
-        "GarageLevel": 11,
-        "StarRank": 4,
-        "CarRarity": "Rare",
-        "ImportRarity": "Epic",
-        "TradeCoinCost": 6000,
-        "DailyLimit": 1
-    }
+  {
+    "Class": "C",
+    "Brand": "Maserati",
+    "Model": "Alfieri",
+    "GarageLevel": 11,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 6000,
+    "DailyLimit": 1
+  },
+  {
+    "Class": "C",
+    "Brand": "Ford",
+    "Model": "Shelby GR-1",
+    "GarageLevel": 11,
+    "StarRank": 4,
+    "CarRarity": "Rare",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 6000,
+    "DailyLimit": 1
+  }
 ]

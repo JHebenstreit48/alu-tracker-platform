@@ -8,5 +8,15 @@
     "CarRarity": "Epic",
     "TradeCoinCost": 1600,
     "DailyLimit": 1
+  },
+  {
+    "Class": "A",
+    "Brand": "Lamborghini",
+    "Model": "Aventador SVJ Roadster",
+    "GarageLevel": 31,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "TradeCoinCost": 2700,
+    "DailyLimit": 1
   }
 ]

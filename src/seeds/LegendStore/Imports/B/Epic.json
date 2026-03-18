@@ -1,13 +1,16 @@
 [
   {
     "Class": "B",
-    "Brand": "Exotic Rides",
-    "Model": "W70",
-    "GarageLevel": 6,
-    "StarRank": 3,
-    "CarRarity": "Uncommon",
+    "Brand": "Aston Martin",
+    "Model": "Vantage GT12",
+    "GarageLevel": 15,
+    "StarRank": 6,
+    "CarRarity": "Epic",
     "ImportRarity": "Epic",
     "TradeCoinCost": 8000,
     "DailyLimit": 1
+  },
+  {
+
   }
 ]
