@@ -20,14 +20,5 @@
   "blueprints3Star": 23,
   "blueprints4Star": 32,
   "blueprints5Star": 45,
-  "Tags": "Europe",
-  "gold": {
-    "gold": {
-      "rank": 3946,
-      "topSpeed": 337.8,
-      "acceleration": 78.26,
-      "handling": 86.85,
-      "nitro": 80.46
-    }
-  }
+  "Tags": "Europe"
 }
