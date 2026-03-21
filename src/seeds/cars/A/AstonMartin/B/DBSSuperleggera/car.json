@@ -4,15 +4,15 @@
   "class": "B",
   "brand": "Aston Martin",
   "model": "DBS Superleggera",
+  "normalizedKey": "aston_martin_dbs_superleggera",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 5,
   "country": "UK",
   "epics": 8,
-  "obtainableVia": [
-    "Garage Level 16",
-    "Multiplayer",
-    "Starway"
-  ],
+  "obtainableVia": ["Garage Level 16", "Multiplayer", "Starway"],
   "added": "King of the Fall",
   "addedWith": null,
   "addedDate": "15/10/2019",
@@ -21,20 +21,5 @@
   "blueprints3Star": 23,
   "blueprints4Star": 32,
   "blueprints5Star": 45,
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Garage_Lvl": 16,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": "Europe",
-  "Unnamed: 16": "369,6",
-  "gold": {
-    "gold": {
-      "rank": 4059,
-      "topSpeed": 355.4,
-      "acceleration": 79.16,
-      "handling": 70.74,
-      "nitro": 73.88
-    }
-  }
+  "Tags": "Europe"
 }
