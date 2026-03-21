@@ -1,4 +1,4 @@
-import one77 from '@/seeds/cars/A/AstonMartin/B/one77.json';
+import one77 from '@/seeds/cars/A/AstonMartin/B/One77';
 import dbsSuperleggera from '@/seeds/cars/A/AstonMartin/B/DBSSuperleggera';
 import db11 from '@/seeds/cars/A/AstonMartin/B/DB11';
 import vantageGt12 from '@/seeds/cars/A/AstonMartin/B/VantageGT12';

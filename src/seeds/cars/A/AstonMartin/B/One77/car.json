@@ -4,11 +4,15 @@
   "class": "B",
   "brand": "Aston Martin",
   "model": "One77",
+  "normalizedKey": "aston_martin_one77",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 5,
   "country": "UK",
   "epics": 8,
-  "obtainableVia": null,
+  "obtainableVia": ["Garage Level 29"],
   "added": "British Tour",
   "addedWith": "LP car",
   "addedDate": "07/02/2022",
@@ -17,20 +21,5 @@
   "blueprints3Star": 23,
   "blueprints4Star": 32,
   "blueprints5Star": 45,
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Garage_Lvl": 29,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": "Europe; Super Car",
-  "Unnamed: 16": "378,0",
-  "gold": {
-    "gold": {
-      "rank": 4022,
-      "topSpeed": 363.5,
-      "acceleration": 79.34,
-      "handling": 68.7,
-      "nitro": 56.61
-    }
-  }
+  "Tags": "Europe; Super Car"
 }
