@@ -1,4 +1,4 @@
-import importDeltas from '@/seeds/cars/F/Ferrari/A/812Superfast/deltas/imports';
-import stageDeltas from '@/seeds/cars/F/Ferrari/A/812Superfast/deltas/stages';
+import importDeltas from '@/seeds/cars/T/Toyota/B/GRSuperSportConcept/deltas/imports';
+import stageDeltas from '@/seeds/cars/T/Toyota/B/GRSuperSportConcept/deltas/stages';
 
 export default { ...importDeltas, ...stageDeltas };
