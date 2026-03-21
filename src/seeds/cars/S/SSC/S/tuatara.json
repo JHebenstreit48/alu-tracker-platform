@@ -7,9 +7,7 @@
   "normalizedKey": "ssc_tuatara",
   "status": "in progress",
   "message": "temporarily complete",
-  "sources": [
-    "MEI"
-  ],
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,

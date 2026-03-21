@@ -7,16 +7,11 @@
   "normalizedKey": "ssc_ultimate_aero_tt",
   "status": "in progress",
   "message": "still missing data",
-  "sources": [
-    "Asphalt Wiki",
-    "My own research"
-  ],
+  "sources": ["Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
   "country": "USA",
-  "obtainableVia": [
-    "Racing Around the World (Sonic the Hedgehog themed Special Event)"
-  ],
+  "obtainableVia": ["Racing Around the World (Sonic the Hedgehog themed Special Event)"],
   "addedWith": "Pinnacle of Speed Season",
   "blueprints1Star": 35,
   "blueprints2Star": 40,

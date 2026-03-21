@@ -1,3 +1,3 @@
-import slrMclaren from '@/seeds/cars/M/MercedesBenz/B/slrMclaren.json';
+import slrMclaren from '@/seeds/cars/M/MercedesBenz/B/SLRMcLaren';
 
 export default [slrMclaren];

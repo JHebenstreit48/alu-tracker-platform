@@ -1,3 +1,3 @@
-import auroraAgil from '@/seeds/cars/Z/Zenvo/A/auroraAgil.json';
+import auroraAgil from '@/seeds/cars/Z/Zenvo/A/AuroraAgil';
 
 export default [auroraAgil];

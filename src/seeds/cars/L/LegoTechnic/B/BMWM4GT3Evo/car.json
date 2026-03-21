@@ -1,0 +1,19 @@
+{
+  "id": 3,
+  "image": "/images/cars/L/LegoTechnic/bmwm4gt3evo.jpg",
+  "class": "B",
+  "brand": "LEGO Technic",
+  "model": "BMW M4 GT3 Evo",
+  "normalizedKey": "lego_technic_bmw_m4_gt3_evo",
+  "status": "in progress",
+  "message": "Still adding data.",
+  "sources": ["My own in-game research"],
+  "rarity": "Epic",
+  "stars": 5,
+  "country": "Germany",
+  "blueprints1Star": 25,
+  "blueprints2Star": 30,
+  "blueprints3Star": 35,
+  "blueprints4Star": 40,
+  "blueprints5Star": 50
+}

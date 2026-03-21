@@ -7,9 +7,7 @@
   "normalizedKey": "lego_technic_lamborghini_revuelto",
   "status": "still missing data",
   "message": "Cannot find data on this car in any source yet.",
-  "sources": [
-    ""
-  ],
+  "sources": [""],
   "rarity": "Epic",
   "stars": 6,
   "blueprints1Star": "Unknown",

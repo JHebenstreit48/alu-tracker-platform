@@ -1,3 +1,3 @@
-import bugattiChironPurSport from '@/seeds/cars/L/LegoTechnic/S/bugattiChironPurSport.json';
+import bugattiChironPurSport from '@/seeds/cars/L/LegoTechnic/S/BugattiChironPurSport';
 
 export default [bugattiChironPurSport]
