@@ -1,3 +1,3 @@
-import guiliaGtaM from '@/seeds/cars/A/AlfaRomeo/D/guiliaGtaM.json';
+import guiliaGtaM from '@/seeds/cars/A/AlfaRomeo/D/GuiliaGTAM';
 
 export default [guiliaGtaM];
