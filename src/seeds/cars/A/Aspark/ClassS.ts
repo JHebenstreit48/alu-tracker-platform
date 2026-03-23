@@ -1,1 +1,3 @@
-import owl from '@/seeds/cars/A/Aspark/S/owl.json';
+import owl from '@/seeds/cars/A/Aspark/S/Owl';
+
+export default  [owl];

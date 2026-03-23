@@ -1,0 +1,26 @@
+{
+  "id": 1,
+  "image": "/images/cars/B/Bentley/continentalgt3.jpg",
+  "class": "D",
+  "brand": "Bentley",
+  "model": "Continental GT3",
+  "normalizedKey": "bentley_continental_gt3",
+  "status": "in progress",
+  "message": "Still adding data",
+  "rarity": "Rare",
+  "stars": 4,
+  "keyCar": true,
+  "country": "UK",
+  "epics": 4,
+  "obtainableVia": [
+    "Key Hunt"
+  ],
+  "added": "British Season",
+  "addedWith": "GP",
+  "addedDate": "27/08/2020",
+  "blueprints1Star": 0,
+  "blueprints2Star": 26,
+  "blueprints3Star": 38,
+  "blueprints4Star": 64,
+  "Tags": "Europe"
+}

@@ -1,0 +1,27 @@
+{
+  "id": 1,
+  "image": "/images/cars/B/Bentley/mullinerbacalar.jpg",
+  "class": "C",
+  "brand": "Bentley Mulliner",
+  "model": "Bacalar",
+  "normalizedKey": "bentley_mulliner_bacalar",
+  "status": "in progress",
+  "message": "Still adding data",
+  "rarity": "Epic",
+  "stars": 5,
+  "country": "UK",
+  "epics": 8,
+  "obtainableVia": [
+    "Garage Level 47",
+    "Drive Syndicate"
+  ],
+  "added": "British Season",
+  "addedWith": "LP car",
+  "addedDate": "27/08/2020",
+  "blueprints1Star": 35,
+  "blueprints2Star": 15,
+  "blueprints3Star": 21,
+  "blueprints4Star": 28,
+  "blueprints5Star": 35,
+  "Tags": "Europe"
+}

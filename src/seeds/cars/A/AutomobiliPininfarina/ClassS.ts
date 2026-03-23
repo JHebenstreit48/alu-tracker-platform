@@ -1,3 +1,3 @@
-import battista from '@/seeds/cars/A/AutomobiliPininfarina/S/battista.json';
+import battista from '@/seeds/cars/A/AutomobiliPininfarina/S/Battista';
 
 export default [battista];
