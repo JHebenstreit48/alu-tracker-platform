@@ -1,3 +1,3 @@
-import contintinentalGtSpeed from '@/seeds/cars/B/Bentley/A/continentalGtSpeed.json';
+import contintinentalGtSpeed from '@/seeds/cars/B/Bentley/A/ContinentalGtSpeed';
 
 export default [contintinentalGtSpeed];

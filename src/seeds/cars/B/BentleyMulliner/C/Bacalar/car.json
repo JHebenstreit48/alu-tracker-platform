@@ -11,10 +11,7 @@
   "stars": 5,
   "country": "UK",
   "epics": 8,
-  "obtainableVia": [
-    "Garage Level 47",
-    "Drive Syndicate"
-  ],
+  "obtainableVia": ["Garage Level 47", "Drive Syndicate"],
   "added": "British Season",
   "addedWith": "LP car",
   "addedDate": "27/08/2020",

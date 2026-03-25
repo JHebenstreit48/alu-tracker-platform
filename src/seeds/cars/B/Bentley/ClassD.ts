@@ -1,3 +1,3 @@
-import continentalGt3 from '@/seeds/cars/B/Bentley/D/continentalGt3.json';
+import continentalGt3 from '@/seeds/cars/B/Bentley/D/ContinentalGt3';
 
 export default [continentalGt3];

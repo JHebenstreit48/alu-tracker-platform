@@ -12,9 +12,7 @@
   "keyCar": true,
   "country": "UK",
   "epics": 4,
-  "obtainableVia": [
-    "Key Hunt"
-  ],
+  "obtainableVia": ["Key Hunt"],
   "added": "British Season",
   "addedWith": "GP",
   "addedDate": "27/08/2020",
