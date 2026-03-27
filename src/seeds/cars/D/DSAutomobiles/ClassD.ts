@@ -1,4 +1,4 @@
-import dsETense from '@/seeds/cars/D/DSAutomobiles/D/dsETense.json';
-import dsETensePerformance from '@/seeds/cars/D/DSAutomobiles/D/dsETensePerformance.json';
+import dsETense from '@/seeds/cars/D/DSAutomobiles/D/DSETense';
+import dsETensePerformance from '@/seeds/cars/D/DSAutomobiles/D/DSETensePerformance';
 
 export default [dsETense, dsETensePerformance];

@@ -1,6 +1,6 @@
-import creditCosts from '@/seeds/cars/F/Ferrari/A/812Superfast/upgrades/creditCosts.json';
-import garageLevelXp from '@/seeds/cars/F/Ferrari/A/812Superfast/upgrades/garageLevelXp.json';
-import imports from '@/seeds/cars/F/Ferrari/A/812Superfast/upgrades/imports';
-import progression from '@/seeds/cars/F/Ferrari/A/812Superfast/upgrades/progression.json';
+import creditCosts from '@/seeds/cars/L/LegoTechnic/S/BugattiChironPurSport/upgrades/creditCosts.json';
+import garageLevelXp from '@/seeds/cars/L/LegoTechnic/S/BugattiChironPurSport/upgrades/garageLevelXp.json';
+import imports from '@/seeds/cars/L/LegoTechnic/S/BugattiChironPurSport/upgrades/imports';
+import progression from '@/seeds/cars/L/LegoTechnic/S/BugattiChironPurSport/upgrades/progression.json';
 
 export default { creditCosts, garageLevelXp, ...imports, progression };

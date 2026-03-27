@@ -1,6 +1,6 @@
-import car from '@/seeds/cars/L/LEGOTechnic/A/ferrariFxxK/car.json';
-import stats from '@/seeds/cars/L/LEGOTechnic/A/ferrariFxxK/stats';
-import upgrades from '@/seeds/cars/L/LEGOTechnic/A/ferrariFxxK/upgrades';
-import deltas from '@/seeds/cars/L/LEGOTechnic/A/ferrariFxxK/deltas';
+import car from '@/seeds/cars/L/LegoTechnic/A/FerrariFXXK/car.json';
+import stats from '@/seeds/cars/L/LegoTechnic/A/FerrariFXXK/stats';
+import upgrades from '@/seeds/cars/L/LegoTechnic/A/FerrariFXXK/upgrades';
+import deltas from '@/seeds/cars/L/LegoTechnic/A/FerrariFXXK/deltas';
 
 export default {...car, ...stats, ...upgrades, ...deltas};

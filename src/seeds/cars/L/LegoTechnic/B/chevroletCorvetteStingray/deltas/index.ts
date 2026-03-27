@@ -1,4 +1,4 @@
-import importDeltas from "@/seeds/cars/L/LEGOTechnic/B/chevroletCorvetteStingray/deltas/imports";
-import stageDeltas from "@/seeds/cars/L/LEGOTechnic/B/chevroletCorvetteStingray/deltas/stages";
+import importDeltas from "@/seeds/cars/L/LegoTechnic/B/ChevroletCorvetteStingray/deltas/imports";
+import stageDeltas from "@/seeds/cars/L/LegoTechnic/B/ChevroletCorvetteStingray/deltas/stages";
 
 export default { ...importDeltas, ...stageDeltas };

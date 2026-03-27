@@ -1,6 +1,6 @@
-import car from '@/seeds/cars/L/LEGOTechnic/A/mclarenSennaGtr/car.json';
-import stats from '@/seeds/cars/L/LEGOTechnic/A/mclarenSennaGtr/stats';
-import upgrades from '@/seeds/cars/L/LEGOTechnic/A/mclarenSennaGtr/upgrades';
-import deltas from '@/seeds/cars/L/LEGOTechnic/A/mclarenSennaGtr/deltas';
+import car from '@/seeds/cars/L/LegoTechnic/A/MclarenSennaGTR/car.json';
+import stats from '@/seeds/cars/L/LegoTechnic/A/MclarenSennaGTR/stats';
+import upgrades from '@/seeds/cars/L/LegoTechnic/A/MclarenSennaGTR/upgrades';
+import deltas from '@/seeds/cars/L/LegoTechnic/A/MclarenSennaGTR/deltas';
 
 export default {...car, ...stats, ...upgrades, ...deltas};

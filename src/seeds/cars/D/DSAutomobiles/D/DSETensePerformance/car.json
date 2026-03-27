@@ -1,0 +1,20 @@
+{
+  "id": 2,
+  "image": "/images/cars/D/DSAutomobiles/dsetenseperformance.webp",
+  "class": "D",
+  "brand": "DS Automobiles",
+  "model": "DS E-Tense Performance",
+  "normalizedKey": "ds_automobiles_ds_e_tense_performance",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
+  "rarity": "Epic",
+  "stars": 5,
+  "keyCar": true,
+  "country": "France",
+  "blueprints1Star": 0,
+  "blueprints2Star": 22,
+  "blueprints3Star": 30,
+  "blueprints4Star": 35,
+  "blueprints5Star": 38
+}
