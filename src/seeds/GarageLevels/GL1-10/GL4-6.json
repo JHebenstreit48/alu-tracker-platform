@@ -6,22 +6,22 @@
       {
         "brand": "Mercedes-Benz",
         "model": "AMG GT S",
-        "image": "/images/cars/M/MercedesBenz/amggts.jpg"
+        "image": "/images/cars/M/MercedesBenz/amggts.webp"
       },
       {
         "brand": "Porsche",
         "model": "718 Cayman",
-        "image": "/images/cars/P/Porsche/718cayman.jpg"
+        "image": "/images/cars/P/Porsche/718cayman.webp"
       },
       {
         "brand": "Porsche",
         "model": "911 GTS Coupé",
-        "image": "/images/cars/P/Porsche/911gtscoupe.jpg"
+        "image": "/images/cars/P/Porsche/911gtscoupe.webp"
       },
       {
         "brand": "Ginetta",
         "model": "G60",
-        "image": "/images/cars/G/Ginetta/g60.jpg"
+        "image": "/images/cars/G/Ginetta/g60.webp"
       }
     ]
   },
@@ -32,22 +32,22 @@
       {
         "brand": "Jaguar",
         "model": "F-Type SVR",
-        "image": "/images/cars/J/Jaguar/ftypesvr.jpg"
+        "image": "/images/cars/J/Jaguar/ftypesvr.webp"
       },
       {
         "brand": "Aston Martin",
         "model": "DB11",
-        "image": "/images/cars/A/AstonMartin/db11.jpg"
+        "image": "/images/cars/A/AstonMartin/db11.webp"
       },
       {
         "brand": "Lotus",
         "model": "Elise Sprint 220",
-        "image": "/images/cars/L/Lotus/elisesprint220.jpg"
+        "image": "/images/cars/L/Lotus/elisesprint220.webp"
       },
       {
         "brand": "TVR",
         "model": "Griffith",
-        "image": "/images/cars/T/TVR/griffith.jpg"
+        "image": "/images/cars/T/TVR/griffith.webp"
       }
     ]
   },
@@ -58,22 +58,22 @@
       {
         "brand": "BMW",
         "model": "M4 GTS",
-        "image": "/images/cars/B/BMW/m4gts.jpg"
+        "image": "/images/cars/B/BMW/m4gts.webp"
       },
       {
         "brand": "Exotic Rides",
         "model": "W70",
-        "image": "/images/cars/E/ExoticRides/w70.jpg"
+        "image": "/images/cars/E/ExoticRides/w70.webp"
       },
       {
         "brand": "Ford",
         "model": "Shelby GT350R",
-        "image": "/images/cars/F/Ford/shelbygt350r.jpg"
+        "image": "/images/cars/F/Ford/shelbygt350r.webp"
       },
       {
         "brand": "Mazda",
         "model": "Furai",
-        "image": "/images/cars/M/Mazda/furai.jpg"
+        "image": "/images/cars/M/Mazda/furai.webp"
       }
     ]
   }

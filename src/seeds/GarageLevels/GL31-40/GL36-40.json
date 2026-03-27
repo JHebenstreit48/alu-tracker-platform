@@ -6,7 +6,7 @@
       {
         "brand": "Lamborghini",
         "model": "Terzo Millennio",
-        "image": "/images/cars/L/Lamborghini/terzomillennio.jpg"
+        "image": "/images/cars/L/Lamborghini/terzomillennio.webp"
       }
     ]
   },
@@ -17,7 +17,7 @@
       {
         "brand": "Vision",
         "model": "1789",
-        "image": "/images/cars/V/Vision/1789.jpg"
+        "image": "/images/cars/V/Vision/1789.webp"
       }
     ]
   },

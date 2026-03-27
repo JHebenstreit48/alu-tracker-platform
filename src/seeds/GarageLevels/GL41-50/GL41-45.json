@@ -6,12 +6,12 @@
       {
         "brand": "Italdesign",
         "model": "DaVinci",
-        "image": "/images/cars/I/Italdesign/davinci.jpg"
+        "image": "/images/cars/I/Italdesign/davinci.webp"
       },
       {
         "brand": "Renault",
         "model": "Trezor",
-        "image": "/images/cars/R/Renault/trezor.jpg"
+        "image": "/images/cars/R/Renault/trezor.webp"
       }
     ]
   },
@@ -22,12 +22,12 @@
       {
         "brand": "Ford",
         "model": "Shelby GR-1",
-        "image": "/images/cars/F/Ford/shelbygr1.jpg"
+        "image": "/images/cars/F/Ford/shelbygr1.webp"
       },
       {
         "brand": "Aston Martin",
         "model": "V12 Speedster",
-        "image": "/images/cars/A/AstonMartin/v12speedster.jpg"
+        "image": "/images/cars/A/AstonMartin/v12speedster.webp"
       }
     ]
   },
@@ -38,12 +38,12 @@
       {
         "brand": "Nio",
         "model": "EP9",
-        "image": "/images/cars/N/Nio/ep9.jpg"
+        "image": "/images/cars/N/Nio/ep9.webp"
       },
       {
         "brand": "Bolwell",
         "model": "MK X Nagari 500",
-        "image": "/images/cars/B/Bolwell/mkxnagari500.jpg"
+        "image": "/images/cars/B/Bolwell/mkxnagari500.webp"
       }
     ]
   },
@@ -54,12 +54,12 @@
       {
         "brand": "Porsche",
         "model": "911 GT1 Evolution",
-        "image": "/images/cars/P/Porsche/911gt1evolution.jpg"
+        "image": "/images/cars/P/Porsche/911gt1evolution.webp"
       },
       {
         "brand": "Bentley",
         "model": "Continental GT Speed",
-        "image": "/images/cars/B/Bentley/continentalgtspeed.jpg"
+        "image": "/images/cars/B/Bentley/continentalgtspeed.webp"
       }
     ]
   },
@@ -70,12 +70,12 @@
       {
         "brand": "Arash",
         "model": "AF10",
-        "image": "/images/cars/A/Arash/af10.jpg"
+        "image": "/images/cars/A/Arash/af10.webp"
       },
       {
         "brand": "Ferrari",
         "model": "Monza SP1",
-        "image": "/images/cars/F/Ferrari/monzasp1.jpg"
+        "image": "/images/cars/F/Ferrari/monzasp1.webp"
       }
     ]
   }

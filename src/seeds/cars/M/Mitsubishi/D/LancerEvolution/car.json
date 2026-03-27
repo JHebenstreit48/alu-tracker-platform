@@ -1,6 +1,6 @@
 {
   "id": 1,
-  "image": "/images/cars/M/Mitsubishi/lancerevolution.jpg",
+  "image": "/images/cars/M/Mitsubishi/lancerevolution.webp",
   "class": "D",
   "brand": "Mitsubishi",
   "model": "Lancer Evolution",
@@ -18,6 +18,6 @@
   "blueprints2Star": 8,
   "blueprints3Star": 30,
   "Tags": "Asia",
-  "Added_with": "Starter car",
+  "addedWith": "Starter car",
   "Added_date": "26/02/2018"
 }

@@ -1,0 +1,18 @@
+{
+  "id": 3,
+  "image": "/images/cars/L/Lotus/emeya.webp",
+  "class": "D",
+  "brand": "Lotus",
+  "model": "Emeya",
+  "normalizedKey": "lotus_emeya",
+  "rarity": "Rare",
+  "stars": 4,
+  "country": "UK",
+  "epics": 8,
+  "obtainableVia": [
+    "Legend Pass"
+  ],
+  "blueprints1Star": 15,
+  "blueprints2Star": 30,
+  "blueprints3Star": 35
+}

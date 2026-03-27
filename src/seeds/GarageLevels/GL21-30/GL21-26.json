@@ -6,12 +6,12 @@
       {
         "brand": "Infiniti",
         "model": "Project Black S",
-        "image": "/images/cars/I/Infiniti/projectblacks.jpg"
+        "image": "/images/cars/I/Infiniti/projectblacks.webp"
       },
       {
         "brand": "Lamborghini",
         "model": "Countach 25th Anniv.",
-        "image": "/images/cars/L/Lamborghini/countach25thanniversary.jpg"
+        "image": "/images/cars/L/Lamborghini/countach25thanniversary.webp"
       }
     ]
   },
@@ -22,12 +22,12 @@
       {
         "brand": "Ferrari",
         "model": "Roma",
-        "image": "/images/cars/F/Ferrari/roma.jpg"
+        "image": "/images/cars/F/Ferrari/roma.webp"
       },
       {
         "brand": "Lotus",
         "model": "Emira",
-        "image": "/images/cars/L/Lotus/emira.jpg"
+        "image": "/images/cars/L/Lotus/emira.webp"
       }
     ]
   },
@@ -38,12 +38,12 @@
       {
         "brand": "BMW",
         "model": "i8 Roadster",
-        "image": "/images/cars/B/BMW/i8roadster.jpg"
+        "image": "/images/cars/B/BMW/i8roadster.webp"
       },
       {
         "brand": "Renault",
         "model": "Dezir",
-        "image": "/images/cars/R/Renault/dezir.jpg"
+        "image": "/images/cars/R/Renault/dezir.webp"
       }
     ]
   },
@@ -54,12 +54,12 @@
       {
         "brand": "Porsche",
         "model": "Taycan Turbo S",
-        "image": "/images/cars/P/Porsche/taycanturbos.jpg"
+        "image": "/images/cars/P/Porsche/taycanturbos.webp"
       },
       {
         "brand": "Saleen",
         "model": "S1",
-        "image": "/images/cars/S/Saleen/s1.jpg"
+        "image": "/images/cars/S/Saleen/s1.webp"
       }
     ]
   },
@@ -70,12 +70,12 @@
       {
         "brand": "Chevrolet",
         "model": "Corvette Stingray",
-        "image": "/images/cars/C/Chevrolet/corvettestingray.jpg"
+        "image": "/images/cars/C/Chevrolet/corvettestingray.webp"
       },
       {
         "brand": "Drako",
         "model": "GTE",
-        "image": "/images/cars/D/Drako/gte.jpg"
+        "image": "/images/cars/D/Drako/gte.webp"
       }
     ]
   },
@@ -86,12 +86,12 @@
       {
         "brand": "McLaren",
         "model": "Elva",
-        "image": "elva.jpg"
+        "image": "elva.webp"
       },
       {
         "brand": "Lamborghini",
         "model": "Diablo GT",
-        "image": "/images/cars/L/Lamborghini/diablogt.jpg"
+        "image": "/images/cars/L/Lamborghini/diablogt.webp"
       }
     ]
   }

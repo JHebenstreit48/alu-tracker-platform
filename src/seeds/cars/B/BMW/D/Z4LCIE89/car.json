@@ -1,6 +1,6 @@
 {
   "id": 1,
-  "image": "/images/cars/B/BMW/z4lcie89.jpg",
+  "image": "/images/cars/B/BMW/z4lcie89.webp",
   "class": "D",
   "brand": "BMW",
   "model": "Z4 LCI E89",
@@ -17,6 +17,6 @@
   "blueprints1Star": 5,
   "blueprints2Star": 8,
   "blueprints3Star": 45,
-  "Added_with": null,
+  "addedWith": null,
   "Added_date": "26/02/2018"
 }

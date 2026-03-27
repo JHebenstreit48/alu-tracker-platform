@@ -6,12 +6,12 @@
       {
         "brand": "Apollo",
         "model": "IE",
-        "image": "/images/cars/A/Apollo/ie.jpg"
+        "image": "/images/cars/A/Apollo/ie.webp"
       },
       {
         "brand": "McLaren",
         "model": "GT",
-        "image": "/images/cars/M/McLaren/gt.jpg"
+        "image": "/images/cars/M/McLaren/gt.webp"
       }
     ]
   },
@@ -22,12 +22,12 @@
       {
         "brand": "Bentley",
         "model": "Mulliner Bacalar",
-        "image": "/images/cars/B/Bentley/mullinerbacalar.jpg"
+        "image": "/images/cars/B/Bentley/mullinerbacalar.webp"
       },
       {
         "brand": "Puritalia",
         "model": "Berlinetta",
-        "image": "/images/cars/P/Puritalia/berlinetta.jpg"
+        "image": "/images/cars/P/Puritalia/berlinetta.webp"
       }
     ]
   },
@@ -38,12 +38,12 @@
       {
         "brand": "Lamborghini",
         "model": "Gallardo LP 560-4 Coupé",
-        "image": "/images/cars/L/Lamborghini/gallardolp5604.jpg"
+        "image": "/images/cars/L/Lamborghini/gallardolp5604.webp"
       },
       {
         "brand": "Ferrari",
         "model": "Enzo",
-        "image": "/images/cars/F/Ferrari/enzoferrari.jpg"
+        "image": "/images/cars/F/Ferrari/enzoferrari.webp"
       }
     ]
   },
@@ -54,12 +54,12 @@
       {
         "brand": "Lotus",
         "model": "Evija",
-        "image": "/images/cars/L/Lotus/evija.jpg"
+        "image": "/images/cars/L/Lotus/evija.webp"
       },
       {
         "brand": "McLaren",
         "model": "765LT",
-        "image": "/images/cars/M/McLaren/765lt.jpg"
+        "image": "/images/cars/M/McLaren/765lt.webp"
       }
     ]
   },
@@ -70,12 +70,12 @@
       {
         "brand": "Porsche",
         "model": "Carrera GT",
-        "image": "/images/cars/P/Porsche/carreragt.jpg"
+        "image": "/images/cars/P/Porsche/carreragt.webp"
       },
       {
         "brand": "Jaguar",
         "model": "C-X75",
-        "image": "/images/cars/J/Jaguar/cx75.jpg"
+        "image": "/images/cars/J/Jaguar/cx75.webp"
       }
     ]
   }

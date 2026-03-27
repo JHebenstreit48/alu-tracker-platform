@@ -6,12 +6,12 @@
       {
         "brand": "Lamborghini",
         "model": "Aventador J",
-        "image": "/images/cars/L/Lamborghini/aventadorj.jpg"
+        "image": "/images/cars/L/Lamborghini/aventadorj.webp"
       },
       {
         "brand": "Aston Martin",
         "model": "Vantage GT12",
-        "image": "/images/cars/A/AstonMartin/vantagegt12.jpg"
+        "image": "/images/cars/A/AstonMartin/vantagegt12.webp"
       }
     ]
   },
@@ -22,12 +22,12 @@
       {
         "brand": "W Motors",
         "model": "Lykan Hypersport",
-        "image": "/images/cars/W/WMotors/lykanhypersport.jpg"
+        "image": "/images/cars/W/WMotors/lykanhypersport.webp"
       },
       {
         "brand": "Aston Martin",
         "model": "DBS Superleggera",
-        "image": "/images/cars/A/AstonMartin/dbssuperleggera.jpg"
+        "image": "/images/cars/A/AstonMartin/dbssuperleggera.webp"
       }
     ]
   },
@@ -38,7 +38,7 @@
       {
         "brand": "McLaren",
         "model": "570S Spider",
-        "image": "/images/cars/M/McLaren/570sspider.jpg"
+        "image": "/images/cars/M/McLaren/570sspider.webp"
       },
       {
         "brand": "Vanda Electrics",
@@ -75,7 +75,7 @@
       {
         "brand": "Ferrari",
         "model": "LaFerrari Aperta",
-        "image": "/images/cars/F/Ferrari/laferrariaperta.jpg"
+        "image": "/images/cars/F/Ferrari/laferrariaperta.webp"
       }
     ]
   },

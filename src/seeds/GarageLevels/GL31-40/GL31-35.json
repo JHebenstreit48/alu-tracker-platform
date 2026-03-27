@@ -6,7 +6,7 @@
       {
         "brand": "Lamborghini",
         "model": "Aventador SVJ Roadster",
-        "image": "/images/cars/L/Lamborghini/aventadorsvjroadster.jpg"
+        "image": "/images/cars/L/Lamborghini/aventadorsvjroadster.webp"
       }
     ]
   },
@@ -28,7 +28,7 @@
       {
         "brand": "Citroën",
         "model": "GT by Citroën",
-        "image": "/images/cars/C/Citroën/gtbycitroen.jpg"
+        "image": "/images/cars/C/Citroën/gtbycitroen.webp"
       }
     ]
   },
@@ -39,7 +39,7 @@
       {
         "brand": "Aston Martin",
         "model": "Victor",
-        "image": "/images/cars/A/AstonMartin/victor.jpg"
+        "image": "/images/cars/A/AstonMartin/victor.webp"
       }
     ]
   },
@@ -50,7 +50,7 @@
       {
         "brand": "Ferrari",
         "model": "F8 Tributo",
-        "image": "/images/cars/F/Ferrari/f8tributo.jpg"
+        "image": "/images/cars/F/Ferrari/f8tributo.webp"
       }
     ]
   }

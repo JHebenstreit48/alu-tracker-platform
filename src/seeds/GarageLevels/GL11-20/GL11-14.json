@@ -16,7 +16,7 @@
       {
         "brand": "Vencer",
         "model": "Sarthe",
-        "image": "/images/cars/V/Vencer/sarthe.jpg"
+        "image": "/images/cars/V/Vencer/sarthe.webp"
       }
     ]
   },
@@ -53,12 +53,12 @@
       {
         "brand": "Ferrari",
         "model": "F12tdf",
-        "image": "/images/cars/F/Ferrari/f12tdf.jpg"
+        "image": "/images/cars/F/Ferrari/f12tdf.webp"
       },
       {
         "brand": "Icona",
         "model": "Vulcano Titanium",
-        "image": "/images/cars/I/Icona/vulcanotitanium.jpg"
+        "image": "/images/cars/I/Icona/vulcanotitanium.webp"
       }
     ]
   },
@@ -69,17 +69,17 @@
       {
         "brand": "Porsche",
         "model": "918 Spyder",
-        "image": "/images/cars/P/Porsche/918spyder.jpg"
+        "image": "/images/cars/P/Porsche/918spyder.webp"
       },
       {
         "brand": "Apollo",
         "model": "N",
-        "image": "/images/cars/A/Apollo/n.jpg"
+        "image": "/images/cars/A/Apollo/n.webp"
       },
       {
         "brand": "Arrinera",
         "model": "Hussarya 33",
-        "image": "/images/cars/A/Arrinera/hussarya33.jpg"
+        "image": "/images/cars/A/Arrinera/hussarya33.webp"
       }
     ]
   }

@@ -95,11 +95,8 @@ const LEGACY_TO_CAMEL: Record<string, string> = {
   ObtainableVia: "obtainableVia",
 
   Added: "added",
-  Added_With: "addedWith",
+  addedWith: "addedWith",
   "Added date": "addedDate",
-
-  "Total upgrade cost": "totalUpgradeCost",
-  "Total GL points": "totalGlPoints",
 
   BPs_1_Star: "blueprints1Star",
   BPs_2_Star: "blueprints2Star",

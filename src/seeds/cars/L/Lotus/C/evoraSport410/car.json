@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "image": "/images/cars/L/Lotus/evorasport410.webp",
+  "class": "C",
+  "brand": "Lotus",
+  "model": "Evora Sport 410",
+  "rarity": "Uncommon",
+  "stars": 3,
+  "country": "UK",
+  "epics": 4,
+  "obtainableVia": [
+    "Garage Level 3"
+  ],
+  "added": "Soft Launch",
+  "addedWith": null,
+  "addedDate": "26/02/2018",
+  "blueprints1Star": 20,
+  "blueprints2Star": 20,
+  "blueprints3Star": 50,
+  "Tags": "Europe"
+}

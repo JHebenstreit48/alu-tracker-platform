@@ -1,0 +1,20 @@
+{
+  "id": 3,
+  "image": "/images/cars/L/LegoTechnic/ferrarifxxk.webp",
+  "class": "A",
+  "brand": "LEGO Technic",
+  "model": "Ferrari FXXK",
+  "normalizedKey": "lego_technic_ferrari_fxxk",
+  "status": "in progress",
+  "message": "Missing data",
+  "sources": [
+    "MEI"
+  ],
+  "rarity": "Epic",
+  "stars": 5,
+  "blueprints1Star": "Unknown",
+  "blueprints2Star": "Unknown",
+  "blueprints3Star": "Unknown",
+  "blueprints4Star": "Unknown",
+  "blueprints5Star": "Unknown"
+}
