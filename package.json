@@ -46,6 +46,13 @@
     "convert:car": "ts-node -r tsconfig-paths/register src/scripts/maintenance/convertToNewFormat.ts",
     "convert:car:dry": "ts-node -r tsconfig-paths/register src/scripts/maintenance/convertToNewFormat.ts --dry",
 
+    "fill:stage-stats": "ts-node -r tsconfig-paths/register src/scripts/Placeholders/fillStageStats.ts",
+    "fill:stage-stats:apply": "ts-node -r tsconfig-paths/register src/scripts/Placeholders/fillStageStats.ts --apply",
+    "fill:stage-deltas": "ts-node -r tsconfig-paths/register src/scripts/Placeholders/fillStageDeltas.ts",
+    "fill:stage-deltas:apply": "ts-node -r tsconfig-paths/register src/scripts/Placeholders/fillStageDeltas.ts --apply",
+    "fill:import-deltas": "ts-node -r tsconfig-paths/register src/scripts/Placeholders/fillImportDeltas.ts",
+    "fill:import-deltas:apply": "ts-node -r tsconfig-paths/register src/scripts/Placeholders/fillImportDeltas.ts --apply",
+
     "ts": "ts-node",
     "build": "tsc",
     "start:dev": "npm run start:watch"
