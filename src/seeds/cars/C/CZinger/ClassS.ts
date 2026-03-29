@@ -1,3 +1,3 @@
-import twentyOneC from '@/seeds/cars/C/CZinger/S/twentyOneC.json';
+import twentyOneC from '@/seeds/cars/C/Czinger/S/21C';
 
 export default [twentyOneC];

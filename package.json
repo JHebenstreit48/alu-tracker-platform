@@ -53,6 +53,9 @@
     "fill:import-deltas": "ts-node -r tsconfig-paths/register src/scripts/Placeholders/fillImportDeltas.ts",
     "fill:import-deltas:apply": "ts-node -r tsconfig-paths/register src/scripts/Placeholders/fillImportDeltas.ts --apply",
 
+    "pull:submissions": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/pullApprovedSubmissions.ts",
+    "pull:submissions:dry": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/pullApprovedSubmissions.ts --dry",
+
     "ts": "ts-node",
     "build": "tsc",
     "start:dev": "npm run start:watch"
