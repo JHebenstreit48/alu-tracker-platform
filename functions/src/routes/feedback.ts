@@ -2,6 +2,7 @@ import { Router, type Request, type Response } from "express";
 import { z } from "zod";
 import { adminDb } from "../firebaseAdmin";
 import { FieldValue, Timestamp } from "firebase-admin/firestore";
+import { transporter } from "../mailer";
 
 const router = Router();
 const COLL = "feedback";
@@ -93,6 +94,24 @@ router.post("/", async (req: Request, res: Response) => {
 
     await adminDb.collection(COLL).add(toSave);
 
+    // ✉️ Email notification — fire and forget, never blocks the response
+    transporter
+      .sendMail({
+        from: `"Asphalt Legends Tracker" <${process.env.PROTON_SMTP_USER}>`,
+        to: process.env.NOTIFY_EMAIL,
+        subject: `New Feedback — ${data.category.toUpperCase()}`,
+        text: [
+          "New feedback submitted on Asphalt Legends Tracker",
+          "",
+          `Category:  ${data.category}`,
+          `Page URL:  ${data.pageUrl ?? "Not provided"}`,
+          "",
+          "Message:",
+          `${data.message}`,
+        ].join("\n"),
+      })
+      .catch((e) => console.error("[feedback] email notify failed", e));
+
     res.json(ok({}));
   } catch (e) {
     console.error("[feedback] POST error", e);
@@ -123,7 +142,9 @@ router.get("/public", async (req: Request, res: Response) => {
       });
 
     const useStatuses =
-      requested.length > 0 ? requested : (["triaged"] as FeedbackStatus[]);
+      requested.length > 0
+        ? requested
+        : (["triaged"] as FeedbackStatus[]);
 
     // Simple query (no composite index needed). Filter statuses in memory.
     const snap = await adminDb

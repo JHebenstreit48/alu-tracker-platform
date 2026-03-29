@@ -3,6 +3,7 @@ import crypto from "node:crypto";
 import { z } from "zod";
 import { adminDb } from "../firebaseAdmin";
 import { FieldValue, Timestamp } from "firebase-admin/firestore";
+import { transporter } from "../mailer";
 
 const router = Router();
 const COLL = "comments";
@@ -143,6 +144,33 @@ router.post("/", async (req: Request, res: Response) => {
     };
 
     const ref = await adminDb.collection(COLL).add(toSave);
+
+    // ✉️ Email notification — fire and forget, never blocks the response
+    transporter
+      .sendMail({
+        from: `"Asphalt Legends Tracker" <${process.env.PROTON_SMTP_USER}>`,
+        to: process.env.NOTIFY_EMAIL,
+        subject: (
+          `New Comment — ${data.brand ?? "Unknown"} ${data.model ?? ""}`
+        ).trim(),
+        text: [
+          "New comment submitted on Asphalt Legends Tracker",
+          "",
+          `Car:        ${data.brand ?? "N/A"} ${data.model ?? ""}`.trim(),
+          `Type:       ${data.type}`,
+          `Page Key:   ${data.normalizedKey}`,
+          `Status:     ${toSave.status}`,
+          "",
+          `Author:     ${data.authorName ?? "Anonymous"}`,
+          `Email:      ${data.authorEmail ?? "Not provided"}`,
+          "",
+          "Comment:",
+          `${data.body}`,
+          "",
+          `Comment ID: ${ref.id}`,
+        ].join("\n"),
+      })
+      .catch((e) => console.error("[comments] email notify failed", e));
 
     res.json(
       ok({

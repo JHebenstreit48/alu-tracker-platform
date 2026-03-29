@@ -1,8 +1,8 @@
-import oneStar from "@/seeds/cars/C/Citroën/A/gtByCitroen/deltas/imports/1star.json";
-import twoStar from "@/seeds/cars/C/Citroën/A/gtByCitroen/deltas/imports/2star.json";
-import threeStar from "@/seeds/cars/C/Citroën/A/gtByCitroen/deltas/imports/3star.json";
-import fourStar from "@/seeds/cars/C/Citroën/A/gtByCitroen/deltas/imports/4star.json";
-import fiveStar from "@/seeds/cars/C/Citroën/A/gtByCitroen/deltas/imports/5star.json";
-import sixStar from "@/seeds/cars/C/Citroën/A/gtByCitroen/deltas/imports/6star.json";
+import oneStar from "@/seeds/cars/C/Citroën/A/GTByCitroen/deltas/imports/1star.json";
+import twoStar from "@/seeds/cars/C/Citroën/A/GTByCitroen/deltas/imports/2star.json";
+import threeStar from "@/seeds/cars/C/Citroën/A/GTByCitroen/deltas/imports/3star.json";
+import fourStar from "@/seeds/cars/C/Citroën/A/GTByCitroen/deltas/imports/4star.json";
+import fiveStar from "@/seeds/cars/C/Citroën/A/GTByCitroen/deltas/imports/5star.json";
+import sixStar from "@/seeds/cars/C/Citroën/A/GTByCitroen/deltas/imports/6star.json";
 
 export default { importDeltas: { oneStar, twoStar, threeStar, fourStar, fiveStar, sixStar } };

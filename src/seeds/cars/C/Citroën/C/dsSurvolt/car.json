@@ -4,8 +4,15 @@
   "class": "C",
   "brand": "Citroën",
   "model": "DS Survolt",
+  "normalizedKey": "citroen_ds_survolt",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
   "country": "France",
-  "blueprints1Star": 20
+  "blueprints1Star": 20,
+  "blueprints2Star": 30,
+  "blueprints3Star": 40,
+  "blueprints4Star": 50
 }

@@ -1,3 +1,3 @@
-import gtByCitroen from '@/seeds/cars/C/Citroën/A/gtByCitroen.json';
+import gtByCitroen from '@/seeds/cars/C/Citroën/A/GTByCitroen';
 
 export default [gtByCitroen];
