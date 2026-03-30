@@ -7,15 +7,10 @@
   "normalizedKey": "dodge_charger_srt_hellcat_redeye_widebody",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": [
-    "My own in-game research",
-    "Asphalt Fandom Wiki"
-  ],
+  "sources": ["My own in-game research", "Asphalt Fandom Wiki"],
   "rarity": "Epic",
   "stars": 5,
-  "obtainableVia": [
-    "Drive Syndicate(DS)"
-  ],
+  "obtainableVia": ["Drive Syndicate(DS)"],
   "blueprints1Star": 20,
   "blueprints2Star": 25,
   "blueprints3Star": 30,

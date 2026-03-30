@@ -1,3 +1,3 @@
-import viperGTS from '@/seeds/cars/D/Dodge/A/viperGTS.json';
+import viperGTS from '@/seeds/cars/D/Dodge/A/ViperGTS';
 
 export default [viperGTS];

@@ -1,4 +1,4 @@
-import importDeltas from "@/seeds/cars/D/Dodge/C/chargerSrtHellcatRedeyeWidebody/deltas/imports";
-import stageDeltas from "@/seeds/cars/D/Dodge/C/chargerSrtHellcatRedeyeWidebody/deltas/stages";
+import importDeltas from "@/seeds/cars/D/Dodge/C/ChargerSRTHellcatRedeyeWidebody/deltas/imports";
+import stageDeltas from "@/seeds/cars/D/Dodge/C/ChargerSRTHellcatRedeyeWidebody/deltas/stages";
 
 export default { ...importDeltas, ...stageDeltas };

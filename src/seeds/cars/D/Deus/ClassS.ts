@@ -1,3 +1,3 @@
-import vayanne from '@/seeds/cars/D/Deus/S/vayanne.json';
+import vayanne from '@/seeds/cars/D/Deus/S/Vayanne';
 
 export default [vayanne];
