@@ -1,0 +1,45 @@
+[
+  {
+    "Class": "S",
+    "Brand": "Koenigsegg",
+    "Model": "Regera",
+    "GarageLevel": 18,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 15000,
+    "DailyLimit": 1
+  },
+  {
+    "Class": "S",
+    "Brand": "Icona",
+    "Model": "Vulcano Titanium",
+    "GarageLevel": 13,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 15000,
+    "DailyLimit": 1
+  },
+  {
+    "Class": "S",
+    "Brand": "Lamborghini",
+    "Model": "Centenario",
+    "GarageLevel": 11,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 15000,
+    "DailyLimit": 1
+  },
+  {
+    "Class": "S",
+    "Brand": "Lamborghini",
+    "Model": "Terzo Millennio",
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 15000,
+    "DailyLimit": 1
+  }
+]

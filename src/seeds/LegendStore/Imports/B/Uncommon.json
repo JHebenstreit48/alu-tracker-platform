@@ -9,5 +9,16 @@
     "ImportRarity": "Epic",
     "TradeCoinCost": 8000,
     "DailyLimit": 1
+  },
+  {
+    "Class": "B",
+    "Brand": "Porsche",
+    "Model": "911 GTS Coupé",
+    "GarageLevel": 4,
+    "StarRank": 3,
+    "CarRarity": "Uncommon",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 8000,
+    "DailyLimit": 1
   }
 ]

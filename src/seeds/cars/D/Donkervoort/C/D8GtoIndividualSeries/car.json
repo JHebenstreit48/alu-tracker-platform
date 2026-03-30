@@ -12,7 +12,7 @@
   "stars": 4,
   "country": "The Netherlands",
   "epics": 4,
-  "obtainableVia": null,
+  "obtainableVia": ["Legend Pass", "Racing Around the World season", "Pinnacle of Speed update"],
   "added": "City of Lights",
   "addedWith": "LP",
   "addedDate": "06/02/2023",

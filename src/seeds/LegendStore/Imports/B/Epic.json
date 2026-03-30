@@ -11,6 +11,35 @@
     "DailyLimit": 1
   },
   {
-
+    "Class": "B",
+    "Brand": "Nissan",
+    "Model": "R390 GT1",
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 8000,
+    "DailyLimit": 1
+  },
+  {
+    "Class": "B",
+    "Brand": "Ferrari",
+    "Model": "F12tdf",
+    "GarageLevel": 13,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 8000,
+    "DailyLimit": 1
+  },
+  {
+    "Class": "B",
+    "Brand": "Aston Martin",
+    "Model": "One-77",
+    "GarageLevel": 29,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 8000,
+    "DailyLimit": 1
   }
 ]

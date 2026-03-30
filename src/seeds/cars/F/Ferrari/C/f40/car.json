@@ -8,9 +8,7 @@
   "stars": 5,
   "country": "Italy",
   "epics": 8,
-  "obtainableVia": [
-    "Car Hunt"
-  ],
+  "obtainableVia": ["Car Hunt"],
   "added": "Ferrari Season",
   "addedWith": "Car Hunt",
   "addedDate": "20/10/2020",
