@@ -1,6 +1,6 @@
-import car from '@/seeds/cars/F/Ford/S/mustangRtrSpec5Fd/car.json';
-import stats from '@/seeds/cars/F/Ford/S/mustangRtrSpec5Fd/stats';
-import upgrades from '@/seeds/cars/F/Ford/S/mustangRtrSpec5Fd/upgrades';
-import deltas from '@/seeds/cars/F/Ford/S/mustangRtrSpec5Fd/deltas';
+import car from '@/seeds/cars/F/Ford/S/MustangRTRSpec5FD/car.json';
+import stats from '@/seeds/cars/F/Ford/S/MustangRTRSpec5FD/stats';
+import upgrades from '@/seeds/cars/F/Ford/S/MustangRTRSpec5FD/upgrades';
+import deltas from '@/seeds/cars/F/Ford/S/MustangRTRSpec5FD/deltas';
 
 export default {...car, ...stats, ...upgrades, ...deltas};

@@ -4,13 +4,18 @@
   "class": "B",
   "brand": "Ford",
   "model": "GT MK IV",
+  "normalizedKey": "ford_gt_mk_iv",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 6,
   "country": "USA",
+  "obtainableVia": [],
   "blueprints1Star": 25,
+  "blueprints2Star": 30,
   "blueprints3Star": 35,
-  "Gold_Max_Top_Speed": 366.5,
-  "Gold_Max_Acceleration": 87.26,
-  "Gold_Max_Handling": 49.35,
-  "Gold_Max_Nitro": 60.2
+  "blueprints4Star": 40,
+  "blueprints5Star": 50,
+  "blueprints6Star": 60
 }

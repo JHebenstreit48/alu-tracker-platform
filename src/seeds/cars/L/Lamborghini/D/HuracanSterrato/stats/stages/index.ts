@@ -2,5 +2,6 @@ import oneStar from "@/seeds/cars/L/Lamborghini/D/HuracanSterrato/stats/stages/1
 import twoStar from "@/seeds/cars/L/Lamborghini/D/HuracanSterrato/stats/stages/2star.json";
 import threeStar from "@/seeds/cars/L/Lamborghini/D/HuracanSterrato/stats/stages/3star.json";
 import fourStar from "@/seeds/cars/L/Lamborghini/D/HuracanSterrato/stats/stages/4star.json";
+import fiveStar from "@/seeds/cars/L/Lamborghini/D/HuracanSterrato/stats/stages/5star.json";
 
-export default { stages: { oneStar, twoStar, threeStar, fourStar } };
+export default { stages: { oneStar, twoStar, threeStar, fourStar, fiveStar } };

@@ -1,6 +1,6 @@
 {
   "oneStar": {
-    "rank": 0,
+    "rank": 1744,
     "topSpeed": 0,
     "acceleration": 0,
     "handling": 0,
@@ -21,6 +21,13 @@
     "nitro": 0
   },
   "fourStar": {
+    "rank": 0,
+    "topSpeed": 0,
+    "acceleration": 0,
+    "handling": 0,
+    "nitro": 0
+  },
+  "fiveStar": {
     "rank": 0,
     "topSpeed": 0,
     "acceleration": 0,
