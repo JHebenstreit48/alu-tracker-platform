@@ -1,3 +1,3 @@
-import davinci from '@/seeds/cars/I/Italdesign/D/davinci.json';
+import davinci from '@/seeds/cars/I/Italdesign/D/DaVinci';
 
 export default [davinci];

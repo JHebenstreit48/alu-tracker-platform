@@ -1,0 +1,22 @@
+{
+  "id": 2,
+  "image": "/images/cars/I/Icona/vulcanospyder.webp",
+  "class": "S",
+  "brand": "Icona",
+  "model": "Vulcano Spyder",
+  "normalizedKey": "icona_vulcano_spyder",
+  "status": "in progress",
+  "message": "still adding and missing data",
+  "sources": ["My own in-game research", "Asphalt Fandom Wiki"],
+  "rarity": "Epic",
+  "stars": 6,
+  "country": "Italy",
+  "obtainableVia": [],
+  "addedDate": "03/02/2026",
+  "blueprints1Star": 35,
+  "blueprints2Star": 40,
+  "blueprints3Star": 45,
+  "blueprints4Star": 50,
+  "blueprints5Star": 60,
+  "blueprints6Star": 70
+}

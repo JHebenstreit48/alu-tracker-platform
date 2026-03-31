@@ -7,16 +7,12 @@
   "normalizedKey": "koenigsegg_agera_rs",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": [
-    "MEI"
-  ],
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 6,
   "country": "Sweden",
   "epics": 16,
-  "obtainableVia": [
-    "Clash Store (obsolete)"
-  ],
+  "obtainableVia": ["Clash Store (obsolete)"],
   "added": "Around the World",
   "addedWith": "Clash Store (obsolete)",
   "addedDate": "03/04/2022",
@@ -25,14 +21,5 @@
   "blueprints3Star": 29,
   "blueprints4Star": 38,
   "blueprints5Star": 54,
-  "blueprints6Star": 69,
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": null,
-  "Unnamed: 16": "504,2",
-  "Total_BPs": 300,
-  "Unnamed: 32": 54940,
-  "Cost epic": 15000
+  "blueprints6Star": 69
 }

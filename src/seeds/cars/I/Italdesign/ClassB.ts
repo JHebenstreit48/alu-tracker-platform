@@ -1,3 +1,3 @@
-import zerouno from '@/seeds/cars/I/Italdesign/B/zerouno.json';
+import zerouno from '@/seeds/cars/I/Italdesign/B/Zerouno';
 
 export default [zerouno]
