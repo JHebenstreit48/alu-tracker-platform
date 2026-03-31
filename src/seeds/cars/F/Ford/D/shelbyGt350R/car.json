@@ -4,25 +4,20 @@
   "class": "D",
   "brand": "Ford",
   "model": "Shelby GT350R",
+  "normalizedKey": "ford_shelby_gt350r",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
   "country": "USA",
   "epics": 4,
-  "obtainableVia": [
-    "GL06"
-  ],
+  "obtainableVia": ["Garage Level 6"],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
   "blueprints1Star": 20,
   "blueprints2Star": 8,
   "blueprints3Star": 14,
-  "blueprints4Star": 28,
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Garage_Lvl": 6,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": "Muscle",
-  "Unnamed: 16": "311,9"
+  "blueprints4Star": 28
 }

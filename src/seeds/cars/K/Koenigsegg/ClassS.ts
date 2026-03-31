@@ -4,7 +4,7 @@ import jeskoAbsolut from "@/seeds/cars/K/Koenigsegg/S/jeskoAbsolut.json";
 import cc850 from "@/seeds/cars/K/Koenigsegg/S/cc850.json";
 import gemera from "@/seeds/cars/K/Koenigsegg/S/gemera.json";
 import ccxr from "@/seeds/cars/K/Koenigsegg/S/CCXR";
-import ageraRS from "@/seeds/cars/K/Koenigsegg/S/ageraRS.json";
+import ageraRS from "@/seeds/cars/K/Koenigsegg/S/AgeraRS";
 import oneTo1 from "@/seeds/cars/K/Koenigsegg/S/OneTo1";
 import chimera from "@/seeds/cars/K/Koenigsegg/S/chimera.json";
 

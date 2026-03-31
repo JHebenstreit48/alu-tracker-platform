@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "image": "/images/cars/K/Kimera/evo37.webp",
+  "class": "C",
+  "brand": "Kimera",
+  "model": "Evo 37",
+  "normalizedKey": "kimera_evo_37",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": [],
+  "rarity": "Epic",
+  "stars": 5,
+  "keyCar": true,
+  "country": "Italy",
+  "obtainableVia": [],
+  "blueprints1Star": 0,
+  "blueprints2Star": 22,
+  "blueprints3Star": 30,
+  "blueprints4Star": 35,
+  "blueprints5Star": 38
+}

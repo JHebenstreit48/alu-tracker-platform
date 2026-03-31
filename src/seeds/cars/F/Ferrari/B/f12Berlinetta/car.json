@@ -4,6 +4,18 @@
   "class": "B",
   "brand": "Ferrari",
   "model": "F12 Berlinetta",
+  "normalizedKey": "ferrari_f12_berlinetta",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["Asphalt Fandom Wiki"],
   "rarity": "Epic",
-  "stars": 5
+  "stars": 5,
+  "country": "Italy",
+  "obtainableVia": [],
+  "blueprints1Star": 25,
+  "blueprints2Star": 30,
+  "blueprints3Star": 35,
+  "blueprints4Star": 40,
+  "blueprints5Star": 50,
+  "Tags": "Europe"
 }

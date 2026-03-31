@@ -1,4 +1,4 @@
-import inferno from '@/seeds/cars/I/InfernoAutomobili/S/inferno.json';
-import settimoCerchio from '@/seeds/cars/I/InfernoAutomobili/S/settimoCerchio.json';
+import inferno from '@/seeds/cars/I/InfernoAutomobili/S/Inferno';
+import settimoCerchio from '@/seeds/cars/I/InfernoAutomobili/S/SettimoCerchio';
 
 export default [inferno, settimoCerchio];

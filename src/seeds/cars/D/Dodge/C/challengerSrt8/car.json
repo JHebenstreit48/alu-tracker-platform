@@ -4,24 +4,20 @@
   "class": "C",
   "brand": "Dodge",
   "model": "Challenger SRT8",
+  "normalizedKey": "dodge_challenger_srt8",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Uncommon",
   "stars": 3,
   "country": "USA",
   "epics": 4,
-  "obtainableVia": [
-    "GL01"
-  ],
+  "obtainableVia": ["Garage Level 1"],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
   "blueprints1Star": 15,
   "blueprints2Star": 20,
   "blueprints3Star": 50,
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Garage_Lvl": 1,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": "Muscle",
-  "Unnamed: 16": "320,9"
+  "Tags": "Muscle"
 }

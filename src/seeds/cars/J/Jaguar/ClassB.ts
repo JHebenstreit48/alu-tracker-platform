@@ -1,3 +1,3 @@
-import fTypeSvr from '@/seeds/cars/J/Jaguar/B/fTypeSvr.json';
+import fTypeSvr from '@/seeds/cars/J/Jaguar/B/FTypeSVR';
 
 export default [fTypeSvr];

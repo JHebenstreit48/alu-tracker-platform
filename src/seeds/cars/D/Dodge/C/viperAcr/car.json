@@ -4,25 +4,20 @@
   "class": "C",
   "brand": "Dodge",
   "model": "Viper ACR",
+  "normalizedKey": "dodge_viper_acr",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
   "country": "USA",
   "epics": 4,
-  "obtainableVia": [
-    "GL07"
-  ],
+  "obtainableVia": ["Garage Level 7"],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
   "blueprints1Star": 35,
   "blueprints2Star": 10,
   "blueprints3Star": 20,
-  "blueprints4Star": 32,
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Garage_Lvl": 7,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": null,
-  "Unnamed: 16": "316,1"
+  "blueprints4Star": 32
 }

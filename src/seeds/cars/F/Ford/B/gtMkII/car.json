@@ -4,26 +4,21 @@
   "class": "B",
   "brand": "Ford",
   "model": "GT MK II",
+  "normalizedKey": "ford_gt_mk_ii",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
   "keyCar": true,
   "country": "USA",
   "epics": 8,
-  "obtainableVia": [
-    "Key Hunt"
-  ],
+  "obtainableVia": ["Key Hunt"],
   "added": "American Season",
-  "addedWith": "GP",
+  "addedWith": "Grand Prix",
   "addedDate": "30/06/2020",
   "blueprints1Star": 0,
   "blueprints2Star": 35,
   "blueprints3Star": 55,
-  "blueprints4Star": 85,
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Garage_Lvl": null,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": null,
-  "Unnamed: 16": "328,1"
+  "blueprints4Star": 85
 }

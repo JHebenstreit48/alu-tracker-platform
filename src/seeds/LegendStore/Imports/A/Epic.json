@@ -31,5 +31,49 @@
     "ImportRarity": "Epic",
     "TradeCoinCost": 10000,
     "DailyLimit": 1
+  },
+  {
+    "Class": "A",
+    "Brand": "McLaren",
+    "Model": "Senna GTR",
+    "GarageLevel": 29,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 10000,
+    "DailyLimit": 1
+  },
+  {
+    "Class": "A",
+    "Brand": "Ferrari",
+    "Model": "812 Superfast",
+    "GarageLevel": 28,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 10000,
+    "DailyLimit": 1
+  },
+  {
+    "Class": "A",
+    "Brand": "Lamborghini",
+    "Model": "Aventador J",
+    "GarageLevel": 15,
+    "StarRank": 5,
+    "CarRarity": "Epic",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 10000,
+    "DailyLimit": 1
+  },
+  {
+    "Class": "A",
+    "Brand": "Citroën",
+    "Model": "GT By Citroën",
+    "GarageLevel": 33,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "ImportRarity": "Epic",
+    "TradeCoinCost": 10000,
+    "DailyLimit": 1
   }
 ]

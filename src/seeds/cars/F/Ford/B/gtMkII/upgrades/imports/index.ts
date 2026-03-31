@@ -1,5 +1,5 @@
-import costs from "@/seeds/cars/F/Ford/B/gtMkII/upgrades/imports/costs.json";
-import garageLevelXp from "@/seeds/cars/F/Ford/B/gtMkII/upgrades/imports/garageLevelXp.json";
-import requirements from "@/seeds/cars/F/Ford/B/gtMkII/upgrades/imports/requirements.json";
+import costs from "@/seeds/cars/F/Ford/B/GTMkII/upgrades/imports/costs.json";
+import garageLevelXp from "@/seeds/cars/F/Ford/B/GTMkII/upgrades/imports/garageLevelXp.json";
+import requirements from "@/seeds/cars/F/Ford/B/GTMkII/upgrades/imports/requirements.json";
 
 export default { imports: { costs, garageLevelXp, requirements } };

@@ -12,6 +12,7 @@
   "stars": 5,
   "keyCar": true,
   "country": "France",
+  "obtainableVia": ["Special Events", "Grand Prix"],
   "blueprints1Star": 0,
   "blueprints2Star": 22,
   "blueprints3Star": 30,

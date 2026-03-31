@@ -1,4 +1,4 @@
-import importDeltas from "@/seeds/cars/F/Ferrari/B/enzoFerrari/deltas/imports";
-import stageDeltas from "@/seeds/cars/F/Ferrari/B/enzoFerrari/deltas/stages";
+import importDeltas from "@/seeds/cars/F/Ferrari/B/EnzoFerrari/deltas/imports";
+import stageDeltas from "@/seeds/cars/F/Ferrari/B/EnzoFerrari/deltas/stages";
 
 export default { ...importDeltas, ...stageDeltas };

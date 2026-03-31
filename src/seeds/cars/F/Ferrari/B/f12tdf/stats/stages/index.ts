@@ -1,7 +1,7 @@
-import oneStar from "@/seeds/cars/F/Ferrari/B/f12tdf/stats/stages/1star.json";
-import twoStar from "@/seeds/cars/F/Ferrari/B/f12tdf/stats/stages/2star.json";
-import threeStar from "@/seeds/cars/F/Ferrari/B/f12tdf/stats/stages/3star.json";
-import fourStar from "@/seeds/cars/F/Ferrari/B/f12tdf/stats/stages/4star.json";
-import fiveStar from "@/seeds/cars/F/Ferrari/B/f12tdf/stats/stages/5star.json";
+import oneStar from "@/seeds/cars/F/Ferrari/B/F12TDF/stats/stages/1star.json";
+import twoStar from "@/seeds/cars/F/Ferrari/B/F12TDF/stats/stages/2star.json";
+import threeStar from "@/seeds/cars/F/Ferrari/B/F12TDF/stats/stages/3star.json";
+import fourStar from "@/seeds/cars/F/Ferrari/B/F12TDF/stats/stages/4star.json";
+import fiveStar from "@/seeds/cars/F/Ferrari/B/F12TDF/stats/stages/5star.json";
 
 export default { stages: { oneStar, twoStar, threeStar, fourStar, fiveStar } };
