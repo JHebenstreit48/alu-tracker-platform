@@ -4,13 +4,14 @@
   "class": "B",
   "brand": "Lamborghini",
   "model": "Asterion",
+  "normalizedKey": "lamborghini_asterion",
+  "status": "in progress",
+  "message": "Still adding data",
   "rarity": "Rare",
   "stars": 4,
   "country": "Italy",
   "epics": 8,
-  "obtainableVia": [
-    "Daily Missions"
-  ],
+  "obtainableVia": ["Daily Missions"],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -18,14 +19,5 @@
   "blueprints2Star": 12,
   "blueprints3Star": 24,
   "blueprints4Star": 36,
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Garage_Lvl": null,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": "Europe; Super Car; Hybrid",
-  "Unnamed: 16": "350,3",
-  "Total_BPs": 112,
-  "Unnamed: 32": 32983,
-  "Cost epic": 8000
+  "Tags": "Europe; Super Car; Hybrid"
 }
