@@ -4,13 +4,15 @@
   "class": "S",
   "brand": "Lamborghini",
   "model": "Terzo Millennio",
+  "normalizedKey": "lamborghini_terzo_millennio",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 6,
   "country": "Italy",
   "epics": 16,
-  "obtainableVia": [
-    "TC"
-  ],
+  "obtainableVia": ["Trade Credits - Legend Store", "Garage Level 36"],
   "added": "Worldwide Launch",
   "addedWith": null,
   "addedDate": "25/07/2018",
@@ -20,14 +22,5 @@
   "blueprints4Star": 25,
   "blueprints5Star": 38,
   "blueprints6Star": 48,
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Garage_Lvl": 36,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": "Europe; Hyper",
-  "Unnamed: 16": "410,1",
-  "Total_BPs": 200,
-  "Unnamed: 32": 54411,
-  "Cost epic": 15000
+  "Tags": "Europe; Hyper"
 }
