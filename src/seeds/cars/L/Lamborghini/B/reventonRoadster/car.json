@@ -4,23 +4,22 @@
   "class": "B",
   "brand": "Lamborghini",
   "model": "Reventón Roadster",
+  "normalizedKey": "lamborghini_reventon_roadster",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 5,
   "keyCar": true,
   "country": "Italy",
-  "obtainableVia": [
-    "Special Events"
-  ],
+  "obtainableVia": ["Special Events"],
   "added": "Raging Bull Season",
-  "addedWith": "GP",
+  "addedWith": "Grand Prix",
   "addedDate": "30/05/2022",
   "blueprints1Star": 0,
   "blueprints2Star": 26,
   "blueprints3Star": 34,
   "blueprints4Star": 40,
   "blueprints5Star": 62,
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Tags": "Europe",
-  "Unnamed: 16": "370,6"
+  "Tags": "Europe"
 }

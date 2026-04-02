@@ -11,22 +11,14 @@
   "stars": 5,
   "country": "Italy",
   "epics": 12,
-  "obtainableVia": [
-    "GL15"
-  ],
+  "obtainableVia": ["Garage Level 15"],
   "added": "Carribean",
-  "addedWith": "SE",
+  "addedWith": "Special Events",
   "addedDate": "10/04/2019",
   "blueprints1Star": 50,
   "blueprints2Star": 23,
   "blueprints3Star": 27,
   "blueprints4Star": 36,
   "blueprints5Star": 51,
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Garage_Lvl": 15,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": "Europe; Super Car",
-  "Unnamed: 16": "378,4"
+  "Tags": "Europe; Super Car"
 }

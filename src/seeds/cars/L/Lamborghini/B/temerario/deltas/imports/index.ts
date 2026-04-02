@@ -1,8 +1,8 @@
-import oneStar from "@/seeds/cars/L/Lamborghini/B/temerario/deltas/imports/1star.json";
-import twoStar from "@/seeds/cars/L/Lamborghini/B/temerario/deltas/imports/2star.json";
-import threeStar from "@/seeds/cars/L/Lamborghini/B/temerario/deltas/imports/3star.json";
-import fourStar from "@/seeds/cars/L/Lamborghini/B/temerario/deltas/imports/4star.json";
-import fiveStar from "@/seeds/cars/L/Lamborghini/B/temerario/deltas/imports/5star.json";
-import sixStar from "@/seeds/cars/L/Lamborghini/B/temerario/deltas/imports/6star.json";
+import oneStar from "@/seeds/cars/L/Lamborghini/B/Temerario/deltas/imports/1star.json";
+import twoStar from "@/seeds/cars/L/Lamborghini/B/Temerario/deltas/imports/2star.json";
+import threeStar from "@/seeds/cars/L/Lamborghini/B/Temerario/deltas/imports/3star.json";
+import fourStar from "@/seeds/cars/L/Lamborghini/B/Temerario/deltas/imports/4star.json";
+import fiveStar from "@/seeds/cars/L/Lamborghini/B/Temerario/deltas/imports/5star.json";
+import sixStar from "@/seeds/cars/L/Lamborghini/B/Temerario/deltas/imports/6star.json";
 
 export default { importDeltas: { oneStar, twoStar, threeStar, fourStar, fiveStar, sixStar } };

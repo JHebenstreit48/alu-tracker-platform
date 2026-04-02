@@ -1,0 +1,19 @@
+{
+  "id": 5,
+  "image": "/images/cars/P/Porsche/91150yearsporschedesign.webp",
+  "class": "C",
+  "brand": "Porsche",
+  "model": "911 50 Years Porsche Design",
+  "normalizedKey": "porsche_911_50_years_porsche_design",
+  "status": "in progress",
+  "messages": "Still adding data",
+  "sources": ["Asphalt Fandom Wiki", "MEI"],
+  "rarity": "Rare",
+  "stars": 4,
+  "country": "Germany",
+  "obtainableVia": ["Porsche of Legends Update"],
+  "blueprints1Star": 50,
+  "blueprints2Star": 29,
+  "blueprints3Star": 38,
+  "blueprints4Star": 48
+}

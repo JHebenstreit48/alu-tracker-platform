@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "image": "/images/cars/M/Mazda/furai.webp",
+  "class": "D",
+  "brand": "Mazda",
+  "model": "Furai",
+  "normalizedKey": "mazda_furai",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
+  "rarity": "Rare",
+  "stars": 4,
+  "country": "Japan",
+  "epics": 4,
+  "obtainableVia": ["Garage Level 6"],
+  "added": "Godly Beasts",
+  "addedWith": null,
+  "addedDate": "10/12/2019",
+  "blueprints1Star": 30,
+  "blueprints2Star": 23,
+  "blueprints3Star": 33,
+  "blueprints4Star": 42
+}

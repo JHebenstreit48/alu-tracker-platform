@@ -1,0 +1,23 @@
+{
+  "id": 6,
+  "image": "/images/cars/P/Porsche/911gt3rrennsport.webp",
+  "class": "C",
+  "brand": "Porsche",
+  "model": "911 GT3 R Rennsport",
+  "normalizedKey": "porsche_911_gt3_r_rennsport",
+  "status": "in progress",
+  "messages": "Still adding data",
+  "sources": ["MEI"],
+  "rarity": "Epic",
+  "stars": 5,
+  "country": "Germany",
+  "obtainableVia": [],
+  "added": "",
+  "addedWith": "",
+  "addedDate": "30/03/2026",
+  "blueprints1Star": 20,
+  "blueprints2Star": 0,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0
+}

@@ -1,4 +1,4 @@
-import importDeltas from "@/seeds/cars/L/Lamborghini/B/revuelto/deltas/imports";
-import stageDeltas from "@/seeds/cars/L/Lamborghini/B/revuelto/deltas/stages";
+import importDeltas from "@/seeds/cars/L/Lamborghini/B/Revuelto/deltas/imports";
+import stageDeltas from "@/seeds/cars/L/Lamborghini/B/Revuelto/deltas/stages";
 
 export default { ...importDeltas, ...stageDeltas };
