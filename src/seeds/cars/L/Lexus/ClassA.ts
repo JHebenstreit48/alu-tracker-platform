@@ -1,3 +1,3 @@
-import electrifiedSportConcept from '@/seeds/cars/L/Lexus/A/electrifiedSportConcept.json';
+import electrifiedSportConcept from '@/seeds/cars/L/Lexus/A/ElectrifiedSportConcept';
 
 export default [electrifiedSportConcept]

@@ -5,17 +5,17 @@
   "brand": "LEGO Technic",
   "model": "Lamborghini Revuelto",
   "normalizedKey": "lego_technic_lamborghini_revuelto",
-  "status": "still missing data",
-  "message": "Cannot find data on this car in any source yet.",
-  "sources": [
-    ""
-  ],
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "blueprints1Star": "Unknown",
-  "blueprints2Star": "Unknown",
-  "blueprints3Star": "Unknown",
-  "blueprints4Star": "Unknown",
-  "blueprints5Star": "Unknown",
-  "blueprints6Star": "Unknown"
+  "country": "Italy",
+  "obtainableVia": [],
+  "blueprints1Star": 25,
+  "blueprints2Star": 30,
+  "blueprints3Star": 35,
+  "blueprints4Star": 40,
+  "blueprints5Star": 50,
+  "blueprints6Star": 60
 }
