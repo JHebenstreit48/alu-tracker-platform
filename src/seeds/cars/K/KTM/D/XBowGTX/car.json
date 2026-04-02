@@ -4,6 +4,10 @@
   "class": "D",
   "brand": "KTM",
   "model": "X-Bow GTX",
+  "normalizedKey": "ktm_x_bow_gtx",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Uncommon",
   "stars": 3,
   "country": "Austria",
@@ -14,14 +18,5 @@
   "addedDate": "30/03/2023",
   "blueprints1Star": 30,
   "blueprints2Star": 23,
-  "blueprints3Star": 54,
-  "gold": {
-    "gold": {
-      "rank": 1738,
-      "topSpeed": 247.5,
-      "acceleration": 83.84,
-      "handling": 64.99,
-      "nitro": 66.99
-    }
-  }
+  "blueprints3Star": 54
 }
