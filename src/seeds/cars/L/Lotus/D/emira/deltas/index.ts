@@ -1,4 +1,4 @@
-import importDeltas from "@/seeds/cars/L/Lotus/D/emira/deltas/imports";
-import stageDeltas from "@/seeds/cars/L/Lotus/D/emira/deltas/stages";
+import importDeltas from "@/seeds/cars/L/Lotus/D/Emira/deltas/imports";
+import stageDeltas from "@/seeds/cars/L/Lotus/D/Emira/deltas/stages";
 
 export default { ...importDeltas, ...stageDeltas };
