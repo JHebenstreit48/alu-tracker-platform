@@ -56,6 +56,18 @@
     "pull:submissions": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/pullApprovedSubmissions.ts",
     "pull:submissions:dry": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/pullApprovedSubmissions.ts --dry",
 
+    "scaffold:car": "ts-node -r tsconfig-paths/register src/scripts/maintenance/scaffoldCar.ts",
+    "scaffold:car:dry": "ts-node -r tsconfig-paths/register src/scripts/maintenance/scaffoldCar.ts --dry",
+    "scaffold:car:fix": "ts-node -r tsconfig-paths/register src/scripts/maintenance/scaffoldCar.ts --fix",
+    "scaffold:car:fix:dry": "ts-node -r tsconfig-paths/register src/scripts/maintenance/scaffoldCar.ts --fix --dry",
+
+    "repair:car": "ts-node -r tsconfig-paths/register src/scripts/maintenance/repairCar.ts",
+    "repair:car:dry": "ts-node -r tsconfig-paths/register src/scripts/maintenance/repairCar.ts --dry",
+    "repair:car:report": "ts-node -r tsconfig-paths/register src/scripts/maintenance/repairCar.ts --report",
+    "repair:car:all": "ts-node -r tsconfig-paths/register src/scripts/maintenance/repairCar.ts --all",
+    "repair:car:all:dry": "ts-node -r tsconfig-paths/register src/scripts/maintenance/repairCar.ts --all --dry",
+    "repair:car:all:report": "ts-node -r tsconfig-paths/register src/scripts/maintenance/repairCar.ts --all --report",
+
     "ts": "ts-node",
     "build": "tsc",
     "start:dev": "npm run start:watch"

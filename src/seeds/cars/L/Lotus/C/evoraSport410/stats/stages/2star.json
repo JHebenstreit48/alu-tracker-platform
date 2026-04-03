@@ -1,6 +1,22 @@
 [
   {
-    "stage": 2,
+    "stage": 6,
+    "rank": 0,
+    "topSpeed": 0,
+    "acceleration": 0,
+    "handling": 0,
+    "nitro": 0
+  },
+  {
+    "stage": 7,
+    "rank": 0,
+    "topSpeed": 0,
+    "acceleration": 0,
+    "handling": 0,
+    "nitro": 0
+  },
+  {
+    "stage": 8,
     "rank": 0,
     "topSpeed": 0,
     "acceleration": 0,
