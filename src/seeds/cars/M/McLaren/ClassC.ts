@@ -1,3 +1,3 @@
-import gt from '@/seeds/cars/M/McLaren/C/gt.json';
+import gt from '@/seeds/cars/M/McLaren/C/GT';
 
 export default [gt];

@@ -14,7 +14,11 @@
     "nitro": 45.75
   },
   "threeStar": {
-    "rank": 3296
+    "rank": 3296,
+    "topSpeed": 0,
+    "acceleration": 0,
+    "handling": 0,
+    "nitro": 0
   },
   "fourStar": {
     "rank": 0,

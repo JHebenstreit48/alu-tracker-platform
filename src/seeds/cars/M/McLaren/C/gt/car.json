@@ -4,11 +4,15 @@
   "class": "C",
   "brand": "McLaren",
   "model": "GT",
+  "normalizedKey": "mclaren_gt",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 5,
   "country": "United Kingdom",
   "epics": 8,
-  "obtainableVia": null,
+  "obtainableVia": [],
   "added": "British Tour",
   "addedWith": "Tour",
   "addedDate": "07/02/2022",
@@ -16,7 +20,5 @@
   "blueprints2Star": 15,
   "blueprints3Star": 21,
   "blueprints4Star": 28,
-  "blueprints5Star": 35,
-  "Total upgrade cost": null,
-  "Total GL points": null
+  "blueprints5Star": 35
 }

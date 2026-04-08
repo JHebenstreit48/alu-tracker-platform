@@ -4,12 +4,16 @@
   "class": "C",
   "brand": "Maserati",
   "model": "MC12",
+  "normalizedKey": "maserati_mc12",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 5,
   "keyCar": true,
   "country": "Italy",
   "epics": 8,
-  "obtainableVia": null,
+  "obtainableVia": [],
   "added": "European Season (2023)",
   "addedWith": null,
   "addedDate": "30/03/2023",
@@ -17,6 +21,5 @@
   "blueprints2Star": 25,
   "blueprints3Star": 32,
   "blueprints4Star": 36,
-  "blueprints5Star": 41,
-  "Tags": null
+  "blueprints5Star": 41
 }

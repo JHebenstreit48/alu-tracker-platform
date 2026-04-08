@@ -1,6 +1,6 @@
-import car from '@/seeds/cars/M/McLaren/C/gt/car.json';
-import stats from '@/seeds/cars/M/McLaren/C/gt/stats';
-import upgrades from '@/seeds/cars/M/McLaren/C/gt/upgrades';
-import deltas from '@/seeds/cars/M/McLaren/C/gt/deltas';
+import car from '@/seeds/cars/M/McLaren/C/GT/car.json';
+import stats from '@/seeds/cars/M/McLaren/C/GT/stats';
+import upgrades from '@/seeds/cars/M/McLaren/C/GT/upgrades';
+import deltas from '@/seeds/cars/M/McLaren/C/GT/deltas';
 
 export default {...car, ...stats, ...upgrades, ...deltas};
