@@ -1,6 +1,6 @@
-import oneStar from "@/seeds/cars/L/Lotus/D/emeya/deltas/imports/1star.json";
-import twoStar from "@/seeds/cars/L/Lotus/D/emeya/deltas/imports/2star.json";
-import threeStar from "@/seeds/cars/L/Lotus/D/emeya/deltas/imports/3star.json";
-import fourStar from "@/seeds/cars/L/Lotus/D/emeya/deltas/imports/4star.json";
+import oneStar from "@/seeds/cars/L/Lotus/D/Emeya/deltas/imports/1star.json";
+import twoStar from "@/seeds/cars/L/Lotus/D/Emeya/deltas/imports/2star.json";
+import threeStar from "@/seeds/cars/L/Lotus/D/Emeya/deltas/imports/3star.json";
+import fourStar from "@/seeds/cars/L/Lotus/D/Emeya/deltas/imports/4star.json";
 
 export default { importDeltas: { oneStar, twoStar, threeStar, fourStar } };

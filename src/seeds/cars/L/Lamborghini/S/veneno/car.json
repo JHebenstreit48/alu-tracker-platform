@@ -4,13 +4,15 @@
   "class": "S",
   "brand": "Lamborghini",
   "model": "Veneno",
+  "normalizedKey": "lamborghini_veneno",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 6,
   "country": "Italy",
   "epics": 16,
-  "obtainableVia": [
-    "Career"
-  ],
+  "obtainableVia": ["Career", "Garage Level 51"],
   "added": "Lamborghini Season",
   "addedWith": "SE",
   "addedDate": "05/05/2020",
@@ -20,14 +22,6 @@
   "blueprints4Star": 25,
   "blueprints5Star": 38,
   "blueprints6Star": 48,
-  "Total upgrade cost": null,
-  "Total GL points": null,
   "Garage_Lvl": 51,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": "Europe",
-  "Unnamed: 16": "385,0",
-  "Total_BPs": 200,
-  "Unnamed: 32": 54148,
-  "Cost epic": 15000
+  "Tags": "Europe"
 }

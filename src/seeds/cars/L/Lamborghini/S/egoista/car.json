@@ -4,13 +4,15 @@
   "class": "S",
   "brand": "Lamborghini",
   "model": "Egoista",
+  "normalizedKey": "lamborghini_egoista",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 6,
   "country": "Italy",
   "epics": 16,
-  "obtainableVia": [
-    "Exclusive"
-  ],
+  "obtainableVia": ["Exclusive"],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",

@@ -4,10 +4,18 @@
   "class": "A",
   "brand": "McLaren",
   "model": "Sabre",
+  "normalizedKey": "mclaren_sabre",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["Asphalt Fandom Wiki"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "UK",
-  "obtainableVia": [
-    "Daily Events"
-  ]
+  "country": "United Kingdom",
+  "obtainableVia": ["Drive Syndicate - (Obsolete)", "Star Hunt - Daily Event"],
+  "blueprints1Star": 70,
+  "blueprints2Star": 23,
+  "blueprints3Star": 27,
+  "blueprints4Star": 36,
+  "blueprints5Star": 52,
+  "blueprints6Star": 59
 }

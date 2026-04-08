@@ -4,13 +4,15 @@
   "class": "C",
   "brand": "Maserati",
   "model": "Alfieri",
+  "normalizedKey": "maserati_alfieri",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
   "country": "Italy",
   "epics": 4,
-  "obtainableVia": [
-    "GL10"
-  ],
+  "obtainableVia": ["Garage Level 11"],
   "added": "Slipstream",
   "addedWith": null,
   "addedDate": "11/12/2018",
@@ -18,6 +20,5 @@
   "blueprints2Star": 10,
   "blueprints3Star": 20,
   "blueprints4Star": 32,
-  "Garage_Lvl": 11,
   "Tags": "Europe; Hybrid"
 }

@@ -5,11 +5,16 @@
   "brand": "LEGO Technic",
   "model": "Aston Martin Valkyrie",
   "normalizedKey": "lego_technic_aston_martin_valkyrie",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
-  "blueprints1Star": "Unknown",
-  "blueprints2Star": "Unknown",
-  "blueprints3Star": "Unknown",
-  "blueprints4Star": "Unknown",
-  "blueprints5Star": "Unknown"
+  "country": "United Kingdom",
+  "obtainableVia": [],
+  "blueprints1Star": 30,
+  "blueprints2Star": 35,
+  "blueprints3Star": 40,
+  "blueprints4Star": 45,
+  "blueprints5Star": 55
 }

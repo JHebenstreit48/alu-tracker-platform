@@ -6,15 +6,15 @@
   "model": "Ferrari FXXK",
   "normalizedKey": "lego_technic_ferrari_fxxk",
   "status": "in progress",
-  "message": "Missing data",
-  "sources": [
-    "MEI"
-  ],
+  "message": "Still adding data",
+  "sources": ["Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
-  "blueprints1Star": "Unknown",
-  "blueprints2Star": "Unknown",
-  "blueprints3Star": "Unknown",
-  "blueprints4Star": "Unknown",
-  "blueprints5Star": "Unknown"
+  "country": "Italy",
+  "obtainableVia": [],
+  "blueprints1Star": 30,
+  "blueprints2Star": 35,
+  "blueprints3Star": 40,
+  "blueprints4Star": 45,
+  "blueprints5Star": 55
 }

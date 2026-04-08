@@ -1,3 +1,3 @@
-import evoraSport410 from '@/seeds/cars/L/Lotus/C/evoraSport410.json';
+import evoraSport410 from '@/seeds/cars/L/Lotus/C/EvoraSport410';
 
 export default [evoraSport410];

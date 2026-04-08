@@ -4,13 +4,15 @@
   "class": "D",
   "brand": "Lotus",
   "model": "Emira",
+  "normalizedKey": "lotus_emira",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "UK",
+  "country": "United Kingdom",
   "epics": 4,
-  "obtainableVia": [
-    "Showroom"
-  ],
+  "obtainableVia": ["Showroom", "Garage Level 22"],
   "added": "British Tour",
   "addedWith": "Car Hunt",
   "addedDate": "07/02/2022",
@@ -18,6 +20,5 @@
   "blueprints2Star": 23,
   "blueprints3Star": 33,
   "blueprints4Star": 42,
-  "Garage_Lvl": 22,
   "Tags": "Europe; Super Car"
 }

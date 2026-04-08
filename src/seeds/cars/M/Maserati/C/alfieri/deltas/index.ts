@@ -1,4 +1,4 @@
-import importDeltas from "@/seeds/cars/M/Maserati/C/alfieri/deltas/imports";
-import stageDeltas from "@/seeds/cars/M/Maserati/C/alfieri/deltas/stages";
+import importDeltas from "@/seeds/cars/M/Maserati/C/Alfieri/deltas/imports";
+import stageDeltas from "@/seeds/cars/M/Maserati/C/Alfieri/deltas/stages";
 
 export default { ...importDeltas, ...stageDeltas };
