@@ -1,3 +1,3 @@
-import zGt4 from '@/seeds/cars/N/Nissan/C/zGt4.json';
+import zGt4 from '@/seeds/cars/N/Nissan/C/ZGT4';
 
 export default [zGt4];

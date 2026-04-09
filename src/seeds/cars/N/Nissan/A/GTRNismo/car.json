@@ -7,6 +7,7 @@
   "normalizedKey": "nissan_gt_r_nismo",
   "status": "In Progress",
   "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
   "country": "Japan",
