@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "image": "/images/cars/N/Nissan/370znismo.webp",
+  "class": "D",
+  "brand": "Nissan",
+  "model": "370Z Nismo",
+  "normalizedKey": "nissan_370z_nismo",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
+  "rarity": "Uncommon",
+  "stars": 3,
+  "country": "Japan",
+  "epics": 0,
+  "obtainableVia": ["Garage Level 2"],
+  "added": "Soft Launch",
+  "addedWith": null,
+  "addedDate": "26/02/2018",
+  "blueprints1Star": 10,
+  "blueprints2Star": 12,
+  "blueprints3Star": 30,
+  "Tags": "Asia"
+}

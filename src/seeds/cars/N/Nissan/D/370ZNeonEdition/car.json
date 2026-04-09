@@ -1,0 +1,23 @@
+{
+  "id": 3,
+  "image": "/images/cars/N/Nissan/370zneonedition.webp",
+  "class": "D",
+  "brand": "Nissan",
+  "model": "370Z Neon Edition",
+  "normalizedKey": "nissan_370z_neon_edition",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
+  "rarity": "Rare",
+  "stars": 4,
+  "country": "Japan",
+  "epics": 4,
+  "obtainableVia": [],
+  "added": "Racing Through Fire",
+  "addedWith": "Drive Syndicate",
+  "addedDate": "24/07/2023",
+  "blueprints1Star": 30,
+  "blueprints2Star": 23,
+  "blueprints3Star": 33,
+  "blueprints4Star": 42
+}
