@@ -1,0 +1,33 @@
+{
+  "id": 5,
+  "image": "/images/cars/P/Pagani/zondar.webp",
+  "class": "A",
+  "brand": "Pagani",
+  "model": "Zonda R",
+  "normalizedKey": "pagani_zonda_r",
+  "status": "in progress",
+  "message": "Still adding data",
+  "rarity": "Epic",
+  "stars": 6,
+  "keyCar": true,
+  "country": "Italy",
+  "epics": 16,
+  "obtainableVia": [
+    "Special Event Car Hunt"
+  ],
+  "added": "Festive Season",
+  "addedWith": "GP",
+  "addedDate": "16/12/2021",
+  "blueprints1Star": 0,
+  "blueprints2Star": 28,
+  "blueprints3Star": 32,
+  "blueprints4Star": 44,
+  "blueprints5Star": 59,
+  "blueprints6Star": 86,
+  "Total upgrade cost": null,
+  "Total GL points": null,
+  "Garage_Lvl": null,
+  "Nitro_TS": null,
+  "Perfect_Nitro_TS": null,
+  "Tags": "Europe"
+}
