@@ -1,7 +1,7 @@
 import {
   USE_FIREBASE_STORAGE_IMAGES,
   IMAGE_BASE_URL,
-} from "@/scripts/DatabaseImports/Cars/seedConfig";
+} from "@/utils/scripts/carData/seedConfig";
 
 export function resolveImagePath(
   rel?: string | null

@@ -15,22 +15,27 @@ function hasFlag(name: string): boolean {
 }
 
 const dry = hasFlag('dry');
+const allFlag = hasFlag('all');
 const keysArg = getArg('keys');
 const brandArg = getArg('brand');
 const letterArg = getArg('letter');
 
-if (!keysArg && !brandArg && !letterArg) {
+if (!keysArg && !brandArg && !letterArg && !allFlag) {
   console.error('❌ Provide at least one filter:');
   console.error('   --keys=<normalizedKey1,normalizedKey2>');
   console.error('   --brand=<BrandName>');
   console.error('   --letter=<A-Z>');
+  console.error('   --all  (scan entire seeds folder)');
   console.error('   --dry  (add to any command to preview without writing files)');
   process.exit(1);
 }
 
 let filterFn: FilterFn;
 
-if (keysArg) {
+if (allFlag) {
+  filterFn = () => true;
+  console.log(`\n🌐 Scanning ALL cars`);
+} else if (keysArg) {
   const keys = new Set(keysArg.split(',').map((s) => s.trim()));
   filterFn = (_, data) => keys.has(data.normalizedKey ?? '');
   console.log(`\n🔑 Filtering by normalizedKey: ${[...keys].join(', ')}`);

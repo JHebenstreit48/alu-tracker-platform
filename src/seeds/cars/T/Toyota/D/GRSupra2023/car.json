@@ -1,0 +1,19 @@
+{
+  "id": 1,
+  "image": "/images/cars/T/Toyota/grsupra2023.webp",
+  "class": "D",
+  "brand": "Toyota",
+  "model": "GR Supra 2023",
+  "normalizedKey": "toyota_gr_supra_2023",
+  "status": "in progress",
+  "message": "still adding data",
+  "sources": ["MEI", "My own in-game research"],
+  "rarity": "Rare",
+  "stars": 4,
+  "country": "Japan",
+  "obtainableVia": ["Season Pass"],
+  "blueprints1Star": 15,
+  "blueprints2Star": 25,
+  "blueprints3Star": 35,
+  "blueprints4Star": 50
+}

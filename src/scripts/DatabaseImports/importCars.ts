@@ -8,9 +8,9 @@ import {
   isCarFolderIndexTs,
   isSplitPartJson,
   parseBrandAndClass,
-} from "@/scripts/DatabaseImports/Cars/seedFs";
-import { logConfig } from "@/scripts/DatabaseImports/Cars/seedConfig";
-import { buildBuckets, applyBuckets } from "@/scripts/DatabaseImports/Cars/seedBuckets";
+} from "@/utils/scripts/carData/seedFs";
+import { logConfig } from "@/utils/scripts/carData/seedConfig";
+import { buildBuckets, applyBuckets } from "@/utils/scripts/carData/seedBuckets";
 
 (async function main(): Promise<void> {
   const quiet = process.env.SEED_QUIET === "1";
@@ -32,31 +32,17 @@ import { buildBuckets, applyBuckets } from "@/scripts/DatabaseImports/Cars/seedB
   const files: string[] = [];
 
   for (const f of allFiles) {
-    if (isCarFolderIndexTs(f)) {
-      files.push(f);
-      continue;
-    }
-
-    // Never treat split parts as standalone seeds
+    if (isCarFolderIndexTs(f)) { files.push(f); continue; }
     if (isSplitPartJson(f)) continue;
 
     const { brand, klass } = parseBrandAndClass(f);
-
-    if (!brand || !klass) {
-      files.push(f);
-      continue;
-    }
+    if (!brand || !klass) { files.push(f); continue; }
 
     const key = `${brand}::${klass}`;
-
-    if (isTsCollector(f)) {
-      files.push(f);
-      continue;
-    }
+    if (isTsCollector(f)) { files.push(f); continue; }
 
     if (isJson(f)) {
       const base = f.split(/[\\/]/).pop()!.toLowerCase();
-
       if (/^class[a-z]\.json$/.test(base)) {
         if (!collectorSet.has(key) || includeClassJson) files.push(f);
       } else {

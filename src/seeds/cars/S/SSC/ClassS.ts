@@ -1,5 +1,5 @@
-import tuatara from '@/seeds/cars/S/SSC/S/tuatara.json';
-import tuataraStriker from '@/seeds/cars/S/SSC/S/tuataraStriker.json';
-import ultimateAeroTt from '@/seeds/cars/S/SSC/S/ultimateAeroTt.json';
+import tuatara from '@/seeds/cars/S/SSC/S/Tuatara';
+import tuataraStriker from '@/seeds/cars/S/SSC/S/TuataraStriker';
+import ultimateAeroTt from '@/seeds/cars/S/SSC/S/UltimateAeroTT';
 
 export default [tuatara, tuataraStriker, ultimateAeroTt];

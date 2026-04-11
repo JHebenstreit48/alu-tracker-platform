@@ -1,7 +1,7 @@
 import * as path from "node:path";
 import * as fs from "node:fs";
 import { findCarFolders, repairCarFolder } from "@/scripts/maintenance/carDataRepair/repairFiles";
-import type { RepairArgs } from "@/types/scripts/repairCar/index";
+import type { RepairArgs } from "@/types/scripts/maintenance/repairCar/index";
 
 function parseArgs(argv: string[]): RepairArgs | null {
   const args: Record<string, string | boolean> = {};

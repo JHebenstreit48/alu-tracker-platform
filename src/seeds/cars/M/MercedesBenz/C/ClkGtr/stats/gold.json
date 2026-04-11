@@ -3,5 +3,12 @@
   "topSpeed": 332.7,
   "acceleration": 78.92,
   "handling": 70.49,
-  "nitro": 57.24
+  "nitro": 57.24,
+  "gold": {
+    "rank": 0,
+    "topSpeed": 0,
+    "acceleration": 0,
+    "handling": 0,
+    "nitro": 0
+  }
 }

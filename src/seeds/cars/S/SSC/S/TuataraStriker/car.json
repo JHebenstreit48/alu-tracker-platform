@@ -1,0 +1,21 @@
+{
+  "id": 2,
+  "image": "/images/cars/S/SSC/tuatarastriker.webp",
+  "class": "S",
+  "brand": "SSC",
+  "model": "Tuatara Striker",
+  "normalizedKey": "ssc_tuatara_striker",
+  "status": "in progress",
+  "message": "still missing data",
+  "sources": ["MEI"],
+  "rarity": "Epic",
+  "stars": 6,
+  "keyCar": true,
+  "country": "USA",
+  "blueprints1Star": 0,
+  "blueprints2Star": 40,
+  "blueprints3Star": 45,
+  "blueprints4Star": 60,
+  "blueprints5Star": 70,
+  "blueprints6Star": 85
+}

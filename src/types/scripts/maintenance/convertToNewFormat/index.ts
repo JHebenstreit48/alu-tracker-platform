@@ -1,4 +1,6 @@
-export type StarCount = 3 | 4 | 5 | 6;
+import type { StarCount } from '@/types/scripts/carData';
+
+export type { StarCount };
 
 export interface CarJsonData {
   id: number;

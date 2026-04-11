@@ -1,4 +1,4 @@
-import type { StarCount, StageRange } from "@/types/scripts/repairCar/index";
+import type { StarCount, StageRange } from "@/types/scripts/maintenance/repairCar/index";
 import {
   getStageRanges,
   getImportStages,

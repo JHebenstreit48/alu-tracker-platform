@@ -9,9 +9,9 @@ import {
   isCarFolderIndexTs,
   isSplitPartJson,
   parseBrandAndClass,
-} from "@/scripts/DatabaseImports/Cars/seedFs";
-import { logConfig } from "@/scripts/DatabaseImports/Cars/seedConfig";
-import { buildBuckets, applyBuckets } from "@/scripts/DatabaseImports/Cars/seedBuckets";
+} from "@/utils/scripts/carData/seedFs";
+import { logConfig } from "@/utils/scripts/carData/seedConfig";
+import { buildBuckets, applyBuckets } from "@/utils/scripts/carData/seedBuckets";
 
 function getArg(name: string): string | undefined {
   const hit = process.argv.find((a) => a.startsWith(`--${name}=`));
@@ -25,11 +25,7 @@ function parseKeys(keysArg?: string): string[] {
 
 function readKeysFile(filePath: string): string[] {
   const txt = fs.readFileSync(filePath, "utf8");
-  return txt
-    .split(/\r?\n/g)
-    .map((s) => s.trim())
-    .filter(Boolean)
-    .filter((s) => !s.startsWith("#"));
+  return txt.split(/\r?\n/g).map((s) => s.trim()).filter(Boolean).filter((s) => !s.startsWith("#"));
 }
 
 (async function main(): Promise<void> {
@@ -64,26 +60,14 @@ function readKeysFile(filePath: string): string[] {
 
   const files: string[] = [];
   for (const f of allFiles) {
-    if (isCarFolderIndexTs(f)) {
-      files.push(f);
-      continue;
-    }
-
-    // Never treat split parts as standalone seeds
+    if (isCarFolderIndexTs(f)) { files.push(f); continue; }
     if (isSplitPartJson(f)) continue;
 
     const { brand, klass } = parseBrandAndClass(f);
-    if (!brand || !klass) {
-      files.push(f);
-      continue;
-    }
+    if (!brand || !klass) { files.push(f); continue; }
 
     const bucketKey = `${brand}::${klass}`;
-
-    if (isTsCollector(f)) {
-      files.push(f);
-      continue;
-    }
+    if (isTsCollector(f)) { files.push(f); continue; }
 
     if (isJson(f)) {
       const base = f.split(/[\\/]/).pop()!.toLowerCase();

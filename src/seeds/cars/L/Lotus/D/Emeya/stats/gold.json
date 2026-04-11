@@ -1,5 +1,9 @@
 {
   "gold": {
-    "rank": 2873
+    "rank": 2873,
+    "topSpeed": 0,
+    "acceleration": 0,
+    "handling": 0,
+    "nitro": 0
   }
 }

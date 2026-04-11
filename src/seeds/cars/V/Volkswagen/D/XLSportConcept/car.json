@@ -1,0 +1,22 @@
+{
+  "id": 1,
+  "image": "/images/cars/V/Volkswagen/xlsportconcept.webp",
+  "class": "D",
+  "brand": "Volkswagen",
+  "model": "XL Sport Concept",
+  "normalizedKey": "volkswagen_xl_sport_concept",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
+  "rarity": "Uncommon",
+  "stars": 3,
+  "epics": 0,
+  "obtainableVia": ["Garage Level 3"],
+  "added": "Soft Launch",
+  "addedWith": null,
+  "addedDate": "26/02/2018",
+  "blueprints1Star": 20,
+  "blueprints2Star": 12,
+  "blueprints3Star": 30,
+  "Tags": "Europe"
+}

@@ -1,6 +1,17 @@
 {
   "perCardByStage": {
-    "3": {
+    "3": {},
+    "6": {
+      "uncommon": 0
+    },
+    "8": {
+      "uncommon": 0
+    },
+    "10": {
+      "uncommon": 0
+    },
+    "12": {
+      "uncommon": 0
     }
   }
 }

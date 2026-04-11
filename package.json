@@ -10,13 +10,6 @@
     "seed:cars": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCars.ts",
     "seed:cars:selected": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCarsSelected.ts",
 
-    "seed:cars:v2": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCarsV2.ts",
-    "seed:cars:selected:v2": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCarsSelectedV2.ts",
-
-    "seed:prune:legacy-stats": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Cars/pruneLegacyStats.ts",
-    "seed:prune:legacy-stats:all": "npm run seed:prune:legacy-stats -- --all",
-    "seed:prune:legacy-stats:all:apply": "npm run seed:prune:legacy-stats -- --all --apply",
-
     "seed:images": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importCarImages.ts",
     "seed:brands": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importBrands.ts",
     "seed:garage-levels": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importGarageLevels.ts",
@@ -28,23 +21,16 @@
     "seed:normalize": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Cars/seedNormalize.ts",
     "seed:normalize:apply": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/Cars/seedNormalize.ts --apply",
 
-    "legacy:one": "ts-node -r tsconfig-paths/register src/scripts/maintenance/legacyToNested.ts",
-    "legacy:scan": "ts-node -r tsconfig-paths/register src/scripts/maintenance/legacyToNested.ts",
-    "legacy:scan:dry": "ts-node -r tsconfig-paths/register src/scripts/maintenance/legacyToNested.ts --dry",
-
     "seed:icons": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importIcons.ts",
     "seed:logos": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importLogos.ts",
-
-    "progress:cars": "ts-node -r tsconfig-paths/register src/scripts/carConversionProgress.ts",
-    "progress:cars:list": "ts-node -r tsconfig-paths/register src/scripts/carConversionProgress.ts --legacy",
 
     "ping:firebase": "ts-node -r tsconfig-paths/register src/scripts/pingFirestore.ts",
     "seed:diagnose": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/diagnoseCarSet.ts",
 
     "check:normalized-keys": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/checkNormalizedKeys.ts",
 
-    "convert:car": "ts-node -r tsconfig-paths/register src/scripts/maintenance/convertToNewFormat.ts",
-    "convert:car:dry": "ts-node -r tsconfig-paths/register src/scripts/maintenance/convertToNewFormat.ts --dry",
+    "convert:car:all": "ts-node -r tsconfig-paths/register src/scripts/maintenance/convertToNewFormat.ts --all",
+    "convert:car:all:dry": "ts-node -r tsconfig-paths/register src/scripts/maintenance/convertToNewFormat.ts --all --dry",
 
     "fill:stage-stats": "ts-node -r tsconfig-paths/register src/scripts/Placeholders/fillStageStats.ts",
     "fill:stage-stats:apply": "ts-node -r tsconfig-paths/register src/scripts/Placeholders/fillStageStats.ts --apply",
@@ -69,8 +55,7 @@
     "repair:car:all:report": "ts-node -r tsconfig-paths/register src/scripts/maintenance/repairCar.ts --all --report",
 
     "ts": "ts-node",
-    "build": "tsc",
-    "start:dev": "npm run start:watch"
+    "build": "tsc"
   },
   "author": "Justin Hebenstreit",
   "license": "MIT",

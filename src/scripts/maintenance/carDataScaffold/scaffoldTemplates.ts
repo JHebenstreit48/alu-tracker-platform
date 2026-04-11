@@ -1,4 +1,4 @@
-import type { CarMeta } from "@/types/scripts/scaffoldCar/index";
+import type { CarMeta } from "@/types/scripts/maintenance/scaffoldCar/index";
 
 const STAR_NAMES = [
   "oneStar", "twoStar", "threeStar",
