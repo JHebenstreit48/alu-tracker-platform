@@ -1,4 +1,4 @@
-import xlSportConcept from '@/seeds/cars/V/Volkswagen/D/xlSportConcept.json';
-import electricR from '@/seeds/cars/V/Volkswagen/D/electricR.json';
+import xlSportConcept from '@/seeds/cars/V/Volkswagen/D/XLSportConcept';
+import electricR from '@/seeds/cars/V/Volkswagen/D/ElectricR';
 
 export default [xlSportConcept, electricR];

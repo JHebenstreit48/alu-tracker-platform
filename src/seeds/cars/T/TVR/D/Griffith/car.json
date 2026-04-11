@@ -4,13 +4,15 @@
   "class": "D",
   "brand": "TVR",
   "model": "Griffith",
+  "normalizedKey": "tvr_griffith",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
   "country": "United Kingdom",
   "epics": 4,
-  "obtainableVia": [
-    "Garage Level 5"
-  ],
+  "obtainableVia": ["Garage Level 5"],
   "added": "Tune It Up",
   "addedWith": null,
   "addedDate": "27/07/2019",

@@ -7,6 +7,7 @@
   "normalizedKey": "ssc_tuatara_striker",
   "status": "in progress",
   "message": "still missing data",
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,

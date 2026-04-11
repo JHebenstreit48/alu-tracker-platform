@@ -1,3 +1,3 @@
-import griffith from '@/seeds/cars/T/TVR/D/griffith.json';
+import griffith from '@/seeds/cars/T/TVR/D/Griffith';
 
 export default [griffith]

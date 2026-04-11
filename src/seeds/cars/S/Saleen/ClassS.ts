@@ -1,3 +1,3 @@
-import s7TwinTurbo from '@/seeds/cars/S/Saleen/S/s7TwinTurbo.json';
+import s7TwinTurbo from '@/seeds/cars/S/Saleen/S/S7TwinTurbo';
 
 export default [s7TwinTurbo];

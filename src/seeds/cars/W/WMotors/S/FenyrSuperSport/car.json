@@ -5,11 +5,14 @@
   "brand": "W Motors",
   "model": "Fenyr SuperSport",
   "normalizedKey": "w_motors_fenyr_supersport",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 6,
   "country": "UAE",
   "epics": 16,
-  "obtainableVia": null,
+  "obtainableVia": [],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
@@ -19,11 +22,5 @@
   "blueprints4Star": 25,
   "blueprints5Star": 38,
   "blueprints6Star": 48,
-  "Total upgrade cost": null,
-  "Total GL points": null,
-  "Garage_Lvl": null,
-  "Nitro_TS": null,
-  "Perfect_Nitro_TS": null,
-  "Tags": "Asia; Hyper",
-  "Unnamed: 16": "433,6"
+  "Tags": "Asia; Hyper"
 }

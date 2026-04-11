@@ -7,12 +7,11 @@
   "normalizedKey": "toyota_gr_supra_racing_concept",
   "status": "in progress",
   "message": "still adding data",
+  "sources": ["My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
   "country": "Japan",
-  "obtainableVia": [
-    "Season Pass"
-  ],
+  "obtainableVia": ["Season Pass"],
   "blueprints1Star": 15,
   "blueprints2Star": 20,
   "blueprints3Star": 25,

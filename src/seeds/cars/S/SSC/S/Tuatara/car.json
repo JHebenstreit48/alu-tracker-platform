@@ -5,15 +5,14 @@
   "brand": "SSC",
   "model": "Tuatara",
   "normalizedKey": "ssc_tuatara",
-  "status": "in progress",
-  "message": "temporarily complete",
-  "sources": [
-    "MEI"
-  ],
+  "status": "complete",
+  "message": "Complete until I add stages",
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
   "country": "USA",
+  "obtainableVia": ["Special Events"],
   "epics": 16,
   "added": "American Season",
   "addedWith": "SE",
@@ -23,6 +22,5 @@
   "blueprints3Star": 45,
   "blueprints4Star": 60,
   "blueprints5Star": 70,
-  "blueprints6Star": 85,
-  "Tags": null
+  "blueprints6Star": 85
 }

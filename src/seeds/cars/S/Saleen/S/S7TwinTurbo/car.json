@@ -7,15 +7,13 @@
   "normalizedKey": "saleen_s7_twin_turbo",
   "status": "in progress",
   "message": "still adding data",
-  "sources": [
-    "MEI"
-  ],
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
   "country": "USA",
   "epics": 16,
-  "obtainableVia": null,
+  "obtainableVia": ["Special Events"],
   "added": "Hall of Flames",
   "addedWith": "SE",
   "addedDate": "24/07/2023",
