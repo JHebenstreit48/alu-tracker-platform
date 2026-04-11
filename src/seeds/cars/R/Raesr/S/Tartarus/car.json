@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "image": "/images/cars/R/Raesr/tartarus.webp",
+  "class": "S",
+  "brand": "Raesr",
+  "model": "Tartarus",
+  "normalizedKey": "raesr_tartarus",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
+  "rarity": "Epic",
+  "stars": 6,
+  "keyCar": true,
+  "country": "USA",
+  "epics": 16,
+  "obtainableVia": [],
+  "blueprints1Star": 0,
+  "blueprints2Star": 40,
+  "blueprints3Star": 45,
+  "blueprints4Star": 60,
+  "blueprints5Star": 70,
+  "blueprints6Star": 85
+}
