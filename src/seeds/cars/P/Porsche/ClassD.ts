@@ -1,6 +1,6 @@
-import nineElevenCarreraRs38 from '@/seeds/cars/P/Porsche/D/nineElevenCarreraRs38.json';
-import sevenEighteenCayman from '@/seeds/cars/P/Porsche/D/sevenEighteenCayman.json';
-import nineElevenTarga4S from '@/seeds/cars/P/Porsche/D/nineElevenTarga4S.json';
-import taycanTurboS from '@/seeds/cars/P/Porsche/D/taycanTurboS.json';
+import nineElevenCarreraRs38 from '@/seeds/cars/P/Porsche/D/911CarreraRS38';
+import sevenEighteenCayman from '@/seeds/cars/P/Porsche/D/718Cayman';
+import nineElevenTarga4S from '@/seeds/cars/P/Porsche/D/911Targa4S';
+import taycanTurboS from '@/seeds/cars/P/Porsche/D/TaycanTurboS';
 
 export default [nineElevenCarreraRs38, sevenEighteenCayman, nineElevenTarga4S, taycanTurboS];

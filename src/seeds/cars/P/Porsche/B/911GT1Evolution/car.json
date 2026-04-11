@@ -4,13 +4,15 @@
   "class": "B",
   "brand": "Porsche",
   "model": "911 GT1 Evolution",
+  "normalizedKey": "porsche_911_gt1_evolution",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
   "country": "Germany",
   "epics": 8,
-  "obtainableVia": [
-    "Car Hunt"
-  ],
+  "obtainableVia": ["Car Hunt", "Garage Level 44"],
   "added": "Porsche Season",
   "addedWith": null,
   "addedDate": "19/03/2020",
@@ -18,6 +20,5 @@
   "blueprints2Star": 35,
   "blueprints3Star": 44,
   "blueprints4Star": 54,
-  "Garage_Lvl": 44,
   "Tags": "Europe"
 }

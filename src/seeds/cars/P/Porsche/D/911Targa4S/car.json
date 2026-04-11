@@ -4,20 +4,21 @@
   "class": "D",
   "brand": "Porsche",
   "model": "911 Targa 4S",
+  "normalizedKey": "porsche_911_targa_4s",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
   "country": "Germany",
   "epics": 4,
-  "obtainableVia": [
-    "GL03"
-  ],
+  "obtainableVia": ["Garage Level 3"],
   "added": "Summer",
-  "addedWith": "DS",
+  "addedWith": "Drive Syndicate",
   "addedDate": "18/06/2019",
   "blueprints1Star": 30,
   "blueprints2Star": 23,
   "blueprints3Star": 33,
   "blueprints4Star": 42,
-  "Garage_Lvl": 3,
   "Tags": "Europe"
 }
