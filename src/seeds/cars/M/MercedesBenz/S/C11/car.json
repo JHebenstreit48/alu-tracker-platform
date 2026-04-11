@@ -1,0 +1,20 @@
+{
+  "id": 1,
+  "image": "/images/cars/M/MercedesBenz/c11.webp",
+  "class": "S",
+  "brand": "Mercedes-Benz",
+  "model": "C11",
+  "normalizedKey": "mercedes_benz_c11",
+  "status": "in progress",
+  "message": "Still adding data",
+  "rarity": "Epic",
+  "stars": 6,
+  "country": "Germany",
+  "obtainableVia": [""],
+  "blueprints1Star": 35,
+  "blueprints2Star": 0,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0,
+  "blueprints6Star": 0
+}

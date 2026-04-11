@@ -4,20 +4,21 @@
   "class": "D",
   "brand": "Porsche",
   "model": "Taycan Turbo S",
+  "normalizedKey": "porsche_taycan_turbo_s",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
   "country": "Germany",
   "epics": 4,
-  "obtainableVia": [
-    "Car Hunt"
-  ],
+  "obtainableVia": ["Car Hunt", "Legend Pass", "Garage Level 24"],
   "added": "Porsche Season",
-  "addedWith": "LP car",
+  "addedWith": "Legend Pass car",
   "addedDate": "19/03/2020",
   "blueprints1Star": 30,
   "blueprints2Star": 23,
   "blueprints3Star": 33,
   "blueprints4Star": 42,
-  "Garage_Lvl": 24,
   "Tags": "Electric; Europe"
 }

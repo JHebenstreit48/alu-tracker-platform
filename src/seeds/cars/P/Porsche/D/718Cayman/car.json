@@ -7,17 +7,12 @@
   "normalizedKey": "porsche_718_cayman",
   "status": "in progress",
   "message": "still adding data",
-  "sources": [
-    "MEI",
-    "Reddit users Google Sheets document."
-  ],
+  "sources": ["MEI", "Reddit users Google Sheets document."],
   "rarity": "Rare",
   "stars": 4,
   "country": "Germany",
   "epics": 4,
-  "obtainableVia": [
-    "Garage Level 4"
-  ],
+  "obtainableVia": ["Garage Level 4"],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",

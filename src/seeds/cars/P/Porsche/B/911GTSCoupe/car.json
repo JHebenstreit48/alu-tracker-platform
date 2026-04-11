@@ -4,19 +4,20 @@
   "class": "B",
   "brand": "Porsche",
   "model": "911 GTS Coupé",
+  "normalizedKey": "porsche_911_gts_coupe",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Uncommon",
   "stars": 3,
   "country": "Germany",
   "epics": 4,
-  "obtainableVia": [
-    "GL04"
-  ],
+  "obtainableVia": ["Garage Level 4"],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
   "blueprints1Star": 30,
   "blueprints2Star": 30,
   "blueprints3Star": 70,
-  "Garage_Lvl": 4,
   "Tags": "Europe; Super Car"
 }

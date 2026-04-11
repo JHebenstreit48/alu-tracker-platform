@@ -4,20 +4,20 @@
   "class": "C",
   "brand": "Pininfarina",
   "model": "H2 Speed",
+  "normalizedKey": "pininfarina_h2_speed",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
   "country": "Italy",
   "epics": 4,
-  "obtainableVia": [
-    "GL08"
-  ],
+  "obtainableVia": ["Garage Level 8"],
   "added": "Soft Launch",
   "addedWith": null,
   "addedDate": "26/02/2018",
   "blueprints1Star": 35,
   "blueprints2Star": 10,
   "blueprints3Star": 20,
-  "blueprints4Star": 32,
-  "Total upgrade cost": null,
-  "Total GL points": null
+  "blueprints4Star": 32
 }

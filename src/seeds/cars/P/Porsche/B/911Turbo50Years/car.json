@@ -4,7 +4,16 @@
   "class": "B",
   "brand": "Porsche",
   "model": "911 Turbo 50 Years",
+  "normalizedKey": "porsche_911_turbo_50_years",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "Germany"
+  "country": "Germany",
+  "obtainableVia": [""],
+  "blueprints1Star": 55,
+  "blueprints2Star": 35,
+  "blueprints3Star": 44,
+  "blueprints4Star": 54
 }

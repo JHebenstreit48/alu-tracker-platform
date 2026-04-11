@@ -4,17 +4,19 @@
   "class": "C",
   "brand": "Porsche",
   "model": "Boxster 25th",
+  "normalizedKey": "porsche_boxster_25th",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
   "rarity": "Uncommon",
   "stars": 3,
   "country": "Germany",
   "epics": 4,
-  "obtainableVia": null,
+  "obtainableVia": [],
   "added": "Winterfest",
   "addedWith": "LP",
   "addedDate": "12/12/2022",
   "blueprints1Star": 55,
   "blueprints2Star": 38,
-  "blueprints3Star": 90,
-  "Garage_Lvl": null,
-  "Tags": null
+  "blueprints3Star": 90
 }
