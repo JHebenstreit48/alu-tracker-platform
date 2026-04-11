@@ -1,3 +1,3 @@
-import rs01 from '@/seeds/cars/R/Renault/C/rs01.json';
+import rs01 from '@/seeds/cars/R/Renault/C/RS01';
 
 export default [rs01]
