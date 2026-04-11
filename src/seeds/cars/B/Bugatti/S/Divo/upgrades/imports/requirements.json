@@ -1,3 +1,124 @@
 {
-  "incrementalByStage": {}
+  "incrementalByStage": {
+    "3": {
+      "uncommon": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "rare": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "epic": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      }
+    },
+    "6": {
+      "uncommon": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "rare": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "epic": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      }
+    },
+    "8": {
+      "uncommon": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "rare": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "epic": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      }
+    },
+    "10": {
+      "uncommon": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "rare": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "epic": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      }
+    },
+    "12": {
+      "uncommon": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "rare": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "epic": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      }
+    },
+    "13": {
+      "uncommon": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "rare": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "epic": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      }
+    }
+  }
 }

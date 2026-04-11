@@ -1,6 +1,6 @@
 import * as path from "node:path";
 import { findCarFolders, readJson, scaffoldCarFolder } from "@/scripts/maintenance/carDataScaffold/scaffoldFiles";
-import type { ScaffoldArgs } from "@/types/scripts/scaffoldCar";
+import type { ScaffoldArgs } from "@/types/scripts/maintenance/scaffoldCar";
 
 function parseArgs(argv: string[]): ScaffoldArgs | null {
   const args: Record<string, string | boolean> = {};

@@ -1,6 +1,6 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
-import type { CarMeta, ScaffoldResult } from "@/types/scripts/scaffoldCar/index";
+import type { CarMeta, ScaffoldResult } from "@/types/scripts/maintenance/scaffoldCar/index";
 import { generateTemplates, isDataFile, isOutdated } from "@/scripts/maintenance/carDataScaffold/scaffoldTemplates";
 
 export function readJson(fp: string): Record<string, any> | null {

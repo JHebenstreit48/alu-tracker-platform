@@ -1,5 +1,9 @@
 {
   "stock": {
-    "rank": 4167
+    "rank": 4167,
+    "topSpeed": 0,
+    "acceleration": 0,
+    "handling": 0,
+    "nitro": 0
   }
 }

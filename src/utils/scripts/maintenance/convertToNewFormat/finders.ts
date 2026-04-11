@@ -9,13 +9,45 @@ export function isAlreadyConverted(flatJsonPath: string): boolean {
   return fs.existsSync(convertedCarJson);
 }
 
+function getStarCount(carFolderPath: string): number {
+  try {
+    const carJson = JSON.parse(fs.readFileSync(path.join(carFolderPath, 'car.json'), 'utf8'));
+    const stars = Number(carJson.stars);
+    if (stars >= 3 && stars <= 6) return stars;
+  } catch { /* fall through */ }
+  return 5; // default
+}
+
+function hasIncompleteStarFiles(dir: string, stars: number): boolean {
+  for (let i = 1; i <= stars; i++) {
+    if (!fs.existsSync(path.join(dir, `${i}star.json`))) return true;
+  }
+  return false;
+}
+
 export function isPartiallyConverted(carFolderPath: string): boolean {
   const hasCarJson = fs.existsSync(path.join(carFolderPath, 'car.json'));
   if (!hasCarJson) return false;
+
+  // Check for missing top level folders
   const missingDeltas = !fs.existsSync(path.join(carFolderPath, 'deltas'));
   const missingStatsStages = !fs.existsSync(path.join(carFolderPath, 'stats', 'stages'));
   const missingUpgrades = !fs.existsSync(path.join(carFolderPath, 'upgrades'));
-  return missingDeltas || missingStatsStages || missingUpgrades;
+
+  if (missingDeltas || missingStatsStages || missingUpgrades) return true;
+
+  // Check for incomplete star files inside existing folders
+  const stars = getStarCount(carFolderPath);
+
+  const deltasImportsDir = path.join(carFolderPath, 'deltas', 'imports');
+  const deltasStagesDir = path.join(carFolderPath, 'deltas', 'stages');
+  const statsStagesDir = path.join(carFolderPath, 'stats', 'stages');
+
+  return (
+    hasIncompleteStarFiles(deltasImportsDir, stars) ||
+    hasIncompleteStarFiles(deltasStagesDir, stars) ||
+    hasIncompleteStarFiles(statsStagesDir, stars)
+  );
 }
 
 export function findCarJsonFiles(seedsRoot: string, filterFn: FilterFn): string[] {

@@ -2,7 +2,7 @@ import "dotenv/config";
 import fs from "fs";
 import path from "path";
 import { adminBucket } from "@/Firebase/firebaseAdmin";
-import { PUBLIC_DIR, logConfig } from "./Cars/seedConfig";
+import { PUBLIC_DIR, logConfig } from "../../utils/scripts/carData/seedConfig";
 
 function* walk(dir: string): Generator<string> {
   if (!fs.existsSync(dir)) return;

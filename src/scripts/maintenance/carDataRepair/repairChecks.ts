@@ -1,4 +1,4 @@
-import type { StarCount, StageRange } from "@/types/scripts/repairCar/index";
+import type { StarCount, StageRange } from "@/types/scripts/maintenance/repairCar/index";
 
 const STAGE_CAPS: Record<number, Record<number, number>> = {
   3: { 1: 5, 2: 8,  3: 10 },

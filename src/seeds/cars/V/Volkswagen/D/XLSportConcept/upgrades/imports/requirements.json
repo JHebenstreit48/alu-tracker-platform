@@ -1,3 +1,64 @@
 {
-  "incrementalByStage": {}
+  "incrementalByStage": {
+    "5": {
+      "uncommon": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "rare": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "epic": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      }
+    },
+    "8": {
+      "uncommon": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "rare": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "epic": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      }
+    },
+    "10": {
+      "uncommon": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "rare": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      },
+      "epic": {
+        "topSpeed": 0,
+        "acceleration": 0,
+        "handling": 0,
+        "nitro": 0
+      }
+    }
+  }
 }

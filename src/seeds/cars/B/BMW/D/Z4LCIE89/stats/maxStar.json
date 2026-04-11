@@ -12,5 +12,12 @@
     "acceleration": 64.95,
     "handling": 44.22,
     "nitro": 52.77
+  },
+  "threeStar": {
+    "rank": 0,
+    "topSpeed": 0,
+    "acceleration": 0,
+    "handling": 0,
+    "nitro": 0
   }
 }

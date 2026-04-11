@@ -13,6 +13,14 @@
     "topSpeed": 434.8,
     "acceleration": 75.04,
     "handling": 40.63,
-    "nitro": 55.0
+    "nitro": 55
+  },
+  {
+    "stage": 3,
+    "rank": 0,
+    "topSpeed": 0,
+    "acceleration": 0,
+    "handling": 0,
+    "nitro": 0
   }
 ]

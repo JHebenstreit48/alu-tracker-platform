@@ -1,6 +1,6 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
-import type { RepairResult, StarCount } from "@/types/scripts/repairCar/index";
+import type { RepairResult, StarCount } from "@/types/scripts/maintenance/repairCar/index";
 import { getStageRanges, getImportStages, getStageCaps } from "@/scripts/maintenance/carDataRepair/repairChecks";
 import {
   repairStatsStagesFile,

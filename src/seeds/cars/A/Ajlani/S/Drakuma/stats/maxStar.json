@@ -33,5 +33,12 @@
     "acceleration": 80.89,
     "handling": 46.4,
     "nitro": 57.59
+  },
+  "sixStar": {
+    "rank": 0,
+    "topSpeed": 0,
+    "acceleration": 0,
+    "handling": 0,
+    "nitro": 0
   }
 }

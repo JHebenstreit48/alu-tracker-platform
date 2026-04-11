@@ -10,14 +10,28 @@
     "rank": 2919,
     "topSpeed": 360.7,
     "acceleration": 77.71,
-    "handling": 40.00,
+    "handling": 40,
     "nitro": 35.92
   },
   "threeStar": {
     "rank": 3236,
     "topSpeed": 363.3,
     "acceleration": 78.85,
-    "handling": 43.30,
-    "nitro": 40.50
+    "handling": 43.3,
+    "nitro": 40.5
+  },
+  "fourStar": {
+    "rank": 0,
+    "topSpeed": 0,
+    "acceleration": 0,
+    "handling": 0,
+    "nitro": 0
+  },
+  "fiveStar": {
+    "rank": 0,
+    "topSpeed": 0,
+    "acceleration": 0,
+    "handling": 0,
+    "nitro": 0
   }
 }
