@@ -7,13 +7,12 @@
   "normalizedKey": "renault_dezir",
   "status": "in progress",
   "message": "still adding data",
+  "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
   "country": "France",
   "epics": 4,
-  "obtainableVia": [
-    "Showroom"
-  ],
+  "obtainableVia": ["Showroom", "Garage Level 23", "Drive Syndicate"],
   "added": "Bring the Heat",
   "addedWith": "DS",
   "addedDate": "25/07/2022",
@@ -21,6 +20,5 @@
   "blueprints2Star": 23,
   "blueprints3Star": 33,
   "blueprints4Star": 42,
-  "Garage_Lvl": 23,
   "Tags": "Europe"
 }

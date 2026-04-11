@@ -6,14 +6,13 @@
   "model": "Nevera R",
   "normalizedKey": "rimac_nevera_r",
   "status": "in progress",
-  "message": "still adding and missing data",
+  "message": "Still adding data",
+  "sources": ["Asphalt Fandom Wiki"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
   "country": "Croatia",
-  "obtainableVia": [
-    ""
-  ],
+  "obtainableVia": ["Drive Syndicate"],
   "blueprints1Star": 0,
   "blueprints2Star": 45
 }
