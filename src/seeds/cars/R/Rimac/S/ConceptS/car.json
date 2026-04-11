@@ -7,13 +7,12 @@
   "normalizedKey": "rimac_concept_s",
   "status": "in progress",
   "message": "still adding data",
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 6,
   "country": "Croatia",
   "epics": 16,
-  "obtainableVia": [
-    "Multiplayer"
-  ],
+  "obtainableVia": ["Multiplayer", "Special Events"],
   "added": "New Tech Reloaded",
   "addedWith": "SE",
   "addedDate": "25/09/2023",
@@ -22,7 +21,5 @@
   "blueprints3Star": 29,
   "blueprints4Star": 38,
   "blueprints5Star": 54,
-  "blueprints6Star": 69,
-  "Garage_Lvl": null,
-  "Tags": null
+  "blueprints6Star": 69
 }

@@ -7,12 +7,13 @@
   "normalizedKey": "rimac_nevera",
   "status": "in progress",
   "message": "still adding data",
+  "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
   "country": "Croatia",
   "epics": 16,
-  "obtainableVia": null,
+  "obtainableVia": ["Drive Syndicate"],
   "added": "Godly Beasts",
   "addedWith": "DS",
   "addedDate": "10/12/2019",
@@ -22,6 +23,5 @@
   "blueprints4Star": 60,
   "blueprints5Star": 70,
   "blueprints6Star": 85,
-  "Garage_Lvl": null,
   "Tags": "Electric; Europe"
 }

@@ -7,14 +7,12 @@
   "normalizedKey": "renault_trezor",
   "status": "in progress",
   "message": "still adding data",
+  "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
   "country": "France",
   "epics": 4,
-  "obtainableVia": [
-    "Showroom",
-    "Garage Level 41"
-  ],
+  "obtainableVia": ["Showroom", "Garage Level 41"],
   "added": "Electric Season",
   "addedWith": "LP car",
   "addedDate": "23/09/2021",
