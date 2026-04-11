@@ -1,3 +1,3 @@
-import teorema from '@/seeds/cars/P/Pininfarina/S/teorema.json';
+import teorema from '@/seeds/cars/P/Pininfarina/S/Teorema';
 
 export default [teorema];

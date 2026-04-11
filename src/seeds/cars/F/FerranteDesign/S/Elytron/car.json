@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "image": "/images/cars/F/FerranteDesign/elytron.webp",
+  "class": "B",
+  "brand": "Ferrante Design",
+  "model": "Elytron",
+  "normalizedKey": "ferrante_design_elytron",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["Asphalt Fandom Wiki", "My own in-game research"],
+  "stars": 6,
+  "keyCar": true,
+  "country": "United States/ Italy",
+  "obtainableVia": ["Drive Syndicate"],
+  "blueprints1Star": 0,
+  "blueprints2Star": 45,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0,
+  "blueprints6Star": 0
+}
