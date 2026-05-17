@@ -11,7 +11,7 @@
       "topSpeed": 0.70,
       "acceleration": 0.17,
       "handling": 0.31,
-      "nitro": 0.51
+      "nitro": 0.57
     }
   },
   {
@@ -25,7 +25,7 @@
     "statByStat": {
       "topSpeed": 0.70,
       "acceleration": 0.17,
-      "handling": 0.32,
+      "handling": 0.31,
       "nitro": 0.59
     }
   },
@@ -33,15 +33,15 @@
     "stage": 3,
     "rankByStat": {
         "topSpeed": 14,
-        "acceleration": 10,
+        "acceleration": 9,
         "handling": 6,
         "nitro": 11
     },
     "statByStat": {
-        "topSpeed": 0.80,
+        "topSpeed": 0.70,
         "acceleration": 0.18,
-        "handling": 0.34,
-        "nitro": 0.62
+        "handling": 0.33,
+        "nitro": 0.61
     }
   }
 ]

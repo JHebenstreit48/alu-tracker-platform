@@ -1,6 +1,6 @@
 {
   "singleAttributePerLine": true,
-  "printWidth": 100,
+  "printWidth": 150,
   "tabWidth": 2,
   "semi": true,
   "singleQuote": true,

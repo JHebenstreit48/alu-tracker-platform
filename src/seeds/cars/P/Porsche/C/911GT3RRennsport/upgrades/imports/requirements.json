@@ -2,10 +2,10 @@
   "incrementalByStage": {
     "3": {
       "uncommon": {
-        "topSpeed": 0,
-        "acceleration": 0,
-        "handling": 0,
-        "nitro": 0
+        "topSpeed": 2,
+        "acceleration": 2,
+        "handling": 2,
+        "nitro": 2
       },
       "rare": {
         "topSpeed": 0,

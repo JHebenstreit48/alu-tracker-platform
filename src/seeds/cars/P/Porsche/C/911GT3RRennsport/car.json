@@ -11,13 +11,13 @@
   "rarity": "Epic",
   "stars": 5,
   "country": "Germany",
-  "obtainableVia": [],
+  "obtainableVia": ["Drive Syndicate"],
   "added": "",
   "addedWith": "",
   "addedDate": "30/03/2026",
   "blueprints1Star": 20,
-  "blueprints2Star": 0,
-  "blueprints3Star": 0,
-  "blueprints4Star": 0,
-  "blueprints5Star": 0
+  "blueprints2Star": 25,
+  "blueprints3Star": 30,
+  "blueprints4Star": 35,
+  "blueprints5Star": 40
 }
