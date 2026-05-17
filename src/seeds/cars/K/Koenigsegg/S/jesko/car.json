@@ -7,13 +7,26 @@
   "normalizedKey": "koenigsegg_jesko",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "My own in-game research", "Asphalt Fandom Wiki"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
   "country": "Sweden",
   "epics": 16,
-  "obtainableVia": ["Legend Store Packs", "Clash Store (obsolete)"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Drive Syndicate"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Grand Prix", "Jesko Special Event"]
+    },
+    {
+      "status": "obsolete",
+      "methods": ["Clash Store", "Heatwave: Afterburn Special Event & Packs"]
+    }
+  ],
   "added": "Summer",
   "addedWith": "Drive Syndicate",
   "addedDate": "18/06/2019",

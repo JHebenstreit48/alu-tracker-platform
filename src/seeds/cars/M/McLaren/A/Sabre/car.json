@@ -11,7 +11,16 @@
   "rarity": "Epic",
   "stars": 6,
   "country": "United Kingdom",
-  "obtainableVia": ["Drive Syndicate - (Obsolete)", "Star Hunt - Daily Event"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Drive Syndicate 10: Fury in the Air"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Star Hunt", "Epic Hunt"]
+    }
+  ],
   "blueprints1Star": 70,
   "blueprints2Star": 23,
   "blueprints3Star": 27,

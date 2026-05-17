@@ -12,9 +12,16 @@
   "stars": 4,
   "country": "Japan",
   "epics": 4,
-  "obtainableVia": ["Garage Level 10"],
-  "added": "Soft Launch",
-  "addedWith": null,
+  "obtainableVia": [
+    {
+      "status": "current",
+      "methods": ["Garage Level 10", "Legend Store"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Multiplayer Packs"]
+    }
+  ],
   "addedDate": "26/02/2018",
   "blueprints1Star": 35,
   "blueprints2Star": 10,

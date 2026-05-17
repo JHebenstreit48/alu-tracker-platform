@@ -12,7 +12,16 @@
   "keyCar": true,
   "country": "Sweden",
   "epics": 16,
-  "obtainableVia": null,
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Special Hunt", "Legend Pass"]
+    }
+  ],
   "added": "European Season (2023)",
   "addedWith": null,
   "addedDate": "30/03/2023",
