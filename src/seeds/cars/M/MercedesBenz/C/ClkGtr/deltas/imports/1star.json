@@ -2,9 +2,9 @@
   {
     "stage": 3,
     "rarity": "uncommon",
-    "rankByStat": {
+    "cardsAppliedByStat": {
     },
-    "statByStat": {
+    "statDeltaByStat": {
     }
   }
 ]
