@@ -2,13 +2,13 @@
   {
     "stage": 3,
     "rarity": "uncommon",
-    "rankByStat": {
-      "topSpeed": 0,
-      "acceleration": 0,
-      "handling": 0,
-      "nitro": 0
+    "cardsAppliedByStat": {
+      "topSpeed": 3,
+      "acceleration": 3,
+      "handling": 3,
+      "nitro": 3
     },
-    "statByStat": {
+    "statDeltaByStat": {
       "topSpeed": 0,
       "acceleration": 0,
       "handling": 0,

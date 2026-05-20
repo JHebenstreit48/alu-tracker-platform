@@ -7,14 +7,18 @@
   "normalizedKey": "noble_m600_speedster",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": [],
+  "sources": ["MEI", "Reddit users Google Sheets document", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
   "country": "United Kingdom",
   "epics": 16,
-  "obtainableVia": [],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Drive Syndicate (Racing Through Fire Update)"]
+    }
+  ],
   "added": "Racing Through Fire",
-  "addedWith": "DS",
   "addedDate": "24/07/2023",
   "blueprints1Star": 70,
   "blueprints2Star": 23,
