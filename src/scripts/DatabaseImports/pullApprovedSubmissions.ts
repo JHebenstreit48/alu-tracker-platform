@@ -17,6 +17,15 @@ interface StarStatBlock {
   nitro?: number;
 }
 
+interface DeltaEntry {
+  stage: number;
+  rarity?: string;
+  rankByStat?: Record<string, number>;
+  statByStat?: Record<string, number>;
+  cardsAppliedByStat?: Record<string, number>;
+  statDeltaByStat?: Record<string, number>;
+}
+
 interface CarStatsPatch {
   stock?: StarStatBlock;
   maxAtStar?: {
@@ -29,6 +38,8 @@ interface CarStatsPatch {
   };
   gold?: StarStatBlock;
   blueprints?: Record<string, unknown>;
+  stageDeltas?: Record<string, DeltaEntry[]>;
+  importDeltas?: Record<string, DeltaEntry[]>;
 }
 
 interface CarPatch {
@@ -49,6 +60,17 @@ interface Submission {
   submitterNote?: string;
   status: string;
 }
+
+// ─── Star key map ─────────────────────────────────────────────────────────
+
+const STAR_KEY_TO_FILE: Record<string, string> = {
+  oneStar:   '1star.json',
+  twoStar:   '2star.json',
+  threeStar: '3star.json',
+  fourStar:  '4star.json',
+  fiveStar:  '5star.json',
+  sixStar:   '6star.json',
+};
 
 // ─── Find car folder by normalizedKey ─────────────────────────────────────
 
@@ -103,12 +125,73 @@ function writeJson(filePath: string, data: unknown) {
   console.log(`  ✓ Written: ${filePath}`);
 }
 
+// ─── Merge delta entries (only overwrite non-zero values) ─────────────────
+
+function mergeDeltaEntries(
+  existing: DeltaEntry[],
+  incoming: DeltaEntry[],
+  type: 'stages' | 'imports'
+): DeltaEntry[] {
+  const result = [...existing];
+
+  for (const incomingEntry of incoming) {
+    const existingIdx = type === 'imports'
+      ? result.findIndex((e) => e.stage === incomingEntry.stage && e.rarity === incomingEntry.rarity)
+      : result.findIndex((e) => e.stage === incomingEntry.stage);
+
+    const mergedEntry: DeltaEntry = existingIdx >= 0
+      ? { ...result[existingIdx] }
+      : { stage: incomingEntry.stage, ...(incomingEntry.rarity ? { rarity: incomingEntry.rarity } : {}) };
+
+    if (type === 'stages') {
+      // rankByStat
+      if (incomingEntry.rankByStat) {
+        mergedEntry.rankByStat = { ...(mergedEntry.rankByStat ?? {}) };
+        for (const [k, v] of Object.entries(incomingEntry.rankByStat)) {
+          if (v !== undefined && v !== 0) mergedEntry.rankByStat[k] = v;
+        }
+      }
+      // statByStat
+      if (incomingEntry.statByStat) {
+        mergedEntry.statByStat = { ...(mergedEntry.statByStat ?? {}) };
+        for (const [k, v] of Object.entries(incomingEntry.statByStat)) {
+          if (v !== undefined && v !== 0) mergedEntry.statByStat[k] = v;
+        }
+      }
+    } else {
+      // cardsAppliedByStat
+      if (incomingEntry.cardsAppliedByStat) {
+        mergedEntry.cardsAppliedByStat = { ...(mergedEntry.cardsAppliedByStat ?? {}) };
+        for (const [k, v] of Object.entries(incomingEntry.cardsAppliedByStat)) {
+          if (v !== undefined && v !== 0) mergedEntry.cardsAppliedByStat[k] = v;
+        }
+      }
+      // statDeltaByStat
+      if (incomingEntry.statDeltaByStat) {
+        mergedEntry.statDeltaByStat = { ...(mergedEntry.statDeltaByStat ?? {}) };
+        for (const [k, v] of Object.entries(incomingEntry.statDeltaByStat)) {
+          if (v !== undefined && v !== 0) mergedEntry.statDeltaByStat[k] = v;
+        }
+      }
+    }
+
+    if (existingIdx >= 0) {
+      result[existingIdx] = mergedEntry;
+    } else {
+      result.push(mergedEntry);
+    }
+  }
+
+  // Sort by stage
+  result.sort((a, b) => a.stage - b.stage);
+  return result;
+}
+
 // ─── Deep merge two CarPatch objects ──────────────────────────────────────
 
 function mergePatch(base: CarPatch, incoming: CarPatch): CarPatch {
   const merged: CarPatch = { ...base };
 
-  // Identity fields — incoming wins
   const identityFields = [
     "brand", "model", "class", "rarity",
     "stars", "country", "keyCar",
@@ -119,11 +202,9 @@ function mergePatch(base: CarPatch, incoming: CarPatch): CarPatch {
     }
   }
 
-  // Stats — deep merge
   if (incoming.stats) {
     merged.stats = merged.stats || {};
 
-    // stock — incoming wins
     if (incoming.stats.stock) {
       merged.stats.stock = {
         ...(merged.stats.stock || {}),
@@ -131,7 +212,6 @@ function mergePatch(base: CarPatch, incoming: CarPatch): CarPatch {
       };
     }
 
-    // gold — incoming wins
     if (incoming.stats.gold) {
       merged.stats.gold = {
         ...(merged.stats.gold || {}),
@@ -139,7 +219,6 @@ function mergePatch(base: CarPatch, incoming: CarPatch): CarPatch {
       };
     }
 
-    // maxAtStar — merge per star key
     if (incoming.stats.maxAtStar) {
       merged.stats.maxAtStar = merged.stats.maxAtStar || {};
       const starKeys = [
@@ -156,11 +235,24 @@ function mergePatch(base: CarPatch, incoming: CarPatch): CarPatch {
       }
     }
 
-    // blueprints — merge per star key
     if (incoming.stats.blueprints) {
       merged.stats.blueprints = {
         ...(merged.stats.blueprints || {}),
         ...incoming.stats.blueprints,
+      };
+    }
+
+    if (incoming.stats.stageDeltas) {
+      merged.stats.stageDeltas = {
+        ...(merged.stats.stageDeltas || {}),
+        ...incoming.stats.stageDeltas,
+      };
+    }
+
+    if (incoming.stats.importDeltas) {
+      merged.stats.importDeltas = {
+        ...(merged.stats.importDeltas || {}),
+        ...incoming.stats.importDeltas,
       };
     }
   }
@@ -218,7 +310,6 @@ function applyPatch(carFolder: string, normalizedKey: string, patch: CarPatch) {
     const stockPath = path.join(carFolder, "stats", "stock.json");
     if (fs.existsSync(stockPath)) {
       const existing = JSON.parse(fs.readFileSync(stockPath, "utf-8"));
-      // Only overwrite non-zero values from patch
       const merged: StarStatBlock = { ...existing.stock };
       for (const [k, v] of Object.entries(patch.stats.stock)) {
         if (v !== undefined && v !== 0) {
@@ -247,8 +338,6 @@ function applyPatch(carFolder: string, normalizedKey: string, patch: CarPatch) {
     for (const key of starKeys) {
       const incoming = patch.stats.maxAtStar[key];
       if (!incoming) continue;
-
-      // Only overwrite non-zero values
       const existingBlock = existing[key] || {};
       const mergedBlock: StarStatBlock = { ...existingBlock };
       for (const [k, v] of Object.entries(incoming)) {
@@ -268,7 +357,6 @@ function applyPatch(carFolder: string, normalizedKey: string, patch: CarPatch) {
     const goldPath = path.join(carFolder, "stats", "gold.json");
     if (fs.existsSync(goldPath)) {
       const existing = JSON.parse(fs.readFileSync(goldPath, "utf-8"));
-      // Only overwrite non-zero values
       const merged: StarStatBlock = { ...existing.gold };
       for (const [k, v] of Object.entries(patch.stats.gold)) {
         if (v !== undefined && v !== 0) {
@@ -279,6 +367,40 @@ function applyPatch(carFolder: string, normalizedKey: string, patch: CarPatch) {
       writeJson(goldPath, { gold: merged });
     } else {
       console.warn(`  ⚠ stats/gold.json not found for ${normalizedKey}`);
+    }
+  }
+
+  // --- deltas/stages/*.json ---
+  if (patch.stats?.stageDeltas) {
+    for (const [starKey, incomingEntries] of Object.entries(patch.stats.stageDeltas)) {
+      const fileName = STAR_KEY_TO_FILE[starKey];
+      if (!fileName) continue;
+
+      const filePath = path.join(carFolder, "deltas", "stages", fileName);
+      const existing: DeltaEntry[] = fs.existsSync(filePath)
+        ? JSON.parse(fs.readFileSync(filePath, "utf-8"))
+        : [];
+
+      const merged = mergeDeltaEntries(existing, incomingEntries, 'stages');
+      console.log(`  → deltas/stages/${fileName}`);
+      writeJson(filePath, merged);
+    }
+  }
+
+  // --- deltas/imports/*.json ---
+  if (patch.stats?.importDeltas) {
+    for (const [starKey, incomingEntries] of Object.entries(patch.stats.importDeltas)) {
+      const fileName = STAR_KEY_TO_FILE[starKey];
+      if (!fileName) continue;
+
+      const filePath = path.join(carFolder, "deltas", "imports", fileName);
+      const existing: DeltaEntry[] = fs.existsSync(filePath)
+        ? JSON.parse(fs.readFileSync(filePath, "utf-8"))
+        : [];
+
+      const merged = mergeDeltaEntries(existing, incomingEntries, 'imports');
+      console.log(`  → deltas/imports/${fileName}`);
+      writeJson(filePath, merged);
     }
   }
 }
@@ -303,7 +425,6 @@ async function main() {
 
   console.log(`  Found ${snap.docs.length} approved submission(s)\n`);
 
-  // ── Step 1: Merge all submissions per normalizedKey ──────────────────────
   const mergedPatches: Record<string, CarPatch> = {};
   const submissionIds: string[] = [];
   const submissionMeta: { id: string; username: string; note?: string }[] = [];
@@ -335,7 +456,6 @@ async function main() {
     }
   }
 
-  // ── Step 2: Apply merged patch per car ───────────────────────────────────
   console.log(`\n  Merged into ${Object.keys(mergedPatches).length} unique car(s) to update\n`);
 
   let applied = 0;
@@ -354,7 +474,6 @@ async function main() {
     applied++;
   }
 
-  // ── Step 3: Mark all submissions as imported ──────────────────────────────
   for (const meta of submissionMeta) {
     if (!DRY) {
       await adminDb.collection(COLL).doc(meta.id).update({
