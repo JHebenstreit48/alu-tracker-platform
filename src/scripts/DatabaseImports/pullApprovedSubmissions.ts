@@ -48,6 +48,8 @@ interface CarStatsPatch {
   gold?: StarStatBlock;
   blueprints?: Record<string, unknown>;
   stages?: Record<string, StageStat[]>;
+  creditCosts?: Record<string, number>;
+  garageLevelXp?: Record<string, number>;
   stageDeltas?: Record<string, DeltaEntry[]>;
   importDeltas?: Record<string, DeltaEntry[]>;
 }
@@ -223,6 +225,8 @@ function mergePatch(base: CarPatch, incoming: CarPatch): CarPatch {
     }
     if (incoming.stats.blueprints) merged.stats.blueprints = { ...(merged.stats.blueprints || {}), ...incoming.stats.blueprints };
     if (incoming.stats.stages) merged.stats.stages = { ...(merged.stats.stages || {}), ...incoming.stats.stages };
+    if (incoming.stats.creditCosts) merged.stats.creditCosts = { ...(merged.stats.creditCosts || {}), ...incoming.stats.creditCosts };
+    if (incoming.stats.garageLevelXp) merged.stats.garageLevelXp = { ...(merged.stats.garageLevelXp || {}), ...incoming.stats.garageLevelXp };
     if (incoming.stats.stageDeltas) merged.stats.stageDeltas = { ...(merged.stats.stageDeltas || {}), ...incoming.stats.stageDeltas };
     if (incoming.stats.importDeltas) merged.stats.importDeltas = { ...(merged.stats.importDeltas || {}), ...incoming.stats.importDeltas };
   }
@@ -328,6 +332,38 @@ function applyPatch(carFolder: string, normalizedKey: string, patch: CarPatch) {
       const merged = mergeStageEntries(existing, incomingEntries);
       console.log(`  → stats/stages/${fileName}`);
       writeJson(filePath, merged);
+    }
+  }
+
+  // --- upgrades/creditCosts.json ---
+  if (patch.stats?.creditCosts) {
+    const creditCostsPath = path.join(carFolder, 'upgrades', 'creditCosts.json');
+    if (fs.existsSync(creditCostsPath)) {
+      const existing = JSON.parse(fs.readFileSync(creditCostsPath, 'utf-8'));
+      const merged = { ...existing.perUpgradeByStage };
+      for (const [stageNum, v] of Object.entries(patch.stats.creditCosts)) {
+        if (v !== undefined && v !== 0) merged[stageNum] = v;
+      }
+      console.log(`  → upgrades/creditCosts.json`);
+      writeJson(creditCostsPath, { perUpgradeByStage: merged });
+    } else {
+      console.warn(`  ⚠ upgrades/creditCosts.json not found for ${normalizedKey}`);
+    }
+  }
+
+  // --- upgrades/garageLevelXp.json ---
+  if (patch.stats?.garageLevelXp) {
+    const garageLevelXpPath = path.join(carFolder, 'upgrades', 'garageLevelXp.json');
+    if (fs.existsSync(garageLevelXpPath)) {
+      const existing = JSON.parse(fs.readFileSync(garageLevelXpPath, 'utf-8'));
+      const merged = { ...existing.perUpgradeByStage };
+      for (const [stageNum, v] of Object.entries(patch.stats.garageLevelXp)) {
+        if (v !== undefined && v !== 0) merged[stageNum] = v;
+      }
+      console.log(`  → upgrades/garageLevelXp.json`);
+      writeJson(garageLevelXpPath, { perUpgradeByStage: merged });
+    } else {
+      console.warn(`  ⚠ upgrades/garageLevelXp.json not found for ${normalizedKey}`);
     }
   }
 
