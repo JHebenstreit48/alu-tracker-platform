@@ -1,0 +1,26 @@
+{
+  "id": 2,
+  "image": "/images/cars/C/Chevrolet/corvettegrandsport4thofjulyedition.webp",
+  "class": "A",
+  "brand": "Chevrolet",
+  "model": "Corvette Grand Sport 4th of July Edition",
+  "normalizedKey": "chevrolet_corvette_grand_sport_4th_of_july_edition",
+  "status": "coming soon",
+  "message": "Still adding data",
+  "sources": ["Patch Notes video"],
+  "rarity": "Epic",
+  "stars": 6,
+  "country": "USA",
+  "obtainableVia": [
+    {
+      "status": "upcoming",
+      "methods": ["Audi Season - (Unknown activity)"]
+    }
+  ],
+  "addedDate": null,
+  "blueprints1Star": 30,
+  "blueprints2Star": 0,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0
+}

@@ -15,10 +15,22 @@
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Drive Syndicate (Racing Through Fire Update)"]
+      "methods": ["Drive Syndicate 7: Racing Through Fire"]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        "Burst of Speed (Legends Unite II Season)",
+        "Ferrari 499P Modificata Mayhem Event",
+        "Team Pursuit Season Series",
+        "World League 2025 (Gold, Platinum & Legend Card Packs)"
+      ]
+    },
+    {
+      "status": "current",
+      "methods": ["Hololive Spotlight - Special Event"]
     }
   ],
-  "added": "Racing Through Fire",
   "addedDate": "24/07/2023",
   "blueprints1Star": 70,
   "blueprints2Star": 23,

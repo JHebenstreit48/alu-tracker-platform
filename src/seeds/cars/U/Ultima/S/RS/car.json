@@ -12,9 +12,16 @@
   "stars": 6,
   "keyCar": true,
   "country": "United Kingdom",
-  "obtainableVia": ["Special Events"],
-  "added": "British Tour",
-  "addedWith": "Tour",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event", "British Tour Season Pass (Legend Pass)", "British Tour Passport Events", "Limited-Time Pack"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Special Hunt"]
+    }
+  ],
   "addedDate": "07/02/2022",
   "blueprints1Star": 0,
   "blueprints2Star": 40,

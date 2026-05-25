@@ -1,0 +1,29 @@
+{
+  "id": 1,
+  "image": "/images/cars/G/Ginetta/akula.webp",
+  "class": "B",
+  "brand": "Ginetta",
+  "model": "Akula",
+  "normalizedKey": "ginetta_akula",
+  "status": "coming soon",
+  "message": "Still adding data",
+  "sources": ["MEI", "Patch Notes Video"],
+  "rarity": "Epic",
+  "stars": 6,
+  "country": "United Kingdom",
+  "epics": 8,
+  "obtainableVia": [
+    {
+      "status": "upcoming",
+      "methods": ["Audi Season - (Unknown activity)"]
+    }
+  ],
+  "addedDate": null,
+  "blueprints1Star": 25,
+  "blueprints2Star": 0,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0,
+  "blueprints6Star": 0,
+  "Tags": "Europe"
+}
