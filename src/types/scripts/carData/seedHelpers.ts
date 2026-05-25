@@ -19,7 +19,7 @@ export const asArray = (x: unknown): SeedCar[] =>
 export const cleanStatus = (raw: unknown): SeedStatus => {
   if (raw == null) return "unknown";
   const s = String(raw).toLowerCase().replace(/_/g, " ").trim();
-  return s === "complete" || s === "in progress" || s === "missing" || s === "unknown"
+  return s === "complete" || s === "in progress" || s === "coming soon" || s === "missing" || s === "unknown"
     ? (s as SeedStatus)
     : "unknown";
 };

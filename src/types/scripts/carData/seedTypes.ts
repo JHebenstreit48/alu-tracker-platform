@@ -1,4 +1,4 @@
-export type SeedStatus = "complete" | "in progress" | "missing" | "unknown";
+export type SeedStatus = "complete" | "in progress" | "coming soon" | "missing" | "unknown";
 
 export type StarCount = 3 | 4 | 5 | 6;
 

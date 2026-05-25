@@ -1,0 +1,25 @@
+{
+  "id": 1,
+  "image": "/images/cars/A/Audi/r8coupev10performancequattro.webp",
+  "class": "C",
+  "brand": "Audi",
+  "model": "R8 Coupé V10 Performance Quattro",
+  "normalizedKey": "audi_r8_coupe_v10_performance_quattro",
+  "status": "coming soon",
+  "message": "Still adding data",
+  "sources": ["My own in-game research", "Asphalt Fandom Wiki", "Patch Notes video"],
+  "rarity": "Epic",
+  "stars": 5,
+  "country": "Germany",
+  "obtainableVia": [
+    {
+      "status": "upcoming",
+      "methods": ["Unknown — details TBD from patch notes"]
+    }
+  ],
+  "blueprints1Star": 20,
+  "blueprints2Star": 0,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0
+}

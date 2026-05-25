@@ -2,46 +2,46 @@
   {
     "stage": 1,
     "rankByStat": {
-      "topSpeed": 0,
-      "acceleration": 0,
-      "handling": 0,
-      "nitro": 0
+      "topSpeed": 15,
+      "acceleration": 14,
+      "handling": 12,
+      "nitro": 13
     },
     "statByStat": {
-      "topSpeed": 0,
-      "acceleration": 0,
-      "handling": 0,
-      "nitro": 0
+      "topSpeed": 0.50,
+      "acceleration": 0.26,
+      "handling": 0.76,
+      "nitro": 0.65
     }
   },
   {
     "stage": 2,
     "rankByStat": {
-      "topSpeed": 0,
-      "acceleration": 0,
-      "handling": 0,
-      "nitro": 0
+      "topSpeed": 16,
+      "acceleration": 14,
+      "handling": 13,
+      "nitro": 13
     },
     "statByStat": {
-      "topSpeed": 0,
-      "acceleration": 0,
-      "handling": 0,
-      "nitro": 0
+      "topSpeed": 0.50,
+      "acceleration": 0.26,
+      "handling": 0.78,
+      "nitro": 0.67
     }
   },
   {
     "stage": 3,
     "rankByStat": {
-      "topSpeed": 0,
-      "acceleration": 0,
-      "handling": 0,
-      "nitro": 0
+      "topSpeed":16,
+      "acceleration": 14,
+      "handling": 13,
+      "nitro": 14
     },
     "statByStat": {
-      "topSpeed": 0,
-      "acceleration": 0,
-      "handling": 0,
-      "nitro": 0
+      "topSpeed":  0.50,
+      "acceleration": 0.27,
+      "handling": 0.80,
+      "nitro": 0.69
     }
   }
 ]
