@@ -1,0 +1,29 @@
+{
+  "id": 1,
+  "image": "/images/cars/T/TVR/cerberaspeed12.webp",
+  "class": "S",
+  "brand": "TVR",
+  "model": "Cerbera Speed 12",
+  "normalizedKey": "tvr_cerbera_speed_12",
+  "status": "coming soon",
+  "message": "Still adding data",
+  "sources": ["Patch Notes Video"],
+  "rarity": "Rare",
+  "stars": 6,
+  "keyCar": true,
+  "country": "United Kingdom",
+  "obtainableVia": [
+    {
+      "status": "upcoming",
+      "methods": ["Drive Syndicate: Operation Cerberus (Featured Car)"]
+    }
+  ],
+  "addedDate": null,
+  "blueprints1Star": 45,
+  "blueprints2Star": 0,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0,
+  "blueprints6Star": 0,
+  "Tags": "Europe"
+}

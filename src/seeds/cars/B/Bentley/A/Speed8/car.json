@@ -1,0 +1,29 @@
+{
+  "id": 1,
+  "image": "/images/cars/B/Bentley/speed8.webp",
+  "class": "A",
+  "brand": "Bentley",
+  "model": "Speed 8",
+  "normalizedKey": "bentley_speed_8",
+  "status": "coming soon",
+  "message": "Still adding data",
+  "sources": ["Patch Notes video"],
+  "rarity": "Epic",
+  "stars": 6,
+  "keyCar": true,
+  "country": "United Kingdom",
+  "obtainableVia": [
+    {
+      "status": "upcoming",
+      "methods": ["Audi Season - (Unknown activity)"]
+    }
+  ],
+  "addedDate": null,
+  "blueprints1Star": 0,
+  "blueprints2Star": 40,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0,
+  "blueprints6Star": 0,
+  "Tags": "Europe"
+}

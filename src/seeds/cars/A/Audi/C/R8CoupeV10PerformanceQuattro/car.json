@@ -7,16 +7,17 @@
   "normalizedKey": "audi_r8_coupe_v10_performance_quattro",
   "status": "coming soon",
   "message": "Still adding data",
-  "sources": ["My own in-game research", "Asphalt Fandom Wiki", "Patch Notes video"],
+  "sources": ["Patch Notes video"],
   "rarity": "Epic",
   "stars": 5,
   "country": "Germany",
   "obtainableVia": [
     {
       "status": "upcoming",
-      "methods": ["Unknown — details TBD from patch notes"]
+      "methods": ["Drive Syndicate - Operation Cerberus - (Support Car)"]
     }
   ],
+  "addedDate": null,
   "blueprints1Star": 20,
   "blueprints2Star": 0,
   "blueprints3Star": 0,

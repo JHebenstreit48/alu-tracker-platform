@@ -1,0 +1,27 @@
+{
+  "id": 1,
+  "image": "/images/cars/A/Audi/r18eTronQuattro2012.webp",
+  "class": "S",
+  "brand": "Audi",
+  "model": "R18 e-tron quattro 2012",
+  "normalizedKey": "audi_r18_e_tron_quattro_2012",
+  "status": "coming soon",
+  "message": "Still adding data",
+  "sources": ["Patch Notes video"],
+  "rarity": "Epic",
+  "stars": 6,
+  "country": "Germany",
+  "obtainableVia": [
+    {
+      "status": "upcoming",
+      "methods": ["Prototype Racing Spotlight - Special Event (Audi Season)"]
+    }
+  ],
+  "addedDate": null,
+  "blueprints1Star": 35,
+  "blueprints2Star": 0,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0,
+  "blueprints6Star": 0
+}

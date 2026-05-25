@@ -11,9 +11,20 @@
   "stars": 6,
   "country": "France",
   "epics": 16,
-  "obtainableVia": ["Garage Level 37"],
-  "added": "New Breed Rivals",
-  "addedWith": "MP2",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Daily Multiplayer 2 (New Breed Rivals Update)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 37 Card Packs (Collector Stage I)", "Legend Store"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Special Hunt (Audi Season)"]
+    }
+  ],
   "addedDate": "04/04/2022",
   "blueprints1Star": 85,
   "blueprints2Star": 25,
