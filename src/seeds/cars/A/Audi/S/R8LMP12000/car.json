@@ -5,7 +5,7 @@
   "brand": "Audi",
   "model": "R8 LMP1 2000",
   "normalizedKey": "audi_r8_lmp1_2000",
-  "status": "coming soon",
+  "status": "in progress",
   "message": "Still adding data",
   "sources": ["Patch Notes video"],
   "rarity": "Epic",
@@ -13,11 +13,11 @@
   "country": "Germany",
   "obtainableVia": [
   {
-    "status": "upcoming",
+    "status": "current",
     "methods": ["Audi R8 LMP1 2000 - Special Event - (Audi Season)"]
   }
 ],
-  "addedDate": null,
+  "addedDate": "26/05/2026",
   "blueprints1Star": 35,
   "blueprints2Star": 0,
   "blueprints3Star": 0,
