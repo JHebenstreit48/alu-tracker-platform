@@ -5,7 +5,7 @@
   "brand": "TVR",
   "model": "Cerbera Speed 12",
   "normalizedKey": "tvr_cerbera_speed_12",
-  "status": "coming soon",
+  "status": "in progress",
   "message": "Still adding data",
   "sources": ["Patch Notes Video"],
   "rarity": "Rare",
@@ -14,11 +14,11 @@
   "country": "United Kingdom",
   "obtainableVia": [
     {
-      "status": "upcoming",
+      "status": "current",
       "methods": ["Drive Syndicate: Operation Cerberus (Featured Car)"]
     }
   ],
-  "addedDate": null,
+  "addedDate": "26/05/2026",
   "blueprints1Star": 45,
   "blueprints2Star": 0,
   "blueprints3Star": 0,

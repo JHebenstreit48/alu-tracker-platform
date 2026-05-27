@@ -5,7 +5,7 @@
   "brand": "Bentley",
   "model": "Speed 8",
   "normalizedKey": "bentley_speed_8",
-  "status": "coming soon",
+  "status": "in progress",
   "message": "Still adding data",
   "sources": ["Patch Notes video"],
   "rarity": "Epic",
@@ -14,11 +14,11 @@
   "country": "United Kingdom",
   "obtainableVia": [
     {
-      "status": "upcoming",
+      "status": "current",
       "methods": ["Audi Season - (Unknown activity)"]
     }
   ],
-  "addedDate": null,
+  "addedDate": "26/05/2026",
   "blueprints1Star": 0,
   "blueprints2Star": 40,
   "blueprints3Star": 0,
