@@ -14,7 +14,11 @@
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Drive Syndicate"]
+      "methods": ["Drive Syndicate 13: Koenigsegg Chimera (Support Car - Holiday Overdrive Update)"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Drive Syndicate: Operation Cerberus (Support Car)"]
     }
   ],
   "blueprints1Star": 30,

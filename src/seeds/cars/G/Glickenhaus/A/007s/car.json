@@ -13,9 +13,26 @@
   "keyCar": true,
   "country": "USA",
   "epics": 16,
-  "obtainableVia": null,
-  "added": "Festive Season",
-  "addedWith": "GP",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Grand Prix (Festive Season)"]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        "Grand Prix Rerun",
+        "Special Hunt",
+        "My Hero Academia Special Event",
+        "Multiplayer - (Festive Fury Update)",
+        "Spotlight"
+      ]
+    },
+    {
+      "status": "current",
+      "methods": ["Prototype Racing Spotlight (Audi Season)"]
+    }
+  ],
   "addedDate": "16/12/2021",
   "blueprints1Star": 0,
   "blueprints2Star": 28,

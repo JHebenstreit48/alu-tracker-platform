@@ -12,10 +12,20 @@
   "stars": 6,
   "keyCar": true,
   "country": "USA",
-  "obtainableVia": ["Special Events"],
-  "epics": 16,
-  "added": "American Season",
-  "addedWith": "SE",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event (American Season - July 2020)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Unleashed Event (Festive Fury Update)", "Event Packs", "Legend Store"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Drive Syndicate: Operation Cerberus (Support Car)"]
+    }
+  ],
   "addedDate": "30/06/2020",
   "blueprints1Star": 0,
   "blueprints2Star": 40,

@@ -11,9 +11,20 @@
   "stars": 4,
   "country": "Germany",
   "epics": 8,
-  "obtainableVia": null,
-  "added": "Wanderlust and Fifth Anniversary Season",
-  "addedWith": "LP Car",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Legend Pass (Wanderlust Season)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Car Hunt"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Star Hunt (Audi Season - Jun 1-12)", "Epic Hunt (Audi Season)"]
+    }
+  ],
   "addedDate": "29/05/2023",
   "blueprints1Star": 55,
   "blueprints2Star": 35,
