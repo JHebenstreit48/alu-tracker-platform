@@ -12,9 +12,25 @@
   "stars": 3,
   "country": "Germany",
   "epics": 4,
-  "obtainableVia": ["Garage Level 4"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Soft Launch (Feb 2018)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Hololive Special Event (City of Lights Update)", "DragonForce Spotlight", "Hololive Last Chance Spotlight (IAP)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 4 Card Packs & Legend Store", "Career Chapter 2", "Daily Car Loot", "Class B & Class B+ Card Packs"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Coastal Cruising TLE (Audi Season - Jun 8-12)"]
+    }
+  ],
   "added": "Soft Launch",
-  "addedWith": null,
   "addedDate": "26/02/2018",
   "blueprints1Star": 30,
   "blueprints2Star": 30,

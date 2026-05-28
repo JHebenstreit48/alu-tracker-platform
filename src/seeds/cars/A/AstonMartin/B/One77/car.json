@@ -12,7 +12,24 @@
   "stars": 5,
   "country": "United Kingdom",
   "epics": 8,
-  "obtainableVia": ["Garage Level 29"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Legend Pass (British Tour Season)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Car Hunt", "Star Hunt", "Epic Hunt"]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 29 Card Packs & Legend Store (Collector Stage I)"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Drive Syndicate: Operation Cerberus (Support Car)"]
+    }
+  ],
   "added": "British Tour",
   "addedWith": "LP car",
   "addedDate": "07/02/2022",

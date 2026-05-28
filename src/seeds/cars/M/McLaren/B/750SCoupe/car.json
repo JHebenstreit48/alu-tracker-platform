@@ -10,8 +10,21 @@
   "sources": ["My own in-game research", "Asphalt Fandom Wiki"],
   "rarity": "Epic",
   "stars": 5,
-  "country": "United Kingdom", 
-  "obtainableVia": ["Legend/Season Pass", "Limited-Time Packs"],
+  "country": "United Kingdom",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Legend Pass (Holiday Overdrive Season)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Legend Pass (Speed Resolutions Season)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Car Hunt - Legendary Hunt (Audi Season)"]
+    }
+  ],
   "blueprints1Star": 25,
   "blueprints2Star": 30,
   "blueprints3Star": 35,

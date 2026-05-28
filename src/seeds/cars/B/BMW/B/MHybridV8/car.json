@@ -12,6 +12,16 @@
   "stars": 5,
   "keyCar": true,
   "country": "Germany",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Grand Prix (Phantom Riders Update)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Prototype Racing Spotlight (Audi Season)"]
+    }
+  ],
   "blueprints1Star": 0,
   "blueprints2Star": 35,
   "blueprints3Star": 40,

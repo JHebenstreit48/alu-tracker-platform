@@ -12,7 +12,20 @@
   "stars": 5,
   "country": "Italy",
   "epics": 8,
-  "obtainableVia": ["Car Hunt"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Car Hunt (West to East & Eurobloom Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Car Hunt"]
+    },
+    {
+      "status": "current",
+      "methods": ["Drive Syndicate: Operation Cerberus (Support Car)"]
+    }
+  ],
   "added": "Eurobloom",
   "addedWith": "Car Hunt",
   "addedDate": "17/04/2024",

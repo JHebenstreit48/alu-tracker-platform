@@ -12,7 +12,20 @@
   "stars": 6,
   "country": "France",
   "epics": 16,
-  "obtainableVia": [],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Drive Syndicate 6: Rising from the Ashes (Support Car)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Card Packs", "IAPs"]
+    },
+    {
+      "status": "current",
+      "methods": ["Gauntlet Market", "Prototype Racing Spotlight (Audi Season)"]
+    }
+  ],
   "added": "Winterfest",
   "addedWith": "Drive Syndicate",
   "addedDate": "12/12/2022",

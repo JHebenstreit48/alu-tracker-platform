@@ -12,7 +12,20 @@
   "stars": 4,
   "country": "USA",
   "epics": 8,
-  "obtainableVia": ["Car Hunt"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Car Hunt (Electric Season Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Car Hunt"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Car Hunt (Audi Season - Jun 9-17)"]
+    }
+  ],
   "added": "Electric Season",
   "addedWith": "Car Hunt",
   "addedDate": "23/09/2021",

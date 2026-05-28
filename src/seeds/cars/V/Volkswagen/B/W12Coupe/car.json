@@ -13,9 +13,24 @@
   "keyCar": true,
   "country": "Germany",
   "epics": 12,
-  "obtainableVia": ["Showroom"],
-  "added": "European Season",
-  "addedWith": "SE",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event (European Season)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Grand Prix (Raging Bull Season Update)", "Mayhem Event"]
+    },
+    {
+      "status": "current",
+      "methods": ["Showroom - Special Event (Garage Level 17)"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Time Limited Event (Audi Season)"]
+    }
+  ],
   "addedDate": "01/06/2021",
   "blueprints1Star": 0,
   "blueprints2Star": 26,

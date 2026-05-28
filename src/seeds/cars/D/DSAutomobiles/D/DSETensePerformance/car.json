@@ -12,7 +12,20 @@
   "stars": 5,
   "keyCar": true,
   "country": "France",
-  "obtainableVia": ["Special Events", "Grand Prix"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Grand Prix (Festive Fury Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Grand Prix Rerun", "Clean Energies Tour TLE", "Earth Day TLE", "Card Packs", "IAPs"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Running Green TLE (Audi Season - Jun 5-11)"]
+    }
+  ],
   "blueprints1Star": 0,
   "blueprints2Star": 22,
   "blueprints3Star": 30,

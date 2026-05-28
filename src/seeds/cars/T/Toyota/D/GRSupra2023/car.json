@@ -11,7 +11,20 @@
   "rarity": "Rare",
   "stars": 4,
   "country": "Japan",
-  "obtainableVia": ["Season Pass"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Toyota and Lexus Season Unite Pass (Korean Spring Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Card Packs", "Car Hunt (Holiday Overdrive Update)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Car Hunt - Legendary Hunt (Audi Season)"]
+    }
+  ],
   "blueprints1Star": 15,
   "blueprints2Star": 25,
   "blueprints3Star": 35,
