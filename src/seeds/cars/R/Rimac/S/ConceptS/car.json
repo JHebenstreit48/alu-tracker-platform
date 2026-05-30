@@ -12,9 +12,20 @@
   "stars": 6,
   "country": "Croatia",
   "epics": 16,
-  "obtainableVia": ["Multiplayer", "Special Events"],
-  "added": "New Tech Reloaded",
-  "addedWith": "SE",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event (New Tech Reloaded Season)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["World League Platinum & Legend Packs", "World League Rank Rewards", "World League Epic Import Parts Pack"]
+    },
+    {
+      "status": "current",
+      "methods": ["Seasonal Revving (Audi Season - May 27 - Jun 23)"]
+    }
+  ],
   "addedDate": "25/09/2023",
   "blueprints1Star": 85,
   "blueprints2Star": 25,

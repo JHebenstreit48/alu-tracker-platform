@@ -11,7 +11,12 @@
   "rarity": "Epic",
   "stars": 6,
   "country": "Sweden",
-  "obtainableVia": ["Special Events"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event (Phantom Riders Update)"]
+    }
+  ],
   "blueprints1Star": 35,
   "blueprints2Star": 40,
   "blueprints3Star": 45,

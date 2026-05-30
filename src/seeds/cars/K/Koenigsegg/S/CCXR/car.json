@@ -15,11 +15,11 @@
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Special Event"]
+      "methods": ["Special Event (2023 European Season Update)"]
     },
     {
       "status": "inactive",
-      "methods": ["Special Hunt", "Legend Pass"]
+      "methods": ["Special Hunt (Holiday Overdrive Update)", "Holiday Overdrive Ultimate Legend Pass (Key reward)"]
     }
   ],
   "added": "European Season (2023)",

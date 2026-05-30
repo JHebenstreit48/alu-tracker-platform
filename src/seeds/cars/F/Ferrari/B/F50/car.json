@@ -12,9 +12,24 @@
   "stars": 4,
   "country": "Italy",
   "epics": 8,
-  "obtainableVia": [],
-  "added": "City of Lights",
-  "addedWith": "Legend Pass",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Legend Pass (Sakura Spring Season)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Legendary Hunt", "Samsung Galaxy Welcome Pack (Samsung devices only)", "Ferrari Esports Asphalt Series 2025 Redeem Code"]
+    },
+    {
+      "status": "current",
+      "methods": ["Sponsorships (Ferrari Contracts)"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Endurance Showdown TLE (Audi Season - Jun 12-19)"]
+    }
+  ],
   "addedDate": "06/02/2023",
   "blueprints1Star": 55,
   "blueprints2Star": 35,

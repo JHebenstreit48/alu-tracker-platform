@@ -13,9 +13,20 @@
   "keyCar": true,
   "country": "Italy",
   "epics": 16,
-  "obtainableVia": ["Grand Prix"],
-  "added": "Lamborghini Season",
-  "addedWith": "Grand Prix",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Grand Prix (Lamborghini Season Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Limited-Time Packs (Raging Bull Season Update)", "Special Hunt (Legacy of Speed Update)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Ultimate Pass Featured Key (Audi Season)"]
+    }
+  ],
   "addedDate": "05/05/2020",
   "blueprints1Star": 0,
   "blueprints2Star": 28,

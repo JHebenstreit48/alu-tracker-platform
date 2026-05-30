@@ -13,9 +13,16 @@
   "keyCar": true,
   "country": "Sweden",
   "epics": 16,
-  "obtainableVia": [],
-  "added": "Unite Update",
-  "addedWith": "Drive Syndicate",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Drive Syndicate 9: Rebels Unite (Asphalt Legends Unite Expansion Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Drive Syndicate 12: Arash Imperium (Support Car)"]
+    }
+  ],
   "addedDate": "16/7/2024",
   "blueprints1Star": 0,
   "blueprints2Star": 40,

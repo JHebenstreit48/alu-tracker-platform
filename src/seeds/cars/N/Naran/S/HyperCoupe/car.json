@@ -12,9 +12,24 @@
   "stars": 6,
   "country": "United Kingdom",
   "epics": 16,
-  "obtainableVia": [],
-  "added": "Festive Season",
-  "addedWith": "SE",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event (Festive Season Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Multiplayer Platinum & Legend Card Packs", "Epic Import Parts Pack (Multiplayer)"]
+    },
+    {
+      "status": "current",
+      "methods": [
+        "Garage Level 58 Card Packs & Legend Store (Collector Stage II)",
+        "Ultimate Pass (Audi Season)",
+        "Audi R8 LMP1 2000 Special Event (Support Car - Jun 17 - Jul 2)"
+      ]
+    }
+  ],
   "addedDate": "16/12/2021",
   "blueprints1Star": 85,
   "blueprints2Star": 25,

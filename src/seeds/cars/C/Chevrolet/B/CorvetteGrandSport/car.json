@@ -12,9 +12,25 @@
   "stars": 5,
   "country": "USA",
   "epics": 8,
-  "obtainableVia": ["Garage Level 13"],
-  "added": "Soft Launch",
-  "addedWith": null,
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Soft Launch (Limited-Time Shop Packs)", "Unleashed Event (September 2018)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Class B Cup Wednesday Packs", "Car Hunt", "Ghost Mode Gold & Platinum Packs", "2nd Anniversary Gift (July 30, 2020)"]
+    },
+    {
+      "status": "current",
+      "methods": [
+        "Garage Level 13 Card Packs & Legend Store",
+        "Car Sponsorship (7 days)",
+        "World League Triumph Rewards (Gold I)",
+        "Starway Peugeot Onyx (Audi Season - May 27 - Jun 23)"
+      ]
+    }
+  ],
   "addedDate": "26/02/2018",
   "blueprints1Star": 30,
   "blueprints2Star": 9,

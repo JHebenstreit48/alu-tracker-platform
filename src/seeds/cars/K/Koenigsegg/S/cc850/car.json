@@ -13,7 +13,20 @@
   "keyCar": true,
   "country": "Sweden",
   "epics": 16,
-  "obtainableVia": [],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Drive Syndicate 8: CC850 (Racing Through Fire & Hall of Flames Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        "Special Event (Korean Spring Update)",
+        "Black Friday Spotlight (Phantom Riders Update)",
+        "Drive Syndicate 15: Interlude (Support Car)"
+      ]
+    }
+  ],
   "added": "Racing Through Fire",
   "addedWith": "Drive Syndicate",
   "addedDate": "24/07/2023",

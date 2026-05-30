@@ -12,9 +12,20 @@
   "stars": 4,
   "country": "Italy",
   "epics": 8,
-  "obtainableVia": [],
-  "added": "Italian Revolution I",
-  "addedWith": "Legend Pass car",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Legend Pass (Italian Revolution Season I & II)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Unleashed Event (Nintendo Switch only)"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Dragon Boat TLE (Audi Season - Jun 19-26)"]
+    }
+  ],
   "addedDate": "19/2/2024",
   "blueprints1Star": 55,
   "blueprints2Star": 35,
