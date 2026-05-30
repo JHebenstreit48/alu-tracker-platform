@@ -12,9 +12,20 @@
   "stars": 6,
   "country": "France",
   "epics": 16,
-  "obtainableVia": ["Starway", "Garage Level 53"],
-  "added": "Full Throttle",
-  "addedWith": "Unleashed",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Unleashed Event (Full Throttle Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Limited-Time Packs", "Time-Limited Events", "Career Mode (Heatwave Season)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Starway", "Garage Level 53 Card Packs & Legend Store (Collector Stage II)", "Starway Peugeot Onyx (Audi Season - May 27 - Jun 23)"]
+    }
+  ],
   "addedDate": "10/12/2020",
   "blueprints1Star": 50,
   "blueprints2Star": 23,

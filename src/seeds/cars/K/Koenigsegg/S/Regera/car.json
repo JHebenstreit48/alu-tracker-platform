@@ -12,9 +12,20 @@
   "stars": 6,
   "country": "Sweden",
   "epics": 16,
-  "obtainableVia": ["Garage Level 18"],
-  "added": "Soft Launch",
-  "addedWith": null,
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event (Soft Launch)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Special Event Rerun", "Limited-Time Packs", "Flying High Event (Festive Fury Update)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 18 Card Packs & Legend Store"]
+    }
+  ],
   "addedDate": "26/02/2018",
   "blueprints1Star": 60,
   "blueprints2Star": 13,

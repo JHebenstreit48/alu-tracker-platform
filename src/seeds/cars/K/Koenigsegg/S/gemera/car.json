@@ -13,9 +13,20 @@
   "keyCar": true,
   "country": "Sweden",
   "epics": 16,
-  "obtainableVia": [],
-  "added": "Festive Season",
-  "addedWith": "Drive Syndicate",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Drive Syndicate (Festive Season Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Burst of Speed Packs", "Unleashed Event (New Tech and Black Friday Update)", "Special Event: Mosler Super GT (Stage 8)"]
+    },
+    {
+      "status": "current",
+      "methods": ["VIP Market (VIP Level 10)"]
+    }
+  ],
   "addedDate": "16/12/2021",
   "blueprints1Star": 0,
   "blueprints2Star": 40,

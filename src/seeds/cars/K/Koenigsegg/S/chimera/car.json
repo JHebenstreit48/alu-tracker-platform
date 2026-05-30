@@ -12,7 +12,12 @@
   "stars": 6,
   "keyCar": true,
   "country": "Sweden",
-  "obtainableVia": ["Drive Syndicate"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Drive Syndicate 13: Koenigsegg Chimera (Holiday Overdrive Update)"]
+    }
+  ],
   "blueprints1Star": 0,
   "blueprints2Star": 45,
   "blueprints3Star": 50,

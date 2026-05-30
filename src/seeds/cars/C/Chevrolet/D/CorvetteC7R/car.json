@@ -13,9 +13,20 @@
   "keyCar": true,
   "country": "USA",
   "epics": 8,
-  "obtainableVia": ["Key Hunt"],
-  "added": "American Season",
-  "addedWith": "GP",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Grand Prix (American Season)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Key Hunt"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Endurance Showdown TLE (Audi Season - Jun 12-19)"]
+    }
+  ],
   "addedDate": "30/06/2020",
   "blueprints1Star": 0,
   "blueprints2Star": 22,

@@ -12,7 +12,16 @@
   "stars": 6,
   "country": "Sweden",
   "epics": 16,
-  "obtainableVia": ["Clash Store (obsolete)"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Clash Store (Around the World Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Special Event (Festive Sparks and Dragon Race Update)", "Speed Festival Spotlight (Korean Spring Update)"]
+    }
+  ],
   "added": "Around the World",
   "addedWith": "Clash Store (obsolete)",
   "addedDate": "03/04/2022",

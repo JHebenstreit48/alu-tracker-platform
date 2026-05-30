@@ -13,9 +13,20 @@
   "keyCar": true,
   "country": "Italy",
   "epics": 16,
-  "obtainableVia": ["Grand Prix"],
-  "added": "Heatwave Season",
-  "addedWith": "Grand Prix",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Grand Prix (Heatwave Season)", "Heatwave Season Pass"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Limited-Time Packs (Raging Bull Season Update)"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Dragon Boat TLE (Audi Season - Jun 19-26)"]
+    }
+  ],
   "addedDate": "01/08/2021",
   "blueprints1Star": 0,
   "blueprints2Star": 28,

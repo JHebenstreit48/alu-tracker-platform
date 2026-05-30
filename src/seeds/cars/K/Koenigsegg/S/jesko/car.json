@@ -16,19 +16,21 @@
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Drive Syndicate"]
+      "methods": ["Drive Syndicate 1 (Summer Update)"]
     },
     {
       "status": "inactive",
-      "methods": ["Grand Prix", "Jesko Special Event"]
+      "methods": ["Grand Prix (Lamborghini Season Update)", "Heatwave: Afterburn Packs"]
     },
     {
       "status": "obsolete",
-      "methods": ["Clash Store", "Heatwave: Afterburn Special Event & Packs"]
+      "methods": ["Clash Store", "Heatwave: Afterburn Special Event"]
+    },
+    {
+      "status": "current",
+      "methods": ["RAESR Aglaia Special Event (Support Car - May 19 - Jun 3, 2026)", "Limited-Time Token Packs", "Multi-Bundle (Real Money Shop)"]
     }
   ],
-  "added": "Summer",
-  "addedWith": "Drive Syndicate",
   "addedDate": "18/06/2019",
   "blueprints1Star": 0,
   "blueprints2Star": 40,

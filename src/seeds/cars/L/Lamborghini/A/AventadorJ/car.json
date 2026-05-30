@@ -11,9 +11,24 @@
   "stars": 5,
   "country": "Italy",
   "epics": 12,
-  "obtainableVia": ["Garage Level 15"],
-  "added": "Carribean",
-  "addedWith": "Special Events",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Events (Caribbean Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Special Hunt (Flames of Fortune Update)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 15 Card Packs & Legend Store"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Summer Solstice TLE (Audi Season - Jun 22 - Jul 3)"]
+    }
+  ],
   "addedDate": "10/04/2019",
   "blueprints1Star": 50,
   "blueprints2Star": 23,

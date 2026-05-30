@@ -10,8 +10,17 @@
   "sources": ["Asphalt Fandom Wiki", "My own in-game research"],
   "stars": 6,
   "keyCar": true,
-  "country": "United States/ Italy",
-  "obtainableVia": ["Drive Syndicate"],
+  "country": "Italy",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Drive Syndicate: Interlude (Porsche of Legends Update)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Seasonal Revving (Audi Season - May 27 - Jun 23)"]
+    }
+  ],
   "blueprints1Star": 0,
   "blueprints2Star": 45,
   "blueprints3Star": 50,
