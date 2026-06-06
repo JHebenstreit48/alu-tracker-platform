@@ -2,15 +2,15 @@
   {
     "stage": 2,
     "rankByStat": {
-      "topSpeed": 0,
-      "acceleration": 0,
-      "handling": 0,
+      "topSpeed": 10,
+      "acceleration": 6,
+      "handling": 9,
       "nitro": 0
     },
     "statByStat": {
-      "topSpeed": 0,
-      "acceleration": 0,
-      "handling": 0,
+      "topSpeed": 0.30,
+      "acceleration": 0.19,
+      "handling": 0.75,
       "nitro": 0
     }
   },
