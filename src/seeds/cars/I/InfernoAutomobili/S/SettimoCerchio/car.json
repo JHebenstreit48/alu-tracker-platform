@@ -1,5 +1,6 @@
 {
   "id": 2,
+  "image": "/images/cars/I/InfernoAutomobili/settimocerchio.webp",
   "class": "S",
   "brand": "Inferno Automobili",
   "model": "Settimo Cerchio",
@@ -11,15 +12,23 @@
   "stars": 6,
   "country": "Mexico",
   "epics": 16,
-  "obtainableVia": [],
-  "added": "Around the World",
-  "addedWith": "SE",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event (Around the World Update - Legend Pass required)"]
+    },
+    {
+      "status": "removed",
+      "removedDate": "24/07/2023",
+      "reason": "Licensing issues",
+      "methods": ["Removed from game"]
+    }
+  ],
   "addedDate": "03/04/2022",
   "blueprints1Star": 85,
   "blueprints2Star": 25,
   "blueprints3Star": 29,
   "blueprints4Star": 38,
   "blueprints5Star": 54,
-  "blueprints6Star": 69,
-  "ImageStatus": "Removed"
+  "blueprints6Star": 69
 }
