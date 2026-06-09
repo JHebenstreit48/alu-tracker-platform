@@ -1,6 +1,6 @@
 import { setGlobalOptions } from "firebase-functions/v2/options";
 import { onRequest } from "firebase-functions/v2/https";
-import app from "./app";
+import app from "@/app.js";
 
 setGlobalOptions({ maxInstances: 10 });
 

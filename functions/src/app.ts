@@ -2,8 +2,8 @@ import express from "express";
 import helmet from "helmet";
 import cors from "cors";
 
-import commentsRoutes from "./routes/comments";
-import feedbackRoutes from "./routes/feedback";
+import commentsRoutes from "@/routes/comments.js";
+import feedbackRoutes from "@/routes/feedback.js";
 
 const app = express();
 

@@ -12,7 +12,20 @@
   "stars": 6,
   "country": "France",
   "epics": 16,
-  "obtainableVia": ["Garage Level 33"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Drive Syndicate 3 (Full Throttle Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Drive Syndicate 4 (Support Car)", "Multiplayer Gold, Platinum & Legend Card Packs", "Epic Import Parts Pack (Multiplayer)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 33", "Legend Store Card Packs", "Legend Store"]
+    }
+  ],
   "added": "Full Throttle",
   "addedWith": "Drive Syndicate",
   "addedDate": "10/12/2020",
