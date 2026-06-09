@@ -1,22 +1,21 @@
 {
   "compilerOptions": {
     "module": "NodeNext",
-    "esModuleInterop": true,
     "moduleResolution": "nodenext",
+    "esModuleInterop": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "outDir": "lib",
+    "rootDir": "src",
     "sourceMap": true,
     "strict": true,
     "target": "es2017",
-
-    // 👇 Add these
-    "baseUrl": "src",
     "paths": {
-      "@/*": ["*"]
+      "@/*": ["./src/*"]
     },
     "types": ["node"]
   },
   "compileOnSave": true,
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules", "lib"]
 }

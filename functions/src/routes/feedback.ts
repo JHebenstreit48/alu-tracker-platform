@@ -1,8 +1,8 @@
 import { Router, type Request, type Response } from "express";
 import { z } from "zod";
-import { adminDb } from "../firebaseAdmin";
+import { adminDb } from "@/firebaseAdmin.js";
 import { FieldValue, Timestamp } from "firebase-admin/firestore";
-import { transporter } from "../mailer";
+import { transporter } from "@/mailer.js";
 
 const router = Router();
 const COLL = "feedback";

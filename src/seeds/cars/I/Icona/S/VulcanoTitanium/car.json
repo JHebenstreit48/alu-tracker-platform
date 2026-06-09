@@ -12,9 +12,20 @@
   "stars": 5,
   "country": "Italy",
   "epics": 12,
-  "obtainableVia": ["Garage Level 13"],
-  "added": "Soft Launch",
-  "addedWith": null,
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Soft Launch"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Car Hunt", "Limited-Time Event Packs"]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 13", "Career Mode", "Classic Card Packs", "Starway Peugeot Onyx (Audi Season - May 27 - Jun 23)"]
+    }
+  ],
   "addedDate": "26/02/2018",
   "blueprints1Star": 40,
   "blueprints2Star": 13,

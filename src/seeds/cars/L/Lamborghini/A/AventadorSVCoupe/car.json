@@ -12,9 +12,20 @@
   "stars": 5,
   "country": "Italy",
   "epics": 12,
-  "obtainableVia": ["Garage Level 12"],
-  "added": "Soft Launch",
-  "addedWith": null,
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Soft Launch"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Multiplayer Platinum & Legend Packs", "Deluxe Class A Pack (Weekends)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 12", "Class A+ Pack (Thursdays)"]
+    }
+  ],
   "addedDate": "26/02/2018",
   "blueprints1Star": 35,
   "blueprints2Star": 12,

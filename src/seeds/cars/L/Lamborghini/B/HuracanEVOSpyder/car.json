@@ -12,9 +12,20 @@
   "stars": 5,
   "country": "Italy",
   "epics": 8,
-  "obtainableVia": ["Garage Level 18"],
-  "added": "Motor Show",
-  "addedWith": "SE",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event (Motor Show Update)", "Motor Show Daily Event"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Limited-Time Packs", "Time-Limited Events"]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 18 Card Packs", "Legend Store", "Starway (Rotating Special Event)"]
+    }
+  ],
   "addedDate": "04/03/2019",
   "blueprints1Star": 45,
   "blueprints2Star": 17,
