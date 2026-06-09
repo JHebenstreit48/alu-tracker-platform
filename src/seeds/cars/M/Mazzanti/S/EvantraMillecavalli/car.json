@@ -12,9 +12,18 @@
   "stars": 6,
   "country": "Italy",
   "epics": 16,
-  "obtainableVia": ["No longer obtainable"],
-  "added": "Italian Season",
-  "addedWith": "SE",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event (Italian Season Update)"]
+    },
+    {
+      "status": "removed",
+      "removedDate": "24/07/2023",
+      "reason": "Licensing issues",
+      "methods": ["Removed from game"]
+    }
+  ],
   "addedDate": "08/04/2021",
   "blueprints1Star": 85,
   "blueprints2Star": 25,

@@ -13,9 +13,26 @@
   "keyCar": true,
   "country": "Germany",
   "epics": 16,
-  "obtainableVia": ["Grand Prix"],
-  "added": "Porsche Season",
-  "addedWith": "Grand Prix",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Grand Prix (Porsche Season Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        "Unleashed Event (Full Throttle Update)",
+        "Unleashed Event (Speed Parade Update)",
+        "Special Event: TORINO DESIGN Super Sport",
+        "Special Event: FV Frangivento Asfanè",
+        "Racing Around the World Spotlight"
+      ]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Sonic 35th Anniversary Spotlight (Audi Season - Jun 18 - Jul 21)"]
+    }
+  ],
   "addedDate": "19/03/2020",
   "blueprints1Star": 0,
   "blueprints2Star": 28,

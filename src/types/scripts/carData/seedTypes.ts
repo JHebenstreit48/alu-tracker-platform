@@ -1,4 +1,4 @@
-export type SeedStatus = "complete" | "in progress" | "coming soon" | "missing" | "unknown";
+export type SeedStatus = "complete" | "in progress" | "coming soon" | "missing" | "unknown" | "removed";
 
 export type StarCount = 3 | 4 | 5 | 6;
 
@@ -18,6 +18,13 @@ export type StarName =
   | "fiveStar"
   | "sixStar";
 
+export type ObtainableViaEntry = {
+  status: "original" | "upcoming" | "current" | "recent" | "inactive" | "obsolete" | "removed";
+  methods: string[];
+  removedDate?: string;
+  reason?: string;
+};
+
 export type SeedCar = {
   brand?: string;
   model?: string;
@@ -29,7 +36,7 @@ export type SeedCar = {
   keyCar?: boolean;
   country?: string;
   epics?: number;
-  obtainableVia?: string[] | string;
+  obtainableVia?: ObtainableViaEntry[] | string[] | string | null;
   added?: string;
   addedWith?: unknown;
   addedDate?: string;

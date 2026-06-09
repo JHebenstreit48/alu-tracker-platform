@@ -13,9 +13,24 @@
   "keyCar": true,
   "country": "UAE",
   "epics": 16,
-  "obtainableVia": [],
-  "added": "Italian Revolution I",
-  "addedWith": "SE",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event (Italian Revolution Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Tides of Madness Spotlight (Phantom Riders Update)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Gauntlet Market (Division V)"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Sonic 35th Anniversary Spotlight (Audi Season - Jun 18 - Jul 21)"]
+    }
+  ],
   "addedDate": "19/2/2024",
   "blueprints1Star": 0,
   "blueprints2Star": 40,

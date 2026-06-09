@@ -12,9 +12,20 @@
   "stars": 6,
   "country": "Japan",
   "epics": 16,
-  "obtainableVia": [],
-  "added": "Supercharged Summer",
-  "addedWith": "Special Events",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event (Supercharged Summer Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Racing Around the World Spotlight (Pinnacle of Speed Update)", "New Year: Drifting Away from 2025 TLE (Holiday Overdrive Update)"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Sonic 35th Anniversary Spotlight (Audi Season - Jun 18 - Jul 21)"]
+    }
+  ],
   "addedDate": "27/5/2024",
   "blueprints1Star": 85,
   "blueprints2Star": 25,
