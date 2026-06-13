@@ -1,6 +1,7 @@
 import "dotenv/config";
 import fs from "fs";
 import path from "path";
+import crypto from "crypto";
 import { adminBucket } from "@/Firebase/firebaseAdmin";
 import { PUBLIC_DIR, logConfig } from "../../utils/scripts/carData/seedConfig";
 
@@ -37,7 +38,7 @@ const forceFlag = process.argv.includes("--force");
   let uploaded = 0;
   let skipped = 0;
   let deleted = 0;
-  let reuploadedSmaller = 0;
+  let updated = 0;
 
   for (const filePath of walk(root)) {
     const rel = path.relative(PUBLIC_DIR, filePath).replace(/\\/g, "/");
@@ -61,18 +62,20 @@ const forceFlag = process.argv.includes("--force");
     const [exists] = await fileRef.exists();
 
     if (exists && !forceFlag) {
-      const localSize = fs.statSync(filePath).size;
+      const localBuffer = fs.readFileSync(filePath);
+      const localMd5 = crypto.createHash("md5").update(localBuffer).digest("base64");
       const [metadata] = await fileRef.getMetadata();
-      const remoteSize = Number(metadata.size ?? 0);
+      const remoteMd5 = metadata.md5Hash;
 
-      if (localSize < remoteSize) {
-        await fileRef.delete();
-        await adminBucket.upload(filePath, { destination: dest });
-        console.log(`♻️  Re-uploaded smaller ${dest} (${remoteSize} → ${localSize} bytes)`);
-        reuploadedSmaller++;
-      } else {
+      if (localMd5 === remoteMd5) {
         skipped++;
+        continue;
       }
+
+      await fileRef.delete();
+      await adminBucket.upload(filePath, { destination: dest });
+      console.log(`♻️  Updated changed file ${dest}`);
+      updated++;
       continue;
     }
 
@@ -106,7 +109,7 @@ const forceFlag = process.argv.includes("--force");
   }
 
   console.log(
-    `✅ Done. Uploaded: ${uploaded}, re-uploaded smaller: ${reuploadedSmaller}, skipped: ${skipped}, deleted old .jpg: ${deleted}`
+    `✅ Done. Uploaded: ${uploaded}, updated: ${updated}, skipped: ${skipped}, deleted old .jpg: ${deleted}`
   );
   process.exit(0);
 })().catch((err) => {

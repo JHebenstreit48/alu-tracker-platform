@@ -12,9 +12,20 @@
   "stars": 4,
   "country": "The Netherlands",
   "epics": 4,
-  "obtainableVia": ["Legend Pass", "Racing Around the World season", "Pinnacle of Speed update"],
-  "added": "City of Lights",
-  "addedWith": "LP",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Legend Pass (City of Lights Season)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Racing Around the World Spotlight (Pinnacle of Speed Update)"]
+    },
+    {
+      "status": "upcoming",
+      "methods": ["Sonic 35th Anniversary Spotlight (Audi Season - Jun 18 - Jul 21)"]
+    }
+  ],
   "addedDate": "06/02/2023",
   "blueprints1Star": 35,
   "blueprints2Star": 10,

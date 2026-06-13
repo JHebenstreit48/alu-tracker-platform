@@ -20,11 +20,11 @@
     },
     {
       "status": "inactive",
-      "methods": ["Key Hunt"]
+      "methods": ["Grand Prix", "Key Hunt"]
     },
     {
-      "status": "upcoming",
-      "methods": ["Endurance Showdown TLE (Audi Season - Jun 12-19)"]
+      "status": "current",
+      "methods": ["Endurance Showdown TLE", "Shop"]
     }
   ],
   "addedDate": "30/06/2020",
