@@ -12,10 +12,17 @@
   "stars": 3,
   "country": "Germany",
   "epics": 4,
-  "obtainableVia": ["Garage Level 2"],
-  "added": "Soft Launch",
-  "addedWith": null,
   "addedDate": "26/02/2018",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Soft Launch", "Garage Level 2", "Legend Store", "Classic Pack", "Campaign"]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 2", "Legend Store", "Classic Pack", "Campaign"]
+    }
+  ],
   "blueprints1Star": 20,
   "blueprints2Star": 20,
   "blueprints3Star": 50,

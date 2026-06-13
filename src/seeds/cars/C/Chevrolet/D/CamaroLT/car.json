@@ -12,10 +12,17 @@
   "stars": 3,
   "country": "USA",
   "epics": 0,
-  "obtainableVia": ["Garage Level 1"],
-  "added": "Soft Launch",
-  "addedWith": null,
   "addedDate": "26/02/2018",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Soft Launch", "Garage Level 1", "Legend Store", "Classic Pack", "Campaign", "Daily Car Loot"]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 1", "Legend Store", "Classic Pack", "Campaign", "Daily Car Loot"]
+    }
+  ],
   "blueprints1Star": 5,
   "blueprints2Star": 12,
   "blueprints3Star": 30,

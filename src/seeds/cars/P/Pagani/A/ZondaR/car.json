@@ -13,10 +13,25 @@
   "keyCar": true,
   "country": "Italy",
   "epics": 16,
-  "obtainableVia": ["Special Event Car Hunt"],
-  "added": "Festive Season",
-  "addedWith": "Grand Prix",
   "addedDate": "16/12/2021",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Festive Season", "Grand Prix"]
+    },
+    {
+      "status": "obsolete",
+      "methods": ["Unleashed Event"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Grand Prix", "Special Hunt"]
+    },
+    {
+      "status": "current",
+      "methods": ["New Player Key"]
+    }
+  ],
   "blueprints1Star": 0,
   "blueprints2Star": 28,
   "blueprints3Star": 32,

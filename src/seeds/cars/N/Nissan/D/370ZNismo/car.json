@@ -12,10 +12,17 @@
   "stars": 3,
   "country": "Japan",
   "epics": 0,
-  "obtainableVia": ["Garage Level 2"],
-  "added": "Soft Launch",
-  "addedWith": null,
   "addedDate": "26/02/2018",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Soft Launch", "Garage Level 2", "Legend Store", "Classic Pack", "Campaign", "Daily Car Loot"]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 2", "Legend Store", "Classic Pack", "Campaign", "Daily Car Loot"]
+    }
+  ],
   "blueprints1Star": 10,
   "blueprints2Star": 12,
   "blueprints3Star": 30,
