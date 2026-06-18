@@ -12,9 +12,16 @@
   "stars": 4,
   "country": "USA",
   "epics": 8,
-  "obtainableVia": [],
-  "added": "European Season (2023)",
-  "addedWith": null,
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Legend Pass (European Season 2023)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Boss Mode", "Special Event - Spotlight"]
+    }
+  ],
   "addedDate": "30/03/2023",
   "blueprints1Star": 55,
   "blueprints2Star": 35,
