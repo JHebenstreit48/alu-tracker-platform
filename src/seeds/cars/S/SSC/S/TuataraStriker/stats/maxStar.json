@@ -1,44 +1,44 @@
 {
   "oneStar": {
     "rank": 4000,
-    "topSpeed": "Unknown",
-    "acceleration": "Unknown",
-    "handling": "Unknown",
-    "nitro": "Unknown"
+    "topSpeed": 438,
+    "acceleration": 76.96,
+    "handling": 53.63,
+    "nitro": 36.25
   },
   "twoStar": {
-    "rank": "Unknown",
-    "topSpeed": "Unknown",
-    "acceleration": "Unknown",
-    "handling": "Unknown",
-    "nitro": "Unknown"
+    "rank": 4187,
+    "topSpeed": 441.6,
+    "acceleration": 77.60,
+    "handling": 54.51,
+    "nitro": 40.13
   },
   "threeStar": {
     "rank": 4388,
-    "topSpeed": "Unknown",
-    "acceleration": "Unknown",
-    "handling": "Unknown",
-    "nitro": "Unknown"
+    "topSpeed": 445.4,
+    "acceleration": 78.28,
+    "handling": 55.45,
+    "nitro": 44.26
   },
   "fourStar": {
     "rank": 4598,
-    "topSpeed": "Unknown",
-    "acceleration": "Unknown",
-    "handling": "Unknown",
-    "nitro": "Unknown"
+    "topSpeed": 449.3,
+    "acceleration": 79.02,
+    "handling": 56.45,
+    "nitro": 48.42
   },
   "fiveStar": {
     "rank": 4844,
-    "topSpeed": "Unknown",
-    "acceleration": "Unknown",
-    "handling": "Unknown",
-    "nitro": "Unknown"
+    "topSpeed": 453.8,
+    "acceleration": 79.93,
+    "handling": 57.67,
+    "nitro": 53.04
   },
   "sixStar": {
-    "rank": "Unknown",
-    "topSpeed": "Unknown",
-    "acceleration": "Unknown",
-    "handling": "Unknown",
-    "nitro": "Unknown"
+    "rank": 4854,
+    "topSpeed": 454.6,
+    "acceleration": 79.88,
+    "handling": 57.58,
+    "nitro": 53.80
   }
 }
