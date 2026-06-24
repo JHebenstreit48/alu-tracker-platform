@@ -11,7 +11,7 @@ app.use(helmet());
 app.use(express.json({ limit: "32kb" }));
 
 const allowedOrigins = [
-  "https://asphaltlegendsunitetracker.netlify.app",
+  "https://asphalt-legends-tracker.netlify.app",
   "http://localhost:5173",
   "http://127.0.0.1:5173",
 ];
