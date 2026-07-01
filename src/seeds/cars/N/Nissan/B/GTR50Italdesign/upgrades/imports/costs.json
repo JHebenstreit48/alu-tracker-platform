@@ -1,19 +1,25 @@
 {
   "perCardByStage": {
     "3": {
-      "uncommon": 0
+      "uncommon": 50000
     },
     "6": {
-      "uncommon": 0
+      "uncommon": 50000,
+      "rare": 100000
     },
     "8": {
-      "uncommon": 0
+      "uncommon": 50000,
+      "rare": 100000
     },
     "10": {
-      "uncommon": 0
+      "uncommon": 50000,
+      "rare": 100000,
+      "epic": 300000
     },
     "12": {
-      "uncommon": 0
+      "uncommon": 50000,
+      "rare": 100000,
+      "epic": 300000
     }
   }
 }
