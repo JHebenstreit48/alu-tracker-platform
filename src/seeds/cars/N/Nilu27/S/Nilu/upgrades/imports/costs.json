@@ -4,19 +4,26 @@
       "uncommon": 90000
     },
     "6": {
-      "uncommon": 0
+      "uncommon": 90000,
+      "rare": 180000
     },
     "8": {
-      "uncommon": 0
+      "uncommon": 90000,
+      "rare": 180000
     },
     "10": {
-      "uncommon": 0
+      "uncommon": 90000,
+      "rare": 180000,
+      "epic": 540000
     },
     "12": {
-      "uncommon": 0
+      "rare": 180000,
+      "epic": 540000
     },
     "13": {
-      "uncommon": 0
+      "uncommon": 90000,
+      "rare": 180000,
+      "epic": 540000
     }
   }
 }

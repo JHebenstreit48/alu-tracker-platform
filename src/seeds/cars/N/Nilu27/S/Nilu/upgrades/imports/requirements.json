@@ -6,118 +6,88 @@
         "acceleration": 3,
         "handling": 3,
         "nitro": 3
-      },
-      "rare": {
-        "topSpeed": 0,
-        "acceleration": 0,
-        "handling": 0,
-        "nitro": 0
-      },
-      "epic": {
-        "topSpeed": 0,
-        "acceleration": 0,
-        "handling": 0,
-        "nitro": 0
       }
     },
     "6": {
       "uncommon": {
-        "topSpeed": 0,
-        "acceleration": 0,
-        "handling": 0,
-        "nitro": 0
+        "topSpeed": 1,
+        "acceleration": 1,
+        "handling": 1,
+        "nitro": 1
       },
       "rare": {
-        "topSpeed": 0,
-        "acceleration": 0,
-        "handling": 0,
-        "nitro": 0
-      },
-      "epic": {
-        "topSpeed": 0,
-        "acceleration": 0,
-        "handling": 0,
-        "nitro": 0
+        "topSpeed": 1,
+        "acceleration": 1,
+        "handling": 1,
+        "nitro": 1
       }
     },
     "8": {
       "uncommon": {
-        "topSpeed": 0,
-        "acceleration": 0,
-        "handling": 0,
-        "nitro": 0
+        "topSpeed": 2,
+        "acceleration": 2,
+        "handling": 2,
+        "nitro": 2
       },
       "rare": {
-        "topSpeed": 0,
-        "acceleration": 0,
-        "handling": 0,
-        "nitro": 0
-      },
-      "epic": {
-        "topSpeed": 0,
-        "acceleration": 0,
-        "handling": 0,
-        "nitro": 0
+        "topSpeed": 1,
+        "acceleration": 1,
+        "handling": 1,
+        "nitro": 1
       }
     },
     "10": {
       "uncommon": {
-        "topSpeed": 0,
+        "topSpeed": 1,
         "acceleration": 0,
         "handling": 0,
-        "nitro": 0
+        "nitro": 1
       },
       "rare": {
         "topSpeed": 0,
-        "acceleration": 0,
-        "handling": 0,
+        "acceleration": 1,
+        "handling": 1,
         "nitro": 0
       },
       "epic": {
-        "topSpeed": 0,
-        "acceleration": 0,
-        "handling": 0,
-        "nitro": 0
+        "topSpeed": 1,
+        "acceleration": 1,
+        "handling": 1,
+        "nitro": 1
       }
     },
     "12": {
-      "uncommon": {
-        "topSpeed": 0,
-        "acceleration": 0,
-        "handling": 0,
-        "nitro": 0
-      },
       "rare": {
-        "topSpeed": 0,
-        "acceleration": 0,
-        "handling": 0,
-        "nitro": 0
+        "topSpeed": 1,
+        "acceleration": 2,
+        "handling": 2,
+        "nitro": 1
       },
       "epic": {
-        "topSpeed": 0,
-        "acceleration": 0,
-        "handling": 0,
-        "nitro": 0
+        "topSpeed": 1,
+        "acceleration": 1,
+        "handling": 1,
+        "nitro": 1
       }
     },
     "13": {
       "uncommon": {
         "topSpeed": 0,
-        "acceleration": 0,
-        "handling": 0,
+        "acceleration": 1,
+        "handling": 1,
         "nitro": 0
       },
       "rare": {
-        "topSpeed": 0,
+        "topSpeed": 2,
         "acceleration": 0,
         "handling": 0,
-        "nitro": 0
+        "nitro": 2
       },
       "epic": {
-        "topSpeed": 0,
-        "acceleration": 0,
-        "handling": 0,
-        "nitro": 0
+        "topSpeed": 2,
+        "acceleration": 2,
+        "handling": 2,
+        "nitro": 2
       }
     }
   }
