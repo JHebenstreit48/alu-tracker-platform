@@ -14,13 +14,14 @@
   "obtainableVia": [
     {
       "status": "current",
-      "methods": ["Audi Season - (Unknown activity)"]
+      "methods": ["Audi Season - Star and Stripes Reignited"]
     }
   ],
   "addedDate": "26/05/2026",
   "blueprints1Star": 30,
-  "blueprints2Star": 0,
-  "blueprints3Star": 0,
-  "blueprints4Star": 0,
-  "blueprints5Star": 0
+  "blueprints2Star": 35,
+  "blueprints3Star": 40,
+  "blueprints4Star": 45,
+  "blueprints5Star": 55,
+  "blueprints6Star": 65
 }
