@@ -1,5 +1,5 @@
 import "dotenv/config";
-import { adminBucket } from "@/Firebase/firebaseAdmin";
+import { adminBucket } from "@/firebase/firebaseAdmin";
 import { logConfig } from "@/utils/scripts/carData/seedConfig";
 import {
   buildBrandDocs,

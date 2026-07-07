@@ -1,4 +1,4 @@
-import { adminDb } from '@/Firebase/firebaseAdmin';
+import { adminDb } from '@/firebase/firebaseAdmin';
 import { FieldValue } from 'firebase-admin/firestore';
 import type { CarDoc, SeedCar, StatusDoc, SeedCarWithMeta } from '@/types/scripts/carData/seedTypes';
 import type {

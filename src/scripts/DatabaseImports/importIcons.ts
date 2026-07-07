@@ -1,7 +1,7 @@
 import "dotenv/config";
 import fs from "fs";
 import path from "path";
-import { adminBucket } from "@/Firebase/firebaseAdmin";
+import { adminBucket } from "@/firebase/firebaseAdmin";
 import { PUBLIC_DIR, logConfig } from "../../utils/scripts/carData/seedConfig";
 
 function* walk(dir: string): Generator<string> {

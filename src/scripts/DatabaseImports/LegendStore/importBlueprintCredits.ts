@@ -1,6 +1,6 @@
 import "dotenv/config";
 import fs from "fs";
-import { adminDb } from "@/Firebase/firebaseAdmin";
+import { adminDb } from "@/firebase/firebaseAdmin";
 import { logLegendStoreConfig } from "@/scripts/DatabaseImports/LegendStore/seedConfig";
 import { getBlueprintCreditFiles } from "@/scripts/DatabaseImports/LegendStore/seedFs";
 import { toBlueprintDoc } from "@/scripts/DatabaseImports/LegendStore/seedNormalize";
