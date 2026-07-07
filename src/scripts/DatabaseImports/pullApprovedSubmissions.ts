@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import path from 'path';
-import { adminDb } from '@/Firebase/firebaseAdmin';
+import { adminDb } from '@/firebase/firebaseAdmin';
 import type { CarPatch, Submission } from '@/types/scripts/approvedSubmissions';
 import { findCarFolder, mergePatch, applyPatch } from '@/utils/scripts/approvedSubmissions';
 

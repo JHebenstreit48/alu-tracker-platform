@@ -1,4 +1,4 @@
-import { adminDb } from "@/Firebase/firebaseAdmin";
+import { adminDb } from "@/firebase/firebaseAdmin";
 import { FieldValue, Timestamp } from "firebase-admin/firestore";
 
 export type CommentType = "missing-data" | "correction" | "general";

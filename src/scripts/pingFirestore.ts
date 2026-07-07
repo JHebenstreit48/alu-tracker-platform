@@ -1,5 +1,5 @@
 import "dotenv/config";
-import { adminDb } from "@/Firebase/firebaseAdmin";
+import { adminDb } from "@/firebase/firebaseAdmin";
 
 async function main(): Promise<void> {
   await adminDb.collection("diagnostics").doc("hello").set({

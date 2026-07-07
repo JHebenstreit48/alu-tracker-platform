@@ -1,7 +1,7 @@
 import "dotenv/config";
 
 import fs from "fs";
-import { adminDb, adminBucket } from "@/Firebase/firebaseAdmin";
+import { adminDb, adminBucket } from "@/firebase/firebaseAdmin";
 import {
   getAllSeedFiles,
   isJson,

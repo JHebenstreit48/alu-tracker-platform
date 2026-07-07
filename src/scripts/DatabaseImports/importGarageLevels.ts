@@ -2,7 +2,7 @@ import "dotenv/config";
 
 import fs from "fs";
 import path from "path";
-import { adminDb, adminBucket } from "@/Firebase/firebaseAdmin";
+import { adminDb, adminBucket } from "@/firebase/firebaseAdmin";
 
 try {
   // Allow TS collectors like GL1-10.ts at runtime (same as cars)

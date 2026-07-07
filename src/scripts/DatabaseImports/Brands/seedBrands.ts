@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { adminDb } from "@/Firebase/firebaseAdmin";
+import { adminDb } from "@/firebase/firebaseAdmin";
 import { getBrandSeedFiles } from "./seedFs";
 import { SeedBrand, BrandDoc, toArray, makeSlug } from "./seedTypes";
 
