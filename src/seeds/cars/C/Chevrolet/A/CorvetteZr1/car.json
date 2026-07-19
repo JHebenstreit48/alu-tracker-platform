@@ -10,7 +10,7 @@
   "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 5,
-  "country": "USA",
+  "country": ["USA"],
   "epics": 12,
   "obtainableVia": [],
   "added": "Godly Beasts",

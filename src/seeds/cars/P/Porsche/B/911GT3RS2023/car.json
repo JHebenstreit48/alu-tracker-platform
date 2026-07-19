@@ -1,0 +1,28 @@
+{
+  "id": 4,
+  "image": "/images/cars/P/Porsche/911gt3rs2023.webp",
+  "class": "B",
+  "brand": "Porsche",
+  "model": "911 GT3 RS (2023)",
+  "normalizedKey": "porsche_911_gt3_rs_2023",
+  "status": "in progress",
+  "message": "still adding data",
+  "sources": ["Nox Fury Patch Notes Video"],
+  "rarity": "Epic",
+  "stars": 5,
+  "country": "Germany",
+  "obtainableVia": [
+    {
+      "status": "upcoming",
+      "methods": ["Touge Masters Update"]
+    }
+  ],
+  "addedDate": "",
+  "blueprints1Star": 25,
+  "blueprints2Star": 0,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0,
+  "blueprints6Star": 0,
+  "Tags": "Europe"
+}

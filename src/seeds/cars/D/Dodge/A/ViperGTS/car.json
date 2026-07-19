@@ -10,7 +10,7 @@
   "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "USA",
+  "country": ["USA"],
   "epics": 8,
   "obtainableVia": ["Garage Level 9"],
   "added": "Soft Launch",

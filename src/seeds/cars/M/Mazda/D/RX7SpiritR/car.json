@@ -1,0 +1,27 @@
+{
+  "id": 1,
+  "image": "/images/cars/M/Mazda/rx7spiritr.webp",
+  "class": "D",
+  "brand": "Mazda",
+  "model": "RX-7 Spirit R",
+  "normalizedKey": "mazda_rx_7_spirit_r",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["Nox Fury Patch Notes Video"],
+  "rarity": "Rare",
+  "stars": 4,
+  "country": "Japan",
+  "obtainableVia": [
+    {
+      "status": "upcoming",
+      "methods": ["Touge Masters Update"]
+    }
+  ],
+  "added": "Touge Masters Update",
+  "addedDate": "",
+  "blueprints1Star": 15,
+  "blueprints2Star": 0,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "Tags": "Asia"
+}

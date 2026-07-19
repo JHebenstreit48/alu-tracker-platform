@@ -10,7 +10,7 @@
   "sources": ["MEI"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "USA",
+  "country": ["USA"],
   "epics": 16,
   "obtainableVia": [],
   "added": "Winterfest",

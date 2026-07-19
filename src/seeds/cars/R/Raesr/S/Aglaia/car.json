@@ -10,7 +10,7 @@
   "sources": ["Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "USA",
+  "country": ["USA"],
   "blueprints1Star": 35,
   "blueprints2Star": 40,
   "blueprints3Star": 45,
