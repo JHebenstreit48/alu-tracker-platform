@@ -1,0 +1,28 @@
+{
+  "id": 4,
+  "image": "/images/cars/P/Porsche/718caymanpacmanedition.webp",
+  "class": "B",
+  "brand": "Porsche",
+  "model": "718 Cayman Pac-Man Edition",
+  "normalizedKey": "porsche_718_cayman_pac_man_edition",
+  "status": "in progress",
+  "message": "still adding data",
+  "sources": ["Nox Fury Patch Notes Video"],
+  "rarity": "Epic",
+  "stars": 6,
+  "country": "Germany",
+  "obtainableVia": [
+    {
+      "status": "upcoming",
+      "methods": ["Touge Masters Update"]
+    }
+  ],
+  "addedDate": "",
+  "blueprints1Star": 25,
+  "blueprints2Star": 0,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0,
+  "blueprints6Star": 0,
+  "Tags": "Europe"
+}

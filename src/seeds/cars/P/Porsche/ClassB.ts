@@ -5,5 +5,6 @@ import nineElevenGt3Rs from '@/seeds/cars/P/Porsche/B/911GT3RS';
 import nineElevenTurbo50Years from '@/seeds/cars/P/Porsche/B/911Turbo50Years';
 import nineSeventeenLivingLegend from '@/seeds/cars/P/Porsche/B/917LivingLegend';
 import nineElevenGt3Rs2023 from '@/seeds/cars/P/Porsche/B/911GT3RS2023';
+import sevenEighteenCaymanPacManEdition from '@/seeds/cars/P/Porsche/B/718CaymanPacManEdition';
 
-export default [nineElevenGtsCoupe, nineElevenGt1Evolution, carreraGt, nineElevenGt3Rs, nineElevenTurbo50Years, nineSeventeenLivingLegend, nineElevenGt3Rs2023];
+export default [nineElevenGtsCoupe, nineElevenGt1Evolution, carreraGt, nineElevenGt3Rs, nineElevenTurbo50Years, nineSeventeenLivingLegend, nineElevenGt3Rs2023, sevenEighteenCaymanPacManEdition];
