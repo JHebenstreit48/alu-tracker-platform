@@ -1,0 +1,28 @@
+{
+  "id": 1,
+  "image": "/images/cars/L/Lucid/C/airsapphire.webp",
+  "class": "C",
+  "brand": "Lucid",
+  "model": "Air Sapphire",
+  "normalizedKey": "lucid_air_sapphire",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["Nox Fury Patch Notes Video"],
+  "rarity": "Epic",
+  "stars": 5,
+  "keyCar": true,
+  "country": ["USA"],
+  "added": "Touge Masters Update",
+  "addedDate": "",
+  "obtainableVia": [
+    {
+      "status": "upcoming",
+      "methods": ["Touge Masters Update"]
+    }
+  ],
+  "blueprints1Star": 0,
+  "blueprints2Star": 30,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0
+}

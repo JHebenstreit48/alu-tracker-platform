@@ -10,7 +10,7 @@
   "sources": ["MEI"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "USA",
+  "country": ["USA"],
   "epics": 4,
   "obtainableVia": ["Showroom", "Garage Level 24", "Drive Syndicate"],
   "added": "Festive Season",

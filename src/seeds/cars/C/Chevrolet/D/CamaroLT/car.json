@@ -10,7 +10,7 @@
   "sources": ["MEI"],
   "rarity": "Uncommon",
   "stars": 3,
-  "country": "USA",
+  "country": ["USA"],
   "epics": 0,
   "addedDate": "26/02/2018",
   "obtainableVia": [

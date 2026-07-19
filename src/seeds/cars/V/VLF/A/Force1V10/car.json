@@ -10,7 +10,7 @@
   "sources": [],
   "rarity": "Epic",
   "stars": 5,
-  "country": "USA",
+  "country": ["USA"],
   "epics": 12,
   "obtainableVia": ["Exclusive"],
   "added": "Soft Launch",

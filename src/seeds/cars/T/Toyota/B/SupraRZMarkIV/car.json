@@ -1,0 +1,28 @@
+{
+  "id": 1,
+  "image": "/images/cars/T/Toyota/suprarzmarkiv.webp",
+  "class": "B",
+  "brand": "Toyota",
+  "model": "Supra RZ Mark IV",
+  "normalizedKey": "toyota_supra_rz_mark_iv",
+  "status": "in progress",
+  "message": "still adding data",
+  "sources": ["Nox Fury Patch Notes Video"],
+  "rarity": "Epic",
+  "stars": 5,
+  "country": "Japan",
+  "obtainableVia": [
+    {
+      "status": "upcoming",
+      "methods": ["JDM Turbofest Spotlight (Jul 21 - Aug 19)"]
+    }
+  ],
+  "addedDate": "",
+  "blueprints1Star": 25,
+  "blueprints2Star": 0,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0,
+  "blueprints6Star": 0,
+  "Tags": "Europe"
+}
