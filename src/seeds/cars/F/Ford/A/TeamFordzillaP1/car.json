@@ -15,19 +15,20 @@
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Special Event - Black 17 (Festive Sparks and Dragon Race Update)"]
+      "methods": ["Special Event (Festive Sparks and Dragon Race Update)"]
     },
     {
       "status": "inactive",
       "methods": [
-        "Special Event Rerun (Heatwave: Afterburn Update)",
+        "Special Event Rerun",
         "Multiplayer Gold, Platinum & Legend Card Packs",
-        "Epic Import Parts Pack (Multiplayer)"
+        "Epic Import Parts Pack (Multiplayer)",
+        "Starway (Peugeot Onyx - May 27 - Jun 23)"
       ]
     },
     {
       "status": "current",
-      "methods": ["Starway Peugeot Onyx (Audi Season - May 27 - Jun 23)"]
+      "methods": ["Special Event (Bugatti Mistral - Jul 8 - Jul 23, 2026)"]
     }
   ],
   "addedDate": "11/12/2023",

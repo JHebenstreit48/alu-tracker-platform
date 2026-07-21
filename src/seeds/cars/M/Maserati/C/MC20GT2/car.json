@@ -13,7 +13,20 @@
   "keyCar": true,
   "country": "Italy",
   "epics": 8,
-  "obtainableVia": ["Grand Prix"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Grand Prix (Supercharged Summer Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Grand Prix", "Grand Prix Rerun"]
+    },
+    {
+      "status": "current",
+      "methods": ["Gauntlet Market"]
+    }
+  ],
   "added": "Supercharged Summer",
   "addedWith": "Grand Prix",
   "addedDate": "27/5/2024",

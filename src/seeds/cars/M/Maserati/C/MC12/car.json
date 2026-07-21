@@ -13,9 +13,20 @@
   "keyCar": true,
   "country": "Italy",
   "epics": 8,
-  "obtainableVia": [],
-  "added": "European Season (2023)",
-  "addedWith": null,
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Grand Prix (European Season 2023)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Grand Prix", "Key Hunt", "Special Event"]
+    },
+    {
+      "status": "obsolete",
+      "methods": ["Italian Cars Showcase Pack"]
+    }
+  ],
   "addedDate": "30/03/2023",
   "blueprints1Star": 0,
   "blueprints2Star": 25,
