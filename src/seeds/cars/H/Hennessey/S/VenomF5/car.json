@@ -7,14 +7,25 @@
   "normalizedKey": "hennessey_venom_f5",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki"],
   "rarity": "Epic",
   "stars": 6,
   "country": ["USA"],
   "epics": 16,
-  "obtainableVia": ["Multiplayer"],
-  "added": "Heatwave Season",
-  "addedWith": "SE",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Legend Pass Special Event (Heatwave Season)"]
+    },
+    {
+      "status": "obsolete",
+      "methods": ["Special Event (Bugatti Veyron 16.4 Grand Sport Vitesse)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Special Event", "Drive Syndicate (Support Car)", "Spotlight", "Anniversary Event", "Multiplayer"]
+    }
+  ],
   "addedDate": "01/08/2021",
   "blueprints1Star": 85,
   "blueprints2Star": 25,

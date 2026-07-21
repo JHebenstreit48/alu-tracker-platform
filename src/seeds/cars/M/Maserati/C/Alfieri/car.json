@@ -12,9 +12,24 @@
   "stars": 4,
   "country": "Italy",
   "epics": 4,
-  "obtainableVia": ["Garage Level 11"],
-  "added": "Slipstream",
-  "addedWith": null,
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Slipstream Update", "Special Event (Bugatti Chiron)"]
+    },
+    {
+      "status": "obsolete",
+      "methods": ["5th Anniversary Gift"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Car Hunt", "League Packs"]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 11", "Legend Store"]
+    }
+  ],
   "addedDate": "11/12/2018",
   "blueprints1Star": 35,
   "blueprints2Star": 10,
