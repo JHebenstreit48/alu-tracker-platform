@@ -1,0 +1,33 @@
+{
+  "id": 2,
+  "image": "/images/cars/A/AstonMartin/valkyrieamrpro.webp",
+  "class": "S",
+  "brand": "Aston Martin",
+  "model": "Valkyrie AMR Pro",
+  "normalizedKey": "aston_martin_valkyrie_amr_pro",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["MEI"],
+  "rarity": "Epic",
+  "stars": 6,
+  "country": "United Kingdom",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Touge Masters Update"]
+    },
+    {
+      "status": "current",
+      "methods": ["Touge Masters Update"]
+    }
+  ],
+  "added": "Touge Masters Update",
+  "addedDate": "21/07/2026",
+  "blueprints1Star": 35,
+  "blueprints2Star": 0,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0,
+  "blueprints6Star": 0,
+  "Tags": "Europe; Hybrid"
+}
