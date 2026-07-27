@@ -3,9 +3,9 @@
     "slug": "czinger",
     "description": "Czinger Vehicles Inc. is a US-based company founded by Kevin Czinger in 2019. The company is based in Los Angeles, California. Czinger Vehicles Inc. is a 3D printing company that specializes in creating high-performance vehicles. They have a team of designers, engineers, and craftsmen that work together to create unique vehicles for their clients.",
     "logo": "/Images/Logos/C/Czinger/czinger-logo.png",
-    "country": ["USA"],
+    "country": ["United States of America"],
     "established": 2019,
-    "headquarters": "Los Angeles, California, USA",
+    "headquarters": "Los Angeles, California, United States of America",
     "primaryMarket": "United States",
     "location": {
       "lat": 34.0522,
