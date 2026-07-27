@@ -2,7 +2,7 @@
     "brand": "Brabham Automotive",
     "slug": "brabham-automotive",
     "description": "Brabham Automotive is an Australian car manufacturer founded by David Brabham in 2018. Based in Adelaide, South Australia, Brabham Automotive specializes in high-performance, track-focused supercars. The company carries forward the racing legacy of the Brabham family into modern high-performance vehicle production.",
-    "logo": "/Images/Logos/B/Brabham/brabham-logo.png",
+    "logo": "/images/logos/B/brabham-automotive.png",
     "country": ["Australia"],
     "established": 2018,
     "headquarters": "Adelaide, South Australia",
@@ -18,4 +18,3 @@
       }
     ]
   }
-  

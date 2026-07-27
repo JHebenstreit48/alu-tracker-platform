@@ -1,6 +1,6 @@
 {
   "id": 1,
-  "image": "/images/cars/L/Lucid/C/airsapphire.webp",
+  "image": "/images/cars/L/Lucid/airsapphire.webp",
   "class": "C",
   "brand": "Lucid",
   "model": "Air Sapphire",
@@ -11,7 +11,7 @@
   "rarity": "Epic",
   "stars": 5,
   "keyCar": true,
-  "country": ["USA"],
+  "country": ["United States of America"],
   "added": "Touge Masters Update",
   "addedDate": "",
   "obtainableVia": [

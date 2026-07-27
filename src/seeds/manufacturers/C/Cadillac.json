@@ -3,9 +3,9 @@
     "slug": "cadillac",
     "description": "Cadillac is a division of the American automobile manufacturer General Motors Company that designs and builds luxury vehicles. Its major markets are the United States, Canada, and China. Cadillac models are distributed in 34 additional markets worldwide.",
     "logo": "/Images/Logos/C/Cadillac/cadillac-logo.png",
-    "country": ["USA"],
+    "country": ["United States of America"],
     "established": 1902,
-    "headquarters": "Detroit, Michigan, USA",
+    "headquarters": "Detroit, Michigan, United States of America",
     "primaryMarket": "United States, Canada, China",
     "location": {
       "lat": 42.3314,
