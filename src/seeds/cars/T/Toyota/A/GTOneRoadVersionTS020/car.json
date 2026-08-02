@@ -1,7 +1,7 @@
 {
   "id": 1,
   "image": "/images/cars/T/Toyota/gtoneroadversionts020.webp",
-  "class": "B",
+  "class": "A",
   "brand": "Toyota",
   "model": "GT-One Road Version (TS020)",
   "normalizedKey": "toyota_gt_one_road_version_ts020",
@@ -18,9 +18,9 @@
     }
   ],
   "blueprints1Star": 30,
-  "blueprints2Star": 0,
-  "blueprints3Star": 0,
-  "blueprints4Star": 0,
-  "blueprints5Star": 0,
-  "blueprints6Star": 0
+  "blueprints2Star": 35,
+  "blueprints3Star": 40,
+  "blueprints4Star": 45,
+  "blueprints5Star": 55,
+  "blueprints6Star": 65
 }
