@@ -3,32 +3,32 @@
     "stage": 6,
     "rarity": "uncommon",
     "cardsAppliedByStat": {
-      "topSpeed": 1,
-      "acceleration": 1,
-      "handling": 1,
-      "nitro": 1
+      "topSpeed": 8,
+      "acceleration": 9,
+      "handling": 6,
+      "nitro": 7
     },
     "statDeltaByStat": {
-      "topSpeed": 0,
-      "acceleration": 0,
-      "handling": 0,
-      "nitro": 0
+      "topSpeed": 0.30,
+      "acceleration": 0.18,
+      "handling": 0.53,
+      "nitro": 0.69
     }
   },
   {
     "stage": 6,
     "rarity": "rare",
     "cardsAppliedByStat": {
-      "topSpeed": 1,
-      "acceleration": 1,
-      "handling": 1,
-      "nitro": 1
+      "topSpeed": 7,
+      "acceleration": 13,
+      "handling": 10,
+      "nitro": 10
     },
     "statDeltaByStat": {
-      "topSpeed": 0,
-      "acceleration": 0,
-      "handling": 0,
-      "nitro": 0
+      "topSpeed": 0.50,
+      "acceleration": 0.27,
+      "handling": 0.79,
+      "nitro": 1.03
     }
   }
 ]

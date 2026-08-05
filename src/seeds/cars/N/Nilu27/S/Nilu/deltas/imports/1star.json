@@ -9,9 +9,9 @@
       "nitro": 8
     },
     "statDeltaByStat": {
-      "topSpeed": 0.3,
+      "topSpeed": 0.30,
       "acceleration": 0.13,
-      "handling": 0.2,
+      "handling": 0.20,
       "nitro": 0.38
     }
   }
