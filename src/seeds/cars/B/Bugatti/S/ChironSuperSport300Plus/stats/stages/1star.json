@@ -1,26 +1,26 @@
 [
   {
     "stage": 1,
-    "rank": 0,
-    "topSpeed": 0,
-    "acceleration": 0,
-    "handling": 0,
-    "nitro": 0
+    "rank": 3795,
+    "topSpeed": 440.30,
+    "acceleration": 78.50,
+    "handling": 41.93,
+    "nitro": 25.14
   },
   {
     "stage": 2,
-    "rank": 0,
-    "topSpeed": 0,
-    "acceleration": 0,
-    "handling": 0,
-    "nitro": 0
+    "rank": 3820,
+    "topSpeed": 440.60,
+    "acceleration": 78.60,
+    "handling": 42.33,
+    "nitro": 25.50
   },
   {
     "stage": 3,
-    "rank": 0,
-    "topSpeed": 0,
-    "acceleration": 0,
-    "handling": 0,
-    "nitro": 0
+    "rank": 3846,
+    "topSpeed": 440.90,
+    "acceleration": 78.71,
+    "handling": 42.75,
+    "nitro": 25.87
   }
 ]

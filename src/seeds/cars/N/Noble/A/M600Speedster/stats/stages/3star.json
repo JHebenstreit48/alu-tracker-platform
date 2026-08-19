@@ -1,18 +1,18 @@
 [
   {
     "stage": 7,
-    "rank": 0,
-    "topSpeed": 0,
-    "acceleration": 0,
-    "handling": 0,
-    "nitro": 0
+    "rank": 3522,
+    "topSpeed": 364.90,
+    "acceleration": 75.20,
+    "handling": 68.46,
+    "nitro": 39.41
   },
   {
     "stage": 8,
-    "rank": 0,
-    "topSpeed": 0,
-    "acceleration": 0,
-    "handling": 0,
-    "nitro": 0
+    "rank": 3583,
+    "topSpeed": 365.60,
+    "acceleration": 75.59,
+    "handling": 69.59,
+    "nitro": 40.89
   }
 ]

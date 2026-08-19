@@ -1,17 +1,17 @@
 {
   "oneStar": {
-    "rank": 0,
-    "topSpeed": 0,
-    "acceleration": 0,
-    "handling": 0,
-    "nitro": 0
+    "rank": 2233,
+    "topSpeed": 311.6,
+    "acceleration": 70.59,
+    "handling": 45.89,
+    "nitro": 46.01
   },
   "twoStar": {
-    "rank": 0,
-    "topSpeed": 0,
-    "acceleration": 0,
-    "handling": 0,
-    "nitro": 0
+    "rank": 2549,
+    "topSpeed": 314.1,
+    "acceleration": 72.19,
+    "handling": 51.68,
+    "nitro": 50.97
   },
   "threeStar": {
     "rank": 0,
