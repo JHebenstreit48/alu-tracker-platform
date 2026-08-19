@@ -38,10 +38,10 @@
       "nitro": 13
     },
     "statByStat": {
-        "topSpeed": 0.50,
+        "topSpeed": 0.40,
         "acceleration": 0.17,
-        "handling": 0.50,
-        "nitro": 0.79
+        "handling": 0.49,
+        "nitro": 0.77
     }
   }
 ]

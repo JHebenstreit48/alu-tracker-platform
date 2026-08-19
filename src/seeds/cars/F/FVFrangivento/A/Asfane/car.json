@@ -13,7 +13,7 @@
   "keyCar": true,
   "country": "Italy",
   "epics": 16,
-  "obtainableVia": null,
+  "obtainableVia": [],
   "added": "West to East",
   "addedWith": "Special Events",
   "addedDate": "17/04/2024",
