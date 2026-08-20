@@ -11,11 +11,10 @@
   "rarity": "Epic",
   "stars": 5,
   "country": ["France"],
-  "added": "Touge Masters Update",
   "addedDate": "",
   "obtainableVia": [
     {
-      "status": "upcoming",
+      "status": "current",
       "methods": ["Touge Masters Update"]
     }
   ],
