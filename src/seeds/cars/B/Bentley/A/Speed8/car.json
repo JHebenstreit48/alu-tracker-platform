@@ -14,8 +14,12 @@
   "country": "United Kingdom",
   "obtainableVia": [
     {
-      "status": "current",
-      "methods": ["Audi Season - (Unknown activity)"]
+      "status": "original",
+      "methods": ["Grand Prix (Raw Circuit Season - Jul 6 - Jul 23, 2026)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Grand Prix"]
     }
   ],
   "addedDate": "26/05/2026",

@@ -13,16 +13,20 @@
   "country": "Germany",
   "obtainableVia": [
     {
-      "status": "upcoming",
-      "methods": ["Touge Masters Update"]
+      "status": "original",
+      "methods": ["PAC-MAN Spotlight (Aug 18 - Sep 15, 2026)"]
+    },
+    {
+      "status": "current",
+      "methods": ["PAC-MAN Spotlight (Aug 18 - Sep 15, 2026)"]
     }
   ],
-  "addedDate": "",
+  "addedDate": "19/07/2026",
   "blueprints1Star": 25,
-  "blueprints2Star": 0,
-  "blueprints3Star": 0,
-  "blueprints4Star": 0,
-  "blueprints5Star": 0,
-  "blueprints6Star": 0,
+  "blueprints2Star": 30,
+  "blueprints3Star": 35,
+  "blueprints4Star": 40,
+  "blueprints5Star": 50,
+  "blueprints6Star": 60,
   "Tags": "Europe"
 }
