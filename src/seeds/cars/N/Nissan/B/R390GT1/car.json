@@ -13,7 +13,20 @@
   "keyCar": true,
   "country": "Japan",
   "epics": 8,
-  "obtainableVia": [],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Grand Prix (Around the World Update - Oct 10 - 26, 2022)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Grand Prix", "Grand Prix Rerun"]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 35", "PAC-MAN Spotlight (Aug 18 - Sep 15, 2026)"]
+    }
+  ],
   "added": "Around the World",
   "addedWith": "Grand Prix",
   "addedDate": "03/04/2022",
