@@ -1,44 +1,44 @@
 {
   "oneStar": {
-    "rank": 0,
-    "topSpeed": 0,
-    "acceleration": 0,
-    "handling": 0,
-    "nitro": 0
+    "rank": 3450,
+    "topSpeed": 342.4,
+    "acceleration": 76.88,
+    "handling": 56.33,
+    "nitro": 55.14
   },
   "twoStar": {
-    "rank": 0,
-    "topSpeed": 0,
-    "acceleration": 0,
-    "handling": 0,
-    "nitro": 0
+    "rank": 3652,
+    "topSpeed": 345.2,
+    "acceleration": 78.27,
+    "handling": 61.58,
+    "nitro": 59.26
   },
   "threeStar": {
-    "rank": 0,
-    "topSpeed": 0,
-    "acceleration": 0,
-    "handling": 0,
-    "nitro": 0
+    "rank": 3840,
+    "topSpeed": 347.9,
+    "acceleration": 79.56,
+    "handling": 66.41,
+    "nitro": 63.05
   },
   "fourStar": {
-    "rank": 0,
-    "topSpeed": 0,
-    "acceleration": 0,
-    "handling": 0,
-    "nitro": 0
+    "rank": 4085,
+    "topSpeed": 351.1,
+    "acceleration": 81.44,
+    "handling": 73.55,
+    "nitro": 67.46
   },
   "fiveStar": {
-    "rank": 0,
-    "topSpeed": 0,
-    "acceleration": 0,
-    "handling": 0,
-    "nitro": 0
+    "rank": 4333,
+    "topSpeed": 354.7,
+    "acceleration": 83.17,
+    "handling": 80.12,
+    "nitro": 72.31
   },
   "sixStar": {
-    "rank": 0,
-    "topSpeed": 0,
-    "acceleration": 0,
-    "handling": 0,
-    "nitro": 0
+    "rank": 4336,
+    "topSpeed": 355.4,
+    "acceleration": 82.94,
+    "handling": 79.32,
+    "nitro": 73.17
   }
 }
