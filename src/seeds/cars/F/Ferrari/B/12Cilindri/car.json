@@ -11,16 +11,22 @@
   "rarity": "Epic",
   "stars": 6,
   "country": "Italy",
-  "epics": 12,
-  "obtainableVia": [],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Drive Syndicate: Interlude (Apr 7 - May 13, 2026)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Special Event (Sep 7 - 22, 2026)", "Drive Syndicate (Support Car)"]
+    }
+  ],
   "added": "Porsche of Legends",
-  "addedWith": "",
-  "addedDate": "",
+  "addedDate": "30/03/2026",
   "blueprints1Star": 30,
   "blueprints2Star": 35,
   "blueprints3Star": 40,
   "blueprints4Star": 45,
   "blueprints5Star": 55,
-  "blueprints6Star": 65,
-  "Tags": "Europe"
+  "blueprints6Star": 65
 }

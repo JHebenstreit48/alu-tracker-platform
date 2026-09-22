@@ -19,11 +19,11 @@
     },
     {
       "status": "inactive",
-      "methods": ["Special Event Rerun", "Limited-Time Packs", "Flying High Event (Festive Fury Update)"]
+      "methods": ["Special Event", "Special Event Rerun", "Limited-Time Packs", "Flying High Event"]
     },
     {
       "status": "current",
-      "methods": ["Garage Level 18 Card Packs & Legend Store"]
+      "methods": ["Garage Level 18", "Legend Store", "Legend Pass (Sep 15 - Oct 14, 2026)", "Legend Pass Showcase (Sep 15 - Sep 29, 2026)"]
     }
   ],
   "addedDate": "26/02/2018",

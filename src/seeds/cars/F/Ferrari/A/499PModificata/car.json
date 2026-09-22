@@ -11,11 +11,31 @@
   "rarity": "Epic",
   "stars": 6,
   "country": "Italy",
-  "obtainableVia": ["Special Events - Mayhem (currently - Flames of Fortune update)", "Gold Pursuit Season (past)", "Raesr Aglaia Special Event - Support Car"],
+  "epics": 16,
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Mayhem Event (Mar 6 - 26, 2025)"]
+    },
+    {
+      "status": "obsolete",
+      "methods": ["Ferrari HP Esports Asphalt Series Finals"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Mayhem Event", "Endurance Showdown TLE", "Special Event (RAESR Aglaia Support Car)"]
+    },
+    {
+      "status": "current",
+      "methods": ["IMSA Endurance (Sep 15 - Oct 13, 2026)"]
+    }
+  ],
+  "addedDate": "08/12/2024",
   "blueprints1Star": 70,
   "blueprints2Star": 23,
   "blueprints3Star": 27,
   "blueprints4Star": 36,
   "blueprints5Star": 52,
-  "blueprints6Star": 59
+  "blueprints6Star": 59,
+  "Tags": "Europe"
 }
