@@ -7,27 +7,25 @@
   "normalizedKey": "aston_martin_valkyrie_amr_pro",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki"],
   "rarity": "Epic",
   "stars": 6,
   "country": "United Kingdom",
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Touge Masters Update"]
+      "methods": ["IMSA Endurance (Touge Masters Update - Jul 19, 2026)"]
     },
     {
       "status": "current",
-      "methods": ["Touge Masters Update"]
+      "methods": ["IMSA Endurance (Sep 15 - Oct 14, 2026)", "Legend Pass (Sep 15 - Oct 14, 2026)", "Legend Pass Showcase (Sep 15 - Sep 30, 2026)"]
     }
   ],
-  "added": "Touge Masters Update",
   "addedDate": "21/07/2026",
   "blueprints1Star": 35,
-  "blueprints2Star": 0,
-  "blueprints3Star": 0,
-  "blueprints4Star": 0,
-  "blueprints5Star": 0,
-  "blueprints6Star": 0,
-  "Tags": "Europe; Hybrid"
+  "blueprints2Star": 40,
+  "blueprints3Star": 45,
+  "blueprints4Star": 50,
+  "blueprints5Star": 60,
+  "blueprints6Star": 70
 }
