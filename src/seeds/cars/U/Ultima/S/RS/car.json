@@ -7,19 +7,23 @@
   "normalizedKey": "ultima_rs",
   "status": "complete",
   "message": "Completed until I add stages",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "asphalt9.info"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
-  "country": "United Kingdom",
+  "country": ["United Kingdom"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Special Event", "British Tour Season Pass (Legend Pass)", "British Tour Passport Events", "Limited-Time Pack"]
+      "methods": ["Special Event (British Tour Season - Mar 18 - Apr 7, 2022)", "British Tour Season Pass (Legend Pass)", "British Tour Passport Events", "Limited-Time Pack"]
     },
     {
       "status": "inactive",
-      "methods": ["Special Hunt"]
+      "methods": ["Special Event", "Special Hunt (Jan 15-25, 2024)", "Special Hunt Rerun (Jul 17-27, 2024)", "Special Hunt Rerun (Feb 18-28, 2025)", "Special Hunt Rerun (Nov 7-21, 2025)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Special Hunt (Sep 28 - Oct 14, 2026)"]
     }
   ],
   "addedDate": "07/02/2022",
