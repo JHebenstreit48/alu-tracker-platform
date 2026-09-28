@@ -7,14 +7,29 @@
   "normalizedKey": "ktm_x_bow_gtx",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "asphalt9.info"],
   "rarity": "Uncommon",
   "stars": 3,
-  "country": "Austria",
-  "epics": 0,
-  "obtainableVia": null,
-  "added": "European Season (2023)",
-  "addedWith": null,
+  "country": ["Austria"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Legend Pass (European Season 2 - May 3-31, 2023)"]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        "Legend Pass",
+        "Car Hunt (Mar 20-28, 2024)",
+        "Car Hunt (Mar 12-21, 2025)",
+        "World League Bronze, Silver & Gold Card Packs"
+      ]
+    },
+    {
+      "status": "current",
+      "methods": ["Car Hunt (Sep 29 - Oct 12, 2026)", "Classic Pack"]
+    }
+  ],
   "addedDate": "30/03/2023",
   "blueprints1Star": 30,
   "blueprints2Star": 23,
