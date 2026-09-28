@@ -7,11 +7,25 @@
   "normalizedKey": "mosler_super_gt",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["My own in-game research"],
+  "sources": ["My own in-game research", "Asphalt Fandom Wiki", "asphaltlegends.com"],
   "rarity": "Epic",
   "stars": 6,
   "country": ["United States of America"],
-  "obtainableVia": [],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event (Heatwave: Afterburn Update - Oct 2-16, 2025)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Special Event", "Ultimate Legend Pass (Heatwave: Afterburn Update)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Burst of Speed (Sep 25 - Oct 16, 2026)"]
+    }
+  ],
+  "addedDate": "19/08/2025",
   "blueprints1Star": 35,
   "blueprints2Star": 40,
   "blueprints3Star": 45,
