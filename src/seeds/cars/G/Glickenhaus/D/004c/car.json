@@ -7,15 +7,31 @@
   "normalizedKey": "glickenhaus_004c",
   "status": "in progress",
   "message": "Still adding data",
+  "sources": ["MEI", "Asphalt Fandom Wiki", "asphalt9.info"],
   "rarity": "Epic",
   "stars": 5,
   "keyCar": true,
   "country": ["United States of America"],
-  "epics": 8,
-  "obtainableVia": ["Key Hunt"],
-  "added": "Around the World",
-  "addedWith": "GP",
-  "addedDate": "03/04/2022",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Grand Prix (Around the World Update - Oct 31 - Nov 17, 2022)"]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        "Grand Prix",
+        "Key Hunt",
+        "Avenged Sevenfold Spotlight (Sep 25 - Oct 15, 2025)",
+        "Stars & Stripes Reignited Spotlight (Jul 3 - 14, 2025)"
+      ]
+    },
+    {
+      "status": "current",
+      "methods": ["Car Hunt (Oct 6 - 19, 2026)"]
+    }
+  ],
+  "addedDate": "30/09/2022",
   "blueprints1Star": 0,
   "blueprints2Star": 22,
   "blueprints3Star": 30,
