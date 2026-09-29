@@ -1,22 +1,32 @@
 {
-    "id": 5,
-    "image": "/images/cars/P/Porsche/919street.webp",
-    "class": "A",
-    "brand": "Porsche",
-    "model": "919 Street",
-    "normalizedKey": "porsche_919_street",
-    "status": "in progress",
-    "message": "Still adding data",
-    "sources": ["My own in-game research", "Asphalt Fandom Wiki"],
-    "rarity": "Epic",
-    "stars": 6,
-    "keyCar": true,
-    "country": "Germany",
-    "obtainableVia": ["Special Events - 919 Street"],
-    "blueprints1Star": 0,
-    "blueprints2Star": 40,
-    "blueprints3Star": 45,
-    "blueprints4Star": 50,
-    "blueprints5Star": 60,
-    "blueprints6Star": 75
+  "id": 5,
+  "image": "/images/cars/P/Porsche/919street.webp",
+  "class": "A",
+  "brand": "Porsche",
+  "model": "919 Street",
+  "normalizedKey": "porsche_919_street",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["My own in-game research", "Asphalt Fandom Wiki", "asphaltlegends.com"],
+  "rarity": "Epic",
+  "stars": 6,
+  "keyCar": true,
+  "country": "Germany",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event (Road to Glory Update - Apr 24 - May 12, 2026)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Special Event", "Limited-Time Packs"]
+    }
+  ],
+  "addedDate": "30/03/2026",
+  "blueprints1Star": 0,
+  "blueprints2Star": 40,
+  "blueprints3Star": 45,
+  "blueprints4Star": 50,
+  "blueprints5Star": 60,
+  "blueprints6Star": 75
 }
