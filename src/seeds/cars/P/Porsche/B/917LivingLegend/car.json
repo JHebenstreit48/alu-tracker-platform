@@ -1,21 +1,31 @@
 {
-    "id": 6,
-    "image": "/images/cars/P/Porsche/917livinglegend.webp",
-    "class": "B",
-    "brand": "Porsche",
-    "model": "917 Living Legend",
-    "normalizedKey": "porsche_917_living_legend",
-    "status": "in progress",
-    "message": "Still adding data",
-    "sources": ["My own in-game research", "Asphalt Fandom Wiki"],
-    "rarity": "Epic",
-    "stars": 5,
-    "keyCar": true,
-    "country": "Germany",
-    "obtainableVia": ["Special Events - Grand Prix"],
-    "blueprints1Star": 0,
-    "blueprints2Star": 35,
-    "blueprints3Star": 40,
-    "blueprints4Star": 50,
-    "blueprints5Star": 55
+  "id": 6,
+  "image": "/images/cars/P/Porsche/917livinglegend.webp",
+  "class": "B",
+  "brand": "Porsche",
+  "model": "917 Living Legend",
+  "normalizedKey": "porsche_917_living_legend",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["My own in-game research", "Asphalt Fandom Wiki"],
+  "rarity": "Epic",
+  "stars": 5,
+  "keyCar": true,
+  "country": "Germany",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Grand Prix (Porsche of Legends Update - Apr 17 - May 3, 2026)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Team Pursuit (Apr 16-20, 2026)", "Grand Prix"]
+    }
+  ],
+  "addedDate": "30/03/2026",
+  "blueprints1Star": 0,
+  "blueprints2Star": 35,
+  "blueprints3Star": 40,
+  "blueprints4Star": 50,
+  "blueprints5Star": 55
 }

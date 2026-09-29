@@ -7,23 +7,25 @@
   "normalizedKey": "koenigsegg_jesko_absolut",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
   "country": "Sweden",
-  "epics": 16,
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Drive Syndicate 9: Rebels Unite (Asphalt Legends Unite Expansion Update)"]
+      "methods": ["Drive Syndicate 9: Rebels Unite (ALU Expansion Update - Jul 24 - Sep 3, 2024)"]
     },
     {
       "status": "inactive",
-      "methods": ["Drive Syndicate 12: Arash Imperium (Support Car)"]
+      "methods": [
+        "Drive Syndicate (Support Car)",
+        "Special Event (Holiday Overdrive Update - Jan 22 - Feb 5, 2026)"
+      ]
     }
   ],
-  "addedDate": "16/7/2024",
+  "addedDate": "16/07/2024",
   "blueprints1Star": 0,
   "blueprints2Star": 40,
   "blueprints3Star": 45,
