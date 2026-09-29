@@ -12,23 +12,25 @@
   "stars": 6,
   "keyCar": true,
   "country": "Sweden",
-  "epics": 16,
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Drive Syndicate 1 (Summer Update)"]
-    },
-    {
-      "status": "inactive",
-      "methods": ["Grand Prix (Lamborghini Season Update)", "Heatwave: Afterburn Packs"]
+      "methods": ["Drive Syndicate 1 (Summer Update - Jul 26 - Sep 2, 2019)"]
     },
     {
       "status": "obsolete",
       "methods": ["Clash Store", "Heatwave: Afterburn Special Event"]
     },
     {
-      "status": "current",
-      "methods": ["RAESR Aglaia Special Event (Support Car - May 19 - Jun 3, 2026)", "Limited-Time Token Packs", "Multi-Bundle (Real Money Shop)"]
+      "status": "inactive",
+      "methods": [
+        "Drive Syndicate",
+        "Grand Prix (May 18 - Jun 5, 2020)",
+        "Heatwave: Afterburn Packs",
+        "RAESR Aglaia Special Event (Support Car - May 19 - Jun 3, 2026)",
+        "Limited-Time Token Packs",
+        "Multi-Bundle (Real Money Shop)"
+      ]
     }
   ],
   "addedDate": "18/06/2019",
@@ -37,6 +39,5 @@
   "blueprints3Star": 45,
   "blueprints4Star": 60,
   "blueprints5Star": 70,
-  "blueprints6Star": 85,
-  "Tags": "Europe; Hyper; Hybrid"
+  "blueprints6Star": 85
 }

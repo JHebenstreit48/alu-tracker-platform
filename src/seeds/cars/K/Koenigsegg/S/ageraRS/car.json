@@ -7,24 +7,25 @@
   "normalizedKey": "koenigsegg_agera_rs",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "asphalt9.info"],
   "rarity": "Epic",
   "stars": 6,
   "country": "Sweden",
-  "epics": 16,
   "obtainableVia": [
     {
       "status": "original",
       "methods": ["Clash Store (Around the World Update)"]
     },
     {
+      "status": "obsolete",
+      "methods": ["Clash Store"]
+    },
+    {
       "status": "inactive",
-      "methods": ["Special Event (Festive Sparks and Dragon Race Update)", "Speed Festival Spotlight (Korean Spring Update)"]
+      "methods": ["Special Event (Festive Sparks and Dragon Race Update)", "Speed Festival Spotlight (May 8 - 19, 2025)"]
     }
   ],
-  "added": "Around the World",
-  "addedWith": "Clash Store (obsolete)",
-  "addedDate": "03/04/2022",
+  "addedDate": "05/10/2022",
   "blueprints1Star": 85,
   "blueprints2Star": 25,
   "blueprints3Star": 29,

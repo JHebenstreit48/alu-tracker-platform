@@ -7,23 +7,27 @@
   "normalizedKey": "koenigsegg_cc850",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
   "country": "Sweden",
-  "epics": 16,
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Drive Syndicate (Racing Through Fire & Hall of Flames Update)"]
+      "methods": ["Drive Syndicate (Racing Through Fire & Hall of Flames Update - Jul 26 - Aug 23, 2023)"]
     },
     {
       "status": "inactive",
-      "methods": ["Special Event", "Black Friday Spotlight", "Drive Syndicate (Support Car)"]
+      "methods": [
+        "Drive Syndicate",
+        "Special Event (May 15 - 29, 2025)",
+        "Black Friday Spotlight (Nov 28 - Dec 11, 2025)",
+        "Drive Syndicate: Interlude (Support Car - Apr 7 - May 13, 2026)"
+      ]
     }
   ],
-  "addedDate": "26/07/2023",
+  "addedDate": "25/07/2023",
   "blueprints1Star": 0,
   "blueprints2Star": 40,
   "blueprints3Star": 45,
