@@ -1,0 +1,35 @@
+{
+  "id": 1,
+  "image": "/images/cars/K/Kimera/evo37.webp",
+  "class": "D",
+  "brand": "Kimera",
+  "model": "Evo 37",
+  "normalizedKey": "kimera_evo_37",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["Asphalt Fandom Wiki"],
+  "rarity": "Epic",
+  "stars": 5,
+  "keyCar": true,
+  "country": "Italy",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Grand Prix (Carnival Rush Update - Feb 10-26, 2025)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Grand Prix", "Starway: Genty Akylone (Support Car - Feb 10 - Mar 2, 2025)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Grand Prix Rerun (Sep 22 - Oct 9, 2026)", "Club Series (Oct 9-12, 2026)"]
+    }
+  ],
+  "addedDate": "03/02/2025",
+  "blueprints1Star": 0,
+  "blueprints2Star": 22,
+  "blueprints3Star": 30,
+  "blueprints4Star": 35,
+  "blueprints5Star": 38
+}

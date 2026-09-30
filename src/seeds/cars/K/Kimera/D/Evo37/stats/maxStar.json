@@ -1,0 +1,37 @@
+{
+  "oneStar": {
+    "rank": 1747,
+    "topSpeed": 282.3,
+    "acceleration": 73.25,
+    "handling": 66.65,
+    "nitro": 37.61
+  },
+  "twoStar": {
+    "rank": 1986,
+    "topSpeed": 285.00,
+    "acceleration": 74.60,
+    "handling": 68.66,
+    "nitro": 41.09
+  },
+  "threeStar": {
+    "rank": 2251,
+    "topSpeed": 288.4,
+    "acceleration": 75.81,
+    "handling": 70.46,
+    "nitro": 45.48
+  },
+  "fourStar": {
+    "rank": 2574,
+    "topSpeed": 291.3,
+    "acceleration": 78.15,
+    "handling": 73.95,
+    "nitro": 49.21
+  },
+  "fiveStar": {
+    "rank": 2970,
+    "topSpeed": 296.2,
+    "acceleration": 80.18,
+    "handling": 77.00,
+    "nitro": 55.43
+  }
+}
