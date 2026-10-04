@@ -5,6 +5,7 @@ import sf90XxStradale from '@/seeds/cars/F/Ferrari/A/SF90XXStradale';
 import laFerrariAperta from '@/seeds/cars/F/Ferrari/A/LaFerrariAperta';
 import j50 from '@/seeds/cars/F/Ferrari/A/J50';
 import fourNinetyNinePModificata from '@/seeds/cars/F/Ferrari/A/499PModificata';
+import eightFortyNineTestarossa from '@/seeds/cars/F/Ferrari/A/849Testarossa';
 
 
-export default [f8Tributo, laFerrari, eightTwelveSuperfast, sf90XxStradale, laFerrariAperta, j50, fourNinetyNinePModificata];
+export default [f8Tributo, laFerrari, eightTwelveSuperfast, sf90XxStradale, laFerrariAperta, j50, fourNinetyNinePModificata, eightFortyNineTestarossa];

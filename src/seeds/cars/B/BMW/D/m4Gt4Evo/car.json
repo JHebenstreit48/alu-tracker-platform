@@ -1,0 +1,20 @@
+{
+  "id": 1,
+  "image": "/images/cars/B/BMW/m4Gt4Evo.webp",
+  "class": "D",
+  "brand": "BMW",
+  "model": "M4 GT4 Evo",
+  "normalizedKey": "bmw_m4_gt4_evo",
+  "status": "in progress",
+  "message": "No new data yet. Patch notes not yet released.",
+  "sources": ["MEI", "Discord"],
+  "rarity": "Rare",
+  "stars": 4,
+  "country": "Germany",
+  "addedDate": "",
+  "obtainableVia": [],
+  "blueprints1Star": 0,
+  "blueprints2Star": 0,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0
+}

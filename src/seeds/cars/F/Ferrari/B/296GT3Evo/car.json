@@ -1,0 +1,22 @@
+{
+  "id": 1,
+  "image": "/images/cars/F/Ferrari/B/296gt3evo.webp",
+  "class": "B",
+  "brand": "Ferrari",
+  "model": "296 GT3 Evo",
+  "normalizedKey": "ferrari_296_gt3_evo",
+  "status": "in progress",
+  "message": "No new data yet. Patch notes not yet released.",
+  "sources": ["MEI", "Discord"],
+  "rarity": "Epic",
+  "stars": 6,
+  "country": "Italy",
+  "addedDate": "",
+  "obtainableVia": [],
+  "blueprints1Star": 0,
+  "blueprints2Star": 0,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0,
+  "blueprints6Star": 0
+}

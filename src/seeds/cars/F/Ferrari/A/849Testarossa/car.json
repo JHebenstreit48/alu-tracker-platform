@@ -1,0 +1,22 @@
+{
+  "id": 2,
+  "image": "/images/cars/F/Ferrari/849testarossa.webp",
+  "class": "A",
+  "brand": "Ferrari",
+  "model": "849 Testarossa",
+  "normalizedKey": "ferrari_849_testarossa",
+  "status": "in progress",
+  "message": "No new data yet. Patch notes not yet released.",
+  "sources": ["MEI", "Discord"],
+  "rarity": "Epic",
+  "stars": 6,
+  "country": "Italy",
+  "obtainableVia": [
+  ],
+  "addedDate": "",
+  "blueprints1Star": 0,
+  "blueprints2Star": 0,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0
+}
