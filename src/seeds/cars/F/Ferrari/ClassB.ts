@@ -6,5 +6,6 @@ import fourEightyEightGtb from '@/seeds/cars/F/Ferrari/B/488GTB';
 import roma from '@/seeds/cars/F/Ferrari/B/Roma';
 import f12Berlinetta from '@/seeds/cars/F/Ferrari/B/F12Berlinetta';
 import twelveCilindri from '@/seeds/cars/F/Ferrari/B/12Cilindri';
+import twoNinetySixGT3Evo from '@/seeds/cars/F/Ferrari/B/296GT3Evo';
 
-export default [fourEightyEightChallengeEvo, enzoFerrari, f50, f12tdf, fourEightyEightGtb, roma, f12Berlinetta, twelveCilindri];
+export default [fourEightyEightChallengeEvo, enzoFerrari, f50, f12tdf, fourEightyEightGtb, roma, f12Berlinetta, twelveCilindri, twoNinetySixGT3Evo];

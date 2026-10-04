@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "image": "/images/cars/F/FormulaE/gen4.webp",
+  "class": "A",
+  "brand": "Formula E",
+  "model": "Gen 4",
+  "normalizedKey": "formula_e_gen_4",
+  "status": "in progress",
+  "message": "No new data yet. Patch notes not yet released.",
+  "sources": ["MEI", "Discord"],
+  "rarity": "Epic",
+  "stars": 5,
+  "country": "France",
+  "obtainableVia": [],
+  "addedDate": "",
+  "blueprints1Star": 0,
+  "blueprints2Star": 0,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0
+}
