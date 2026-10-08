@@ -14,5 +14,9 @@
   "country": "Croatia",
   "obtainableVia": ["Drive Syndicate"],
   "blueprints1Star": 0,
-  "blueprints2Star": 45
+  "blueprints2Star": 45,
+  "blueprints3Star": 50,
+  "blueprints4Star": 55,
+  "blueprints5Star": 70,
+  "blueprints6Star": 80
 }

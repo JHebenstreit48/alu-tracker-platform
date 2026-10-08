@@ -8,7 +8,7 @@
   "status": "in progress",
   "message": "Still adding data",
   "sources": ["Patch Notes Video"],
-  "rarity": "Rare",
+  "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
   "country": "United Kingdom",
@@ -19,11 +19,10 @@
     }
   ],
   "addedDate": "26/05/2026",
-  "blueprints1Star": 45,
-  "blueprints2Star": 0,
-  "blueprints3Star": 0,
-  "blueprints4Star": 0,
-  "blueprints5Star": 0,
-  "blueprints6Star": 0,
-  "Tags": "Europe"
+  "blueprints1Star": 0,
+  "blueprints2Star": 45,
+  "blueprints3Star": 50,
+  "blueprints4Star": 55,
+  "blueprints5Star": 70,
+  "blueprints6Star": 80
 }
