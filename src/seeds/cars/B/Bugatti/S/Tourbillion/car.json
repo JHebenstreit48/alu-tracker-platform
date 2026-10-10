@@ -1,0 +1,28 @@
+{
+  "id": 1,
+  "image": "/images/cars/B/Bugatti/tourbillon.webp",
+  "class": "S",
+  "brand": "Bugatti",
+  "model": "Tourbillon",
+  "normalizedKey": "bugatti_tourbillon",
+  "status": "in progress",
+  "message": "Still adding data",
+  "sources": ["Tune, Race, Repeat! - YouTube"],
+  "rarity": "Epic",
+  "stars": 6,
+  "keyCar": true,
+  "country": "France",
+  "obtainableVia": [
+    {
+      "status": "upcoming",
+      "methods": ["BLACKCREST (Oct 27 - Nov 24, 2026)"]
+    }
+  ],
+  "addedDate": "",
+  "blueprints1Star": 0,
+  "blueprints2Star": 45,
+  "blueprints3Star": 0,
+  "blueprints4Star": 0,
+  "blueprints5Star": 0,
+  "blueprints6Star": 0
+}
