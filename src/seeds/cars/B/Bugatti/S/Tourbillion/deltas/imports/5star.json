@@ -1,0 +1,18 @@
+[
+  {
+    "stage": 12,
+    "rarity": "uncommon",
+    "rankByStat": {
+      "topSpeed": 0,
+      "acceleration": 0,
+      "handling": 0,
+      "nitro": 0
+    },
+    "statByStat": {
+      "topSpeed": 0,
+      "acceleration": 0,
+      "handling": 0,
+      "nitro": 0
+    }
+  }
+]
