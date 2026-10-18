@@ -7,17 +7,25 @@
   "normalizedKey": "nilu27_nilu",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["My own in-game research"],
+  "sources": ["My own in-game research", "Asphalt Fandom Wiki"],
   "rarity": "Epic",
   "stars": 6,
   "country": ["United States of America"],
-  "obtainableVia": ["Special Events - Dragonforce"],
-  "addedWith": "Flames of Fortune Update",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["DragonForce Spotlight (Feb 3 - Mar 3, 2026)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Spotlight"]
+    }
+  ],
+  "addedDate": "15/02/2026",
   "blueprints1Star": 35,
   "blueprints2Star": 40,
   "blueprints3Star": 45,
   "blueprints4Star": 50,
   "blueprints5Star": 60,
-  "blueprints6Star": 70,
-  "Added_Date": "03/02/2026"
+  "blueprints6Star": 70
 }

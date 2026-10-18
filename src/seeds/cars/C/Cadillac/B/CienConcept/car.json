@@ -7,18 +7,23 @@
   "normalizedKey": "cadillac_cien_concept",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki"],
   "rarity": "Rare",
   "stars": 4,
   "country": ["United States of America"],
-  "epics": 8,
-  "obtainableVia": ["Exclusive"],
-  "added": "Soft Launch",
-  "addedWith": null,
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Exclusive Event (Soft Launch)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Exclusive Event (Recurring Biweekly TLE)"]
+    }
+  ],
   "addedDate": "26/02/2018",
   "blueprints1Star": 40,
   "blueprints2Star": 18,
   "blueprints3Star": 22,
-  "blueprints4Star": 36,
-  "Tags": "Super Car"
+  "blueprints4Star": 36
 }

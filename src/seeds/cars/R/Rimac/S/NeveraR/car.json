@@ -11,8 +11,18 @@
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
-  "country": "Croatia",
-  "obtainableVia": ["Drive Syndicate"],
+  "country": ["Croatia"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Drive Syndicate: Side Story (Feb 10 - Mar 10, 2026)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Drive Syndicate", "Burst of Speed TLE (Sep 25 - Oct 9, 2026)"]
+    }
+  ],
+  "addedDate": "15/02/2026",
   "blueprints1Star": 0,
   "blueprints2Star": 45,
   "blueprints3Star": 50,
