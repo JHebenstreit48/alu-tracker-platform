@@ -6,16 +6,24 @@
   "model": "Lancer Evolution X Tekken Edition",
   "normalizedKey": "mitsubishi_lancer_evolution_x_tekken_edition",
   "status": "in progress",
-  "message": "No new data yet. Patch notes not yet released.",
-  "sources": ["Discord", "GamingWithAwesome YouTube video"],
+  "message": "Still adding data",
+  "sources": ["Discord", "GamingWithAwesome YouTube video", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
   "country": "Japan",
-  "addedDate": "",
+  "addedDate": "13/10/2026",
   "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Tekken 8 Spotlight (Oct 14 - Nov 11, 2026)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Tekken 8 Spotlight (Oct 14 - Nov 11, 2026)"]
+    }
   ],
   "blueprints1Star": 20,
-  "blueprints2Star": 0,
+  "blueprints2Star": 25,
   "blueprints3Star": 0,
   "blueprints4Star": 0,
   "blueprints5Star": 0
