@@ -10,18 +10,22 @@
   "sources": ["MEI", "Asphalt Fandom Wiki"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "United Kingdom",
+  "country": ["United Kingdom"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["IMSA Endurance (Touge Masters Update - Jul 19, 2026)"]
+      "methods": ["IMSA Endurance (Touge Masters Update)"]
     },
     {
-      "status": "current",
-      "methods": ["IMSA Endurance (Sep 15 - Oct 14, 2026)", "Legend Pass (Sep 15 - Oct 14, 2026)", "Legend Pass Showcase (Sep 15 - Sep 30, 2026)"]
+      "status": "inactive",
+      "methods": [
+        "IMSA Endurance (Sep 15 - Oct 14, 2026)",
+        "Legend Pass (Sep 15 - Oct 14, 2026)",
+        "Legend Pass Showcase (Sep 15 - Sep 30, 2026)"
+      ]
     }
   ],
-  "addedDate": "21/07/2026",
+  "addedDate": "19/07/2026",
   "blueprints1Star": 35,
   "blueprints2Star": 40,
   "blueprints3Star": 45,
