@@ -7,12 +7,11 @@
   "normalizedKey": "acura_nsx_gt3_evo",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Reddit users Google Sheets document."],
+  "sources": ["MEI", "Reddit users Google Sheets document.", "Asphalt Fandom Wiki"],
   "rarity": "Epic",
   "stars": 5,
   "keyCar": true,
-  "country": "Japan",
-  "epics": 8,
+  "country": ["Japan"],
   "obtainableVia": [
     {
       "status": "original",
@@ -20,7 +19,13 @@
     },
     {
       "status": "inactive",
-      "methods": ["Key Hunt", "Special Event", "Key Pack"]
+      "methods": [
+        "Grand Prix",
+        "Key Hunt",
+        "Special Event (Nissan Z GT4 - Pinnacle of Speed Update)",
+        "Key Pack (Real Money)",
+        "Special Event (Support Car)"
+      ]
     }
   ],
   "addedDate": "03/02/2021",

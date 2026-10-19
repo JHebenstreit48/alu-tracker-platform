@@ -7,19 +7,22 @@
   "normalizedKey": "acura_2017_nsx",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Reddit users Google Sheets document."],
+  "sources": ["MEI", "Reddit users Google Sheets document.", "asphalt9.info"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "Japan",
-  "epics": 4,
+  "country": ["Japan"],
   "obtainableVia": [
     {
-      "status": "current",
-      "methods": ["Garage Level 10", "Legend Store"]
+      "status": "original",
+      "methods": ["Soft Launch"]
     },
     {
       "status": "inactive",
-      "methods": ["Multiplayer Packs"]
+      "methods": ["Unleashed Event", "Multiplayer League Packs", "Special Event (Support Car)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 10", "Legend Store", "Classic Pack", "Campaign"]
     }
   ],
   "addedDate": "26/02/2018",

@@ -7,20 +7,29 @@
   "normalizedKey": "lamborghini_sian_fkp_37",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Reddit users Google Sheets document"],
+  "sources": ["MEI", "Reddit users Google Sheets document", "Asphalt Fandom Wiki"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "Italy",
-  "epics": 16,
-  "obtainableVia": ["Showroom", "Garage Level 60"],
-  "added": "Lamborghini Season",
-  "addedWith": "SE",
-  "addedDate": "05/05/2020",
+  "country": ["Italy"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event (Lamborghini Veneno SE - May 8-28, 2020)", "Special Event (Jun 5-27, 2020)"]
+    },
+    {
+      "status": "inactive",
+      "methods": ["Special Event", "Special Event (Raging Bull Season Update - Jun 2-23, 2022)"]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 60", "Legend Store", "Classic Pack", "Showroom"]
+    }
+  ],
+  "addedDate": "04/05/2020",
   "blueprints1Star": 85,
   "blueprints2Star": 25,
   "blueprints3Star": 29,
   "blueprints4Star": 38,
   "blueprints5Star": 54,
-  "blueprints6Star": 69,
-  "Tags": "Europe"
+  "blueprints6Star": 69
 }
