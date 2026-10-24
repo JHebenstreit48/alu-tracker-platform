@@ -7,11 +7,11 @@
   "normalizedKey": "koenigsegg_chimera",
   "status": "in progress",
   "message": "Still missing data",
-  "sources": ["Asphalt Fandom Wiki", "My own in-game research", "asphaltlegends.com"],
+  "sources": ["Asphalt Fandom Wiki", "My own in-game research", "Official patch notes"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
-  "country": "Sweden",
+  "country": ["Sweden"],
   "obtainableVia": [
     {
       "status": "original",

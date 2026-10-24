@@ -7,7 +7,7 @@
   "normalizedKey": "apex_ap_0",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Reddit users Google Sheets document."],
+  "sources": ["MEI", "Community spreadsheet"],
   "rarity": "Epic",
   "stars": 5,
   "country": ["United Kingdom"],
@@ -20,7 +20,7 @@
       "status": "inactive",
       "methods": [
         "Racing Around the World Spotlight (Pinnacle of Speed Update)",
-        "Sonic 35th Anniversary Spotlight (Audi Season - Jun 18 - Jul 21, 2026)"
+        "Sonic 35th Anniversary Spotlight (Audi Season Update - Jun 18 - Jul 21, 2026)"
       ]
     },
     {

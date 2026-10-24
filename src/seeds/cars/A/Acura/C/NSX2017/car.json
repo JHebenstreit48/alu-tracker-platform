@@ -7,7 +7,7 @@
   "normalizedKey": "acura_2017_nsx",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Reddit users Google Sheets document.", "asphalt9.info"],
+  "sources": ["MEI", "Community spreadsheet", "asphalt9.info"],
   "rarity": "Rare",
   "stars": 4,
   "country": ["Japan"],

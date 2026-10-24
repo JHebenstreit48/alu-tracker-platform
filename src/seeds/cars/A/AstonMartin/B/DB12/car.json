@@ -7,19 +7,20 @@
   "normalizedKey": "aston_martin_db12",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Asphalt Fandom Wiki"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes"],
   "rarity": "Epic",
   "stars": 5,
   "country": ["United Kingdom"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Legend Pass (Supercharged Summer Season I)"]
+      "methods": ["Legend Pass (Supercharged Summer Season I - May 29 - Jun 25, 2024)"]
     },
     {
       "status": "inactive",
       "methods": [
-        "Legend Pass (Supercharged Summer Season II)",
+        "Legend Pass (Supercharged Summer Season II - Jun 26 - Jul 16, 2024)",
+        "Legend Pass Showcase (Supercharged Summer Season I)",
         "Daily Login Gift (Nintendo Switch - Asphalt Legends Unite Expansion Update)",
         "New Year: Drifting Away from 2024 TLE (Dec 30, 2024 - Jan 8, 2025)",
         "New Year 2024 Card Packs"

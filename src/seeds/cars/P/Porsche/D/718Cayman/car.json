@@ -7,7 +7,7 @@
   "normalizedKey": "porsche_718_cayman",
   "status": "in progress",
   "message": "still adding data",
-  "sources": ["MEI", "Reddit users Google Sheets document."],
+  "sources": ["MEI", "Community spreadsheet"],
   "rarity": "Rare",
   "stars": 4,
   "country": "Germany",
