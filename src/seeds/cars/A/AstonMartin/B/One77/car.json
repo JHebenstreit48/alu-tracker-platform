@@ -7,11 +7,10 @@
   "normalizedKey": "aston_martin_one_77",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki"],
   "rarity": "Epic",
   "stars": 5,
-  "country": "United Kingdom",
-  "epics": 8,
+  "country": ["United Kingdom"],
   "obtainableVia": [
     {
       "status": "original",
@@ -19,24 +18,17 @@
     },
     {
       "status": "inactive",
-      "methods": ["Car Hunt", "Star Hunt", "Epic Hunt"]
+      "methods": ["Car Hunt", "Star Hunt", "Epic Hunt", "Drive Syndicate 16 (Support Car - Jun 2 - Jul 8, 2026)"]
     },
     {
       "status": "current",
-      "methods": ["Garage Level 29 Card Packs & Legend Store (Collector Stage I)"]
-    },
-    {
-      "status": "upcoming",
-      "methods": ["Drive Syndicate: Operation Cerberus (Support Car)"]
+      "methods": ["Garage Level 29", "Legend Store"]
     }
   ],
-  "added": "British Tour",
-  "addedWith": "LP car",
   "addedDate": "07/02/2022",
   "blueprints1Star": 45,
   "blueprints2Star": 17,
   "blueprints3Star": 23,
   "blueprints4Star": 32,
-  "blueprints5Star": 45,
-  "Tags": "Europe; Super Car"
+  "blueprints5Star": 45
 }

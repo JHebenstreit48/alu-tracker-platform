@@ -28,6 +28,7 @@
     "seed:diagnose": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/diagnoseCarSet.ts",
 
     "check:normalized-keys": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/checkNormalizedKeys.ts",
+    "list:cars": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/listCars.ts",
 
     "convert:car:all": "ts-node -r tsconfig-paths/register src/scripts/maintenance/convertToNewFormat.ts --all",
     "convert:car:all:dry": "ts-node -r tsconfig-paths/register src/scripts/maintenance/convertToNewFormat.ts --all --dry",
