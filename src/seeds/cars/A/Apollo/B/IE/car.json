@@ -29,7 +29,14 @@
     },
     {
       "status": "current",
-      "methods": ["Garage Level 46", "Legend Store", "Season Series Card Packs (Gold+)", "Tekken 8 Spotlight (Oct 14 - Nov 11, 2026)"]
+      "methods": [
+        "Garage Level 46",
+        "Legend Store",
+        "Season Series Card Packs (Gold+)",
+        "Class B Cup",
+        "Deluxe Class Cup",
+        "Tekken 8 Spotlight (Oct 14 - Nov 11, 2026)"
+      ]
     }
   ],
   "addedDate": "09/12/2020",
