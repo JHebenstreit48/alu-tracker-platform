@@ -7,20 +7,30 @@
   "normalizedKey": "lamborghini_terzo_millennio",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Gameloft newsroom", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "Italy",
-  "epics": 16,
-  "obtainableVia": ["Trade Credits - Legend Store", "Garage Level 36"],
-  "added": "Worldwide Launch",
-  "addedWith": null,
-  "addedDate": "25/07/2018",
+  "country": ["Italy"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["Special Event (Caribbean Update - Apr 2019, 25 days)"]
+    },
+    {
+      "status": "current",
+      "methods": [
+        "Campaign (Chapter 4 - Ultimate Experience, Race 13)",
+        "Garage Level 36",
+        "Legend Store (Credits: see Legend Store page, Credits dropdown)",
+        "Legend Store (Trade Coins: see Legend Store page, Trade Coins dropdown)"
+      ]
+    }
+  ],
+  "addedDate": "24/07/2018",
   "blueprints1Star": 60,
   "blueprints2Star": 13,
   "blueprints3Star": 16,
   "blueprints4Star": 25,
   "blueprints5Star": 38,
-  "blueprints6Star": 48,
-  "Tags": "Europe; Hyper"
+  "blueprints6Star": 48
 }
