@@ -10,21 +10,19 @@
   "sources": ["MEI"],
   "rarity": "Uncommon",
   "stars": 3,
-  "country": "Germany",
-  "epics": 4,
+  "country": ["Germany"],
   "addedDate": "26/02/2018",
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Soft Launch", "Garage Level 2", "Legend Store", "Classic Pack", "Campaign"]
+      "methods": ["Soft Launch"]
     },
     {
       "status": "current",
-      "methods": ["Garage Level 2", "Legend Store", "Classic Pack", "Campaign"]
+      "methods": ["Garage Level 2", "Legend Store", "Classic Pack", "Campaign", "Open Class Cup"]
     }
   ],
   "blueprints1Star": 20,
   "blueprints2Star": 20,
-  "blueprints3Star": 50,
-  "Tags": "Europe"
+  "blueprints3Star": 50
 }

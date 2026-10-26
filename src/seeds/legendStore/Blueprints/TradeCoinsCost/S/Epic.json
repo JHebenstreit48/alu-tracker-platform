@@ -1,0 +1,22 @@
+[
+  {
+    "Class": "S",
+    "Brand": "Lamborghini",
+    "Model": "Terzo Millennio",
+    "GarageLevel": 36,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "TradeCoinCost": 4000,
+    "DailyLimit": 1
+  },
+  {
+    "Class": "S",
+    "Brand": "RAESR",
+    "Model": "Tachyon Speed",
+    "GarageLevel": 55,
+    "StarRank": 6,
+    "CarRarity": "Epic",
+    "TradeCoinCost": 4000,
+    "DailyLimit": 1
+  }
+]

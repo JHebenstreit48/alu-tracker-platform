@@ -29,6 +29,7 @@
 
     "check:normalized-keys": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/checkNormalizedKeys.ts",
     "list:cars": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/listCars.ts",
+    "check:sources": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/checkSources.ts",
 
     "convert:car:all": "ts-node -r tsconfig-paths/register src/scripts/maintenance/convertToNewFormat.ts --all",
     "convert:car:all:dry": "ts-node -r tsconfig-paths/register src/scripts/maintenance/convertToNewFormat.ts --all --dry",
