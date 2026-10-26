@@ -7,12 +7,10 @@
   "normalizedKey": "chevrolet_camaro_lt",
   "status": "complete",
   "message": "Completed until I add stages",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Uncommon",
   "stars": 3,
   "country": ["United States of America"],
-  "epics": 0,
-  "addedDate": "26/02/2018",
   "obtainableVia": [
     {
       "status": "original",
@@ -20,11 +18,18 @@
     },
     {
       "status": "current",
-      "methods": ["Garage Level 1", "Legend Store", "Classic Pack", "Campaign", "Daily Car Loot"]
+      "methods": [
+        "Garage Level 1",
+        "Legend Store",
+        "Classic Pack",
+        "Campaign (Chapter 1)",
+        "Daily Car Loot (up to 3 blueprints daily)",
+        "Class D Cup"
+      ]
     }
   ],
+  "addedDate": "26/02/2018",
   "blueprints1Star": 5,
   "blueprints2Star": 12,
-  "blueprints3Star": 30,
-  "Tags": "Muscle"
+  "blueprints3Star": 30
 }
