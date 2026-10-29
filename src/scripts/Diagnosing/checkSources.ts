@@ -12,6 +12,7 @@ const knownExact = [
   "My own in-game research",
   "Asphalt Fandom Wiki",
   "asphalt9.info",
+  "A9 Garage",
   "Gameloft newsroom",
 ];
 

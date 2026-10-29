@@ -7,27 +7,27 @@
   "normalizedKey": "ktm_x_bow_gtx",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Asphalt Fandom Wiki", "asphalt9.info"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "asphalt9.info", "My own in-game research"],
   "rarity": "Uncommon",
   "stars": 3,
   "country": ["Austria"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Legend Pass (European Season 2 - May 3-31, 2023)"]
+      "methods": ["Legend Pass (European Season 2 - May 3 - 31, 2023)"]
     },
     {
       "status": "inactive",
       "methods": [
-        "Legend Pass",
-        "Car Hunt (Mar 20-28, 2024)",
-        "Car Hunt (Mar 12-21, 2025)",
-        "World League Bronze, Silver & Gold Card Packs"
+        "Legendary Hunt (Italian Revolution Update - Mar 20 - Apr 1, 2024)",
+        "Car Hunt (Carnival Rush Update - Mar 12 - 25, 2025)",
+        "World League 2025 Card Packs (Bronze, Silver & Gold - Heatwave: Afterburn to Flames of Fortune Update)",
+        "Car Hunt (Touge Masters Update - Sep 29 - Oct 12, 2026)"
       ]
     },
     {
       "status": "current",
-      "methods": ["Car Hunt (Sep 29 - Oct 12, 2026)", "Classic Pack"]
+      "methods": ["Classic Pack", "Class D Card Packs (TLE and Special Event rewards)", "Class D Cup"]
     }
   ],
   "addedDate": "30/03/2023",
