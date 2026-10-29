@@ -10,8 +10,7 @@
   "sources": ["Discord", "GamingWithAwesome YouTube video", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
-  "country": "Japan",
-  "addedDate": "13/10/2026",
+  "country": ["Japan"],
   "obtainableVia": [
     {
       "status": "original",
@@ -22,6 +21,7 @@
       "methods": ["Tekken 8 Spotlight (Oct 14 - Nov 11, 2026)"]
     }
   ],
+  "addedDate": "13/10/2026",
   "blueprints1Star": 20,
   "blueprints2Star": 25,
   "blueprints3Star": 0,
