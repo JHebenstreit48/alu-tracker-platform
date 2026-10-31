@@ -20,6 +20,7 @@ function inferPriorityFromFile(file: string): number {
 
 export async function buildBuckets(files: string[], opts: BuildOptions = {}): Promise<BuildResult> {
   const brandBuckets = new Map<string, BrandBucket>();
+  const allSeedKeys = new Set<string>();
   let expectedFromSeeds = 0;
 
   for (const file of files) {
@@ -45,6 +46,8 @@ export async function buildBuckets(files: string[], opts: BuildOptions = {}): Pr
           console.warn(`⚠️ Missing brand/normalizedKey in ${file}; skipping one entry.`);
           continue;
         }
+
+        allSeedKeys.add(normalizedKey);
 
         if (opts.onlyKeys && !opts.onlyKeys.has(normalizedKey)) continue;
 
@@ -131,7 +134,7 @@ export async function buildBuckets(files: string[], opts: BuildOptions = {}): Pr
     }
   }
 
-  return { brandBuckets, expectedFromSeeds };
+  return { brandBuckets, expectedFromSeeds, allSeedKeys };
 }
 
 export async function applyBuckets(

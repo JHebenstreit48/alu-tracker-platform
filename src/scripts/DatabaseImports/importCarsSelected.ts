@@ -12,6 +12,7 @@ import {
 } from "@/utils/scripts/carData/seedFs";
 import { logConfig } from "@/utils/scripts/carData/seedConfig";
 import { buildBuckets, applyBuckets } from "@/utils/scripts/carData/seedBuckets";
+import { detectRenames, printRenameReport, applyRenames } from "@/utils/scripts/carData/seedRenames";
 
 function getArg(name: string): string | undefined {
   const hit = process.argv.find((a) => a.startsWith(`--${name}=`));
@@ -81,12 +82,21 @@ function readKeysFile(filePath: string): string[] {
 
   if (!quiet) console.log(`📄 Eligible files after de-dupe: ${files.length}`);
 
-  const { brandBuckets, expectedFromSeeds } = await buildBuckets(files, { onlyKeys });
+  const { brandBuckets, expectedFromSeeds, allSeedKeys } = await buildBuckets(files, { onlyKeys });
+
+  const renameReport = await detectRenames(brandBuckets, allSeedKeys);
+  printRenameReport(renameReport);
+
+  if (process.env.SEED_DRY_RUN === "1") {
+    console.log("🧪 Dry run: nothing written.");
+    process.exit(0);
+  }
 
   const { carOps, statusOps } = await applyBuckets(brandBuckets, {
     onlyKeys,
     disablePrune: true,
   });
+  await applyRenames(renameReport.renames);
 
   let existsCount = 0;
   for (const k of keys) {

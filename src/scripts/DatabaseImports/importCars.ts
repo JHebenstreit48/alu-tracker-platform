@@ -11,6 +11,7 @@ import {
 } from "@/utils/scripts/carData/seedFs";
 import { logConfig } from "@/utils/scripts/carData/seedConfig";
 import { buildBuckets, applyBuckets } from "@/utils/scripts/carData/seedBuckets";
+import { detectRenames, printRenameReport, applyRenames } from "@/utils/scripts/carData/seedRenames";
 
 (async function main(): Promise<void> {
   const quiet = process.env.SEED_QUIET === "1";
@@ -53,7 +54,7 @@ import { buildBuckets, applyBuckets } from "@/utils/scripts/carData/seedBuckets"
 
   if (!quiet) console.log(`📄 Eligible files after de-dupe: ${files.length}`);
 
-  const { brandBuckets, expectedFromSeeds } = await buildBuckets(files);
+  const { brandBuckets, expectedFromSeeds, allSeedKeys } = await buildBuckets(files);
 
   if (!quiet) {
     for (const [brand, bucket] of brandBuckets.entries()) {
@@ -61,7 +62,17 @@ import { buildBuckets, applyBuckets } from "@/utils/scripts/carData/seedBuckets"
     }
   }
 
+  const renameReport = await detectRenames(brandBuckets, allSeedKeys);
+  printRenameReport(renameReport);
+
+  if (process.env.SEED_DRY_RUN === "1") {
+    console.log("🧪 Dry run: nothing written.");
+    process.exit(0);
+  }
+
   const { carOps, statusOps } = await applyBuckets(brandBuckets);
+  await applyRenames(renameReport.renames);
+
   const finalSnap = await adminDb.collection("cars").get();
 
   console.log(`🧮 Expected from seeds (this run): ${expectedFromSeeds}`);

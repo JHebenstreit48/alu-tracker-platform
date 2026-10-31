@@ -1,3 +1,3 @@
-import lancerEvolution from '@/seeds/cars/M/Mitsubishi/D/LancerEvolution';
+import lancerEvolutionx from '@/seeds/cars/M/Mitsubishi/D/LancerEvolutionX';
 
-export default [lancerEvolution];
+export default [lancerEvolutionx];
