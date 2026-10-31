@@ -14,6 +14,7 @@ export type BrandBucket = {
 export type BuildResult = {
   brandBuckets: Map<string, BrandBucket>;
   expectedFromSeeds: number;
+  allSeedKeys: Set<string>;
 };
 
 export type BuildOptions = {
