@@ -44,6 +44,8 @@
     "pull:submissions": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/pullApprovedSubmissions.ts",
     "pull:submissions:dry": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/pullApprovedSubmissions.ts --dry",
 
+    "list:carNames": "ts-node -r tsconfig-paths/register src/scripts/listCarNames.ts",
+
     "scaffold:car": "ts-node -r tsconfig-paths/register src/scripts/maintenance/scaffoldCar.ts",
     "scaffold:car:dry": "ts-node -r tsconfig-paths/register src/scripts/maintenance/scaffoldCar.ts --dry",
     "scaffold:car:fix": "ts-node -r tsconfig-paths/register src/scripts/maintenance/scaffoldCar.ts --fix",
