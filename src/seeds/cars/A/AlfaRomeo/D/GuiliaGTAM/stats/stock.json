@@ -1,9 +1,9 @@
 {
   "stock": {
-    "rank": 0,
-    "topSpeed": 0,
-    "acceleration": 0,
-    "handling": 0,
-    "nitro": 0
+    "rank": 1406,
+    "topSpeed": 300.00,
+    "acceleration": 67.60,
+    "handling": 33.80,
+    "nitro": 25.34
   }
 }
