@@ -11,8 +11,6 @@
   "rarity": "Uncommon",
   "stars": 3,
   "country": ["Germany"],
-  "epics": 0,
-  "addedDate": "26/02/2018",
   "obtainableVia": [
     {
       "status": "original",
@@ -20,9 +18,10 @@
     },
     {
       "status": "current",
-      "methods": ["Garage Level 1", "Legend Store", "Classic Pack", "Campaign", "Class D Cup"]
+      "methods": ["Garage Level 1", "Legend Store", "Classic Pack", "Campaign", "Class D Cup", "Open Class Cup"]
     }
   ],
+  "addedDate": "26/02/2018",
   "blueprints1Star": 5,
   "blueprints2Star": 8,
   "blueprints3Star": 45
