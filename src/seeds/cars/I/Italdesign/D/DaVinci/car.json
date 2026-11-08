@@ -7,18 +7,30 @@
   "normalizedKey": "italdesign_davinci",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "Italy",
-  "epics": 4,
-  "obtainableVia": ["Garage Level 41"],
-  "added": "Italian Season",
-  "addedWith": "MP 1v1",
-  "addedDate": "08/04/2021",
+  "country": ["Italy"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": ["1 vs. 1 Tournament (Italian Season Update)"]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        "Car Hunt",
+        "Multiplayer League Card Packs (Gold, Platinum & Legend - Carnival Rush Update, 6 months)"
+      ]
+    },
+    {
+      "status": "current",
+      "methods": ["Garage Level 41", "Legend Store", "Class D Cup", "Deluxe Class Cup"]
+    }
+  ],
+  "addedDate": "05/04/2021",
   "blueprints1Star": 30,
   "blueprints2Star": 23,
   "blueprints3Star": 33,
-  "blueprints4Star": 42,
-  "Tags": "Electric; Europe"
+  "blueprints4Star": 42
 }
