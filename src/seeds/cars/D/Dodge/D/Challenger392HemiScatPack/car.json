@@ -14,21 +14,24 @@
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Soft Launch"]
+      "methods": [
+        { "name": "Soft Launch" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Gift from Microsoft (Windows only - Jul 25 - Aug 10, 2018)", "15th Anniversary Gift (May 5, 2020)"]
+      "methods": [
+        { "area": "Promotions", "section": "Microsoft", "name": "Gift from Microsoft (Windows only)", "start": "2018-07-25", "end": "2018-08-10" },
+        { "area": "Login Rewards", "section": "Anniversary", "name": "15th Anniversary Gift (May 5, 2020)" },
+        { "area": "Multiplayer", "section": "League Card Packs", "name": "Bronze, Silver & Gold League Packs" }
+      ]
     },
     {
       "status": "current",
       "methods": [
-        "Garage Level 3",
-        "Legend Store",
-        "Campaign (Chapter 2 - American Blaze)",
-        "Multiplayer League Card Packs (Bronze, Silver & Gold)",
-        "Class D Cup",
-        "Open Class Cup"
+        { "area": "Daily Events", "section": "Cups", "pack": "D", "from": ["Class D Cup", "Open Class Cup"] },
+        { "area": "Career", "section": "Campaign", "name": "Chapter 2 - American Blaze" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 3 (see Legend Store page: Credits dropdown)" }
       ]
     }
   ],

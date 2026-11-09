@@ -14,16 +14,21 @@
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Drive Syndicate: Koenigsegg Jesko (Summer Update - Jul 26 - Sep 2, 2019)"]
+      "methods": [
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Koenigsegg Jesko (Summer Update)", "start": "2019-07-26", "end": "2019-09-02" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Multiplayer", "section": "League Card Packs", "name": "Bronze, Silver, Gold & Platinum League Packs" }
+      ]
     },
     {
       "status": "current",
       "methods": [
-        "Garage Level 4",
-        "Legend Store",
-        "Multiplayer League Card Packs (Bronze, Silver, Gold & Platinum)",
-        "Class D Cup",
-        "Deluxe Class Cup"
+        { "area": "Daily Events", "section": "Cups", "pack": "D+", "from": ["Class D Cup", "Deluxe Class Cup"] },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 4 (see Legend Store page: Credits dropdown)" }
       ]
     }
   ],
