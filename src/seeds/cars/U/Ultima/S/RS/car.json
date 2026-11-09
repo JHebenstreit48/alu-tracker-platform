@@ -15,15 +15,22 @@
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Special Event (British Tour Season - Mar 18 - Apr 7, 2022)", "British Tour Season Pass (Legend Pass)", "British Tour Passport Events", "Limited-Time Pack"]
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "British Tour Season Update - Mar 18 - Apr 7, 2022" },
+        { "area": "Special Events", "section": "Passport Events", "name": "British Tour Season Update" },
+        { "area": "Shop", "section": "Limited-Time Pack", "name": "British Tour Season Update - Mar 18 - Apr 7, 2022" },
+        { "area": "Passes", "section": "Legend Pass", "name": "British Tour Season (1 free, 5 via in-app purchase)" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Special Event", "Special Hunt (Jan 15-25, 2024)", "Special Hunt Rerun (Jul 17-27, 2024)", "Special Hunt Rerun (Feb 18-28, 2025)", "Special Hunt Rerun (Nov 7-21, 2025)"]
-    },
-    {
-      "status": "current",
-      "methods": ["Special Hunt (Sep 28 - Oct 14, 2026)"]
+      "methods": [
+        { "area": "Special Events", "section": "Special Hunt", "name": "Festive Sparks and Dragon Race Update - Jan 15 - 25, 2024" },
+        { "area": "Special Events", "section": "Special Hunt", "name": "Asphalt Legends Unite Expansion Update - Jul 17 - 27, 2024" },
+        { "area": "Special Events", "section": "Special Hunt", "name": "Carnival Rush Update - Feb 18 - 28, 2025" },
+        { "area": "Special Events", "section": "Special Hunt", "name": "Phantom Riders Update - Nov 7 - 21, 2025" },
+        { "area": "Special Events", "section": "Special Hunt", "name": "Touge Masters Update - Sep 28 - Oct 13, 2026" }
+      ]
     }
   ],
   "addedDate": "07/02/2022",
