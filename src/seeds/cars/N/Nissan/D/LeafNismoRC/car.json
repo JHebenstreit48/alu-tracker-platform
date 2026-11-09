@@ -14,15 +14,17 @@
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Holiday Gift (Godly Beasts Update - from Dec 24, 2019, 15 blueprints)"]
+      "methods": [
+        { "area": "Login Rewards", "section": "Holiday", "name": "Holiday Gift (Godly Beasts Update - from Dec 24, 2019, 15 blueprints)" }
+      ]
     },
     {
       "status": "current",
       "methods": [
-        "Legend Store (Trade Coins: see Legend Store page, Trade Coins dropdown)",
-        "Class D Card Packs (TLE and Special Event rewards)",
-        "Class D Cup",
-        "Open Class Cup"
+        { "area": "Shop", "section": "Legend Store", "currency": "Trade Coins", "name": "See Legend Store page: Trade Coins dropdown" },
+        { "area": "Daily Events", "section": "Cups", "pack": "D", "from": ["Class D Cup", "Open Class Cup"] },
+        { "area": "Daily Events", "section": "TLE", "pack": "D", "name": "Club, Solo & Rank rewards" },
+        { "area": "Special Events", "pack": "D", "name": "Events with Class D support cars" }
       ]
     }
   ],
