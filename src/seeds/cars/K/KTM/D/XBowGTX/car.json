@@ -14,20 +14,27 @@
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Legend Pass (European Season 2 - May 3 - 31, 2023)"]
+      "methods": [
+        { "area": "Passes", "section": "Legend Pass", "name": "European Season 2", "start": "2023-05-03", "end": "2023-05-31" }
+      ]
     },
     {
       "status": "inactive",
       "methods": [
-        "Legendary Hunt (Italian Revolution Update - Mar 20 - Apr 1, 2024)",
-        "Car Hunt (Carnival Rush Update - Mar 12 - 25, 2025)",
-        "World League 2025 Card Packs (Bronze, Silver & Gold - Heatwave: Afterburn to Flames of Fortune Update)",
-        "Car Hunt (Touge Masters Update - Sep 29 - Oct 12, 2026)"
+        { "area": "Daily Events", "section": "Legendary Hunt", "name": "Italian Revolution Update", "start": "2024-03-20", "end": "2024-04-01" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Carnival Rush Update", "start": "2025-03-12", "end": "2025-03-25" },
+        { "area": "Multiplayer", "section": "World League Card Packs", "name": "World League 2025: Bronze, Silver & Gold Packs (Heatwave: Afterburn to Flames of Fortune Update)" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Touge Masters Update", "start": "2026-09-29", "end": "2026-10-12" }
       ]
     },
     {
       "status": "current",
-      "methods": ["Classic Pack", "Class D Card Packs (TLE and Special Event rewards)", "Class D Cup", "Open Class Cup"]
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "D", "from": ["Class D Cup", "Open Class Cup"] },
+        { "area": "Daily Events", "section": "TLE", "pack": "D", "name": "Club, Solo & Rank rewards" },
+        { "area": "Special Events", "pack": "D", "name": "Events with Class D support cars" },
+        { "area": "Shop", "section": "Card Packs", "name": "Classic Pack" }
+      ]
     }
   ],
   "addedDate": "30/03/2023",

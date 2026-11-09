@@ -14,18 +14,18 @@
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Soft Launch", "Starter Car / Tutorial", "Garage Level 1", "Legend Store", "Classic Pack", "Campaign"]
+      "methods": [
+        { "name": "Soft Launch" }
+      ]
     },
     {
       "status": "current",
       "methods": [
-        "Starter Car / Tutorial",
-        "Garage Level 1",
-        "Legend Store",
-        "Classic Pack",
-        "Campaign",
-        "Class D Cup",
-        "Open Class Cup"
+        { "area": "Daily Events", "section": "Cups", "pack": "D", "from": ["Class D Cup", "Open Class Cup"] },
+        { "area": "Career", "section": "Tutorial", "name": "Starter Car" },
+        { "area": "Career", "section": "Campaign", "name": "Campaign" },
+        { "area": "Shop", "section": "Card Packs", "name": "Classic Pack" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 1 (see Legend Store page: Credits dropdown)" }
       ]
     }
   ],

@@ -14,15 +14,24 @@
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Soft Launch"]
+      "methods": [
+        { "name": "Soft Launch" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Sonic 35th Anniversary Spotlight (Audi Season - Jun 18 - Jul 21, 2026)"]
+      "methods": [
+        { "area": "Special Events", "section": "Spotlight", "name": "Sonic 35th Anniversary (Audi Season)", "start": "2026-06-18", "end": "2026-07-21" }
+      ]
     },
     {
       "status": "current",
-      "methods": ["Garage Level 2", "Legend Store", "Classic Pack", "Campaign (Chapter 1)", "Class D Cup", "Open Class Cup"]
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "D", "from": ["Class D Cup", "Open Class Cup"] },
+        { "area": "Career", "section": "Campaign", "name": "Chapter 1" },
+        { "area": "Shop", "section": "Card Packs", "name": "Classic Pack" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 2 (see Legend Store page: Credits dropdown)" }
+      ]
     }
   ],
   "addedDate": "26/02/2018",

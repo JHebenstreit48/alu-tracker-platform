@@ -7,18 +7,38 @@
   "normalizedKey": "tvr_griffith",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "A9 Garage", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "United Kingdom",
-  "epics": 4,
-  "obtainableVia": ["Garage Level 5"],
-  "added": "Tune It Up",
-  "addedWith": null,
-  "addedDate": "27/07/2019",
+  "country": ["United Kingdom"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [{ "area": "Daily Events", "section": "Car Hunt", "name": "Back to School Event (Tune It Up Update)" }]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Godly Beasts Update" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Porsche Season Update" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Rerun", "start": "2020-07-31", "end": "2020-08-07" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Full Throttle Update" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Festive Season Update" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Noir Friday Season Update" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Italian Revolution Season 1 Update" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "D+", "from": ["Class D Cup", "Deluxe Class Cup"] },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 5 (see Legend Store page: Credits dropdown)" }
+      ]
+    }
+  ],
+  "addedDate": "26/08/2019",
   "blueprints1Star": 30,
   "blueprints2Star": 23,
   "blueprints3Star": 33,
-  "blueprints4Star": 42,
-  "Tags": "Europe"
+  "blueprints4Star": 42
 }

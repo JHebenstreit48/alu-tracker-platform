@@ -7,25 +7,30 @@
   "normalizedKey": "italdesign_davinci",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
   "country": ["Italy"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["1 vs. 1 Tournament (Italian Season Update)"]
+      "methods": [
+        { "area": "Special Events", "section": "1 vs. 1 Tournament", "name": "Italian Season Update" }
+      ]
     },
     {
       "status": "inactive",
       "methods": [
-        "Car Hunt",
-        "Multiplayer League Card Packs (Gold, Platinum & Legend - Carnival Rush Update, 6 months)"
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Legacy of Speed Season", "start": "2025-07-24", "end": "2025-08-05" },
+        { "area": "Multiplayer", "section": "League Card Packs", "name": "Gold, Platinum & Legend League Packs (Carnival Rush Update, 6 months)" }
       ]
     },
     {
       "status": "current",
-      "methods": ["Garage Level 41", "Legend Store", "Class D Cup", "Deluxe Class Cup"]
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "D+", "from": ["Class D Cup", "Deluxe Class Cup"] },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 41 (see Legend Store page: Credits dropdown)" }
+      ]
     }
   ],
   "addedDate": "05/04/2021",

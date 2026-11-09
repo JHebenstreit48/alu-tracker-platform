@@ -14,19 +14,30 @@
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Drive Syndicate: Rimac Nevera (Godly Beasts Update)"]
+      "methods": [
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Rimac Nevera (Godly Beasts Update)" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Car Hunt", "Mazda 105th Anniversary TLE (Year of the Snake Season - Jan 29 - 31, 2025)"]
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Earlier run (dates pending)" },
+        { "area": "Daily Events", "section": "TLE", "name": "Mazda 105th Anniversary (Year of the Snake Season)", "start": "2025-01-29", "end": "2025-01-31" }
+      ]
     },
     {
       "status": "current",
-      "methods": ["Garage Level 6", "Legend Store", "VIP Market (Tokens, VIP Level 1)", "Class D Cup", "Deluxe Class Cup"]
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "D+", "from": ["Class D Cup", "Deluxe Class Cup"] },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 6 (see Legend Store page: Credits dropdown)" },
+        { "area": "Shop", "section": "VIP Market", "currency": "Tokens", "name": "VIP Level 1" }
+      ]
     },
     {
       "status": "upcoming",
-      "methods": ["Car Hunt (Ferrari Season - Nov 25 - Dec 8, 2026)"]
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Ferrari Season", "start": "2026-11-25", "end": "2026-12-08" }
+      ]
     }
   ],
   "addedDate": "10/12/2019",
