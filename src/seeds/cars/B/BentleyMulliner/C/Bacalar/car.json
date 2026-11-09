@@ -7,18 +7,39 @@
   "normalizedKey": "bentley_mulliner_bacalar",
   "status": "in progress",
   "message": "Still adding data",
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
-  "country": "United Kingdom",
-  "epics": 8,
-  "obtainableVia": ["Garage Level 47", "Drive Syndicate"],
-  "added": "British Season",
-  "addedWith": "LP car",
-  "addedDate": "27/08/2020",
+  "country": ["United Kingdom"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Passes", "section": "Legend Pass", "name": "British Season", "start": "2020-08-28", "end": "2020-10-22" },
+        { "area": "Multiplayer", "section": "World Series", "name": "Finest Royals packs", "start": "2020-10-16", "end": "2020-10-23" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 6: Rising From the Ashes (Winterfest Update - 30 blueprints at 100,000 Syndicate Points, plus Syndicate Store)", "start": "2022-12-15", "end": "2023-01-12" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Racing Through Fire & Hall of Flames Update (Start Aug 16 - 24, Riot Aug 24 - 28)", "start": "2023-08-16", "end": "2023-08-28" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Heatwave: Afterburn Update (Start Oct 2 - 10, Riot Oct 10 - 14)", "start": "2025-10-02", "end": "2025-10-14" },
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate: Side Story (Flames of Fortune Update - 25 blueprints at 100,000 and 10 at 179,000 Syndicate Points, plus Syndicate Store)", "start": "2026-02-10", "end": "2026-03-10" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "C+", "from": ["Class C Cup", "Deluxe Class Cup"] },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 47 (see Legend Store page: Credits dropdown)" }
+      ]
+    }
+  ],
+  "addedDate": "26/08/2020",
   "blueprints1Star": 35,
   "blueprints2Star": 15,
   "blueprints3Star": 21,
   "blueprints4Star": 28,
-  "blueprints5Star": 35,
-  "Tags": "Europe"
+  "blueprints5Star": 35
 }
