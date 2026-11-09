@@ -7,18 +7,49 @@
   "normalizedKey": "porsche_taycan_turbo_s",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "Germany",
-  "epics": 4,
-  "obtainableVia": ["Car Hunt", "Legend Pass", "Garage Level 24"],
-  "added": "Porsche Season",
-  "addedWith": "Legend Pass car",
-  "addedDate": "19/03/2020",
+  "country": ["Germany"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        {
+          "area": "Passes",
+          "section": "Season Pass",
+          "name": "Porsche Season: Ferdinand's Legacy (episode rewards)",
+          "start": "2020-03-18",
+          "end": "2020-05-07"
+        },
+        { "area": "Passes", "section": "Legend Pass", "name": "Porsche Season: Ferdinand's Legacy", "start": "2020-03-18", "end": "2020-05-07" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Full Throttle Update (Legend Pass owners only)" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Electric Season Update", "start": "2021-09-23", "end": "2021-10-03" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "D+", "from": ["Class D Cup", "Deluxe Class Cup"] },
+        { "area": "Sponsorships", "section": "Contracts", "name": "3-day contracts (up to 5 blueprints)" },
+        {
+          "area": "Shop",
+          "section": "Legend Store",
+          "currency": "Credits",
+          "name": "From Garage Level 24 (see Legend Store page: Credits dropdown)"
+        },
+        { "area": "Shop", "section": "VIP Market", "currency": "Tokens", "name": "VIP Level 1" }
+      ]
+    }
+  ],
+  "addedDate": "17/03/2020",
   "blueprints1Star": 30,
   "blueprints2Star": 23,
   "blueprints3Star": 33,
-  "blueprints4Star": 42,
-  "Tags": "Electric; Europe"
+  "blueprints4Star": 42
 }
