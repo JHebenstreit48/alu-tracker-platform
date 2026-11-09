@@ -7,27 +7,31 @@
   "normalizedKey": "de_tomaso_p900",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
-  "country": "Italy",
-  "epics": 8,
+  "country": ["Italy"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Car Hunt (West to East & Eurobloom Update)"]
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "West to East & Eurobloom Update (Start May 15 - 23, Riot May 23 - 27)", "start": "2024-05-15", "end": "2024-05-27" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Car Hunt"]
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Festive Fury Update (Start Jan 8 - 16, Riot Jan 16 - 20)", "start": "2025-01-08", "end": "2025-01-20" },
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Operation Cerberus (support car - Tunnel Vision missions)" }
+      ]
     },
     {
       "status": "current",
-      "methods": ["Drive Syndicate: Operation Cerberus (Support Car)"]
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "C+", "from": ["Class C Cup", "Deluxe Class Cup"] }
+      ]
     }
   ],
-  "added": "Eurobloom",
-  "addedWith": "Car Hunt",
   "addedDate": "17/04/2024",
   "blueprints1Star": 35,
   "blueprints2Star": 15,
