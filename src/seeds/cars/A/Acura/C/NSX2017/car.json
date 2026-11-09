@@ -7,27 +7,38 @@
   "normalizedKey": "acura_2017_nsx",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Community spreadsheet", "asphalt9.info"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "A9 Garage", "Community spreadsheet", "asphalt9.info", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
   "country": ["Japan"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Soft Launch"]
+      "methods": [
+        { "name": "Soft Launch" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Unleashed Event", "Multiplayer League Packs", "Special Event (Support Car)"]
+      "methods": [
+        { "area": "Special Events", "section": "Unleashed", "name": "Unleashed (dates pending)" },
+        { "area": "Multiplayer", "section": "League Card Packs", "name": "Bronze, Silver, Gold & Platinum League Packs (from Apr 23, 2021 shared with the Maserati Alfieri)" },
+        { "area": "Special Events", "section": "Special Event", "name": "Lamborghini Centenario Evo (Porsche of Legends Season - 2 Epic Import Parts)" }
+      ]
     },
     {
       "status": "current",
-      "methods": ["Garage Level 10", "Legend Store", "Classic Pack", "Campaign", "Deluxe Class Cup"]
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "C+", "from": ["Class C Cup", "Deluxe Class Cup"] },
+        { "area": "Career", "section": "Campaign", "name": "Campaign" },
+        { "area": "Shop", "section": "Card Packs", "name": "Classic Pack" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 10 (see Legend Store page: Credits dropdown)" }
+      ]
     }
   ],
   "addedDate": "26/02/2018",
   "blueprints1Star": 35,
-  "blueprints2Star": 10,
-  "blueprints3Star": 20,
+  "blueprints2Star": 15,
+  "blueprints3Star": 21,
   "blueprints4Star": 32
 }

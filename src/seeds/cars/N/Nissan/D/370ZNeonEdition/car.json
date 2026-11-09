@@ -14,18 +14,24 @@
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Drive Syndicate 7: Racing Through Fire (Racing Through Fire & Hall of Flames Update - Jul 26 - Aug 23, 2023)"]
+      "methods": [
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 7: Racing Through Fire (Racing Through Fire & Hall of Flames Update)", "start": "2023-07-26", "end": "2023-08-23" }
+      ]
     },
     {
       "status": "inactive",
       "methods": [
-        "New Player Gift (Asphalt Legends Unite Expansion Update - 30 blueprints)",
-        "Multiplayer League Card Packs (Bronze, Silver & Gold - Carnival Rush Update, 6 months)"
+        { "area": "Login Rewards", "section": "New Player", "name": "New Player Gift (Asphalt Legends Unite Expansion Update - 30 blueprints)" },
+        { "area": "Multiplayer", "section": "League Card Packs", "name": "Bronze, Silver & Gold League Packs (Carnival Rush Update, 6 months)" }
       ]
     },
     {
       "status": "current",
-      "methods": ["Tekken 8 Spotlight (Brawl of the Deep Update - Oct 14 - Nov 11, 2026)", "VIP Market (Tokens)", "Class D Cup", "Deluxe Class Cup"]
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "D+", "from": ["Class D Cup", "Deluxe Class Cup"] },
+        { "area": "Special Events", "section": "Spotlight", "name": "Tekken 8 Spotlight (Brawl of the Deep Update)", "start": "2026-10-14", "end": "2026-11-11" },
+        { "area": "Shop", "section": "VIP Market", "currency": "Tokens", "name": "VIP Market" }
+      ]
     }
   ],
   "addedDate": "24/07/2023",
