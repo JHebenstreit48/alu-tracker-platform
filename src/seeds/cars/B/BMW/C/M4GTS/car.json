@@ -7,17 +7,33 @@
   "normalizedKey": "bmw_m4_gts",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Uncommon",
   "stars": 3,
-  "country": "Germany",
-  "epics": 4,
-  "obtainableVia": ["Garage Level 6", "Multiplayer"],
-  "added": "Soft Launch",
-  "addedWith": null,
+  "country": ["Germany"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "name": "Soft Launch" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Multiplayer", "section": "League Card Packs", "name": "League Packs (details pending)" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "C", "from": ["Class C Cup", "Open Class Cup"] },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 6 (see Legend Store page: Credits dropdown)" }
+      ]
+    }
+  ],
   "addedDate": "26/02/2018",
   "blueprints1Star": 40,
-  "blueprints2Star": 20,
-  "blueprints3Star": 50,
-  "Tags": "Europe"
+  "blueprints2Star": 30,
+  "blueprints3Star": 50
 }

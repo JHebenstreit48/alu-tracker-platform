@@ -7,18 +7,38 @@
   "normalizedKey": "chevrolet_corvette_stingray",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
   "country": ["United States of America"],
-  "epics": 8,
-  "obtainableVia": ["Garage Level 25"],
-  "added": "American Season",
-  "addedWith": "LP car",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Passes", "section": "Legend Pass", "name": "American Season" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Fire and Lightning Update (Legend Pass owners only)" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "City of Lights Update" },
+        { "area": "Daily Events", "section": "TLE", "name": "The Big Clash (35 blueprints and decal for all participants, given Jun 23, 2022)", "start": "2022-06-09", "end": "2022-06-14" },
+        { "area": "Multiplayer", "section": "World League Card Packs", "name": "Card Packs up to Champion League (from Porsche of Legends Update)" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "C+", "from": ["Class C Cup", "Deluxe Class Cup"] },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 25 (see Legend Store page: Credits dropdown)" }
+      ]
+    }
+  ],
+  "addedDate": "29/06/2020",
   "blueprints1Star": 35,
   "blueprints2Star": 15,
   "blueprints3Star": 21,
   "blueprints4Star": 28,
-  "blueprints5Star": 35,
-  "Tags": null
+  "blueprints5Star": 35
 }
