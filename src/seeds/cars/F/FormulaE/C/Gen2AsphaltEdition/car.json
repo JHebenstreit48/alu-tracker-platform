@@ -7,15 +7,40 @@
   "normalizedKey": "formula_e_gen_2_asphalt_edition",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Nox Fury Patch Notes Video", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
-  "country": "France",
-  "epics": 8,
-  "obtainableVia": null,
-  "added": "Italian Revolution II",
-  "addedWith": "TLE",
-  "addedDate": "19/2/2024",
+  "country": ["France"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Tour", "name": "Osaka Tour (Italian Revolution Update)", "start": "2024-03-28", "end": "2024-04-06" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Special Events", "section": "Tour", "name": "Auckland Tour", "start": "2024-06-27", "end": "2024-07-06" },
+        { "area": "Special Events", "section": "Tour", "name": "Scotland Tour (Nintendo Switch: Aug 29 - Sep 4, 2024)", "start": "2024-07-18", "end": "2024-07-27" },
+        { "area": "Daily Events", "section": "TLE", "name": "Groundhog Day (up to 5 blueprints, plus event packs)", "start": "2025-02-02", "end": "2025-02-04" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "C+", "from": ["Class C Cup", "Deluxe Class Cup"] },
+        { "area": "Shop", "section": "VIP Market", "currency": "Tokens", "name": "VIP Level 3" }
+      ]
+    },
+    {
+      "status": "upcoming",
+      "methods": [
+        { "area": "Daily Events", "section": "TLE", "name": "Singles Day (Ferrari Season)", "start": "2026-11-11", "end": "2026-11-17" }
+      ]
+    }
+  ],
+  "addedDate": "19/02/2024",
   "blueprints1Star": 35,
   "blueprints2Star": 15,
   "blueprints3Star": 21,

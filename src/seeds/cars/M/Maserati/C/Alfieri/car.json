@@ -7,33 +7,39 @@
   "normalizedKey": "maserati_alfieri",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "Italy",
-  "epics": 4,
+  "country": ["Italy"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Slipstream Update", "Special Event (Bugatti Chiron)"]
-    },
-    {
-      "status": "obsolete",
-      "methods": ["5th Anniversary Gift"]
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Bugatti Chiron (Slipstream Update)" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Car Hunt", "League Packs"]
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "From May 2019 (dates pending)" },
+        { "area": "Multiplayer", "section": "League Card Packs", "name": "Bronze, Silver, Gold & Platinum League Packs (from Apr 23, 2021, shared with the Acura NSX)" },
+        { "area": "Login Rewards", "section": "Anniversary", "name": "5th Anniversary Gift (35 blueprints)" },
+        { "area": "Daily Events", "section": "Cups", "pack": "C+", "from": ["Class C Cup"], "name": "Removed in Brawl of the Deep Update" },
+        { "area": "Daily Events", "section": "TLE", "pack": "C+", "name": "Club, Solo & Rank rewards (removed in Brawl of the Deep Update)" },
+        { "area": "Special Events", "pack": "C+", "name": "Events with Class C support cars (removed in Brawl of the Deep Update)" }
+      ]
     },
     {
       "status": "current",
-      "methods": ["Garage Level 11", "Legend Store"]
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "C", "from": ["Class C Cup", "Open Class Cup"] },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 11 (see Legend Store page: Credits dropdown)" }
+      ]
     }
   ],
   "addedDate": "11/12/2018",
   "blueprints1Star": 35,
-  "blueprints2Star": 10,
-  "blueprints3Star": 20,
-  "blueprints4Star": 32,
-  "Tags": "Europe; Hybrid"
+  "blueprints2Star": 15,
+  "blueprints3Star": 21,
+  "blueprints4Star": 32
 }

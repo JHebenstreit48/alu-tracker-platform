@@ -7,13 +7,32 @@
   "normalizedKey": "ford_shelby_gr_1",
   "status": "in progress",
   "message": "Still adding data",
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
   "country": ["United States of America"],
-  "epics": 4,
-  "obtainableVia": ["Trade Credits", "Garage Level 42"],
-  "added": "Godly Beasts",
-  "addedWith": "Drive Syndicate",
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Rimac Nevera (Godly Beasts Update - Charging Boar tier)" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Shop", "section": "Card Packs", "name": "Stars and Stripes pack (750)" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "C", "from": ["Class C Cup", "Open Class Cup"] },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 42 (see Legend Store page: Credits dropdown)" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Trade Coins", "name": "See Legend Store page: Trade Coins dropdown" }
+      ]
+    }
+  ],
   "addedDate": "10/12/2019",
   "blueprints1Star": 50,
   "blueprints2Star": 29,

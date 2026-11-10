@@ -7,28 +7,43 @@
   "normalizedKey": "aston_martin_db12",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
   "country": ["United Kingdom"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Legend Pass (Supercharged Summer Season I - May 29 - Jun 25, 2024)"]
+      "methods": [{ "area": "Passes", "section": "Legend Pass", "name": "Supercharged Summer Season I", "start": "2024-05-29", "end": "2024-06-25" }]
     },
     {
       "status": "inactive",
       "methods": [
-        "Legend Pass (Supercharged Summer Season II - Jun 26 - Jul 16, 2024)",
-        "Legend Pass Showcase (Supercharged Summer Season I)",
-        "Daily Login Gift (Nintendo Switch - Asphalt Legends Unite Expansion Update)",
-        "New Year: Drifting Away from 2024 TLE (Dec 30, 2024 - Jan 8, 2025)",
-        "New Year 2024 Card Packs"
+        { "area": "Passes", "section": "Legend Pass", "name": "Supercharged Summer Season II", "start": "2024-06-26", "end": "2024-07-16" },
+        { "area": "Daily Events", "section": "TLE", "name": "Legend Pass Showcase (Supercharged Summer Season I)" },
+        {
+          "area": "Login Rewards",
+          "section": "Daily Login",
+          "name": "Nintendo Switch only - 45 blueprints (Asphalt Legends Unite Expansion Update)"
+        },
+        {
+          "area": "Daily Events",
+          "section": "TLE",
+          "name": "New Year: Drifting Away from 2024 (up to 3 blueprints, plus an Epic Import Part if maxed)",
+          "start": "2024-12-30",
+          "end": "2025-01-08"
+        },
+        { "area": "Shop", "section": "Limited Time Packs", "name": "New Year 2024 Card Packs" }
       ]
     },
     {
       "status": "current",
-      "methods": ["VIP Market (VIP Level 6)", "Class B Cup", "Deluxe Class Cup"]
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "B+", "from": ["Class B Cup", "Deluxe Class Cup"] },
+        { "area": "Daily Events", "section": "TLE", "pack": "B+", "name": "Club, Solo & Rank rewards" },
+        { "area": "Special Events", "pack": "B+", "name": "Events with Class B support cars" },
+        { "area": "Shop", "section": "VIP Market", "currency": "Tokens", "name": "VIP Level 6" }
+      ]
     }
   ],
   "addedDate": "27/05/2024",

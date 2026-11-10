@@ -7,14 +7,30 @@
   "normalizedKey": "trion_nemesis",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Nox Fury Patch Notes Video", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
   "country": ["United States of America"],
-  "epics": 16,
-  "obtainableVia": ["Exclusive"],
-  "added": "Soft Launch",
-  "addedWith": null,
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "name": "Soft Launch" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Exclusive", "name": "Exclusive: Trion Nemesis (weekly, Thursday - Friday; Ferrari FXX K required, Lamborghini Egoista and Naran Hyper Coupe bonus cars)" }
+      ]
+    },
+    {
+      "status": "upcoming",
+      "methods": [
+        { "area": "Daily Events", "section": "TLE", "name": "Cyber Monday (Ferrari Season)", "start": "2026-11-30", "end": "2026-12-05" }
+      ]
+    }
+  ],
   "addedDate": "26/02/2018",
   "blueprints1Star": 60,
   "blueprints2Star": 13,

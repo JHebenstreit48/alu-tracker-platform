@@ -7,26 +7,27 @@
   "normalizedKey": "lamborghini_aventador_j",
   "status": "in progress",
   "message": "Still adding data from sources",
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
-  "country": "Italy",
-  "epics": 12,
+  "country": ["Italy"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Special Events (Caribbean Update)"]
+      "methods": [{ "area": "Special Events", "section": "Special Event", "name": "Caribbean Update" }]
     },
     {
       "status": "inactive",
-      "methods": ["Special Hunt (Flames of Fortune Update)"]
+      "methods": [
+        { "area": "Special Events", "section": "Special Hunt", "name": "Flames of Fortune Update" },
+        { "area": "Daily Events", "section": "TLE", "name": "Summer Solstice (Audi Season)", "start": "2026-06-22", "end": "2026-07-03" }
+      ]
     },
     {
       "status": "current",
-      "methods": ["Garage Level 15 Card Packs & Legend Store"]
-    },
-    {
-      "status": "upcoming",
-      "methods": ["Summer Solstice TLE (Audi Season - Jun 22 - Jul 3)"]
+      "methods": [
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 15 (see Legend Store page: Credits dropdown)" }
+      ]
     }
   ],
   "addedDate": "10/04/2019",
@@ -34,6 +35,5 @@
   "blueprints2Star": 23,
   "blueprints3Star": 27,
   "blueprints4Star": 36,
-  "blueprints5Star": 51,
-  "Tags": "Europe; Super Car"
+  "blueprints5Star": 50
 }

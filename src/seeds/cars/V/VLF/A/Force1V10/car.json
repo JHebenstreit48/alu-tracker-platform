@@ -7,19 +7,41 @@
   "normalizedKey": "vlf_force_1_v10",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": [],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Nox Fury Patch Notes Video", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
   "country": ["United States of America"],
-  "epics": 12,
-  "obtainableVia": ["Exclusive"],
-  "added": "Soft Launch",
-  "addedWith": null,
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "name": "Soft Launch" },
+        { "area": "Daily Events", "section": "Exclusive", "name": "Exclusive: VLF Force 1 V10 (every 2 weeks for 4 days, Cadillac Cien Concept bonus)" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Flames of Fortune Update (Start Mar 3 - 11, Riot Mar 11 - 15)", "start": "2026-03-03", "end": "2026-03-15" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Exclusive", "name": "Exclusive: VLF Force 1 V10 (weekly, Tuesday - Wednesday; Cadillac Cien Concept and BMW M4 GT3 bonus cars)" }
+      ]
+    },
+    {
+      "status": "upcoming",
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Ferrari Season", "start": "2026-12-04", "end": "2026-12-17" }
+      ]
+    }
+  ],
   "addedDate": "26/02/2018",
   "blueprints1Star": 45,
   "blueprints2Star": 12,
   "blueprints3Star": 15,
   "blueprints4Star": 24,
-  "blueprints5Star": 36,
-  "Tags": "Hyper"
+  "blueprints5Star": 36
 }

@@ -7,14 +7,27 @@
   "normalizedKey": "jaguar_xjr_15",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "asphalt9.info", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "United Kingdom",
-  "epics": 4,
-  "obtainableVia": [],
-  "added": "Racing Through Fire",
-  "addedWith": "Legend Pass car",
+  "country": ["United Kingdom"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Passes", "section": "Legend Pass", "name": "Racing Through Fire Season (direct unlock)", "start": "2023-07-26", "end": "2023-08-23" },
+        { "area": "Passes", "section": "Legend Pass", "name": "Hall of Flames Season (83 blueprints)", "start": "2023-08-23", "end": "2023-09-27" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "C+", "from": ["Class C Cup", "Deluxe Class Cup"] },
+        { "area": "Daily Events", "section": "TLE", "pack": "C+", "name": "Club, Solo & Rank rewards" },
+        { "area": "Special Events", "pack": "C+", "name": "Events with Class C support cars" }
+      ]
+    }
+  ],
   "addedDate": "24/07/2023",
   "blueprints1Star": 50,
   "blueprints2Star": 29,

@@ -7,18 +7,36 @@
   "normalizedKey": "arash_af10",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "United Kingdom",
-  "epics": 8,
-  "obtainableVia": ["Garage Level 45"],
-  "added": "Festive Season",
-  "addedWith": "Legend Pass car",
+  "country": ["United Kingdom"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Passes", "section": "Season Pass", "name": "Festive Season Free Pass (episode goals - up to 7 blueprints)" },
+        { "area": "Passes", "section": "Legend Pass", "name": "Festive Season (127 blueprints at Tier 48)" },
+        { "area": "Shop", "section": "Limited Time Packs", "name": "Festive Season Update (Tokens with Legend Pass, or in-app purchase)" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Raging Bull Season Update (Legend Pass owners only)" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "B", "from": ["Class B Cup", "Open Class Cup"] },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 45 (see Legend Store page: Credits dropdown)" }
+      ]
+    }
+  ],
   "addedDate": "16/12/2021",
   "blueprints1Star": 55,
   "blueprints2Star": 35,
   "blueprints3Star": 44,
-  "blueprints4Star": 54,
-  "Tags": "Europe; Hybrid"
+  "blueprints4Star": 54
 }

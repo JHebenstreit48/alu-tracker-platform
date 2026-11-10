@@ -7,14 +7,32 @@
   "normalizedKey": "mercedes_benz_2022_showcar_vision_amg",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "Germany",
-  "epics": 4,
-  "obtainableVia": ["Drive Syndicate - (Obsolete)"],
-  "added": "Festive Sparks",
-  "addedWith": "Drive Syndicate",
+  "country": ["Germany"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 8: Future Sparks (support car - 50 blueprints at 15,000 and 20 at 74,000 Syndicate Points, plus Syndicate Store)", "start": "2023-12-13", "end": "2024-01-24" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Gameloft Shop", "section": "Free Daily Gift", "name": "Gameloft Club members (50 blueprints, Oct 4, 2024)" },
+        { "area": "Multiplayer", "section": "League Card Packs", "name": "Silver, Gold & Platinum League Packs (Festive Fury Update)" },
+        { "area": "Multiplayer", "section": "League Card Packs", "name": "Bronze, Silver & Gold League Packs (Carnival Rush Update, 6 months)" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "C", "from": ["Class C Cup", "Open Class Cup"] }
+      ]
+    }
+  ],
   "addedDate": "11/12/2023",
   "blueprints1Star": 50,
   "blueprints2Star": 29,
