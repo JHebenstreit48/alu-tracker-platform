@@ -7,35 +7,35 @@
   "normalizedKey": "apollo_ie",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Community spreadsheet", "Asphalt Fandom Wiki"],
+  "sources": ["MEI", "Community spreadsheet", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
   "country": ["Germany"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Legend Pass (Full Throttle Season - Dec 16, 2020 - Feb 11, 2021)"]
+      "methods": [
+        { "area": "Passes", "section": "Legend Pass", "name": "Full Throttle Season", "start": "2020-12-16", "end": "2021-02-11" }
+      ]
     },
     {
       "status": "inactive",
       "methods": [
-        "Special Event (Bugatti Divo Support Car - Jan 15 - Feb 21, 2021)",
-        "Special Event (Aston Martin Valkyrie Support Car - Jul 2-30, 2021)",
-        "Special Event (Aston Martin Valhalla Support Car - Aug 31 - Sep 27, 2023)",
-        "Car Hunt",
-        "Speed Festival Spotlight (May 8-19, 2025)",
-        "Drive Syndicate 12 (Support Car - Jul 28 - Aug 25, 2025)"
+        { "area": "Daily Events", "section": "Legendary Hunt", "name": "From European Season Update (Legend Pass owners only)" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Reruns from New Breed Rivals Update (dates pending)" },
+        { "area": "Special Events", "section": "Spotlight", "name": "Speed Festival", "start": "2025-05-08", "end": "2025-05-19" },
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 12 (support car - Into the Tempest missions)", "start": "2025-07-28", "end": "2025-08-25" }
       ]
     },
     {
       "status": "current",
       "methods": [
-        "Garage Level 46",
-        "Legend Store",
-        "Season Series Card Packs (Gold+)",
-        "Class B Cup",
-        "Deluxe Class Cup",
-        "Tekken 8 Spotlight (Oct 14 - Nov 11, 2026)"
+        { "area": "Daily Events", "section": "Cups", "pack": "B+", "from": ["Class B Cup", "Deluxe Class Cup"] },
+        { "area": "Daily Events", "section": "TLE", "pack": "B+", "name": "Club, Solo & Rank rewards" },
+        { "area": "Special Events", "pack": "B+", "name": "Events with Class B support cars" },
+        { "area": "Special Events", "section": "Spotlight", "name": "Tekken 8 Spotlight (Brawl of the Deep Update)", "start": "2026-10-14", "end": "2026-11-11" },
+        { "area": "Multiplayer", "section": "Season Series", "name": "Card Packs (Gold and above)" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 46 (see Legend Store page: Credits dropdown)" }
       ]
     }
   ],

@@ -7,13 +7,33 @@
   "normalizedKey": "mercedes_benz_clk_gtr",
   "status": "in progress",
   "message": "Still adding data",
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "Nox Fury Patch Notes Video", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
-  "country": "Germany",
-  "epics": 8,
-  "obtainableVia": null,
-  "added": "Wanderlust and Fifth Anniversary Season",
-  "addedWith": "LP Car",
+  "country": ["Germany"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Passes", "section": "Legend Pass", "name": "Fifth Anniversary Season (direct unlock)" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "C+", "from": ["Class C Cup", "Deluxe Class Cup"] },
+        { "area": "Daily Events", "section": "TLE", "pack": "C+", "name": "Club, Solo & Rank rewards" },
+        { "area": "Special Events", "pack": "C+", "name": "Events with Class C support cars" }
+      ]
+    },
+    {
+      "status": "upcoming",
+      "methods": [
+        { "area": "Daily Events", "section": "Star Hunt", "name": "Ferrari Season", "start": "2026-11-19", "end": "2026-11-30" },
+        { "area": "Daily Events", "section": "Epic Hunt", "name": "Ferrari Season", "start": "2026-11-29", "end": "2026-12-11" }
+      ]
+    }
+  ],
   "addedDate": "29/05/2023",
   "blueprints1Star": 35,
   "blueprints2Star": 15,
