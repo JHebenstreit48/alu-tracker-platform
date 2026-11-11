@@ -7,26 +7,34 @@
   "normalizedKey": "nissan_gt_r_neon_edition",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "Japan",
-  "epics": 16,
+  "country": ["Japan"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Special Event (Supercharged Summer Update)"]
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "GT-R Neon Edition (Supercharged Summer Update)", "start": "2024-07-03", "end": "2024-07-16" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Racing Around the World Spotlight (Pinnacle of Speed Update)", "New Year: Drifting Away from 2025 TLE (Holiday Overdrive Update)"]
+      "methods": [
+        { "area": "Special Events", "section": "Spotlight", "name": "Racing Around the World (Pinnacle of Speed Update)", "start": "2025-05-29", "end": "2025-06-26" },
+        { "area": "Daily Events", "section": "TLE", "name": "New Year: Drifting Away from 2025 (Holiday Overdrive Update - up to 3 blueprints, plus card packs)" },
+        { "area": "Special Events", "section": "Spotlight", "name": "Sonic 35th Anniversary - rerun (Audi Season)", "start": "2026-06-18", "end": "2026-07-21" }
+      ]
     },
     {
-      "status": "upcoming",
-      "methods": ["Sonic 35th Anniversary Spotlight (Audi Season - Jun 18 - Jul 21)"]
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "S", "from": ["Class S Cup", "Open Class Cup"] },
+        { "area": "Special Events", "section": "Gauntlet", "pack": "S", "name": "Daily Gauntlet Challenges (4 packs at 5 and 18 gloves)" }
+      ]
     }
   ],
-  "addedDate": "27/5/2024",
+  "addedDate": "27/05/2024",
   "blueprints1Star": 85,
   "blueprints2Star": 25,
   "blueprints3Star": 29,

@@ -7,32 +7,39 @@
   "normalizedKey": "porsche_911_gts_coupe",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Uncommon",
   "stars": 3,
-  "country": "Germany",
-  "epics": 4,
+  "country": ["Germany"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Soft Launch (Feb 2018)"]
+      "methods": [
+        { "name": "Soft Launch" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Hololive Special Event (City of Lights Update)", "DragonForce Spotlight", "Hololive Last Chance Spotlight (IAP)"]
+      "methods": [
+        { "area": "Login Rewards", "section": "Special Gift", "name": "Xbox launch gift (55 blueprints and Xbox decal, Aug 31, 2021)" },
+        { "area": "Special Events", "section": "Special Event", "name": "hololive (City of Lights Update)", "start": "2023-02-20", "end": "2023-03-05" },
+        { "area": "Special Events", "section": "Spotlight", "name": "hololive Last Chance! (Road to Glory Update - Unlock + Decal Pack in-app purchases, 25 blueprints each)" },
+        { "area": "Special Events", "section": "Spotlight", "name": "DragonForce (Flames of Fortune Update)", "start": "2026-02-03", "end": "2026-03-03" },
+        { "area": "Daily Events", "section": "TLE", "name": "Coastal Cruising (Audi Season)", "start": "2026-06-08", "end": "2026-06-12" }
+      ]
     },
     {
       "status": "current",
-      "methods": ["Garage Level 4 Card Packs & Legend Store", "Career Chapter 2", "Daily Car Loot", "Class B & Class B+ Card Packs"]
-    },
-    {
-      "status": "upcoming",
-      "methods": ["Coastal Cruising TLE (Audi Season - Jun 8-12)"]
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "B", "from": ["Class B Cup", "Open Class Cup"] },
+        { "area": "Daily Events", "section": "Daily Car Loot", "name": "Up to 2 blueprints daily (with a Class C car)" },
+        { "area": "Career", "section": "Campaign", "name": "Chapter 2 (unlock guaranteed)" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 4 (see Legend Store page: Credits dropdown)" }
+      ]
     }
   ],
   "addedDate": "26/02/2018",
   "blueprints1Star": 30,
   "blueprints2Star": 30,
-  "blueprints3Star": 70,
-  "Tags": "Europe; Super Car"
+  "blueprints3Star": 70
 }

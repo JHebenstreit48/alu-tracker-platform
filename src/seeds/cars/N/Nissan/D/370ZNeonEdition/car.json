@@ -7,7 +7,7 @@
   "normalizedKey": "nissan_370z_neon_edition",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
   "country": ["Japan"],
@@ -22,7 +22,8 @@
       "status": "inactive",
       "methods": [
         { "area": "Login Rewards", "section": "New Player", "name": "New Player Gift (Asphalt Legends Unite Expansion Update - 30 blueprints)" },
-        { "area": "Multiplayer", "section": "League Card Packs", "name": "Bronze, Silver & Gold League Packs (Carnival Rush Update, 6 months)" }
+        { "area": "Multiplayer", "section": "League Card Packs", "name": "Bronze, Silver & Gold League Packs (Carnival Rush Update, 6 months)" },
+        { "area": "Daily Events", "section": "TLE", "name": "Golden Week (Korean Spring Update)", "start": "2025-04-28", "end": "2025-05-05" }
       ]
     },
     {

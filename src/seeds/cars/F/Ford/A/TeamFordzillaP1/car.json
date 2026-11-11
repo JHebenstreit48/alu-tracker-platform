@@ -7,28 +7,33 @@
   "normalizedKey": "ford_team_fordzilla_p1",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
   "country": ["United States of America"],
-  "epics": 16,
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Special Event (Festive Sparks and Dragon Race Update)"]
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Team Fordzilla P1 (Festive Sparks and Dragon Race Update)" }
+      ]
     },
     {
       "status": "inactive",
       "methods": [
-        "Special Event Rerun",
-        "Multiplayer Gold, Platinum & Legend Card Packs",
-        "Epic Import Parts Pack (Multiplayer)",
-        "Starway (Peugeot Onyx - May 27 - Jun 23)"
+        { "area": "Special Events", "section": "Special Event", "name": "Team Fordzilla P1 - rerun (Heatwave: Afterburn Update)", "start": "2025-09-18", "end": "2025-10-02" },
+        { "area": "Multiplayer", "section": "League Card Packs", "name": "Gold, Platinum & Legend League Packs, plus Epic Import Parts Pack" },
+        { "area": "Special Events", "section": "Starway", "name": "Peugeot Onyx (support car, May 27 - Jun 23, year pending)" },
+        { "area": "Special Events", "section": "Special Event", "name": "Bugatti Mistral (support car, event packs in Shop)", "start": "2026-07-08", "end": "2026-07-23" }
       ]
     },
     {
       "status": "current",
-      "methods": ["Special Event (Bugatti Mistral - Jul 8 - Jul 23, 2026)"]
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "A+", "from": ["Class A Cup", "Deluxe Class Cup"] },
+        { "area": "Daily Events", "section": "TLE", "pack": "A+", "name": "Club, Solo & Rank rewards" },
+        { "area": "Special Events", "pack": "A+", "name": "Events with Class A support cars" }
+      ]
     }
   ],
   "addedDate": "11/12/2023",

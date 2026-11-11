@@ -7,22 +7,32 @@
   "normalizedKey": "vision_1789",
   "status": "in progress",
   "message": "Still adding data",
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "France",
-  "epics": 16,
+  "country": ["France"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Daily Multiplayer 2 (New Breed Rivals Update)"]
+      "methods": [
+        { "area": "Multiplayer", "section": "Daily Multiplayer", "name": "Daily Multiplayer 2 (New Breed Rivals Update)" },
+        { "area": "Career", "section": "Campaign", "name": "New Breed Rivals season (3 blueprints)" },
+        { "area": "Passes", "section": "Legend Pass", "name": "New Breed Rivals (1 free, 5 via in-app purchase)" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Special Events", "section": "Special Hunt", "name": "Audi Season Update", "start": "2026-06-15", "end": "2026-06-30" }
+      ]
     },
     {
       "status": "current",
-      "methods": ["Garage Level 37 Card Packs (Collector Stage I)", "Legend Store"]
-    },
-    {
-      "status": "upcoming",
-      "methods": ["Special Hunt (Audi Season)"]
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "S", "from": ["Class S Cup", "Open Class Cup"] },
+        { "area": "Special Events", "section": "Gauntlet", "pack": "S", "name": "Daily Gauntlet Challenges (4 packs at 5 and 18 gloves)" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 37 (see Legend Store page: Credits dropdown)" }
+      ]
     }
   ],
   "addedDate": "04/04/2022",
@@ -31,6 +41,5 @@
   "blueprints3Star": 29,
   "blueprints4Star": 38,
   "blueprints5Star": 54,
-  "blueprints6Star": 69,
-  "Tags": "Electric; Europe"
+  "blueprints6Star": 69
 }

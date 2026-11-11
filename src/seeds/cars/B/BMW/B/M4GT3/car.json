@@ -7,22 +7,33 @@
   "normalizedKey": "bmw_m4_gt3",
   "status": "in progress",
   "message": "Still adding data",
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "Germany",
-  "epics": 8,
+  "country": ["Germany"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Legend Pass (Wanderlust Season)"]
+      "methods": [
+        { "area": "Passes", "section": "Legend Pass", "name": "Wanderlust Season (up to 2 stars guaranteed)" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Car Hunt"]
+      "methods": [
+        { "area": "Daily Events", "section": "Legendary Hunt", "name": "Asphalt Legends Unite Expansion Update (Legend Pass owners only - Start Jul 19 - 27, Riot Jul 27 - 31)", "start": "2024-07-19", "end": "2024-07-31" },
+        { "area": "Multiplayer", "section": "League Card Packs", "name": "Silver, Gold, Platinum & Legend Packs in World League and Season Series, plus Epic Import Parts Pack (Carnival Rush to Heatwave: Afterburn Update)" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Holiday Overdrive Update (Start Jan 22 - 30, Riot Jan 30 - Feb 3)", "start": "2026-01-22", "end": "2026-02-03" },
+        { "area": "Daily Events", "section": "Star Hunt", "name": "Audi Season (blueprints)", "start": "2026-06-01", "end": "2026-06-12" },
+        { "area": "Daily Events", "section": "Epic Hunt", "name": "Audi Season (Epic Import Parts, dates pending)" }
+      ]
     },
     {
-      "status": "upcoming",
-      "methods": ["Star Hunt (Audi Season - Jun 1-12)", "Epic Hunt (Audi Season)"]
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "B", "from": ["Class B Cup", "Open Class Cup"] },
+        { "area": "Multiplayer", "section": "World League", "name": "Triumph rewards - 55 blueprints at Silver I (unlock guaranteed, from Porsche of Legends Update)" }
+      ]
     }
   ],
   "addedDate": "29/05/2023",
