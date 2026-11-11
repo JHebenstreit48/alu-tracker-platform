@@ -7,22 +7,39 @@
   "normalizedKey": "aston_martin_vulcan",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Asphalt Fandom Wiki"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Nox Fury Patch Notes Video", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
   "country": ["United Kingdom"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Soft Launch", "Garage Level 7", "Legend Store", "Classic Pack", "Campaign", "Daily Car Loot"]
+      "methods": [
+        { "name": "Soft Launch" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Special Event (Koenigsegg One:1 Support Car - Nov 21 - Dec 11, 2025)", "PAC-MAN Spotlight (Support Car - Aug 18 - Sep 15, 2026)"]
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Koenigsegg One:1 (support car, event packs in Shop)", "start": "2025-11-21", "end": "2025-12-11" },
+        { "area": "Special Events", "section": "Spotlight", "name": "PAC-MAN (support car)", "start": "2026-08-18", "end": "2026-09-15" }
+      ]
     },
     {
       "status": "current",
-      "methods": ["Garage Level 7", "Legend Store", "Classic Pack", "Campaign", "Daily Car Loot"]
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "A", "from": ["Class A Cup", "Open Class Cup"] },
+        { "area": "Daily Events", "section": "Daily Car Loot", "name": "1 blueprint per day (beat the time with a Class B car)" },
+        { "area": "Career", "section": "Campaign", "name": "Chapter 3 - Aston Martin season (up to 2 Epic Import Parts)" },
+        { "area": "Shop", "section": "Card Packs", "name": "Classic Pack" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 7 (see Legend Store page: Credits dropdown)" }
+      ]
+    },
+    {
+      "status": "upcoming",
+      "methods": [
+        { "area": "Special Events", "section": "Burst of Speed", "name": "Bugatti Bolide (support car, Ferrari Season)", "start": "2026-11-26", "end": "2026-12-17" }
+      ]
     }
   ],
   "addedDate": "26/02/2018",
