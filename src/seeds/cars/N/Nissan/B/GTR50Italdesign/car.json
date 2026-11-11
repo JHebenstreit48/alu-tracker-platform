@@ -5,21 +5,41 @@
   "brand": "Nissan",
   "model": "GT-R50 Italdesign",
   "normalizedKey": "nissan_gt_r50_italdesign",
-  "status": "In Progress",
+  "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
-  "country": "Japan",
-  "epics": 8,
-  "obtainableVia": ["Garage Level 30"],
-  "added": "Festive Season",
-  "addedWith": "Drive Syndicate",
+  "country": ["Japan"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Passes", "section": "Season Pass", "name": "Festive Season (1 blueprint at Tier 20)" },
+        { "area": "Passes", "section": "Legend Pass", "name": "Festive Season (5 blueprints with purchase)" },
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 4: Koenigsegg Gemera (Festive Season Update - 35 blueprints at 250,000 Syndicate Points, plus Syndicate Store)" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Nissan GT-R50 Italdesign", "start": "2025-03-19", "end": "2025-04-01" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "B+", "from": ["Class B Cup", "Deluxe Class Cup"] },
+        { "area": "Daily Events", "section": "TLE", "pack": "B+", "name": "Club, Solo & Rank rewards" },
+        { "area": "Special Events", "pack": "B+", "name": "Events with Class B support cars" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 30 (see Legend Store page: Credits dropdown)" }
+      ]
+    }
+  ],
   "addedDate": "16/12/2021",
   "blueprints1Star": 45,
   "blueprints2Star": 17,
   "blueprints3Star": 23,
   "blueprints4Star": 32,
-  "blueprints5Star": 45,
-  "Tags": "Asia"
+  "blueprints5Star": 45
 }

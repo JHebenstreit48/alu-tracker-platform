@@ -7,14 +7,16 @@
   "normalizedKey": "tvr_griffith",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Asphalt Fandom Wiki", "A9 Garage", "My own in-game research"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "A9 Garage", "Official patch notes", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
   "country": ["United Kingdom"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": [{ "area": "Daily Events", "section": "Car Hunt", "name": "Back to School Event (Tune It Up Update)" }]
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Back to School Event (Tune It Up Update)" }
+      ]
     },
     {
       "status": "inactive",
@@ -25,7 +27,8 @@
         { "area": "Daily Events", "section": "Car Hunt", "name": "Full Throttle Update" },
         { "area": "Daily Events", "section": "Car Hunt", "name": "Festive Season Update" },
         { "area": "Daily Events", "section": "Car Hunt", "name": "Noir Friday Season Update" },
-        { "area": "Daily Events", "section": "Car Hunt", "name": "Italian Revolution Season 1 Update" }
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Italian Revolution Season 1 Update" },
+        { "area": "Special Events", "section": "Spotlight", "name": "Easter Eggstravaganza (Korean Spring Update - race rewards and Easter Market)", "start": "2025-04-14", "end": "2025-04-28" }
       ]
     },
     {

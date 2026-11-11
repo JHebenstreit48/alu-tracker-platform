@@ -7,7 +7,7 @@
   "normalizedKey": "arrinera_hussarya_33",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
   "country": ["Poland"],
@@ -21,13 +21,17 @@
     {
       "status": "inactive",
       "methods": [
-        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 3 (Full Throttle Update - 30 blueprints at 100,000 Syndicate Points, plus Syndicate Store)" }
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 3 (Full Throttle Update - 30 blueprints at 100,000 Syndicate Points, plus Syndicate Store)" },
+        { "area": "Daily Events", "section": "TLE", "name": "Gameloft Anniversary (Korean Spring Update)", "start": "2025-04-15", "end": "2025-04-22" },
+        { "area": "Daily Events", "section": "TLE", "name": "Weekend Catchup (Toyota and Lexus Season)", "start": "2025-05-09", "end": "2025-05-11" }
       ]
     },
     {
       "status": "current",
       "methods": [
         { "area": "Daily Events", "section": "Cups", "pack": "C+", "from": ["Class C Cup", "Deluxe Class Cup"] },
+        { "area": "Daily Events", "section": "TLE", "pack": "C+", "name": "Club, Solo & Rank rewards" },
+        { "area": "Special Events", "pack": "C+", "name": "Events with Class C support cars" },
         { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 14 (see Legend Store page: Credits dropdown)" }
       ]
     }
