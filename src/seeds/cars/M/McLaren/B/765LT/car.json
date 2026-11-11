@@ -23,7 +23,8 @@
       "methods": [
         { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 6: From the Ashes (Winterfest Update - 35 blueprints at 250,000 Syndicate Points, plus Syndicate Store and limited-time packs)", "start": "2022-12-15", "end": "2023-01-12" },
         { "area": "Shop", "section": "Limited Time Packs", "name": "West to East packs (West to East & Eurobloom Update)" },
-        { "area": "Daily Events", "section": "Car Hunt", "name": "Back to School season (Asphalt Legends Unite Expansion Update, dates pending)" }
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Back to School season (Asphalt Legends Unite Expansion Update, dates pending)" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Toyota and Lexus Season (late May 2025)" }
       ]
     },
     {
