@@ -7,20 +7,47 @@
   "normalizedKey": "aston_martin_valhalla_concept_car",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "Nox Fury Patch Notes Video", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "United Kingdom",
-  "epics": 16,
-  "obtainableVia": ["Garage Level 38"],
-  "added": "British Season",
-  "addedWith": "SpecialEvents",
-  "addedDate": "27/08/2020",
+  "country": ["United Kingdom"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Aston Martin Valhalla Concept Car (British Season Update)", "start": "2020-08-29", "end": "2020-09-18" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Special Events", "section": "Elite Grand Prix", "name": "Aston Martin Valhalla (Fire and Lightning Update)" },
+        { "area": "Special Events", "section": "Burst of Speed", "name": "4th Anniversary Burst of Speed packs (Raging Bull Season Update)" },
+        { "area": "Special Events", "section": "Special Event", "name": "Aston Martin Valhalla Concept Car - Back to School return (Racing Through Fire & Hall of Flames Update)", "start": "2023-08-31", "end": "2023-09-27" },
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 11: Blue Shadows (support car - 40 blueprints at 450,000 and 12 at 629,000 Syndicate Points, plus Syndicate Store)", "start": "2025-04-03", "end": "2025-05-01" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "A+", "from": ["Class A Cup", "Deluxe Class Cup"] },
+        { "area": "Daily Events", "section": "TLE", "pack": "A+", "name": "Club, Solo & Rank rewards" },
+        { "area": "Special Events", "pack": "A+", "name": "Events with Class A support cars" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 38 (see Legend Store page: Credits dropdown)" }
+      ]
+    },
+    {
+      "status": "upcoming",
+      "methods": [
+        { "area": "Special Events", "section": "Special Hunt", "name": "Ferrari Season", "start": "2026-12-03", "end": "2026-12-18" }
+      ]
+    }
+  ],
+  "addedDate": "26/08/2020",
   "blueprints1Star": 50,
   "blueprints2Star": 23,
   "blueprints3Star": 27,
   "blueprints4Star": 36,
   "blueprints5Star": 52,
-  "blueprints6Star": 77,
-  "Tags": "Europe"
+  "blueprints6Star": 77
 }

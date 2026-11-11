@@ -20,6 +20,12 @@
       ]
     },
     {
+      "status": "inactive",
+      "methods": [
+        { "area": "Gameloft Shop", "section": "Free Daily Gift", "name": "3 blueprints daily (Korean Spring Update, Apr - May 2025)" }
+      ]
+    },
+    {
       "status": "current",
       "methods": [
         { "area": "Daily Events", "section": "Cups", "pack": "B", "from": ["Class B Cup", "Open Class Cup"] },

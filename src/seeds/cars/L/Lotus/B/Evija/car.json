@@ -21,7 +21,7 @@
     {
       "status": "inactive",
       "methods": [
-        { "area": "Special Events", "section": "Spotlight", "name": "DragonForce (Flames of Fortune Update)" }
+        { "area": "Special Events", "section": "Spotlight", "name": "DragonForce (Flames of Fortune Update)", "start": "2026-02-03", "end": "2026-03-03" }
       ]
     },
     {
