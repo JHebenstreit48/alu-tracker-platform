@@ -7,19 +7,38 @@
   "normalizedKey": "mclaren_elva",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
-  "country": "United Kingdom",
-  "epics": 8,
-  "obtainableVia": ["Car Hunt", "Garage Level 26"],
-  "added": "Heatwave Season",
-  "addedWith": "Legend Pass car",
+  "country": ["United Kingdom"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Passes", "section": "Legend Pass", "name": "Heatwave Season (Tier 1)" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Daily Events", "section": "Legendary Hunt", "name": "British Tour Season (Legend Pass owners only)" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Wanderlust and Fifth Anniversary Season Update" },
+        { "area": "Daily Events", "section": "Star Hunt", "name": "Holiday Overdrive Update (blueprints)", "start": "2026-01-12", "end": "2026-01-22" },
+        { "area": "Daily Events", "section": "Epic Hunt", "name": "Holiday Overdrive Update (Epic Import Parts)", "start": "2026-01-22", "end": "2026-02-02" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "B", "from": ["Class B Cup", "Open Class Cup"] },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 26 (see Legend Store page: Credits dropdown)" }
+      ]
+    }
+  ],
   "addedDate": "01/08/2021",
   "blueprints1Star": 45,
   "blueprints2Star": 17,
   "blueprints3Star": 23,
   "blueprints4Star": 32,
-  "blueprints5Star": 45,
-  "Tags": "Europe"
+  "blueprints5Star": 45
 }

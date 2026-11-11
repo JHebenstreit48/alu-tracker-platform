@@ -7,18 +7,34 @@
   "normalizedKey": "jaguar_f_type_svr",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "United Kingdom",
-  "epics": 8,
-  "obtainableVia": ["Garage Level 5"],
-  "added": "Soft Launch",
-  "addedWith": null,
+  "country": ["United Kingdom"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "name": "Soft Launch" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "From Worldwide Launch (dates pending)" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "B", "from": ["Class B Cup", "Open Class Cup"] },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 5 (see Legend Store page: Credits dropdown)" }
+      ]
+    }
+  ],
   "addedDate": "26/02/2018",
   "blueprints1Star": 30,
   "blueprints2Star": 12,
-  "blueprints3Star": 22,
-  "blueprints4Star": 36,
-  "Tags": "Europe"
+  "blueprints3Star": 24,
+  "blueprints4Star": 36
 }

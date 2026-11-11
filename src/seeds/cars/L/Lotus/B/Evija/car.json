@@ -7,20 +7,38 @@
   "normalizedKey": "lotus_evija",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "United Kingdom",
-  "epics": 12,
-  "obtainableVia": ["Garage Level 49"],
-  "added": "Grand Prix",
-  "addedWith": "Special Events",
+  "country": ["United Kingdom"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Lotus Evija (Grand Prix Update)" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Special Events", "section": "Spotlight", "name": "DragonForce (Flames of Fortune Update)" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "B+", "from": ["Class B Cup", "Deluxe Class Cup"] },
+        { "area": "Daily Events", "section": "TLE", "pack": "B+", "name": "Club, Solo & Rank rewards" },
+        { "area": "Special Events", "pack": "B+", "name": "Events with Class B support cars" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 49 (see Legend Store page: Credits dropdown)" }
+      ]
+    }
+  ],
   "addedDate": "05/02/2020",
   "blueprints1Star": 55,
   "blueprints2Star": 18,
   "blueprints3Star": 24,
   "blueprints4Star": 32,
   "blueprints5Star": 50,
-  "blueprints6Star": 61,
-  "Tags": "Electric; Europe"
+  "blueprints6Star": 61
 }

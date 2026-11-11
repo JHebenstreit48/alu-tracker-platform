@@ -7,14 +7,26 @@
   "normalizedKey": "mclaren_artura",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "United Kingdom",
-  "epics": 8,
-  "obtainableVia": [],
-  "added": "New Tech",
-  "addedWith": "Legend Pass",
+  "country": ["United Kingdom"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Passes", "section": "Legend Pass", "name": "New Tech Season (New Tech and Black Friday Update)" },
+        { "area": "Passes", "section": "Legend Pass", "name": "New Tech Reloaded Season (New Tech and Black Friday Update)" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "B", "from": ["Class B Cup", "Open Class Cup"] },
+        { "area": "Shop", "section": "Welcome Bundles & Flash Promos", "name": "Class B Pro Pack Welcome Bundle (start of every month)" }
+      ]
+    }
+  ],
   "addedDate": "25/09/2023",
   "blueprints1Star": 55,
   "blueprints2Star": 35,

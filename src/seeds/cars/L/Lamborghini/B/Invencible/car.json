@@ -7,29 +7,35 @@
   "normalizedKey": "lamborghini_invencible",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Asphalt Fandom Wiki"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
   "country": ["Italy"],
   "obtainableVia": [
-  {
-    "status": "original",
-    "methods": ["Legend Pass (Festive Sparks Season - Dec 13, 2023 - Jan 24, 2024)"]
-  },
-  {
-    "status": "inactive",
-    "methods": [
-      "Legend Pass (Dragon Race Season - Jan 24 - Feb 21, 2024)",
-      "Legendary Hunt (Nintendo Switch 2024 European Spring Update - Mar 22 - 29, 2024)",
-      "Legendary Hunt (Mid-Season Update - Dec 4 - 12, 2024 and Dec 12 - 16, 2024)",
-      "Easter Eggstravaganza Spotlight"
-    ]
-  },
-  {
-    "status": "current",
-    "methods": ["Class B Cup", "Deluxe Class Cup"]
-  }
-],
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Passes", "section": "Legend Pass", "name": "Festive Sparks Season (45 blueprints with purchase, plus 1 per tier)", "start": "2023-12-13", "end": "2024-01-24" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Passes", "section": "Legend Pass", "name": "Dragon Race Season (1 blueprint per tier)", "start": "2024-01-24", "end": "2024-02-21" },
+        { "area": "Daily Events", "section": "Legendary Hunt", "name": "Nintendo Switch only (2024 European Spring Update)", "start": "2024-03-22", "end": "2024-03-29" },
+        { "area": "Daily Events", "section": "Legendary Hunt", "name": "Mid-Season Update (Start Dec 4 - 12, Riot Dec 12 - 16)", "start": "2024-12-04", "end": "2024-12-16" },
+        { "area": "Special Events", "section": "Spotlight", "name": "Easter Eggstravaganza (Korean Spring Update - race rewards and Easter Market)", "start": "2025-04-14", "end": "2025-04-28" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "B+", "from": ["Class B Cup", "Deluxe Class Cup"] },
+        { "area": "Daily Events", "section": "TLE", "pack": "B+", "name": "Club, Solo & Rank rewards" },
+        { "area": "Special Events", "pack": "B+", "name": "Events with Class B support cars" }
+      ]
+    }
+  ],
   "addedDate": "11/12/2023",
   "blueprints1Star": 45,
   "blueprints2Star": 17,
