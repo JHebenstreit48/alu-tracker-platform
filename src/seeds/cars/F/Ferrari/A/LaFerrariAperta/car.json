@@ -7,32 +7,43 @@
   "normalizedKey": "ferrari_laferrari_aperta",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Asphalt Fandom Wiki"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Nox Fury Patch Notes Video", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "Italy",
-  "epics": 16,
+  "country": ["Italy"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Special Event (Summer Update - Jun 18, 2019)"]
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Ferrari LaFerrari Aperta (Summer Update)" }
+      ]
     },
     {
       "status": "inactive",
       "methods": [
-        "Special Event Rerun",
-        "Burst of Speed",
-        "Limited-Time Packs",
-        "Italian Season II Packs",
-        "Mayhem Event (Support Car)",
-        "Heatwave Season I Packs",
-        "Starway",
-        "Team Pursuit"
+        { "area": "Special Events", "section": "Burst of Speed", "name": "LaFerrari Aperta & Genty Akylone - event and packs (Godly Beasts Update and American Season Update)" },
+        { "area": "Shop", "section": "Limited Time Packs", "name": "Ferrari Season Update (2020)" },
+        { "area": "Shop", "section": "Limited Time Packs", "name": "Italian Season II packs (Italian Season Update)" },
+        { "area": "Special Events", "section": "Special Event", "name": "Summertime Speedrush - rerun (Bring the Heat Update)", "start": "2022-08-01", "end": "2022-09-01" },
+        { "area": "Special Events", "section": "Special Event", "name": "Second rerun (New Tech and Black Friday Update)" },
+        { "area": "Special Events", "section": "Mayhem", "name": "Ferrari 499P Modificata Mayhem Event (Carnival Rush Update - 95 blueprints and an Epic Import Part)" },
+        { "area": "Shop", "section": "Limited Time Packs", "name": "Heatwave Season I packs (Heatwave: Afterburn Update)" },
+        { "area": "Special Events", "section": "Starway", "name": "Ferrari LaFerrari Aperta", "start": "2026-09-15", "end": "2026-10-14" }
+      ]
+    },
+    {
+      "status": "obsolete",
+      "methods": [
+        { "area": "Shop", "section": "Card Packs", "name": "Old Garage Level 17 card packs and Legend Store (Porsche Season to Supercharged Summer Update)" }
       ]
     },
     {
       "status": "current",
-      "methods": ["Garage Level 19", "Legend Store", "Starway (Sep 15 - Oct 14, 2026)"]
+      "methods": [
+        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari Spotlight (support car, Ferrari Season)", "start": "2026-11-11", "end": "2026-12-10" },
+        { "area": "Multiplayer", "section": "Team Pursuit", "name": "Syndicate team car (from Phantom Riders Update)" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 19 (see Legend Store page: Credits dropdown)" }
+      ]
     }
   ],
   "addedDate": "18/06/2019",
