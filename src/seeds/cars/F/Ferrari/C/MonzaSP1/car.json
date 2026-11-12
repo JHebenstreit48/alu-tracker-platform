@@ -7,18 +7,42 @@
   "normalizedKey": "ferrari_monza_sp1",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "Nox Fury Patch Notes Video", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "Italy",
-  "epics": 4,
-  "obtainableVia": ["Showroom", "Garage Level 45"],
-  "added": "Bring the Heat",
-  "addedWith": "Legend Pass car",
+  "country": ["Italy"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Passes", "section": "Legend Pass", "name": "Mini Ferrari Season (Bring the Heat Update - Tier 1)" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 11: Blue Shadows (support car - 45 blueprints at 100,000 and 20 at 179,000 Syndicate Points, plus Syndicate Store)", "start": "2025-04-03", "end": "2025-05-01" },
+        { "area": "Special Events", "section": "Starway", "name": "Vencer Sarthe - first run (support car)", "start": "2025-09-19", "end": "2025-10-16" },
+        { "area": "Special Events", "section": "Starway", "name": "Vencer Sarthe (support car, Brawl of the Deep Update)", "start": "2026-10-14", "end": "2026-11-11" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Special Events", "section": "Showroom", "name": "Ferrari Monza SP1 Max-Out Event (from New Tech and Black Friday Update - playable until all 165 blueprints are collected)" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 45 (see Legend Store page: Credits dropdown)" }
+      ]
+    },
+    {
+      "status": "upcoming",
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "McLaren 750S Coupé (support car, event packs in Shop - Ferrari Season)", "start": "2026-11-13", "end": "2026-11-28" }
+      ]
+    }
+  ],
   "addedDate": "25/07/2022",
   "blueprints1Star": 50,
   "blueprints2Star": 29,
   "blueprints3Star": 38,
-  "blueprints4Star": 48,
-  "Tags": "Europe"
+  "blueprints4Star": 48
 }

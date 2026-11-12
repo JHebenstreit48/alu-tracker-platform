@@ -7,21 +7,32 @@
   "normalizedKey": "bugatti_centodieci",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
-  "country": "France",
-  "epics": 16,
-  "obtainableVia": null,
-  "added": "Bring the Heat",
-  "addedWith": "DS",
+  "country": ["France"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 5: Undercover Ops (Bring the Heat Update - key)" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Special Events", "section": "Spotlight", "name": "20 Years (key - required the car at a set star level)" },
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate: Side Story (Flames of Fortune Update - key at 900,000 Syndicate Points, plus Syndicate Store)", "start": "2026-02-10", "end": "2026-03-10" },
+        { "area": "Special Events", "section": "Burst of Speed", "name": "Sunset Speedway IV (Sunset Speedway Update - key, required the car at a set star level)" }
+      ]
+    }
+  ],
   "addedDate": "25/07/2022",
   "blueprints1Star": 0,
   "blueprints2Star": 40,
   "blueprints3Star": 45,
   "blueprints4Star": 60,
   "blueprints5Star": 70,
-  "blueprints6Star": 85,
-  "Tags": "Europe"
+  "blueprints6Star": 85
 }

@@ -7,33 +7,37 @@
   "normalizedKey": "citroen_gt_by_citroen",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "France",
-  "epics": 16,
+  "country": ["France"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Drive Syndicate 3 (Full Throttle Update)"]
+      "methods": [
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 3 (Full Throttle Update - 30 blueprints, plus 10 in the Syndicate Market at 675,000 Syndicate Points)" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Drive Syndicate 4 (Support Car)", "Multiplayer Gold, Platinum & Legend Card Packs", "Epic Import Parts Pack (Multiplayer)"]
+      "methods": [
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 4: Koenigsegg Gemera (support car, Festive Season Update)" },
+        { "area": "Special Events", "section": "Unleashed", "name": "Citroën GT by Citroën (Bring the Heat Update)" },
+        { "area": "Multiplayer", "section": "League Card Packs", "name": "Gold, Platinum & Legend League Packs, plus Epic Import Parts Pack (Carnival Rush to Heatwave: Afterburn Update)" }
+      ]
     },
     {
       "status": "current",
-      "methods": ["Garage Level 33", "Legend Store Card Packs", "Legend Store"]
+      "methods": [
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 33 (see Legend Store page: Credits dropdown)" }
+      ]
     }
   ],
-  "added": "Full Throttle",
-  "addedWith": "Drive Syndicate",
-  "addedDate": "10/12/2020",
+  "addedDate": "09/12/2020",
   "blueprints1Star": 50,
   "blueprints2Star": 23,
   "blueprints3Star": 27,
   "blueprints4Star": 36,
   "blueprints5Star": 52,
-  "blueprints6Star": 62,
-  "Tags": "Electric; Europe; Super Car"
+  "blueprints6Star": 62
 }

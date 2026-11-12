@@ -7,20 +7,42 @@
   "normalizedKey": "aston_martin_victor",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "United Kingdom",
-  "epics": 16,
-  "obtainableVia": ["Garage Level 34"],
-  "added": "European Season",
-  "addedWith": "LP car",
+  "country": ["United Kingdom"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Passes", "section": "Season Pass", "name": "European Season Free Pass (episode goals - up to 7 blueprints)" },
+        { "area": "Passes", "section": "Legend Pass", "name": "European Season (113 blueprints at Tier 50)" },
+        { "area": "Shop", "section": "Limited Time Packs", "name": "European Season Update (Tokens with Legend Pass, or in-app purchase)" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Festive Season Update (Legend Pass owners only)" },
+        { "area": "Shop", "section": "Limited Time Packs", "name": "Lunar New Year Season packs (Winterfest Update, 2023)" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Reruns from 2023 European Season Update (irregular, dates pending)" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "A+", "from": ["Class A Cup", "Deluxe Class Cup"] },
+        { "area": "Daily Events", "section": "TLE", "pack": "A+", "name": "Club, Solo & Rank rewards" },
+        { "area": "Special Events", "pack": "A+", "name": "Events with Class A support cars" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 34 (see Legend Store page: Credits dropdown)" }
+      ]
+    }
+  ],
   "addedDate": "01/06/2021",
   "blueprints1Star": 70,
   "blueprints2Star": 23,
   "blueprints3Star": 27,
   "blueprints4Star": 36,
   "blueprints5Star": 52,
-  "blueprints6Star": 59,
-  "Tags": "Europe"
+  "blueprints6Star": 59
 }
