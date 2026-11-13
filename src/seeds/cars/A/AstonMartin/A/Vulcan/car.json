@@ -38,7 +38,7 @@
     {
       "status": "upcoming",
       "methods": [
-        { "area": "Special Events", "section": "Burst of Speed", "name": "Bugatti Bolide (support car, Ferrari Season)", "start": "2026-11-26", "end": "2026-12-17" }
+        { "area": "Daily Events", "section": "Burst of Speed", "name": "Bugatti Bolide (support car, Ferrari Season)", "start": "2026-11-26", "end": "2026-12-17" }
       ]
     }
   ],

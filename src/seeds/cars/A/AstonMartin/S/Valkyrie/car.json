@@ -7,27 +7,31 @@
   "normalizedKey": "aston_martin_valkyrie",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Asphalt Fandom Wiki"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
   "country": ["United Kingdom"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Special Event (European Season Update - Jul 2-30, 2021)"]
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Aston Martin Valkyrie (European Season Update)", "start": "2021-07-02", "end": "2021-07-30" }
+      ]
     },
     {
       "status": "inactive",
       "methods": [
-        "Special Event",
-        "Burst of Speed",
-        "Unleashed Event (Italian Revolution Update - Apr 3-18, 2024)",
-        "World League Card Packs (Platinum & Legend)"
+        { "area": "Daily Events", "section": "Burst of Speed", "name": "Various Burst of Speed events (dates pending)" },
+        { "area": "Daily Events", "section": "Unleashed", "name": "Aston Martin Valkyrie (Italian Revolution Update)", "start": "2024-04-03", "end": "2024-04-18" },
+        { "area": "Multiplayer", "section": "World League Card Packs", "name": "Platinum & Legend League Packs, World League and Season Series (Carnival Rush Update)" }
       ]
     },
     {
       "status": "current",
-      "methods": ["Garage Level 40", "Legend Store", "Season Series Card Packs"]
+      "methods": [
+        { "area": "Multiplayer", "section": "Season Series", "name": "Season Series Card Packs (random, from Korean Spring Update)" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 40 (see Legend Store page: Credits dropdown)" }
+      ]
     }
   ],
   "addedDate": "30/05/2021",

@@ -21,8 +21,8 @@
     {
       "status": "inactive",
       "methods": [
-        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 4: Koenigsegg Gemera (support car, Festive Season Update)" },
-        { "area": "Special Events", "section": "Unleashed", "name": "Citroën GT by Citroën (Bring the Heat Update)" },
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 4: Koenigsegg Gemera (support car, Festive Season Update)", "start": "2021-12-17", "end": "2022-01-12" },
+        { "area": "Daily Events", "section": "Unleashed", "name": "Citroën GT by Citroën (Bring the Heat Update)" },
         { "area": "Multiplayer", "section": "League Card Packs", "name": "Gold, Platinum & Legend League Packs, plus Epic Import Parts Pack (Carnival Rush to Heatwave: Afterburn Update)" }
       ]
     },

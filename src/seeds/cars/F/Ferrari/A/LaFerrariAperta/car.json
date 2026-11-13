@@ -21,7 +21,7 @@
     {
       "status": "inactive",
       "methods": [
-        { "area": "Special Events", "section": "Burst of Speed", "name": "LaFerrari Aperta & Genty Akylone - event and packs (Godly Beasts Update and American Season Update)" },
+        { "area": "Daily Events", "section": "Burst of Speed", "name": "LaFerrari Aperta & Genty Akylone - event and packs (Godly Beasts Update and American Season Update)" },
         { "area": "Shop", "section": "Limited Time Packs", "name": "Ferrari Season Update (2020)" },
         { "area": "Shop", "section": "Limited Time Packs", "name": "Italian Season II packs (Italian Season Update)" },
         { "area": "Special Events", "section": "Special Event", "name": "Summertime Speedrush - rerun (Bring the Heat Update)", "start": "2022-08-01", "end": "2022-09-01" },

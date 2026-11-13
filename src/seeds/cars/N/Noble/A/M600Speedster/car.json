@@ -10,25 +10,24 @@
   "sources": ["MEI", "Community spreadsheet", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "United Kingdom",
-  "epics": 16,
+  "country": ["United Kingdom"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Drive Syndicate 7: Racing Through Fire"]
+      "methods": [
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 7: Racing Through Fire (support car, Race Against Time missions - 35 blueprints at 450,000 Syndicate Points, plus Syndicate Store)", "start": "2023-07-26", "end": "2023-08-23" }
+      ]
     },
     {
       "status": "inactive",
       "methods": [
-        "Burst of Speed (Legends Unite II Season)",
-        "Ferrari 499P Modificata Mayhem Event",
-        "Team Pursuit Season Series",
-        "World League 2025 (Gold, Platinum & Legend Card Packs)"
+        { "area": "Daily Events", "section": "Burst of Speed", "name": "Saleen S7 Twin Turbo Burst of Speed packs (Legends Unite II Season, Asphalt Legends Unite Expansion Update)" },
+        { "area": "Special Events", "section": "Mayhem", "name": "Ferrari 499P Modificata Mayhem Event (Carnival Rush Update - up to 115 blueprints and an Epic Import Part)" },
+        { "area": "Multiplayer", "section": "Team Pursuit", "name": "Team Pursuit Season Series (Carnival Rush Update)", "start": "2025-03-06", "end": "2025-03-10" },
+        { "area": "Shop", "section": "Limited Time Packs", "name": "Card packs and in-app purchases (Carnival Rush Update)" },
+        { "area": "Multiplayer", "section": "World League Card Packs", "name": "World League 2025 exclusive reward - Gold, Platinum & Legend Card Packs, plus Epic Import Parts Pack (Heatwave: Afterburn to Flames of Fortune Update)" },
+        { "area": "Special Events", "section": "Spotlight", "name": "hololive Spotlight (Phantom Riders Update - stages 6 and 14; HOT DEALS shop: 2 blueprints for 600 or 3 for 900 hololive Tokens; Spotlight Pass Tier 6: 5 free, 15 paid)" }
       ]
-    },
-    {
-      "status": "current",
-      "methods": ["Hololive Spotlight - Special Event"]
     }
   ],
   "addedDate": "24/07/2023",

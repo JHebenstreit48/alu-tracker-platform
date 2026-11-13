@@ -14,11 +14,16 @@
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Special Event (Heatwave: Afterburn Update - Oct 2-16, 2025)"]
+      "methods": [
+        { "area": "Passes", "section": "Ultimate Pass", "name": "Crimson Equinox Season Ultimate Legend Pass (35 blueprints - guaranteed unlock)" },
+        { "area": "Special Events", "section": "Special Event", "name": "Mosler Super GT (Heatwave: Afterburn Update)", "start": "2025-10-02", "end": "2025-10-16" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Special Event", "Ultimate Legend Pass (Heatwave: Afterburn Update)", "Burst of Speed (Sep 25 - Oct 16, 2026)"]
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Mosler Super GT - rerun with the Burst of Speed: Sunset Speedway (Touge Masters Update, Sunset Speedway Season)", "start": "2026-09-25", "end": "2026-10-16" }
+      ]
     }
   ],
   "addedDate": "19/08/2025",
