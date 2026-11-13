@@ -7,15 +7,38 @@
   "normalizedKey": "ferrari_296_gtb",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": [],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Nox Fury Patch Notes Video", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
   "keyCar": true,
-  "country": "Italy",
-  "epics": 8,
-  "obtainableVia": [],
-  "added": "Dragon Race",
-  "addedWith": "GP",
+  "country": ["Italy"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Grand Prix", "name": "Ferrari 296 GTB (Festive Sparks and Dragon Race Update - key)", "start": "2024-01-31", "end": "2024-02-15" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Key Hunt (Nintendo Switch only, 2024 European Season Update)" },
+        { "area": "Special Events", "section": "Grand Prix", "name": "Ferrari 296 GTB - rerun (Supercharged Summer Update - key)" },
+        { "area": "Promotions", "section": "Physical Edition", "name": "Supercharged Edition physical copy gift (PlayStation 4/5 and Nintendo Switch - key)" },
+        { "area": "Special Events", "section": "Spotlight", "name": "Black Friday Spotlight (Phantom Riders Update - key at Tier 1 of the paid Black Friday Pass)", "start": "2025-11-28", "end": "2025-12-11" },
+        { "area": "Special Events", "section": "Special Event", "name": "Ferrari 296 GTB (Porsche of Legends Update - key for completing all stages and conditions)", "start": "2026-04-13", "end": "2026-04-28" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari Spotlight - stages 2 and 7 (10 blueprints, 2 Epic Import Parts, and the key at stage 7)", "start": "2026-11-11", "end": "2026-12-10" },
+        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari Spotlight - Spotlight shop (random blueprints each refresh)", "start": "2026-11-11", "end": "2026-12-10" },
+        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari F80 Spotlight Pass (Level 2: 5 blueprints free, 15 paid)", "start": "2026-11-11", "end": "2026-12-10" },
+        { "area": "Multiplayer", "section": "Team Pursuit", "name": "Syndicate team car (blueprints)" }
+      ]
+    }
+  ],
   "addedDate": "11/12/2023",
   "blueprints1Star": 0,
   "blueprints2Star": 25,

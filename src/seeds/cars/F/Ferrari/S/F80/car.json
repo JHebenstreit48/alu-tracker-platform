@@ -6,17 +6,26 @@
   "model": "F80",
   "normalizedKey": "ferrari_f80",
   "status": "in progress",
-  "message": "No new data yet. Patch notes not yet released.",
-  "sources": ["MEI", "Discord"],
+  "message": "Still adding data",
+  "sources": ["MEI", "Discord", "A9 Garage", "ASEC", "Nox Fury Patch Notes Video", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "Italy",
+  "country": ["Italy"],
   "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari Spotlight - stages and reward track (featured car: 35 blueprints free - 25 from stages 2 - 10, 10 from the reward track; Epic Import Parts: 8 from stages 7 - 10, 2 from stage 11, up to 3 from stage 12 ranked, 3 from the reward track)", "start": "2026-11-11", "end": "2026-12-10" },
+        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari Spotlight - Spotlight shop (random blueprints each refresh)", "start": "2026-11-11", "end": "2026-12-10" },
+        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari F80 Spotlight Pass (paid - Level 1: 35 blueprints, Level 8: 2 Epic Import Parts, Level 12: 60 blueprints)", "start": "2026-11-11", "end": "2026-12-10" }
+      ]
+    }
   ],
-  "addedDate": "",
-  "blueprints1Star": 0,
-  "blueprints2Star": 0,
-  "blueprints3Star": 0,
-  "blueprints4Star": 0,
-  "blueprints5Star": 0
+  "addedDate": "10/11/2026",
+  "blueprints1Star": 35,
+  "blueprints2Star": 40,
+  "blueprints3Star": 45,
+  "blueprints4Star": 50,
+  "blueprints5Star": 60,
+  "blueprints6Star": 70
 }
