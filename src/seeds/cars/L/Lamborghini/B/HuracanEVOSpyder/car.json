@@ -7,23 +7,34 @@
   "normalizedKey": "lamborghini_huracan_evo_spyder",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
-  "country": "Italy",
-  "epics": 8,
+  "country": ["Italy"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Special Event (Motor Show Update)", "Motor Show Daily Event"]
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Lamborghini Huracán EVO Spyder (Motor Show Update - 11 stages; up to 117 blueprints together with the Motor Show Daily Event)", "start": "2019-03-08", "end": "2019-03-21" },
+        { "area": "Daily Events", "section": "TLE", "name": "Motor Show Daily Event (ran alongside the Special Event)", "start": "2019-03-08", "end": "2019-03-21" },
+        { "area": "Shop", "section": "Limited Time Packs", "name": "Huracán EVO Spyder packs during its Special Event (Motor Show Update)", "start": "2019-03-08", "end": "2019-03-21" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Limited-Time Packs", "Time-Limited Events"]
+      "methods": [
+        { "area": "Shop", "section": "Limited Time Packs", "name": "Packs featuring the Huracán EVO Spyder (irregular intervals, dates pending)" },
+        { "area": "Daily Events", "section": "TLE", "name": "Time-limited events with its blueprints as rewards (dates pending)" },
+        { "area": "Special Events", "section": "Starway", "name": "Lamborghini Huracán EVO Spyder Starway (recurring - 4 steps: 45, 17, 23 and 32 blueprints, up to 117; for players without the car or at 4 stars or less; runs include the Bring the Heat Update)" },
+        { "area": "Special Events", "section": "Special Event", "name": "Bugatti Mistral (support car)", "start": "2026-07-08", "end": "2026-07-23" }
+      ]
     },
     {
       "status": "current",
-      "methods": ["Garage Level 18 Card Packs", "Legend Store", "Starway (Rotating Special Event)"]
+      "methods": [
+        { "area": "Shop", "section": "Card Packs", "name": "Classic Pack" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 18 (see Legend Store page: Credits dropdown)" }
+      ]
     }
   ],
   "addedDate": "04/03/2019",
@@ -31,6 +42,5 @@
   "blueprints2Star": 17,
   "blueprints3Star": 23,
   "blueprints4Star": 32,
-  "blueprints5Star": 45,
-  "Tags": "Europe; Super Car"
+  "blueprints5Star": 45
 }

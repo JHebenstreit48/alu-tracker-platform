@@ -32,12 +32,6 @@
       ]
     },
     {
-      "status": "obsolete",
-      "methods": [
-        { "area": "Shop", "section": "Card Packs", "name": "Old Garage Level 17 system: most limited-time packs and Legend Store (from King of the Fall Update)" }
-      ]
-    },
-    {
       "status": "current",
       "methods": [
         { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 18 (see Legend Store page: Credits dropdown)" }

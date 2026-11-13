@@ -32,12 +32,6 @@
       ]
     },
     {
-      "status": "obsolete",
-      "methods": [
-        { "area": "Shop", "section": "Card Packs", "name": "Old Garage Level 17 card packs and Legend Store (Porsche Season to Supercharged Summer Update)" }
-      ]
-    },
-    {
       "status": "current",
       "methods": [
         { "area": "Special Events", "section": "Spotlight", "name": "Ferrari Spotlight - stages 4 and 9 (10 blueprints, 2 Epic Import Parts)", "start": "2026-11-11", "end": "2026-12-10" },
