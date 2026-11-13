@@ -40,7 +40,9 @@
     {
       "status": "current",
       "methods": [
-        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari Spotlight (support car, Ferrari Season)", "start": "2026-11-11", "end": "2026-12-10" },
+        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari Spotlight - stages 4 and 9 (10 blueprints, 2 Epic Import Parts)", "start": "2026-11-11", "end": "2026-12-10" },
+        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari Spotlight - Spotlight shop (random blueprints each refresh)", "start": "2026-11-11", "end": "2026-12-10" },
+        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari F80 Spotlight Pass (Level 4: 5 blueprints free, 15 paid)", "start": "2026-11-11", "end": "2026-12-10" },
         { "area": "Multiplayer", "section": "Team Pursuit", "name": "Syndicate team car (from Phantom Riders Update)" },
         { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 19 (see Legend Store page: Credits dropdown)" }
       ]

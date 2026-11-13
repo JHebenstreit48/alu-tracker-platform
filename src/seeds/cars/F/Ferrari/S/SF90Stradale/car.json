@@ -7,20 +7,41 @@
   "normalizedKey": "ferrari_sf90_stradale",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": "MEI",
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "Nox Fury Patch Notes Video", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "Italy",
-  "epics": 16,
-  "obtainableVia": ["Garage Level 55"],
-  "added": "Ferrari Season",
-  "addedWith": "SE",
+  "country": ["Italy"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Ferrari SF90 Stradale (Ferrari Season Update)" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "First rerun (Bring the Heat Update)" },
+        { "area": "Special Events", "section": "Special Event", "name": "Second rerun (Italian Revolution Update - 60 blueprints, 8 stages)", "start": "2024-03-11", "end": "2024-03-25" },
+        { "area": "Special Events", "section": "Special Event", "name": "Third rerun (Asphalt Legends Unite Expansion Update)", "start": "2024-09-11", "end": "2024-09-25" },
+        { "area": "Special Events", "section": "EVO Special Event", "name": "Fourth rerun as EVO Special Event (Phantom Riders Update - up to 15 blueprints and Epic Import Parts)", "start": "2025-10-16", "end": "2025-10-27" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari Spotlight - stages 5 and 10 (10 blueprints, 2 Epic Import Parts)", "start": "2026-11-11", "end": "2026-12-10" },
+        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari Spotlight - Spotlight shop (random blueprints each refresh)", "start": "2026-11-11", "end": "2026-12-10" },
+        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari F80 Spotlight Pass (Level 5: 5 blueprints free, 15 paid)", "start": "2026-11-11", "end": "2026-12-10" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 55 (see Legend Store page: Credits dropdown)" }
+      ]
+    }
+  ],
   "addedDate": "20/10/2020",
   "blueprints1Star": 60,
   "blueprints2Star": 25,
   "blueprints3Star": 30,
   "blueprints4Star": 35,
   "blueprints5Star": 45,
-  "blueprints6Star": 55,
-  "Tags": "Europe"
+  "blueprints6Star": 55
 }
