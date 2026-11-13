@@ -15,13 +15,16 @@
     {
       "status": "original",
       "methods": [
-        { "area": "Special Events", "section": "Special Event", "name": "Lotus Evija (Grand Prix Update)" }
+        { "area": "Special Events", "section": "Special Event", "name": "Lotus Evija (9th Special Event, Grand Prix Update - 21 stages: 67 blueprints, up to 6 Epic Import Parts)", "start": "2020-02-07", "end": "2020-03-06" }
       ]
     },
     {
       "status": "inactive",
       "methods": [
-        { "area": "Special Events", "section": "Spotlight", "name": "DragonForce (Flames of Fortune Update)", "start": "2026-02-03", "end": "2026-03-03" }
+        { "area": "Passes", "section": "Season Pass", "name": "Bring the Heat Season Free Pass (Tier 40 - 1 blueprint)", "start": "2022-07-27", "end": "2022-09-14" },
+        { "area": "Passes", "section": "Legend Pass", "name": "Bring the Heat Season (Tier 40 - 5 blueprints and an Epic Import Part)", "start": "2022-07-27", "end": "2022-09-14" },
+        { "area": "Special Events", "section": "Spotlight", "name": "DragonForce - stages 10 and 14 (15 blueprints, 2 Epic Import Parts), plus DragonForce Market (Flames of Fortune Update)", "start": "2026-02-03", "end": "2026-03-03" },
+        { "area": "Special Events", "section": "Spotlight", "name": "DragonForce Pass (Tier 3: 5 blueprints free; Tier 4: 15 paid)", "start": "2026-02-03", "end": "2026-03-03" }
       ]
     },
     {

@@ -7,20 +7,35 @@
   "normalizedKey": "lamborghini_murcielago_lp_640_roadster",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
-  "country": "Italy",
-  "epics": 8,
-  "obtainableVia": ["Garage Level 27"],
-  "added": "Italian Season",
-  "addedWith": "Legend Pass car",
-  "addedDate": "08/04/2021",
+  "country": ["Italy"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Passes", "section": "Legend Pass", "name": "Italian Season (Tier 1)" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Daily Events", "section": "Legendary Hunt", "name": "Heatwave Season Update (Legend Pass owners only)" },
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 5: Undercover Ops (support car, Bring the Heat Update - 40 blueprints at 100,000 Syndicate Points; first time available to all players)" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 27 (see Legend Store page: Credits dropdown)" }
+      ]
+    }
+  ],
+  "addedDate": "05/04/2021",
   "blueprints1Star": 45,
   "blueprints2Star": 17,
   "blueprints3Star": 23,
   "blueprints4Star": 32,
-  "blueprints5Star": 45,
-  "blueprints6Star": null,
-  "Tags": "Europe; Super Car"
+  "blueprints5Star": 45
 }

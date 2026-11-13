@@ -21,6 +21,20 @@
           "name": "Pagani Huayra R (Bring the Heat Update - required Bentley Continental GT Speed from the Legend Pass)",
           "start": "2022-08-25",
           "end": "2022-09-15"
+        },
+        {
+          "area": "Passes",
+          "section": "Season Pass",
+          "name": "Bring the Heat Season Free Pass (Tier 48 - 1 blueprint)",
+          "start": "2022-07-27",
+          "end": "2022-09-14"
+        },
+        {
+          "area": "Passes",
+          "section": "Legend Pass",
+          "name": "Bring the Heat Season (Tier 49 - 5 blueprints; Tier 50 - Epic Import Part)",
+          "start": "2022-07-27",
+          "end": "2022-09-14"
         }
       ]
     },
@@ -38,6 +52,13 @@
           "area": "Multiplayer",
           "section": "League Card Packs",
           "name": "Silver, Gold, Platinum & Legend League Packs, plus Epic Import Parts Pack (Carnival Rush Update, 6 months)"
+        },
+        {
+          "area": "Special Events",
+          "section": "Spotlight",
+          "name": "Tekken 8 Spotlight (Brawl of the Deep Update)",
+          "start": "2026-10-14",
+          "end": "2026-11-11"
         }
       ]
     },
@@ -46,14 +67,7 @@
       "methods": [
         { "area": "Daily Events", "section": "Cups", "pack": "B+", "from": ["Class B Cup", "Deluxe Class Cup"] },
         { "area": "Daily Events", "section": "TLE", "pack": "B+", "name": "Club, Solo & Rank rewards" },
-        { "area": "Special Events", "pack": "B+", "name": "Events with Class B support cars" },
-        {
-          "area": "Special Events",
-          "section": "Spotlight",
-          "name": "Tekken 8 Spotlight (Brawl of the Deep Update)",
-          "start": "2026-10-14",
-          "end": "2026-11-11"
-        }
+        { "area": "Special Events", "pack": "B+", "name": "Events with Class B support cars" }
       ]
     }
   ],

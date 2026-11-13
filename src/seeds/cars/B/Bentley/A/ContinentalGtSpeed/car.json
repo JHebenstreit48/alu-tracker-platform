@@ -15,21 +15,37 @@
     {
       "status": "original",
       "methods": [
-        { "area": "Passes", "section": "Legend Pass", "name": "Bring the Heat Season (60 blueprints at Tier 1, more at later tiers, plus Epic Import Parts)", "start": "2022-07-27", "end": "2022-09-14" },
-        { "area": "Passes", "section": "Season Pass", "name": "Bring the Heat Season Free Pass (Episode 1 completion - 1 blueprint)", "start": "2022-07-27", "end": "2022-09-14" }
+        {
+          "area": "Passes",
+          "section": "Legend Pass",
+          "name": "Bring the Heat Season (60 blueprints at Tier 1, more at later tiers, plus Epic Import Parts)",
+          "start": "2022-07-27",
+          "end": "2022-09-14"
+        },
+        {
+          "area": "Passes",
+          "section": "Season Pass",
+          "name": "Bring the Heat Season Free Pass (Episode 1 completion - 1 blueprint)",
+          "start": "2022-07-27",
+          "end": "2022-09-14"
+        }
       ]
     },
     {
       "status": "inactive",
       "methods": [
-        { "area": "Daily Events", "section": "Boss Mode", "name": "Bentley Continental GT Speed (Carnival Rush Update - up to 15 blueprints)", "start": "2025-02-22", "end": "2025-02-27" }
+        {
+          "area": "Daily Events",
+          "section": "Boss Mode",
+          "name": "Bentley Continental GT Speed (Carnival Rush Update - up to 15 blueprints)",
+          "start": "2025-02-22",
+          "end": "2025-02-27"
+        }
       ]
     },
     {
       "status": "current",
-      "methods": [
-        { "area": "Daily Events", "section": "Cups", "pack": "A", "from": ["Class A Cup", "Open Class Cup"] }
-      ]
+      "methods": [{ "area": "Daily Events", "section": "Cups", "pack": "A", "from": ["Class A Cup", "Open Class Cup"] }]
     }
   ],
   "addedDate": "24/07/2022",

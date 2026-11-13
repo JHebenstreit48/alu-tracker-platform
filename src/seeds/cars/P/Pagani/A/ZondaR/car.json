@@ -7,36 +7,44 @@
   "normalizedKey": "pagani_zonda_r",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
-  "country": "Italy",
-  "epics": 16,
-  "addedDate": "16/12/2021",
+  "country": ["Italy"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Festive Season", "Grand Prix"]
-    },
-    {
-      "status": "obsolete",
-      "methods": ["Unleashed Event"]
+      "methods": [
+        { "area": "Special Events", "section": "Grand Prix", "name": "Pagani Zonda R (Festive Season Update - key)" },
+        { "area": "Passes", "section": "Season Pass", "name": "Festive Season Free Pass (1 blueprint)" },
+        { "area": "Passes", "section": "Legend Pass", "name": "Festive Season (5 blueprints, in-app purchase)" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Grand Prix", "Special Hunt"]
+      "methods": [
+        { "area": "Passes", "section": "Season Pass", "name": "Bring the Heat Season Free Pass (Tier 30 - 1 blueprint)", "start": "2022-07-27", "end": "2022-09-14" },
+        { "area": "Passes", "section": "Legend Pass", "name": "Bring the Heat Season (Tier 30 - 5 blueprints; Tier 34 - Epic Import Part)", "start": "2022-07-27", "end": "2022-09-14" },
+        { "area": "Special Events", "section": "Special Event", "name": "Pagani Huayra R (Bring the Heat Update - key, required the car at 6 stars)", "start": "2022-08-25", "end": "2022-09-15" },
+        { "area": "Daily Events", "section": "Unleashed", "name": "Pagani Zonda R (Wanderlust and Fifth Anniversary Season Update)" },
+        { "area": "Special Events", "section": "Special Event", "name": "Ford Team Fordzilla P1 - Phonk (Festive Sparks and Dragon Race Update - key, required the car at 6 stars)", "start": "2024-01-24", "end": "2024-02-20" },
+        { "area": "Special Events", "section": "Special Event", "name": "Lexus Electrified Sport Concept (Korean Spring Update - key, required the car at 6 stars)", "start": "2025-04-30", "end": "2025-05-14" },
+        { "area": "Special Events", "section": "Special Hunt", "name": "Special Hunts (from West to East & Eurobloom Update, dates pending)" }
+      ]
     },
     {
       "status": "current",
-      "methods": ["New Player Key"]
+      "methods": [
+        { "area": "Login Rewards", "section": "New Player", "name": "New Player key" }
+      ]
     }
   ],
+  "addedDate": "16/12/2021",
   "blueprints1Star": 0,
   "blueprints2Star": 28,
   "blueprints3Star": 32,
   "blueprints4Star": 44,
   "blueprints5Star": 59,
-  "blueprints6Star": 86,
-  "Tags": "Europe"
+  "blueprints6Star": 86
 }

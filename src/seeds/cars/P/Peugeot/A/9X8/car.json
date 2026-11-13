@@ -3,27 +3,34 @@
   "image": "/images/cars/P/Peugeot/9x8.webp",
   "class": "A",
   "brand": "Peugeot",
+  "model": "9X8",
   "normalizedKey": "peugeot_9x8",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
-  "model": "9X8",
+  "sources": ["MEI", "Asphalt Fandom Wiki", "A9 Garage", "ASEC", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "France",
-  "epics": 16,
+  "country": ["France"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Drive Syndicate 6: Rising from the Ashes (Support Car)"]
+      "methods": [
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 6: Rising from the Ashes (support car, The Middle Ground missions - 25 blueprints at 450,000 Syndicate Points, plus Syndicate Store)", "start": "2022-12-15", "end": "2023-01-12" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Card Packs", "IAPs"]
+      "methods": [
+        { "area": "Shop", "section": "Limited Time Packs", "name": "Card packs and in-app purchases (after Drive Syndicate 6)" },
+        { "area": "Special Events", "section": "Spotlight", "name": "Prototype Racing Spotlight (Audi Season, dates pending)" }
+      ]
     },
     {
       "status": "current",
-      "methods": ["Gauntlet Market", "Prototype Racing Spotlight (Audi Season)"]
+      "methods": [
+        { "area": "Shop", "section": "Gauntlet Market", "currency": "Gauntlet Credits", "name": "1,700 per blueprint, up to 12 per refresh (from Korean Spring Update)" },
+        { "area": "Shop", "section": "Legend Store", "name": "From Garage Level 45 (2,700 per blueprint - currency to confirm)" }
+      ]
     }
   ],
   "addedDate": "12/12/2022",
