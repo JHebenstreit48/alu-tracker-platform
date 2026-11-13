@@ -6,8 +6,8 @@
   "model": "Tuatara Striker",
   "normalizedKey": "ssc_tuatara_striker",
   "status": "in progress",
-  "message": "still missing data",
-  "sources": ["MEI"],
+  "message": "Still adding data",
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
@@ -15,14 +15,19 @@
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Drive Syndicate (Korean Spring Update)"]
+      "methods": [
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 11: Blue Shadows (Korean Spring Update - main car, key)", "start": "2025-04-03", "end": "2025-05-01" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Drive Syndicate", "Special Event", "Burst of Speed TLE"]
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Koenigsegg One:1 (support car - stages 8 and 15: blueprints and an Epic Import Part)", "start": "2025-11-21", "end": "2025-12-11" },
+        { "area": "Daily Events", "section": "Burst of Speed", "name": "Black Friday (Phantom Riders Update - key in the fourth TLE, required the car fully star-upgraded)", "start": "2025-11-21", "end": "2025-12-04" }
+      ]
     }
   ],
-  "addedDate": "03/04/2025",
+  "addedDate": "31/03/2025",
   "blueprints1Star": 0,
   "blueprints2Star": 40,
   "blueprints3Star": 45,

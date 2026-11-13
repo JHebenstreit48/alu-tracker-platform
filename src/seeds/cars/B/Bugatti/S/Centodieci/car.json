@@ -24,7 +24,7 @@
       "methods": [
         { "area": "Special Events", "section": "Spotlight", "name": "20 Years (key - required the car at a set star level)" },
         { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate: Side Story (Flames of Fortune Update - key at 900,000 Syndicate Points, plus Syndicate Store)", "start": "2026-02-10", "end": "2026-03-10" },
-        { "area": "Special Events", "section": "Burst of Speed", "name": "Sunset Speedway IV (Sunset Speedway Update - key, required the car at a set star level)" }
+        { "area": "Daily Events", "section": "Burst of Speed", "name": "Sunset Speedway IV (Sunset Speedway Update - key, required the car at a set star level)" }
       ]
     }
   ],

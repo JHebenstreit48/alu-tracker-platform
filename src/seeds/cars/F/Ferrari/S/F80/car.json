@@ -13,11 +13,11 @@
   "country": ["Italy"],
   "obtainableVia": [
     {
-      "status": "original",
+      "status": "current",
       "methods": [
-        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari Spotlight - stages and reward track (featured car: 35 blueprints free - 25 from stages 2 - 10, 10 from the reward track; Epic Import Parts: 8 from stages 7 - 10, 2 from stage 11, up to 3 from stage 12 ranked, 3 from the reward track)", "start": "2026-11-11", "end": "2026-12-10" },
-        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari Spotlight - Spotlight shop (random blueprints each refresh)", "start": "2026-11-11", "end": "2026-12-10" },
-        { "area": "Special Events", "section": "Spotlight", "name": "Ferrari F80 Spotlight Pass (paid - Level 1: 35 blueprints, Level 8: 2 Epic Import Parts, Level 12: 60 blueprints)", "start": "2026-11-11", "end": "2026-12-10" }
+        { "area": "Special Events", "section": "Spotlight", "debut": true, "name": "Ferrari Spotlight - stages and reward track (featured car: 35 blueprints free - 25 from stages 2 - 10, 10 from the reward track; Epic Import Parts: 8 from stages 7 - 10, 2 from stage 11, up to 3 from stage 12 ranked, 3 from the reward track)", "start": "2026-11-11", "end": "2026-12-10" },
+        { "area": "Special Events", "section": "Spotlight", "debut": true, "name": "Ferrari Spotlight - Spotlight shop (random blueprints each refresh)", "start": "2026-11-11", "end": "2026-12-10" },
+        { "area": "Special Events", "section": "Spotlight", "debut": true, "name": "Ferrari F80 Spotlight Pass (paid - Level 1: 35 blueprints, Level 8: 2 Epic Import Parts, Level 12: 60 blueprints)", "start": "2026-11-11", "end": "2026-12-10" }
       ]
     }
   ],

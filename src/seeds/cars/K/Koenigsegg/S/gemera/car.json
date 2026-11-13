@@ -7,23 +7,32 @@
   "normalizedKey": "koenigsegg_gemera",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Asphalt Fandom Wiki", "asphalt9.info"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "asphalt9.info", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
-  "country": "Sweden",
+  "country": ["Sweden"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Drive Syndicate (Festive Season Update - Dec 17, 2021 - Jan 12, 2022)"]
+      "methods": [
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 4 (Festive Season Update - key and blueprints)", "start": "2021-12-17", "end": "2022-01-12" }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Drive Syndicate", "Burst of Speed Packs", "Unleashed Event", "Special Event (Mosler Super GT - Stage 8)"]
+      "methods": [
+        { "area": "Daily Events", "section": "Burst of Speed", "name": "Burst of Speed packs (blueprints, dates pending)" },
+        { "area": "Daily Events", "section": "Unleashed", "name": "Koenigsegg Gemera (New Tech and Black Friday Update - key, required the car at 6 stars)" },
+        { "area": "Special Events", "section": "Special Event", "name": "Mosler Super GT - Stage 8 (key, required the car at 6 stars)" },
+        { "area": "Daily Events", "section": "Burst of Speed", "name": "Sunset Speedway IV (key, required the car at 6 stars)", "start": "2026-09-25", "end": "2026-10-09" }
+      ]
     },
     {
       "status": "current",
-      "methods": ["VIP Market (VIP Level 10)", "Burst of Speed TLE (Sep 25 - Oct 9, 2026)"]
+      "methods": [
+        { "area": "Shop", "section": "VIP Market", "currency": "Tokens", "name": "VIP Market (VIP Level 10, from Korean Spring Update)" }
+      ]
     }
   ],
   "addedDate": "16/12/2021",

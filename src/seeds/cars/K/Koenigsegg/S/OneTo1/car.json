@@ -10,15 +10,19 @@
   "sources": ["My own in-game research", "Asphalt Fandom Wiki"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "Sweden",
+  "country": ["Sweden"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Special Event (Phantom Riders Update - Nov 21 - Dec 11, 2025)"]
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Koenigsegg One:1 (Phantom Riders Update - 17 stages: 73 blueprints from stages and progression rewards, up to 14 Epic Import Parts)", "start": "2025-11-21", "end": "2025-12-11" }
+      ]
     },
     {
-      "status": "current",
-      "methods": ["Burst of Speed TLE (Sep 25 - Oct 9, 2026)"]
+      "status": "inactive",
+      "methods": [
+        { "area": "Daily Events", "section": "Burst of Speed", "name": "Burst of Speed", "start": "2026-09-25", "end": "2026-10-09" }
+      ]
     }
   ],
   "addedDate": "14/10/2025",

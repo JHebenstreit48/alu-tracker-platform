@@ -21,8 +21,8 @@
     {
       "status": "inactive",
       "methods": [
-        { "area": "Special Events", "section": "Elite Grand Prix", "name": "Aston Martin Valhalla (Fire and Lightning Update)" },
-        { "area": "Special Events", "section": "Burst of Speed", "name": "4th Anniversary Burst of Speed packs (Raging Bull Season Update)" },
+        { "area": "Special Events", "section": "Grand Prix", "name": "Elite Prix: Aston Martin Valhalla (Fire and Lightning Update)" },
+        { "area": "Daily Events", "section": "Burst of Speed", "name": "4th Anniversary Burst of Speed packs (Raging Bull Season Update)" },
         { "area": "Special Events", "section": "Special Event", "name": "Aston Martin Valhalla Concept Car - Back to School return (Racing Through Fire & Hall of Flames Update)", "start": "2023-08-31", "end": "2023-09-27" },
         { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 11: Blue Shadows (support car - 40 blueprints at 450,000 and 12 at 629,000 Syndicate Points, plus Syndicate Store)", "start": "2025-04-03", "end": "2025-05-01" }
       ]

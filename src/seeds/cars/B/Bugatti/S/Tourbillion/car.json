@@ -7,22 +7,24 @@
   "normalizedKey": "bugatti_tourbillon",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["Tune, Race, Repeat! - YouTube"],
+  "sources": ["Tune, Race, Repeat! - YouTube", "Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
-  "country": "France",
+  "country": ["France"],
   "obtainableVia": [
     {
-      "status": "upcoming",
-      "methods": ["BLACKCREST (Oct 27 - Nov 24, 2026)"]
+      "status": "current",
+      "methods": [
+        { "area": "Special Events", "section": "Blackcrest", "debut": true, "name": "Main car - key at 30 cleared Decoder panels, plus blueprints in Decoder panels (34 free deployments over the first 17 days, up to 51 with Shards)", "start": "2026-10-27", "end": "2026-11-24" }
+      ]
     }
   ],
-  "addedDate": "",
+  "addedDate": "13/10/2026",
   "blueprints1Star": 0,
   "blueprints2Star": 45,
-  "blueprints3Star": 0,
-  "blueprints4Star": 0,
-  "blueprints5Star": 0,
-  "blueprints6Star": 0
+  "blueprints3Star": 50,
+  "blueprints4Star": 55,
+  "blueprints5Star": 70,
+  "blueprints6Star": 80
 }
