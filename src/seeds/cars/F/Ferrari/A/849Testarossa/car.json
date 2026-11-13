@@ -13,10 +13,10 @@
   "country": ["Italy"],
   "obtainableVia": [
     {
-      "status": "original",
+      "status": "current",
       "methods": [
-        { "area": "Special Events", "section": "Special Event", "name": "Ferrari 849 Testarossa (Ferrari Season)", "start": "2026-11-11", "end": "2026-11-26" },
-        { "area": "Shop", "section": "Limited Time Packs", "currency": "Tokens", "name": "Ferrari 849 Testarossa pack (unlocks at 159 event conditions - 15 or 3 blueprints per drop)", "start": "2026-11-11", "end": "2026-11-26" }
+        { "area": "Special Events", "section": "Special Event", "debut": true, "name": "Ferrari 849 Testarossa (Ferrari Season)", "start": "2026-11-11", "end": "2026-11-26" },
+        { "area": "Shop", "section": "Limited Time Packs", "currency": "Tokens", "debut": true, "name": "Ferrari 849 Testarossa pack (unlocks at 159 event conditions - 15 or 3 blueprints per drop)", "start": "2026-11-11", "end": "2026-11-26" }
       ]
     }
   ],
