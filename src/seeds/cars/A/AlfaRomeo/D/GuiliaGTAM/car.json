@@ -7,16 +7,46 @@
   "normalizedKey": "alfa_romeo_giulia_gtam",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
   "keyCar": true,
-  "country": "Italy",
-  "epics": 8,
-  "obtainableVia": null,
-  "added": "Italian Revolution I",
-  "addedWith": "GP",
-  "addedDate": "19/2/2024",
+  "country": ["Italy"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [{ "area": "Special Events", "section": "Grand Prix", "name": "Alfa Romeo Giulia GTAm (Italian Revolution Update - key)" }]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        {
+          "area": "Special Events",
+          "section": "Grand Prix",
+          "name": "Alfa Romeo Giulia GTAm - rerun (Festive Fury Update)",
+          "start": "2025-01-19",
+          "end": "2025-02-04"
+        },
+        { "area": "Multiplayer", "section": "Team Pursuit", "name": "Team Pursuit round", "start": "2025-01-23", "end": "2025-01-27" },
+        { "area": "Multiplayer", "section": "Team Pursuit", "name": "Team Pursuit round", "start": "2025-07-24", "end": "2025-07-28" },
+        {
+          "area": "Special Events",
+          "section": "Spotlight",
+          "name": "20 Years - stage 1 (10 blueprints, 2 Epic Import Parts, and the key if fully star-upgraded), plus 20th Market",
+          "start": "2025-07-24",
+          "end": "2025-08-20"
+        },
+        {
+          "area": "Special Events",
+          "section": "Spotlight",
+          "name": "20th Pass (Tier 2: 5 blueprints, paid)",
+          "start": "2025-07-24",
+          "end": "2025-08-20"
+        }
+      ]
+    }
+  ],
+  "addedDate": "18/02/2024",
   "blueprints1Star": 0,
   "blueprints2Star": 22,
   "blueprints3Star": 30,
