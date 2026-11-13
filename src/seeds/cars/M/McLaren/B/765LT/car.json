@@ -15,31 +15,26 @@
     {
       "status": "original",
       "methods": [
-        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 5: Undercover Ops (35 blueprints at 250,000 Syndicate Points, plus Syndicate Store and limited-time packs)" }
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 5: Undercover Ops (Twice is Coincidence chapters - 35 blueprints at 250,000 Syndicate Points, 10 more needed from the Syndicate Store to unlock; plus limited-time packs)" }
       ]
     },
     {
       "status": "inactive",
       "methods": [
-        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 6: From the Ashes (Winterfest Update - 35 blueprints at 250,000 Syndicate Points, plus Syndicate Store and limited-time packs)", "start": "2022-12-15", "end": "2023-01-12" },
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 6: From the Ashes (Winterfest Update, The Far East chapters - 35 blueprints at 250,000 Syndicate Points, 10 more from the Syndicate Store; plus limited-time packs)", "start": "2022-12-15", "end": "2023-01-12" },
         { "area": "Shop", "section": "Limited Time Packs", "name": "West to East packs (West to East & Eurobloom Update)" },
-        { "area": "Daily Events", "section": "Car Hunt", "name": "Back to School season (Asphalt Legends Unite Expansion Update, dates pending)" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Back to School season - first Car Hunt (Asphalt Legends Unite Expansion Update, dates pending)" },
         { "area": "Daily Events", "section": "Car Hunt", "name": "Toyota and Lexus Season (late May 2025)" }
       ]
     },
     {
       "status": "current",
       "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "McLaren 750S Coupé (support car, event packs in Shop - Ferrari Season)", "start": "2026-11-13", "end": "2026-11-28" },
         { "area": "Daily Events", "section": "Cups", "pack": "B+", "from": ["Class B Cup", "Deluxe Class Cup"] },
         { "area": "Daily Events", "section": "TLE", "pack": "B+", "name": "Club, Solo & Rank rewards" },
         { "area": "Special Events", "pack": "B+", "name": "Events with Class B support cars" },
         { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 49 (see Legend Store page: Credits dropdown)" }
-      ]
-    },
-    {
-      "status": "upcoming",
-      "methods": [
-        { "area": "Special Events", "section": "Special Event", "name": "McLaren 750S Coupé (support car, event packs in Shop - Ferrari Season)", "start": "2026-11-13", "end": "2026-11-28" }
       ]
     }
   ],

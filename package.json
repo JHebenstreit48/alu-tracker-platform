@@ -25,11 +25,12 @@
     "seed:logos": "ts-node -r tsconfig-paths/register src/scripts/DatabaseImports/importLogos.ts",
 
     "ping:firebase": "ts-node -r tsconfig-paths/register src/scripts/pingFirestore.ts",
-    "seed:diagnose": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/diagnoseCarSet.ts",
 
+    "seed:diagnose": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/diagnoseCarSet.ts",
     "check:normalized-keys": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/checkNormalizedKeys.ts",
     "list:cars": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/listCars.ts",
     "check:sources": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/checkSources.ts",
+    "check:obtainable": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/checkObtainableVia.ts",
 
     "convert:car:all": "ts-node -r tsconfig-paths/register src/scripts/maintenance/convertToNewFormat.ts --all",
     "convert:car:all:dry": "ts-node -r tsconfig-paths/register src/scripts/maintenance/convertToNewFormat.ts --all --dry",

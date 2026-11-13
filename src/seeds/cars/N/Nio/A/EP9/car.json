@@ -7,18 +7,36 @@
   "normalizedKey": "nio_ep9",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "China",
-  "epics": 8,
-  "obtainableVia": ["Car Hunt", "Garage Level 43"],
-  "added": "Fire and Lightning",
-  "addedWith": "LP car",
+  "country": ["China"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Passes", "section": "Legend Pass", "name": "Fire and Lightning Season" },
+        { "area": "Passes", "section": "Legend Pass", "name": "Lunar New Year Season" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Electric Season Update (Legend Pass owners only)" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Bring the Heat Update (open to all players, dates pending)" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Special Events", "section": "Showroom", "name": "NIO EP9 Max-Out Event (from Asphalt Legends Unite Expansion Update)" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 43 (see Legend Store page: Credits dropdown)" }
+      ]
+    }
+  ],
   "addedDate": "03/02/2021",
   "blueprints1Star": 60,
   "blueprints2Star": 40,
   "blueprints3Star": 51,
-  "blueprints4Star": 63,
-  "Tags": "Asia; Electric"
+  "blueprints4Star": 63
 }

@@ -7,15 +7,31 @@
   "normalizedKey": "bentley_batur",
   "status": "in progress",
   "message": "Still adding data",
+  "sources": ["Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
-  "country": "United Kingdom",
-  "obtainableVia": [],
+  "country": ["United Kingdom"],
+  "obtainableVia": [
+    {
+      "status": "current",
+      "methods": [
+        {
+          "area": "Special Events",
+          "section": "Blackcrest",
+          "debut": true,
+          "name": "Support car - key at 5 cleared Decoder panels, plus blueprints in Decoder panels (34 free deployments over the first 17 days, up to 51 with Shards)",
+          "start": "2026-10-27",
+          "end": "2026-11-24"
+        }
+      ]
+    }
+  ],
   "addedDate": "13/10/2026",
   "blueprints1Star": 0,
   "blueprints2Star": 40,
-  "blueprints3Star": 0,
-  "blueprints4Star": 0,
-  "blueprints5Star": 0
+  "blueprints3Star": 45,
+  "blueprints4Star": 50,
+  "blueprints5Star": 60,
+  "blueprints6Star": 75
 }

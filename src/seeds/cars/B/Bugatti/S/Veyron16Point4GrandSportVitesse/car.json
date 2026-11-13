@@ -7,20 +7,38 @@
   "normalizedKey": "bugatti_veyron_164_grand_sport_vitesse",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "France",
-  "epics": 16,
-  "obtainableVia": ["Garage Level 59"],
-  "added": "Heatwave Season",
-  "addedWith": "Special Events",
-  "addedDate": "01/08/2021",
+  "country": ["France"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Bugatti Veyron 16.4 Grand Sport Vitesse (Heatwave Season Update)", "start": "2021-07-29", "end": "2021-08-27" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Multiplayer", "section": "League Card Packs", "name": "Platinum & Legend League Packs, plus Epic Import Parts Pack (Carnival Rush Update, 6 months)" },
+        { "area": "Daily Events", "section": "Boss Mode", "name": "Bugatti Veyron 16.4 Grand Sport Vitesse (Korean Spring Update)", "start": "2025-04-05", "end": "2025-04-13" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Daily Events", "section": "Cups", "pack": "S", "from": ["Class S Cup", "Open Class Cup"] },
+        { "area": "Special Events", "section": "Gauntlet", "pack": "S", "name": "Daily Gauntlet Challenges" },
+        { "area": "Shop", "section": "Legend Store", "currency": "Credits", "name": "From Garage Level 59 (see Legend Store page: Credits dropdown)" }
+      ]
+    }
+  ],
+  "addedDate": "27/07/2021",
   "blueprints1Star": 85,
   "blueprints2Star": 25,
   "blueprints3Star": 29,
   "blueprints4Star": 38,
   "blueprints5Star": 54,
-  "blueprints6Star": 69,
-  "Tags": "Europe"
+  "blueprints6Star": 69
 }
