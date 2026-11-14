@@ -15,7 +15,7 @@
     {
       "status": "original",
       "methods": [
-        { "area": "Passes", "section": "Legend Pass", "name": "Legacy of Speed Season (Tier 1 - 25 blueprints to unlock)" },
+        { "area": "Passes", "section": "Legend Pass", "name": "Legacy of Speed Season (Tier 1 - 25 blueprints to unlock)", "start": "2025-07-24", "end": "2025-08-20" },
         { "area": "Passes", "section": "Legend Pass", "name": "Heatwave: Afterburn Season (Tier 1 - 25 blueprints to unlock)" }
       ]
     },
@@ -35,7 +35,7 @@
       ]
     }
   ],
-  "addedDate": "",
+  "addedDate": "20/07/2025",
   "blueprints1Star": 25,
   "blueprints2Star": 30,
   "blueprints3Star": 35,

@@ -7,14 +7,42 @@
   "normalizedKey": "aston_martin_dbs_gt_zagato",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "United Kingdom",
-  "epics": 16,
-  "obtainableVia": [],
-  "added": "Festive Sparks",
-  "addedWith": "DS",
+  "country": ["United Kingdom"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        {
+          "area": "Special Events",
+          "section": "Drive Syndicate",
+          "name": "Drive Syndicate 8: Future Sparks (35 blueprints at 450,000 and 10 at 629,000 Syndicate Points, plus up to 10 more and Epic Import Parts in the Syndicate Store)",
+          "start": "2023-12-13",
+          "end": "2024-01-24"
+        }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Shop", "section": "Limited Time Packs", "name": "Zenvo Aurora Tur II and Czinger 21C multi-packs (dates pending)" },
+        { "area": "Special Events", "section": "Mayhem", "name": "Ares Panther Mayhem Event (support car, dates pending)" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        {
+          "area": "Shop",
+          "section": "Gauntlet Market",
+          "currency": "Gauntlet Credits",
+          "name": "From Division II - 2,400 per blueprint, up to 12 per 7 days; Epic Import Parts once maxed out (from Korean Spring Update)"
+        }
+      ]
+    }
+  ],
   "addedDate": "11/12/2023",
   "blueprints1Star": 70,
   "blueprints2Star": 23,
