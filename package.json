@@ -31,6 +31,8 @@
     "list:cars": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/listCars.ts",
     "check:sources": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/checkSources.ts",
     "check:obtainable": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/checkObtainableVia.ts",
+    "check:main-stats": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/checkMainStats.ts",
+    "check:blueprints": "ts-node -r tsconfig-paths/register src/scripts/Diagnosing/checkBlueprints.ts",
 
     "convert:car:all": "ts-node -r tsconfig-paths/register src/scripts/maintenance/convertToNewFormat.ts --all",
     "convert:car:all:dry": "ts-node -r tsconfig-paths/register src/scripts/maintenance/convertToNewFormat.ts --all --dry",

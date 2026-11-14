@@ -7,15 +7,36 @@
   "normalizedKey": "brabham_bt62",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
   "keyCar": true,
-  "country": "Australia",
-  "epics": 8,
-  "obtainableVia": [],
-  "added": "New Breed Rivals",
-  "addedWith": "SE",
+  "country": ["Australia"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Brabham BT62 (New Breed Rivals Update - key)", "start": "2022-04-22", "end": "2022-05-16" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Key Hunt - Start (Mar 13 - 21) and Riot (Mar 21 - 25), Italian Revolution Update", "start": "2024-03-13", "end": "2024-03-25" },
+        { "area": "Daily Events", "section": "Car Hunt", "name": "Key Hunt - Start (Nov 18 - 26) and Riot (Nov 26 - 30), Mid-Season Update", "start": "2024-11-18", "end": "2024-11-30" },
+        { "area": "Special Events", "section": "Special Event", "name": "Mercedes-Benz Mercedes-AMG GT Black Series Linked Special Event - stage 3 (up to 16 blueprints; key once fully star-upgraded, dates pending)" },
+        { "area": "Login Rewards", "section": "Compensation", "name": "Key given to players who had at least 1 blueprint (after delisting)", "start": "2025-11-17", "end": "2025-11-17" }
+      ]
+    },
+    {
+      "status": "removed",
+      "removedDate": "2025-10-15",
+      "reason": "Licensing issues",
+      "methods": [
+        { "name": "Delisted from the garage for players who don't own it (Phantom Riders Update) - key, blueprints and Epic Import Parts no longer in events or offers. Owners can star it up with existing blueprints, Wild Cards or Class C Ultimate Star-Up cards, and max it out with existing Epic Import Parts or Epic Wild Cards" }
+      ]
+    }
+  ],
   "addedDate": "04/04/2022",
   "blueprints1Star": 0,
   "blueprints2Star": 25,
