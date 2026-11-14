@@ -7,10 +7,20 @@
   "normalizedKey": "arash_imperium",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["Asphalt Fandom Wiki"],
+  "sources": ["Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
+  "country": ["United Kingdom"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 12 (Legacy of Speed Update - main car, key at 1,000,000 Syndicate Points)", "start": "2025-07-28", "end": "2025-08-25" }
+      ]
+    }
+  ],
+  "addedDate": "20/07/2025",
   "blueprints1Star": 0,
   "blueprints2Star": 45,
   "blueprints3Star": 50,
