@@ -7,19 +7,35 @@
   "normalizedKey": "toroidion_1mw",
   "status": "in progress",
   "message": "Still adding data",
+  "sources": ["Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "Finland",
-  "epics": 16,
-  "obtainableVia": [],
-  "added": "Electric Season",
-  "addedWith": "SE",
+  "country": ["Finland"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Rimac Concept_One (Electric Season Update - stage 18, up to 5 blueprints)" },
+        { "area": "Special Events", "section": "Special Event", "name": "Toroidion 1MW (Electric Season Update - required the Renault Trezor, so the Legend Pass)", "start": "2021-10-22", "end": "2021-11-25" },
+        { "area": "Passes", "section": "Season Pass", "name": "Electric Season Free Pass (1 blueprint)" },
+        { "area": "Passes", "section": "Legend Pass", "name": "Electric Season (5 blueprints)" },
+        { "area": "Shop", "section": "Limited Time Packs", "name": "Limited-time card packs and in-app purchases (Electric Season)" }
+      ]
+    },
+    {
+      "status": "removed",
+      "removedDate": "2022-03-03",
+      "reason": "Manufacturer bankruptcy (Toroidion Ltd.)",
+      "methods": [
+        { "name": "Never returned in any events, card packs or in-app purchases after its Electric Season Special Event and Legend Pass. Still listed in the garage, but can't be obtained" }
+      ]
+    }
+  ],
   "addedDate": "23/09/2021",
   "blueprints1Star": 85,
   "blueprints2Star": 25,
   "blueprints3Star": 29,
   "blueprints4Star": 38,
   "blueprints5Star": 54,
-  "blueprints6Star": 69,
-  "Tags": "Electric; Europe"
+  "blueprints6Star": 69
 }
