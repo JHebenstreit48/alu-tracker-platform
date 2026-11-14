@@ -7,15 +7,33 @@
   "normalizedKey": "aston_martin_vantage_v12_2022",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Epic",
   "stars": 5,
   "keyCar": true,
-  "country": "United Kingdom",
-  "epics": 8,
-  "obtainableVia": [],
-  "added": "Eurobloom",
-  "addedWith": "Grand Prix",
+  "country": ["United Kingdom"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Grand Prix", "name": "Aston Martin Vantage V12 2022 (West to East & Eurobloom Update - key)" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "ATS Automobili GT (stage 1: up to 10 blueprints; stage 2: key and an Epic Import Part once fully star-upgraded; plus event packs and in-app purchases)" },
+        { "area": "Special Events", "section": "Grand Prix", "name": "Aston Martin Vantage V12 2022 - rerun (Legacy of Speed Update)", "start": "2025-07-29", "end": "2025-08-14" },
+        { "area": "Gameloft Shop", "section": "Free Daily Gift", "name": "2 blueprints daily (Legacy of Speed Update, Aug 2025)" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Shop", "section": "VIP Market", "name": "2 blueprints for 150 (from VIP Level 1, since Korean Spring Update - currency to confirm)" }
+      ]
+    }
+  ],
   "addedDate": "17/04/2024",
   "blueprints1Star": 0,
   "blueprints2Star": 22,

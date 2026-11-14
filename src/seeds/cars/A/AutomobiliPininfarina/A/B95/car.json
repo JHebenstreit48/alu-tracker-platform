@@ -6,12 +6,34 @@
   "model": "B95",
   "normalizedKey": "automobili_pininfarina_b95",
   "status": "in progress",
-  "message": "Still adding data.",
-  "sources": ["Asphalt Fandom Wiki"],
+  "message": "Still adding data",
+  "sources": ["Asphalt Fandom Wiki", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "Italy",
-  "obtainableVia": [],
+  "country": ["Italy"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Automobili Pininfarina B95 (Phantom Riders Update)", "start": "2025-11-13", "end": "2025-11-26" },
+        { "area": "Passes", "section": "Ultimate Pass", "name": "2025 Black Friday Season Ultimate Legend Pass (instant reward)" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Gameloft Shop", "section": "Free Daily Gift", "name": "2 blueprints daily", "start": "2025-11-24", "end": "2025-11-30" },
+        { "area": "Multiplayer", "section": "Team Pursuit", "name": "Team Pursuit round", "start": "2025-11-27", "end": "2025-12-01" }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Automobili Pininfarina B95 - rerun (Brawl of the Deep Update)", "start": "2026-10-14", "end": "2026-11-29" }
+      ]
+    }
+  ],
+  "addedDate": "14/10/2025",
   "blueprints1Star": 30,
   "blueprints2Star": 35,
   "blueprints3Star": 40,
