@@ -7,20 +7,25 @@
   "normalizedKey": "ares_panther",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["My own in-game research", "Asphalt Fandom Wiki"],
+  "sources": ["Asphalt Fandom Wiki", "Official patch notes", "A9 Garage", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "Italy",
+  "country": ["Italy"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Mayhem Event (Road to Glory Update - May 5-28, 2026)"]
+      "methods": [
+        { "area": "Special Events", "section": "Mayhem", "name": "Ares Panther Mayhem Event (Road to Glory Update - first Mayhem Event to feature a brand-new car, 18 stages)", "start": "2026-05-05", "end": "2026-05-28" }
+      ]
     },
     {
-      "status": "current",
-      "methods": ["Seasonal Revving (Audi Season - May 27 - Jun 23)"]
+      "status": "inactive",
+      "methods": [
+        { "area": "Special Events", "section": "Seasonal Revving", "name": "Rimac Concept S Seasonal Revving (Audi Season Update - support car; store blueprints to confirm)", "start": "2026-05-27", "end": "2026-06-23" }
+      ]
     }
   ],
+  "addedDate": "29/03/2026",
   "blueprints1Star": 25,
   "blueprints2Star": 30,
   "blueprints3Star": 35,
