@@ -7,23 +7,27 @@
   "normalizedKey": "bmw_m4_gt4_evo",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Discord", "Tune, Race, Repeat! - YouTube Brawl of the Deep Update video"],
+  "sources": ["Discord", "Tune, Race, Repeat! - YouTube Brawl of the Deep Update video", "Asphalt Fandom Wiki", "A9 Garage", "ASEC", "My own in-game research"],
   "rarity": "Rare",
   "stars": 4,
-  "country": "Germany",
-  "addedDate": "13/10/2026",
+  "country": ["Germany"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Legend Pass (Brawl of the Deep Update)"]
+      "methods": [
+        { "area": "Passes", "section": "Legend Pass", "name": "Brawl of the Deep Season", "start": "2026-10-14", "end": "2026-11-11" }
+      ]
     },
     {
       "status": "current",
-      "methods": ["Legend Pass (Oct 14 - Nov 11, 2026)"]
+      "methods": [
+        { "area": "Passes", "section": "Legend Pass", "name": "2026 Ferrari Season", "start": "2026-11-11", "end": "2026-12-10" }
+      ]
     }
   ],
+  "addedDate": "13/10/2026",
   "blueprints1Star": 15,
-  "blueprints2Star": 0,
-  "blueprints3Star": 0,
-  "blueprints4Star": 0
+  "blueprints2Star": 30,
+  "blueprints3Star": 35,
+  "blueprints4Star": 40
 }

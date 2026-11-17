@@ -1,24 +1,32 @@
 {
   "id": 1,
   "image": "/images/cars/T/Tushek/aeonr.webp",
-  "class": "A",
+  "class": "S",
   "brand": "Tushek",
   "model": "Aeon R",
   "normalizedKey": "tushek_aeon_r",
-  "status": "In Progress",
+  "status": "in progress",
   "message": "Still adding data",
-  "sources": ["Nox Fury Patch Notes Video"],
+  "sources": ["Asphalt Fandom Wiki", "Official patch notes", "A9 Garage", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
-  "country": "Austria",
+  "country": ["Slovenia"],
   "obtainableVia": [
     {
-      "status": "upcoming",
-      "methods": ["Touge Masters Update"]
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Drive Syndicate", "name": "Drive Syndicate 17: Midnight Division (Touge Masters Update - key at 1,000,000 Syndicate Points)", "start": "2026-07-30", "end": "2026-09-16" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Special Events", "section": "Seasonal Revving", "name": "Zenvo Aurora Agil Seasonal Revving (support car; store blueprints to confirm)", "start": "2026-10-14", "end": "2026-11-11" }
+      ]
     }
   ],
-  "addedDate": "",
+  "addedDate": "19/07/2026",
   "blueprints1Star": 0,
   "blueprints2Star": 45,
   "blueprints3Star": 50,

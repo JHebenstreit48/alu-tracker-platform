@@ -6,11 +6,29 @@
   "model": "Aeon E",
   "normalizedKey": "tushek_aeon_e",
   "status": "in progress",
-  "message": "Still missing data",
-  "sources": ["My own in-game research", "Asphalt Fandom Wiki"],
+  "message": "Still adding data",
+  "sources": ["Asphalt Fandom Wiki", "A9 Garage", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "Austria",
+  "country": ["Austria"],
+  "obtainableVia": [
+    {
+      "status": "original",
+      "methods": [
+        { "area": "Special Events", "section": "Special Event", "name": "Tushek Aeon E (Holiday Overdrive Update)", "start": "2026-01-14", "end": "2026-01-28" },
+        { "area": "Passes", "section": "Ultimate Pass", "name": "Speed Resolutions Season (instant reward)", "start": "2026-01-08", "end": "2026-02-03" },
+        { "area": "Passes", "section": "Season Pass", "name": "Speed Resolutions Season Free Pass (Tier 18 - 1 blueprint)", "start": "2026-01-08", "end": "2026-02-03" },
+        { "area": "Passes", "section": "Legend Pass", "name": "Speed Resolutions Season (Tier 18 - 8 blueprints; Tier 19 - Epic Import Part)", "start": "2026-01-08", "end": "2026-02-03" }
+      ]
+    },
+    {
+      "status": "inactive",
+      "methods": [
+        { "area": "Special Events", "section": "Seasonal Revving", "name": "Bugatti Divo Seasonal Revving (support car; store blueprints to confirm)", "start": "2026-02-03", "end": "2026-03-03" }
+      ]
+    }
+  ],
+  "addedDate": "08/12/2025",
   "blueprints1Star": 35,
   "blueprints2Star": 40,
   "blueprints3Star": 45,
