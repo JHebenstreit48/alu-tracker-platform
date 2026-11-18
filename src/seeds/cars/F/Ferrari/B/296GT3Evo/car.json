@@ -6,17 +6,25 @@
   "model": "296 GT3 Evo",
   "normalizedKey": "ferrari_296_gt3_evo",
   "status": "in progress",
-  "message": "No new data yet. Patch notes not yet released.",
-  "sources": ["Discord", "GamingWithAwesome YouTube video"],
+  "message": "Still adding data",
+  "sources": ["Asphalt Fandom Wiki", "A9 Garage", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "Italy",
-  "addedDate": "",
-  "obtainableVia": [],
+  "keyCar": true,
+  "country": ["Italy"],
+  "obtainableVia": [
+    {
+      "status": "current",
+      "methods": [
+        { "area": "Special Events", "section": "Grand Prix", "debut": true, "name": "Ferrari 296 GT3 Evo Grand Prix (key from the final leaderboard; 12 blueprints)", "start": "2026-11-16", "end": "2026-12-03" }
+      ]
+    }
+  ],
+  "addedDate": "13/10/2026",
   "blueprints1Star": 0,
   "blueprints2Star": 35,
-  "blueprints3Star": 0,
-  "blueprints4Star": 0,
-  "blueprints5Star": 0,
-  "blueprints6Star": 0
+  "blueprints3Star": 40,
+  "blueprints4Star": 45,
+  "blueprints5Star": 55,
+  "blueprints6Star": 65
 }
