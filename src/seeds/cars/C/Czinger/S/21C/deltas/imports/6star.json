@@ -1,0 +1,18 @@
+[
+  {
+    "stage": 6,
+    "rarity": "uncommon",
+    "cardsAppliedByStat": {
+      "topSpeed": 0,
+      "acceleration": 0,
+      "handling": 0,
+      "nitro": 0
+    },
+    "statDeltaByStat": {
+      "topSpeed": 0,
+      "acceleration": 0,
+      "handling": 0,
+      "nitro": 0
+    }
+  }
+]
