@@ -7,20 +7,54 @@
   "normalizedKey": "mclaren_sabre",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["Asphalt Fandom Wiki"],
+  "sources": ["Asphalt Fandom Wiki", "Official patch notes", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
-  "country": "United Kingdom",
+  "country": ["United Kingdom"],
   "obtainableVia": [
     {
       "status": "original",
-      "methods": ["Drive Syndicate 10: Fury in the Air"]
+      "methods": [
+        {
+          "area": "Special Events",
+          "section": "Drive Syndicate",
+          "name": "Drive Syndicate 10: Fury in the Air (support car - 40 blueprints at 450,000 and 12 at 629,000 Syndicate Points, plus Syndicate Store; dates pending)"
+        }
+      ]
     },
     {
       "status": "inactive",
-      "methods": ["Star Hunt", "Epic Hunt"]
+      "methods": [
+        {
+          "area": "Daily Events",
+          "section": "Star Hunt",
+          "name": "McLaren Sabre (Korean Spring Update)",
+          "start": "2025-05-09",
+          "end": "2025-05-19"
+        },
+        {
+          "area": "Daily Events",
+          "section": "Epic Hunt",
+          "name": "McLaren Sabre (Korean Spring Update - Epic Import Parts)",
+          "start": "2025-05-18",
+          "end": "2025-05-28"
+        }
+      ]
+    },
+    {
+      "status": "current",
+      "methods": [
+        {
+          "area": "Special Events",
+          "section": "Spotlight",
+          "name": "Black Friday Spotlight (7 blueprints per race finished, up to 5 times, plus other objectives)",
+          "start": "2026-11-23",
+          "end": "2026-12-10"
+        }
+      ]
     }
   ],
+  "addedDate": "08/12/2024",
   "blueprints1Star": 70,
   "blueprints2Star": 23,
   "blueprints3Star": 27,

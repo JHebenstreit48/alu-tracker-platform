@@ -14,9 +14,15 @@
   "country": ["France"],
   "obtainableVia": [
     {
-      "status": "current",
+      "status": "original",
       "methods": [
-        { "area": "Special Events", "section": "Blackcrest", "debut": true, "name": "Main car - key at 30 cleared Decoder panels, plus blueprints in Decoder panels (34 free deployments over the first 17 days, up to 51 with Shards)", "start": "2026-10-27", "end": "2026-11-24" }
+        {
+          "area": "Special Events",
+          "section": "Blackcrest",
+          "name": "Main car - key at 30 cleared Decoder panels, plus blueprints in Decoder panels",
+          "start": "2026-10-27",
+          "end": "2026-11-24"
+        }
       ]
     }
   ],

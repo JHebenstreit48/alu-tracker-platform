@@ -14,13 +14,12 @@
   "country": ["United Kingdom"],
   "obtainableVia": [
     {
-      "status": "current",
+      "status": "original",
       "methods": [
         {
           "area": "Special Events",
           "section": "Blackcrest",
-          "debut": true,
-          "name": "Support car - key at 5 cleared Decoder panels, plus blueprints in Decoder panels (34 free deployments over the first 17 days, up to 51 with Shards)",
+          "name": "Support car - key at 5 cleared Decoder panels, plus blueprints in Decoder panels",
           "start": "2026-10-27",
           "end": "2026-11-24"
         }
