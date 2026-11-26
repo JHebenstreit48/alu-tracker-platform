@@ -7,7 +7,7 @@
   "normalizedKey": "bugatti_bolide",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Asphalt Fandom Wiki", "My own in-game research"],
+  "sources": ["MEI", "Asphalt Fandom Wiki", "Official patch notes", "A9 Garage", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
   "keyCar": true,
@@ -27,9 +27,10 @@
       ]
     },
     {
-      "status": "upcoming",
+      "status": "current",
       "methods": [
-        { "area": "Daily Events", "section": "Burst of Speed", "name": "Bugatti Bolide Burst of Speed", "start": "2026-11-26", "end": "2026-12-17" }
+        { "area": "Special Events", "section": "Special Event", "name": "Bugatti Bolide (Ferrari Season)", "start": "2026-11-26", "end": "2026-12-17" },
+        { "area": "Shop", "section": "Limited Time Packs", "currency": "Tokens", "name": "Bugatti Bolide pack (unlocks at 240 event conditions; price to check)", "start": "2026-11-26", "end": "2026-12-17" }
       ]
     }
   ],

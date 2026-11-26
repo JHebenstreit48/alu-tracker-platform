@@ -7,20 +7,20 @@
   "normalizedKey": "ferrari_849_testarossa",
   "status": "in progress",
   "message": "Still adding data",
-  "sources": ["MEI", "Discord", "A9 Garage", "ASEC", "Nox Fury Patch Notes Video", "My own in-game research"],
+  "sources": ["MEI", "Discord", "A9 Garage", "ASEC", "Nox Fury Patch Notes Video", "Official patch notes", "My own in-game research"],
   "rarity": "Epic",
   "stars": 6,
   "country": ["Italy"],
   "obtainableVia": [
     {
-      "status": "current",
+      "status": "original",
       "methods": [
-        { "area": "Special Events", "section": "Special Event", "debut": true, "name": "Ferrari 849 Testarossa (Ferrari Season)", "start": "2026-11-11", "end": "2026-11-26" },
-        { "area": "Shop", "section": "Limited Time Packs", "currency": "Tokens", "debut": true, "name": "Ferrari 849 Testarossa pack (unlocks at 159 event conditions - 15 or 3 blueprints per drop)", "start": "2026-11-11", "end": "2026-11-26" }
+        { "area": "Special Events", "section": "Special Event", "name": "Ferrari 849 Testarossa (Ferrari Season)", "start": "2026-11-11", "end": "2026-11-26" },
+        { "area": "Shop", "section": "Limited Time Packs", "currency": "Tokens", "name": "Ferrari 849 Testarossa pack (unlocks at 159 event conditions - 15 or 3 blueprints per drop)", "start": "2026-11-11", "end": "2026-11-26" }
       ]
     }
   ],
-  "addedDate": "10/11/2026",
+  "addedDate": "13/10/2026",
   "blueprints1Star": 30,
   "blueprints2Star": 35,
   "blueprints3Star": 40,
